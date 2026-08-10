@@ -15,7 +15,6 @@ export default function FlashcardProgressBadge({ subtopicId, total }: Props) {
     // localStorage isn't available during SSR, so this can only be read after mount -
     // deliberately deferred to avoid a client/server hydration mismatch.
     const progress = getFlashcardProgress(subtopicId);
-    // eslint-disable-next-line react-hooks/set-state-in-effect
     setKnown(Object.values(progress).filter((s) => s === "known").length);
   }, [subtopicId]);
 

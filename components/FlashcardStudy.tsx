@@ -25,7 +25,6 @@ export default function FlashcardStudy({ subtopicId, subtopicName, backHref, car
   useEffect(() => {
     // localStorage isn't available during SSR, so this can only be read after mount -
     // deliberately deferred to avoid a client/server hydration mismatch.
-    // eslint-disable-next-line react-hooks/set-state-in-effect
     setProgress(getFlashcardProgress(subtopicId));
   }, [subtopicId]);
 
