@@ -1,0 +1,26 @@
+[
+  {
+    "id": "cv-q1",
+    "questionNumber": "Q1",
+    "question": "[PLACEHOLDER] Explain the term 'venous return' and describe two mechanisms that assist it during exercise.",
+    "marks": 4,
+    "markScheme": "[PLACEHOLDER]\n1 mark: Venous return is the volume of blood returned to the right atrium per minute.\n1 mark: Skeletal muscle pump - contracting muscles squeeze veins, pushing blood towards the heart.\n1 mark: Respiratory pump - pressure changes in the thorax during breathing help draw blood back to the heart.\n1 mark: Pocket valves - prevent backflow of blood, ensuring one-directional flow.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q2",
+    "questionNumber": "Q2",
+    "question": "[PLACEHOLDER] Which of the following best describes the Frank-Starling mechanism?",
+    "marks": 1,
+    "markScheme": "[PLACEHOLDER] Correct answer: B - Increased venous return stretches the ventricle walls, causing a more forceful contraction.",
+    "subtopicId": "cardiovascular",
+    "isMultipleChoice": true,
+    "options": [
+      "A - Increased heart rate always leads to increased stroke volume",
+      "B - Increased venous return stretches the ventricle walls, causing a more forceful contraction",
+      "C - Blood pressure decreases as exercise intensity increases",
+      "D - Cardiac output remains constant regardless of exercise intensity"
+    ],
+    "correctOption": "B - Increased venous return stretches the ventricle walls, causing a more forceful contraction"
+  }
+]

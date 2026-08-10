@@ -1,0 +1,20 @@
+[
+  {
+    "id": "cv-001",
+    "front": "[PLACEHOLDER] What is cardiac output?",
+    "back": "[PLACEHOLDER] The volume of blood pumped by the heart (one ventricle) in one minute. Cardiac Output = Stroke Volume x Heart Rate.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-002",
+    "front": "[PLACEHOLDER] Define stroke volume.",
+    "back": "[PLACEHOLDER] The volume of blood ejected from the ventricle per heartbeat.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-003",
+    "front": "[PLACEHOLDER] What is the vascular shunt mechanism?",
+    "back": "[PLACEHOLDER] The redistribution of blood flow during exercise, directing more blood to working muscles and less to non-essential organs, controlled by vasodilation and vasoconstriction.",
+    "subtopicId": "cardiovascular"
+  }
+]

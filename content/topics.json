@@ -1,0 +1,10 @@
+[
+  { "id": "applied-anatomy", "slug": "applied-anatomy", "name": "Applied Anatomy & Physiology", "paperId": "paper-1" },
+  { "id": "skill-acquisition", "slug": "skill-acquisition", "name": "Skill Acquisition", "paperId": "paper-1" },
+  { "id": "sport-and-society", "slug": "sport-and-society", "name": "Sport & Society", "paperId": "paper-1" },
+
+  { "id": "exercise-physiology", "slug": "exercise-physiology", "name": "Exercise Physiology", "paperId": "paper-2" },
+  { "id": "biomechanical-movement", "slug": "biomechanical-movement", "name": "Biomechanical Movement", "paperId": "paper-2" },
+  { "id": "sport-psychology", "slug": "sport-psychology", "name": "Sport Psychology", "paperId": "paper-2" },
+  { "id": "sport-society-technology", "slug": "sport-society-technology", "name": "Sport & Society + Technology in Sport", "paperId": "paper-2" }
+]
