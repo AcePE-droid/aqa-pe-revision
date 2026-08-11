@@ -12,6 +12,12 @@ export type SubjectStyle = {
   lightBg: string;
   hoverBorder: string;
   hoverBg: string;
+  // Stronger hover border cue than `hoverBorder`, for the study-mode
+  // flashcard specifically (it's the sole focal point of that screen, so it
+  // warrants a more visible signal than the -300 shade used on regular
+  // cards). Stored pre-fixed with `group-hover:` since that's the only place
+  // this field is used.
+  hoverBorderStrong: string;
 };
 
 const DEFAULT_STYLE: SubjectStyle = {
@@ -20,6 +26,7 @@ const DEFAULT_STYLE: SubjectStyle = {
   lightBg: "bg-blue-50",
   hoverBorder: "hover:border-blue-300",
   hoverBg: "hover:bg-slate-50",
+  hoverBorderStrong: "group-hover:border-blue-400",
 };
 
 // Keyed by subject slug (matches `getSubjects()` in lib/content.ts, i.e.
@@ -31,6 +38,7 @@ export const subjectStyles: Record<string, SubjectStyle> = {
     lightBg: "bg-rose-50",
     hoverBorder: "hover:border-rose-300",
     hoverBg: "hover:bg-rose-50/60",
+    hoverBorderStrong: "group-hover:border-rose-400",
   },
   "sports-psychology": {
     icon: "text-violet-700",
@@ -38,6 +46,7 @@ export const subjectStyles: Record<string, SubjectStyle> = {
     lightBg: "bg-violet-50",
     hoverBorder: "hover:border-violet-300",
     hoverBg: "hover:bg-violet-50/60",
+    hoverBorderStrong: "group-hover:border-violet-400",
   },
   "sport-society-history": {
     icon: "text-amber-700",
@@ -45,6 +54,7 @@ export const subjectStyles: Record<string, SubjectStyle> = {
     lightBg: "bg-amber-50",
     hoverBorder: "hover:border-amber-300",
     hoverBg: "hover:bg-amber-50/60",
+    hoverBorderStrong: "group-hover:border-amber-400",
   },
 };
 

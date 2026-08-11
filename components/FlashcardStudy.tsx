@@ -53,7 +53,8 @@ export default function FlashcardStudy({
   }
 
   const breadcrumb = [topicName, subtopicName, groupLabel].filter(Boolean).join(" · ");
-  const breadcrumbColor = getSubjectStyle(subjectSlug).icon;
+  const subjectStyle = getSubjectStyle(subjectSlug);
+  const breadcrumbColor = subjectStyle.icon;
 
   return (
     <div className="fixed inset-0 z-50 flex flex-col bg-white [background-image:radial-gradient(circle,rgba(100,116,139,0.09)_1.25px,transparent_1.25px)] [background-size:28px_28px] [background-position:center]">
@@ -81,7 +82,7 @@ export default function FlashcardStudy({
               flipped ? "[transform:rotateY(180deg)]" : ""
             }`}
           >
-            <div className="absolute inset-0 flex flex-col items-center justify-center rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-lg transition-colors [backface-visibility:hidden] group-hover:border-blue-300 sm:p-12">
+            <div className={`absolute inset-0 flex flex-col items-center justify-center rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-lg transition-colors [backface-visibility:hidden] ${subjectStyle.hoverBorderStrong} sm:p-12`}>
               <p className="text-2xl font-medium leading-relaxed text-slate-900 sm:text-3xl">
                 {card.front}
               </p>
@@ -89,7 +90,7 @@ export default function FlashcardStudy({
                 Tap to flip
               </p>
             </div>
-            <div className="absolute inset-0 flex flex-col items-center justify-center rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-lg transition-colors [backface-visibility:hidden] [transform:rotateY(180deg)] group-hover:border-blue-300 sm:p-12">
+            <div className={`absolute inset-0 flex flex-col items-center justify-center rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-lg transition-colors [backface-visibility:hidden] [transform:rotateY(180deg)] ${subjectStyle.hoverBorderStrong} sm:p-12`}>
               <p className="text-2xl font-medium leading-relaxed text-slate-900 sm:text-3xl">
                 {card.back}
               </p>
