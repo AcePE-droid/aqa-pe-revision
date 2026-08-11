@@ -4,19 +4,29 @@ import { useState } from "react";
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import type { Question } from "@/types/content";
+import type { Flashcard, Question } from "@/types/content";
+import { slugify } from "@/lib/slug";
 
 type Props = {
   basePath: string; // e.g. "/paper-1/applied-anatomy/cardiovascular"
   notesMarkdown: string | null;
-  flashcardCount: number;
+  flashcards: Flashcard[];
   questions: Question[];
 };
 
 type Tab = "notes" | "flashcards" | "questions";
 
-export default function SubtopicTabs({ basePath, notesMarkdown, flashcardCount, questions }: Props) {
+export default function SubtopicTabs({ basePath, notesMarkdown, flashcards, questions }: Props) {
   const [tab, setTab] = useState<Tab>("notes");
+
+  const groups = new Map<string, { label: string; count: number }>();
+  for (const card of flashcards) {
+    const label = card.group?.trim() || "General";
+    const key = slugify(label);
+    const existing = groups.get(key);
+    groups.set(key, { label, count: (existing?.count ?? 0) + 1 });
+  }
+  const groupList = Array.from(groups.entries()).sort((a, b) => a[1].label.localeCompare(b[1].label));
 
   const tabs: { id: Tab; label: string }[] = [
     { id: "notes", label: "Notes" },
@@ -53,15 +63,34 @@ export default function SubtopicTabs({ basePath, notesMarkdown, flashcardCount, 
           ))}
 
         {tab === "flashcards" &&
-          (flashcardCount > 0 ? (
+          (flashcards.length > 0 ? (
             <div>
-              <p className="text-slate-600">{flashcardCount} flashcards ready to study.</p>
+              <p className="text-slate-600">{flashcards.length} flashcards ready to study.</p>
               <Link
                 href={`${basePath}/flashcards`}
                 className="mt-4 inline-flex items-center justify-center rounded-md bg-blue-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-blue-700"
               >
-                Start Studying
+                Study All
               </Link>
+
+              {groupList.length > 1 && (
+                <div className="mt-6">
+                  <p className="text-sm font-medium text-slate-500">Or study by group:</p>
+                  <ul className="mt-3 flex flex-col gap-2">
+                    {groupList.map(([key, { label, count }]) => (
+                      <li key={key}>
+                        <Link
+                          href={`${basePath}/flashcards?group=${key}`}
+                          className="flex items-center justify-between rounded-lg border border-slate-200 px-4 py-3 hover:border-blue-300 hover:bg-blue-50/50"
+                        >
+                          <span className="text-sm font-medium text-slate-900">{label}</span>
+                          <span className="text-xs text-slate-500">{count} card{count === 1 ? "" : "s"}</span>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </div>
           ) : (
             <p className="text-slate-500">No flashcards for this subtopic yet.</p>

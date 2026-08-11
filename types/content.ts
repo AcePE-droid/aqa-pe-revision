@@ -12,6 +12,7 @@ export type Topic = {
   id: string; // e.g. "applied-anatomy"
   slug: string; // used in URLs, matches folder name under /content
   name: string; // e.g. "Applied Anatomy & Physiology"
+  subject: string; // spec "Subject" grouping, e.g. "Anatomy & Physiology" - display-only, used to group Topics on the Paper page
   paperId: string; // references Paper.id
 };
 
@@ -27,6 +28,7 @@ export type Flashcard = {
   front: string;
   back: string;
   subtopicId: string;
+  group?: string; // finer-grained spec "Subtopic" label (e.g. "Receptors"), used to group/filter cards within a subtopic's deck
 };
 
 export type Question = {

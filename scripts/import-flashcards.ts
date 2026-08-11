@@ -3,10 +3,13 @@
  * /content/flashcards/[paper]/[topic]/[subtopic].json.
  *
  * Expected CSV columns (header row required):
- *   Subject, Exam Board, Qualification, Paper, Topic, Sub-topic, Question, Answer
+ *   Subject, Paper, Section, Topic, Subtopic, Question, Answer
  *
- * Only "Sub-topic", "Question", and "Answer" are actually used - the subtopic name
- * is matched against content/subtopics.json to work out where the file goes.
+ * "Topic" is matched against content/subtopics.json (the site's "Subtopic" entity,
+ * which is deliberately broader than the spec's finest level) to work out where the
+ * file goes. "Subtopic" (the finest spec-level grouping, e.g. "Receptors") is stored
+ * on each card as its `group`, used to filter/group cards within that subtopic's deck.
+ * For backwards compatibility, "Sub-topic" is also accepted as an alias for "Topic".
  *
  * Safe to run repeatedly: rows whose Question text already exists in that
  * subtopic's JSON file are skipped, so re-running after adding new rows to the
@@ -22,7 +25,9 @@ import type { Flashcard } from "../types/content";
 import { resolveSubtopicByName, contentFilePath } from "./lib/taxonomy";
 
 type CsvRow = {
+  Topic?: string;
   "Sub-topic"?: string;
+  Subtopic?: string;
   Question?: string;
   Answer?: string;
 };
@@ -54,9 +59,9 @@ function main() {
   const errors: string[] = [];
 
   for (const [i, row] of parsed.data.entries()) {
-    const subtopicName = row["Sub-topic"]?.trim();
+    const subtopicName = (row.Topic ?? row["Sub-topic"])?.trim();
     if (!subtopicName) {
-      errors.push(`Row ${i + 2}: missing "Sub-topic" - skipped.`);
+      errors.push(`Row ${i + 2}: missing "Topic" - skipped.`);
       continue;
     }
     if (!rowsBySubtopic.has(subtopicName)) rowsBySubtopic.set(subtopicName, []);
@@ -99,7 +104,8 @@ function main() {
 
       const id = `${subtopic.slug}-${String(nextNum).padStart(3, "0")}`;
       nextNum++;
-      existing.push({ id, front, back, subtopicId: subtopic.id });
+      const group = row.Subtopic?.trim() || undefined;
+      existing.push({ id, front, back, subtopicId: subtopic.id, ...(group ? { group } : {}) });
       existingFronts.add(normalize(front));
       imported++;
     }
