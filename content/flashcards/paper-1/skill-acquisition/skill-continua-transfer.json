@@ -1,0 +1,163 @@
+[
+  {
+    "id": "skill-continua-transfer-001",
+    "front": "What is a skill?",
+    "back": "The learned ability to bring about predetermined results with the minimum outlay of time, energy or both.",
+    "subtopicId": "skill-continua-transfer",
+    "group": "Characteristics of skills"
+  },
+  {
+    "id": "skill-continua-transfer-002",
+    "front": "What is an ability?",
+    "back": "A quality or trait that an individual is born with and has not learned.",
+    "subtopicId": "skill-continua-transfer",
+    "group": "Characteristics of skills"
+  },
+  {
+    "id": "skill-continua-transfer-003",
+    "front": "What are the skill characteristics (ACE FACE)?",
+    "back": "A - Aesthetically pleasing; C - Consistent; E - Efficient; F - Fluent; A - Accurate; C - Controlled; E - Economical.",
+    "subtopicId": "skill-continua-transfer",
+    "group": "Characteristics of skills"
+  },
+  {
+    "id": "skill-continua-transfer-004",
+    "front": "What are the qualities of a skill?",
+    "back": "Goal-directed (it has an aim); Aesthetically pleasing; Learned through practice; Fluent; Uses the minimum amount of time and energy.",
+    "subtopicId": "skill-continua-transfer",
+    "group": "Characteristics of skills"
+  },
+  {
+    "id": "skill-continua-transfer-005",
+    "front": "What is an open skill? Give an example.",
+    "back": "A skill performed in an unpredictable environment where performers must adapt to changing conditions; e.g. sailing.",
+    "subtopicId": "skill-continua-transfer",
+    "group": "Characteristics of skills"
+  },
+  {
+    "id": "skill-continua-transfer-006",
+    "front": "What is a closed skill? Give an example.",
+    "back": "A skill performed in a stable and predictable environment where the performer has control over the movement; e.g. taking a penalty.",
+    "subtopicId": "skill-continua-transfer",
+    "group": "Characteristics of skills"
+  },
+  {
+    "id": "skill-continua-transfer-007",
+    "front": "What is a gross skill? Give an example.",
+    "back": "A skill that predominantly involves large muscle groups; e.g. a rugby tackle.",
+    "subtopicId": "skill-continua-transfer",
+    "group": "Characteristics of skills"
+  },
+  {
+    "id": "skill-continua-transfer-008",
+    "front": "What is a fine skill? Give an example.",
+    "back": "A skill that predominantly involves small muscle groups and precise movements; e.g. darts.",
+    "subtopicId": "skill-continua-transfer",
+    "group": "Characteristics of skills"
+  },
+  {
+    "id": "skill-continua-transfer-009",
+    "front": "What is a self-paced skill? Give an example.",
+    "back": "A skill where the performer controls the timing and speed of the movement; e.g. taking a penalty.",
+    "subtopicId": "skill-continua-transfer",
+    "group": "Characteristics of skills"
+  },
+  {
+    "id": "skill-continua-transfer-010",
+    "front": "What is an externally paced skill? Give an example.",
+    "back": "A skill where the timing and speed of the movement are controlled by external factors; e.g. returning a serve in tennis.",
+    "subtopicId": "skill-continua-transfer",
+    "group": "Characteristics of skills"
+  },
+  {
+    "id": "skill-continua-transfer-011",
+    "front": "What is a discrete skill? Give an example.",
+    "back": "A skill with a clear beginning and end consisting of one distinct movement; e.g. a tennis serve.",
+    "subtopicId": "skill-continua-transfer",
+    "group": "Characteristics of skills"
+  },
+  {
+    "id": "skill-continua-transfer-012",
+    "front": "What is a continuous skill? Give an example.",
+    "back": "A skill with no clear beginning or end, where the movement is repeated continuously; e.g. cycling or swimming.",
+    "subtopicId": "skill-continua-transfer",
+    "group": "Characteristics of skills"
+  },
+  {
+    "id": "skill-continua-transfer-013",
+    "front": "What is a serial skill? Give an example.",
+    "back": "A skill made up of a sequence of discrete skills performed in a specific order; e.g. a trampoline routine.",
+    "subtopicId": "skill-continua-transfer",
+    "group": "Characteristics of skills"
+  },
+  {
+    "id": "skill-continua-transfer-014",
+    "front": "What is a low organisation skill? Give an example.",
+    "back": "A skill that can easily be broken down into smaller parts for practice; e.g. a swimming stroke.",
+    "subtopicId": "skill-continua-transfer",
+    "group": "Characteristics of skills"
+  },
+  {
+    "id": "skill-continua-transfer-015",
+    "front": "What is a high organisation skill? Give an example.",
+    "back": "A skill that cannot easily be broken down into smaller parts because the movement must be performed as a whole; e.g. a volley in football.",
+    "subtopicId": "skill-continua-transfer",
+    "group": "Characteristics of skills"
+  },
+  {
+    "id": "skill-continua-transfer-016",
+    "front": "What is a simple skill? Give an example.",
+    "back": "A skill that requires little information processing, few decisions and minimal attention; e.g. a forward roll in gymnastics.",
+    "subtopicId": "skill-continua-transfer",
+    "group": "Characteristics of skills"
+  },
+  {
+    "id": "skill-continua-transfer-017",
+    "front": "What is a complex skill? Give an example.",
+    "back": "A skill that requires significant information processing, decision-making and attention due to its difficulty; e.g. dribbling in hockey.",
+    "subtopicId": "skill-continua-transfer",
+    "group": "Characteristics of skills"
+  },
+  {
+    "id": "skill-continua-transfer-018",
+    "front": "What is transfer of learning?",
+    "back": "The effect that the learning and performance of one skill has on the learning and performance of another skill.",
+    "subtopicId": "skill-continua-transfer",
+    "group": "Transfer of skills"
+  },
+  {
+    "id": "skill-continua-transfer-019",
+    "front": "What is positive transfer?",
+    "back": "When the learning of one skill enhances the learning or performance of another skill; e.g. the basketball chest pass and the netball chest pass.",
+    "subtopicId": "skill-continua-transfer",
+    "group": "Transfer of skills"
+  },
+  {
+    "id": "skill-continua-transfer-020",
+    "front": "How can positive transfer be encouraged?",
+    "back": "By making training as realistic as possible and ensuring basic skills are mastered before progressing to more advanced skills.",
+    "subtopicId": "skill-continua-transfer",
+    "group": "Transfer of skills"
+  },
+  {
+    "id": "skill-continua-transfer-021",
+    "front": "What is negative transfer?",
+    "back": "When the learning of one skill hinders the learning or performance of another skill; e.g. badminton and tennis.",
+    "subtopicId": "skill-continua-transfer",
+    "group": "Transfer of skills"
+  },
+  {
+    "id": "skill-continua-transfer-022",
+    "front": "What is zero transfer?",
+    "back": "When the learning of one skill has no effect on the learning or performance of another skill; e.g. swimming arm action and foot placement in rock climbing.",
+    "subtopicId": "skill-continua-transfer",
+    "group": "Transfer of skills"
+  },
+  {
+    "id": "skill-continua-transfer-023",
+    "front": "What is bilateral transfer?",
+    "back": "When the learning of a skill transfers from one side of the body to the other; e.g. a right-footed footballer developing the ability to use their left foot when required.",
+    "subtopicId": "skill-continua-transfer",
+    "group": "Transfer of skills"
+  }
+]

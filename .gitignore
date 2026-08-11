@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# raw content import working files (source spreadsheet exports, not site content)
+/content/imports/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

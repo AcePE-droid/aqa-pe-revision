@@ -1,0 +1,198 @@
+[
+  {
+    "id": "skill-classification-practice-001",
+    "front": "What is whole practice and when is it used?",
+    "back": "Practising the skill in its entirety; used when the skill is fast, closed, discrete, simple, self-paced and highly organised.",
+    "subtopicId": "skill-classification-practice",
+    "group": "Methods of presenting practice"
+  },
+  {
+    "id": "skill-classification-practice-002",
+    "front": "What are the advantages of whole practice?",
+    "back": "-Develops kinaesthesis. -Maintains the links between sub-routines.",
+    "subtopicId": "skill-classification-practice",
+    "group": "Methods of presenting practice"
+  },
+  {
+    "id": "skill-classification-practice-003",
+    "front": "What are the disadvantages of whole practice?",
+    "back": "-Can involve too much information. -May be beyond the capabilities of the performer. -Not suitable for beginners. -Fatigue can increase the risk of injury.",
+    "subtopicId": "skill-classification-practice",
+    "group": "Methods of presenting practice"
+  },
+  {
+    "id": "skill-classification-practice-004",
+    "front": "What is whole-part-whole practice and when is it used?",
+    "back": "The skill is practised as a whole, then broken down into sub-routines, before being practised as a whole again; used when the skill is complex, fast (ballistic), difficult to break down into parts, but the performer has a specific weakness.",
+    "subtopicId": "skill-classification-practice",
+    "group": "Methods of presenting practice"
+  },
+  {
+    "id": "skill-classification-practice-005",
+    "front": "What are the advantages of whole-part-whole practice?",
+    "back": "-Identifies specific weaknesses. -Allows weaknesses to be corrected. -Provides immediate feedback.",
+    "subtopicId": "skill-classification-practice",
+    "group": "Methods of presenting practice"
+  },
+  {
+    "id": "skill-classification-practice-006",
+    "front": "What are the disadvantages of whole-part-whole practice?",
+    "back": "-Time consuming. -Some skills cannot be broken down into parts. -Can lead to negative transfer.",
+    "subtopicId": "skill-classification-practice",
+    "group": "Methods of presenting practice"
+  },
+  {
+    "id": "skill-classification-practice-007",
+    "front": "What is progressive-part practice and when is it used?",
+    "back": "The first part of the skill is practised before progressively adding the remaining parts; used when the skill is complex, serial, externally paced and low organised.",
+    "subtopicId": "skill-classification-practice",
+    "group": "Methods of presenting practice"
+  },
+  {
+    "id": "skill-classification-practice-008",
+    "front": "What are the advantages of progressive-part practice?",
+    "back": "-Maintains the links between parts. -Success at each stage provides motivation. -Reduces danger. -Reduces fatigue. -Reduces the demands of the skill. -Allows focus on weaknesses.",
+    "subtopicId": "skill-classification-practice",
+    "group": "Methods of presenting practice"
+  },
+  {
+    "id": "skill-classification-practice-009",
+    "front": "What are the disadvantages of progressive-part practice?",
+    "back": "-Time consuming. -If the first part is learnt incorrectly, errors can carry through the rest of the skill. -Can lead to negative transfer.",
+    "subtopicId": "skill-classification-practice",
+    "group": "Methods of presenting practice"
+  },
+  {
+    "id": "skill-classification-practice-010",
+    "front": "What is massed practice? Give a sporting example.",
+    "back": "When a skill is practised continuously without a rest interval; e.g. a badminton rally where the learner repeatedly performs drop shots.",
+    "subtopicId": "skill-classification-practice",
+    "group": "Types of practice"
+  },
+  {
+    "id": "skill-classification-practice-011",
+    "front": "When is massed practice used?",
+    "back": "When the skill is discrete, simple, closed, highly organised and self-paced.",
+    "subtopicId": "skill-classification-practice",
+    "group": "Types of practice"
+  },
+  {
+    "id": "skill-classification-practice-012",
+    "front": "What are the advantages of massed practice?",
+    "back": "-Develops motor programmes. -Improves fitness. -Enhances overlearning. -Good for developing habitual responses. -Time-efficient.",
+    "subtopicId": "skill-classification-practice",
+    "group": "Types of practice"
+  },
+  {
+    "id": "skill-classification-practice-013",
+    "front": "What are the disadvantages of massed practice?",
+    "back": "-Limited opportunity for feedback. -Fatigue. -Can be too physically and mentally demanding.",
+    "subtopicId": "skill-classification-practice",
+    "group": "Types of practice"
+  },
+  {
+    "id": "skill-classification-practice-014",
+    "front": "What is distributed practice? Give a sporting example.",
+    "back": "When rest intervals are included during the practice session; e.g. completing a shooting drill for 3 minutes before receiving coach feedback and returning to practice.",
+    "subtopicId": "skill-classification-practice",
+    "group": "Types of practice"
+  },
+  {
+    "id": "skill-classification-practice-015",
+    "front": "When is distributed practice used?",
+    "back": "When the skill is continuous, complex, low organised, serial and externally paced.",
+    "subtopicId": "skill-classification-practice",
+    "group": "Types of practice"
+  },
+  {
+    "id": "skill-classification-practice-016",
+    "front": "What are the advantages of distributed practice?",
+    "back": "-Rest periods can be used for mental rehearsal. -Useful for physically demanding skills. -Useful when there is an element of danger. -Allows recovery.",
+    "subtopicId": "skill-classification-practice",
+    "group": "Types of practice"
+  },
+  {
+    "id": "skill-classification-practice-017",
+    "front": "What are the disadvantages of distributed practice?",
+    "back": "-Time-consuming. -Can lead to negative transfer.",
+    "subtopicId": "skill-classification-practice",
+    "group": "Types of practice"
+  },
+  {
+    "id": "skill-classification-practice-018",
+    "front": "What is varied practice? Give a sporting example.",
+    "back": "When different practice methods and drills are used; e.g. a netball shooting drill where the coach changes the starting position, defenders and feeder to prepare for game situations.",
+    "subtopicId": "skill-classification-practice",
+    "group": "Types of practice"
+  },
+  {
+    "id": "skill-classification-practice-019",
+    "front": "When is varied practice used?",
+    "back": "When the skill is complex, open and externally paced.",
+    "subtopicId": "skill-classification-practice",
+    "group": "Types of practice"
+  },
+  {
+    "id": "skill-classification-practice-020",
+    "front": "What are the advantages of varied practice?",
+    "back": "-Develops a schema. -Increases motivation. -Improves adaptability.",
+    "subtopicId": "skill-classification-practice",
+    "group": "Types of practice"
+  },
+  {
+    "id": "skill-classification-practice-021",
+    "front": "What are the disadvantages of varied practice?",
+    "back": "-Time-consuming. -Can lead to negative transfer. -Fatigue. -Can be too demanding.",
+    "subtopicId": "skill-classification-practice",
+    "group": "Types of practice"
+  },
+  {
+    "id": "skill-classification-practice-022",
+    "front": "What is mental practice? Give a sporting example.",
+    "back": "When the performer rehearses the skill mentally without physically performing it; e.g. a gymnast visualising themselves completing a routine.",
+    "subtopicId": "skill-classification-practice",
+    "group": "Types of practice"
+  },
+  {
+    "id": "skill-classification-practice-023",
+    "front": "What are the two types of mental practice?",
+    "back": "Internal; External.",
+    "subtopicId": "skill-classification-practice",
+    "group": "Types of practice"
+  },
+  {
+    "id": "skill-classification-practice-024",
+    "front": "What is internal mental practice?",
+    "back": "The performer imagines performing the skill from their own perspective, focusing on the feel of the movement.",
+    "subtopicId": "skill-classification-practice",
+    "group": "Types of practice"
+  },
+  {
+    "id": "skill-classification-practice-025",
+    "front": "What is external mental practice?",
+    "back": "The performer imagines performing the skill from an external perspective, as if watching themselves on television.",
+    "subtopicId": "skill-classification-practice",
+    "group": "Types of practice"
+  },
+  {
+    "id": "skill-classification-practice-026",
+    "front": "When is mental practice used?",
+    "back": "When the skill is serial and complex; used by both novice and expert performers.",
+    "subtopicId": "skill-classification-practice",
+    "group": "Types of practice"
+  },
+  {
+    "id": "skill-classification-practice-027",
+    "front": "What are the advantages of mental practice?",
+    "back": "-Improves reaction time. -Develops motor programmes. -Builds confidence. -Helps control anxiety.",
+    "subtopicId": "skill-classification-practice",
+    "group": "Types of practice"
+  },
+  {
+    "id": "skill-classification-practice-028",
+    "front": "What are the disadvantages of mental practice?",
+    "back": "-Must be performed correctly. -Requires a calm environment.",
+    "subtopicId": "skill-classification-practice",
+    "group": "Types of practice"
+  }
+]

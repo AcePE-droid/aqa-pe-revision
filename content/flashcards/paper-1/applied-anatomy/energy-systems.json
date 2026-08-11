@@ -1,0 +1,1745 @@
+[
+  {
+    "id": "energy-systems-001",
+    "front": "What are the three energy systems?",
+    "back": "I. The aerobic system 2. The ATP-PC system 3. The anaerobic glycolytic system.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-002",
+    "front": "What determines which energy system the body uses during exercise?",
+    "back": "The intensity and duration of the exercise",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-003",
+    "front": "Which energy systems are used during high-intensity activity?",
+    "back": "Anaerobic energy systems — specifically the ATP-PC system and the anaerobic glycolytic system.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-004",
+    "front": "When is the aerobic system predominantly used?",
+    "back": "During low-intensity",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-005",
+    "front": "What is the only usable form of chemical energy in the body?",
+    "back": "ATP is the only usable form of chemical energy in the body.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-006",
+    "front": "How is energy from food used to form ATP?",
+    "back": "Food is broken down to release energy",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-007",
+    "front": "What is ATP made up of?",
+    "back": "One molecule of adenosine and three phosphate groups.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-008",
+    "front": "How is energy released from ATP?",
+    "back": "Energy is released by breaking the bonds that hold the ATP compound together.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-009",
+    "front": "What enzyme is used to break down ATP and what does it form?",
+    "back": "ATPase breaks down ATP into ADP (adenosine diphosphate) and an inorganic phosphate (Pi)",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-010",
+    "front": "Why does the body need to constantly rebuild ATP?",
+    "back": "Because ATP is broken down to release energy",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-011",
+    "front": "How can ATP be re-synthesised in the body?",
+    "back": "Through three different types of chemical reactions that occur in the muscles.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-012",
+    "front": "What fuels the resynthesis of ATP in the muscles?",
+    "back": "Either food or a chemical called phosphocreatine (PC)",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-013",
+    "front": "What type of exercise does the aerobic system support?",
+    "back": "Low-intensity",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-014",
+    "front": "What does the aerobic system break glucose down into?",
+    "back": "Carbon dioxide and water.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-015",
+    "front": "How efficient is the aerobic system when oxygen is present?",
+    "back": "It is very efficient and can produce a high yield of ATP.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-016",
+    "front": "How many molecules of ATP can be produced from the complete oxidation of one glucose molecule?",
+    "back": "Up to 38 molecules of ATP.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-017",
+    "front": "Besides glucose",
+    "back": "what other fuels can the aerobic system use?",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-018",
+    "front": "What is produced when fats and proteins are broken down in the aerobic system?",
+    "back": "Acetyl coenzyme A.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-019",
+    "front": "What is the role of acetyl coenzyme A in the aerobic system?",
+    "back": "It enters the Krebs Cycle",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-020",
+    "front": "What are the three stages to the aerobic system?",
+    "back": "I.Glycolysis 2.Krebs cycle 3.Electron transport chain",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-021",
+    "front": "Where does glycolysis take place?",
+    "back": "In the sarcoplasm of the muscle cell.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-022",
+    "front": "In which types of respiration does glycolysis occur?",
+    "back": "Glycolysis occurs in both aerobic and anaerobic respiration.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-023",
+    "front": "What is the current focus of glycolysis in the aerobic system?",
+    "back": "Its role when oxygen is readily available.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-024",
+    "front": "What fuels can glycolysis use?",
+    "back": "Glycogen/glucose",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-025",
+    "front": "How many molecules of ATP are produced by glycolysis?",
+    "back": "2 molecules of ATP.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-026",
+    "front": "What is the role of the Link Reaction in aerobic respiration?",
+    "back": "It transfers energy from glycolysis to the Krebs Cycle but is not considered a formal stage of aerobic respiration.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-027",
+    "front": "What are the products at the end of glycolysis?",
+    "back": "2 molecules of ATP and pyruvic acid.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-028",
+    "front": "What happens to pyruvic acid before entering the Krebs Cycle?",
+    "back": "It is oxidised into two acetyl groups.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-029",
+    "front": "How are the acetyl groups transported into the Krebs Cycle?",
+    "back": "They are carried by coenzyme A",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-030",
+    "front": "Where does the krebs cycle take place?",
+    "back": "In the matrix of the mitochondria",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-031",
+    "front": "Where do the two acetyl groups go after the Link Reaction?",
+    "back": "They diffuse into the matrix of the mitochondria.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-032",
+    "front": "What do the acetyl groups combine with in the Krebs Cycle?",
+    "back": "Oxaloacetic acid.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-033",
+    "front": "What compound is formed when acetyl groups combine with oxaloacetic acid?",
+    "back": "Citric acid.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-034",
+    "front": "What happens to citric acid during the Krebs Cycle?",
+    "back": "Hydrogen is removed from the citric acid.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-035",
+    "front": "How many ATP molecules are produced during the Krebs Cycle?",
+    "back": "2 ATP molecules.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-036",
+    "front": "Where is the hydrogen from the Krebs Cycle transported to?",
+    "back": "It is taken to the electron transport chain.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-037",
+    "front": "What happens to the carbon released during the Krebs Cycle?",
+    "back": "It forms carbon dioxide",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-038",
+    "front": "What carries hydrogen into the Electron Transport Chain (ETC)?",
+    "back": "Hydrogen carriers transport hydrogen into the ETC.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-039",
+    "front": "Where does the Electron Transport Chain occur?",
+    "back": "In the cristae of the mitochondria.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-040",
+    "front": "What happens to hydrogen in the ETC?",
+    "back": "It splits into hydrogen ions and electrons",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-041",
+    "front": "What happens to hydrogen ions in the ETC?",
+    "back": "They are oxidised to form water",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-042",
+    "front": "What role do hydrogen electrons play in the ETC?",
+    "back": "They provide the energy needed to re-synthesise ATP.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-043",
+    "front": "How many ATP molecules are produced during the Electron Transport Chain?",
+    "back": "34 molecules of ATP.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-044",
+    "front": "What is the total yield of ATP?",
+    "back": "38 molecules of ATP",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-045",
+    "front": "What is a key advantage of the aerobic system in terms of ATP yield?",
+    "back": "It produces a high yield — up to 38 molecules of ATP from one molecule of glucose.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-046",
+    "front": "Why is the aerobic system considered efficient in terms of by-products?",
+    "back": "It produces no fatiguing by-products.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-047",
+    "front": "Why can the aerobic system support long-duration exercise?",
+    "back": "The body has large stores of glycogen and triglycerides",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-048",
+    "front": "What is a major disadvantage of the aerobic system in terms of activation time?",
+    "back": "It is a complicated system that cannot be used immediately; it takes time for oxygen to become available.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-049",
+    "front": "Why is the breakdown of fatty acids less efficient than glycogen in the aerobic system?",
+    "back": "Fatty acid transport to muscles is slower and requires 15% more oxygen to break down than glycogen.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system"
+  },
+  {
+    "id": "energy-systems-050",
+    "front": "Besides carbohydrates, what other macronutrients can be used to make energy?",
+    "back": "Fat and protein (though you only need to know the basic fact about protein, not how it's used).",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system /beta oxidisation"
+  },
+  {
+    "id": "energy-systems-051",
+    "front": "How is stored fat broken down for transport in the blood?",
+    "back": "It is broken down into glycerol and free fatty acids.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system /beta oxidisation"
+  },
+  {
+    "id": "energy-systems-052",
+    "front": "What is beta oxidation?",
+    "back": "A process where fatty acids are converted into acetyl coenzyme A.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system /beta oxidisation"
+  },
+  {
+    "id": "energy-systems-053",
+    "front": "What happens to acetyl coenzyme A from fat metabolism?",
+    "back": "It enters the Krebs Cycle, following the same pathway as glycogen metabolism.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system /beta oxidisation"
+  },
+  {
+    "id": "energy-systems-054",
+    "front": "How does the ATP yield from fat compare to glucose?",
+    "back": "More ATP can be made from one molecule of fatty acid than from one molecule of glucose.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system /beta oxidisation"
+  },
+  {
+    "id": "energy-systems-055",
+    "front": "In what type of exercise are fatty acids the predominant energy source?",
+    "back": "Long-duration, low-intensity exercise like a marathon.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system /beta oxidisation"
+  },
+  {
+    "id": "energy-systems-056",
+    "front": "What determines when the body begins using fat instead of glucose for energy?",
+    "back": "The fitness level of the performer.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system /beta oxidisation"
+  },
+  {
+    "id": "energy-systems-057",
+    "front": "What happens to fat breakdown if the fitness of the performer is increased?",
+    "back": "Fat oxidisation happens earlier as they can supply more oxygen sooner and can delay glycogen usage for later in the performance.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system /beta oxidisation"
+  },
+  {
+    "id": "energy-systems-058",
+    "front": "Why is fat breakdown less efficient than glucose breakdown?",
+    "back": "Because fat breakdown requires more oxygen than glucose breakdown (this is a limitation).",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system /beta oxidisation"
+  },
+  {
+    "id": "energy-systems-059",
+    "front": "Why can't fat be used for fast, explosive exercise?",
+    "back": "Fat cannot be used without oxygen, making it unsuitable for anaerobic activity.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system /beta oxidisation"
+  },
+  {
+    "id": "energy-systems-060",
+    "front": "Why might fat stores be a disadvantage during exercise despite their energy value?",
+    "back": "They must be carried as excess non-functional weight, requiring more energy to complete any task.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system /beta oxidisation"
+  },
+  {
+    "id": "energy-systems-061",
+    "front": "Why is carbohydrate still necessary even when using fat for energy?",
+    "back": "Because fat breakdown requires carbohydrates to keep the Krebs Cycle functioning.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system /beta oxidisation"
+  },
+  {
+    "id": "energy-systems-062",
+    "front": "What happens to glycogen stores during prolonged, continuous exercise?",
+    "back": "They become depleted, slowing down the breakdown of fats.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system /beta oxidisation"
+  },
+  {
+    "id": "energy-systems-063",
+    "front": "How does glycogen depletion affect the Krebs Cycle and ATP resynthesis?",
+    "back": "The Krebs Cycle slows, which reduces the rate of ATP resynthesis.",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system /beta oxidisation"
+  },
+  {
+    "id": "energy-systems-064",
+    "front": "What term do marathon runners often use to describe the effects of glycogen depletion?",
+    "back": "\"Hitting the wall.\"",
+    "subtopicId": "energy-systems",
+    "group": "Aerobic energy system /beta oxidisation"
+  },
+  {
+    "id": "energy-systems-065",
+    "front": "How does the anaerobic glycolytic (lactic acid) system compare to the ATP-PC system?",
+    "back": "It provides energy for high-intensity activity for longer than the ATP-PC system.",
+    "subtopicId": "energy-systems",
+    "group": "Anaerobic energy systems"
+  },
+  {
+    "id": "energy-systems-066",
+    "front": "What factors determine how long the anaerobic glycolytic system can last?",
+    "back": "The individual's fitness level and the intensity of the exercise.",
+    "subtopicId": "energy-systems",
+    "group": "Anaerobic energy systems"
+  },
+  {
+    "id": "energy-systems-067",
+    "front": "How long does the anaerobic glycolytic system last when working flat out to exhaustion?",
+    "back": "Only a short time (30secs-3mins).",
+    "subtopicId": "energy-systems",
+    "group": "Anaerobic energy systems"
+  },
+  {
+    "id": "energy-systems-068",
+    "front": "How long can the anaerobic glycolytic system last when working at a slightly reduced intensity?",
+    "back": "Around 2-3 minutes.",
+    "subtopicId": "energy-systems",
+    "group": "Anaerobic energy systems"
+  },
+  {
+    "id": "energy-systems-069",
+    "front": "Is the lactic acid system aerobic or anaerobic?",
+    "back": "It is always an anaerobic process, even when part of aerobic respiration.",
+    "subtopicId": "energy-systems",
+    "group": "Anaerobic energy systems"
+  },
+  {
+    "id": "energy-systems-070",
+    "front": "Where does the lactic acid system take place?",
+    "back": "In the sarcoplasm of the muscle cell when oxygen is not available.",
+    "subtopicId": "energy-systems",
+    "group": "Anaerobic energy systems"
+  },
+  {
+    "id": "energy-systems-071",
+    "front": "What process provides energy in the lactic acid system?",
+    "back": "Anaerobic glycolysis, which releases energy to resynthesise ATP.",
+    "subtopicId": "energy-systems",
+    "group": "Anaerobic energy systems"
+  },
+  {
+    "id": "energy-systems-072",
+    "front": "What is the net ATP yield of the lactic acid system from 1 molecule of glucose?",
+    "back": "2 ATP (4 are produced, but 2 are used during glycolysis).",
+    "subtopicId": "energy-systems",
+    "group": "Anaerobic energy systems"
+  },
+  {
+    "id": "energy-systems-073",
+    "front": "What is the first step of anaerobic glycolysis?",
+    "back": "Glucose (or glycogen) is broken down by enzymes like glycogen phosphorylase and phosphofructokinase.",
+    "subtopicId": "energy-systems",
+    "group": "Anaerobic energy systems"
+  },
+  {
+    "id": "energy-systems-074",
+    "front": "What is produced from glucose during anaerobic glycolysis?",
+    "back": "Pyruvic acid and a net of 2 ATP molecules.",
+    "subtopicId": "energy-systems",
+    "group": "Anaerobic energy systems"
+  },
+  {
+    "id": "energy-systems-075",
+    "front": "What happens to pyruvic acid if oxygen is not available?",
+    "back": "It is converted into lactic acid by the enzyme lactate dehydrogenase.",
+    "subtopicId": "energy-systems",
+    "group": "Anaerobic energy systems"
+  },
+  {
+    "id": "energy-systems-076",
+    "front": "What is the final product of anaerobic glycolysis when oxygen is limited?",
+    "back": "Lactic acid (lactate).",
+    "subtopicId": "energy-systems",
+    "group": "Anaerobic energy systems"
+  },
+  {
+    "id": "energy-systems-077",
+    "front": "What is an advantage of the anaerobic glycolytic system?",
+    "back": "ATP can be re-synthesised quite quickly due to very few chemical reactions, and it lasts longer than the ATP-PC system.",
+    "subtopicId": "energy-systems",
+    "group": "Anaerobic energy systems"
+  },
+  {
+    "id": "energy-systems-078",
+    "front": "How can lactic acid be used when oxygen is present?",
+    "back": "It can be converted back into liver glycogen or oxidised into CO₂ and H₂O to be used as fuel.",
+    "subtopicId": "energy-systems",
+    "group": "Anaerobic energy systems"
+  },
+  {
+    "id": "energy-systems-079",
+    "front": "What is a disadvantage of the anaerobic glycolytic system?",
+    "back": "Lactic acid is a by-product that denatures enzymes and prevents them from increasing the rate of chemical reactions.",
+    "subtopicId": "energy-systems",
+    "group": "Anaerobic energy systems"
+  },
+  {
+    "id": "energy-systems-080",
+    "front": "Why does anaerobic glycolysis release less energy than aerobic respiration?",
+    "back": "Only a small amount of energy (5%) is released from glycogen under anaerobic conditions compared to 95% under aerobic conditions.",
+    "subtopicId": "energy-systems",
+    "group": "Anaerobic energy systems"
+  },
+  {
+    "id": "energy-systems-081",
+    "front": "When is the anaerobic glycolytic system useful?",
+    "back": "It can be used for a sprint finish to produce an extra burst of energy.",
+    "subtopicId": "energy-systems",
+    "group": "Anaerobic energy systems"
+  },
+  {
+    "id": "energy-systems-082",
+    "front": "What fuel does the ATP-PC system use?",
+    "back": "Phosphocreatine (PC).",
+    "subtopicId": "energy-systems",
+    "group": "ATP-PC system"
+  },
+  {
+    "id": "energy-systems-083",
+    "front": "What type of activity is the ATP-PC system used for?",
+    "back": "High-intensity, short-duration activities.",
+    "subtopicId": "energy-systems",
+    "group": "ATP-PC system"
+  },
+  {
+    "id": "energy-systems-084",
+    "front": "Where is phosphocreatine (PC) found in the muscle?",
+    "back": "In the sarcoplasm as an energy-rich phosphate compound.",
+    "subtopicId": "energy-systems",
+    "group": "ATP-PC system"
+  },
+  {
+    "id": "energy-systems-085",
+    "front": "How does PC help resynthesise ATP?",
+    "back": "PC breaks down quickly to release energy that resynthesises ATP from ADP + Pi.",
+    "subtopicId": "energy-systems",
+    "group": "ATP-PC system"
+  },
+  {
+    "id": "energy-systems-086",
+    "front": "Why is the ATP-PC system's rapid availability important?",
+    "back": "It provides immediate energy for a single maximal effort.",
+    "subtopicId": "energy-systems",
+    "group": "ATP-PC system"
+  },
+  {
+    "id": "energy-systems-087",
+    "front": "Give examples of activities that rely on the ATP-PC system.",
+    "back": "Long jump take-off and shot put throw.",
+    "subtopicId": "energy-systems",
+    "group": "ATP-PC system"
+  },
+  {
+    "id": "energy-systems-088",
+    "front": "What is the main limitation of the ATP-PC system?",
+    "back": "PC stores are limited and only last about 5-8 seconds.",
+    "subtopicId": "energy-systems",
+    "group": "ATP-PC system"
+  },
+  {
+    "id": "energy-systems-089",
+    "front": "When can phosphocreatine (PC) be replenished?",
+    "back": "During low-intensity exercise when oxygen is available.",
+    "subtopicId": "energy-systems",
+    "group": "ATP-PC system"
+  },
+  {
+    "id": "energy-systems-090",
+    "front": "Why does Usain Bolt slow down in the last 20m of a 100m sprint?",
+    "back": "His PC stores are depleted, so he must switch to slower energy systems.",
+    "subtopicId": "energy-systems",
+    "group": "ATP-PC system"
+  },
+  {
+    "id": "energy-systems-091",
+    "front": "Is the ATP-PC system aerobic or anaerobic?",
+    "back": "It is an anaerobic process.",
+    "subtopicId": "energy-systems",
+    "group": "ATP-PC system"
+  },
+  {
+    "id": "energy-systems-092",
+    "front": "What enzyme detects high levels of ADP to trigger ATP resynthesis in the ATP-PC system?",
+    "back": "Creatine kinase.",
+    "subtopicId": "energy-systems",
+    "group": "ATP-PC system"
+  },
+  {
+    "id": "energy-systems-093",
+    "front": "What happens when phosphocreatine (PC) is broken down?",
+    "back": "It splits into phosphate (Pi), creatine (C), and energy.",
+    "subtopicId": "energy-systems",
+    "group": "ATP-PC system"
+  },
+  {
+    "id": "energy-systems-094",
+    "front": "How is energy from PC breakdown used in the ATP-PC system?",
+    "back": "The energy is used in a coupled reaction to convert ADP + Pi into ATP.",
+    "subtopicId": "energy-systems",
+    "group": "ATP-PC system"
+  },
+  {
+    "id": "energy-systems-095",
+    "front": "What is a coupled reaction in the ATP-PC system?",
+    "back": "It's when energy released from PC breakdown is transferred to resynthesise ATP.",
+    "subtopicId": "energy-systems",
+    "group": "ATP-PC system"
+  },
+  {
+    "id": "energy-systems-096",
+    "front": "What does an ATP molecule consist of?",
+    "back": "Adenosine + 3 phosphates (ATP = Adenosine-P-P-P).",
+    "subtopicId": "energy-systems",
+    "group": "ATP-PC system"
+  },
+  {
+    "id": "energy-systems-097",
+    "front": "What does creatine kinase do when ADP levels are high?",
+    "back": "It triggers the breakdown of phosphocreatine (PC) to resynthesise ATP.",
+    "subtopicId": "energy-systems",
+    "group": "ATP-PC system"
+  },
+  {
+    "id": "energy-systems-098",
+    "front": "During the first few seconds of exercise, which energy system is relied on almost exclusively?",
+    "back": "The ATP-PC system, using ATP stores in the muscles.",
+    "subtopicId": "energy-systems",
+    "group": "ATP-PC system"
+  },
+  {
+    "id": "energy-systems-099",
+    "front": "Why does the body switch to other energy systems after the first few seconds of exercise?",
+    "back": "Because ATP and PC stores are limited and quickly become exhausted.",
+    "subtopicId": "energy-systems",
+    "group": "ATP-PC system"
+  },
+  {
+    "id": "energy-systems-100",
+    "front": "What happens if exercise continues at a high intensity?",
+    "back": "PC stores may only partially replenish, as there isn't enough energy for creatine and Pi to reform PC.",
+    "subtopicId": "energy-systems",
+    "group": "ATP-PC system"
+  },
+  {
+    "id": "energy-systems-101",
+    "front": "Why can't ATP stores fully replenish during high-intensity exercise?",
+    "back": "The high rate of ATP breakdown through other energy systems prevents full resynthesis of ATP in the muscles.",
+    "subtopicId": "energy-systems",
+    "group": "ATP-PC system"
+  },
+  {
+    "id": "energy-systems-102",
+    "front": "How quickly can ATP be re-synthesised in the ATP-PC system?",
+    "back": "ATP can be re-synthesised rapidly.",
+    "subtopicId": "energy-systems",
+    "group": "ATP-PC system"
+  },
+  {
+    "id": "energy-systems-103",
+    "front": "How quickly can phosphocreatine (PC) stores be replenished?",
+    "back": "50% replenished in 30 seconds, 100% replenished in 3 minutes.",
+    "subtopicId": "energy-systems",
+    "group": "ATP-PC system"
+  },
+  {
+    "id": "energy-systems-104",
+    "front": "What is a major advantage of the ATP-PC system in terms of by-products?",
+    "back": "It produces no fatiguing by-products.",
+    "subtopicId": "energy-systems",
+    "group": "ATP-PC system"
+  },
+  {
+    "id": "energy-systems-105",
+    "front": "How can the duration of the ATP-PC system be extended?",
+    "back": "Through creatine supplementation, which increases PC availability.",
+    "subtopicId": "energy-systems",
+    "group": "ATP-PC system"
+  },
+  {
+    "id": "energy-systems-106",
+    "front": "What is the main limitation of phosphocreatine (PC) in the ATP-PC system?",
+    "back": "There is only a limited supply of PC in the muscle cell.",
+    "subtopicId": "energy-systems",
+    "group": "ATP-PC system"
+  },
+  {
+    "id": "energy-systems-107",
+    "front": "How many ATP molecules are produced per PC molecule in the ATP-PC system?",
+    "back": "Only 1 ATP can be re-synthesised for every 1 PC.",
+    "subtopicId": "energy-systems",
+    "group": "ATP-PC system"
+  },
+  {
+    "id": "energy-systems-108",
+    "front": "When can PC re-synthesis occur?",
+    "back": "Only in the presence of oxygen, during reduced-intensity exercise.",
+    "subtopicId": "energy-systems",
+    "group": "ATP-PC system"
+  },
+  {
+    "id": "energy-systems-109",
+    "front": "The full run through",
+    "back": "Creatine kinase detects high levels of ADP. This triggers the breakdown of PC into ADP and Pi, which releases energy. This energy is used in a coupled reaction to turn ADP and Pi into ATP. This ATP is used in the muscles.",
+    "subtopicId": "energy-systems",
+    "group": "ATP-PC system"
+  },
+  {
+    "id": "energy-systems-110",
+    "front": "Do all three energy systems contribute during physical activity?",
+    "back": "Yes, all three energy systems contribute during all types of activities.",
+    "subtopicId": "energy-systems",
+    "group": "Energy continuum of physical activity"
+  },
+  {
+    "id": "energy-systems-111",
+    "front": "What determines which energy system is predominant?",
+    "back": "The intensity and duration of the activity.",
+    "subtopicId": "energy-systems",
+    "group": "Energy continuum of physical activity"
+  },
+  {
+    "id": "energy-systems-112",
+    "front": "How do energy systems work during a game with constantly changing intensity?",
+    "back": "There will be a mix of all three energy systems depending on the demands at each moment.",
+    "subtopicId": "energy-systems",
+    "group": "Energy continuum of physical activity"
+  },
+  {
+    "id": "energy-systems-113",
+    "front": "What type of respiration do slow twitch fibres mainly use for ATP production?",
+    "back": "Aerobic respiration.",
+    "subtopicId": "energy-systems",
+    "group": "Energy continuum of physical activity"
+  },
+  {
+    "id": "energy-systems-114",
+    "front": "What type of respiration do fast twitch fibres mainly use for ATP production?",
+    "back": "Anaerobic respiration.",
+    "subtopicId": "energy-systems",
+    "group": "Energy continuum of physical activity"
+  },
+  {
+    "id": "energy-systems-115",
+    "front": "How many ATP molecules are produced per glucose in aerobic respiration?",
+    "back": "Up to 38 ATP.",
+    "subtopicId": "energy-systems",
+    "group": "Energy continuum of physical activity"
+  },
+  {
+    "id": "energy-systems-116",
+    "front": "How many ATP molecules are produced per glucose in anaerobic respiration?",
+    "back": "2 ATP.",
+    "subtopicId": "energy-systems",
+    "group": "Energy continuum of physical activity"
+  },
+  {
+    "id": "energy-systems-117",
+    "front": "Why is anaerobic respiration less efficient than aerobic respiration?",
+    "back": "It produces fewer ATP per glucose and leads to lactic acid build-up, causing quicker fatigue.",
+    "subtopicId": "energy-systems",
+    "group": "Energy continuum of physical activity"
+  },
+  {
+    "id": "energy-systems-118",
+    "front": "What is the ATP-PC/anaerobic-glycolytic threshold?",
+    "back": "The point at which the ATP-PC system is exhausted and the anaerobic glycolytic system takes over, around 10 seconds",
+    "subtopicId": "energy-systems",
+    "group": "Energy continuum of physical activity"
+  },
+  {
+    "id": "energy-systems-119",
+    "front": "What is the anaerobic glycolytic/aerobic threshold?",
+    "back": "The point at which the anaerobic glycolytic system is exhausted and the aerobic system takes over, around 3 minutes",
+    "subtopicId": "energy-systems",
+    "group": "Energy continuum of physical activity"
+  },
+  {
+    "id": "energy-systems-120",
+    "front": "Why are slow twitch fibres more fatigue-resistant?",
+    "back": "They rely on aerobic respiration, which is more efficient and sustainable for low to medium intensity activity.",
+    "subtopicId": "energy-systems",
+    "group": "Energy continuum of physical activity"
+  },
+  {
+    "id": "energy-systems-121",
+    "front": "Why do fast twitch fibres fatigue more quickly?",
+    "back": "They rely on anaerobic respiration, which is faster but inefficient and causes lactic acid accumulation during high-intensity activity.",
+    "subtopicId": "energy-systems",
+    "group": "Energy continuum of physical activity"
+  },
+  {
+    "id": "energy-systems-122",
+    "front": "What is the main pathway for ATP production in slow-twitch fibres?",
+    "back": "The aerobic system.",
+    "subtopicId": "energy-systems",
+    "group": "Energy continuum of physical activity"
+  },
+  {
+    "id": "energy-systems-123",
+    "front": "What is the main pathway for ATP production in fast-twitch fibres?",
+    "back": "The lactate anaerobic system during glycolysis.",
+    "subtopicId": "energy-systems",
+    "group": "Energy continuum of physical activity"
+  },
+  {
+    "id": "energy-systems-124",
+    "front": "How efficient is ATP production in slow-twitch fibres?",
+    "back": "Very efficient, producing up to 38 ATP per glucose molecule.",
+    "subtopicId": "energy-systems",
+    "group": "Energy continuum of physical activity"
+  },
+  {
+    "id": "energy-systems-125",
+    "front": "How efficient is ATP production in fast-twitch fibres?",
+    "back": "Not efficient, only 2 ATP per glucose molecule.",
+    "subtopicId": "energy-systems",
+    "group": "Energy continuum of physical activity"
+  },
+  {
+    "id": "energy-systems-126",
+    "front": "How quickly is ATP produced in slow-twitch fibres?",
+    "back": "Production is slow but sustainable.",
+    "subtopicId": "energy-systems",
+    "group": "Energy continuum of physical activity"
+  },
+  {
+    "id": "energy-systems-127",
+    "front": "How quickly is ATP produced in fast-twitch fibres?",
+    "back": "Production is fast but cannot last long.",
+    "subtopicId": "energy-systems",
+    "group": "Energy continuum of physical activity"
+  },
+  {
+    "id": "energy-systems-128",
+    "front": "Why do slow-twitch fibres resist fatigue?",
+    "back": "They are endurance-based and use aerobic energy pathways.",
+    "subtopicId": "energy-systems",
+    "group": "Energy continuum of physical activity"
+  },
+  {
+    "id": "energy-systems-129",
+    "front": "Why do fast-twitch fibres fatigue quickly?",
+    "back": "They rely on anaerobic ATP production and have the least resistance to fatigue.",
+    "subtopicId": "energy-systems",
+    "group": "Energy continuum of physical activity"
+  },
+  {
+    "id": "energy-systems-130",
+    "front": "What energy systems are used during short-duration/high-intensity exercise?",
+    "back": "Mainly the ATP-PC system and the anaerobic glycolytic (lactate) system.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-131",
+    "front": "How long can the ATP-PC system last?",
+    "back": "Approximately 8-10 seconds.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-132",
+    "front": "How long can the anaerobic glycolytic system last?",
+    "back": "Up to around 3 minutes depending on intensity.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-133",
+    "front": "How long does energy production last for a 400m runner?",
+    "back": "Around 45-60 seconds, mainly anaerobic glycolytic.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-134",
+    "front": "Why is a 400m runner exhausted at the end of the race?",
+    "back": "Due to lactic acid build-up causing fatigue and requiring a long recovery period.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-135",
+    "front": "How long does energy production last for an 800m runner?",
+    "back": "Around 1 minute 40 seconds to 2 minutes, mainly anaerobic glycolytic.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-136",
+    "front": "Why can an 800m runner sustain activity longer than a 400m runner?",
+    "back": "Because the energy demand is slightly lower, allowing the system to last longer.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-137",
+    "front": "What is the chemical formula for lactic acid?",
+    "back": "C₃H₆O₃.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-138",
+    "front": "What happens when lactic acid breaks down?",
+    "back": "It dissociates, releasing hydrogen ions (H⁺).",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-139",
+    "front": "What compound forms when the remaining lactate combines with sodium or potassium ions?",
+    "back": "The salt lactate.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-140",
+    "front": "What causes increased acidity in the muscles?",
+    "back": "The accumulation of hydrogen ions from lactic acid dissociation.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-141",
+    "front": "How does increased acidity affect performance?",
+    "back": "It slows down enzyme activity, reducing glycogen breakdown and causing muscle fatigue.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-142",
+    "front": "What happens to the lactate produced in the muscles?",
+    "back": "It diffuses into the blood, where blood lactate levels can be measured.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-143",
+    "front": "What is the lactate threshold?",
+    "back": "The point during exercise at which lactate rapidly accumulates in the blood (about 2 mmol above resting levels).",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-144",
+    "front": "What is OBLA?",
+    "back": "Onset of Blood Lactate Accumulation — the point when blood lactate levels exceed 4 millimoles per litre.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-145",
+    "front": "What causes OBLA to occur?",
+    "back": "When the body cannot produce enough oxygen to break down lactate, leading to its accumulation.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-146",
+    "front": "How are lactate threshold and OBLA related?",
+    "back": "They are different ways of measuring the same physiological point where lactate builds up rapidly.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-147",
+    "front": "What does measuring OBLA indicate?",
+    "back": "It gives an indication of endurance capacity.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-148",
+    "front": "Why can some people delay when the lactate threshold occurs?",
+    "back": "Because they can work at higher intensities before OBLA due to better endurance adaptations.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-149",
+    "front": "How is lactate threshold expressed?",
+    "back": "As a percentage of VO₂ max.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-150",
+    "front": "What happens to the lactate threshold as fitness increases?",
+    "back": "It becomes delayed, meaning the athlete can sustain higher intensities before fatigue.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-151",
+    "front": "What percentage of VO₂ max is the lactate threshold for average performers?",
+    "back": "Around 50-60% of VO₂ max.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-152",
+    "front": "What percentage of VO₂ max is the lactate threshold for elite performers?",
+    "back": "Up to 90% of VO₂ max.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-153",
+    "front": "How much does training affect VO₂ max?",
+    "back": "Training has little impact since VO₂ max is largely genetically determined.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-154",
+    "front": "How does training improve performance if VO₂ max doesn't change much?",
+    "back": "It delays the lactate threshold, allowing the athlete to perform at higher intensities for longer.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-155",
+    "front": "What is the relationship between fitness and lactate threshold?",
+    "back": "The fitter you are → higher lactate threshold → later fatigue → can work harder.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-156",
+    "front": "What test is a good example to illustrate OBLA?",
+    "back": "The multi-stage fitness test (bleep test).",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-157",
+    "front": "Why does the multi-stage fitness test become more demanding over time?",
+    "back": "Because the time allowed to complete each shuttle decreases.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-158",
+    "front": "What happens when the performer can no longer provide energy aerobically?",
+    "back": "They rely on anaerobic systems to resynthesise ATP.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-159",
+    "front": "What happens to lactate levels during the multi-stage fitness test?",
+    "back": "They increase as intensity rises, leading to muscle fatigue.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-160",
+    "front": "Why does the performer eventually slow down or stop in the multi-stage fitness test?",
+    "back": "Because lactate accumulation causes fatigue, preventing them from keeping up with the bleeps.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (OBLA)"
+  },
+  {
+    "id": "energy-systems-161",
+    "front": "What are the five factors affecting the rate of lactate accumulation.",
+    "back": "1-Exercise intensity 2-Fitness of the performer 3-Muscle fibre type 4-Rate of blood lactate removal 5-Respiratory exchange ratio (RER)",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (lactate accumilation)"
+  },
+  {
+    "id": "energy-systems-162",
+    "front": "What happens to lactate production at low to moderate intensities?",
+    "back": "The aerobic system meets most ATP demand, so lactate production is low and balanced with removal (~1-2 mmol·L⁻¹).",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (lactate accumilation)"
+  },
+  {
+    "id": "energy-systems-163",
+    "front": "What happens to lactate production as exercise intensity increases?",
+    "back": "More reliance on anaerobic glycolysis produces lactate faster than the body can remove it.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (lactate accumilation)"
+  },
+  {
+    "id": "energy-systems-164",
+    "front": "How does aerobic fitness affect lactate accumulation?",
+    "back": "More aerobically fit athletes have adaptations that slow lactate accumulation.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (lactate accumilation)"
+  },
+  {
+    "id": "energy-systems-165",
+    "front": "What adaptations help delay lactate accumulation in trained athletes?",
+    "back": "Increased mitochondrial density, oxidative enzyme activity, and capillarisation in muscle.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (lactate accumilation)"
+  },
+  {
+    "id": "energy-systems-166",
+    "front": "How does increased mitochondrial density affect lactate accumulation?",
+    "back": "It allows more pyruvate to be used aerobically instead of being converted to lactate.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (lactate accumilation)"
+  },
+  {
+    "id": "energy-systems-167",
+    "front": "How does capillarisation affect lactate accumulation?",
+    "back": "It improves oxygen delivery and removal of metabolic byproducts like lactate and hydrogen ions.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (lactate accumilation)"
+  },
+  {
+    "id": "energy-systems-168",
+    "front": "How do Type I (slow-twitch) fibres influence lactate accumulation?",
+    "back": "They have high oxidative capacity and produce less lactate because they rely mainly on aerobic metabolism.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (lactate accumilation)"
+  },
+  {
+    "id": "energy-systems-169",
+    "front": "How do Type II (fast-twitch) fibres influence lactate accumulation?",
+    "back": "They rely heavily on anaerobic glycolysis and produce more lactate per unit of work.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (lactate accumilation)"
+  },
+  {
+    "id": "energy-systems-170",
+    "front": "When does lactate build up more rapidly?",
+    "back": "When more fast-twitch fibres are recruited, such as during sprinting or explosive movements.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (lactate accumilation)"
+  },
+  {
+    "id": "energy-systems-171",
+    "front": "What determines the net accumulation of lactate?",
+    "back": "The balance between lactate production and lactate removal.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (lactate accumilation)"
+  },
+  {
+    "id": "energy-systems-172",
+    "front": "How can lactate be removed from the body?",
+    "back": "It can be oxidised for fuel, converted back to pyruvate, or turned into glucose via the Cori cycle in the liver.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (lactate accumilation)"
+  },
+  {
+    "id": "energy-systems-173",
+    "front": "What factors improve lactate removal?",
+    "back": "Active recovery, greater mitochondrial capacity, more capillaries, efficient lactate transporters, and better buffering.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (lactate accumilation)"
+  },
+  {
+    "id": "energy-systems-174",
+    "front": "What is the Respiratory Exchange Ratio (RER)?",
+    "back": "The ratio of CO₂ produced to O₂ consumed — used to determine which fuel (fat or carbohydrate) is being used.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (lactate accumilation)"
+  },
+  {
+    "id": "energy-systems-175",
+    "front": "What does an RER close to 1.0 indicate?",
+    "back": "High carbohydrate metabolism, which leads to greater glycolysis and higher lactate production.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (lactate accumilation)"
+  },
+  {
+    "id": "energy-systems-176",
+    "front": "What does an RER closer to 0.7 indicate?",
+    "back": "Predominant fat oxidation, which is slower, more aerobic, and produces minimal lactate.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (lactate accumilation)"
+  },
+  {
+    "id": "energy-systems-177",
+    "front": "How does RER change as exercise intensity increases?",
+    "back": "It rises, indicating greater carbohydrate use and faster lactate accumulation.",
+    "subtopicId": "energy-systems",
+    "group": "Short duration high intensity (lactate accumilation)"
+  },
+  {
+    "id": "energy-systems-178",
+    "front": "What does VO₂ max measure?",
+    "back": "The maximum amount of oxygen the body can take in, transport, and use per minute during exercise.",
+    "subtopicId": "energy-systems",
+    "group": "Factors affecting VO2 max"
+  },
+  {
+    "id": "energy-systems-179",
+    "front": "How much of VO₂ max is genetically determined?",
+    "back": "Around 75%.",
+    "subtopicId": "energy-systems",
+    "group": "Factors affecting VO2 max"
+  },
+  {
+    "id": "energy-systems-180",
+    "front": "How much can training improve VO₂ max?",
+    "back": "By approximately 10-20%.",
+    "subtopicId": "energy-systems",
+    "group": "Factors affecting VO2 max"
+  },
+  {
+    "id": "energy-systems-181",
+    "front": "Why does training have a limited effect on VO₂ max?",
+    "back": "Because it is largely determined by genetics.",
+    "subtopicId": "energy-systems",
+    "group": "Factors affecting VO2 max"
+  },
+  {
+    "id": "energy-systems-182",
+    "front": "What does aerobic training do to VO₂ max?",
+    "back": "It allows the body to take up and use more oxygen more efficiently.",
+    "subtopicId": "energy-systems",
+    "group": "Factors affecting VO2 max"
+  },
+  {
+    "id": "energy-systems-183",
+    "front": "What effect does an increased number and size of mitochondria have on VO₂ max?",
+    "back": "Increases the muscles' ability to use oxygen for aerobic energy production, improving VO₂ max.",
+    "subtopicId": "energy-systems",
+    "group": "Factors affecting VO2 max"
+  },
+  {
+    "id": "energy-systems-184",
+    "front": "What effect does an increased surface area of alveoli have on VO₂ max?",
+    "back": "Allows more efficient gas exchange, increasing oxygen uptake and improving VO₂ max.",
+    "subtopicId": "energy-systems",
+    "group": "Factors affecting VO2 max"
+  },
+  {
+    "id": "energy-systems-185",
+    "front": "What effect does increased maximum cardiac output have on VO₂ max?",
+    "back": "Increases the amount of blood pumped per minute, improving oxygen delivery to working muscles and VO₂ max.",
+    "subtopicId": "energy-systems",
+    "group": "Factors affecting VO2 max"
+  },
+  {
+    "id": "energy-systems-186",
+    "front": "How does training affect VO₂ max?",
+    "back": "Aerobic training can improve VO₂ max by up to 10-20% by increasing the body's ability to take in, transport, and use oxygen.",
+    "subtopicId": "energy-systems",
+    "group": "Factors affecting VO2 max"
+  },
+  {
+    "id": "energy-systems-187",
+    "front": "How do genetics affect VO₂ max?",
+    "back": "Genetics largely determine VO₂ max potential — up to 75% of VO₂ max is genetically inherited, limiting possible improvement through training.",
+    "subtopicId": "energy-systems",
+    "group": "Factors affecting VO2 max"
+  },
+  {
+    "id": "energy-systems-188",
+    "front": "How does age affect VO₂ max?",
+    "back": "VO₂ max decreases with age as the body becomes less efficient; this decline can be slowed but not stopped through regular exercise.",
+    "subtopicId": "energy-systems",
+    "group": "Factors affecting VO2 max"
+  },
+  {
+    "id": "energy-systems-189",
+    "front": "How does gender affect VO₂ max?",
+    "back": "Males generally have a higher VO₂ max than females due to greater muscle mass and haemoglobin levels; in trained athletes, the gap reduces to about 10%.",
+    "subtopicId": "energy-systems",
+    "group": "Factors affecting VO2 max"
+  },
+  {
+    "id": "energy-systems-190",
+    "front": "How does body composition affect VO₂ max?",
+    "back": "A higher body fat percentage reduces VO₂ max because fat tissue is not oxygen-demanding, lowering overall aerobic efficiency.",
+    "subtopicId": "energy-systems",
+    "group": "Factors affecting VO2 max"
+  },
+  {
+    "id": "energy-systems-191",
+    "front": "How does lifestyle affect VO₂ max?",
+    "back": "Smoking, inactivity, poor diet, and low fitness reduce VO₂ max, while a healthy, active lifestyle helps maintain or improve it.",
+    "subtopicId": "energy-systems",
+    "group": "Factors affecting VO2 max"
+  },
+  {
+    "id": "energy-systems-192",
+    "front": "What are all the factors affecting VO2 max?",
+    "back": "1-genetics 2-training 3-number and size of mitochondria 4-surface area of alveoli 5-maximum cardiac output 6-age 7-gener 8-body composition 9-lifestyle",
+    "subtopicId": "energy-systems",
+    "group": "Factors affecting VO2 max"
+  },
+  {
+    "id": "energy-systems-193",
+    "front": "What is indirect calorimetry used to measure?",
+    "back": "It measures energy expenditure.",
+    "subtopicId": "energy-systems",
+    "group": "Measurements of energy expenditure"
+  },
+  {
+    "id": "energy-systems-194",
+    "front": "What gases does indirect calorimetry measure?",
+    "back": "The amount of CO₂ produced and O₂ consumed at rest and during aerobic exercise.",
+    "subtopicId": "energy-systems",
+    "group": "Measurements of energy expenditure"
+  },
+  {
+    "id": "energy-systems-195",
+    "front": "What does calculating gas volumes reveal?",
+    "back": "Whether fat or carbohydrate is being used as the main energy source.",
+    "subtopicId": "energy-systems",
+    "group": "Measurements of energy expenditure"
+  },
+  {
+    "id": "energy-systems-196",
+    "front": "What can indirect calorimetry precisely calculate?",
+    "back": "VO₂ and VO₂ max.",
+    "subtopicId": "energy-systems",
+    "group": "Measurements of energy expenditure"
+  },
+  {
+    "id": "energy-systems-197",
+    "front": "What is one advantage of indirect calorimetry?",
+    "back": "It is accurate for steady-state oxidative metabolism over short periods.",
+    "subtopicId": "energy-systems",
+    "group": "Measurements of energy expenditure"
+  },
+  {
+    "id": "energy-systems-198",
+    "front": "What is one disadvantage of indirect calorimetry related to equipment?",
+    "back": "It requires a lot of equipment to be attached to the head.",
+    "subtopicId": "energy-systems",
+    "group": "Measurements of energy expenditure"
+  },
+  {
+    "id": "energy-systems-199",
+    "front": "Why can't indirect calorimetry measure anaerobic energy?",
+    "back": "Because it only measures oxygen use and carbon dioxide production, which occur in aerobic metabolism.",
+    "subtopicId": "energy-systems",
+    "group": "Measurements of energy expenditure"
+  },
+  {
+    "id": "energy-systems-200",
+    "front": "What is one financial disadvantage of indirect calorimetry?",
+    "back": "It is expensive, though cheaper than building a direct calorimetry chamber.",
+    "subtopicId": "energy-systems",
+    "group": "Measurements of energy expenditure"
+  },
+  {
+    "id": "energy-systems-201",
+    "front": "What does lactate sampling involve?",
+    "back": "Taking a tiny blood sample and analysing it on a handheld device to measure lactate levels.",
+    "subtopicId": "energy-systems",
+    "group": "Measurements of energy expenditure"
+  },
+  {
+    "id": "energy-systems-202",
+    "front": "What does lactate sampling show?",
+    "back": "The amount of lactate in the blood and the intensity of exercise.",
+    "subtopicId": "energy-systems",
+    "group": "Measurements of energy expenditure"
+  },
+  {
+    "id": "energy-systems-203",
+    "front": "What does a higher lactate threshold indicate?",
+    "back": "The athlete is fitter and can work at a higher intensity before fatigue.",
+    "subtopicId": "energy-systems",
+    "group": "Measurements of energy expenditure"
+  },
+  {
+    "id": "energy-systems-204",
+    "front": "Why is lactate sampling useful?",
+    "back": "It gives an indication of fitness levels.",
+    "subtopicId": "energy-systems",
+    "group": "Measurements of energy expenditure"
+  },
+  {
+    "id": "energy-systems-205",
+    "front": "How does lactate sampling help training?",
+    "back": "It allows the performer to choose relevant training zones.",
+    "subtopicId": "energy-systems",
+    "group": "Measurements of energy expenditure"
+  },
+  {
+    "id": "energy-systems-206",
+    "front": "How can lactate sampling track progress?",
+    "back": "It provides a baseline for comparison to see improvements over time.",
+    "subtopicId": "energy-systems",
+    "group": "Measurements of energy expenditure"
+  },
+  {
+    "id": "energy-systems-207",
+    "front": "What does a lower lactate level at the same exercise intensity suggest?",
+    "back": "Improved peak speed/power, longer time to exhaustion, better recovery heart rate, and a higher lactate threshold.",
+    "subtopicId": "energy-systems",
+    "group": "Measurements of energy expenditure"
+  },
+  {
+    "id": "energy-systems-208",
+    "front": "What are some advantages of lactate sampling?",
+    "back": "1-equipment is accessible + cheap 2-equipment is portable 3-you can get results quickly",
+    "subtopicId": "energy-systems",
+    "group": "Measurements of energy expenditure"
+  },
+  {
+    "id": "energy-systems-209",
+    "front": "What are some disadvantages of lactate sampling?",
+    "back": "-performer might be scared to use",
+    "subtopicId": "energy-systems",
+    "group": "Measurements of energy expenditure"
+  },
+  {
+    "id": "energy-systems-210",
+    "front": "What are some benefits of VO2 max testing?",
+    "back": "1-it has high validity 2-it is the primary measurement of your performance level 3-it can help influence training",
+    "subtopicId": "energy-systems",
+    "group": "Measurements of energy expenditure"
+  },
+  {
+    "id": "energy-systems-211",
+    "front": "What are some disadvantages of VO2 max testing?",
+    "back": "1-It can lack reliability 2-it can be uncomfortable for the performer 3-it is expensive for amateurs",
+    "subtopicId": "energy-systems",
+    "group": "Measurements of energy expenditure"
+  },
+  {
+    "id": "energy-systems-212",
+    "front": "What is a way avoid the expensive downsides?",
+    "back": "A smart watch can calculate it roughly but it isn't as accurate",
+    "subtopicId": "energy-systems",
+    "group": "Measurements of energy expenditure"
+  },
+  {
+    "id": "energy-systems-213",
+    "front": "What happens to oxygen at altitude?",
+    "back": "The percentage of oxygen in the air stays the same, but the partial pressure of oxygen decreases as altitude increases.",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-214",
+    "front": "What happens to the diffusion gradient of oxygen at altitude?",
+    "back": "It decreases, reducing oxygen diffusion between the air, lungs, and blood.",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-215",
+    "front": "What happens to haemoglobin saturation at altitude?",
+    "back": "Haemoglobin is not fully saturated because less oxygen diffuses into the blood.",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-216",
+    "front": "What happens to oxygen delivery to muscles at altitude?",
+    "back": "Less oxygen is delivered to the muscles, reducing aerobic performance and VO₂ max.",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-217",
+    "front": "What protien is made as a result of altitude training?",
+    "back": "erythropoietin (EPO)",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-218",
+    "front": "What does EPO do?",
+    "back": "Stimulates red blood cell production which contains haemoglobin that binds to O2 increasing oxygen carrying capacity.",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-219",
+    "front": "What are the advantages of training at altitude?",
+    "back": "Increased oxygen-carrying capacity of the blood, increased aerobic endurance, and increased VO₂ max.",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-220",
+    "front": "What are the disadvantages of training at altitude?",
+    "back": "Loss of fitness/detraining, altitude sickness, benefits lost quickly after returning to sea level, limited EPO production, expensive and homesickness.",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-221",
+    "front": "What is the overall impact of altitude on performance?",
+    "back": "Initially, performance decreases due to reduced oxygen availability, but long-term adaptations can improve aerobic capacity.",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-222",
+    "front": "What activities are involved in plyometric training?",
+    "back": "Hopping, bounding, depth jumping, medicine ball work",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-223",
+    "front": "What is the aim of plyometric training?",
+    "back": "To develop power, speed, and explosive strength",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-224",
+    "front": "Which muscle fibre type does plyometric training use?",
+    "back": "Fast-twitch fibres (Type II)",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-225",
+    "front": "What contraction occurs first in plyometric training?",
+    "back": "Eccentric contraction",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-226",
+    "front": "What contraction follows the eccentric phase in plyometrics?",
+    "back": "amortisation phase",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-227",
+    "front": "What is the amortisation phase?",
+    "back": "the transition between the eccentric and concentric contraction",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-228",
+    "front": "What happens during the amortisation phase?",
+    "back": "- stretch reflex is activated - elastic energy is stored / held",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-229",
+    "front": "Why is it important that the amortisation phase is extremely quick?",
+    "back": "Shorter amortisation phase = more power",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-230",
+    "front": "What happens if the amortisation phase is too slow?",
+    "back": "If the phase is too long, the stored elastic energy dissipates as heat, reducing explosivness",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-231",
+    "front": "What contraction follows the amortisation phase in plyometrics?",
+    "back": "Concentric contraction",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-232",
+    "front": "What reflex is activated during plyometric training?",
+    "back": "The stretch reflex",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-233",
+    "front": "Which receptors detect muscle stretch in plyometrics?",
+    "back": "Muscle spindles",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-234",
+    "front": "Where do muscle spindles send impulses during plyometrics?",
+    "back": "To the spinal cord/CNS via afferent impulses",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-235",
+    "front": "What type of energy is stored in the eccentric phase of plyometrics?",
+    "back": "Elastic energy",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-236",
+    "front": "What is the purpose of the stretch reflex in plyometrics?",
+    "back": "To prevent overstretching and reduce injury risk",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-237",
+    "front": "What is the three-phase mechanism used in plyometrics?",
+    "back": "The stretch-shortening cycle",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-238",
+    "front": "What are the three phases of the stretch-shortening cycle?",
+    "back": "Pre-stretch, amortisation, muscle contraction",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-239",
+    "front": "What is interval training?",
+    "back": "Training involving periods of high-intensity exercise followed by rest or low-intensity exercise",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-240",
+    "front": "What does HIIT stand for?",
+    "back": "High-Intensity Interval Training",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-241",
+    "front": "Which energy systems does HIIT improve?",
+    "back": "Mainly anaerobic, with additional aerobic benefits",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-242",
+    "front": "What is an example work-to-rest ratio in HIIT?",
+    "back": "20 seconds intense exercise, 10 seconds rest",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-243",
+    "front": "How many cycles are typically used in HIIT?",
+    "back": "6-8 cycles",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-244",
+    "front": "Give a physiological benefit of HIIT.",
+    "back": "Increased anaerobic capacity",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-245",
+    "front": "Give another benefit of HIIT.",
+    "back": "Reduced body fat/obesity",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-246",
+    "front": "Why is HIIT often motivational?",
+    "back": "It uses short-duration, intense bouts of exercise",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-247",
+    "front": "What does SAQ training involve?",
+    "back": "Being coached in correct movement technique",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-248",
+    "front": "Why does SAQ use progression exercises?",
+    "back": "To improve motor abilities for faster, more accurate skill execution",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  },
+  {
+    "id": "energy-systems-249",
+    "front": "What are the benefits of SAQ training?",
+    "back": "Increased muscular power, improved kinaesthetic/spatial awareness, improved motor skills and reaction time",
+    "subtopicId": "energy-systems",
+    "group": "Specialist training methods"
+  }
+]
