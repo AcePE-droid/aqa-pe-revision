@@ -124,5 +124,180 @@
     "back": "It helps maintain motivation, reinforces correct technique, and helps develop the mental image (schema) of the skill.",
     "subtopicId": "guidance-feedback",
     "group": "Types of feedback"
+  },
+  {
+    "id": "guidance-feedback-019",
+    "front": "What are the advantages of visual guidance?",
+    "back": "Creates a mental image of the correct performance. -Shows the performer what the skill should look like. -Often used alongside verbal guidance to reinforce learning. -Can be used to highlight specific weaknesses.",
+    "subtopicId": "guidance-feedback",
+    "group": "Methods of guidance"
+  },
+  {
+    "id": "guidance-feedback-020",
+    "front": "What are the disadvantages of visual guidance?",
+    "back": "The demonstration must be accurate, otherwise incorrect technique may be copied. -The performer may not have the ability to replicate the demonstration if it is beyond their level. -Too much visual information can confuse the performer.",
+    "subtopicId": "guidance-feedback",
+    "group": "Methods of guidance"
+  },
+  {
+    "id": "guidance-feedback-021",
+    "front": "What are the advantages of verbal guidance?",
+    "back": "Provides detailed advice for more experienced performers. -Can be combined with visual guidance to reinforce key coaching points. -Allows immediate feedback and correction.",
+    "subtopicId": "guidance-feedback",
+    "group": "Methods of guidance"
+  },
+  {
+    "id": "guidance-feedback-022",
+    "front": "What are the disadvantages of verbal guidance?",
+    "back": "Too much information can cause confusion. -Performers may lose concentration if instructions are too long or complex. -The language used must be appropriate to the performer's level, especially for beginners.",
+    "subtopicId": "guidance-feedback",
+    "group": "Methods of guidance"
+  },
+  {
+    "id": "guidance-feedback-023",
+    "front": "What are the advantages of manual and mechanical guidance?",
+    "back": "Reduces the risk of injury. -Builds the performer's confidence. -Helps the performer experience the correct movement pattern. -Reduces fear and anxiety when learning difficult or dangerous skills.",
+    "subtopicId": "guidance-feedback",
+    "group": "Methods of guidance"
+  },
+  {
+    "id": "guidance-feedback-024",
+    "front": "What are the disadvantages of manual and mechanical guidance?",
+    "back": "Overuse can have a negative effect on performance. -Excessive reliance on support may prevent the performer from developing the correct kinaesthetic feel of the movement. -The performer may become dependent on the support.",
+    "subtopicId": "guidance-feedback",
+    "group": "Methods of guidance"
+  },
+  {
+    "id": "guidance-feedback-025",
+    "front": "What is feedback?",
+    "back": "Information received by a performer about the outcome or quality of a movement or performance.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of feedback"
+  },
+  {
+    "id": "guidance-feedback-026",
+    "front": "Give an example of intrinsic feedback.",
+    "back": "Hitting the sweet spot of the bat when batting in cricket.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of feedback"
+  },
+  {
+    "id": "guidance-feedback-027",
+    "front": "Who mainly uses intrinsic feedback and why?",
+    "back": "Autonomous performers, as they have developed the experience and kinaesthetic awareness to evaluate their own performance.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of feedback"
+  },
+  {
+    "id": "guidance-feedback-028",
+    "front": "What are the two types of extrinsic feedback?",
+    "back": "Knowledge of Results (KR) and Knowledge of Performance (KP).",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of feedback"
+  },
+  {
+    "id": "guidance-feedback-029",
+    "front": "What does knowledge of results (KR) focus on?",
+    "back": "It tells the performer what happened, but not how it happened.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of feedback"
+  },
+  {
+    "id": "guidance-feedback-030",
+    "front": "Give an example of knowledge of results (KR).",
+    "back": "You ran 10.95 seconds.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of feedback"
+  },
+  {
+    "id": "guidance-feedback-031",
+    "front": "What are the advantages of knowledge of results (KR)?",
+    "back": "-Motivates the performer. -Measures progress. -Provides a clear outcome of performance.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of feedback"
+  },
+  {
+    "id": "guidance-feedback-032",
+    "front": "What are the disadvantages of knowledge of results (KR)?",
+    "back": "-Does not explain how to improve. -Provides limited technical information.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of feedback"
+  },
+  {
+    "id": "guidance-feedback-033",
+    "front": "What does knowledge of performance (KP) focus on?",
+    "back": "It focuses on the quality of the movement rather than the final outcome.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of feedback"
+  },
+  {
+    "id": "guidance-feedback-034",
+    "front": "Give an example of knowledge of performance (KP).",
+    "back": "You contacted the ball too late.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of feedback"
+  },
+  {
+    "id": "guidance-feedback-035",
+    "front": "What are the advantages of knowledge of performance (KP)?",
+    "back": "-Identifies areas for improvement. -Develops technique. -Helps refine movement patterns.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of feedback"
+  },
+  {
+    "id": "guidance-feedback-036",
+    "front": "What are the disadvantages of knowledge of performance (KP)?",
+    "back": "-Can overload performers with information. -Requires expert knowledge to provide effectively. -May reduce confidence if delivered poorly.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of feedback"
+  },
+  {
+    "id": "guidance-feedback-037",
+    "front": "Give an example of positive feedback.",
+    "back": "Great first touch. Keep doing that.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of feedback"
+  },
+  {
+    "id": "guidance-feedback-038",
+    "front": "What are the advantages of positive feedback?",
+    "back": "-Increases motivation. -Builds confidence. -Reinforces correct technique.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of feedback"
+  },
+  {
+    "id": "guidance-feedback-039",
+    "front": "What are the disadvantages of positive feedback?",
+    "back": "-Can hide weaknesses. -Can become meaningless if overused. -May reduce effort if performers become complacent.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of feedback"
+  },
+  {
+    "id": "guidance-feedback-040",
+    "front": "Give an example of negative feedback.",
+    "back": "Your knee drive is too low during acceleration.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of feedback"
+  },
+  {
+    "id": "guidance-feedback-041",
+    "front": "What are the advantages of negative feedback?",
+    "back": "-Corrects mistakes. -Prevents incorrect motor programmes from developing. -Identifies areas for improvement.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of feedback"
+  },
+  {
+    "id": "guidance-feedback-042",
+    "front": "What are the disadvantages of negative feedback?",
+    "back": "-Can reduce confidence. -May reduce motivation. -Can increase anxiety if delivered poorly.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of feedback"
+  },
+  {
+    "id": "guidance-feedback-043",
+    "front": "Need flashcards",
+    "back": "Need flashcards",
+    "subtopicId": "guidance-feedback",
+    "group": "Guidance and feedback on skill development"
   }
 ]

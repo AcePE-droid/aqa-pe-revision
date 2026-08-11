@@ -103,5 +103,586 @@
     "back": "By using a feint or dummy to present a second stimulus close to the first, delaying an opponent's reaction to the real stimulus.",
     "subtopicId": "information-processing-efficiency",
     "group": "Single-channel hypothesis"
+  },
+  {
+    "id": "information-processing-efficiency-016",
+    "front": "What is the equation for response time?",
+    "back": "Response time = Reaction time + Movement time.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Reaction, response and movement time"
+  },
+  {
+    "id": "information-processing-efficiency-017",
+    "front": "Why is response time important in sport?",
+    "back": "A faster response time gives the performer more time to execute skills successfully.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Reaction, response and movement time"
+  },
+  {
+    "id": "information-processing-efficiency-018",
+    "front": "Does reaction time involve movement?",
+    "back": "No, it involves no physical movement.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Reaction, response and movement time"
+  },
+  {
+    "id": "information-processing-efficiency-019",
+    "front": "What happens during reaction time?",
+    "back": "The performer detects, processes and selects the appropriate response to the stimulus.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Reaction, response and movement time"
+  },
+  {
+    "id": "information-processing-efficiency-020",
+    "front": "Give a sporting example of reaction time.",
+    "back": "The time between hearing the starter's gun and pushing against the starting blocks.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Reaction, response and movement time"
+  },
+  {
+    "id": "information-processing-efficiency-021",
+    "front": "What does movement time include?",
+    "back": "The physical execution of the movement.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Reaction, response and movement time"
+  },
+  {
+    "id": "information-processing-efficiency-022",
+    "front": "Give a sporting example of movement time.",
+    "back": "The time between pushing off the starting blocks and crossing the finish line in a 100 m race.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Reaction, response and movement time"
+  },
+  {
+    "id": "information-processing-efficiency-023",
+    "front": "Why is simple reaction time faster?",
+    "back": "Because the performer has only one stimulus to identify and one response to make.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Reaction, response and movement time"
+  },
+  {
+    "id": "information-processing-efficiency-024",
+    "front": "Why is choice reaction time slower?",
+    "back": "Because the performer must identify the correct stimulus and select the appropriate response.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Reaction, response and movement time"
+  },
+  {
+    "id": "information-processing-efficiency-025",
+    "front": "How does Hick's Law affect performance?",
+    "back": "An increase in the number of choices increases reaction time.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Factors affecting response time"
+  },
+  {
+    "id": "information-processing-efficiency-026",
+    "front": "How can Hick's Law be used tactically?",
+    "back": "Keeping opponents guessing by increasing their number of choices slows their reaction time.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Factors affecting response time"
+  },
+  {
+    "id": "information-processing-efficiency-027",
+    "front": "Why is Hick's Law not always linear?",
+    "back": "Practice and familiarity with the environment can reduce reaction time despite multiple choices.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Factors affecting response time"
+  },
+  {
+    "id": "information-processing-efficiency-028",
+    "front": "Give a sporting example where Hick's Law is reduced.",
+    "back": "A tennis player anticipating an opponent's serve later in a match.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Factors affecting response time"
+  },
+  {
+    "id": "information-processing-efficiency-029",
+    "front": "What happens if two stimuli occur close together?",
+    "back": "The second stimulus must wait until the first has been processed.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Factors affecting response time"
+  },
+  {
+    "id": "information-processing-efficiency-030",
+    "front": "How does the single-channel hypothesis explain slower response time?",
+    "back": "Processing one stimulus at a time delays the response to subsequent stimuli.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Factors affecting response time"
+  },
+  {
+    "id": "information-processing-efficiency-031",
+    "front": "Why does the psychological refractory period occur?",
+    "back": "Because only one stimulus can be processed at a time.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Factors affecting response time"
+  },
+  {
+    "id": "information-processing-efficiency-032",
+    "front": "What effect can the psychological refractory period have on a performer?",
+    "back": "It may cause the performer to hesitate or delay their response.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Factors affecting response time"
+  },
+  {
+    "id": "information-processing-efficiency-033",
+    "front": "How can performers use the psychological refractory period tactically?",
+    "back": "By using deception, such as dummies or fakes, to delay an opponent's response.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Factors affecting response time"
+  },
+  {
+    "id": "information-processing-efficiency-034",
+    "front": "Give a sporting example of using the psychological refractory period.",
+    "back": "A dummy pass in football or a fake serve in badminton.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Factors affecting response time"
+  },
+  {
+    "id": "information-processing-efficiency-035",
+    "front": "What is anticipation?",
+    "back": "The ability to predict a stimulus before it occurs.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Anticipation"
+  },
+  {
+    "id": "information-processing-efficiency-036",
+    "front": "How does anticipation improve response time?",
+    "back": "It allows information to be processed earlier so movement can begin more quickly.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Anticipation"
+  },
+  {
+    "id": "information-processing-efficiency-037",
+    "front": "What information is used for anticipation?",
+    "back": "Opponent cues, body language, positioning and previous experience.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Anticipation"
+  },
+  {
+    "id": "information-processing-efficiency-038",
+    "front": "What is temporal anticipation?",
+    "back": "Predicting when a stimulus will occur.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Anticipation"
+  },
+  {
+    "id": "information-processing-efficiency-039",
+    "front": "Give a sporting example of temporal anticipation.",
+    "back": "Judging when a rugby high ball will arrive.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Anticipation"
+  },
+  {
+    "id": "information-processing-efficiency-040",
+    "front": "What is spatial anticipation?",
+    "back": "Predicting where a stimulus will occur and what it will be.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Anticipation"
+  },
+  {
+    "id": "information-processing-efficiency-041",
+    "front": "Give a sporting example of spatial anticipation.",
+    "back": "Anticipating the direction of a tennis shot.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Anticipation"
+  },
+  {
+    "id": "information-processing-efficiency-042",
+    "front": "What risk is associated with poor anticipation?",
+    "back": "Incorrect anticipation can increase response time and may lead to a psychological refractory period.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Anticipation"
+  },
+  {
+    "id": "information-processing-efficiency-043",
+    "front": "How can mental practice improve response time?",
+    "back": "It prepares the performer to respond before the stimulus occurs.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve response time"
+  },
+  {
+    "id": "information-processing-efficiency-044",
+    "front": "What types of skills does mental practice work best with?",
+    "back": "Closed skills.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve response time"
+  },
+  {
+    "id": "information-processing-efficiency-045",
+    "front": "How does training specific stimuli improve response time?",
+    "back": "It reduces decision-making time by improving stimulus recognition.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve response time"
+  },
+  {
+    "id": "information-processing-efficiency-046",
+    "front": "Give a sporting example of training specific stimuli.",
+    "back": "A goalkeeper repeatedly practising penalties to one side.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve response time"
+  },
+  {
+    "id": "information-processing-efficiency-047",
+    "front": "How does focus improve response time?",
+    "back": "It enables the performer to identify relevant stimuli more quickly.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve response time"
+  },
+  {
+    "id": "information-processing-efficiency-048",
+    "front": "How can coaches improve focus in training?",
+    "back": "By making relevant stimuli more obvious or intense.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve response time"
+  },
+  {
+    "id": "information-processing-efficiency-049",
+    "front": "How does fitness affect response time?",
+    "back": "Improved fitness can reduce both reaction time and movement time.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve response time"
+  },
+  {
+    "id": "information-processing-efficiency-050",
+    "front": "What types of training improve movement time?",
+    "back": "Plyometric training and interval training.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve response time"
+  },
+  {
+    "id": "information-processing-efficiency-051",
+    "front": "How does anticipation training improve response time?",
+    "back": "It enables performers to predict stimuli more effectively, reducing response time.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve response time"
+  },
+  {
+    "id": "information-processing-efficiency-052",
+    "front": "What is Schema Theory?",
+    "back": "A theory proposed by Richard Schmidt stating that movements are adapted from generalised motor programmes using environmental information and feedback.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Schmidts schema theory"
+  },
+  {
+    "id": "information-processing-efficiency-053",
+    "front": "What is a schema?",
+    "back": "A generalised set of movement patterns stored in the long-term memory that allows skills to be adapted to different situations.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Schmidts schema theory"
+  },
+  {
+    "id": "information-processing-efficiency-054",
+    "front": "Why are schemas useful in sport?",
+    "back": "They allow performers to adapt existing skills to different situations rather than relearning them each time.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Schmidts schema theory"
+  },
+  {
+    "id": "information-processing-efficiency-055",
+    "front": "How does Schema Theory differ from fixed motor programmes?",
+    "back": "Schema Theory suggests performers adapt generalised motor programmes to suit the situation rather than repeating an identical movement every time.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Schmidts schema theory"
+  },
+  {
+    "id": "information-processing-efficiency-056",
+    "front": "How can skills transfer between sports using schemas?",
+    "back": "Core movement patterns can be adapted and transferred to similar skills in different sports.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Schmidts schema theory"
+  },
+  {
+    "id": "information-processing-efficiency-057",
+    "front": "What are the two types of schema?",
+    "back": "Recall schema and recognition schema.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Schmidts schema theory"
+  },
+  {
+    "id": "information-processing-efficiency-058",
+    "front": "What is a recall schema?",
+    "back": "The part of the schema used before movement to decide and plan the action to be performed.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Schmidts schema theory"
+  },
+  {
+    "id": "information-processing-efficiency-059",
+    "front": "What is a recognition schema?",
+    "back": "The part of the schema used during and after movement to evaluate performance using feedback.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Schmidts schema theory"
+  },
+  {
+    "id": "information-processing-efficiency-060",
+    "front": "What are the four sources of information in Schema Theory?",
+    "back": "Initial conditions, response specifications, sensory consequences and response outcome.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Schmidts schema theory"
+  },
+  {
+    "id": "information-processing-efficiency-061",
+    "front": "What are initial conditions in Schema Theory?",
+    "back": "Information from the environment before performing a skill.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Schmidts schema theory"
+  },
+  {
+    "id": "information-processing-efficiency-062",
+    "front": "Why are initial conditions important?",
+    "back": "They help the performer decide how the movement should be adapted.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Schmidts schema theory"
+  },
+  {
+    "id": "information-processing-efficiency-063",
+    "front": "What are response specifications?",
+    "back": "Information about how the movement should be performed.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Schmidts schema theory"
+  },
+  {
+    "id": "information-processing-efficiency-064",
+    "front": "What is an example of a response specification?",
+    "back": "Deciding how much force or speed to apply to a movement.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Schmidts schema theory"
+  },
+  {
+    "id": "information-processing-efficiency-065",
+    "front": "What are sensory consequences?",
+    "back": "Information about how the movement feels while it is being performed.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Schmidts schema theory"
+  },
+  {
+    "id": "information-processing-efficiency-066",
+    "front": "Give an example of sensory consequences.",
+    "back": "Feeling the force of a pass or the grip on a ball.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Schmidts schema theory"
+  },
+  {
+    "id": "information-processing-efficiency-067",
+    "front": "Why are sensory consequences important?",
+    "back": "They help the performer monitor and adjust the movement during performance.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Schmidts schema theory"
+  },
+  {
+    "id": "information-processing-efficiency-068",
+    "front": "What is response outcome?",
+    "back": "Feedback about the success or outcome of the movement.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Schmidts schema theory"
+  },
+  {
+    "id": "information-processing-efficiency-069",
+    "front": "What happens if the response outcome is unsuccessful?",
+    "back": "The performer adapts the generalised motor programme to improve future performance.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Schmidts schema theory"
+  },
+  {
+    "id": "information-processing-efficiency-070",
+    "front": "Which sources of information form the recognition schema?",
+    "back": "Sensory consequences and response outcome.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Schmidts schema theory"
+  },
+  {
+    "id": "information-processing-efficiency-071",
+    "front": "What is the role of the recognition schema?",
+    "back": "To evaluate performance and make adjustments using feedback.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Schmidts schema theory"
+  },
+  {
+    "id": "information-processing-efficiency-072",
+    "front": "What are the two coaching implications of Schema Theory?",
+    "back": "Varied practice and feedback.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Coaching implications of Schmidts schema theory"
+  },
+  {
+    "id": "information-processing-efficiency-073",
+    "front": "Why is varied practice important in Schema Theory?",
+    "back": "It helps performers adapt the same skill to a wide range of situations, strengthening their schema.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Coaching implications of Schmidts schema theory"
+  },
+  {
+    "id": "information-processing-efficiency-074",
+    "front": "Why is feedback important in Schema Theory?",
+    "back": "It helps refine and adapt generalised motor programmes for future performances.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Coaching implications of Schmidts schema theory"
+  },
+  {
+    "id": "information-processing-efficiency-075",
+    "front": "Why should praise be used when applying Schema Theory?",
+    "back": "It reinforces successful adaptations and motivates performers to continue improving.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Coaching implications of Schmidts schema theory"
+  },
+  {
+    "id": "information-processing-efficiency-076",
+    "front": "Why do coaches use memory strategies?",
+    "back": "To improve the storage and retrieval of information in long-term memory.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve information processing"
+  },
+  {
+    "id": "information-processing-efficiency-077",
+    "front": "What are rewards used for in memory storage?",
+    "back": "To motivate performers to remember and repeat correct actions.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve information processing"
+  },
+  {
+    "id": "information-processing-efficiency-078",
+    "front": "What types of rewards can be used?",
+    "back": "Intrinsic and extrinsic rewards.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve information processing"
+  },
+  {
+    "id": "information-processing-efficiency-079",
+    "front": "What is association as a memory strategy?",
+    "back": "Linking new information with existing knowledge, emotions or experiences.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve information processing"
+  },
+  {
+    "id": "information-processing-efficiency-080",
+    "front": "How does association help memory?",
+    "back": "It improves recall by connecting new information to existing memories.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve information processing"
+  },
+  {
+    "id": "information-processing-efficiency-081",
+    "front": "What is mental practice?",
+    "back": "Rehearsing a skill mentally without physically performing it.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve information processing"
+  },
+  {
+    "id": "information-processing-efficiency-082",
+    "front": "How does mental practice help memory?",
+    "back": "It strengthens the storage of motor programmes in long-term memory.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve information processing"
+  },
+  {
+    "id": "information-processing-efficiency-083",
+    "front": "What is chunking?",
+    "back": "Breaking complex information or skills into smaller, manageable units.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve information processing"
+  },
+  {
+    "id": "information-processing-efficiency-084",
+    "front": "Why is chunking useful?",
+    "back": "It reduces the risk of information overload in working memory.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve information processing"
+  },
+  {
+    "id": "information-processing-efficiency-085",
+    "front": "What is focus in relation to memory?",
+    "back": "Concentrating on relevant information while ignoring distractions.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve information processing"
+  },
+  {
+    "id": "information-processing-efficiency-086",
+    "front": "How does focus improve memory storage?",
+    "back": "It ensures important information enters working memory and is transferred to long-term memory.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve information processing"
+  },
+  {
+    "id": "information-processing-efficiency-087",
+    "front": "What is chaining?",
+    "back": "Linking individual movements together to form a complete sequence.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve information processing"
+  },
+  {
+    "id": "information-processing-efficiency-088",
+    "front": "Why is chaining useful?",
+    "back": "It helps performers learn, store and recall serial skills.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve information processing"
+  },
+  {
+    "id": "information-processing-efficiency-089",
+    "front": "What is repetition?",
+    "back": "The repeated practice of a skill or movement.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve information processing"
+  },
+  {
+    "id": "information-processing-efficiency-090",
+    "front": "How does repetition affect memory?",
+    "back": "It strengthens the coding and storage of motor programmes in long-term memory.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve information processing"
+  },
+  {
+    "id": "information-processing-efficiency-091",
+    "front": "What acronym helps remember the memory storage strategies?",
+    "back": "Males And Females Can Run Charity Races.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve information processing"
+  },
+  {
+    "id": "information-processing-efficiency-092",
+    "front": "What does \"Males\" stand for in the acronym?",
+    "back": "Mental practice.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve information processing"
+  },
+  {
+    "id": "information-processing-efficiency-093",
+    "front": "What does \"And\" stand for in the acronym?",
+    "back": "Association.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve information processing"
+  },
+  {
+    "id": "information-processing-efficiency-094",
+    "front": "What does \"Females\" stand for in the acronym?",
+    "back": "Focus.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve information processing"
+  },
+  {
+    "id": "information-processing-efficiency-095",
+    "front": "What does \"Can\" stand for in the acronym?",
+    "back": "Chunking.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve information processing"
+  },
+  {
+    "id": "information-processing-efficiency-096",
+    "front": "What does \"Run\" stand for in the acronym?",
+    "back": "Rewards.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve information processing"
+  },
+  {
+    "id": "information-processing-efficiency-097",
+    "front": "What does \"Charity\" stand for in the acronym?",
+    "back": "Chaining.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve information processing"
+  },
+  {
+    "id": "information-processing-efficiency-098",
+    "front": "What does \"Races\" stand for in the acronym?",
+    "back": "Repetition.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Strategies to improve information processing"
   }
 ]

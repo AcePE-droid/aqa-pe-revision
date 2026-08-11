@@ -152,5 +152,208 @@
     "back": "It increases the likelihood that the observer identifies with the model and is motivated to copy the behaviour.",
     "subtopicId": "principles-theories-learning",
     "group": "Social learning theory"
+  },
+  {
+    "id": "principles-theories-learning-023",
+    "front": "Describe the cognitive stage of learning.",
+    "back": "The first stage of learning; the performer is a novice and develops an understanding of the skill through trial and error while exploring different sub-routines.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Stages of learning"
+  },
+  {
+    "id": "principles-theories-learning-024",
+    "front": "Describe the associative stage of learning.",
+    "back": "The second stage of learning; performance becomes more consistent and fluent as motor programmes are strengthened and refined.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Stages of learning"
+  },
+  {
+    "id": "principles-theories-learning-025",
+    "front": "Describe the autonomous stage of learning.",
+    "back": "The final stage of learning; the performer is highly skilled and movements are automatic, accurate and require little conscious thought.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Stages of learning"
+  },
+  {
+    "id": "principles-theories-learning-026",
+    "front": "What is positive feedback?",
+    "back": "Information that reinforces successful performance by highlighting what was done well; helps maintain confidence and motivation.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Stages of learning"
+  },
+  {
+    "id": "principles-theories-learning-027",
+    "front": "What is negative feedback?",
+    "back": "Information that identifies errors so they can be corrected and poor habits eliminated; experienced performers often value it because it highlights areas for improvement.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Stages of learning"
+  },
+  {
+    "id": "principles-theories-learning-028",
+    "front": "What is extrinsic feedback?",
+    "back": "Feedback provided by an external source, such as a coach, teacher or teammate, to help improve or maintain performance.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Stages of learning"
+  },
+  {
+    "id": "principles-theories-learning-029",
+    "front": "What is intrinsic feedback?",
+    "back": "Feedback that comes from the performer's own senses during or after performance.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Stages of learning"
+  },
+  {
+    "id": "principles-theories-learning-030",
+    "front": "What is knowledge of results?",
+    "back": "Feedback about the outcome of a performance; e.g. whether a pass reached its target or a netball shot was successful.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Stages of learning"
+  },
+  {
+    "id": "principles-theories-learning-031",
+    "front": "What is knowledge of performance?",
+    "back": "Feedback about the quality of the movement, explaining how and why the performance was successful or unsuccessful.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Stages of learning"
+  },
+  {
+    "id": "principles-theories-learning-032",
+    "front": "At the cognitive stage, what feedback would a performer benefit from the most?",
+    "back": "Positive encouragement and frequent extrinsic feedback.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Stages of learning"
+  },
+  {
+    "id": "principles-theories-learning-033",
+    "front": "At the associative stage, what feedback would a performer benefit from the most?",
+    "back": "Extrinsic feedback to refine performance, alongside increasing use of intrinsic feedback to evaluate performance independently.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Stages of learning"
+  },
+  {
+    "id": "principles-theories-learning-034",
+    "front": "At the autonomous stage, what feedback would a performer benefit from the most?",
+    "back": "Detailed feedback to fine-tune performance and correct minor errors.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Stages of learning"
+  },
+  {
+    "id": "principles-theories-learning-035",
+    "front": "What are the causes of a learning plateau?",
+    "back": "-Fatigue. -Lack of motivation. -Boredom. -Poor coaching. -Targets that are too easy.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Stages of learning"
+  },
+  {
+    "id": "principles-theories-learning-036",
+    "front": "What are three solutions to a learning plateau?",
+    "back": "-Introduce variety to prevent boredom. -Set new challenges or higher targets. -Improve the quality of coaching.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Stages of learning"
+  },
+  {
+    "id": "principles-theories-learning-037",
+    "front": "What is drive reduction?",
+    "back": "A decrease in motivation after achieving a goal, which can lead to a temporary decline in performance.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Stages of learning"
+  },
+  {
+    "id": "principles-theories-learning-038",
+    "front": "When does drive reduction occur?",
+    "back": "When a performer achieves success and the original drive or motivation to succeed is reduced.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Stages of learning"
+  },
+  {
+    "id": "principles-theories-learning-039",
+    "front": "What are the four theories of learning?",
+    "back": "Insight learning (Gestalt theory); Operant conditioning (Skinner); Constructivism (Vygotsky); Observational learning (Bandura).",
+    "subtopicId": "principles-theories-learning",
+    "group": "Theories of learning"
+  },
+  {
+    "id": "principles-theories-learning-040",
+    "front": "What is operant conditioning (Skinner)?",
+    "back": "A behaviourist theory that uses reinforcement to encourage correct responses to be repeated; rewarded behaviours are more likely to be repeated because the stimulus-response (S-R) bond is strengthened.",
+    "subtopicId": "principles-theories-learning"
+  },
+  {
+    "id": "principles-theories-learning-041",
+    "front": "What is a satisfier?",
+    "back": "An outcome that creates a pleasant feeling, increasing the likelihood that the behaviour will be repeated.",
+    "subtopicId": "principles-theories-learning"
+  },
+  {
+    "id": "principles-theories-learning-042",
+    "front": "What is an annoyer?",
+    "back": "An outcome that creates an unpleasant feeling, reducing the likelihood that the behaviour will be repeated.",
+    "subtopicId": "principles-theories-learning"
+  },
+  {
+    "id": "principles-theories-learning-043",
+    "front": "What is the stimulus-response (S-R) bond?",
+    "back": "The link between a stimulus and the response it produces; operant conditioning strengthens this bond through positive reinforcement, negative reinforcement and punishment.",
+    "subtopicId": "principles-theories-learning"
+  },
+  {
+    "id": "principles-theories-learning-044",
+    "front": "What is punishment?",
+    "back": "The presentation of an unpleasant stimulus following an undesired response to reduce the likelihood of that behaviour being repeated.",
+    "subtopicId": "principles-theories-learning"
+  },
+  {
+    "id": "principles-theories-learning-045",
+    "front": "What is observational learning (Bandura)?",
+    "back": "Learning by observing and imitating the behaviour of others; coaches use demonstrations and role models to help performers develop skills.",
+    "subtopicId": "principles-theories-learning"
+  },
+  {
+    "id": "principles-theories-learning-046",
+    "front": "What are the four processes that make a performer more likely to copy a demonstration?",
+    "back": "1. Attention – Focusing on the demonstration. 2. Retention – Remembering and recalling the demonstration. 3. Motor production – Having the physical and mental ability to perform the skill. 4. Motivation – Having the desire to perform the skill.",
+    "subtopicId": "principles-theories-learning"
+  },
+  {
+    "id": "principles-theories-learning-047",
+    "front": "What is social development theory (Vygotsky)?",
+    "back": "A theory suggesting that learning occurs through interaction with others; skills are learnt from a coach or More Knowledgeable Other (MKO), who provides guidance, support and examples.",
+    "subtopicId": "principles-theories-learning"
+  },
+  {
+    "id": "principles-theories-learning-048",
+    "front": "What is inter-psychological learning?",
+    "back": "The stage where learning takes place through interaction with a coach or More Knowledgeable Other (MKO), before the learner internalises and applies the information independently.",
+    "subtopicId": "principles-theories-learning"
+  },
+  {
+    "id": "principles-theories-learning-049",
+    "front": "What is constructivism?",
+    "back": "A theory of learning in which knowledge and skills are built progressively from the performer's current level of understanding and experience.",
+    "subtopicId": "principles-theories-learning"
+  },
+  {
+    "id": "principles-theories-learning-050",
+    "front": "What is the zone of proximal development (ZPD)?",
+    "back": "The gap between what a performer can achieve independently and what they can achieve with guidance from a More Knowledgeable Other (MKO).",
+    "subtopicId": "principles-theories-learning"
+  },
+  {
+    "id": "principles-theories-learning-051",
+    "front": "What is insight learning (Gestalt theory)?",
+    "back": "A theory where performers use previous experiences and understanding to solve problems by considering the whole situation, promoting independent thinking and intrinsic motivation.",
+    "subtopicId": "principles-theories-learning"
+  },
+  {
+    "id": "principles-theories-learning-052",
+    "front": "What is an advantage of insight learning?",
+    "back": "Helps performers develop motor programmes, improve problem-solving skills and build confidence.",
+    "subtopicId": "principles-theories-learning"
+  },
+  {
+    "id": "principles-theories-learning-053",
+    "front": "What is a disadvantage of insight learning?",
+    "back": "Not suitable for beginners because they have limited previous experience and knowledge to solve problems independently.",
+    "subtopicId": "principles-theories-learning"
   }
 ]

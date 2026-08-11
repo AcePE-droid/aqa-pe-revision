@@ -82,5 +82,313 @@
     "back": "It has generated significantly higher broadcasting revenues, particularly benefiting already popular sports such as football, e.g. Sky and the Premier League.",
     "subtopicId": "post-wwii-to-present",
     "group": "Media"
+  },
+  {
+    "id": "post-wwii-to-present-013",
+    "front": "What are the three parts of the Golden Triangle?",
+    "back": "Sport; Media; Sponsorship",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Golden triangle"
+  },
+  {
+    "id": "post-wwii-to-present-014",
+    "front": "What is commercialisation?",
+    "back": "The process of attempting to gain money from an activity, e.g. sport",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Golden triangle"
+  },
+  {
+    "id": "post-wwii-to-present-015",
+    "front": "What is sponsorship?",
+    "back": "When a company pays for its products to be publicly displayed or advertised, usually to increase sales",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Golden triangle"
+  },
+  {
+    "id": "post-wwii-to-present-016",
+    "front": "What is media?",
+    "back": "An organised means of communication by which large numbers of different people can be reached quickly",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Golden triangle"
+  },
+  {
+    "id": "post-wwii-to-present-017",
+    "front": "What are the characteristics of commercial sport?",
+    "back": "Professional sport with high quality and skill levels; Sponsorship and business go hand in hand; Sport is mass entertainment; Events are structured to fit relatively short viewing times; Contracts involve merchandise sales and television rights; Athletes become commodities through product endorsement; Wide media coverage focuses on visually appealing, high-quality sports with simple rules and close competition",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Golden triangle"
+  },
+  {
+    "id": "post-wwii-to-present-018",
+    "front": "What are the effects of commercialisation on professional performers?",
+    "back": "Receive high incomes from participation and endorsements, providing financial security and allowing full-time training; Paid for success so winning becomes important; Can be pressured to compete when injured; Must specialise and dedicate themselves to one sport; Become entertainers and household names; Controlled by sponsors, become public commodities and lose privacy",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Golden triangle"
+  },
+  {
+    "id": "post-wwii-to-present-019",
+    "front": "What are the effects of commercialisation on sport?",
+    "back": "Rules and scoring systems have changed to speed up play and reduce boredom (e.g. multi-ball in football, rally scoring in badminton); Breaks allow sponsors to advertise; Competition formats have changed (e.g. Twenty20 cricket); Women's sport receives less media coverage, reducing funding, participation and role models; Increased technology has created a more personal viewing experience",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Golden triangle"
+  },
+  {
+    "id": "post-wwii-to-present-020",
+    "front": "Why do companies invest in sport?",
+    "back": "Increased sales, publicity and profit; Greater brand awareness and brand value; Association with excellence at the highest level of sport; Association with a healthy image; Corporate hospitality opportunities; Tax relief; Improved company morale through association with sporting success",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Golden triangle"
+  },
+  {
+    "id": "post-wwii-to-present-021",
+    "front": "What is the role of the media in sport?",
+    "back": "The media includes newspapers, radio, the internet, television and social media; Buying and selling TV broadcasting rights is important because sport has become global; Globalisation links nations through improved communication and travel",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Golden triangle"
+  },
+  {
+    "id": "post-wwii-to-present-022",
+    "front": "What is globalisation and what is one negative of it?",
+    "back": "The increasing connection of nations through communication and travel; Seen through global sponsorship (e.g. Coca-Cola), international player recruitment and the spread of sports to new countries (e.g. 1994 FIFA World Cup in the USA); A negative is increased pressure on athletes, which may encourage the use of illegal performance-enhancing substances",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Golden triangle"
+  },
+  {
+    "id": "post-wwii-to-present-023",
+    "front": "What is the impact of social media on sport?",
+    "back": "Social media consists of online apps and websites where users share content and interact; It has changed the behaviour of performers and fans at all levels; Younger generations increasingly use platforms such as Twitter and Facebook to keep up to date with sport instead of television or national news websites",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Golden triangle"
+  },
+  {
+    "id": "post-wwii-to-present-024",
+    "front": "What is the amateur code?",
+    "back": "Stresses that sport should be played for the love of it",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-025",
+    "front": "What is the professional code?",
+    "back": "Places more emphasis on winning, prizes and money",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-026",
+    "front": "What were some characteristics of amateurism in the late 19th century?",
+    "back": "Manliness and physical endeavour; Appreciating the value of mind and health; Appreciating the value of rule-regulated activity; High moral integrity",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-027",
+    "front": "What were some characteristics of the gentleman amateur?",
+    "back": "Being a respected member of society; Participation was character-building and training was frowned upon; Played sport to a high moral code; Referees were deemed unnecessary as they believed they could govern themselves",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-028",
+    "front": "What were some positive impacts of amateurism?",
+    "back": "Elite sport was run by the middle and upper classes; Code of amateurism; Code of ethics; Belonging to the social elite; Participation in sport was more important than winning; The middle class admired the values of the upper class",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-029",
+    "front": "What increased as sport became more popular and what did the working class have more of?",
+    "back": "Demand for spectators increased; The working class had more leisure time and higher wages",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-030",
+    "front": "What background did professionals come from?",
+    "back": "Working-class, low-status backgrounds",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-031",
+    "front": "What became more common as professionalism developed?",
+    "back": "Foul play and gamesmanship",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-032",
+    "front": "What were the positive impacts of 19th-century professionalism on sport development?",
+    "back": "Broken-time payments; Paid according to results, so standards improved; Earnings from sport became greater than working-class wages; Created an avenue for social mobility",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-033",
+    "front": "What are some key features of early 20th-century amateurs?",
+    "back": "High status; Controllers of sport; Top performers came from upper- and middle-class backgrounds; High moral values",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-034",
+    "front": "What are some features of modern-day amateurs?",
+    "back": "Lower status; Despite competing at a high level, they are not professional; Participation is open to all; Financial support is available for amateurs",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-035",
+    "front": "What are some positives of modern-day amateurism?",
+    "back": "The amateur code is still evident in British sport; Values and Olympic principles continue to be promoted",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-036",
+    "front": "What are some features of modern-day professionalism?",
+    "back": "Open to all social classes; Respected for talent and effort; High rewards through media and sponsorship; More time to train leading to higher performance levels; Positive role models; Increased spectators; Celebrity status",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-037",
+    "front": "Who invented lawn tennis?",
+    "back": "The middle class; they aspired to be like the upper class but were excluded from playing real tennis",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-038",
+    "front": "What did lawn tennis suit?",
+    "back": "Suburban housing with lawned gardens; walls and hedges ensured privacy",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-039",
+    "front": "What was developed because houses could not accommodate a tennis court?",
+    "back": "Private tennis clubs",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-040",
+    "front": "When lawn tennis was allowed at Wimbledon, who was allowed to play and what were the impacts?",
+    "back": "Women were allowed to play; Helped overcome negative stereotypes; Positive female role models emerged; Males and females could play together at social gatherings",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-041",
+    "front": "What could the middle class easily afford?",
+    "back": "Equipment such as racquets, nets and balls",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-042",
+    "front": "What is public provision?",
+    "back": "When sport eventually became available to the working class",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-043",
+    "front": "What were some characteristics of the further development of lawn tennis in the 2000s?",
+    "back": "Spread all around the world; Four major Grand Slam tournaments; Players could earn large amounts of money",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-044",
+    "front": "What did the WTA (Women's Tennis Association) help do?",
+    "back": "Helped improve the way women professional tennis players were viewed",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-045",
+    "front": "What are some characteristics of the development of track and field events?",
+    "back": "Athletics became popular in towns and cities with purpose-built tracks; Large numbers of spectators attended; Wagering was still common; Upper and middle classes competed for enjoyment, while the working class competed to earn money",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-046",
+    "front": "What did a professional become?",
+    "back": "Someone who competed for money",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-047",
+    "front": "What were some characteristics of the amateur athletics club?",
+    "back": "Formed by gentleman amateurs; Exclusion clause for professionals; Ideals of courage, physical endeavour and moral integrity; No wagering permitted",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-048",
+    "front": "What were some characteristics of the Amateur Athletic Association (AAA)?",
+    "back": "Women were prevented from competing; Professionals competed for money, making class divisions less apparent",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-049",
+    "front": "When was the Women's Amateur Athletic Association (WAAA) developed and what were some rules?",
+    "back": "Developed in 1922; Women were not allowed to compete in events over 800 metres",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-050",
+    "front": "What was industrialisation?",
+    "back": "The movement from rural to urban environments",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-051",
+    "front": "What were some characteristics of the modern-day development of association football?",
+    "back": "Urbanisation leading to more spectators and specialist facilities; More disposable income through higher wages and increased ticket sales; Improved transport allowing away fixtures; Increased organisation through the FA, national rules and codification",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-052",
+    "front": "What are some characteristics of elite female footballers in modern-day sport?",
+    "back": "Equal opportunities making football more available and socially acceptable; Increased media coverage of women's football; More female role models; More clubs being formed; Increased participation through greater funding",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Changing status of amateur and professionals limited to the development of assossiation football, athletics, lawn tennis"
+  },
+  {
+    "id": "post-wwii-to-present-053",
+    "front": "What are the socio-cultural factors that have led to football becoming increasingly available to women?",
+    "back": "Equal opportunities through the Sex Discrimination Act; Women's contribution during the war helped break down myths and stereotypes; Increased media coverage of women's football (e.g. live coverage, EA Sports FIFA 16); More female role models; Greater provision through school PE programmes; Increased approval and encouragement from the FA; More clubs being formed; Increased participation through greater funding; More free time",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Factors affecting emergance of elite female performers"
+  },
+  {
+    "id": "post-wwii-to-present-054",
+    "front": "What are some developments in women's football?",
+    "back": "Increasing prominence across the world; UEFA Women's EURO and UEFA Women's Champions League; Top female footballers becoming personalities and role models; Increased numbers of registered players, qualified referees and coaches; More countries with women's national leagues; Norway, Sweden, Denmark, the Netherlands, Germany, France and England all have 60,000+ female players; Increased earnings and opportunities to play professionally",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Factors affecting emergance of elite female performers"
+  },
+  {
+    "id": "post-wwii-to-present-055",
+    "front": "What are some post-WW2 developments in athletics?",
+    "back": "Interest increased after the 1948 London Olympics; Other countries found ways around strict amateur rules while Britain largely retained them; Trust funds were introduced, allowing athletes to receive financial rewards while maintaining amateur status; The governing body controlled and authorised payments; Day-to-day living expenses were paid, with remaining funds available upon retirement; Athletes could compete worldwide in championships and Grand Prix events, earning appearance fees and prize money",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Factors affecting emergance of elite female performers"
+  },
+  {
+    "id": "post-wwii-to-present-056",
+    "front": "What are some characteristics of modern-day athletics?",
+    "back": "Trust funds are no longer used and athletes can be paid directly within World Athletics (formerly IAAF) rules; World Athletics organises major international competitions with significant prize money; Athletes earn through prize money, sponsorship deals, ticket sales and global media coverage; Women's events have gradually become equal (marathon 1984, triple jump 1996, hammer 2000); Competitions such as the Diamond League allow female athletes to earn millions through their performances",
+    "subtopicId": "post-wwii-to-present",
+    "group": "Factors affecting emergance of elite female performers"
   }
 ]
