@@ -1,5 +1,5 @@
-import Link from "next/link";
 import type { LucideIcon } from "lucide-react";
+import SubjectCard from "@/components/SubjectCard";
 
 type Subject = {
   slug: string;
@@ -25,17 +25,13 @@ export default function SectionHub({ eyebrow, title, description, subjects }: Pr
 
       <div className="mt-8 flex flex-col gap-3">
         {subjects.map((subject) => (
-          <Link
+          <SubjectCard
             key={subject.slug}
+            name={subject.name}
+            subtitle={subject.subtitle}
             href={subject.href}
-            className="flex items-start gap-4 rounded-lg border border-slate-200 p-5 hover:border-blue-300 hover:bg-blue-50/50"
-          >
-            <subject.Icon className="mt-0.5 h-6 w-6 shrink-0 text-blue-600" />
-            <div>
-              <h2 className="text-lg font-semibold text-slate-900">{subject.name}</h2>
-              <p className="mt-1 text-sm text-slate-500">{subject.subtitle}</p>
-            </div>
-          </Link>
+            Icon={subject.Icon}
+          />
         ))}
       </div>
     </div>
