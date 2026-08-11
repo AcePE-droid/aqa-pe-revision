@@ -9,12 +9,20 @@ import { setFlashcardStatus, type FlashcardStatus } from "@/lib/progress";
 type Props = {
   subtopicId: string;
   subtopicName: string;
+  topicName: string;
   backHref: string;
   cards: Flashcard[];
   groupLabel?: string;
 };
 
-export default function FlashcardStudy({ subtopicId, subtopicName, backHref, cards, groupLabel }: Props) {
+export default function FlashcardStudy({
+  subtopicId,
+  subtopicName,
+  topicName,
+  backHref,
+  cards,
+  groupLabel,
+}: Props) {
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
 
@@ -41,28 +49,33 @@ export default function FlashcardStudy({ subtopicId, subtopicName, backHref, car
     );
   }
 
+  const breadcrumb = [topicName, subtopicName, groupLabel].filter(Boolean).join(" · ");
+
   return (
-    <div className="fixed inset-0 z-50 flex flex-col bg-white">
-      <div className="flex items-center justify-between px-4 py-4 sm:px-6">
-        <Link href={backHref} aria-label="Exit study mode" className="text-slate-400 hover:text-slate-700">
+    <div className="fixed inset-0 z-50 flex flex-col bg-white [background-image:radial-gradient(circle,rgba(100,116,139,0.09)_1.25px,transparent_1.25px)] [background-size:28px_28px] [background-position:center]">
+      <div className="flex items-center justify-between gap-4 px-4 py-4 sm:px-6">
+        <Link
+          href={backHref}
+          aria-label="Exit study mode"
+          className="shrink-0 text-slate-400 hover:text-slate-700"
+        >
           <X className="h-6 w-6" />
         </Link>
-        <div className="text-center">
-          {groupLabel && <p className="text-xs font-medium uppercase tracking-wide text-blue-600">{groupLabel}</p>}
-          <p className="text-sm font-medium text-slate-500">
-            {index + 1} / {cards.length}
-          </p>
-        </div>
-        <div className="w-6" />
+        <p className="min-w-0 truncate text-center text-sm text-slate-500">{breadcrumb}</p>
+        <p className="shrink-0 text-sm text-slate-500">
+          Card {index + 1} of {cards.length}
+        </p>
       </div>
 
-      <div className="flex flex-1 flex-col items-center justify-center px-4">
+      <div className="flex flex-1 flex-col items-center justify-center px-4 pb-4">
         <button
           onClick={() => setFlipped((f) => !f)}
-          className="flex aspect-[3/2] w-full max-w-lg flex-col items-center justify-center rounded-2xl border border-slate-200 p-8 text-center shadow-sm transition-colors hover:border-blue-300"
+          className="flex min-h-[70vh] w-full flex-col items-center justify-center rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-lg transition-colors hover:border-blue-300 sm:min-h-[55vh] sm:w-[65%] sm:max-w-3xl sm:p-12"
         >
-          <p className="text-lg font-medium text-slate-900">{flipped ? card.back : card.front}</p>
-          <p className="mt-6 text-xs uppercase tracking-wide text-slate-400">
+          <p className="text-2xl font-medium leading-relaxed text-slate-900 sm:text-3xl">
+            {flipped ? card.back : card.front}
+          </p>
+          <p className="mt-8 text-[11px] font-medium uppercase tracking-wide text-slate-400">
             Tap to flip
           </p>
         </button>
