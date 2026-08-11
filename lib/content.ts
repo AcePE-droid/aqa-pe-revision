@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import type { Paper, Topic, Subtopic, Flashcard, Question, PastPaper } from "@/types/content";
+import { slugify } from "@/lib/slug";
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
 
@@ -25,6 +26,10 @@ export function getPaperBySlug(slug: string): Paper | undefined {
   return getPapers().find((p) => p.slug === slug);
 }
 
+export function getPaperById(id: string): Paper | undefined {
+  return getPapers().find((p) => p.id === id);
+}
+
 export function getTopics(): Topic[] {
   return readJson<Topic[]>("topics.json");
 }
@@ -35,6 +40,27 @@ export function getTopicsByPaperId(paperId: string): Topic[] {
 
 export function getTopicBySlug(slug: string): Topic | undefined {
   return getTopics().find((t) => t.slug === slug);
+}
+
+/**
+ * Subjects (e.g. "Anatomy & Physiology") group Topics across both papers.
+ * Order follows first appearance in topics.json, which matches the spec order.
+ */
+export function getSubjects(): { name: string; slug: string }[] {
+  const seen = new Map<string, string>();
+  for (const topic of getTopics()) {
+    const slug = slugify(topic.subject);
+    if (!seen.has(slug)) seen.set(slug, topic.subject);
+  }
+  return Array.from(seen.entries()).map(([slug, name]) => ({ slug, name }));
+}
+
+export function getSubjectBySlug(slug: string): { name: string; slug: string } | undefined {
+  return getSubjects().find((s) => s.slug === slug);
+}
+
+export function getTopicsBySubject(subjectName: string): Topic[] {
+  return getTopics().filter((t) => t.subject === subjectName);
 }
 
 export function getSubtopics(): Subtopic[] {

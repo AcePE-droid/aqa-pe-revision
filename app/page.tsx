@@ -23,6 +23,13 @@ export default function Home() {
       </div>
 
       <div className="mt-16 grid gap-4 sm:grid-cols-2">
+        <Link
+          href="/flashcards"
+          className="rounded-lg border border-slate-200 p-6 hover:border-blue-300 hover:bg-blue-50/50"
+        >
+          <h2 className="text-lg font-semibold text-slate-900">Flashcards</h2>
+          <p className="mt-1 text-sm text-slate-500">Browse by subject and study with active recall</p>
+        </Link>
         {papers.map((paper) => (
           <Link
             key={paper.id}

@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 const navLinks = [
+  { href: "/flashcards", label: "Flashcards" },
   { href: "/paper-1", label: "Paper 1" },
   { href: "/paper-2", label: "Paper 2" },
   { href: "/past-papers", label: "Past Papers" },
