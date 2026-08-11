@@ -12,6 +12,7 @@ type Props = {
   total: number;
   progressBarClassName?: string;
   hoverBorderClassName?: string;
+  arrowClassName?: string;
 };
 
 export default function TopicCard({
@@ -21,6 +22,7 @@ export default function TopicCard({
   total,
   progressBarClassName = "bg-blue-600",
   hoverBorderClassName = "hover:border-blue-300",
+  arrowClassName = "text-blue-600",
 }: Props) {
   const [known, setKnown] = useState<number | null>(null);
 
@@ -53,7 +55,7 @@ export default function TopicCard({
     >
       <div className="flex items-start justify-between gap-3">
         <h2 className="text-lg font-bold text-slate-900">{name}</h2>
-        <ArrowRight className="mt-1 h-4 w-4 shrink-0 text-blue-600" />
+        <ArrowRight className={`mt-1 h-4 w-4 shrink-0 ${arrowClassName}`} />
       </div>
       <p className="text-sm text-slate-500">
         {known === null
