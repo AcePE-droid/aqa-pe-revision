@@ -13,7 +13,7 @@ export default async function QuestionsSubtopicPage(
   const questions = getQuestions(paper.slug, topic.slug, subtopic.slug);
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
+    <div className="py-16">
       <Link
         href={`/questions/${paper.slug}/${topic.slug}`}
         className="text-sm font-medium text-blue-600 hover:underline"

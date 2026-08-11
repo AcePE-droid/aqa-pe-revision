@@ -13,7 +13,7 @@ export default async function TopicPage(props: PageProps<"/[paperSlug]/[topicSlu
   const subtopics = getSubtopicsByTopicId(topic.id);
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
+    <div className="py-16">
       <Link
         href={`/flashcards/${slugify(topic.subject)}`}
         className="text-sm font-medium text-blue-600 hover:underline"

@@ -18,7 +18,7 @@ type Props = {
 
 export default function SectionHub({ eyebrow, title, description, subjects }: Props) {
   return (
-    <div className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
+    <div className="py-16">
       <p className="text-sm font-medium text-blue-600">{eyebrow}</p>
       <h1 className="mt-1 font-serif text-3xl font-semibold tracking-tight text-slate-900">{title}</h1>
       <p className="mt-2 text-slate-600">{description}</p>

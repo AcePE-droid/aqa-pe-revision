@@ -5,7 +5,7 @@ export default function PastPapersPage() {
   const papers = getPastPapers();
 
   return (
-    <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6">
+    <div className="py-16">
       <h1 className="font-serif text-3xl font-semibold tracking-tight text-slate-900">
         Past Papers
       </h1>

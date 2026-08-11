@@ -22,7 +22,7 @@ export default async function QuestionPage(
     index < questions.length - 1 ? `${basePath}/questions/${questions[index + 1].id}` : null;
 
   return (
-    <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6">
+    <div className="py-16">
       <Link href={listHref} className="text-sm font-medium text-blue-600 hover:underline">
         &larr; {subtopic.name}
       </Link>

@@ -11,7 +11,7 @@ const navLinks = [
 export default function Header() {
   return (
     <header className="sticky top-0 z-10 border-b border-slate-200 bg-white/95 backdrop-blur">
-      <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-4 sm:px-6">
+      <div className="mx-auto flex max-w-[1100px] items-center justify-between px-6 py-4 md:px-8 lg:px-12">
         <Link href="/" className="text-lg font-semibold tracking-tight text-slate-900">
           PE Revision
         </Link>

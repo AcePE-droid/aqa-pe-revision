@@ -25,7 +25,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="en" className={`${inter.variable} ${lora.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col bg-white text-slate-900">
         <Header />
-        <main className="flex-1">{children}</main>
+        <main className="flex-1">
+          <div className="mx-auto w-full max-w-[1100px] px-6 md:px-8 lg:px-12">{children}</div>
+        </main>
         <Footer />
       </body>
     </html>

@@ -10,7 +10,7 @@ type Props = {
 
 export default function SubtopicList({ title, backHref, backLabel, basePath, items }: Props) {
   return (
-    <div className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
+    <div className="py-16">
       <Link href={backHref} className="text-sm font-medium text-blue-600 hover:underline">
         &larr; {backLabel}
       </Link>

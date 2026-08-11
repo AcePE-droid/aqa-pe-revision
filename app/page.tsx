@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="mx-auto max-w-3xl px-4 py-20 sm:px-6">
+    <div className="py-20">
       <div className="text-center sm:text-left">
         <h1 className="font-serif text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl">
           AQA A-Level PE Revision, Simplified
