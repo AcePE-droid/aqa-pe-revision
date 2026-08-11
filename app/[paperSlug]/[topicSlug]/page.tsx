@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPaperBySlug, getTopicBySlug, getSubtopicsByTopicId, getFlashcards } from "@/lib/content";
+import { slugify } from "@/lib/slug";
 import FlashcardProgressBadge from "@/components/FlashcardProgressBadge";
 
 export default async function TopicPage(props: PageProps<"/[paperSlug]/[topicSlug]">) {
@@ -13,8 +14,11 @@ export default async function TopicPage(props: PageProps<"/[paperSlug]/[topicSlu
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
-      <Link href={`/${paper.slug}`} className="text-sm font-medium text-blue-600 hover:underline">
-        &larr; {paper.name}
+      <Link
+        href={`/flashcards/${slugify(topic.subject)}`}
+        className="text-sm font-medium text-blue-600 hover:underline"
+      >
+        &larr; Flashcards
       </Link>
       <h1 className="mt-2 font-serif text-3xl font-semibold tracking-tight text-slate-900">
         {topic.name}
