@@ -1,174 +1,83 @@
 [
   {
     "id": "pre-industrial-britain-001",
-    "front": "What period does 'Pre-Industrial Britain' refer to in the study of sport and society?",
-    "back": "Pre-1780, before industrialisation and urbanisation.",
-    "subtopicId": "pre-industrial-britain",
-    "group": "Popular recreation"
-  },
-  {
-    "id": "pre-industrial-britain-002",
-    "front": "What is 'popular recreation'?",
-    "back": "Sport and pastimes in pre-industrial Britain, played mainly by the lower/working classes.",
-    "subtopicId": "pre-industrial-britain",
-    "group": "Popular recreation"
-  },
-  {
-    "id": "pre-industrial-britain-003",
-    "front": "What were the characteristics of popular recreation in terms of rules?",
-    "back": "Simple, few, unwritten, and varied from place to place.",
-    "subtopicId": "pre-industrial-britain",
-    "group": "Popular recreation"
-  },
-  {
-    "id": "pre-industrial-britain-004",
-    "front": "Where was popular recreation typically played?",
-    "back": "In rural, open spaces, with no fixed pitch size or boundaries.",
-    "subtopicId": "pre-industrial-britain",
-    "group": "Popular recreation"
-  },
-  {
-    "id": "pre-industrial-britain-005",
-    "front": "How often was popular recreation played?",
-    "back": "Occasionally, often linked to religious festivals or holidays, such as Shrove Tuesday.",
-    "subtopicId": "pre-industrial-britain",
-    "group": "Popular recreation"
-  },
-  {
-    "id": "pre-industrial-britain-006",
-    "front": "What was the level of violence in popular recreation?",
-    "back": "High and violent, with little concern for the safety of participants.",
-    "subtopicId": "pre-industrial-britain",
-    "group": "Popular recreation"
-  },
-  {
-    "id": "pre-industrial-britain-007",
-    "front": "Who typically took part in popular recreation?",
-    "back": "Mainly local, working-class men, often organised around occupational or agrarian communities.",
-    "subtopicId": "pre-industrial-britain",
-    "group": "Popular recreation"
-  },
-  {
-    "id": "pre-industrial-britain-008",
-    "front": "What is an example of a popular recreation activity?",
-    "back": "Mob football (folk football).",
-    "subtopicId": "pre-industrial-britain",
-    "group": "Popular recreation"
-  },
-  {
-    "id": "pre-industrial-britain-009",
-    "front": "What were the characteristics of mob football?",
-    "back": "Large, unlimited numbers of players, very few rules, high violence, played between neighbouring villages or parishes.",
-    "subtopicId": "pre-industrial-britain",
-    "group": "Popular recreation"
-  },
-  {
-    "id": "pre-industrial-britain-010",
-    "front": "What was 'real tennis'?",
-    "back": "An early, complex form of tennis played by the upper classes, requiring specialist equipment and purpose-built courts.",
-    "subtopicId": "pre-industrial-britain",
-    "group": "Real tennis / early sport"
-  },
-  {
-    "id": "pre-industrial-britain-011",
-    "front": "What sports and pastimes did the upper classes take part in during pre-industrial Britain?",
-    "back": "Real tennis and field sports such as hunting, shooting and fishing.",
-    "subtopicId": "pre-industrial-britain",
-    "group": "Real tennis / early sport"
-  },
-  {
-    "id": "pre-industrial-britain-012",
-    "front": "Why were upper-class pastimes different from popular recreation?",
-    "back": "The upper classes had time, money and access to private facilities/equipment, allowing more sophisticated, rule-based activities.",
-    "subtopicId": "pre-industrial-britain",
-    "group": "Real tennis / early sport"
-  },
-  {
-    "id": "pre-industrial-britain-013",
-    "front": "What was the main purpose of most popular recreation activities?",
-    "back": "To provide a social release, mark religious or seasonal events, and demonstrate local strength and pride.",
-    "subtopicId": "pre-industrial-britain",
-    "group": "Real tennis / early sport"
-  },
-  {
-    "id": "pre-industrial-britain-014",
-    "front": "What were the characteristics of society that affected sporting recreation?",
+    "front": "What were the characteristics of society thst affected sporting recreation?",
     "back": "Two-tier class sytem, rural, limited communication, widespread illiteracy, harsh lifestyle",
     "subtopicId": "pre-industrial-britain",
     "group": "Pre 1780"
   },
   {
-    "id": "pre-industrial-britain-015",
+    "id": "pre-industrial-britain-002",
     "front": "How did the two-tier class system affect popular sporting recreation?",
     "back": "The upper class had the time and money for activities such as hunting, while the lower class took part in cheap, local activities.",
     "subtopicId": "pre-industrial-britain",
     "group": "Pre 1780"
   },
   {
-    "id": "pre-industrial-britain-016",
+    "id": "pre-industrial-britain-003",
     "front": "How did rural society affect popular sporting recreation?",
     "back": "They played over large spaces (countyside) against local villages",
     "subtopicId": "pre-industrial-britain",
     "group": "Pre 1780"
   },
   {
-    "id": "pre-industrial-britain-017",
+    "id": "pre-industrial-britain-004",
     "front": "How did limited communication affect popular sporting recreation?",
     "back": "It would often be played against local villages and very irregular as they couldn't communicate effectively",
     "subtopicId": "pre-industrial-britain",
     "group": "Pre 1780"
   },
   {
-    "id": "pre-industrial-britain-018",
+    "id": "pre-industrial-britain-005",
     "front": "How did widespread illiteracy affect popular sporting recreation?",
     "back": "Rules were simple, unwritten and passed on by word of mouth.",
     "subtopicId": "pre-industrial-britain",
     "group": "Pre 1780"
   },
   {
-    "id": "pre-industrial-britain-019",
+    "id": "pre-industrial-britain-006",
     "front": "How did a harsh lifestyle affect popular sporting recreation?",
     "back": "Sport provided an escape from hard working conditions and was often violent or cruel, reflecting everyday life.",
     "subtopicId": "pre-industrial-britain",
     "group": "Pre 1780"
   },
   {
-    "id": "pre-industrial-britain-020",
+    "id": "pre-industrial-britain-007",
     "front": "What are some characteristics of popular recreation?",
     "back": "Long working hours restricted participation; Limited transport; Limited, basic and unwritten rules; Aggressive and male-dominated, reflecting society",
     "subtopicId": "pre-industrial-britain",
     "group": "Characteristics of sporting recreation"
   },
   {
-    "id": "pre-industrial-britain-021",
+    "id": "pre-industrial-britain-008",
     "front": "What were some characteristics of mob football?",
     "back": "Localised due to limited communication and transport; Very rural in nature; Simple society making use of available resources; Played on Holy Days because of long working hours; Simple, unwritten rules",
     "subtopicId": "pre-industrial-britain",
     "group": "Characteristics of sporting recreation"
   },
   {
-    "id": "pre-industrial-britain-022",
+    "id": "pre-industrial-britain-009",
     "front": "Why was mob football banned?",
     "back": "Too violent and unruly; Led to injury and death; Caused damage to property; Involved gambling and wagering by the upper classes; Linked to alcohol consumption and drunken behaviour",
     "subtopicId": "pre-industrial-britain",
     "group": "Characteristics of sporting recreation"
   },
   {
-    "id": "pre-industrial-britain-023",
+    "id": "pre-industrial-britain-010",
     "front": "What were some characteristics of athletics as popular recreation?",
     "back": "Foot racing (pedestrianism); Simple, unwritten rules; Local events; Success increased the social status of the upper classes; Took place during festivals and rural community celebrations",
     "subtopicId": "pre-industrial-britain",
     "group": "Characteristics of sporting recreation"
   },
   {
-    "id": "pre-industrial-britain-024",
+    "id": "pre-industrial-britain-011",
     "front": "What were some characteristics of real tennis?",
     "back": "Played by the upper class; Purpose-built courts; Complicated written rules; Required expensive equipment; Needed wealth and social status to participate",
     "subtopicId": "pre-industrial-britain",
     "group": "Characteristics of sporting recreation"
   },
   {
-    "id": "pre-industrial-britain-025",
+    "id": "pre-industrial-britain-012",
     "front": "What does gentry mean?",
     "back": "The upper class",
     "subtopicId": "pre-industrial-britain",

@@ -1,1224 +1,643 @@
 [
   {
     "id": "equal-opportunities-001",
-    "front": "What is meant by 'equal opportunities' in sport?",
-    "back": "Ensuring all individuals have a fair and equal chance to participate in and access sport, regardless of gender, ethnicity, disability, age or social background.",
-    "subtopicId": "equal-opportunities",
-    "group": "Key concepts"
-  },
-  {
-    "id": "equal-opportunities-002",
-    "front": "What is 'discrimination'?",
-    "back": "Treating an individual or group unfairly or differently based on a personal characteristic such as gender, ethnicity or disability.",
-    "subtopicId": "equal-opportunities",
-    "group": "Key concepts"
-  },
-  {
-    "id": "equal-opportunities-003",
-    "front": "What is 'stereotyping'?",
-    "back": "Making generalised assumptions about a person or group based on a fixed, oversimplified image, e.g. assuming women are less able than men in sport.",
-    "subtopicId": "equal-opportunities",
-    "group": "Key concepts"
-  },
-  {
-    "id": "equal-opportunities-004",
-    "front": "What is 'prejudice'?",
-    "back": "A preconceived opinion or attitude towards a person or group, not based on reason or experience.",
-    "subtopicId": "equal-opportunities",
-    "group": "Key concepts"
-  },
-  {
-    "id": "equal-opportunities-005",
-    "front": "What is 'stacking'?",
-    "back": "The under-representation of a group in central, decision-making playing positions, despite representation in peripheral positions.",
-    "subtopicId": "equal-opportunities",
-    "group": "Key concepts"
-  },
-  {
-    "id": "equal-opportunities-006",
-    "front": "What is 'centrality'?",
-    "back": "The theory that certain playing positions are more central to decision-making and leadership within a team, and are often dominated by one group.",
-    "subtopicId": "equal-opportunities",
-    "group": "Key concepts"
-  },
-  {
-    "id": "equal-opportunities-007",
-    "front": "What is 'positive discrimination'?",
-    "back": "Actively favouring an under-represented group to increase participation, e.g. women-only sessions.",
-    "subtopicId": "equal-opportunities",
-    "group": "Key concepts"
-  },
-  {
-    "id": "equal-opportunities-008",
-    "front": "What is a role model and why are they important for equal opportunities?",
-    "back": "A person others look up to and aspire to be like; positive role models from under-represented groups can inspire greater participation.",
-    "subtopicId": "equal-opportunities",
-    "group": "Key concepts"
-  },
-  {
-    "id": "equal-opportunities-009",
-    "front": "What is meant by a 'target group'?",
-    "back": "A specific group of people identified for a scheme or initiative aimed at increasing their participation.",
-    "subtopicId": "equal-opportunities",
-    "group": "Key concepts"
-  },
-  {
-    "id": "equal-opportunities-010",
-    "front": "What is the difference between 'sex' and 'gender' in sociological terms?",
-    "back": "Sex refers to biological differences; gender refers to socially constructed roles and behaviours associated with being male or female.",
-    "subtopicId": "equal-opportunities",
-    "group": "Key concepts"
-  },
-  {
-    "id": "equal-opportunities-011",
-    "front": "What is 'institutional discrimination'?",
-    "back": "Discrimination built into the policies or practices of an organisation, rather than by an individual, e.g. a lack of accessible facilities.",
-    "subtopicId": "equal-opportunities",
-    "group": "Key concepts"
-  },
-  {
-    "id": "equal-opportunities-012",
-    "front": "What is the Equality Act 2010?",
-    "back": "UK legislation that makes it illegal to discriminate against people based on protected characteristics, including sex, race, disability and age.",
-    "subtopicId": "equal-opportunities",
-    "group": "Key concepts"
-  },
-  {
-    "id": "equal-opportunities-013",
-    "front": "What are 'protected characteristics' under the Equality Act 2010?",
-    "back": "Personal characteristics protected from discrimination by law, including age, disability, gender reassignment, race, religion, sex and sexual orientation.",
-    "subtopicId": "equal-opportunities",
-    "group": "Key concepts"
-  },
-  {
-    "id": "equal-opportunities-014",
-    "front": "What is 'homophobia' in a sporting context?",
-    "back": "Discrimination or prejudice against individuals based on their sexual orientation, which can be a barrier to participation.",
-    "subtopicId": "equal-opportunities",
-    "group": "Key concepts"
-  },
-  {
-    "id": "equal-opportunities-015",
-    "front": "Why might a person's sexual orientation be a barrier to participation in sport?",
-    "back": "Fear of discrimination, a lack of visible role models, and a traditionally unwelcoming culture in some sports.",
-    "subtopicId": "equal-opportunities",
-    "group": "Key concepts"
-  },
-  {
-    "id": "equal-opportunities-016",
-    "front": "What barriers might affect women's participation in sport?",
-    "back": "Stereotyping of sport as 'unfeminine', lack of media coverage and role models, childcare responsibilities, and historically fewer opportunities and facilities.",
-    "subtopicId": "equal-opportunities",
-    "group": "Gender"
-  },
-  {
-    "id": "equal-opportunities-017",
-    "front": "What is 'sexism' in a sporting context?",
-    "back": "Discrimination or prejudice against individuals based on their sex, often limiting opportunities for women in sport.",
-    "subtopicId": "equal-opportunities",
-    "group": "Gender"
-  },
-  {
-    "id": "equal-opportunities-018",
-    "front": "How has media coverage of women's sport changed in recent years?",
-    "back": "Coverage has increased, e.g. the growth of televised women's football and the Lionesses' Euro 2022 win, though it remains lower than men's sport.",
-    "subtopicId": "equal-opportunities",
-    "group": "Gender"
-  },
-  {
-    "id": "equal-opportunities-019",
-    "front": "Why might women receive less sponsorship than men in sport?",
-    "back": "Lower media coverage and a perceived lower commercial value/audience compared to men's sport.",
-    "subtopicId": "equal-opportunities",
-    "group": "Gender"
-  },
-  {
-    "id": "equal-opportunities-020",
-    "front": "What is the 'This Girl Can' campaign?",
-    "back": "A Sport England campaign designed to encourage more women to take part in sport and exercise, tackling the fear of judgement.",
-    "subtopicId": "equal-opportunities",
-    "group": "Gender"
-  },
-  {
-    "id": "equal-opportunities-021",
-    "front": "Give an example of a female sporting role model.",
-    "back": "Jessica Ennis-Hill (athletics) or Katarina Johnson-Thompson.",
-    "subtopicId": "equal-opportunities",
-    "group": "Gender"
-  },
-  {
-    "id": "equal-opportunities-022",
-    "front": "What strategies can increase female participation in sport?",
-    "back": "Women-only sessions, targeted funding, increased media coverage, female role models and coaches, and flexible timing around childcare.",
-    "subtopicId": "equal-opportunities",
-    "group": "Gender"
-  },
-  {
-    "id": "equal-opportunities-023",
-    "front": "Why might a lack of female coaches and officials be a barrier?",
-    "back": "It reduces visible role models in leadership positions and can make sport feel less accessible or welcoming to women and girls.",
-    "subtopicId": "equal-opportunities",
-    "group": "Gender"
-  },
-  {
-    "id": "equal-opportunities-024",
-    "front": "How can National Governing Bodies support female participation?",
-    "back": "By creating dedicated female pathways, funding female-only competitions, and setting participation targets.",
-    "subtopicId": "equal-opportunities",
-    "group": "Gender"
-  },
-  {
-    "id": "equal-opportunities-025",
-    "front": "What effect did the Equality Act 2010 have on gender equality in sport?",
-    "back": "It made discrimination based on sex illegal, requiring equal access and opportunity in publicly funded sport provision.",
-    "subtopicId": "equal-opportunities",
-    "group": "Gender"
-  },
-  {
-    "id": "equal-opportunities-026",
-    "front": "What is the gender pay gap in sport?",
-    "back": "The difference in prize money or salary between male and female athletes in the same sport, often favouring men.",
-    "subtopicId": "equal-opportunities",
-    "group": "Gender"
-  },
-  {
-    "id": "equal-opportunities-027",
-    "front": "Why has the gender pay gap narrowed in some sports?",
-    "back": "Increased sponsorship, media coverage and campaigning have led governing bodies, e.g. tennis Grand Slams and England football, to offer equal prize money or pay.",
-    "subtopicId": "equal-opportunities",
-    "group": "Gender"
-  },
-  {
-    "id": "equal-opportunities-028",
-    "front": "What impact did the Lionesses winning Euro 2022 have on female participation?",
-    "back": "It raised the profile of women's football and inspired a surge in girls signing up to play football, sometimes called the 'Lionesses effect'.",
-    "subtopicId": "equal-opportunities",
-    "group": "Gender"
-  },
-  {
-    "id": "equal-opportunities-029",
-    "front": "What is meant by a 'glass ceiling' in sports administration?",
-    "back": "An invisible barrier that prevents women from reaching senior leadership positions in sports organisations.",
-    "subtopicId": "equal-opportunities",
-    "group": "Gender"
-  },
-  {
-    "id": "equal-opportunities-030",
-    "front": "Why might single-sex sport sessions be used as a strategy to increase participation?",
-    "back": "They can remove the fear of judgement from the opposite sex, encouraging more confident participation.",
-    "subtopicId": "equal-opportunities",
-    "group": "Gender"
-  },
-  {
-    "id": "equal-opportunities-031",
-    "front": "How does a lack of changing/sanitary facilities act as a barrier for women and girls?",
-    "back": "Inadequate or unsuitable facilities can discourage regular participation, particularly during adolescence.",
-    "subtopicId": "equal-opportunities",
-    "group": "Gender"
-  },
-  {
-    "id": "equal-opportunities-032",
-    "front": "What barriers might affect participation from ethnic minority groups?",
-    "back": "Discrimination and stigmatisation, cultural or religious factors, a lack of role models, lower income, and stacking.",
-    "subtopicId": "equal-opportunities",
-    "group": "Ethnicity"
-  },
-  {
-    "id": "equal-opportunities-033",
-    "front": "What cultural or religious factors might act as a barrier to participation?",
-    "back": "Modesty requirements around dress, restrictions on mixed-gender participation, or specific dietary/fasting periods such as Ramadan.",
-    "subtopicId": "equal-opportunities",
-    "group": "Ethnicity"
-  },
-  {
-    "id": "equal-opportunities-034",
-    "front": "What is 'stacking' in relation to ethnicity?",
-    "back": "The under-representation of ethnic minority players in central, decision-making positions, e.g. captain or quarterback, despite being represented on the field overall.",
-    "subtopicId": "equal-opportunities",
-    "group": "Ethnicity"
-  },
-  {
-    "id": "equal-opportunities-035",
-    "front": "Give an example of stacking in a sport.",
-    "back": "Historically in American football, black players were under-represented in the quarterback position compared to peripheral positions.",
-    "subtopicId": "equal-opportunities",
-    "group": "Ethnicity"
-  },
-  {
-    "id": "equal-opportunities-036",
-    "front": "Why might ethnic minority groups be under-represented in coaching and administration?",
-    "back": "A historical lack of opportunity, discrimination, and a lack of role models in leadership positions.",
-    "subtopicId": "equal-opportunities",
-    "group": "Ethnicity"
-  },
-  {
-    "id": "equal-opportunities-037",
-    "front": "What strategies can be used to increase participation from ethnic minority groups?",
-    "back": "Targeted community programmes, role models, anti-discrimination campaigns, and National Governing Body initiatives.",
-    "subtopicId": "equal-opportunities",
-    "group": "Ethnicity"
-  },
-  {
-    "id": "equal-opportunities-038",
-    "front": "Give an example of an anti-discrimination campaign in sport.",
-    "back": "'Kick It Out', which challenges racism and discrimination in football.",
-    "subtopicId": "equal-opportunities",
-    "group": "Ethnicity"
-  },
-  {
-    "id": "equal-opportunities-039",
-    "front": "Why is role modelling particularly important for increasing ethnic minority participation?",
-    "back": "Seeing successful performers from the same background challenges stereotypes and inspires participation.",
-    "subtopicId": "equal-opportunities",
-    "group": "Ethnicity"
-  },
-  {
-    "id": "equal-opportunities-040",
-    "front": "What socio-economic factors might overlap with ethnicity as a barrier to participation?",
-    "back": "Lower average household income in some ethnic minority communities can limit access to facilities, equipment and coaching.",
-    "subtopicId": "equal-opportunities",
-    "group": "Ethnicity"
-  },
-  {
-    "id": "equal-opportunities-041",
-    "front": "How can National Governing Bodies address under-representation of ethnic minorities in leadership roles?",
-    "back": "By setting diversity targets, offering leadership and coaching pathways, and mentoring schemes.",
-    "subtopicId": "equal-opportunities",
-    "group": "Ethnicity"
-  },
-  {
-    "id": "equal-opportunities-042",
-    "front": "What is a 'Rooney Rule' style policy and how might it apply to sport?",
-    "back": "A policy requiring organisations to interview at least one candidate from an under-represented ethnic background for coaching or leadership roles.",
-    "subtopicId": "equal-opportunities",
-    "group": "Ethnicity"
-  },
-  {
-    "id": "equal-opportunities-043",
-    "front": "Why might language barriers affect participation from some ethnic minority communities?",
-    "back": "Difficulty understanding coaching instructions or promotional material can discourage involvement.",
-    "subtopicId": "equal-opportunities",
-    "group": "Ethnicity"
-  },
-  {
-    "id": "equal-opportunities-044",
-    "front": "How can National Governing Bodies use community engagement to overcome ethnicity-based barriers?",
-    "back": "By working with local community and faith leaders to design culturally appropriate sessions.",
-    "subtopicId": "equal-opportunities",
-    "group": "Ethnicity"
-  },
-  {
-    "id": "equal-opportunities-045",
-    "front": "What barriers might affect participation for disabled people?",
-    "back": "A lack of accessible facilities and transport, a lack of specialist coaches and equipment, negative attitudes and discrimination, and classification issues.",
-    "subtopicId": "equal-opportunities",
-    "group": "Disability"
-  },
-  {
-    "id": "equal-opportunities-046",
-    "front": "What is meant by an 'inclusive' sporting environment?",
-    "back": "One that is adapted and welcoming so that people of all abilities can participate.",
-    "subtopicId": "equal-opportunities",
-    "group": "Disability"
-  },
-  {
-    "id": "equal-opportunities-047",
-    "front": "What is 'classification' in disability sport?",
-    "back": "Grouping athletes with similar levels of impairment together to ensure fair competition, e.g. in Paralympic sport.",
-    "subtopicId": "equal-opportunities",
-    "group": "Disability"
-  },
-  {
-    "id": "equal-opportunities-048",
-    "front": "Why can classification systems be controversial?",
-    "back": "Athletes or coaches may disagree with how impairments are graded, feeling it disadvantages or unfairly advantages certain competitors.",
-    "subtopicId": "equal-opportunities",
-    "group": "Disability"
-  },
-  {
-    "id": "equal-opportunities-049",
-    "front": "What is the difference between the Paralympics and Special Olympics?",
-    "back": "The Paralympics is for elite athletes with physical or sensory impairments; the Special Olympics is for athletes with intellectual disabilities, with less emphasis on elite performance.",
-    "subtopicId": "equal-opportunities",
-    "group": "Disability"
-  },
-  {
-    "id": "equal-opportunities-050",
-    "front": "Give an example of a disabled sporting role model.",
-    "back": "Tanni Grey-Thompson (wheelchair racing) or Ellie Simmonds (swimming).",
-    "subtopicId": "equal-opportunities",
-    "group": "Disability"
-  },
-  {
-    "id": "equal-opportunities-051",
-    "front": "What strategies can be used to increase disabled participation in sport?",
-    "back": "Inclusive facilities, specialist coaching, adapted equipment, disability-specific competitions, and increased media coverage.",
-    "subtopicId": "equal-opportunities",
-    "group": "Disability"
-  },
-  {
-    "id": "equal-opportunities-052",
-    "front": "How has media coverage of the Paralympic Games changed since 2012?",
-    "back": "Coverage has increased significantly since London 2012, raising the profile of disabled athletes and challenging stereotypes.",
-    "subtopicId": "equal-opportunities",
-    "group": "Disability"
-  },
-  {
-    "id": "equal-opportunities-053",
-    "front": "What is 'reverse integration' in disability sport?",
-    "back": "When able-bodied athletes take part in a sport traditionally designed for disabled athletes, e.g. wheelchair basketball.",
-    "subtopicId": "equal-opportunities",
-    "group": "Disability"
-  },
-  {
-    "id": "equal-opportunities-054",
-    "front": "What organisation governs disability sport in the UK?",
-    "back": "The English Federation of Disability Sport, now known as Activity Alliance.",
-    "subtopicId": "equal-opportunities",
-    "group": "Disability"
-  },
-  {
-    "id": "equal-opportunities-055",
-    "front": "What is a sensory impairment and how might sport be adapted for it?",
-    "back": "A visual or hearing impairment; sport can be adapted with sound-emitting balls, guide runners or visual signals.",
-    "subtopicId": "equal-opportunities",
-    "group": "Disability"
-  },
-  {
-    "id": "equal-opportunities-056",
-    "front": "What is a physical impairment in the context of sport classification?",
-    "back": "A limitation to the movement or function of the body, e.g. limb loss or spinal cord injury, often requiring equipment adaptation such as a wheelchair.",
-    "subtopicId": "equal-opportunities",
-    "group": "Disability"
-  },
-  {
-    "id": "equal-opportunities-057",
-    "front": "What is an intellectual/learning disability in the context of sport participation?",
-    "back": "A condition affecting cognitive function, which may require simplified instructions and rules and a focus on inclusion over competition.",
-    "subtopicId": "equal-opportunities",
-    "group": "Disability"
-  },
-  {
-    "id": "equal-opportunities-058",
-    "front": "Why might specialist coach education be needed to support disabled participation?",
-    "back": "Coaches need specific knowledge of adaptations, classification and safety considerations to support disabled athletes effectively.",
-    "subtopicId": "equal-opportunities",
-    "group": "Disability"
-  },
-  {
-    "id": "equal-opportunities-059",
-    "front": "What barriers might affect participation based on social class?",
-    "back": "The cost of equipment or membership, a lack of time due to work commitments, and a lack of access to facilities in deprived areas.",
-    "subtopicId": "equal-opportunities",
-    "group": "Social class and age"
-  },
-  {
-    "id": "equal-opportunities-060",
-    "front": "How might income affect access to sport?",
-    "back": "Lower income can limit the ability to pay for club membership, equipment, coaching and travel to facilities.",
-    "subtopicId": "equal-opportunities",
-    "group": "Social class and age"
-  },
-  {
-    "id": "equal-opportunities-061",
-    "front": "What barriers might affect participation of older people in sport?",
-    "back": "Health or mobility issues, a lack of age-appropriate provision, and stereotyping about ability.",
-    "subtopicId": "equal-opportunities",
-    "group": "Social class and age"
-  },
-  {
-    "id": "equal-opportunities-062",
-    "front": "What barriers might affect participation of young people in sport?",
-    "back": "Cost, transport, a lack of local facilities, and competing pressures such as schoolwork.",
-    "subtopicId": "equal-opportunities",
-    "group": "Social class and age"
-  },
-  {
-    "id": "equal-opportunities-063",
-    "front": "What strategies can be used to increase participation among lower-income groups?",
-    "back": "Free or subsidised sessions, community facilities, and outreach programmes in deprived areas.",
-    "subtopicId": "equal-opportunities",
-    "group": "Social class and age"
-  },
-  {
-    "id": "equal-opportunities-064",
-    "front": "What strategies can be used to increase participation among older adults?",
-    "back": "Walking football, adapted/gentle exercise classes, and social sport sessions.",
-    "subtopicId": "equal-opportunities",
-    "group": "Social class and age"
-  },
-  {
-    "id": "equal-opportunities-065",
-    "front": "What is 'ageism' in a sporting context?",
-    "back": "Discrimination or stereotyping of individuals based on their age, limiting opportunities to participate.",
-    "subtopicId": "equal-opportunities",
-    "group": "Social class and age"
-  },
-  {
-    "id": "equal-opportunities-066",
-    "front": "How can local authorities help reduce social class barriers to participation?",
-    "back": "By providing affordable, accessible public leisure facilities and subsidised programmes.",
-    "subtopicId": "equal-opportunities",
-    "group": "Social class and age"
-  },
-  {
-    "id": "equal-opportunities-067",
-    "front": "What is meant by 'geographic barriers' to participation?",
-    "back": "Living far from suitable facilities, particularly in rural areas, which makes regular participation difficult.",
-    "subtopicId": "equal-opportunities",
-    "group": "Social class and age"
-  },
-  {
-    "id": "equal-opportunities-068",
-    "front": "How might deprivation affect youth participation in sport?",
-    "back": "Fewer local facilities, higher costs, and competing family priorities can all reduce opportunities in deprived areas.",
-    "subtopicId": "equal-opportunities",
-    "group": "Social class and age"
-  },
-  {
-    "id": "equal-opportunities-069",
-    "front": "What is a 'satellite club'?",
-    "back": "A community sports club, often linked to a school or college, designed to provide an accessible pathway from school to community sport.",
-    "subtopicId": "equal-opportunities",
-    "group": "Social class and age"
-  },
-  {
-    "id": "equal-opportunities-070",
-    "front": "What is the role of National Governing Bodies in promoting equal opportunities?",
-    "back": "Creating policies and initiatives, and providing funding and coaching pathways specifically targeted at under-represented groups.",
-    "subtopicId": "equal-opportunities",
-    "group": "Strategies and initiatives"
-  },
-  {
-    "id": "equal-opportunities-071",
-    "front": "What is Sport England's role in promoting equal opportunities?",
-    "back": "It funds and develops national strategies and campaigns, e.g. This Girl Can, aimed at increasing participation among under-represented groups.",
-    "subtopicId": "equal-opportunities",
-    "group": "Strategies and initiatives"
-  },
-  {
-    "id": "equal-opportunities-072",
-    "front": "Why is media coverage important for equal opportunities?",
-    "back": "Increased coverage of under-represented groups provides role models and challenges stereotypes, encouraging participation.",
-    "subtopicId": "equal-opportunities",
-    "group": "Strategies and initiatives"
-  },
-  {
-    "id": "equal-opportunities-073",
-    "front": "What is meant by a 'target group' strategy?",
-    "back": "Designing an initiative specifically aimed at increasing participation for one identified under-represented group.",
-    "subtopicId": "equal-opportunities",
-    "group": "Strategies and initiatives"
-  },
-  {
-    "id": "equal-opportunities-074",
-    "front": "How can sponsorship help promote equal opportunities?",
-    "back": "Funding targeted campaigns and events for under-represented groups increases their visibility and resources.",
-    "subtopicId": "equal-opportunities",
-    "group": "Strategies and initiatives"
-  },
-  {
-    "id": "equal-opportunities-075",
-    "front": "Why might grassroots/community sport initiatives be more effective than elite-level ones for equal opportunities?",
-    "back": "They are more accessible, lower cost, and directly reach under-represented communities where barriers are greatest.",
-    "subtopicId": "equal-opportunities",
-    "group": "Strategies and initiatives"
-  },
-  {
-    "id": "equal-opportunities-076",
-    "front": "What are school-based initiatives, such as Sportsmark, designed to do?",
-    "back": "Encourage and recognise schools that provide high-quality, inclusive PE and sport opportunities.",
-    "subtopicId": "equal-opportunities",
-    "group": "Strategies and initiatives"
-  },
-  {
-    "id": "equal-opportunities-077",
-    "front": "How do PE teachers and coaches contribute to equal opportunities?",
-    "back": "By adapting activities using the STEP principle, promoting inclusive attitudes, and identifying and nurturing talent regardless of background.",
-    "subtopicId": "equal-opportunities",
-    "group": "Strategies and initiatives"
-  },
-  {
-    "id": "equal-opportunities-078",
-    "front": "What is the STEP principle in relation to inclusion?",
-    "back": "Adapting the Space, Task, Equipment or People involved in an activity to make it more inclusive.",
-    "subtopicId": "equal-opportunities",
-    "group": "Strategies and initiatives"
-  },
-  {
-    "id": "equal-opportunities-079",
-    "front": "Why is data collection, such as the Active Lives Survey, important for tackling inequality in sport?",
-    "back": "It identifies which groups are under-represented, allowing targeted strategies and funding to be developed.",
-    "subtopicId": "equal-opportunities",
-    "group": "Strategies and initiatives"
-  },
-  {
-    "id": "equal-opportunities-080",
-    "front": "Why is long-term funding important for equal opportunities initiatives?",
-    "back": "Short-term campaigns can create initial interest, but sustained investment is needed to create lasting behaviour change.",
-    "subtopicId": "equal-opportunities",
-    "group": "Strategies and initiatives"
-  },
-  {
-    "id": "equal-opportunities-081",
-    "front": "What is meant by 'grassroots' sport?",
-    "back": "Community-level, participation-focused sport, as opposed to elite or professional level.",
-    "subtopicId": "equal-opportunities",
-    "group": "Strategies and initiatives"
-  },
-  {
-    "id": "equal-opportunities-082",
-    "front": "How might schools help reduce inequality in sport participation?",
-    "back": "By offering a broad, inclusive PE curriculum and extra-curricular clubs regardless of background or ability.",
-    "subtopicId": "equal-opportunities",
-    "group": "Strategies and initiatives"
-  },
-  {
-    "id": "equal-opportunities-083",
-    "front": "Why might partnership working between National Governing Bodies, schools and local authorities be effective?",
-    "back": "It combines funding, facilities and expertise to reach under-represented groups more effectively than any one body working alone.",
-    "subtopicId": "equal-opportunities",
-    "group": "Strategies and initiatives"
-  },
-  {
-    "id": "equal-opportunities-084",
     "front": "What is the definition of society?",
     "back": "An organised group of people associated for a specific purpose or with a shared common interest",
     "subtopicId": "equal-opportunities",
     "group": "Key terms relating to the study of sport"
   },
   {
-    "id": "equal-opportunities-085",
+    "id": "equal-opportunities-002",
     "front": "Why is success in sport important on a global scale?",
     "back": "Success in sport is often viewed as an important measure of a society's or nation's status in the world",
     "subtopicId": "equal-opportunities",
     "group": "Key terms relating to the study of sport"
   },
   {
-    "id": "equal-opportunities-086",
+    "id": "equal-opportunities-003",
     "front": "How does sport contribute to national identity?",
     "back": "National identity and pride are often achieved through success in sport",
     "subtopicId": "equal-opportunities",
     "group": "Key terms relating to the study of sport"
   },
   {
-    "id": "equal-opportunities-087",
+    "id": "equal-opportunities-004",
     "front": "What is the definition of socialisation?",
     "back": "A lifelong process where members of a society learn its norms, values, ideas, practices and roles in order to take their place in society",
     "subtopicId": "equal-opportunities",
     "group": "Key terms relating to the study of sport"
   },
   {
-    "id": "equal-opportunities-088",
+    "id": "equal-opportunities-005",
     "front": "What is primary socialisation?",
     "back": "Occurs in early childhood, mainly within the family; involves internalising a society's culture, norms and values through games, play and exercise",
     "subtopicId": "equal-opportunities",
     "group": "Key terms relating to the study of sport"
   },
   {
-    "id": "equal-opportunities-089",
+    "id": "equal-opportunities-006",
     "front": "What is secondary socialisation?",
     "back": "Occurs during the teenage and adult years, where influence shifts from family to peer groups, friends and school",
     "subtopicId": "equal-opportunities",
     "group": "Key terms relating to the study of sport"
   },
   {
-    "id": "equal-opportunities-090",
+    "id": "equal-opportunities-007",
     "front": "Why is school important in secondary socialisation?",
     "back": "It plays a key role in social development by teaching moral skills such as cooperation, teamwork and responsibility",
     "subtopicId": "equal-opportunities",
     "group": "Key terms relating to the study of sport"
   },
   {
-    "id": "equal-opportunities-091",
+    "id": "equal-opportunities-008",
     "front": "What is social control?",
     "back": "A concept that refers to the way people's thoughts, feelings, appearance and behaviour are regulated within social systems",
     "subtopicId": "equal-opportunities",
     "group": "Key terms relating to the study of sport"
   },
   {
-    "id": "equal-opportunities-092",
+    "id": "equal-opportunities-009",
     "front": "How do institutions contribute to social control?",
     "back": "Institutions such as the family, schools and the media influence behaviour by promoting shared norms and values for the benefit of society",
     "subtopicId": "equal-opportunities",
     "group": "Key terms relating to the study of sport"
   },
   {
-    "id": "equal-opportunities-093",
+    "id": "equal-opportunities-010",
     "front": "What is social change?",
     "back": "An alteration in the social order of society",
     "subtopicId": "equal-opportunities",
     "group": "Key terms relating to the study of sport"
   },
   {
-    "id": "equal-opportunities-094",
+    "id": "equal-opportunities-011",
     "front": "When do sport participation inequalities exist?",
     "back": "When comparing participation between men and women",
     "subtopicId": "equal-opportunities",
     "group": "Key terms relating to the study of sport"
   },
   {
-    "id": "equal-opportunities-095",
+    "id": "equal-opportunities-012",
     "front": "What is the definition of social issues?",
     "back": "Problems that affect many people within a society",
     "subtopicId": "equal-opportunities",
     "group": "Key terms relating to the study of sport"
   },
   {
-    "id": "equal-opportunities-096",
+    "id": "equal-opportunities-013",
     "front": "What is the definition of social inequality?",
     "back": "The unfair situation where resources or opportunities are distributed unevenly within a society",
     "subtopicId": "equal-opportunities",
     "group": "Key terms relating to the study of sport"
   },
   {
-    "id": "equal-opportunities-097",
+    "id": "equal-opportunities-014",
     "front": "What is social stratification?",
     "back": "A type of social inequality where society is divided into different levels based on a social characteristic such as wealth or status",
     "subtopicId": "equal-opportunities",
     "group": "Key terms relating to the study of sport"
   },
   {
-    "id": "equal-opportunities-098",
+    "id": "equal-opportunities-015",
     "front": "What is social class?",
     "back": "A term used to define social inequalities, where certain groups have greater access to wealth, income and power than others",
     "subtopicId": "equal-opportunities",
     "group": "Key terms relating to the study of sport"
   },
   {
-    "id": "equal-opportunities-099",
+    "id": "equal-opportunities-016",
     "front": "What is the definition of social action theory?",
     "back": "A sociological perspective that emphasises how individuals' actions and interactions shape social structures and cultural beliefs related to sport",
     "subtopicId": "equal-opportunities",
     "group": "Social action theory"
   },
   {
-    "id": "equal-opportunities-100",
+    "id": "equal-opportunities-017",
     "front": "Describe the main concepts of social action theory.",
     "back": "Social action theory considers how sport can impact society; Society is created through social interaction (interactionist theory); By interacting with others, people create organisations such as schools, clubs and campaign groups; These organisations influence people and shape wider society, e.g. encouraging people to obey rules and reducing racism",
     "subtopicId": "equal-opportunities",
     "group": "Social action theory"
   },
   {
-    "id": "equal-opportunities-101",
+    "id": "equal-opportunities-018",
     "front": "What is the definition of progression?",
     "back": "The process of gradually developing towards a more advanced state",
     "subtopicId": "equal-opportunities",
     "group": "Social action theory"
   },
   {
-    "id": "equal-opportunities-102",
+    "id": "equal-opportunities-019",
     "front": "How has sport developed alongside society?",
     "back": "Sport has evolved as society changes, reflecting shifts in people's ideas, morals and norms",
     "subtopicId": "equal-opportunities",
     "group": "Social action theory"
   },
   {
-    "id": "equal-opportunities-103",
+    "id": "equal-opportunities-020",
     "front": "What is social action in sport?",
     "back": "A type of socialisation that helps develop society through sport",
     "subtopicId": "equal-opportunities",
     "group": "Social action theory"
   },
   {
-    "id": "equal-opportunities-104",
+    "id": "equal-opportunities-021",
     "front": "What is the definition of the interactionist approach?",
     "back": "The study of how individuals behave within a society",
     "subtopicId": "equal-opportunities",
     "group": "Social action theory"
   },
   {
-    "id": "equal-opportunities-105",
+    "id": "equal-opportunities-022",
     "front": "How does the interactionist approach view society's control over individuals?",
     "back": "Society controls individuals but still allows them to be creative and influence change",
     "subtopicId": "equal-opportunities",
     "group": "Social action theory"
   },
   {
-    "id": "equal-opportunities-106",
+    "id": "equal-opportunities-023",
     "front": "What is a key goal of the interactionist approach in sports organisations?",
     "back": "To make sports organisations less hierarchical, ensuring every member has a vote and a say in decisions",
     "subtopicId": "equal-opportunities",
     "group": "Social action theory"
   },
   {
-    "id": "equal-opportunities-107",
+    "id": "equal-opportunities-024",
     "front": "What is an underrepresented group in sport?",
     "back": "A group whose participation in sport is lower than its proportion within the wider population",
     "subtopicId": "equal-opportunities",
     "group": "Under represented groups in sport"
   },
   {
-    "id": "equal-opportunities-108",
+    "id": "equal-opportunities-025",
     "front": "What is a disability?",
     "back": "A physical or mental condition that substantially limits a person's movements, senses or activities",
     "subtopicId": "equal-opportunities",
     "group": "Under represented groups in sport"
   },
   {
-    "id": "equal-opportunities-109",
+    "id": "equal-opportunities-026",
     "front": "What are the main types of disability in sport?",
     "back": "Physical disabilities; Sensory disabilities; Intellectual disabilities",
     "subtopicId": "equal-opportunities",
     "group": "Under represented groups in sport"
   },
   {
-    "id": "equal-opportunities-110",
+    "id": "equal-opportunities-027",
     "front": "What is an example of disability in sport?",
     "back": "A visually impaired sprinter competing with a guide runner; A person with a physical disability playing wheelchair basketball",
     "subtopicId": "equal-opportunities",
     "group": "Under represented groups in sport"
   },
   {
-    "id": "equal-opportunities-111",
+    "id": "equal-opportunities-028",
     "front": "What is an ethnic group?",
     "back": "A group of people who share characteristics such as culture, ancestry, language, religion or nationality",
     "subtopicId": "equal-opportunities",
     "group": "Under represented groups in sport"
   },
   {
-    "id": "equal-opportunities-112",
+    "id": "equal-opportunities-029",
     "front": "What is an example of an ethnic group in sport?",
     "back": "British Asian; Black British; Other minority ethnic communities participating in sport",
     "subtopicId": "equal-opportunities",
     "group": "Under represented groups in sport"
   },
   {
-    "id": "equal-opportunities-113",
+    "id": "equal-opportunities-030",
     "front": "What does gender mean?",
     "back": "The socially and culturally constructed characteristics and roles associated with being male, female or another gender",
     "subtopicId": "equal-opportunities",
     "group": "Under represented groups in sport"
   },
   {
-    "id": "equal-opportunities-114",
+    "id": "equal-opportunities-031",
     "front": "Which gender has traditionally been underrepresented in sport?",
     "back": "Women and girls have traditionally had lower participation and representation in many sports than men and boys",
     "subtopicId": "equal-opportunities",
     "group": "Under represented groups in sport"
   },
   {
-    "id": "equal-opportunities-115",
+    "id": "equal-opportunities-032",
     "front": "What does disadvantaged mean?",
     "back": "Being placed in unfavourable social or economic circumstances that reduce access to opportunities",
     "subtopicId": "equal-opportunities",
     "group": "Under represented groups in sport"
   },
   {
-    "id": "equal-opportunities-116",
+    "id": "equal-opportunities-033",
     "front": "What is an example of a disadvantaged person in sport?",
     "back": "A person from a low-income household who has limited access to sports clubs, facilities or equipment",
     "subtopicId": "equal-opportunities",
     "group": "Under represented groups in sport"
   },
   {
-    "id": "equal-opportunities-117",
+    "id": "equal-opportunities-034",
     "front": "What is the definition of discrimination?",
     "back": "Treating an individual or group less favourably than others based on characteristics such as gender, ethnicity, disability, age or sexuality",
     "subtopicId": "equal-opportunities",
     "group": "Understanding key terms relating to equal opportunities"
   },
   {
-    "id": "equal-opportunities-118",
+    "id": "equal-opportunities-035",
     "front": "What is overt discrimination?",
     "back": "Highly visible discrimination, such as verbal abuse",
     "subtopicId": "equal-opportunities",
     "group": "Understanding key terms relating to equal opportunities"
   },
   {
-    "id": "equal-opportunities-119",
+    "id": "equal-opportunities-036",
     "front": "What is covert discrimination?",
     "back": "Harder-to-identify discrimination, such as favouring non-disabled people over disabled people for roles and positions",
     "subtopicId": "equal-opportunities",
     "group": "Understanding key terms relating to equal opportunities"
   },
   {
-    "id": "equal-opportunities-120",
+    "id": "equal-opportunities-037",
     "front": "What is the definition of prejudice?",
     "back": "A pre-formed, unjustified attitude towards an individual or group based on their membership of a particular social group, formed without objective evidence",
     "subtopicId": "equal-opportunities",
     "group": "Understanding key terms relating to equal opportunities"
   },
   {
-    "id": "equal-opportunities-121",
+    "id": "equal-opportunities-038",
     "front": "What is the definition of stereotyping?",
     "back": "Applying a fixed, oversimplified generalisation to all members of a group based on the assumed characteristics of that group, ignoring individual differences",
     "subtopicId": "equal-opportunities",
     "group": "Understanding key terms relating to equal opportunities"
   },
   {
-    "id": "equal-opportunities-122",
+    "id": "equal-opportunities-039",
     "front": "What is the definition of racism?",
     "back": "A set of beliefs or ideas based on the assumption that races have distinct hereditary characteristics that give some races an intrinsic superiority over others; may lead to physical or verbal abuse",
     "subtopicId": "equal-opportunities",
     "group": "Understanding key terms relating to equal opportunities"
   },
   {
-    "id": "equal-opportunities-123",
+    "id": "equal-opportunities-040",
     "front": "What does segregated mean?",
     "back": "When groups are completely separated",
     "subtopicId": "equal-opportunities",
     "group": "Understanding key terms relating to equal opportunities"
   },
   {
-    "id": "equal-opportunities-124",
+    "id": "equal-opportunities-041",
     "front": "What is the definition of race?",
     "back": "The physical characteristics of an individual",
     "subtopicId": "equal-opportunities",
     "group": "Understanding key terms relating to equal opportunities"
   },
   {
-    "id": "equal-opportunities-125",
+    "id": "equal-opportunities-042",
     "front": "What is the definition of ethnic groups?",
     "back": "Groups of people who have racial, religious or linguistic traits in common",
     "subtopicId": "equal-opportunities",
     "group": "Understanding key terms relating to equal opportunities"
   },
   {
-    "id": "equal-opportunities-126",
+    "id": "equal-opportunities-043",
     "front": "What is the definition of stacking?",
     "back": "A disproportionate concentration of ethnic minorities in certain positions within a sports team, based on the stereotype that they are more valuable for their physicality than their decision-making and communication qualities; fewer ethnic minorities become team captains, coaches, managers or administrators",
     "subtopicId": "equal-opportunities",
     "group": "Understanding key terms relating to equal opportunities"
   },
   {
-    "id": "equal-opportunities-127",
+    "id": "equal-opportunities-044",
     "front": "What is the definition of channeling?",
     "back": "When ethnic minorities are encouraged into certain sports based on assumptions or stereotypes about them",
     "subtopicId": "equal-opportunities",
     "group": "Understanding key terms relating to equal opportunities"
   },
   {
-    "id": "equal-opportunities-128",
+    "id": "equal-opportunities-045",
     "front": "Who are the three underrepresented groups in sport?",
     "back": "Women; Disabled people; Ethnically diverse people",
     "subtopicId": "equal-opportunities",
     "group": "Barries to participation in sport + solutions"
   },
   {
-    "id": "equal-opportunities-129",
+    "id": "equal-opportunities-046",
     "front": "What are the barriers for women in sport?",
     "back": "Social/cultural; Media; Financial; Historical; Role models; Socialisation",
     "subtopicId": "equal-opportunities",
     "group": "Barries to participation in sport + solutions"
   },
   {
-    "id": "equal-opportunities-130",
+    "id": "equal-opportunities-047",
     "front": "How is social/cultural a barrier to participation for women and give an example?",
     "back": "Gender stereotyping means certain sports are viewed as \"unfeminine\"; e.g. women discouraged from rugby, boxing and weightlifting",
     "subtopicId": "equal-opportunities",
     "group": "Barries to participation in sport + solutions"
   },
   {
-    "id": "equal-opportunities-131",
+    "id": "equal-opportunities-048",
     "front": "How is media a barrier to participation for women and give an example?",
     "back": "Significantly less media coverage of women's sport; e.g. women's sport receives only around 4% of sports media coverage",
     "subtopicId": "equal-opportunities",
     "group": "Barries to participation in sport + solutions"
   },
   {
-    "id": "equal-opportunities-132",
+    "id": "equal-opportunities-049",
     "front": "How is financial a barrier to participation for women and give an example?",
     "back": "Lower prize money and sponsorship opportunities; e.g. female tennis players historically received less prize money",
     "subtopicId": "equal-opportunities",
     "group": "Barries to participation in sport + solutions"
   },
   {
-    "id": "equal-opportunities-133",
+    "id": "equal-opportunities-050",
     "front": "How is historical a barrier to participation for women and give an example?",
     "back": "Women have historically been excluded from sport; e.g. women were not allowed to compete in the Olympic marathon until 1984",
     "subtopicId": "equal-opportunities",
     "group": "Barries to participation in sport + solutions"
   },
   {
-    "id": "equal-opportunities-134",
+    "id": "equal-opportunities-051",
     "front": "How are role models a barrier to participation for women and give an example?",
     "back": "Fewer visible female role models in sport; e.g. girls are less likely to aspire to sport without visible sporting heroes",
     "subtopicId": "equal-opportunities",
     "group": "Barries to participation in sport + solutions"
   },
   {
-    "id": "equal-opportunities-135",
+    "id": "equal-opportunities-052",
     "front": "How is socialisation a barrier to participation for women and give an example?",
     "back": "Primary socialisation discourages girls from participating in sport; e.g. girls are given dolls rather than footballs, reinforcing gender norms",
     "subtopicId": "equal-opportunities",
     "group": "Barries to participation in sport + solutions"
   },
   {
-    "id": "equal-opportunities-136",
+    "id": "equal-opportunities-053",
     "front": "What are some solutions to the barriers faced by women in sport?",
     "back": "This Girl Can campaign; Increased media coverage of women's sport; Equal prize money campaigns; More female role models; School PE curriculum ensuring equal access",
     "subtopicId": "equal-opportunities",
     "group": "Barries to participation in sport + solutions"
   },
   {
-    "id": "equal-opportunities-137",
+    "id": "equal-opportunities-054",
     "front": "What are the barriers to ethnic minorities in sport?",
     "back": "Racism/discrimination; Stacking; Stereotyping; Cultural/religious barriers; Economic barriers; Underrepresentation in coaching and management",
     "subtopicId": "equal-opportunities",
     "group": "Barries to participation in sport + solutions"
   },
   {
-    "id": "equal-opportunities-138",
+    "id": "equal-opportunities-055",
     "front": "How is racism/discrimination a barrier to ethnic minorities and give an example?",
     "back": "Overt and covert racism in sport; e.g. racist abuse of players on social media",
     "subtopicId": "equal-opportunities",
     "group": "Barries to participation in sport + solutions"
   },
   {
-    "id": "equal-opportunities-139",
+    "id": "equal-opportunities-056",
     "front": "How is stacking a barrier to ethnic minorities and give an example?",
     "back": "Ethnic minority athletes are channelled into specific playing positions; e.g. Black athletes historically channelled into positions requiring speed and power rather than leadership and decision-making",
     "subtopicId": "equal-opportunities",
     "group": "Barries to participation in sport + solutions"
   },
   {
-    "id": "equal-opportunities-140",
+    "id": "equal-opportunities-057",
     "front": "How is stereotyping a barrier to ethnic minorities and give an example?",
     "back": "Cultural assumptions are made about athletic ability; e.g. assuming Black athletes are naturally faster, ignoring hard work and training",
     "subtopicId": "equal-opportunities",
     "group": "Barries to participation in sport + solutions"
   },
   {
-    "id": "equal-opportunities-141",
+    "id": "equal-opportunities-058",
     "front": "How is cultural/religious belief a barrier to ethnic minorities and give an example?",
     "back": "Sport participation can conflict with cultural or religious practices; e.g. Muslim women wearing a hijab or prayer times conflicting with training",
     "subtopicId": "equal-opportunities",
     "group": "Barries to participation in sport + solutions"
   },
   {
-    "id": "equal-opportunities-142",
+    "id": "equal-opportunities-059",
     "front": "How is economic status a barrier to ethnic minorities and give an example?",
     "back": "Disproportionate poverty limits access to sport; e.g. the cost of equipment, facilities and coaching",
     "subtopicId": "equal-opportunities",
     "group": "Barries to participation in sport + solutions"
   },
   {
-    "id": "equal-opportunities-143",
+    "id": "equal-opportunities-060",
     "front": "How is underrepresentation in coaching and management a barrier to ethnic minorities and give an example?",
     "back": "Few ethnic minority coaches and administrators; e.g. the Rooney Rule in the NFL requires minority candidates to be interviewed",
     "subtopicId": "equal-opportunities",
     "group": "Barries to participation in sport + solutions"
   },
   {
-    "id": "equal-opportunities-144",
+    "id": "equal-opportunities-061",
     "front": "What are some solutions to the barriers faced by ethnic minorities?",
     "back": "Kick It Out anti-racism campaign; Show Racism the Red Card educational campaign; Governing body diversity targets for coaching and administration; Cultural sensitivity in sport provision; Positive role models",
     "subtopicId": "equal-opportunities",
     "group": "Barries to participation in sport + solutions"
   },
   {
-    "id": "equal-opportunities-145",
+    "id": "equal-opportunities-062",
     "front": "What are the barriers to disabled people in sport?",
     "back": "Physical access; Financial; Attitudes; Media; Provision; Social class",
     "subtopicId": "equal-opportunities",
     "group": "Barries to participation in sport + solutions"
   },
   {
-    "id": "equal-opportunities-146",
+    "id": "equal-opportunities-063",
     "front": "How is physical access a barrier to disabled people and give an example?",
     "back": "Lack of accessible facilities; e.g. wheelchair users unable to access sports centres",
     "subtopicId": "equal-opportunities",
     "group": "Barries to participation in sport + solutions"
   },
   {
-    "id": "equal-opportunities-147",
+    "id": "equal-opportunities-064",
     "front": "How is financial access a barrier to disabled people and give an example?",
     "back": "Specialist equipment is expensive; e.g. wheelchair basketball chairs and prosthetic running blades",
     "subtopicId": "equal-opportunities",
     "group": "Barries to participation in sport + solutions"
   },
   {
-    "id": "equal-opportunities-148",
+    "id": "equal-opportunities-065",
     "front": "How are attitudes a barrier to disabled people and give an example?",
     "back": "Negative perceptions of disability sport; e.g. disability sport viewed as \"lesser\" or only \"inspirational\" rather than elite",
     "subtopicId": "equal-opportunities",
     "group": "Barries to participation in sport + solutions"
   },
   {
-    "id": "equal-opportunities-149",
+    "id": "equal-opportunities-066",
     "front": "How is media a barrier to disabled people and give an example?",
     "back": "Limited coverage of disability sport outside the Paralympics; e.g. Para-athletes receive little media attention outside the Paralympic Games",
     "subtopicId": "equal-opportunities",
     "group": "Barries to participation in sport + solutions"
   },
   {
-    "id": "equal-opportunities-150",
+    "id": "equal-opportunities-067",
     "front": "How is provision a barrier to disabled people and give an example?",
     "back": "Limited opportunities in schools and clubs; e.g. schools not providing adapted PE programmes",
     "subtopicId": "equal-opportunities",
     "group": "Barries to participation in sport + solutions"
   },
   {
-    "id": "equal-opportunities-151",
+    "id": "equal-opportunities-068",
     "front": "How is social class a barrier to disabled people and give an example?",
     "back": "Low-income groups face greater cost barriers; e.g. membership fees, transport and equipment costs",
     "subtopicId": "equal-opportunities",
     "group": "Barries to participation in sport + solutions"
   },
   {
-    "id": "equal-opportunities-152",
+    "id": "equal-opportunities-069",
     "front": "What are some solutions to the barriers faced by disabled people in sport?",
     "back": "Paralympic Games raising the profile of disability sport; Activity Alliance promoting inclusive sport; Accessible facility design requirements; Adapted sport provision in schools; Greater media coverage of Para-sport beyond the Paralympics",
     "subtopicId": "equal-opportunities",
     "group": "Barries to participation in sport + solutions"
   },
   {
-    "id": "equal-opportunities-153",
+    "id": "equal-opportunities-070",
     "front": "What are the causes of underrepresentation of BAME groups in sport?",
     "back": "Conflict with religious and cultural observances; Higher value placed on education than sporting participation; Fear of racism, prejudice and discrimination; Fewer role models; Fear of rejection and low self-esteem; Stereotyping and channelling into certain sports; Language barriers",
     "subtopicId": "equal-opportunities",
     "group": "Barries to participation in sport + solutions"
   },
   {
-    "id": "equal-opportunities-154",
+    "id": "equal-opportunities-071",
     "front": "What are the solutions to racial disadvantages in sport?",
     "back": "Training more BAME coaches, teachers and sports leaders; Ensuring single-sex provision where appropriate; Publicising and severely punishing racist abuse; Ensuring PE provision is appropriate for all ethnic preferences; Organising anti-racism campaigns; Kick It Out; No Room for Racism campaign",
     "subtopicId": "equal-opportunities",
     "group": "Barries to participation in sport + solutions"
   },
   {
-    "id": "equal-opportunities-155",
+    "id": "equal-opportunities-072",
     "front": "What are the health benefits of increasing participation according to the UK government?",
     "back": "Reduced chance of obesity and maintaining a healthy body weight; Improved cardiovascular health; Prevention of lifestyle diseases; Improved mental health (reduced anxiety and depression); Decreased blood pressure",
     "subtopicId": "equal-opportunities",
     "group": "Benefits of raising participation"
   },
   {
-    "id": "equal-opportunities-156",
+    "id": "equal-opportunities-073",
     "front": "What are the fitness benefits of raising participation in sport?",
     "back": "Improved strength; Improved endurance; Improved flexibility; Improved coordination across the population",
     "subtopicId": "equal-opportunities",
     "group": "Benefits of raising participation"
   },
   {
-    "id": "equal-opportunities-157",
+    "id": "equal-opportunities-074",
     "front": "What are the social benefits of raising participation in sport?",
     "back": "Meeting new people and making friends, creating a sense of community; Higher self-confidence through improved physique and skills; Positive use of free time, reducing crime and keeping individuals out of trouble",
     "subtopicId": "equal-opportunities",
     "group": "Benefits of raising participation"
   },
   {
-    "id": "equal-opportunities-158",
+    "id": "equal-opportunities-075",
     "front": "What are the economic benefits of raising participation in sport?",
     "back": "Reduced annual sick leave; Improved mental and physical health leading to better work performance; Less likelihood of being absent from work due to health issues",
     "subtopicId": "equal-opportunities",
     "group": "Benefits of raising participation"
   },
   {
-    "id": "equal-opportunities-159",
+    "id": "equal-opportunities-076",
     "front": "What is Sport England's main aim?",
     "back": "To create a sporting habit for life; To increase participation levels in sport; To work with National Governing Bodies (NGBs) to support development and improvement",
     "subtopicId": "equal-opportunities",
     "group": "Relationship between sport england + local and national partners"
   },
   {
-    "id": "equal-opportunities-160",
+    "id": "equal-opportunities-077",
     "front": "What is Sport England's main interest?",
     "back": "Grassroots sport",
     "subtopicId": "equal-opportunities",
     "group": "Relationship between sport england + local and national partners"
   },
   {
-    "id": "equal-opportunities-161",
+    "id": "equal-opportunities-078",
     "front": "Who is Sport England funded by?",
     "back": "The Government and the National Lottery",
     "subtopicId": "equal-opportunities",
     "group": "Relationship between sport england + local and national partners"
   },
   {
-    "id": "equal-opportunities-162",
+    "id": "equal-opportunities-079",
     "front": "What is Sport England's key campaign?",
     "back": "This Girl Can – encourages women and girls to participate in sport by challenging stereotypes through media campaigns and celebrating real women exercising regardless of ability or appearance",
     "subtopicId": "equal-opportunities",
     "group": "Relationship between sport england + local and national partners"
   },
   {
-    "id": "equal-opportunities-163",
+    "id": "equal-opportunities-080",
     "front": "Who does Sport England work with?",
     "back": "National partners",
     "subtopicId": "equal-opportunities",
     "group": "Relationship between sport england + local and national partners"
   },
   {
-    "id": "equal-opportunities-164",
+    "id": "equal-opportunities-081",
     "front": "What are some examples of national partners?",
     "back": "Activity Alliance; StreetGames; Women in Sport; Sporting Equals; Youth Sport Trust; National Governing Bodies (NGBs)",
     "subtopicId": "equal-opportunities",
     "group": "Relationship between sport england + local and national partners"
   },
   {
-    "id": "equal-opportunities-165",
+    "id": "equal-opportunities-082",
     "front": "What is Activity Alliance and who does it focus on?",
     "back": "A national partner that focuses on disability inclusion in sport",
     "subtopicId": "equal-opportunities",
     "group": "Relationship between sport england + local and national partners"
   },
   {
-    "id": "equal-opportunities-166",
+    "id": "equal-opportunities-083",
     "front": "What is StreetGames and who does it focus on?",
     "back": "A national partner that helps disadvantaged young people take part in sport; Includes programmes such as the Youth Crime Impact Programme",
     "subtopicId": "equal-opportunities",
     "group": "Relationship between sport england + local and national partners"
   },
   {
-    "id": "equal-opportunities-167",
+    "id": "equal-opportunities-084",
     "front": "What is Women in Sport and what does it focus on?",
     "back": "A national partner that works with schools, local councils and NGBs to ensure sport is accessible to women and promote sporting equality",
     "subtopicId": "equal-opportunities",
     "group": "Relationship between sport england + local and national partners"
   },
   {
-    "id": "equal-opportunities-168",
+    "id": "equal-opportunities-085",
     "front": "Which national partner helps ethnically diverse people?",
     "back": "Sporting Equals",
     "subtopicId": "equal-opportunities",
     "group": "Relationship between sport england + local and national partners"
   },
   {
-    "id": "equal-opportunities-169",
+    "id": "equal-opportunities-086",
     "front": "How do NGBs and Sport England relate?",
     "back": "NGBs work with Sport England and national partners to create a coordinated approach to increasing participation levels across the nation",
     "subtopicId": "equal-opportunities",
     "group": "Relationship between sport england + local and national partners"
   },
   {
-    "id": "equal-opportunities-170",
+    "id": "equal-opportunities-087",
     "front": "Why is the UK Government interested in increasing participation in sport across the nation?",
     "back": "Sport is an important part of society; Improves the health and fitness of the population, reducing pressure on the NHS; Helps prevent crime and supports social control; Increases medal winners and national pride; Creates employment",
     "subtopicId": "equal-opportunities",
     "group": "Relationship between sport england + local and national partners"
   },
   {
-    "id": "equal-opportunities-171",
+    "id": "equal-opportunities-088",
     "front": "How can schools increase participation in sport for the future?",
     "back": "More curriculum time and a greater variety of activities; Extra-curricular clubs and teams; Better facilities and resources; Different roles such as leadership and critical performer; National Curriculum; Gifted and talented programmes; Promoting the health and fitness benefits of sport; Encouraging lifelong participation and active lifestyles",
     "subtopicId": "equal-opportunities",
     "group": "Relationship between sport england + local and national partners"
   },
   {
-    "id": "equal-opportunities-172",
+    "id": "equal-opportunities-089",
     "front": "What are local partners?",
     "back": "Organisations that help develop sport in their local area according to local needs; Provide the right facilities in the right places",
     "subtopicId": "equal-opportunities",
     "group": "Relationship between sport england + local and national partners"
   },
   {
-    "id": "equal-opportunities-173",
+    "id": "equal-opportunities-090",
     "front": "What are some examples of local partners?",
     "back": "Local authorities (e.g. Kent County Council); Health organisations; National Governing Bodies (NGBs); Sports clubs; Schools and education providers",
     "subtopicId": "equal-opportunities",
     "group": "Relationship between sport england + local and national partners"
   },
   {
-    "id": "equal-opportunities-174",
+    "id": "equal-opportunities-091",
     "front": "Who are local partners partnered with?",
     "back": "Sport England to develop a unified approach",
     "subtopicId": "equal-opportunities",
     "group": "Relationship between sport england + local and national partners"
   },
   {
-    "id": "equal-opportunities-175",
+    "id": "equal-opportunities-092",
     "front": "What are the main aims of local partners?",
     "back": "Help more people develop a sporting habit for life; Create more opportunities for young people to participate in sport; Nurture and develop talent; Provide the right facilities in the right places; Support local authorities and unlock funding; Ensure real opportunities for communities",
     "subtopicId": "equal-opportunities",

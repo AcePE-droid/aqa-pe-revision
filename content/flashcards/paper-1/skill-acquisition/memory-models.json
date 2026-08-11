@@ -1,650 +1,573 @@
 [
   {
     "id": "memory-models-001",
-    "front": "What is the multi-store model of memory?",
-    "back": "A model (Atkinson and Shiffrin) describing memory as three stores: the sensory register, short-term memory and long-term memory.",
-    "subtopicId": "memory-models",
-    "group": "Multi-store model"
-  },
-  {
-    "id": "memory-models-002",
-    "front": "What is the sensory register?",
-    "back": "The store that briefly holds all information from the senses, with unlimited capacity but a very short duration (under one second).",
-    "subtopicId": "memory-models",
-    "group": "Multi-store model"
-  },
-  {
-    "id": "memory-models-003",
-    "front": "What is the capacity of short-term memory?",
-    "back": "Approximately 5-9 (7 plus or minus 2) items or chunks of information.",
-    "subtopicId": "memory-models",
-    "group": "Multi-store model"
-  },
-  {
-    "id": "memory-models-004",
-    "front": "What is the duration of short-term memory?",
-    "back": "Approximately 30 seconds without rehearsal.",
-    "subtopicId": "memory-models",
-    "group": "Multi-store model"
-  },
-  {
-    "id": "memory-models-005",
-    "front": "What is the capacity of long-term memory?",
-    "back": "Unlimited.",
-    "subtopicId": "memory-models",
-    "group": "Multi-store model"
-  },
-  {
-    "id": "memory-models-006",
-    "front": "What is the duration of long-term memory?",
-    "back": "Potentially a lifetime.",
-    "subtopicId": "memory-models",
-    "group": "Multi-store model"
-  },
-  {
-    "id": "memory-models-007",
-    "front": "What is rehearsal?",
-    "back": "Repeating information to keep it active in short-term memory and help transfer it into long-term memory.",
-    "subtopicId": "memory-models",
-    "group": "Multi-store model"
-  },
-  {
-    "id": "memory-models-008",
-    "front": "Why is rehearsal important for beginners learning a new skill?",
-    "back": "It helps consolidate the movement pattern (motor programme) in long-term memory for later retrieval.",
-    "subtopicId": "memory-models",
-    "group": "Multi-store model"
-  },
-  {
-    "id": "memory-models-009",
-    "front": "What is chunking?",
-    "back": "Grouping individual pieces of information into larger, meaningful units to increase the effective capacity of short-term memory.",
-    "subtopicId": "memory-models",
-    "group": "Multi-store model"
-  },
-  {
-    "id": "memory-models-010",
-    "front": "What is selective attention?",
-    "back": "The process of filtering out irrelevant information from the sensory register so only relevant information passes into short-term memory.",
-    "subtopicId": "memory-models",
-    "group": "Selective attention"
-  },
-  {
-    "id": "memory-models-011",
-    "front": "What factors affect what is selectively attended to?",
-    "back": "Past experience, arousal levels, and the importance or relevance of the information.",
-    "subtopicId": "memory-models",
-    "group": "Selective attention"
-  },
-  {
-    "id": "memory-models-012",
-    "front": "How can a coach reduce information overload in the sensory register?",
-    "back": "By highlighting only key/relevant cues and simplifying instructions.",
-    "subtopicId": "memory-models",
-    "group": "Selective attention"
-  },
-  {
-    "id": "memory-models-013",
     "front": "What are the three parts of information processing?",
     "back": "Input, decision making, and output.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-014",
+    "id": "memory-models-002",
     "front": "What is the first stage of information processing in sport?",
     "back": "The input stage, where the performer uses the senses to pick up information from the sporting environment (the display).",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-015",
+    "id": "memory-models-003",
     "front": "What is meant by the \"display\" in sport?",
     "back": "The sporting environment from which information is picked up using the senses.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-016",
+    "id": "memory-models-004",
     "front": "What are receptor systems?",
     "back": "The senses that pick up information from the display in the sporting environment.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-017",
+    "id": "memory-models-005",
     "front": "What are the external senses used in sport?",
     "back": "Sight (vision) and auditory sense (hearing).",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-018",
+    "id": "memory-models-006",
     "front": "What are the internal senses used in sport?",
     "back": "Touch, balance, and kinesthesis.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-019",
+    "id": "memory-models-007",
     "front": "Why are receptor systems important in sport?",
     "back": "They allow the performer to collect information from the display to help make decisions and respond effectively.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-020",
+    "id": "memory-models-008",
     "front": "What can a performer pick up using sight (vision) in sport?",
     "back": "The flight of the ball or the position of an opponent.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-021",
+    "id": "memory-models-009",
     "front": "Why is picking up visual information early important in sport?",
     "back": "It allows the performer more time to process the information and make quicker decisions.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-022",
+    "id": "memory-models-010",
     "front": "What is an example of auditory information in sport?",
     "back": "Hearing a teammate's call, a referee's whistle, or the sound of a ball hitting a bat.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-023",
+    "id": "memory-models-011",
     "front": "How is the sense of touch used in sport?",
     "back": "To feel the grip on equipment such as a ball or the feel of a springboard under the feet.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-024",
+    "id": "memory-models-012",
     "front": "How is balance important in sport?",
     "back": "Athletes such as gymnasts or basketball players need balance to perform accurately and safely.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-025",
+    "id": "memory-models-013",
     "front": "What is kinesthesis?",
     "back": "The inner sense that provides information about body position and muscular tension.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-026",
+    "id": "memory-models-014",
     "front": "Why is kinesthesis important in sport?",
     "back": "It helps athletes understand and control their body movements, especially as skills are developed.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-027",
+    "id": "memory-models-015",
+    "front": "What is selective attention?",
+    "back": "Filtering relevant information from irrelevant information.",
+    "subtopicId": "memory-models",
+    "group": "Input"
+  },
+  {
+    "id": "memory-models-016",
     "front": "Why is selective attention important in sport?",
     "back": "The performer receives a large amount of sensory information and must focus only on what is important for decision making.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-028",
+    "id": "memory-models-017",
     "front": "What cognitive process helps athletes identify the best passing option in a game?",
     "back": "Perception, which is used to recognise which attacker is most likely to receive the ball successfully.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-029",
+    "id": "memory-models-018",
     "front": "What is the definition of perception?",
     "back": "The cognitive process of interpreting (making sense of) incoming environmental cues.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-030",
+    "id": "memory-models-019",
     "front": "How can selective attention be developed in sport?",
     "back": "Through experience, focused training on the stimulus, mental practice, and increased motivation.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-031",
+    "id": "memory-models-020",
     "front": "What is an example of training that helps develop selective attention?",
     "back": "Using a brightly coloured ball in football to help players pick up the pace and direction of the pass.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-032",
+    "id": "memory-models-021",
     "front": "How does increasing the intensity of a stimulus help selective attention?",
     "back": "It trains the performer to concentrate and focus more effectively by making the stimulus stand out during practice.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-033",
+    "id": "memory-models-022",
     "front": "How can motivation improve selective attention?",
     "back": "Improved motivation, boosted by rewards such as positive comments, increases alertness to important information.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-034",
+    "id": "memory-models-023",
     "front": "How does mental practice help selective attention?",
     "back": "By running through tasks in the mind before movement begins, performers can focus on key information during execution.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-035",
+    "id": "memory-models-024",
     "front": "What is one major benefit of selective attention in sport?",
     "back": "It significantly improves reaction time.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-036",
+    "id": "memory-models-025",
     "front": "How does selective attention affect decision making?",
     "back": "It limits irrelevant information, helping the performer focus and reducing strain on the working memory, which improves decision accuracy.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-037",
+    "id": "memory-models-026",
     "front": "Why is it useful to ignore irrelevant information in sport?",
     "back": "It allows the athlete to concentrate on more detailed and task-specific aspects, improving performance accuracy.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-038",
+    "id": "memory-models-027",
     "front": "What does DCR stand for in the perceptual stage of information processing?",
     "back": "Detection, Comparison, and Recognition.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-039",
+    "id": "memory-models-028",
     "front": "What is the meaning of Detection in the DCR process?",
     "back": "Picking up relevant information and identifying it as important using the senses and selective attention.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-040",
+    "id": "memory-models-029",
     "front": "What happens during the Comparison stage of DCR?",
     "back": "The performer compares the new information with information already stored in their memory.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-041",
+    "id": "memory-models-030",
     "front": "What does Recognition mean in the DCR model?",
     "back": "The performer identifies an appropriate response based on memory and prepares to act.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-042",
+    "id": "memory-models-031",
     "front": "Why is memory important in the Comparison and Recognition stages?",
     "back": "It stores past experiences that help identify patterns and select suitable responses.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-043",
+    "id": "memory-models-032",
     "front": "What is perception?",
     "back": "The process of coding and interpreting sensory information.",
     "subtopicId": "memory-models",
     "group": "Input"
   },
   {
-    "id": "memory-models-044",
+    "id": "memory-models-033",
     "front": "What is the second stage of information processing in sport?",
     "back": "The decision-making stage.",
     "subtopicId": "memory-models",
     "group": "Decision making"
   },
   {
-    "id": "memory-models-045",
+    "id": "memory-models-034",
     "front": "What happens during the decision-making stage of information processing?",
     "back": "The performer makes a decision based on all the information collected by the senses.",
     "subtopicId": "memory-models",
     "group": "Decision making"
   },
   {
-    "id": "memory-models-046",
+    "id": "memory-models-035",
     "front": "What is the purpose of the translatory mechanism in sport?",
     "back": "It adapts and compares coded information with memory so that decisions can be made.",
     "subtopicId": "memory-models",
     "group": "Decision making"
   },
   {
-    "id": "memory-models-047",
+    "id": "memory-models-036",
     "front": "How does the translatory mechanism help with decision making?",
     "back": "It uses past experiences to match new information with stored motor programmes.",
     "subtopicId": "memory-models",
     "group": "Decision making"
   },
   {
-    "id": "memory-models-048",
+    "id": "memory-models-037",
     "front": "What is a motor programme?",
     "back": "A stored set of movements in memory that can be used to perform a skill.",
     "subtopicId": "memory-models",
     "group": "Decision making"
   },
   {
-    "id": "memory-models-049",
+    "id": "memory-models-038",
     "front": "What happens after information is filtered and coded in sport?",
     "back": "It is sent to the memory and matched with similar past experiences using the translatory mechanism.",
     "subtopicId": "memory-models",
     "group": "Decision making"
   },
   {
-    "id": "memory-models-050",
+    "id": "memory-models-039",
     "front": "What is the translatory mechanism?",
     "back": "The process of adapting and comparing coded information with memory so that decisions can be made.",
     "subtopicId": "memory-models",
     "group": "Decision making"
   },
   {
-    "id": "memory-models-051",
+    "id": "memory-models-040",
     "front": "What is an example of the translatory mechanism in action?",
     "back": "In tennis, the flight of the ball and the opponent's position are compared with an image of a backhand return.",
     "subtopicId": "memory-models",
     "group": "Decision making"
   },
   {
-    "id": "memory-models-052",
+    "id": "memory-models-041",
     "front": "What is the effector mechanism in the context of sports performance?",
     "back": "The network of nerves that delivers decisions made during the perceptual process to the muscles so they can perform an action.",
     "subtopicId": "memory-models",
     "group": "Output"
   },
   {
-    "id": "memory-models-053",
+    "id": "memory-models-042",
     "front": "How do muscles receive the signal from the effector mechanism?",
     "back": "Muscles receive the information in the form of coded impulses sent by the nerves.",
     "subtopicId": "memory-models",
     "group": "Output"
   },
   {
-    "id": "memory-models-054",
+    "id": "memory-models-043",
     "front": "What happens once the muscles receive the coded impulses?",
     "back": "The muscles contract, and the response or action can begin.",
     "subtopicId": "memory-models",
     "group": "Output"
   },
   {
-    "id": "memory-models-055",
+    "id": "memory-models-044",
     "front": "Why is the effector mechanism essential in the decision-to-action process in sport?",
     "back": "It converts the decisions made during the perceptual process into muscular output, enabling the performer to act.",
     "subtopicId": "memory-models",
     "group": "Output"
   },
   {
-    "id": "memory-models-056",
+    "id": "memory-models-045",
     "front": "What is feedback in the context of sports performance?",
     "back": "Information used during or after the response to aid movement correction.",
     "subtopicId": "memory-models",
     "group": "Feedback"
   },
   {
-    "id": "memory-models-057",
+    "id": "memory-models-046",
     "front": "What are all the different types of feedback used?",
     "back": "Intrinsic, extrinsic, knowledge of result, knowledge of performance, positive, negative",
     "subtopicId": "memory-models",
     "group": "Feedback"
   },
   {
-    "id": "memory-models-058",
+    "id": "memory-models-047",
     "front": "What is working memory?",
     "back": "A temporary memory store that actively processes information rather than simply storing it.",
     "subtopicId": "memory-models",
     "group": "Baddeley and Hitch working memory model"
   },
   {
-    "id": "memory-models-059",
+    "id": "memory-models-048",
     "front": "Who proposed the Working Memory Model (WMM)?",
     "back": "Baddeley and Hitch (1974).",
     "subtopicId": "memory-models",
     "group": "Baddeley and Hitch working memory model"
   },
   {
-    "id": "memory-models-060",
+    "id": "memory-models-049",
     "front": "What did the Working Memory Model replace?",
     "back": "The idea of a single short-term memory store.",
     "subtopicId": "memory-models",
     "group": "Baddeley and Hitch working memory model"
   },
   {
-    "id": "memory-models-061",
+    "id": "memory-models-050",
     "front": "What is the structure of the Working Memory Model?",
     "back": "A four-component system made up of separate but interdependent subsystems.",
     "subtopicId": "memory-models",
     "group": "Baddeley and Hitch working memory model"
   },
   {
-    "id": "memory-models-062",
+    "id": "memory-models-051",
     "front": "What is the main focus of the Working Memory Model?",
     "back": "The active processing of information used in conscious thought.",
     "subtopicId": "memory-models",
     "group": "Baddeley and Hitch working memory model"
   },
   {
-    "id": "memory-models-063",
+    "id": "memory-models-052",
     "front": "Why is working memory described as temporary?",
     "back": "Each subsystem has a limited capacity and duration.",
     "subtopicId": "memory-models",
     "group": "Baddeley and Hitch working memory model"
   },
   {
-    "id": "memory-models-064",
+    "id": "memory-models-053",
     "front": "What types of activities does the Working Memory Model explain?",
     "back": "Complex cognitive activities such as perceiving, thinking, remembering and learning.",
     "subtopicId": "memory-models",
     "group": "Baddeley and Hitch working memory model"
   },
   {
-    "id": "memory-models-065",
+    "id": "memory-models-054",
     "front": "What is the central executive?",
     "back": "The control centre of the working memory.",
     "subtopicId": "memory-models",
     "group": "Baddeley and Hitch working memory model"
   },
   {
-    "id": "memory-models-066",
+    "id": "memory-models-055",
     "front": "What is the role of the central executive?",
     "back": "It directs attention and controls the flow of information entering and leaving working memory.",
     "subtopicId": "memory-models",
     "group": "Baddeley and Hitch working memory model"
   },
   {
-    "id": "memory-models-067",
+    "id": "memory-models-056",
     "front": "What does the central executive decide?",
     "back": "Which information is sent to each subsystem.",
     "subtopicId": "memory-models",
     "group": "Baddeley and Hitch working memory model"
   },
   {
-    "id": "memory-models-068",
+    "id": "memory-models-057",
     "front": "What are the three subsystems of working memory?",
     "back": "The phonological loop, visuospatial sketchpad and episodic buffer.",
     "subtopicId": "memory-models",
     "group": "Baddeley and Hitch working memory model"
   },
   {
-    "id": "memory-models-069",
+    "id": "memory-models-058",
     "front": "What is the phonological loop?",
     "back": "The subsystem that processes auditory and verbal information.",
     "subtopicId": "memory-models",
     "group": "Baddeley and Hitch working memory model"
   },
   {
-    "id": "memory-models-070",
+    "id": "memory-models-059",
     "front": "What type of information does the phonological loop process in sport?",
     "back": "A coach's instructions, calls from teammates and the sound of a ball.",
     "subtopicId": "memory-models",
     "group": "Baddeley and Hitch working memory model"
   },
   {
-    "id": "memory-models-071",
+    "id": "memory-models-060",
     "front": "What are the two components of the phonological loop?",
     "back": "The phonological store and the articulatory control process.",
     "subtopicId": "memory-models",
     "group": "Baddeley and Hitch working memory model"
   },
   {
-    "id": "memory-models-072",
+    "id": "memory-models-061",
     "front": "What is the phonological store?",
     "back": "A component that stores spoken information for approximately 1–2 seconds.",
     "subtopicId": "memory-models",
     "group": "Baddeley and Hitch working memory model"
   },
   {
-    "id": "memory-models-073",
+    "id": "memory-models-062",
     "front": "What is another name for the phonological store?",
     "back": "The inner ear.",
     "subtopicId": "memory-models",
     "group": "Baddeley and Hitch working memory model"
   },
   {
-    "id": "memory-models-074",
+    "id": "memory-models-063",
     "front": "What is the articulatory control process?",
     "back": "A component that rehearses and repeats verbal information to keep it in working memory.",
     "subtopicId": "memory-models",
     "group": "Baddeley and Hitch working memory model"
   },
   {
-    "id": "memory-models-075",
+    "id": "memory-models-064",
     "front": "What is another name for the articulatory control process?",
     "back": "The inner voice.",
     "subtopicId": "memory-models",
     "group": "Baddeley and Hitch working memory model"
   },
   {
-    "id": "memory-models-076",
+    "id": "memory-models-065",
     "front": "How does the phonological loop help learning skills?",
     "back": "It creates a memory trace that can be transferred to long-term memory.",
     "subtopicId": "memory-models",
     "group": "Baddeley and Hitch working memory model"
   },
   {
-    "id": "memory-models-077",
+    "id": "memory-models-066",
     "front": "What is the visuospatial sketchpad?",
     "back": "The subsystem that processes visual and spatial information.",
     "subtopicId": "memory-models",
     "group": "Baddeley and Hitch working memory model"
   },
   {
-    "id": "memory-models-078",
+    "id": "memory-models-067",
     "front": "What type of information does the visuospatial sketchpad process?",
     "back": "Shape, position, movement and spatial relationships.",
     "subtopicId": "memory-models",
     "group": "Baddeley and Hitch working memory model"
   },
   {
-    "id": "memory-models-079",
+    "id": "memory-models-068",
     "front": "What are the two components of the visuospatial sketchpad?",
     "back": "The visual cache and the inner scribe.",
     "subtopicId": "memory-models",
     "group": "Baddeley and Hitch working memory model"
   },
   {
-    "id": "memory-models-080",
+    "id": "memory-models-069",
     "front": "What is the visual cache?",
     "back": "A component that stores visual information such as form and colour.",
     "subtopicId": "memory-models",
     "group": "Baddeley and Hitch working memory model"
   },
   {
-    "id": "memory-models-081",
+    "id": "memory-models-070",
     "front": "What is the inner scribe?",
     "back": "A component that processes movement and spatial relationships.",
     "subtopicId": "memory-models",
     "group": "Baddeley and Hitch working memory model"
   },
   {
-    "id": "memory-models-082",
+    "id": "memory-models-071",
     "front": "What is the episodic buffer?",
     "back": "The subsystem that integrates information from the other subsystems and long-term memory.",
     "subtopicId": "memory-models",
     "group": "Baddeley and Hitch working memory model"
   },
   {
-    "id": "memory-models-083",
+    "id": "memory-models-072",
     "front": "What is the main role of the episodic buffer?",
     "back": "To combine information into meaningful episodes or sequences.",
     "subtopicId": "memory-models",
     "group": "Baddeley and Hitch working memory model"
   },
   {
-    "id": "memory-models-084",
+    "id": "memory-models-073",
     "front": "Where does the episodic buffer send information?",
     "back": "To long-term memory.",
     "subtopicId": "memory-models",
     "group": "Baddeley and Hitch working memory model"
   },
   {
-    "id": "memory-models-085",
+    "id": "memory-models-074",
     "front": "How does the episodic buffer help performance in sport?",
     "back": "It combines visual, auditory and spatial information to help initiate motor programmes.",
     "subtopicId": "memory-models",
     "group": "Baddeley and Hitch working memory model"
   },
   {
-    "id": "memory-models-086",
+    "id": "memory-models-075",
     "front": "What is the order of the larger information-processing model?",
     "back": "Environment → Display → Perceptual Mechanisms → Translatory Mechanisms → Effector Mechanisms → Muscular System → Output → Feedback Data.",
     "subtopicId": "memory-models",
     "group": "Whitings model"
   },
   {
-    "id": "memory-models-087",
+    "id": "memory-models-076",
     "front": "What does Whiting's model of information processing look like?",
     "back": "It has a horseshoe shape, with the information-processing stages arranged around it. The model begins with the display and ends with feedback.",
     "subtopicId": "memory-models",
     "group": "Whitings model"
   },
   {
-    "id": "memory-models-088",
+    "id": "memory-models-077",
     "front": "What comes before the perceptual mechanisms?",
     "back": "Environment, display, sensory organs",
     "subtopicId": "memory-models",
     "group": "Whitings model"
   },
   {
-    "id": "memory-models-089",
+    "id": "memory-models-078",
     "front": "What are perceptual mechanisms in Whiting's model?",
     "back": "The parts of the brain that make sense of the surroundings and give this information meaning.",
     "subtopicId": "memory-models",
     "group": "Whitings model"
   },
   {
-    "id": "memory-models-090",
+    "id": "memory-models-079",
     "front": "What can a coach use to improve perceptual mechanisms?",
     "back": "High-quality instruction, specific stimuli, vivid or intense stimuli, unusual or contrasting stimuli, and increased arousal or alertness in the performer.",
     "subtopicId": "memory-models",
     "group": "Whitings model"
   },
   {
-    "id": "memory-models-091",
+    "id": "memory-models-080",
     "front": "What are translatory mechanisms in Whiting's model?",
     "back": "The parts of the brain that compare current information with past information stored as schemas.",
     "subtopicId": "memory-models",
     "group": "Whitings model"
   },
   {
-    "id": "memory-models-092",
+    "id": "memory-models-081",
     "front": "What are effector mechanisms in Whiting's model?",
     "back": "The parts of the brain responsible for setting in motion the appropriate neuromuscular sequences to activate the skill.",
     "subtopicId": "memory-models",
     "group": "Whitings model"
   },
   {
-    "id": "memory-models-093",
+    "id": "memory-models-082",
     "front": "What comes after the effector mechanisms?",
     "back": "Muscular system output data, feedback data",
     "subtopicId": "memory-models",
