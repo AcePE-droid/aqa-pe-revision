@@ -1,5 +1,8 @@
 import Link from "next/link";
 
+// TODO: replace with real feedback email before launch
+const FEEDBACK_EMAIL = "feedback@example.com";
+
 export default function Footer() {
   return (
     <footer className="border-t border-slate-200 bg-slate-50">
@@ -8,10 +11,13 @@ export default function Footer() {
           PE Revision is an independent student-made resource. Not affiliated with or endorsed
           by AQA.
         </p>
-        <p className="mt-2">
+        <p className="mt-2 flex gap-4">
           <Link href="/about" className="hover:text-blue-600">
             About this site
           </Link>
+          <a href={`mailto:${FEEDBACK_EMAIL}?subject=PE%20Revision%20feedback`} className="hover:text-blue-600">
+            Send feedback
+          </a>
         </p>
       </div>
     </footer>

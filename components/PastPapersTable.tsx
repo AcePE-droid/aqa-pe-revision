@@ -102,7 +102,10 @@ export default function PastPapersTable({ papers }: Props) {
               </tr>
             )}
             {filtered.map((p) => (
-              <tr key={p.id}>
+              <tr
+                key={p.id}
+                className="even:bg-slate-50 hover:bg-slate-100 transition-colors duration-150"
+              >
                 <td className="px-4 py-3 text-slate-800">
                   {p.year}
                   {p.session ? ` (${p.session})` : ""}
