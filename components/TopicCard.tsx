@@ -10,9 +10,18 @@ type Props = {
   href: string;
   subtopicIds: string[];
   total: number;
+  progressBarClassName?: string;
+  hoverBorderClassName?: string;
 };
 
-export default function TopicCard({ name, href, subtopicIds, total }: Props) {
+export default function TopicCard({
+  name,
+  href,
+  subtopicIds,
+  total,
+  progressBarClassName = "bg-blue-600",
+  hoverBorderClassName = "hover:border-blue-300",
+}: Props) {
   const [known, setKnown] = useState<number | null>(null);
 
   useEffect(() => {
@@ -40,7 +49,7 @@ export default function TopicCard({ name, href, subtopicIds, total }: Props) {
   return (
     <Link
       href={href}
-      className="flex flex-col gap-3 rounded-lg border border-slate-200 p-6 transition-shadow hover:border-blue-300 hover:shadow-md"
+      className={`flex flex-col gap-3 rounded-lg border border-slate-200 p-6 transition-shadow hover:shadow-md ${hoverBorderClassName}`}
     >
       <div className="flex items-start justify-between gap-3">
         <h2 className="text-lg font-bold text-slate-900">{name}</h2>
@@ -54,7 +63,7 @@ export default function TopicCard({ name, href, subtopicIds, total }: Props) {
             : `${total} card${total === 1 ? "" : "s"}`}
       </p>
       <div className="h-1.5 w-full overflow-hidden rounded-full bg-slate-100">
-        <div className="h-full rounded-full bg-blue-600" style={{ width: `${pct}%` }} />
+        <div className={`h-full rounded-full ${progressBarClassName}`} style={{ width: `${pct}%` }} />
       </div>
     </Link>
   );

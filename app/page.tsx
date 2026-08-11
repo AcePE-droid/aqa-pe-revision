@@ -34,6 +34,7 @@ export default function Home() {
               subtitle={subject.subtitle}
               href={subject.href}
               Icon={subject.Icon}
+              iconClassName={subject.iconClassName}
             />
           ))}
         </div>

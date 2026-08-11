@@ -5,11 +5,13 @@ import Link from "next/link";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import type { Flashcard } from "@/types/content";
 import { setFlashcardStatus, type FlashcardStatus } from "@/lib/progress";
+import { getSubjectStyle } from "@/lib/subject-styles";
 
 type Props = {
   subtopicId: string;
   subtopicName: string;
   topicName: string;
+  subjectSlug: string;
   backHref: string;
   cards: Flashcard[];
   groupLabel?: string;
@@ -19,6 +21,7 @@ export default function FlashcardStudy({
   subtopicId,
   subtopicName,
   topicName,
+  subjectSlug,
   backHref,
   cards,
   groupLabel,
@@ -50,6 +53,7 @@ export default function FlashcardStudy({
   }
 
   const breadcrumb = [topicName, subtopicName, groupLabel].filter(Boolean).join(" · ");
+  const breadcrumbColor = getSubjectStyle(subjectSlug).icon;
 
   return (
     <div className="fixed inset-0 z-50 flex flex-col bg-white [background-image:radial-gradient(circle,rgba(100,116,139,0.09)_1.25px,transparent_1.25px)] [background-size:28px_28px] [background-position:center]">
@@ -61,7 +65,7 @@ export default function FlashcardStudy({
         >
           <X className="h-6 w-6" />
         </Link>
-        <p className="min-w-0 truncate text-center text-sm text-slate-500">{breadcrumb}</p>
+        <p className={`min-w-0 truncate text-center text-sm ${breadcrumbColor}`}>{breadcrumb}</p>
         <p className="shrink-0 text-sm text-slate-500">
           Card {index + 1} of {cards.length}
         </p>

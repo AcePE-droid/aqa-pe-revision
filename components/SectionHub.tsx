@@ -7,6 +7,7 @@ type Subject = {
   subtitle: string;
   href: string;
   Icon: LucideIcon;
+  iconClassName?: string;
 };
 
 type Props = {
@@ -31,6 +32,7 @@ export default function SectionHub({ eyebrow, title, description, subjects }: Pr
             subtitle={subject.subtitle}
             href={subject.href}
             Icon={subject.Icon}
+            iconClassName={subject.iconClassName}
           />
         ))}
       </div>

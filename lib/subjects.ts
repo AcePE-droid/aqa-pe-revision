@@ -1,5 +1,6 @@
 import { HeartPulse, Brain, Users2, type LucideIcon } from "lucide-react";
 import { getSubjects, getTopicsBySubject } from "@/lib/content";
+import { getSubjectStyle } from "@/lib/subject-styles";
 
 const SUBJECT_ICONS: Record<string, LucideIcon> = {
   "Anatomy & Physiology": HeartPulse,
@@ -13,6 +14,7 @@ export type SubjectCardData = {
   subtitle: string;
   href: string;
   Icon: LucideIcon;
+  iconClassName: string;
 };
 
 /**
@@ -28,6 +30,7 @@ export function getFlashcardSubjectCards(): SubjectCardData[] {
       subtitle: topics.map((t) => t.name).join(", "),
       href: `/flashcards/${subject.slug}`,
       Icon: SUBJECT_ICONS[subject.name] ?? Brain,
+      iconClassName: getSubjectStyle(subject.slug).icon,
     };
   });
 }

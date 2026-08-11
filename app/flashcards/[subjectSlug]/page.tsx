@@ -8,6 +8,7 @@ import {
   getFlashcards,
 } from "@/lib/content";
 import TopicCard from "@/components/TopicCard";
+import { getSubjectStyle } from "@/lib/subject-styles";
 
 type PaperSection = {
   paper: { slug: string; name: string };
@@ -28,6 +29,7 @@ export default async function FlashcardSubjectPage(
   if (!subject) notFound();
 
   const topics = getTopicsBySubject(subject.name);
+  const style = getSubjectStyle(subject.slug);
 
   const sections = new Map<string, PaperSection>();
   for (const topic of topics) {
@@ -76,6 +78,8 @@ export default async function FlashcardSubjectPage(
                   href={topic.href}
                   subtopicIds={topic.subtopicIds}
                   total={topic.total}
+                  progressBarClassName={style.progressBar}
+                  hoverBorderClassName={style.hoverBorder}
                 />
               ))}
             </div>
