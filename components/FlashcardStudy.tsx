@@ -1,14 +1,10 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import type { Flashcard } from "@/types/content";
-import {
-  getFlashcardProgress,
-  setFlashcardStatus,
-  type FlashcardStatus,
-} from "@/lib/progress";
+import { setFlashcardStatus, type FlashcardStatus } from "@/lib/progress";
 
 type Props = {
   subtopicId: string;
@@ -21,13 +17,6 @@ type Props = {
 export default function FlashcardStudy({ subtopicId, subtopicName, backHref, cards, groupLabel }: Props) {
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
-  const [progress, setProgress] = useState<Record<string, FlashcardStatus>>({});
-
-  useEffect(() => {
-    // localStorage isn't available during SSR, so this can only be read after mount -
-    // deliberately deferred to avoid a client/server hydration mismatch.
-    setProgress(getFlashcardProgress(subtopicId));
-  }, [subtopicId]);
 
   const card = cards[index];
 
@@ -39,7 +28,6 @@ export default function FlashcardStudy({ subtopicId, subtopicName, backHref, car
 
   function mark(status: FlashcardStatus) {
     setFlashcardStatus(subtopicId, card.id, status);
-    setProgress((prev) => ({ ...prev, [card.id]: status }));
   }
 
   if (!card) {
@@ -79,23 +67,6 @@ export default function FlashcardStudy({ subtopicId, subtopicName, backHref, car
           </p>
         </button>
 
-        <div className="mt-6 flex flex-wrap items-center justify-center gap-1.5">
-          {cards.map((c, i) => {
-            const status = progress[c.id] ?? "unseen";
-            const color =
-              status === "known"
-                ? "bg-blue-600"
-                : status === "learning"
-                ? "bg-amber-400"
-                : "bg-slate-200";
-            return (
-              <span
-                key={c.id}
-                className={`h-2 w-2 rounded-full ${color} ${i === index ? "ring-2 ring-offset-2 ring-slate-300" : ""}`}
-              />
-            );
-          })}
-        </div>
       </div>
 
       <div className="flex flex-col gap-3 px-4 pb-8 pt-2 sm:px-6">
