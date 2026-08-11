@@ -20,7 +20,7 @@ export function resolveSubtopicByName(
   const topics = readJson<Topic[]>("topics.json");
   const papers = readJson<Paper[]>("papers.json");
 
-  const normalize = (s: string) => s.trim().toLowerCase().replace(/&/g, "and").replace(/\s+/g, " ");
+  const normalize = (s: string) => s.trim().toLowerCase().replace(/&/g, "and").replace(/\s+/g, "");
   const target = normalize(name);
   const subtopic = subtopics.find((s) => normalize(s.name) === target);
   if (!subtopic) return null;

@@ -1,0 +1,296 @@
+[
+  {
+    "id": "musculoskeletal-001",
+    "front": "Label the bones in the upper body",
+    "back": "1. Cranium 2. Mandible 3. Cervical vertebrae 4. Clavicle 5. Scapula 6. Humerus 7. Sternum 8. Ribs 9. Thoracic vertebrae 10. Lumbar vertebrae",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-002",
+    "front": "Label the bones in the lower body",
+    "back": "1. Pelvis 2. Ulna 3. Radius 4. Carpals 5. Metacarpals 6. Phalanges 7. Coccyx 8. Ischium 9. Femur 10. Patella 11. Tibia 12. Fibula 13. Talus 14. Tarsals 15. Metatarsals 16. Phalanges",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-003",
+    "front": "What is flexion?",
+    "back": "Decreasing the angle at a joint.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-004",
+    "front": "What is extension?",
+    "back": "Increasing the angle at a joint.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-005",
+    "front": "What is abduction?",
+    "back": "Movement away from the midline of the body.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-006",
+    "front": "What is adduction?",
+    "back": "Movement towards the midline of the body.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-007",
+    "front": "What is plantar flexion?",
+    "back": "Increasing the angle at the ankle joint by pointing the toes.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-008",
+    "front": "What is dorsiflexion?",
+    "back": "Decreasing the angle at the ankle joint by pulling the toes upwards.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-009",
+    "front": "What is hyperextension?",
+    "back": "Increasing the angle beyond 180° between the bones of a joint.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-010",
+    "front": "What is contraction?",
+    "back": "A muscle contracts when activated and tension is created. Muscles shorten and pull when they contract; they do not push.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-011",
+    "front": "Why are muscles arranged in antagonistic pairs?",
+    "back": "Because muscles can only pull, not push, so they work in pairs to move joints.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-012",
+    "front": "What is an antagonistic pair?",
+    "back": "A pair of muscles where one contracts (agonist) and the other relaxes (antagonist).",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-013",
+    "front": "What is the role of the agonist in movement?",
+    "back": "The agonist contracts to produce movement.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-014",
+    "front": "What is the role of the antagonist in movement?",
+    "back": "The antagonist relaxes to allow movement by the agonist.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-015",
+    "front": "What are the two types of isotonic muscle contraction?",
+    "back": "Concentric and eccentric contractions.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-016",
+    "front": "What is a concentric muscle contraction?",
+    "back": "The muscle shortens under tension.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-017",
+    "front": "What is an eccentric muscle contraction?",
+    "back": "The muscle lengthens under tension and acts as a brake to control movement. Usually occurs during the downward phase of movement.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-018",
+    "front": "What is an isometric contraction?",
+    "back": "A muscle contracts without changing length, so no movement occurs (e.g. crucifix position).",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-019",
+    "front": "Label all the planes and axes pairs",
+    "back": "Sagittal Plane – Transverse Axis; Frontal Plane – Sagittal Axis; Transverse Plane – Longitudinal Axis.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-020",
+    "front": "What movements happens at a sagittal plan and transverse axis?",
+    "back": "Flexion, extension, hyperextension, plantar flexion and dorsiflexion.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-021",
+    "front": "What movements happen at a frontal plan and sagittal axis?",
+    "back": "Abduction and adduction.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-022",
+    "front": "What movements occur in the transverse plane and longitudinal axis?",
+    "back": "Rotation, horizontal adduction and horizontal abduction.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-023",
+    "front": "What movement occurs along the sagittal plane?",
+    "back": "Shoulder and hip flexion, extension and hyperextension; elbow and knee flexion and extension; ankle dorsiflexion and plantar flexion.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-024",
+    "front": "What movement occurs in the frontal plane?",
+    "back": "Abduction and adduction at the shoulder and hip.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-025",
+    "front": "What movement occurs in the transverse plane?",
+    "back": "Horizontal abduction, horizontal adduction and rotation at the shoulder and hip. Examples include a golf swing or tennis forehand.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-026",
+    "front": "What happens to the arm during shoulder flexion?",
+    "back": "The arm moves upwards and forwards.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-027",
+    "front": "What are the agonist and antagonist during shoulder flexion?",
+    "back": "Agonist: Pectorals/Anterior Deltoid. Antagonist: Latissimus Dorsi/Posterior Deltoid.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-028",
+    "front": "What happens to the arm during shoulder extension?",
+    "back": "The arm moves backwards and downwards.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-029",
+    "front": "What are the agonist and antagonist during shoulder extension?",
+    "back": "Agonist: Latissimus Dorsi/Posterior Deltoid. Antagonist: Pectorals/Anterior Deltoid.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-030",
+    "front": "What happens to the arm during shoulder abduction?",
+    "back": "The arm moves away from the body's midline.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-031",
+    "front": "What are the agonist and antagonist during shoulder abduction?",
+    "back": "Agonist: Medial Deltoid. Antagonist: Posterior Deltoid/Latissimus Dorsi.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-032",
+    "front": "What happens to the arm during shoulder adduction?",
+    "back": "The arm moves towards the body's midline.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-033",
+    "front": "What are the agonist and antagonist during shoulder adduction?",
+    "back": "Agonist: Posterior Deltoid/Latissimus Dorsi. Antagonist: Medial Deltoid.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-034",
+    "front": "What happens to the arm during shoulder horizontal abduction?",
+    "back": "The arm moves horizontally away from the body's midline.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-035",
+    "front": "What are the agonist and antagonist during shoulder horizontal abduction?",
+    "back": "Agonist: Latissimus Dorsi. Antagonist: Pectorals (Pectoralis Major).",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-036",
+    "front": "What happens to the arm during shoulder horizontal adduction?",
+    "back": "The arm moves horizontally towards the body's midline.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-037",
+    "front": "What are the agonist and antagonist during shoulder horizontal adduction?",
+    "back": "Agonist: Pectorals (Pectoralis Major). Antagonist: Latissimus Dorsi.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-038",
+    "front": "What happens to the leg during hip flexion?",
+    "back": "The knee lifts towards the chest.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-039",
+    "front": "What are the agonist and antagonist during hip flexion?",
+    "back": "Agonist: Iliopsoas/Hip Flexors. Antagonist: Gluteals.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-040",
+    "front": "What happens to the leg during hip extension?",
+    "back": "The leg moves backwards.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-041",
+    "front": "What are the agonist and antagonist during hip extension?",
+    "back": "Agonist: Gluteals. Antagonist: Hip Flexors.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-042",
+    "front": "What happens to the leg during hip adduction?",
+    "back": "The leg moves towards the body's midline.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-043",
+    "front": "What are the agonist and antagonist during hip adduction?",
+    "back": "Agonist: Adductors. Antagonist: Gluteus Medius/Minimus and Tensor Fascia Latae.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-044",
+    "front": "What happens to the leg during hip abduction?",
+    "back": "The leg moves away from the body's midline.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-045",
+    "front": "What are the agonist and antagonist during hip abduction?",
+    "back": "Agonist: Gluteus Medius/Minimus and Tensor Fascia Latae. Antagonist: Adductors.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-046",
+    "front": "What happens to the leg during hip horizontal adduction?",
+    "back": "The leg moves horizontally towards the body's midline.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-047",
+    "front": "What are the agonist and antagonist during hip horizontal adduction?",
+    "back": "Agonist: Adductors. Antagonist: Tensor Fascia Latae/Gluteus Medius.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-048",
+    "front": "What happens to the leg during hip horizontal abduction?",
+    "back": "The leg moves horizontally away from the body's midline.",
+    "subtopicId": "musculoskeletal"
+  },
+  {
+    "id": "musculoskeletal-049",
+    "front": "What are the agonist and antagonist during hip horizontal abduction?",
+    "back": "Agonist: Tensor Fascia Latae/Gluteus Medius. Antagonist: Adductors.",
+    "subtopicId": "musculoskeletal"
+  }
+]

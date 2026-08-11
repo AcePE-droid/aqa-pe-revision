@@ -1,1 +1,128 @@
-[]
+[
+  {
+    "id": "2025-p1",
+    "year": 2025,
+    "paper": 1,
+    "questionPaperUrl": "https://www.aqa.org.uk/files/cRIpdimsSKiybuSFvPDhOc/62b04ad6dc240fa67e95e801b2f2ab2d49bdb7d5.pdf",
+    "markSchemeUrl": "https://www.aqa.org.uk/files/fHDU1dLPgDwvQhfFoKmmrb/7924885f9530a55fecd7bcb2221f23f962774234.pdf",
+    "examinerReportUrl": "https://www.aqa.org.uk/files/fHDU1dLPgDwvQhfFoKmori/20339c7c32403f6121050b274754fd255e0dd567.pdf"
+  },
+  {
+    "id": "2025-p2",
+    "year": 2025,
+    "paper": 2,
+    "questionPaperUrl": "https://www.aqa.org.uk/files/2vT3LmcUzNO62qpl9HxYCx/faa3ad2de4066f74cd2565ab634bd06d49d874ad.pdf",
+    "markSchemeUrl": "https://www.aqa.org.uk/files/cRIpdimsSKiybuSFvPDkkI/49021394a2627cfff00cbc749ecf80d365ed890a.pdf",
+    "examinerReportUrl": "https://www.aqa.org.uk/files/cRIpdimsSKiybuSFvPDtIE/78cad558a392132e4e9b5cfb92b42322d776f668.pdf"
+  },
+  {
+    "id": "2024-p1",
+    "year": 2024,
+    "paper": 1,
+    "questionPaperUrl": "https://cdn.sanity.io/files/p28bar15/green/8d94b8256ab1d89ea018b88c981ca566ec8faceb.pdf",
+    "markSchemeUrl": "https://cdn.sanity.io/files/p28bar15/green/92eff34fc6f5cd3d82527d85c6076975425451c7.pdf"
+  },
+  {
+    "id": "2024-p2",
+    "year": 2024,
+    "paper": 2,
+    "questionPaperUrl": "https://cdn.sanity.io/files/p28bar15/green/6f66d0cc1ad6f80c78fd85314e043972035c499f.pdf",
+    "markSchemeUrl": "https://cdn.sanity.io/files/p28bar15/green/8f01502606edda9447a5702150225f225cfed304.pdf"
+  },
+  {
+    "id": "2023-p1",
+    "year": 2023,
+    "paper": 1,
+    "questionPaperUrl": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-75821-QP-JUN23.PDF",
+    "markSchemeUrl": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-75821-MS-JUN23.PDF",
+    "session": "June"
+  },
+  {
+    "id": "2023-p2",
+    "year": 2023,
+    "paper": 2,
+    "questionPaperUrl": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-75822-QP-JUN23.PDF",
+    "markSchemeUrl": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2023/june/AQA-75822-MS-JUN23.PDF",
+    "session": "June"
+  },
+  {
+    "id": "2022-p1",
+    "year": 2022,
+    "paper": 1,
+    "questionPaperUrl": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-75821-QP-JUN22.PDF",
+    "markSchemeUrl": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-75821-MS-JUN22.PDF",
+    "session": "June"
+  },
+  {
+    "id": "2022-p2",
+    "year": 2022,
+    "paper": 2,
+    "questionPaperUrl": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-75822-QP-JUN22.PDF",
+    "markSchemeUrl": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2022/june/AQA-75822-MS-JUN22.PDF",
+    "session": "June"
+  },
+  {
+    "id": "2021-p1",
+    "year": 2021,
+    "paper": 1,
+    "questionPaperUrl": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-75821-QP-NOV21.PDF",
+    "markSchemeUrl": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-75821-MS-NOV21.PDF",
+    "session": "November"
+  },
+  {
+    "id": "2021-p2",
+    "year": 2021,
+    "paper": 2,
+    "questionPaperUrl": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-75822-QP-NOV21.PDF",
+    "markSchemeUrl": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2021/november/AQA-75822-MS-NOV21.PDF",
+    "session": "November"
+  },
+  {
+    "id": "2020-p1",
+    "year": 2020,
+    "paper": 1,
+    "questionPaperUrl": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-75821-QP-NOV20.PDF",
+    "markSchemeUrl": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-75821-W-MS-NOV20.PDF",
+    "session": "November"
+  },
+  {
+    "id": "2020-p2",
+    "year": 2020,
+    "paper": 2,
+    "questionPaperUrl": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-75822-QP-NOV20.PDF",
+    "markSchemeUrl": "https://filestore.aqa.org.uk/sample-papers-and-mark-schemes/2020/november/AQA-75822-W-MS-NOV20.PDF",
+    "session": "November"
+  },
+  {
+    "id": "2019-p1",
+    "year": 2019,
+    "paper": 1,
+    "questionPaperUrl": "https://pastpapers.co/aqa/A-Level/Physical%20Education-7582/AQA-75821-QP-JUN19.pdf",
+    "markSchemeUrl": "https://pastpapers.co/aqa/A-Level/Physical%20Education-7582/AQA-75821-W-MS-JUN19.pdf",
+    "session": "June"
+  },
+  {
+    "id": "2019-p2",
+    "year": 2019,
+    "paper": 2,
+    "questionPaperUrl": "https://pastpapers.co/aqa/A-Level/Physical%20Education-7582/AQA-75822-QP-JUN19.pdf",
+    "markSchemeUrl": "https://pastpapers.co/aqa/A-Level/Physical%20Education-7582/AQA-75822-W-MS-JUN19.pdf",
+    "session": "June"
+  },
+  {
+    "id": "2018-p1",
+    "year": 2018,
+    "paper": 1,
+    "questionPaperUrl": "https://pastpapers.co/aqa/A-Level/Physical%20Education-7582/AQA-75821-QP-JUN18.pdf",
+    "markSchemeUrl": "https://pastpapers.co/aqa/A-Level/Physical%20Education-7582/AQA-75821-W-MS-JUN18.pdf",
+    "session": "June"
+  },
+  {
+    "id": "2018-p2",
+    "year": 2018,
+    "paper": 2,
+    "questionPaperUrl": "https://pastpapers.co/aqa/A-Level/Physical%20Education-7582/AQA-75822-QP-JUN18.pdf",
+    "markSchemeUrl": "https://pastpapers.co/aqa/A-Level/Physical%20Education-7582/AQA-75822-W-MS-JUN18.pdf",
+    "session": "June"
+  }
+]
