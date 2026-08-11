@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CARD_BASE_CLASSES, CARD_INTERACTIVE_CLASSES, CARD_HOVER_BORDER } from "@/lib/styles";
 
 type Props = {
   title: string;
@@ -21,7 +22,7 @@ export default function SubtopicList({ title, backHref, backLabel, basePath, ite
           <Link
             key={item.slug}
             href={`${basePath}/${item.slug}`}
-            className="rounded-lg border border-slate-200 p-5 hover:border-blue-300 hover:bg-blue-50/50"
+            className={`${CARD_BASE_CLASSES} ${CARD_INTERACTIVE_CLASSES} ${CARD_HOVER_BORDER}`}
           >
             <h2 className="text-base font-semibold text-slate-900">{item.name}</h2>
             <p className="mt-1 text-sm text-slate-500">{item.subtitle}</p>

@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { getFlashcardProgress } from "@/lib/progress";
+import { CARD_BASE_CLASSES, CARD_INTERACTIVE_CLASSES, CARD_HOVER_BORDER } from "@/lib/styles";
 
 type Props = {
   name: string;
@@ -21,7 +22,7 @@ export default function TopicCard({
   subtopicIds,
   total,
   progressBarClassName = "bg-blue-600",
-  hoverBorderClassName = "hover:border-blue-300",
+  hoverBorderClassName = CARD_HOVER_BORDER,
   arrowClassName = "text-blue-600",
 }: Props) {
   const [known, setKnown] = useState<number | null>(null);
@@ -38,7 +39,7 @@ export default function TopicCard({
 
   if (total === 0) {
     return (
-      <div className="flex flex-col gap-3 rounded-lg border border-slate-200 p-6 opacity-50">
+      <div className={`flex flex-col gap-3 ${CARD_BASE_CLASSES} opacity-50`}>
         <h2 className="text-lg font-bold text-slate-900">{name}</h2>
         <p className="text-sm text-slate-500">Coming soon</p>
         <div className="h-1.5 w-full overflow-hidden rounded-full bg-slate-100" />
@@ -51,7 +52,7 @@ export default function TopicCard({
   return (
     <Link
       href={href}
-      className={`flex flex-col gap-3 rounded-lg border border-slate-200 p-6 transition-shadow hover:shadow-md ${hoverBorderClassName}`}
+      className={`flex flex-col gap-3 ${CARD_BASE_CLASSES} ${CARD_INTERACTIVE_CLASSES} ${hoverBorderClassName}`}
     >
       <div className="flex items-start justify-between gap-3">
         <h2 className="text-lg font-bold text-slate-900">{name}</h2>

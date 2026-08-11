@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { LucideIcon } from "lucide-react";
+import { CARD_BASE_CLASSES, CARD_INTERACTIVE_CLASSES, CARD_HOVER_BORDER } from "@/lib/styles";
 
 type Props = {
   name: string;
@@ -13,7 +14,7 @@ export default function SubjectCard({ name, subtitle, href, Icon, iconClassName 
   return (
     <Link
       href={href}
-      className="flex items-start gap-4 rounded-lg border border-slate-200 p-5 hover:border-blue-300 hover:bg-blue-50/50"
+      className={`flex items-start gap-4 ${CARD_BASE_CLASSES} ${CARD_INTERACTIVE_CLASSES} ${CARD_HOVER_BORDER}`}
     >
       <Icon className={`mt-0.5 h-6 w-6 shrink-0 ${iconClassName ?? "text-blue-600"}`} />
       <div>
