@@ -3,7 +3,11 @@
  * /content/questions/[paper]/[topic]/[subtopic].json.
  *
  * Expected CSV columns (header row required):
- *   Question Number, Question, Marks, Mark Scheme, Sub-topic
+ *   Question Number, Question, Marks, Mark Scheme, Topic
+ *
+ * "Topic" is matched against content/subtopics.json (the site's "Subtopic" entity).
+ * Questions are kept at this broader level rather than the spec's finest "Subtopic"
+ * grouping. For backwards compatibility, "Sub-topic" is also accepted as an alias.
  *
  * Optional columns for multiple choice questions:
  *   Is Multiple Choice (TRUE/FALSE), Options (separated by " | "), Correct Option
@@ -25,6 +29,7 @@ type CsvRow = {
   Question?: string;
   Marks?: string;
   "Mark Scheme"?: string;
+  Topic?: string;
   "Sub-topic"?: string;
   "Is Multiple Choice"?: string;
   Options?: string;
@@ -60,9 +65,9 @@ function main() {
   const errors: string[] = [];
 
   for (const [i, row] of parsed.data.entries()) {
-    const subtopicName = row["Sub-topic"]?.trim();
+    const subtopicName = (row.Topic ?? row["Sub-topic"])?.trim();
     if (!subtopicName) {
-      errors.push(`Row ${i + 2}: missing "Sub-topic" - skipped.`);
+      errors.push(`Row ${i + 2}: missing "Topic" - skipped.`);
       continue;
     }
     if (!rowsBySubtopic.has(subtopicName)) rowsBySubtopic.set(subtopicName, []);

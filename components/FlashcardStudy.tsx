@@ -15,9 +15,10 @@ type Props = {
   subtopicName: string;
   backHref: string;
   cards: Flashcard[];
+  groupLabel?: string;
 };
 
-export default function FlashcardStudy({ subtopicId, subtopicName, backHref, cards }: Props) {
+export default function FlashcardStudy({ subtopicId, subtopicName, backHref, cards, groupLabel }: Props) {
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const [progress, setProgress] = useState<Record<string, FlashcardStatus>>({});
@@ -58,9 +59,13 @@ export default function FlashcardStudy({ subtopicId, subtopicName, backHref, car
         <Link href={backHref} aria-label="Exit study mode" className="text-slate-400 hover:text-slate-700">
           <X className="h-6 w-6" />
         </Link>
-        <p className="text-sm font-medium text-slate-500">
-          {index + 1} / {cards.length}
-        </p>
+        <div className="text-center">
+          {groupLabel && <p className="text-xs font-medium uppercase tracking-wide text-blue-600">{groupLabel}</p>}
+          <p className="text-sm font-medium text-slate-500">
+            {index + 1} / {cards.length}
+          </p>
+        </div>
+        <div className="w-6" />
       </div>
 
       <div className="flex flex-1 flex-col items-center justify-center px-4">

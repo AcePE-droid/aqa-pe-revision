@@ -37,7 +37,7 @@ export default async function SubtopicPage(
       <SubtopicTabs
         basePath={basePath}
         notesMarkdown={notesMarkdown}
-        flashcardCount={flashcards.length}
+        flashcards={flashcards}
         questions={questions}
       />
     </div>
