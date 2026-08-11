@@ -1,12 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import {
-  resolveSubtopicPath,
-  getFlashcards,
-  getQuestions,
-  getNotesMarkdown,
-} from "@/lib/content";
-import SubtopicTabs from "@/components/SubtopicTabs";
+import { resolveSubtopicPath, getFlashcards } from "@/lib/content";
+import FlashcardGroupList from "@/components/FlashcardGroupList";
 
 export default async function SubtopicPage(
   props: PageProps<"/[paperSlug]/[topicSlug]/[subtopicSlug]">
@@ -17,8 +12,6 @@ export default async function SubtopicPage(
   const { paper, topic, subtopic } = resolved;
 
   const flashcards = getFlashcards(paper.slug, topic.slug, subtopic.slug);
-  const questions = getQuestions(paper.slug, topic.slug, subtopic.slug);
-  const notesMarkdown = getNotesMarkdown(paper.slug, topic.slug, subtopic.slug);
 
   const basePath = `/${paper.slug}/${topic.slug}/${subtopic.slug}`;
 
@@ -34,12 +27,7 @@ export default async function SubtopicPage(
         {subtopic.name}
       </h1>
 
-      <SubtopicTabs
-        basePath={basePath}
-        notesMarkdown={notesMarkdown}
-        flashcards={flashcards}
-        questions={questions}
-      />
+      <FlashcardGroupList basePath={basePath} flashcards={flashcards} />
     </div>
   );
 }
