@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { getFlashcardProgress } from "@/lib/progress";
-import { CARD_BASE_CLASSES, CARD_INTERACTIVE_CLASSES, CARD_HOVER_BORDER } from "@/lib/styles";
+import { CARD_BASE_CLASSES, CARD_INTERACTIVE_CLASSES, CARD_HOVER_BORDER, CARD_HOVER_BG } from "@/lib/styles";
 
 type Props = {
   name: string;
@@ -13,6 +13,7 @@ type Props = {
   total: number;
   progressBarClassName?: string;
   hoverBorderClassName?: string;
+  hoverBgClassName?: string;
   arrowClassName?: string;
 };
 
@@ -23,6 +24,7 @@ export default function TopicCard({
   total,
   progressBarClassName = "bg-blue-600",
   hoverBorderClassName = CARD_HOVER_BORDER,
+  hoverBgClassName = CARD_HOVER_BG,
   arrowClassName = "text-blue-600",
 }: Props) {
   const [known, setKnown] = useState<number | null>(null);
@@ -52,7 +54,7 @@ export default function TopicCard({
   return (
     <Link
       href={href}
-      className={`flex flex-col gap-3 ${CARD_BASE_CLASSES} ${CARD_INTERACTIVE_CLASSES} ${hoverBorderClassName}`}
+      className={`flex flex-col gap-3 ${CARD_BASE_CLASSES} ${CARD_INTERACTIVE_CLASSES} ${hoverBorderClassName} ${hoverBgClassName}`}
     >
       <div className="flex items-start justify-between gap-3">
         <h2 className="text-lg font-bold text-slate-900">{name}</h2>

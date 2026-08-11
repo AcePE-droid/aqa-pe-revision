@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { getPaperBySlug, getTopicBySlug, getSubtopicsByTopicId, getQuestions } from "@/lib/content";
 import { slugify } from "@/lib/slug";
 import SubtopicList from "@/components/SubtopicList";
+import { getSubjectStyle } from "@/lib/subject-styles";
 
 export default async function QuestionsTopicPage(props: PageProps<"/questions/[paperSlug]/[topicSlug]">) {
   const { paperSlug, topicSlug } = await props.params;
@@ -26,6 +27,7 @@ export default async function QuestionsTopicPage(props: PageProps<"/questions/[p
       backLabel="Practice Questions"
       basePath={`/questions/${paper.slug}/${topic.slug}`}
       items={items}
+      hoverBgClassName={getSubjectStyle(slugify(topic.subject)).hoverBg}
     />
   );
 }

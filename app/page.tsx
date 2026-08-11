@@ -35,6 +35,7 @@ export default function Home() {
               href={subject.href}
               Icon={subject.Icon}
               iconClassName={subject.iconClassName}
+              hoverBgClassName={subject.hoverBgClassName}
             />
           ))}
         </div>

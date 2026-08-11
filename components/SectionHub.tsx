@@ -8,6 +8,7 @@ type Subject = {
   href: string;
   Icon: LucideIcon;
   iconClassName?: string;
+  hoverBgClassName?: string;
 };
 
 type Props = {
@@ -33,6 +34,7 @@ export default function SectionHub({ eyebrow, title, description, subjects }: Pr
             href={subject.href}
             Icon={subject.Icon}
             iconClassName={subject.iconClassName}
+            hoverBgClassName={subject.hoverBgClassName}
           />
         ))}
       </div>

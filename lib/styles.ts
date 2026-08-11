@@ -14,3 +14,8 @@ export const CARD_INTERACTIVE_CLASSES = "hover:shadow-md cursor-pointer";
 // carry a subject accent (lib/subject-styles.ts) use their own hoverBorder
 // instead of this.
 export const CARD_HOVER_BORDER = "hover:border-slate-300";
+
+// Default hover background for cards with no per-subject accent. Cards that
+// carry a subject accent (lib/subject-styles.ts) use their own hoverBg
+// instead of this.
+export const CARD_HOVER_BG = "hover:bg-slate-50";
