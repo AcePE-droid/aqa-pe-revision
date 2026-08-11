@@ -5,5 +5,152 @@
     "back": "A series of sub-routines organised into the correct sequence to produce a movement; stored in the long-term memory and retrieved when required to perform a skill.",
     "subtopicId": "principles-theories-learning",
     "group": "Stages of learning"
+  },
+  {
+    "id": "principles-theories-learning-002",
+    "front": "What are the three stages of learning identified by Fitts and Posner?",
+    "back": "Cognitive, associative and autonomous.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Stages of learning"
+  },
+  {
+    "id": "principles-theories-learning-003",
+    "front": "What happens during the cognitive stage of learning?",
+    "back": "The performer tries to understand what the skill involves, relies heavily on demonstrations and visual guidance, and makes many gross/basic errors.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Stages of learning"
+  },
+  {
+    "id": "principles-theories-learning-004",
+    "front": "What happens during the associative stage of learning?",
+    "back": "The performer practises and refines the skill, makes fewer errors, and starts to detect and correct errors using kinaesthesis.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Stages of learning"
+  },
+  {
+    "id": "principles-theories-learning-005",
+    "front": "What happens during the autonomous stage of learning?",
+    "back": "The skill becomes automatic and requires little conscious thought, allowing the performer to focus on other aspects such as tactics.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Stages of learning"
+  },
+  {
+    "id": "principles-theories-learning-006",
+    "front": "What type of guidance is most appropriate in the cognitive stage?",
+    "back": "Visual guidance (demonstrations) supported by simple verbal guidance.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Stages of learning"
+  },
+  {
+    "id": "principles-theories-learning-007",
+    "front": "What type of feedback is most useful in the autonomous stage?",
+    "back": "Intrinsic feedback, as the performer can self-analyse using kinaesthetic sense.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Stages of learning"
+  },
+  {
+    "id": "principles-theories-learning-008",
+    "front": "What is a cognitive/insightful learner?",
+    "back": "A learner who understands the whole task and can problem-solve, often an experienced performer transferring skills from elsewhere.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Types of learners"
+  },
+  {
+    "id": "principles-theories-learning-009",
+    "front": "What is trial and error learning?",
+    "back": "Learning through practice, where successful actions are repeated and unsuccessful actions are discarded.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Types of learners"
+  },
+  {
+    "id": "principles-theories-learning-010",
+    "front": "What is operant conditioning?",
+    "back": "A theory of learning (Thorndike/Skinner) where a stimulus-response bond is strengthened or weakened through reinforcement.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Operant conditioning"
+  },
+  {
+    "id": "principles-theories-learning-011",
+    "front": "What is positive reinforcement?",
+    "back": "Giving a reward, such as praise, after a desired response to increase the likelihood of it being repeated.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Operant conditioning"
+  },
+  {
+    "id": "principles-theories-learning-012",
+    "front": "What is negative reinforcement?",
+    "back": "Removing an unpleasant stimulus when the correct response is performed, increasing the likelihood of it being repeated.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Operant conditioning"
+  },
+  {
+    "id": "principles-theories-learning-013",
+    "front": "What is punishment in operant conditioning?",
+    "back": "Applying an unpleasant consequence after an undesired response, to decrease the likelihood of it being repeated.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Operant conditioning"
+  },
+  {
+    "id": "principles-theories-learning-014",
+    "front": "What is shaping?",
+    "back": "Gradually reinforcing successive approximations of a skill until the full, desired response is achieved.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Operant conditioning"
+  },
+  {
+    "id": "principles-theories-learning-015",
+    "front": "What is Thorndike's Law of Effect?",
+    "back": "Responses followed by satisfaction are strengthened, while responses followed by discomfort are weakened.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Operant conditioning"
+  },
+  {
+    "id": "principles-theories-learning-016",
+    "front": "What is Thorndike's Law of Exercise?",
+    "back": "The more a stimulus-response bond is practised, the more strongly it is reinforced.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Operant conditioning"
+  },
+  {
+    "id": "principles-theories-learning-017",
+    "front": "What is Thorndike's Law of Readiness?",
+    "back": "Learning is more effective when a performer is physically and mentally ready to learn.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Operant conditioning"
+  },
+  {
+    "id": "principles-theories-learning-018",
+    "front": "What is the cognitive theory of learning?",
+    "back": "Learning occurs by restructuring perceptions (Gestalt) to understand the whole picture, using past experience and insight to solve problems.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Cognitive theory"
+  },
+  {
+    "id": "principles-theories-learning-019",
+    "front": "How should skills be taught according to cognitive theory?",
+    "back": "As a whole, so the performer can understand how the individual parts relate to the whole task.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Cognitive theory"
+  },
+  {
+    "id": "principles-theories-learning-020",
+    "front": "What is social learning theory?",
+    "back": "Learning through observing and imitating the behaviour of a model, particularly a model the observer identifies with.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Social learning theory"
+  },
+  {
+    "id": "principles-theories-learning-021",
+    "front": "What are the four stages of observational learning (Bandura)?",
+    "back": "Attention, retention, motor reproduction and motivation.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Social learning theory"
+  },
+  {
+    "id": "principles-theories-learning-022",
+    "front": "Why is it important that a model is similar in age, ability or status to the observer?",
+    "back": "It increases the likelihood that the observer identifies with the model and is motivated to copy the behaviour.",
+    "subtopicId": "principles-theories-learning",
+    "group": "Social learning theory"
   }
 ]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "guidance-feedback-001",
+    "front": "What are the four types of guidance?",
+    "back": "Visual, verbal, manual and mechanical.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of guidance"
+  },
+  {
+    "id": "guidance-feedback-002",
+    "front": "What is visual guidance?",
+    "back": "Guidance using demonstrations, videos or diagrams to show a performer what to do.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of guidance"
+  },
+  {
+    "id": "guidance-feedback-003",
+    "front": "What is verbal guidance?",
+    "back": "Guidance using spoken instructions or explanations to give a performer information about a skill.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of guidance"
+  },
+  {
+    "id": "guidance-feedback-004",
+    "front": "What is manual guidance?",
+    "back": "Physically manipulating a performer's body to help them experience the correct movement.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of guidance"
+  },
+  {
+    "id": "guidance-feedback-005",
+    "front": "What is mechanical guidance?",
+    "back": "Using equipment, such as a harness or float, to support or guide a performer through a movement safely.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of guidance"
+  },
+  {
+    "id": "guidance-feedback-006",
+    "front": "When is visual guidance most effective?",
+    "back": "In the early/cognitive stage of learning, and for complex or open skills.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of guidance"
+  },
+  {
+    "id": "guidance-feedback-007",
+    "front": "When is verbal guidance most effective?",
+    "back": "In the later/autonomous stage of learning, and for simple skills, as it supplements existing understanding.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of guidance"
+  },
+  {
+    "id": "guidance-feedback-008",
+    "front": "What is a disadvantage of manual or mechanical guidance?",
+    "back": "It can create over-reliance and give the performer a false kinaesthetic sense of the movement.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of guidance"
+  },
+  {
+    "id": "guidance-feedback-009",
+    "front": "Why is manual or mechanical guidance useful for dangerous skills?",
+    "back": "It keeps the performer safe and builds confidence when learning high-risk skills, e.g. trampolining or a rock-climbing harness.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of guidance"
+  },
+  {
+    "id": "guidance-feedback-010",
+    "front": "What is intrinsic feedback?",
+    "back": "Feedback that comes from within the performer, via kinaesthetic sense and proprioceptors.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of feedback"
+  },
+  {
+    "id": "guidance-feedback-011",
+    "front": "What is extrinsic feedback?",
+    "back": "Feedback given from an external source, such as a coach or spectator.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of feedback"
+  },
+  {
+    "id": "guidance-feedback-012",
+    "front": "What is knowledge of results (KR)?",
+    "back": "Feedback about the outcome of a performance, e.g. whether a shot scored.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of feedback"
+  },
+  {
+    "id": "guidance-feedback-013",
+    "front": "What is knowledge of performance (KP)?",
+    "back": "Feedback about the quality or technique of the movement itself.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of feedback"
+  },
+  {
+    "id": "guidance-feedback-014",
+    "front": "What is positive feedback?",
+    "back": "Feedback that reinforces a correct response by informing the performer it was successful.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of feedback"
+  },
+  {
+    "id": "guidance-feedback-015",
+    "front": "What is negative feedback?",
+    "back": "Feedback that informs the performer a response was incorrect, used to help eliminate errors.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of feedback"
+  },
+  {
+    "id": "guidance-feedback-016",
+    "front": "What is concurrent feedback?",
+    "back": "Feedback given during the performance of a skill.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of feedback"
+  },
+  {
+    "id": "guidance-feedback-017",
+    "front": "What is terminal feedback?",
+    "back": "Feedback given after the performance of a skill has been completed.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of feedback"
+  },
+  {
+    "id": "guidance-feedback-018",
+    "front": "Why is feedback important for beginners?",
+    "back": "It helps maintain motivation, reinforces correct technique, and helps develop the mental image (schema) of the skill.",
+    "subtopicId": "guidance-feedback",
+    "group": "Types of feedback"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "equal-opportunities-001",
+    "front": "What is meant by 'equal opportunities' in sport?",
+    "back": "Ensuring all individuals have a fair and equal chance to participate in and access sport, regardless of gender, ethnicity, disability or social background.",
+    "subtopicId": "equal-opportunities",
+    "group": "Barriers to participation"
+  },
+  {
+    "id": "equal-opportunities-002",
+    "front": "What are common barriers to participation in sport?",
+    "back": "Access, cost, time, discrimination, stereotyping, lack of role models, cultural or religious factors, and lack of provision.",
+    "subtopicId": "equal-opportunities",
+    "group": "Barriers to participation"
+  },
+  {
+    "id": "equal-opportunities-003",
+    "front": "What barriers might affect women's participation in sport?",
+    "back": "Stereotyping of sport as 'unfeminine', lack of media coverage and role models, childcare responsibilities, and historically fewer opportunities and facilities.",
+    "subtopicId": "equal-opportunities",
+    "group": "Barriers to participation"
+  },
+  {
+    "id": "equal-opportunities-004",
+    "front": "What barriers might affect participation from ethnic minority groups?",
+    "back": "Discrimination and stigmatisation, cultural or religious factors, lack of role models, and stacking.",
+    "subtopicId": "equal-opportunities",
+    "group": "Barriers to participation"
+  },
+  {
+    "id": "equal-opportunities-005",
+    "front": "What is 'stacking'?",
+    "back": "The under-representation of a group, such as an ethnic minority, in central or decision-making playing positions, despite representation in peripheral positions.",
+    "subtopicId": "equal-opportunities",
+    "group": "Barriers to participation"
+  },
+  {
+    "id": "equal-opportunities-006",
+    "front": "What barriers might affect participation for disabled people?",
+    "back": "Lack of accessible facilities and transport, lack of specialist coaches and equipment, negative attitudes and discrimination, and classification issues.",
+    "subtopicId": "equal-opportunities",
+    "group": "Barriers to participation"
+  },
+  {
+    "id": "equal-opportunities-007",
+    "front": "What is meant by 'sexism' in a sporting context?",
+    "back": "Discrimination or prejudice against individuals based on their sex, often limiting opportunities for women in sport.",
+    "subtopicId": "equal-opportunities",
+    "group": "Barriers to participation"
+  },
+  {
+    "id": "equal-opportunities-008",
+    "front": "What strategies can be used to increase participation among under-represented groups?",
+    "back": "Positive role models, targeted funding and initiatives, improved access and facilities, positive discrimination schemes, and increased media coverage.",
+    "subtopicId": "equal-opportunities",
+    "group": "Strategies to increase participation"
+  },
+  {
+    "id": "equal-opportunities-009",
+    "front": "What is 'positive discrimination'?",
+    "back": "Actively favouring or targeting an under-represented group to increase their participation, e.g. women-only sessions.",
+    "subtopicId": "equal-opportunities",
+    "group": "Strategies to increase participation"
+  },
+  {
+    "id": "equal-opportunities-010",
+    "front": "What is the role of National Governing Bodies in promoting equal opportunities?",
+    "back": "Creating policies and initiatives, and providing funding and coaching pathways specifically targeted at under-represented groups.",
+    "subtopicId": "equal-opportunities",
+    "group": "Strategies to increase participation"
+  },
+  {
+    "id": "equal-opportunities-011",
+    "front": "Give an example of an initiative to increase female participation in sport.",
+    "back": "The 'This Girl Can' campaign.",
+    "subtopicId": "equal-opportunities",
+    "group": "Strategies to increase participation"
+  },
+  {
+    "id": "equal-opportunities-012",
+    "front": "Why is media coverage important for equal opportunities?",
+    "back": "Increased coverage of under-represented groups provides role models and challenges stereotypes, encouraging participation.",
+    "subtopicId": "equal-opportunities",
+    "group": "Strategies to increase participation"
+  }
+]

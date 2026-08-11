@@ -1,0 +1,86 @@
+[
+  {
+    "id": "memory-models-001",
+    "front": "What is the multi-store model of memory?",
+    "back": "A model (Atkinson and Shiffrin) describing memory as three stores: the sensory register, short-term memory and long-term memory.",
+    "subtopicId": "memory-models",
+    "group": "Multi-store model"
+  },
+  {
+    "id": "memory-models-002",
+    "front": "What is the sensory register?",
+    "back": "The store that briefly holds all information from the senses, with unlimited capacity but a very short duration (under one second).",
+    "subtopicId": "memory-models",
+    "group": "Multi-store model"
+  },
+  {
+    "id": "memory-models-003",
+    "front": "What is the capacity of short-term memory?",
+    "back": "Approximately 5-9 (7 plus or minus 2) items or chunks of information.",
+    "subtopicId": "memory-models",
+    "group": "Multi-store model"
+  },
+  {
+    "id": "memory-models-004",
+    "front": "What is the duration of short-term memory?",
+    "back": "Approximately 30 seconds without rehearsal.",
+    "subtopicId": "memory-models",
+    "group": "Multi-store model"
+  },
+  {
+    "id": "memory-models-005",
+    "front": "What is the capacity of long-term memory?",
+    "back": "Unlimited.",
+    "subtopicId": "memory-models",
+    "group": "Multi-store model"
+  },
+  {
+    "id": "memory-models-006",
+    "front": "What is the duration of long-term memory?",
+    "back": "Potentially a lifetime.",
+    "subtopicId": "memory-models",
+    "group": "Multi-store model"
+  },
+  {
+    "id": "memory-models-007",
+    "front": "What is rehearsal?",
+    "back": "Repeating information to keep it active in short-term memory and help transfer it into long-term memory.",
+    "subtopicId": "memory-models",
+    "group": "Multi-store model"
+  },
+  {
+    "id": "memory-models-008",
+    "front": "Why is rehearsal important for beginners learning a new skill?",
+    "back": "It helps consolidate the movement pattern (motor programme) in long-term memory for later retrieval.",
+    "subtopicId": "memory-models",
+    "group": "Multi-store model"
+  },
+  {
+    "id": "memory-models-009",
+    "front": "What is chunking?",
+    "back": "Grouping individual pieces of information into larger, meaningful units to increase the effective capacity of short-term memory.",
+    "subtopicId": "memory-models",
+    "group": "Multi-store model"
+  },
+  {
+    "id": "memory-models-010",
+    "front": "What is selective attention?",
+    "back": "The process of filtering out irrelevant information from the sensory register so only relevant information passes into short-term memory.",
+    "subtopicId": "memory-models",
+    "group": "Selective attention"
+  },
+  {
+    "id": "memory-models-011",
+    "front": "What factors affect what is selectively attended to?",
+    "back": "Past experience, arousal levels, and the importance or relevance of the information.",
+    "subtopicId": "memory-models",
+    "group": "Selective attention"
+  },
+  {
+    "id": "memory-models-012",
+    "front": "How can a coach reduce information overload in the sensory register?",
+    "back": "By highlighting only key/relevant cues and simplifying instructions.",
+    "subtopicId": "memory-models",
+    "group": "Selective attention"
+  }
+]

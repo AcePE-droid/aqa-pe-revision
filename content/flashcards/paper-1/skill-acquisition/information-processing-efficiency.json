@@ -1,0 +1,107 @@
+[
+  {
+    "id": "information-processing-efficiency-001",
+    "front": "What are the four stages of Whiting's information processing model?",
+    "back": "Input, decision making, output and feedback.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Information processing model"
+  },
+  {
+    "id": "information-processing-efficiency-002",
+    "front": "What happens during the input stage of information processing?",
+    "back": "The performer receives information from the display (environment) via their senses.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Information processing model"
+  },
+  {
+    "id": "information-processing-efficiency-003",
+    "front": "What happens during the decision-making stage of information processing?",
+    "back": "The performer selects an appropriate response by comparing the information to stored memories/past experience.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Information processing model"
+  },
+  {
+    "id": "information-processing-efficiency-004",
+    "front": "What happens during the output stage of information processing?",
+    "back": "The selected response is carried out as movement or action.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Information processing model"
+  },
+  {
+    "id": "information-processing-efficiency-005",
+    "front": "What is the role of feedback in the information processing model?",
+    "back": "It provides information about the outcome of the response, which is used to adjust future performance.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Information processing model"
+  },
+  {
+    "id": "information-processing-efficiency-006",
+    "front": "What is reaction time?",
+    "back": "The time between the presentation of a stimulus and the initiation of a response.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Reaction time"
+  },
+  {
+    "id": "information-processing-efficiency-007",
+    "front": "What is movement time?",
+    "back": "The time taken to complete a movement, from initiation to completion.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Reaction time"
+  },
+  {
+    "id": "information-processing-efficiency-008",
+    "front": "What is response time?",
+    "back": "Reaction time plus movement time.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Reaction time"
+  },
+  {
+    "id": "information-processing-efficiency-009",
+    "front": "What is simple reaction time?",
+    "back": "The time taken to respond when there is only one stimulus and one possible response.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Reaction time"
+  },
+  {
+    "id": "information-processing-efficiency-010",
+    "front": "What is choice reaction time?",
+    "back": "The time taken to respond when there are several possible stimuli and responses.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Reaction time"
+  },
+  {
+    "id": "information-processing-efficiency-011",
+    "front": "What is Hick's Law?",
+    "back": "As the number of stimulus-response options increases, reaction time also increases.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Reaction time"
+  },
+  {
+    "id": "information-processing-efficiency-012",
+    "front": "What is Fitts's Law?",
+    "back": "The time taken to complete a movement is determined by the size of the target and the distance to it - smaller or more distant targets take longer.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Reaction time"
+  },
+  {
+    "id": "information-processing-efficiency-013",
+    "front": "What is the single-channel hypothesis?",
+    "back": "The theory that the brain can only process one piece of information at a time, so a second stimulus cannot be processed until the first response has been dealt with.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Single-channel hypothesis"
+  },
+  {
+    "id": "information-processing-efficiency-014",
+    "front": "What is the psychological refractory period (PRP)?",
+    "back": "The delay in responding to a second stimulus when it is presented very soon after the first, caused by the single-channel hypothesis.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Single-channel hypothesis"
+  },
+  {
+    "id": "information-processing-efficiency-015",
+    "front": "How can a performer use the psychological refractory period to their advantage?",
+    "back": "By using a feint or dummy to present a second stimulus close to the first, delaying an opponent's reaction to the real stimulus.",
+    "subtopicId": "information-processing-efficiency",
+    "group": "Single-channel hypothesis"
+  }
+]
