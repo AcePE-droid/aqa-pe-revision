@@ -28,6 +28,20 @@ export default function Home() {
           <p className="mt-1 text-sm text-slate-500">Browse by subject and study with active recall</p>
         </Link>
         <Link
+          href="/notes"
+          className="rounded-lg border border-slate-200 p-6 hover:border-blue-300 hover:bg-blue-50/50"
+        >
+          <h2 className="text-lg font-semibold text-slate-900">Notes</h2>
+          <p className="mt-1 text-sm text-slate-500">Clear written notes for every topic</p>
+        </Link>
+        <Link
+          href="/questions"
+          className="rounded-lg border border-slate-200 p-6 hover:border-blue-300 hover:bg-blue-50/50"
+        >
+          <h2 className="text-lg font-semibold text-slate-900">Practice Questions</h2>
+          <p className="mt-1 text-sm text-slate-500">Exam-style questions with full mark schemes</p>
+        </Link>
+        <Link
           href="/past-papers"
           className="rounded-lg border border-slate-200 p-6 hover:border-blue-300 hover:bg-blue-50/50"
         >

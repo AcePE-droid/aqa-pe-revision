@@ -5,13 +5,11 @@ import {
   getTopicsBySubject,
   getPaperById,
   getSubtopicsByTopicId,
-  getFlashcards,
+  getQuestions,
 } from "@/lib/content";
 import SectionSubjectTree, { type PaperGroup } from "@/components/SectionSubjectTree";
 
-export default async function FlashcardSubjectPage(
-  props: PageProps<"/flashcards/[subjectSlug]">
-) {
+export default async function QuestionsSubjectPage(props: PageProps<"/questions/[subjectSlug]">) {
   const { subjectSlug } = await props.params;
   const subject = getSubjectBySlug(subjectSlug);
   if (!subject) notFound();
@@ -24,8 +22,8 @@ export default async function FlashcardSubjectPage(
     if (!paper) continue;
 
     const subtopics = getSubtopicsByTopicId(topic.id);
-    const flashcardCount = subtopics.reduce(
-      (sum, subtopic) => sum + getFlashcards(paper.slug, topic.slug, subtopic.slug).length,
+    const questionCount = subtopics.reduce(
+      (sum, subtopic) => sum + getQuestions(paper.slug, topic.slug, subtopic.slug).length,
       0
     );
 
@@ -33,24 +31,24 @@ export default async function FlashcardSubjectPage(
     group.topics.push({
       slug: topic.slug,
       name: topic.name,
-      meta: `${flashcardCount} card${flashcardCount === 1 ? "" : "s"}`,
+      meta: `${questionCount} question${questionCount === 1 ? "" : "s"}`,
     });
     groups.set(paper.id, group);
   }
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
-      <Link href="/flashcards" className="text-sm font-medium text-blue-600 hover:underline">
-        &larr; Flashcards
+      <Link href="/questions" className="text-sm font-medium text-blue-600 hover:underline">
+        &larr; Practice Questions
       </Link>
       <h1 className="mt-2 font-serif text-3xl font-semibold tracking-tight text-slate-900">
         {subject.name}
       </h1>
       <p className="mt-2 text-slate-600">
-        Browse the specification &mdash; expand a paper and select a topic to study.
+        Browse the specification &mdash; expand a paper and select a topic to practise.
       </p>
 
-      <SectionSubjectTree groups={Array.from(groups.values())} basePath="" />
+      <SectionSubjectTree groups={Array.from(groups.values())} basePath="/questions" />
     </div>
   );
 }

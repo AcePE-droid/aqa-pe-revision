@@ -9,16 +9,16 @@ export type PaperGroup = {
   topics: {
     slug: string;
     name: string;
-    subtopicCount: number;
-    flashcardCount: number;
+    meta: string; // e.g. "12 cards", "Notes available", "5 questions"
   }[];
 };
 
 type Props = {
   groups: PaperGroup[];
+  basePath: string; // prefix prepended to "/paperSlug/topicSlug", e.g. "" for flashcards, "/notes", "/questions"
 };
 
-export default function FlashcardSubjectTree({ groups }: Props) {
+export default function SectionSubjectTree({ groups, basePath }: Props) {
   const [openPaper, setOpenPaper] = useState<string | null>(groups[0]?.paper.slug ?? null);
 
   return (
@@ -51,14 +51,12 @@ export default function FlashcardSubjectTree({ groups }: Props) {
                 {topics.map((topic) => (
                   <Link
                     key={topic.slug}
-                    href={`/${paper.slug}/${topic.slug}`}
+                    href={`${basePath}/${paper.slug}/${topic.slug}`}
                     className="flex items-center gap-3 border-t border-slate-100 py-3 pl-11 pr-4 hover:bg-blue-50/50"
                   >
                     <Folder className="h-4 w-4 shrink-0 text-slate-300" />
                     <span className="flex-1 text-sm font-medium text-slate-900">{topic.name}</span>
-                    <span className="text-xs text-slate-400">
-                      {topic.flashcardCount} card{topic.flashcardCount === 1 ? "" : "s"}
-                    </span>
+                    <span className="text-xs text-slate-400">{topic.meta}</span>
                     <ChevronRight className="h-4 w-4 shrink-0 text-slate-300" />
                   </Link>
                 ))}

@@ -8,23 +8,23 @@ const SUBJECT_ICONS: Record<string, LucideIcon> = {
   "Sport, Society & History": Users2,
 };
 
-export default function FlashcardsHubPage() {
+export default function QuestionsHubPage() {
   const subjects = getSubjects().map((subject) => {
     const topics = getTopicsBySubject(subject.name);
     return {
       slug: subject.slug,
       name: subject.name,
       subtitle: topics.map((t) => t.name).join(", "),
-      href: `/flashcards/${subject.slug}`,
+      href: `/questions/${subject.slug}`,
       Icon: SUBJECT_ICONS[subject.name] ?? Brain,
     };
   });
 
   return (
     <SectionHub
-      eyebrow="Flashcards"
-      title="Study with interactive flashcards"
-      description="Browse by subject to find flashcard sets for every topic."
+      eyebrow="Practice Questions"
+      title="Test yourself with exam-style questions"
+      description="Browse by subject to find practice questions with full mark schemes."
       subjects={subjects}
     />
   );
