@@ -1,10 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import type { Flashcard } from "@/types/content";
-import { setFlashcardStatus, type FlashcardStatus } from "@/lib/progress";
+import { getFlashcardProgress, setFlashcardStatus, type FlashcardStatus } from "@/lib/progress";
 import { getSubjectStyle } from "@/lib/subject-styles";
 
 type Props = {
@@ -28,6 +28,11 @@ export default function FlashcardStudy({
 }: Props) {
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
+  const [progress, setProgress] = useState<Record<string, FlashcardStatus>>({});
+
+  useEffect(() => {
+    setProgress(getFlashcardProgress(subtopicId));
+  }, [subtopicId]);
 
   const card = cards[index];
 
@@ -39,7 +44,11 @@ export default function FlashcardStudy({
 
   function mark(status: FlashcardStatus) {
     setFlashcardStatus(subtopicId, card.id, status);
+    setProgress((prev) => ({ ...prev, [card.id]: status }));
   }
+
+  const knownCount = Object.values(progress).filter((s) => s === "known").length;
+  const learningCount = Object.values(progress).filter((s) => s === "learning").length;
 
   if (!card) {
     return (
@@ -67,9 +76,22 @@ export default function FlashcardStudy({
           <X className="h-6 w-6" />
         </Link>
         <p className={`min-w-0 truncate text-center text-sm ${breadcrumbColor}`}>{breadcrumb}</p>
-        <p className="shrink-0 text-sm text-slate-500">
-          Card {index + 1} of {cards.length}
-        </p>
+        <div className="flex shrink-0 flex-col items-end gap-0.5">
+          <p className="text-sm text-slate-500">
+            Card {index + 1} of {cards.length}
+          </p>
+          <p className="flex items-center gap-1.5 text-xs text-slate-400">
+            <span className="flex items-center gap-1">
+              <span className="h-1.5 w-1.5 rounded-full bg-blue-500" />
+              {knownCount} known
+            </span>
+            <span>·</span>
+            <span className="flex items-center gap-1">
+              <span className="h-1.5 w-1.5 rounded-full bg-amber-500" />
+              {learningCount} learning
+            </span>
+          </p>
+        </div>
       </div>
 
       <div className="flex flex-1 flex-col items-center justify-center px-4 pb-4">
