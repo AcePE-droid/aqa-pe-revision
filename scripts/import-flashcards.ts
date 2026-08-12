@@ -15,8 +15,17 @@
  * subtopic's JSON file are skipped, so re-running after adding new rows to the
  * sheet only imports what's new.
  *
+ * To wholesale-replace a subtopic's deck instead of merging (e.g. after editing
+ * existing rows in the sheet rather than adding new ones), pass --replace with a
+ * comma-separated list of subtopic names matching the CSV's "Topic" column. Any
+ * subtopic named there has its existing cards discarded before that subtopic's
+ * rows from the CSV are imported (fresh sequential IDs, since discarded cards
+ * can't be matched back up to specific new rows). All other subtopics are
+ * unaffected and continue to merge-and-skip-duplicates as normal.
+ *
  * Usage:
  *   npm run import:flashcards -- path/to/export.csv
+ *   npm run import:flashcards -- path/to/export.csv --replace="Respiratory System,Neuromuscular System"
  */
 import fs from "fs";
 import path from "path";
@@ -41,6 +50,18 @@ function nextIdNumber(existing: Flashcard[]): number {
   return (nums.length ? Math.max(...nums) : 0) + 1;
 }
 
+function parseReplaceArg(argv: string[]): Set<string> {
+  const flag = argv.find((a) => a.startsWith("--replace="));
+  if (!flag) return new Set();
+  return new Set(
+    flag
+      .slice("--replace=".length)
+      .split(",")
+      .map((s) => normalize(s))
+      .filter(Boolean)
+  );
+}
+
 function main() {
   const csvPath = process.argv[2];
   if (!csvPath) {
@@ -51,6 +72,8 @@ function main() {
     console.error(`File not found: ${csvPath}`);
     process.exit(1);
   }
+
+  const replaceSubtopics = parseReplaceArg(process.argv.slice(3));
 
   const raw = fs.readFileSync(csvPath, "utf-8");
   const parsed = Papa.parse<CsvRow>(raw, { header: true, skipEmptyLines: true });
@@ -84,9 +107,15 @@ function main() {
     const { paper, topic, subtopic } = resolved;
     const filePath = contentFilePath("flashcards", paper.slug, topic.slug, subtopic.slug);
 
-    const existing: Flashcard[] = fs.existsSync(filePath)
+    const previousCards: Flashcard[] = fs.existsSync(filePath)
       ? JSON.parse(fs.readFileSync(filePath, "utf-8"))
       : [];
+    const isReplace = replaceSubtopics.has(normalize(subtopicName));
+    if (isReplace && previousCards.length) {
+      console.log(`Subtopic "${subtopicName}": replacing ${previousCards.length} existing card(s).`);
+    }
+
+    const existing: Flashcard[] = isReplace ? [] : previousCards;
     const existingFronts = new Set(existing.map((c) => normalize(c.front)));
     let nextNum = nextIdNumber(existing);
 
