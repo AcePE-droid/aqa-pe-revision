@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -10,19 +9,14 @@ export default async function NotesSubtopicPage(
   const { paperSlug, topicSlug, subtopicSlug } = await props.params;
   const resolved = resolveSubtopicPath(paperSlug, topicSlug, subtopicSlug);
   if (!resolved) notFound();
-  const { paper, topic, subtopic } = resolved;
+  const { topic, subtopic } = resolved;
 
-  const notesMarkdown = getNotesMarkdown(paper.slug, topic.slug, subtopic.slug);
+  const notesMarkdown = getNotesMarkdown(paperSlug, topicSlug, subtopicSlug);
 
   return (
-    <div className="py-16">
-      <Link
-        href={`/notes/${paper.slug}/${topic.slug}`}
-        className="text-sm font-medium text-blue-600 hover:underline"
-      >
-        &larr; {topic.name}
-      </Link>
-      <h1 className="mt-2 font-serif text-3xl font-semibold tracking-tight text-slate-900">
+    <div>
+      <p className="text-sm font-medium text-slate-500">{topic.name}</p>
+      <h1 className="mt-1 font-serif text-3xl font-semibold tracking-tight text-slate-900">
         {subtopic.name}
       </h1>
 

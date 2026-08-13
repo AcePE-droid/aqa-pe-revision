@@ -1,15 +1,15 @@
-import { getSubjectCards } from "@/lib/subjects";
-import SectionHub from "@/components/SectionHub";
+import { BookOpen } from "lucide-react";
 
 export default function NotesHubPage() {
-  const subjects = getSubjectCards("/notes");
-
   return (
-    <SectionHub
-      eyebrow="Notes"
-      title="Clear notes for every topic"
-      description="Browse by subject to find written notes for every topic."
-      subjects={subjects}
-    />
+    <div className="flex min-h-[50vh] flex-col items-start justify-center">
+      <BookOpen className="h-8 w-8 text-blue-600" />
+      <h1 className="mt-4 font-serif text-3xl font-semibold tracking-tight text-slate-900">
+        Notes
+      </h1>
+      <p className="mt-2 max-w-md text-slate-600">
+        Pick a topic from the sidebar to start reading.
+      </p>
+    </div>
   );
 }

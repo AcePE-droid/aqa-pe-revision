@@ -22,16 +22,25 @@ export default async function QuestionsSubjectPage(props: PageProps<"/questions/
     if (!paper) continue;
 
     const subtopics = getSubtopicsByTopicId(topic.id);
-    const questionCount = subtopics.reduce(
-      (sum, subtopic) => sum + getQuestions(paper.slug, topic.slug, subtopic.slug).length,
-      0
-    );
+    let topicQuestionCount = 0;
+    const subtopicItems = subtopics.map((subtopic) => {
+      const count = getQuestions(paper.slug, topic.slug, subtopic.slug).length;
+      topicQuestionCount += count;
+      return {
+        slug: subtopic.slug,
+        name: subtopic.name,
+        href: `/${paper.slug}/${topic.slug}/${subtopic.slug}/questions`,
+        meta: `${count} question${count === 1 ? "" : "s"}`,
+      };
+    });
 
     const group = groups.get(paper.id) ?? { paper: { slug: paper.slug, name: paper.name }, topics: [] };
     group.topics.push({
       slug: topic.slug,
       name: topic.name,
-      meta: `${questionCount} question${questionCount === 1 ? "" : "s"}`,
+      href: `/${paper.slug}/${topic.slug}/questions`,
+      meta: `${topicQuestionCount} question${topicQuestionCount === 1 ? "" : "s"}`,
+      subtopics: subtopicItems,
     });
     groups.set(paper.id, group);
   }
@@ -45,10 +54,10 @@ export default async function QuestionsSubjectPage(props: PageProps<"/questions/
         {subject.name}
       </h1>
       <p className="mt-2 text-slate-600">
-        Browse the specification &mdash; expand a paper and select a topic to practise.
+        Click a topic to start a question session, or expand it to practise a single subtopic.
       </p>
 
-      <SectionSubjectTree groups={Array.from(groups.values())} basePath="/questions" />
+      <SectionSubjectTree groups={Array.from(groups.values())} />
     </div>
   );
 }
