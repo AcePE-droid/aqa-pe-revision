@@ -1,0 +1,226 @@
+[
+  {
+    "id": "arousal-001",
+    "front": "What is arousal in sport?",
+    "back": "A state of mental and physiological activation that reflects a performer's readiness to perform.",
+    "subtopicId": "arousal",
+    "group": "Theories of arousal"
+  },
+  {
+    "id": "arousal-002",
+    "front": "Why is arousal important to performers?",
+    "back": "Appropriate levels of arousal can increase drive, enthusiasm and readiness to perform.",
+    "subtopicId": "arousal",
+    "group": "Theories of arousal"
+  },
+  {
+    "id": "arousal-003",
+    "front": "What are three factors that can increase arousal?",
+    "back": "-Increased level or importance of competition. -The presence of an audience, particularly when being watched or evaluated by others. -Frustrating situations, such as performing poorly or losing.",
+    "subtopicId": "arousal",
+    "group": "Theories of arousal"
+  },
+  {
+    "id": "arousal-004",
+    "front": "What is drive theory?",
+    "back": "A theory proposing a linear relationship between arousal and performance, where increased arousal leads to increased performance.",
+    "subtopicId": "arousal",
+    "group": "Theories of arousal"
+  },
+  {
+    "id": "arousal-005",
+    "front": "How do drive theory and the dominant response work together?",
+    "back": "-As arousal increases, the performer is more likely to use their dominant response. -If the dominant response is correct, performance improves. -If the dominant response is incorrect, performance deteriorates.",
+    "subtopicId": "arousal",
+    "group": "Theories of arousal"
+  },
+  {
+    "id": "arousal-006",
+    "front": "How do drive theory and the dominant response apply to an expert performer?",
+    "back": "An expert's dominant response is more likely to be correct and well learned, so increased arousal is more likely to improve performance.",
+    "subtopicId": "arousal",
+    "group": "Theories of arousal"
+  },
+  {
+    "id": "arousal-007",
+    "front": "How do drive theory and the dominant response apply to a beginner performer?",
+    "back": "A beginner's dominant response may be incorrect or poorly learned, so increased arousal may cause performance to deteriorate.",
+    "subtopicId": "arousal",
+    "group": "Theories of arousal"
+  },
+  {
+    "id": "arousal-008",
+    "front": "How do drive theory and the dominant response apply to a complex task?",
+    "back": "Complex tasks require greater information processing and decision-making, so performance may deteriorate at high levels of arousal.",
+    "subtopicId": "arousal",
+    "group": "Theories of arousal"
+  },
+  {
+    "id": "arousal-009",
+    "front": "How do drive theory and the dominant response apply to a simple task?",
+    "back": "Simple tasks require less information processing and can often be performed effectively at higher levels of arousal.",
+    "subtopicId": "arousal",
+    "group": "Theories of arousal"
+  },
+  {
+    "id": "arousal-010",
+    "front": "What is the inverted-U theory?",
+    "back": "A theory proposing that performance improves as arousal increases up to an optimal level, after which further increases in arousal cause performance to deteriorate.",
+    "subtopicId": "arousal",
+    "group": "Theories of arousal"
+  },
+  {
+    "id": "arousal-011",
+    "front": "What is catastrophe theory?",
+    "back": "A theory proposing that when cognitive anxiety is high, increasing physiological arousal beyond an optimal level can cause a sudden and dramatic deterioration in performance.",
+    "subtopicId": "arousal",
+    "group": "Theories of arousal"
+  },
+  {
+    "id": "arousal-012",
+    "front": "What causes the sudden deterioration in performance according to catastrophe theory?",
+    "back": "High cognitive anxiety combined with increasing physiological arousal.",
+    "subtopicId": "arousal",
+    "group": "Theories of arousal"
+  },
+  {
+    "id": "arousal-013",
+    "front": "What happens initially in catastrophe theory when cognitive anxiety is high but physiological arousal is relatively low?",
+    "back": "Performance can improve as physiological arousal increases towards the performer's optimal level.",
+    "subtopicId": "arousal",
+    "group": "Theories of arousal"
+  },
+  {
+    "id": "arousal-014",
+    "front": "What happens when both cognitive anxiety and physiological arousal become too high according to catastrophe theory?",
+    "back": "Performance can deteriorate suddenly and dramatically.",
+    "subtopicId": "arousal",
+    "group": "Theories of arousal"
+  },
+  {
+    "id": "arousal-015",
+    "front": "What happens after a performer experiences a catastrophic drop in performance?",
+    "back": "Simply reducing arousal slightly may not immediately restore performance to its previous level.",
+    "subtopicId": "arousal",
+    "group": "Theories of arousal"
+  },
+  {
+    "id": "arousal-016",
+    "front": "What may be required for performance to recover after a catastrophic drop?",
+    "back": "A significant reduction in arousal may be required before performance can return towards its previous level.",
+    "subtopicId": "arousal",
+    "group": "Theories of arousal"
+  },
+  {
+    "id": "arousal-017",
+    "front": "What is the zone of optimal functioning (ZOF)?",
+    "back": "An adaptation of the inverted-U theory suggesting that each performer has an individual optimal zone of arousal in which they are most likely to produce their best performance.",
+    "subtopicId": "arousal",
+    "group": "Theories of arousal"
+  },
+  {
+    "id": "arousal-018",
+    "front": "What can vary between performers in relation to the zone of optimal functioning?",
+    "back": "The optimal arousal zone differs between individuals; some performers function best at relatively low arousal levels, while others perform best at higher levels.",
+    "subtopicId": "arousal",
+    "group": "Theories of arousal"
+  },
+  {
+    "id": "arousal-019",
+    "front": "How does experience affect optimal arousal levels?",
+    "back": "Experienced performers can generally cope with higher levels of arousal because their skills are well learned and their dominant responses are more likely to be correct.",
+    "subtopicId": "arousal",
+    "group": "Practical applications of theories of arousal"
+  },
+  {
+    "id": "arousal-020",
+    "front": "How does being a beginner affect optimal arousal levels?",
+    "back": "Beginners generally perform better at lower levels of arousal because their skills and dominant responses are not yet fully developed.",
+    "subtopicId": "arousal",
+    "group": "Practical applications of theories of arousal"
+  },
+  {
+    "id": "arousal-021",
+    "front": "How does extroversion affect optimal arousal levels?",
+    "back": "Extroverts generally perform better at higher levels of arousal because they tend to have lower levels of cortical arousal and seek additional stimulation.",
+    "subtopicId": "arousal",
+    "group": "Practical applications of theories of arousal"
+  },
+  {
+    "id": "arousal-022",
+    "front": "How does introversion affect optimal arousal levels?",
+    "back": "Introverts generally perform better at lower levels of arousal because they tend to have higher levels of cortical arousal and require less additional stimulation.",
+    "subtopicId": "arousal",
+    "group": "Practical applications of theories of arousal"
+  },
+  {
+    "id": "arousal-023",
+    "front": "What level of arousal is generally appropriate for gross skills?",
+    "back": "Higher levels of arousal because gross skills involve large muscle movements and generally require less precision.",
+    "subtopicId": "arousal",
+    "group": "Practical applications of theories of arousal"
+  },
+  {
+    "id": "arousal-024",
+    "front": "What level of arousal is generally appropriate for fine skills?",
+    "back": "Lower levels of arousal because fine skills require greater precision and control.",
+    "subtopicId": "arousal",
+    "group": "Practical applications of theories of arousal"
+  },
+  {
+    "id": "arousal-025",
+    "front": "What level of arousal is generally appropriate for complex skills?",
+    "back": "Lower levels of arousal because complex skills require greater decision-making and information processing.",
+    "subtopicId": "arousal",
+    "group": "Practical applications of theories of arousal"
+  },
+  {
+    "id": "arousal-026",
+    "front": "What level of arousal is generally appropriate for simple skills?",
+    "back": "Higher levels of arousal because simple skills require less decision-making and information processing.",
+    "subtopicId": "arousal",
+    "group": "Practical applications of theories of arousal"
+  },
+  {
+    "id": "arousal-027",
+    "front": "What are the characteristics of being in the zone?",
+    "back": "-The performer feels in control. -Performance feels effortless. -Attention and concentration are fully focused. -Performing the skill can produce enjoyment and satisfaction.",
+    "subtopicId": "arousal",
+    "group": "Characteristics of peak flow experience"
+  },
+  {
+    "id": "arousal-028",
+    "front": "What happens when a performer is in the zone?",
+    "back": "-Performance appears to flow effortlessly. -The performer experiences high confidence. -The performer remains focused and feels in control of their actions. -The performer can remain composed under pressure.",
+    "subtopicId": "arousal",
+    "group": "Characteristics of peak flow experience"
+  },
+  {
+    "id": "arousal-029",
+    "front": "What is peak flow experience?",
+    "back": "The optimal intrinsic experience in which a performer feels completely focused, confident and in control, and performance appears effortless.",
+    "subtopicId": "arousal",
+    "group": "Characteristics of peak flow experience"
+  },
+  {
+    "id": "arousal-030",
+    "front": "How can peak flow experience occur?",
+    "back": "It can occur when the performer has a positive mental attitude, high confidence, appropriate arousal, focused attention and control over anxiety.",
+    "subtopicId": "arousal",
+    "group": "Characteristics of peak flow experience"
+  },
+  {
+    "id": "arousal-031",
+    "front": "What are the characteristics of peak flow experience?",
+    "back": "-Complete focus and concentration. -Effortless movement and performance. -A feeling of control. -Clear goals. -High confidence and enjoyment.",
+    "subtopicId": "arousal",
+    "group": "Characteristics of peak flow experience"
+  },
+  {
+    "id": "arousal-032",
+    "front": "What are three factors that can prevent or disrupt peak flow experience?",
+    "back": "-Poor mental preparation or failure to reach optimal arousal levels. -Environmental influences such as crowd pressure, distractions or frustration. -Physical factors such as injury or fatigue.",
+    "subtopicId": "arousal",
+    "group": "Characteristics of peak flow experience"
+  }
+]

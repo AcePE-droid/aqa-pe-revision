@@ -1,0 +1,464 @@
+[
+  {
+    "id": "self-efficacy-confidence-001",
+    "front": "What is self-confidence in sport?",
+    "back": "A performer's belief in their ability to succeed in a sporting situation.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Characteristics of self-efficacy, self-confidence, self-esteem"
+  },
+  {
+    "id": "self-efficacy-confidence-002",
+    "front": "How can high self-confidence affect performance?",
+    "back": "It can increase effort, persistence, risk-taking and approach behaviour.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Characteristics of self-efficacy, self-confidence, self-esteem"
+  },
+  {
+    "id": "self-efficacy-confidence-003",
+    "front": "Why can confidence vary?",
+    "back": "Confidence is affected by the performer's experience, personality and the situation.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Characteristics of self-efficacy, self-confidence, self-esteem"
+  },
+  {
+    "id": "self-efficacy-confidence-004",
+    "front": "How does experience affect confidence?",
+    "back": "Positive experiences, such as previous success, can increase confidence and improve future performance.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Characteristics of self-efficacy, self-confidence, self-esteem"
+  },
+  {
+    "id": "self-efficacy-confidence-005",
+    "front": "What is an example of experience increasing confidence?",
+    "back": "A footballer who has previously scored free kicks may feel more confident taking one again.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Characteristics of self-efficacy, self-confidence, self-esteem"
+  },
+  {
+    "id": "self-efficacy-confidence-006",
+    "front": "What is trait confidence?",
+    "back": "A relatively stable belief in one's sporting ability across a range of situations.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Characteristics of self-efficacy, self-confidence, self-esteem"
+  },
+  {
+    "id": "self-efficacy-confidence-007",
+    "front": "What does trait confidence reflect?",
+    "back": "How confident a performer generally feels about their sporting ability.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Characteristics of self-efficacy, self-confidence, self-esteem"
+  },
+  {
+    "id": "self-efficacy-confidence-008",
+    "front": "What is state confidence?",
+    "back": "A performer's belief in their ability to succeed in a specific sporting situation at a particular moment.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Characteristics of self-efficacy, self-confidence, self-esteem"
+  },
+  {
+    "id": "self-efficacy-confidence-009",
+    "front": "Is state confidence temporary or stable?",
+    "back": "It is temporary and situation-dependent.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Characteristics of self-efficacy, self-confidence, self-esteem"
+  },
+  {
+    "id": "self-efficacy-confidence-010",
+    "front": "What is self-efficacy?",
+    "back": "A performer's belief in their ability to successfully perform a specific task in a specific situation.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Characteristics of self-efficacy, self-confidence, self-esteem"
+  },
+  {
+    "id": "self-efficacy-confidence-011",
+    "front": "What is self-esteem?",
+    "back": "A performer's overall sense of self-worth and personal value.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Characteristics of self-efficacy, self-confidence, self-esteem"
+  },
+  {
+    "id": "self-efficacy-confidence-012",
+    "front": "What is the relationship between self-efficacy and self-esteem?",
+    "back": "Successful performances can increase self-efficacy, which may contribute to increased feelings of self-worth and self-esteem.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Characteristics of self-efficacy, self-confidence, self-esteem"
+  },
+  {
+    "id": "self-efficacy-confidence-013",
+    "front": "Who proposed the theory of self-efficacy?",
+    "back": "Albert Bandura.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Banduras model of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-014",
+    "front": "What did Bandura suggest about self-efficacy?",
+    "back": "Self-efficacy is situation-specific and can change depending on the task and circumstances.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Banduras model of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-015",
+    "front": "How does self-efficacy affect sporting performance?",
+    "back": "High self-efficacy can increase effort, persistence and willingness to attempt challenging tasks.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Banduras model of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-016",
+    "front": "What are the four factors affecting self-efficacy?",
+    "back": "Performance accomplishments; Vicarious experiences; Verbal persuasion; Emotional arousal.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Banduras model of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-017",
+    "front": "What happens when the four factors affecting self-efficacy are positive?",
+    "back": "Efficacy expectations increase, making the performer more confident that they can successfully complete the task.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Banduras model of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-018",
+    "front": "What are performance accomplishments?",
+    "back": "Previous successful experiences that increase belief in the ability to succeed again.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Banduras model of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-019",
+    "front": "How do past successes affect self-efficacy?",
+    "back": "They strengthen the performer's belief that they can successfully perform the task again.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Banduras model of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-020",
+    "front": "What is an example of performance accomplishments in sport?",
+    "back": "A high jumper who recently cleared 1.30 m in training may have high self-efficacy when attempting 1.20 m.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Banduras model of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-021",
+    "front": "How can performance accomplishments be enhanced?",
+    "back": "By providing achievable tasks that allow the performer to experience success.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Banduras model of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-022",
+    "front": "What are vicarious experiences?",
+    "back": "Observing another person successfully perform a task, increasing the observer's belief that they can also succeed.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Banduras model of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-023",
+    "front": "When are vicarious experiences most effective?",
+    "back": "When the model is similar to the performer in ability or experience.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Banduras model of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-024",
+    "front": "What is an example of a vicarious experience in sport?",
+    "back": "A gymnast watching a similar-ability teammate successfully perform a vault before attempting it themselves.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Banduras model of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-025",
+    "front": "What is verbal persuasion?",
+    "back": "Encouragement or positive feedback from others that increases the performer's belief that they can succeed.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Banduras model of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-026",
+    "front": "When is verbal persuasion most effective?",
+    "back": "When it comes from a respected or significant person, such as a coach.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Banduras model of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-027",
+    "front": "What is an example of verbal persuasion in sport?",
+    "back": "A coach telling a performer, \"You can do this; you have performed it successfully in training.\"",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Banduras model of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-028",
+    "front": "What is emotional arousal in Bandura's model?",
+    "back": "The performer's interpretation and control of their physiological and emotional responses to a situation.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Banduras model of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-029",
+    "front": "How can emotional arousal affect self-efficacy?",
+    "back": "Positive interpretation of arousal can increase self-efficacy, whereas negative interpretation can increase anxiety and reduce self-efficacy.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Banduras model of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-030",
+    "front": "Which performers are more likely to perform effectively under pressure?",
+    "back": "Performers who can control their arousal, remain focused and interpret their feelings positively.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Banduras model of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-031",
+    "front": "Who developed the Sport Confidence Model?",
+    "back": "Robin Vealey.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Vealey's model of self-confidence"
+  },
+  {
+    "id": "self-efficacy-confidence-032",
+    "front": "What are the two main types of sport confidence in Vealey's model?",
+    "back": "Trait sport confidence (SC-trait) and state sport confidence (SC-state).",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Vealey's model of self-confidence"
+  },
+  {
+    "id": "self-efficacy-confidence-033",
+    "front": "What is SC-trait?",
+    "back": "A performer's general and relatively stable level of confidence in their sporting ability.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Vealey's model of self-confidence"
+  },
+  {
+    "id": "self-efficacy-confidence-034",
+    "front": "What is SC-state?",
+    "back": "A performer's level of confidence in their ability to succeed in a specific sporting situation.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Vealey's model of self-confidence"
+  },
+  {
+    "id": "self-efficacy-confidence-035",
+    "front": "What is competitive orientation?",
+    "back": "The extent to which a performer is motivated towards achieving success in competitive situations.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Vealey's model of self-confidence"
+  },
+  {
+    "id": "self-efficacy-confidence-036",
+    "front": "What factors influence sport confidence in Vealey's model?",
+    "back": "Trait sport confidence, competitive orientation and the objective sporting situation influence state sport confidence and subsequent performance.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Vealey's model of self-confidence"
+  },
+  {
+    "id": "self-efficacy-confidence-037",
+    "front": "What is the objective sporting situation in Vealey's model?",
+    "back": "The specific competitive situation or circumstances faced by the performer.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Vealey's model of self-confidence"
+  },
+  {
+    "id": "self-efficacy-confidence-038",
+    "front": "What happens after performance in Vealey's model?",
+    "back": "The performer evaluates the performance and forms a subjective outcome.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Vealey's model of self-confidence"
+  },
+  {
+    "id": "self-efficacy-confidence-039",
+    "front": "What is the subjective outcome?",
+    "back": "The performer's personal evaluation of whether the performance was successful.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Vealey's model of self-confidence"
+  },
+  {
+    "id": "self-efficacy-confidence-040",
+    "front": "What factors can influence the subjective outcome?",
+    "back": "Perceived success, performance satisfaction and the attributions made for the outcome.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Vealey's model of self-confidence"
+  },
+  {
+    "id": "self-efficacy-confidence-041",
+    "front": "What happens when the subjective outcome is positive?",
+    "back": "Sport confidence and competitive orientation can increase, positively influencing future performances.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Vealey's model of self-confidence"
+  },
+  {
+    "id": "self-efficacy-confidence-042",
+    "front": "What happens when the subjective outcome is negative?",
+    "back": "Sport confidence and competitive orientation can decrease, potentially reducing confidence in future performances.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Vealey's model of self-confidence"
+  },
+  {
+    "id": "self-efficacy-confidence-043",
+    "front": "How can successful performance affect future goals?",
+    "back": "Increased confidence may encourage the performer to set more challenging goals.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Vealey's model of self-confidence"
+  },
+  {
+    "id": "self-efficacy-confidence-044",
+    "front": "How does previous success affect future sport confidence?",
+    "back": "Previous success can increase confidence when the performer faces similar situations in the future.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Vealey's model of self-confidence"
+  },
+  {
+    "id": "self-efficacy-confidence-045",
+    "front": "How can sport confidence influence competitive behaviour?",
+    "back": "Higher sport confidence can increase approach behaviour, effort and willingness to compete.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Vealey's model of self-confidence"
+  },
+  {
+    "id": "self-efficacy-confidence-046",
+    "front": "What is home-field advantage?",
+    "back": "The tendency for performers or teams to perform better at their home venue than at an away venue.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Effects of home field advantage"
+  },
+  {
+    "id": "self-efficacy-confidence-047",
+    "front": "What factors can contribute to home-field advantage?",
+    "back": "Crowd support; Familiarity with the venue; Reduced travel; Increased confidence.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Effects of home field advantage"
+  },
+  {
+    "id": "self-efficacy-confidence-048",
+    "front": "How can a home crowd increase the home team's confidence?",
+    "back": "Support and encouragement can increase motivation, self-efficacy and belief in success.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Effects of home field advantage"
+  },
+  {
+    "id": "self-efficacy-confidence-049",
+    "front": "What is functional assertive behaviour in relation to home-field advantage?",
+    "back": "Increased effort, determination and assertive behaviour within the rules as a result of increased confidence and motivation.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Effects of home field advantage"
+  },
+  {
+    "id": "self-efficacy-confidence-050",
+    "front": "How can a hostile home crowd affect the away team?",
+    "back": "It can increase anxiety and pressure, potentially reducing performance and increasing errors or fouls.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Effects of home field advantage"
+  },
+  {
+    "id": "self-efficacy-confidence-051",
+    "front": "What negative effect can the home crowd have on the home team?",
+    "back": "Excessive pressure and evaluation apprehension can increase anxiety and cause performance to deteriorate.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Effects of home field advantage"
+  },
+  {
+    "id": "self-efficacy-confidence-052",
+    "front": "When is home-field disadvantage most likely?",
+    "back": "During important or high-pressure matches where expectations from the home crowd are particularly high.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Effects of home field advantage"
+  },
+  {
+    "id": "self-efficacy-confidence-053",
+    "front": "How can stadium layout influence home-field advantage?",
+    "back": "Crowds positioned close to the playing area may have a greater influence on performers than crowds positioned further away.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Effects of home field advantage"
+  },
+  {
+    "id": "self-efficacy-confidence-054",
+    "front": "How can crowd hostility affect away performers?",
+    "back": "Increased hostility can raise anxiety and reduce confidence, concentration and performance.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Effects of home field advantage"
+  },
+  {
+    "id": "self-efficacy-confidence-055",
+    "front": "What strategies can a coach use to develop high levels of self-efficacy?",
+    "back": "Provide successful experiences; Use appropriate demonstrations; Give verbal encouragement; Control arousal; Set achievable goals; Use mental practice.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Strategies to develop high levels of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-056",
+    "front": "How can successful experiences develop self-efficacy?",
+    "back": "Success provides performance accomplishments, strengthening the performer's belief that they can succeed again.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Strategies to develop high levels of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-057",
+    "front": "How can a coach provide successful experiences in training?",
+    "back": "Set appropriately challenging tasks that are within the performer's capabilities.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Strategies to develop high levels of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-058",
+    "front": "How can demonstrations develop self-efficacy?",
+    "back": "Watching a similar-ability model successfully perform the skill provides a positive vicarious experience.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Strategies to develop high levels of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-059",
+    "front": "Why should demonstrations be accurate?",
+    "back": "An accurate demonstration gives the performer a clear model of successful performance to imitate.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Strategies to develop high levels of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-060",
+    "front": "How can verbal persuasion develop self-efficacy?",
+    "back": "Positive encouragement and feedback from a respected coach can increase the performer's belief that they can succeed.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Strategies to develop high levels of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-061",
+    "front": "How can arousal control develop self-efficacy?",
+    "back": "Relaxation, imagery and stress-management techniques can reduce anxiety and help the performer feel in control.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Strategies to develop high levels of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-062",
+    "front": "How can previous successful performances develop self-efficacy?",
+    "back": "Reminding performers of previous successes reinforces their belief that they can succeed in similar situations.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Strategies to develop high levels of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-063",
+    "front": "How can goal setting develop self-efficacy?",
+    "back": "Achievable personal goals provide opportunities for success and progressively build confidence.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Strategies to develop high levels of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-064",
+    "front": "What should happen to goals as self-efficacy increases?",
+    "back": "Goals can gradually become more challenging as the performer experiences success.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Strategies to develop high levels of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-065",
+    "front": "Why should success be attributed to the performer?",
+    "back": "Attributing success to factors such as their ability, effort and preparation reinforces belief in their own capabilities.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Strategies to develop high levels of self-efficacy"
+  },
+  {
+    "id": "self-efficacy-confidence-066",
+    "front": "How can mental practice develop self-efficacy?",
+    "back": "Mentally rehearsing successful performance can increase familiarity, confidence and belief in successful execution.",
+    "subtopicId": "self-efficacy-confidence",
+    "group": "Strategies to develop high levels of self-efficacy"
+  }
+]

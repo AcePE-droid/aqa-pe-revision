@@ -1,0 +1,184 @@
+[
+  {
+    "id": "anxiety-001",
+    "front": "What is anxiety in sport?",
+    "back": "A negative emotional state involving nervousness, worry and apprehension caused by a perceived threat.",
+    "subtopicId": "anxiety",
+    "group": "Types of anxiety"
+  },
+  {
+    "id": "anxiety-002",
+    "front": "What causes anxiety levels to differ between performers?",
+    "back": "Individual differences in how performers perceive and interpret a situation.",
+    "subtopicId": "anxiety",
+    "group": "Types of anxiety"
+  },
+  {
+    "id": "anxiety-003",
+    "front": "What is competitive trait anxiety?",
+    "back": "A relatively stable personality characteristic that causes a performer to perceive competitive situations as threatening and experience anxiety regularly.",
+    "subtopicId": "anxiety",
+    "group": "Types of anxiety"
+  },
+  {
+    "id": "anxiety-004",
+    "front": "Why is trait anxiety considered relatively stable?",
+    "back": "It is a relatively enduring characteristic of the performer's personality.",
+    "subtopicId": "anxiety",
+    "group": "Types of anxiety"
+  },
+  {
+    "id": "anxiety-005",
+    "front": "When is competitive trait anxiety likely to be displayed?",
+    "back": "Across a range of competitive situations, rather than being caused by one specific situation.",
+    "subtopicId": "anxiety",
+    "group": "Types of anxiety"
+  },
+  {
+    "id": "anxiety-006",
+    "front": "What is competitive state anxiety?",
+    "back": "A temporary emotional response to a specific competitive situation.",
+    "subtopicId": "anxiety",
+    "group": "Types of anxiety"
+  },
+  {
+    "id": "anxiety-007",
+    "front": "Give an example of competitive state anxiety.",
+    "back": "A footballer experiencing anxiety immediately before taking an important penalty.",
+    "subtopicId": "anxiety",
+    "group": "Types of anxiety"
+  },
+  {
+    "id": "anxiety-008",
+    "front": "How can state anxiety change during a game?",
+    "back": "It can fluctuate depending on the situation and the performer's perception of events.",
+    "subtopicId": "anxiety",
+    "group": "Types of anxiety"
+  },
+  {
+    "id": "anxiety-009",
+    "front": "What is the link between trait and state anxiety?",
+    "back": "A performer with high trait anxiety is more likely to experience high state anxiety in competitive situations.",
+    "subtopicId": "anxiety",
+    "group": "Types of anxiety"
+  },
+  {
+    "id": "anxiety-010",
+    "front": "What is cognitive anxiety?",
+    "back": "The psychological component of anxiety involving worry, negative thoughts and concerns about performance.",
+    "subtopicId": "anxiety",
+    "group": "Types of anxiety"
+  },
+  {
+    "id": "anxiety-011",
+    "front": "Give examples of cognitive anxiety symptoms.",
+    "back": "Loss of concentration; Fear of failure; Negative thoughts; Worry.",
+    "subtopicId": "anxiety",
+    "group": "Types of anxiety"
+  },
+  {
+    "id": "anxiety-012",
+    "front": "When can cognitive anxiety occur?",
+    "back": "Before and during performance.",
+    "subtopicId": "anxiety",
+    "group": "Types of anxiety"
+  },
+  {
+    "id": "anxiety-013",
+    "front": "What are possible positive effects of manageable levels of cognitive anxiety?",
+    "back": "It may increase focus, concentration and awareness of important cues if the performer interprets the situation positively.",
+    "subtopicId": "anxiety",
+    "group": "Types of anxiety"
+  },
+  {
+    "id": "anxiety-014",
+    "front": "What is somatic anxiety?",
+    "back": "The physiological component of anxiety involving physical responses to perceived pressure or threat.",
+    "subtopicId": "anxiety",
+    "group": "Types of anxiety"
+  },
+  {
+    "id": "anxiety-015",
+    "front": "Give examples of somatic anxiety symptoms.",
+    "back": "Increased heart rate; Sweating; Increased breathing rate; Muscle tension.",
+    "subtopicId": "anxiety",
+    "group": "Types of anxiety"
+  },
+  {
+    "id": "anxiety-016",
+    "front": "When is somatic anxiety usually highest?",
+    "back": "Immediately before the start of competition, after which it may decrease once performance begins.",
+    "subtopicId": "anxiety",
+    "group": "Types of anxiety"
+  },
+  {
+    "id": "anxiety-017",
+    "front": "How can somatic anxiety affect performance?",
+    "back": "Performance may improve as physiological arousal increases to an optimal level, but excessive levels can cause performance to deteriorate.",
+    "subtopicId": "anxiety",
+    "group": "Types of anxiety"
+  },
+  {
+    "id": "anxiety-018",
+    "front": "How can high cognitive anxiety affect performance?",
+    "back": "Excessive worry and negative thoughts can reduce concentration, decision-making and overall performance.",
+    "subtopicId": "anxiety",
+    "group": "Types of anxiety"
+  },
+  {
+    "id": "anxiety-019",
+    "front": "What are three methods of measuring anxiety?",
+    "back": "Self-report questionnaires, such as SCAT; Observation; Physiological measures, such as heart rate monitoring.",
+    "subtopicId": "anxiety",
+    "group": "Ways of measuring anxiety"
+  },
+  {
+    "id": "anxiety-020",
+    "front": "What is a key disadvantage of self-report questionnaires such as SCAT?",
+    "back": "Responses may be affected by social desirability bias or performers misunderstanding the questions.",
+    "subtopicId": "anxiety",
+    "group": "Ways of measuring anxiety"
+  },
+  {
+    "id": "anxiety-021",
+    "front": "Why can self-report questionnaire results be unreliable?",
+    "back": "A performer's mood, recent experiences or desire to give socially acceptable answers can influence their responses.",
+    "subtopicId": "anxiety",
+    "group": "Ways of measuring anxiety"
+  },
+  {
+    "id": "anxiety-022",
+    "front": "What is an advantage of observation when measuring anxiety?",
+    "back": "It allows anxiety-related behaviour to be assessed in realistic sporting situations.",
+    "subtopicId": "anxiety",
+    "group": "Ways of measuring anxiety"
+  },
+  {
+    "id": "anxiety-023",
+    "front": "What is a disadvantage of observation when measuring anxiety?",
+    "back": "Interpretation of behaviour can be subjective and affected by observer bias.",
+    "subtopicId": "anxiety",
+    "group": "Ways of measuring anxiety"
+  },
+  {
+    "id": "anxiety-024",
+    "front": "What are examples of physiological measures of anxiety?",
+    "back": "Heart rate; Breathing rate; Sweating; Hormonal responses.",
+    "subtopicId": "anxiety",
+    "group": "Ways of measuring anxiety"
+  },
+  {
+    "id": "anxiety-025",
+    "front": "What is an advantage of physiological measures of anxiety?",
+    "back": "They provide objective, quantitative data about physiological responses.",
+    "subtopicId": "anxiety",
+    "group": "Ways of measuring anxiety"
+  },
+  {
+    "id": "anxiety-026",
+    "front": "What is a disadvantage of physiological measures of anxiety?",
+    "back": "Monitoring equipment may cause discomfort or alter the performer's anxiety levels, and physiological changes may also be caused by physical exertion rather than anxiety alone.",
+    "subtopicId": "anxiety",
+    "group": "Ways of measuring anxiety"
+  }
+]

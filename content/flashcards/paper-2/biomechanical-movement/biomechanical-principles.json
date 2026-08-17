@@ -1,0 +1,212 @@
+[
+  {
+    "id": "biomechanical-principles-001",
+    "front": "What is linear motion?",
+    "back": "Motion in a straight or curved line where all parts of the body travel the same distance, in the same direction and at the same speed.",
+    "subtopicId": "biomechanical-principles",
+    "group": "Newtons laws of linear motion"
+  },
+  {
+    "id": "biomechanical-principles-002",
+    "front": "What are Newton's three laws of linear motion?",
+    "back": "Newton's First Law – Law of Inertia; Newton's Second Law – Law of Acceleration; Newton's Third Law – Law of Action/Reaction.",
+    "subtopicId": "biomechanical-principles",
+    "group": "Newtons laws of linear motion"
+  },
+  {
+    "id": "biomechanical-principles-003",
+    "front": "What is Newton's First Law (Law of Inertia)?",
+    "back": "A body remains at rest or continues moving at a constant velocity unless acted upon by an external force.",
+    "subtopicId": "biomechanical-principles",
+    "group": "Newtons laws of linear motion"
+  },
+  {
+    "id": "biomechanical-principles-004",
+    "front": "What is inertia?",
+    "back": "A body's resistance to a change in its state of motion.",
+    "subtopicId": "biomechanical-principles",
+    "group": "Newtons laws of linear motion"
+  },
+  {
+    "id": "biomechanical-principles-005",
+    "front": "What happens to an object at rest if no external force acts on it?",
+    "back": "It remains at rest.",
+    "subtopicId": "biomechanical-principles",
+    "group": "Newtons laws of linear motion"
+  },
+  {
+    "id": "biomechanical-principles-006",
+    "front": "How does mass affect inertia?",
+    "back": "The greater the mass of a body, the greater its inertia and therefore the greater the force required to change its state of motion.",
+    "subtopicId": "biomechanical-principles",
+    "group": "Newtons laws of linear motion"
+  },
+  {
+    "id": "biomechanical-principles-007",
+    "front": "What is Newton's Second Law (Law of Acceleration)?",
+    "back": "The acceleration of a body is proportional to the force applied and occurs in the direction of that force.",
+    "subtopicId": "biomechanical-principles",
+    "group": "Newtons laws of linear motion"
+  },
+  {
+    "id": "biomechanical-principles-008",
+    "front": "What do the magnitude and direction of acceleration depend on?",
+    "back": "The magnitude and direction of the resultant force acting on the body.",
+    "subtopicId": "biomechanical-principles",
+    "group": "Newtons laws of linear motion"
+  },
+  {
+    "id": "biomechanical-principles-009",
+    "front": "What is the formula for force?",
+    "back": "Force = Mass × Acceleration (F = ma).",
+    "subtopicId": "biomechanical-principles",
+    "group": "Newtons laws of linear motion"
+  },
+  {
+    "id": "biomechanical-principles-010",
+    "front": "What happens if a greater resultant force is applied to a body?",
+    "back": "The body experiences greater acceleration, provided its mass remains constant.",
+    "subtopicId": "biomechanical-principles",
+    "group": "Newtons laws of linear motion"
+  },
+  {
+    "id": "biomechanical-principles-011",
+    "front": "What is Newton's Third Law (Law of Action/Reaction)?",
+    "back": "For every action force, there is an equal and opposite reaction force.",
+    "subtopicId": "biomechanical-principles",
+    "group": "Newtons laws of linear motion"
+  },
+  {
+    "id": "biomechanical-principles-012",
+    "front": "Do action and reaction forces act alone?",
+    "back": "No, they always occur in equal and opposite pairs acting on different bodies.",
+    "subtopicId": "biomechanical-principles",
+    "group": "Newtons laws of linear motion"
+  },
+  {
+    "id": "biomechanical-principles-013",
+    "front": "What is the force called when the ground pushes back against a performer?",
+    "back": "Ground reaction force.",
+    "subtopicId": "biomechanical-principles",
+    "group": "Newtons laws of linear motion"
+  },
+  {
+    "id": "biomechanical-principles-014",
+    "front": "What is an example of Newton's Third Law in sport?",
+    "back": "During a sprint start, the athlete pushes backwards against the starting blocks and the blocks exert an equal and opposite force forwards on the athlete.",
+    "subtopicId": "biomechanical-principles",
+    "group": "Newtons laws of linear motion"
+  },
+  {
+    "id": "biomechanical-principles-015",
+    "front": "What is distance and what is its unit?",
+    "back": "The total length of the path travelled by a body; measured in metres (m).",
+    "subtopicId": "biomechanical-principles",
+    "group": "Scalar quantities"
+  },
+  {
+    "id": "biomechanical-principles-016",
+    "front": "What is mass and what is its unit?",
+    "back": "The quantity of matter in a body; measured in kilograms (kg).",
+    "subtopicId": "biomechanical-principles",
+    "group": "Scalar quantities"
+  },
+  {
+    "id": "biomechanical-principles-017",
+    "front": "What is speed? Give its formula and unit.",
+    "back": "The distance travelled per unit of time; Speed = Distance ÷ Time; measured in metres per second (m/s).",
+    "subtopicId": "biomechanical-principles",
+    "group": "Scalar quantities"
+  },
+  {
+    "id": "biomechanical-principles-018",
+    "front": "What is the centre of mass?",
+    "back": "The point at which the mass of a body is considered to be concentrated and around which the body is balanced.",
+    "subtopicId": "biomechanical-principles",
+    "group": "Factors affecting stability"
+  },
+  {
+    "id": "biomechanical-principles-019",
+    "front": "What is the purpose of the J-curve run-up in the Fosbury flop?",
+    "back": "It helps generate the rotation required for the Fosbury flop and positions the performer appropriately for take-off.",
+    "subtopicId": "biomechanical-principles",
+    "group": "Factors affecting stability"
+  },
+  {
+    "id": "biomechanical-principles-020",
+    "front": "Why is the outside foot planted during the take-off phase of the Fosbury flop?",
+    "back": "It provides a firm base from which force can be applied and allows the free leg to drive upwards, helping raise the performer at take-off.",
+    "subtopicId": "biomechanical-principles",
+    "group": "Factors affecting stability"
+  },
+  {
+    "id": "biomechanical-principles-021",
+    "front": "How does spinal extension contribute to the Fosbury flop technique?",
+    "back": "Arching the body through spinal extension allows the performer's centre of mass to pass below the bar while the body clears it.",
+    "subtopicId": "biomechanical-principles",
+    "group": "Factors affecting stability"
+  },
+  {
+    "id": "biomechanical-principles-022",
+    "front": "Where does the centre of mass travel in relation to the bar during an effective Fosbury flop?",
+    "back": "The centre of mass can pass below the bar while the performer's body passes over it.",
+    "subtopicId": "biomechanical-principles",
+    "group": "Factors affecting stability"
+  },
+  {
+    "id": "biomechanical-principles-023",
+    "front": "What is the benefit of the centre of mass passing below the bar during the Fosbury flop?",
+    "back": "The performer does not need to raise their centre of mass as high as the bar, making the technique more mechanically efficient.",
+    "subtopicId": "biomechanical-principles",
+    "group": "Factors affecting stability"
+  },
+  {
+    "id": "biomechanical-principles-024",
+    "front": "What happens if a force is applied through the centre of mass?",
+    "back": "The body experiences linear motion without rotation; this is known as a concentric force.",
+    "subtopicId": "biomechanical-principles",
+    "group": "Factors affecting stability"
+  },
+  {
+    "id": "biomechanical-principles-025",
+    "front": "What happens if a force is applied outside the centre of mass?",
+    "back": "The force creates a turning effect, causing angular motion; this is known as an eccentric force.",
+    "subtopicId": "biomechanical-principles",
+    "group": "Factors affecting stability"
+  },
+  {
+    "id": "biomechanical-principles-026",
+    "front": "What are the four factors that affect stability?",
+    "back": "Height of the centre of mass; Area of the base of support; Position of the line of gravity; Mass of the performer.",
+    "subtopicId": "biomechanical-principles",
+    "group": "Factors affecting stability"
+  },
+  {
+    "id": "biomechanical-principles-027",
+    "front": "How does the height of the centre of mass affect stability?",
+    "back": "A lower centre of mass generally increases stability.",
+    "subtopicId": "biomechanical-principles",
+    "group": "Factors affecting stability"
+  },
+  {
+    "id": "biomechanical-principles-028",
+    "front": "How does the area of the base of support affect stability?",
+    "back": "A larger base of support generally increases stability.",
+    "subtopicId": "biomechanical-principles",
+    "group": "Factors affecting stability"
+  },
+  {
+    "id": "biomechanical-principles-029",
+    "front": "How does the position of the line of gravity affect stability?",
+    "back": "Stability is increased when the line of gravity falls centrally within the base of support.",
+    "subtopicId": "biomechanical-principles",
+    "group": "Factors affecting stability"
+  },
+  {
+    "id": "biomechanical-principles-030",
+    "front": "How does the mass of a performer affect stability?",
+    "back": "A greater mass generally increases stability because greater force is required to overcome the performer's inertia.",
+    "subtopicId": "biomechanical-principles",
+    "group": "Factors affecting stability"
+  }
+]

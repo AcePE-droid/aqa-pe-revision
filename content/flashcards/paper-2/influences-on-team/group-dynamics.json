@@ -1,0 +1,366 @@
+[
+  {
+    "id": "group-dynamics-001",
+    "front": "What are the stages of group formation according to Tuckman?",
+    "back": "Forming; Storming; Norming; Performing; Adjourning.",
+    "subtopicId": "group-dynamics",
+    "group": "Group formation (Tuckman)"
+  },
+  {
+    "id": "group-dynamics-002",
+    "front": "What happens during the forming stage?",
+    "back": "The group comes together and members begin to get to know each other, often through team-building activities and icebreakers.",
+    "subtopicId": "group-dynamics",
+    "group": "Group formation (Tuckman)"
+  },
+  {
+    "id": "group-dynamics-003",
+    "front": "What do individuals explore during the forming stage?",
+    "back": "They establish how they feel about the group, whether they fit in and begin developing trust with other members.",
+    "subtopicId": "group-dynamics",
+    "group": "Group formation (Tuckman)"
+  },
+  {
+    "id": "group-dynamics-004",
+    "front": "What are four ways a team can successfully progress through the forming stage?",
+    "back": "Set a clear mission; Set team goals; Define individual roles; Encourage commitment to the team.",
+    "subtopicId": "group-dynamics",
+    "group": "Group formation (Tuckman)"
+  },
+  {
+    "id": "group-dynamics-005",
+    "front": "What is the storming stage of group formation?",
+    "back": "A stage of potential conflict where individuals compete to establish their roles, status and influence within the group.",
+    "subtopicId": "group-dynamics",
+    "group": "Group formation (Tuckman)"
+  },
+  {
+    "id": "group-dynamics-006",
+    "front": "What are common issues during the storming stage?",
+    "back": "Power struggles; Communication breakdowns; Cliques; Personal conflict.",
+    "subtopicId": "group-dynamics",
+    "group": "Group formation (Tuckman)"
+  },
+  {
+    "id": "group-dynamics-007",
+    "front": "Why is the storming stage important even though it can be challenging?",
+    "back": "It allows the group to resolve differences, establish roles and progress towards becoming a more cohesive team.",
+    "subtopicId": "group-dynamics",
+    "group": "Group formation (Tuckman)"
+  },
+  {
+    "id": "group-dynamics-008",
+    "front": "What are some ways a team can progress through the storming stage?",
+    "back": "Request and accept feedback; Build trust; Recognise team and individual achievements; Communicate effectively; Spend time together.",
+    "subtopicId": "group-dynamics",
+    "group": "Group formation (Tuckman)"
+  },
+  {
+    "id": "group-dynamics-009",
+    "front": "What is the norming stage of group formation?",
+    "back": "A stage where roles become established, relationships develop and the group begins to work together more cohesively.",
+    "subtopicId": "group-dynamics",
+    "group": "Group formation (Tuckman)"
+  },
+  {
+    "id": "group-dynamics-010",
+    "front": "What begins to develop during the norming stage?",
+    "back": "Team cohesion, trust and a shared understanding of the group's goals and purpose.",
+    "subtopicId": "group-dynamics",
+    "group": "Group formation (Tuckman)"
+  },
+  {
+    "id": "group-dynamics-011",
+    "front": "What behaviours can help a team progress from norming to performing?",
+    "back": "Maintain team traditions; Praise and support each other; Share leadership responsibilities; Share rewards and successes.",
+    "subtopicId": "group-dynamics",
+    "group": "Group formation (Tuckman)"
+  },
+  {
+    "id": "group-dynamics-012",
+    "front": "What characterises the performing stage of group formation?",
+    "back": "High motivation and team pride; Effective cooperation; Trust and support; Effective management of conflict; A strong team mentality.",
+    "subtopicId": "group-dynamics",
+    "group": "Group formation (Tuckman)"
+  },
+  {
+    "id": "group-dynamics-013",
+    "front": "What is the final stage of Tuckman's model?",
+    "back": "Adjourning.",
+    "subtopicId": "group-dynamics",
+    "group": "Group formation (Tuckman)"
+  },
+  {
+    "id": "group-dynamics-014",
+    "front": "What characterises the adjourning stage of group formation?",
+    "back": "The team's task or goals have been completed and the group separates or disbands.",
+    "subtopicId": "group-dynamics",
+    "group": "Group formation (Tuckman)"
+  },
+  {
+    "id": "group-dynamics-015",
+    "front": "What factors can affect how long a group takes to progress through the stages of group formation?",
+    "back": "The size of the group; The difficulty of the task; The experience of the group members.",
+    "subtopicId": "group-dynamics",
+    "group": "Group formation (Tuckman)"
+  },
+  {
+    "id": "group-dynamics-016",
+    "front": "What is the definition of cohesion?",
+    "back": "The tendency of a group to work together and remain united in order to achieve its goals.",
+    "subtopicId": "group-dynamics",
+    "group": "Cohesion"
+  },
+  {
+    "id": "group-dynamics-017",
+    "front": "What are the four factors that can affect cohesion according to Carron's antecedents?",
+    "back": "Environmental factors; Personal factors; Leadership factors; Team factors.",
+    "subtopicId": "group-dynamics",
+    "group": "Cohesion"
+  },
+  {
+    "id": "group-dynamics-018",
+    "front": "What are environmental factors in Carron's antecedents of cohesion?",
+    "back": "Factors such as group size and the amount of time members spend together; smaller groups and more time together can help develop cohesion.",
+    "subtopicId": "group-dynamics",
+    "group": "Cohesion"
+  },
+  {
+    "id": "group-dynamics-019",
+    "front": "What are personal factors in Carron's antecedents of cohesion?",
+    "back": "Individual characteristics such as similarities in members' goals, attitudes, values and experiences that can influence cohesion.",
+    "subtopicId": "group-dynamics",
+    "group": "Cohesion"
+  },
+  {
+    "id": "group-dynamics-020",
+    "front": "What are leadership factors in Carron's antecedents of cohesion?",
+    "back": "The leadership style and behaviour of the coach or captain, which can influence relationships and how effectively the group works together.",
+    "subtopicId": "group-dynamics",
+    "group": "Cohesion"
+  },
+  {
+    "id": "group-dynamics-021",
+    "front": "What are team factors in Carron's antecedents of cohesion?",
+    "back": "Factors such as team stability, previous success, shared experiences and the desire to achieve common goals.",
+    "subtopicId": "group-dynamics",
+    "group": "Cohesion"
+  },
+  {
+    "id": "group-dynamics-022",
+    "front": "What is task cohesion?",
+    "back": "The degree to which group members work together to achieve common performance goals.",
+    "subtopicId": "group-dynamics",
+    "group": "Cohesion"
+  },
+  {
+    "id": "group-dynamics-023",
+    "front": "What is social cohesion?",
+    "back": "The degree to which group members relate to, interact with and enjoy each other's company.",
+    "subtopicId": "group-dynamics",
+    "group": "Cohesion"
+  },
+  {
+    "id": "group-dynamics-024",
+    "front": "Why is it beneficial for a team to have both task and social cohesion?",
+    "back": "Task cohesion helps members work towards common goals, while social cohesion can improve relationships, communication and team spirit.",
+    "subtopicId": "group-dynamics",
+    "group": "Cohesion"
+  },
+  {
+    "id": "group-dynamics-025",
+    "front": "What is a potential drawback of strong social cohesion?",
+    "back": "Strong friendship groups can lead to cliques, which may exclude other members and reduce overall team cohesion.",
+    "subtopicId": "group-dynamics",
+    "group": "Cohesion"
+  },
+  {
+    "id": "group-dynamics-026",
+    "front": "What are the four characteristics of an effective team?",
+    "back": "A collective identity; Interaction; Communication; A shared sense of purpose.",
+    "subtopicId": "group-dynamics",
+    "group": "Cohesion"
+  },
+  {
+    "id": "group-dynamics-027",
+    "front": "What are characteristics of a collective identity within a team?",
+    "back": "Members identify strongly with the team, experience a sense of belonging and pride, and may display this identity through features such as wearing the same team kit.",
+    "subtopicId": "group-dynamics",
+    "group": "Cohesion"
+  },
+  {
+    "id": "group-dynamics-028",
+    "front": "What does effective interaction require within a team?",
+    "back": "Each performer must successfully carry out their individual role while coordinating effectively with other team members.",
+    "subtopicId": "group-dynamics",
+    "group": "Cohesion"
+  },
+  {
+    "id": "group-dynamics-029",
+    "front": "What does effective communication involve within a team?",
+    "back": "Team members exchange information using both verbal and non-verbal communication to coordinate their actions.",
+    "subtopicId": "group-dynamics",
+    "group": "Cohesion"
+  },
+  {
+    "id": "group-dynamics-030",
+    "front": "What does a shared sense of purpose mean within a team?",
+    "back": "All members are committed to common objectives, such as winning, improving performance or achieving team goals.",
+    "subtopicId": "group-dynamics",
+    "group": "Cohesion"
+  },
+  {
+    "id": "group-dynamics-031",
+    "front": "What does Steiner's Model of Group Effectiveness explain?",
+    "back": "It explains the relationship between a team's potential productivity, faulty group processes and actual productivity.",
+    "subtopicId": "group-dynamics",
+    "group": "Steiners model"
+  },
+  {
+    "id": "group-dynamics-032",
+    "front": "What is the formula for Steiner's Model of Group Effectiveness?",
+    "back": "Actual productivity = Potential productivity − Losses due to faulty group processes.",
+    "subtopicId": "group-dynamics",
+    "group": "Steiners model"
+  },
+  {
+    "id": "group-dynamics-033",
+    "front": "What is actual productivity in Steiner's model?",
+    "back": "The level of performance the team actually achieves.",
+    "subtopicId": "group-dynamics",
+    "group": "Steiners model"
+  },
+  {
+    "id": "group-dynamics-034",
+    "front": "What is potential productivity in Steiner's model?",
+    "back": "The maximum level of performance a group could achieve based on its available resources.",
+    "subtopicId": "group-dynamics",
+    "group": "Steiners model"
+  },
+  {
+    "id": "group-dynamics-035",
+    "front": "What are faulty group processes in Steiner's model?",
+    "back": "Factors that prevent a team from achieving its potential productivity.",
+    "subtopicId": "group-dynamics",
+    "group": "Steiners model"
+  },
+  {
+    "id": "group-dynamics-036",
+    "front": "What are the two types of faulty group processes?",
+    "back": "Coordination losses and motivational losses.",
+    "subtopicId": "group-dynamics",
+    "group": "Steiners model"
+  },
+  {
+    "id": "group-dynamics-037",
+    "front": "What are examples of coordination losses?",
+    "back": "Poor communication; Poor tactics; Failure to follow instructions; Players misunderstanding or failing to accept their roles.",
+    "subtopicId": "group-dynamics",
+    "group": "Steiners model"
+  },
+  {
+    "id": "group-dynamics-038",
+    "front": "What are examples of motivational losses?",
+    "back": "Reduced effort; Loss of concentration; Lack of motivation; Performers failing to contribute fully to the team.",
+    "subtopicId": "group-dynamics",
+    "group": "Steiners model"
+  },
+  {
+    "id": "group-dynamics-039",
+    "front": "Why does having the best individual performers not guarantee team success according to Steiner's model?",
+    "back": "Faulty group processes can prevent talented individuals from combining effectively and reaching the team's potential productivity.",
+    "subtopicId": "group-dynamics",
+    "group": "Steiners model"
+  },
+  {
+    "id": "group-dynamics-040",
+    "front": "What is the Ringelmann effect?",
+    "back": "The tendency for individual performance or productivity to decrease as group size increases.",
+    "subtopicId": "group-dynamics",
+    "group": "Ringelmann effect and social loafing"
+  },
+  {
+    "id": "group-dynamics-041",
+    "front": "What is social loafing?",
+    "back": "A reduction in an individual's effort or motivation when working as part of a group, particularly when their individual contribution is difficult to identify.",
+    "subtopicId": "group-dynamics",
+    "group": "Ringelmann effect and social loafing"
+  },
+  {
+    "id": "group-dynamics-042",
+    "front": "What are some causes of social loafing?",
+    "back": "Lack of confidence; Negative attitudes; Poor leadership; Lack of incentives or recognition; Poor fitness; Vague or general goals; Cliques; Individual contributions not being recognised.",
+    "subtopicId": "group-dynamics",
+    "group": "Ringelmann effect and social loafing"
+  },
+  {
+    "id": "group-dynamics-043",
+    "front": "What is the relationship between the Ringelmann effect and social loafing?",
+    "back": "As group size increases, individual contributions can become harder to identify, increasing the likelihood of social loafing and reducing group productivity.",
+    "subtopicId": "group-dynamics",
+    "group": "Ringelmann effect and social loafing"
+  },
+  {
+    "id": "group-dynamics-044",
+    "front": "How can coaches use recognition and rewards to reduce social loafing?",
+    "back": "Recognise individual effort and use appropriate praise or rewards so performers feel their contribution is valued.",
+    "subtopicId": "group-dynamics",
+    "group": "Strategies to imrpove cohesion and overcome social loading"
+  },
+  {
+    "id": "group-dynamics-045",
+    "front": "How can performance statistics reduce social loafing?",
+    "back": "Statistics, such as tackles made or distance covered, make individual contributions identifiable and encourage performers to maintain effort.",
+    "subtopicId": "group-dynamics",
+    "group": "Strategies to imrpove cohesion and overcome social loading"
+  },
+  {
+    "id": "group-dynamics-046",
+    "front": "How can goal setting reduce social loafing?",
+    "back": "Set specific, achievable individual and team goals so each performer understands what they are expected to contribute.",
+    "subtopicId": "group-dynamics",
+    "group": "Strategies to imrpove cohesion and overcome social loading"
+  },
+  {
+    "id": "group-dynamics-047",
+    "front": "How can video analysis reduce social loafing?",
+    "back": "It makes individual contributions more identifiable and allows performers to receive specific feedback on their performance.",
+    "subtopicId": "group-dynamics",
+    "group": "Strategies to imrpove cohesion and overcome social loading"
+  },
+  {
+    "id": "group-dynamics-048",
+    "front": "How can feedback reduce social loafing?",
+    "back": "Regular individual feedback helps performers understand their contribution, recognise areas for improvement and maintain motivation.",
+    "subtopicId": "group-dynamics",
+    "group": "Strategies to imrpove cohesion and overcome social loading"
+  },
+  {
+    "id": "group-dynamics-049",
+    "front": "How can small-sided games help reduce social loafing?",
+    "back": "They make each performer's contribution more identifiable and increase individual involvement.",
+    "subtopicId": "group-dynamics",
+    "group": "Strategies to imrpove cohesion and overcome social loading"
+  },
+  {
+    "id": "group-dynamics-050",
+    "front": "How can varied training help improve cohesion and motivation?",
+    "back": "Varied and enjoyable training can maintain interest, increase motivation and encourage greater interaction between team members.",
+    "subtopicId": "group-dynamics",
+    "group": "Strategies to imrpove cohesion and overcome social loading"
+  },
+  {
+    "id": "group-dynamics-051",
+    "front": "How can appropriate physical conditioning reduce social loafing?",
+    "back": "Improving fitness helps performers maintain their effort and fulfil their role throughout performance.",
+    "subtopicId": "group-dynamics",
+    "group": "Strategies to imrpove cohesion and overcome social loading"
+  },
+  {
+    "id": "group-dynamics-052",
+    "front": "How can coaches improve team cohesion?",
+    "back": "Set common goals; Clarify individual roles; Encourage effective communication; Use team-building activities; Develop a collective identity; Recognise individual and team achievements.",
+    "subtopicId": "group-dynamics",
+    "group": "Strategies to imrpove cohesion and overcome social loading"
+  }
+]

@@ -1,0 +1,555 @@
+[
+  {
+    "id": "linear-motion-001",
+    "front": "What are the main forces that can act on a performer?",
+    "back": "Weight; Reaction force; Friction; Air resistance.",
+    "subtopicId": "linear-motion",
+    "group": "Forces acting on a performer"
+  },
+  {
+    "id": "linear-motion-002",
+    "front": "What is weight?",
+    "back": "The force acting on a body due to gravity; it acts vertically downwards through the centre of mass.",
+    "subtopicId": "linear-motion",
+    "group": "Forces acting on a performer"
+  },
+  {
+    "id": "linear-motion-003",
+    "front": "What is the formula for weight?",
+    "back": "Weight = Mass × Gravitational acceleration (W = mg).",
+    "subtopicId": "linear-motion",
+    "group": "Forces acting on a performer"
+  },
+  {
+    "id": "linear-motion-004",
+    "front": "What is reaction force?",
+    "back": "A force exerted by a surface or body in response to a force applied to it.",
+    "subtopicId": "linear-motion",
+    "group": "Forces acting on a performer"
+  },
+  {
+    "id": "linear-motion-005",
+    "front": "What is ground reaction force?",
+    "back": "The force exerted by the ground on a performer in response to the force the performer applies to the ground.",
+    "subtopicId": "linear-motion",
+    "group": "Forces acting on a performer"
+  },
+  {
+    "id": "linear-motion-006",
+    "front": "How can ground reaction force help a performer?",
+    "back": "The performer applies force against the ground and the ground exerts an equal and opposite reaction force; e.g. a sprinter pushes backwards and downwards against the ground and the ground reaction force helps propel them forwards and upwards.",
+    "subtopicId": "linear-motion",
+    "group": "Forces acting on a performer"
+  },
+  {
+    "id": "linear-motion-007",
+    "front": "What is friction?",
+    "back": "A force that opposes the motion or attempted motion between two surfaces in contact.",
+    "subtopicId": "linear-motion",
+    "group": "Forces acting on a performer"
+  },
+  {
+    "id": "linear-motion-008",
+    "front": "How can friction benefit a performer?",
+    "back": "It provides grip between the performer and the surface; e.g. a sprinter's spikes increase friction with the track and reduce slipping.",
+    "subtopicId": "linear-motion",
+    "group": "Forces acting on a performer"
+  },
+  {
+    "id": "linear-motion-009",
+    "front": "How can friction negatively affect a performer?",
+    "back": "It can oppose movement, reducing speed and increasing the energy required to maintain motion.",
+    "subtopicId": "linear-motion",
+    "group": "Forces acting on a performer"
+  },
+  {
+    "id": "linear-motion-010",
+    "front": "What is air resistance?",
+    "back": "A drag force that opposes the motion of a body as it moves through the air.",
+    "subtopicId": "linear-motion",
+    "group": "Forces acting on a performer"
+  },
+  {
+    "id": "linear-motion-011",
+    "front": "What factors affect air resistance?",
+    "back": "Velocity of the performer; Frontal cross-sectional area; Shape and surface characteristics.",
+    "subtopicId": "linear-motion",
+    "group": "Forces acting on a performer"
+  },
+  {
+    "id": "linear-motion-012",
+    "front": "How does velocity affect air resistance?",
+    "back": "As the velocity of a performer increases, air resistance increases.",
+    "subtopicId": "linear-motion",
+    "group": "Forces acting on a performer"
+  },
+  {
+    "id": "linear-motion-013",
+    "front": "How does frontal cross-sectional area affect air resistance?",
+    "back": "A larger frontal cross-sectional area increases air resistance, while a smaller frontal cross-sectional area reduces it.",
+    "subtopicId": "linear-motion",
+    "group": "Forces acting on a performer"
+  },
+  {
+    "id": "linear-motion-014",
+    "front": "How can a performer reduce air resistance?",
+    "back": "Adopt a streamlined body position; Reduce frontal cross-sectional area; Use aerodynamic clothing or equipment.",
+    "subtopicId": "linear-motion",
+    "group": "Forces acting on a performer"
+  },
+  {
+    "id": "linear-motion-015",
+    "front": "Why might reducing air resistance improve performance?",
+    "back": "Less force opposes the performer's motion, allowing them to maintain a greater velocity or use less energy.",
+    "subtopicId": "linear-motion",
+    "group": "Forces acting on a performer"
+  },
+  {
+    "id": "linear-motion-016",
+    "front": "What is a vector?",
+    "back": "A quantity that has both magnitude and direction.",
+    "subtopicId": "linear-motion",
+    "group": "Vectors"
+  },
+  {
+    "id": "linear-motion-017",
+    "front": "How are vectors represented?",
+    "back": "By arrows that show the magnitude and direction of a quantity.",
+    "subtopicId": "linear-motion",
+    "group": "Vectors"
+  },
+  {
+    "id": "linear-motion-018",
+    "front": "What does magnitude mean?",
+    "back": "The size of a force or quantity.",
+    "subtopicId": "linear-motion",
+    "group": "Vectors"
+  },
+  {
+    "id": "linear-motion-019",
+    "front": "How is magnitude shown on a vector diagram?",
+    "back": "By the length of the arrow; a longer arrow represents a greater magnitude.",
+    "subtopicId": "linear-motion",
+    "group": "Vectors"
+  },
+  {
+    "id": "linear-motion-020",
+    "front": "What does direction mean?",
+    "back": "The direction in which a force acts or a body moves.",
+    "subtopicId": "linear-motion",
+    "group": "Vectors"
+  },
+  {
+    "id": "linear-motion-021",
+    "front": "What shows direction on a vector?",
+    "back": "The arrowhead shows the direction in which the vector acts.",
+    "subtopicId": "linear-motion",
+    "group": "Vectors"
+  },
+  {
+    "id": "linear-motion-022",
+    "front": "What is the line of application?",
+    "back": "The imaginary straight line along which a force acts.",
+    "subtopicId": "linear-motion",
+    "group": "Vectors"
+  },
+  {
+    "id": "linear-motion-023",
+    "front": "What is the point of application?",
+    "back": "The point at which a force is applied to a body.",
+    "subtopicId": "linear-motion",
+    "group": "Vectors"
+  },
+  {
+    "id": "linear-motion-024",
+    "front": "What is velocity?",
+    "back": "The rate of change of displacement.",
+    "subtopicId": "linear-motion",
+    "group": "Vectors"
+  },
+  {
+    "id": "linear-motion-025",
+    "front": "What is the formula for velocity?",
+    "back": "Velocity = Displacement ÷ Time.",
+    "subtopicId": "linear-motion",
+    "group": "Vectors"
+  },
+  {
+    "id": "linear-motion-026",
+    "front": "What is the key difference between speed and velocity?",
+    "back": "Velocity is a vector quantity and includes direction, whereas speed is a scalar quantity and has magnitude only.",
+    "subtopicId": "linear-motion",
+    "group": "Vectors"
+  },
+  {
+    "id": "linear-motion-027",
+    "front": "What is displacement and what is its unit?",
+    "back": "The straight-line distance from the starting position to the finishing position in a specified direction; measured in metres (m).",
+    "subtopicId": "linear-motion",
+    "group": "Vectors"
+  },
+  {
+    "id": "linear-motion-028",
+    "front": "What is velocity? Give its formula and unit.",
+    "back": "The rate of change of displacement; Velocity = Displacement ÷ Time; measured in metres per second (m/s).",
+    "subtopicId": "linear-motion",
+    "group": "Vectors"
+  },
+  {
+    "id": "linear-motion-029",
+    "front": "What is momentum? Give its formula and unit.",
+    "back": "The quantity of motion possessed by a moving body; Momentum = Mass × Velocity (p = mv); measured in kg·m/s.",
+    "subtopicId": "linear-motion",
+    "group": "Vectors"
+  },
+  {
+    "id": "linear-motion-030",
+    "front": "What is acceleration? Give its formula and unit.",
+    "back": "The rate of change of velocity; Acceleration = Change in velocity ÷ Time; measured in metres per second squared (m/s²).",
+    "subtopicId": "linear-motion",
+    "group": "Vectors"
+  },
+  {
+    "id": "linear-motion-031",
+    "front": "What is mass?",
+    "back": "The quantity of matter in a body.",
+    "subtopicId": "linear-motion",
+    "group": "Scalars"
+  },
+  {
+    "id": "linear-motion-032",
+    "front": "What unit is mass measured in?",
+    "back": "Kilograms (kg).",
+    "subtopicId": "linear-motion",
+    "group": "Scalars"
+  },
+  {
+    "id": "linear-motion-033",
+    "front": "What is speed?",
+    "back": "The distance travelled per unit of time.",
+    "subtopicId": "linear-motion",
+    "group": "Scalars"
+  },
+  {
+    "id": "linear-motion-034",
+    "front": "What is the formula for speed?",
+    "back": "Speed = Distance ÷ Time.",
+    "subtopicId": "linear-motion",
+    "group": "Scalars"
+  },
+  {
+    "id": "linear-motion-035",
+    "front": "What does a horizontal line on a distance-time graph show?",
+    "back": "The object is stationary, so no distance is being covered.",
+    "subtopicId": "linear-motion",
+    "group": "Scalars"
+  },
+  {
+    "id": "linear-motion-036",
+    "front": "What does a straight diagonal line on a distance-time graph show?",
+    "back": "The object is moving at a constant speed.",
+    "subtopicId": "linear-motion",
+    "group": "Scalars"
+  },
+  {
+    "id": "linear-motion-037",
+    "front": "What does a curve becoming steeper on a distance-time graph show?",
+    "back": "The object's speed is increasing, showing acceleration.",
+    "subtopicId": "linear-motion",
+    "group": "Scalars"
+  },
+  {
+    "id": "linear-motion-038",
+    "front": "What does a curve becoming less steep on a distance-time graph show?",
+    "back": "The object's speed is decreasing, showing deceleration.",
+    "subtopicId": "linear-motion",
+    "group": "Scalars"
+  },
+  {
+    "id": "linear-motion-039",
+    "front": "What does the gradient of a distance-time graph represent?",
+    "back": "Speed.",
+    "subtopicId": "linear-motion",
+    "group": "Scalars"
+  },
+  {
+    "id": "linear-motion-040",
+    "front": "What does a zero gradient on a distance-time graph mean?",
+    "back": "The object is stationary.",
+    "subtopicId": "linear-motion",
+    "group": "Scalars"
+  },
+  {
+    "id": "linear-motion-041",
+    "front": "What does a constant gradient on a distance-time graph mean?",
+    "back": "The object is moving at a constant speed.",
+    "subtopicId": "linear-motion",
+    "group": "Scalars"
+  },
+  {
+    "id": "linear-motion-042",
+    "front": "What does an increasing gradient on a distance-time graph mean?",
+    "back": "The object's speed is increasing.",
+    "subtopicId": "linear-motion",
+    "group": "Scalars"
+  },
+  {
+    "id": "linear-motion-043",
+    "front": "What does a decreasing gradient on a distance-time graph mean?",
+    "back": "The object's speed is decreasing.",
+    "subtopicId": "linear-motion",
+    "group": "Scalars"
+  },
+  {
+    "id": "linear-motion-044",
+    "front": "What is impulse?",
+    "back": "The change in momentum produced when a force acts over a period of time.",
+    "subtopicId": "linear-motion",
+    "group": "Impulse and momentum"
+  },
+  {
+    "id": "linear-motion-045",
+    "front": "What is the equation for impulse?",
+    "back": "Impulse = Force × Time.",
+    "subtopicId": "linear-motion",
+    "group": "Impulse and momentum"
+  },
+  {
+    "id": "linear-motion-046",
+    "front": "What does impulse measure?",
+    "back": "The effect of a force acting on an object over a period of time, resulting in a change in momentum.",
+    "subtopicId": "linear-motion",
+    "group": "Impulse and momentum"
+  },
+  {
+    "id": "linear-motion-047",
+    "front": "What are the units of impulse?",
+    "back": "Newton seconds (Ns).",
+    "subtopicId": "linear-motion",
+    "group": "Impulse and momentum"
+  },
+  {
+    "id": "linear-motion-048",
+    "front": "How does impulse link to Newton's First Law?",
+    "back": "A change in an object's state of motion occurs when an external resultant force acts on it.",
+    "subtopicId": "linear-motion",
+    "group": "Impulse and momentum"
+  },
+  {
+    "id": "linear-motion-049",
+    "front": "How does impulse link to Newton's Second Law?",
+    "back": "Impulse is equal to the change in momentum, so a greater impulse produces a greater change in momentum.",
+    "subtopicId": "linear-motion",
+    "group": "Impulse and momentum"
+  },
+  {
+    "id": "linear-motion-050",
+    "front": "What happens to the change in momentum when impulse increases?",
+    "back": "The change in momentum increases.",
+    "subtopicId": "linear-motion",
+    "group": "Impulse and momentum"
+  },
+  {
+    "id": "linear-motion-051",
+    "front": "What effect can an increased impulse have on velocity?",
+    "back": "It can produce a greater change in velocity.",
+    "subtopicId": "linear-motion",
+    "group": "Impulse and momentum"
+  },
+  {
+    "id": "linear-motion-052",
+    "front": "How can impulse be increased to produce a greater change in momentum?",
+    "back": "Increase the force applied.",
+    "subtopicId": "linear-motion",
+    "group": "Impulse and momentum"
+  },
+  {
+    "id": "linear-motion-053",
+    "front": "How else can impulse be increased to produce a greater change in momentum?",
+    "back": "Increase the time over which the force is applied.",
+    "subtopicId": "linear-motion",
+    "group": "Impulse and momentum"
+  },
+  {
+    "id": "linear-motion-054",
+    "front": "How can impulse principles be used to reduce the force experienced when decreasing momentum?",
+    "back": "Increase the time over which the change in momentum occurs, reducing the average force experienced.",
+    "subtopicId": "linear-motion",
+    "group": "Impulse and momentum"
+  },
+  {
+    "id": "linear-motion-055",
+    "front": "Why does increasing the time of impact reduce the average force experienced?",
+    "back": "The same change in momentum occurs over a longer period of time, so a smaller average force is required.",
+    "subtopicId": "linear-motion",
+    "group": "Impulse and momentum"
+  },
+  {
+    "id": "linear-motion-056",
+    "front": "What does the area under a force-time graph represent?",
+    "back": "Impulse.",
+    "subtopicId": "linear-motion",
+    "group": "Impulse and momentum"
+  },
+  {
+    "id": "linear-motion-057",
+    "front": "What does a large positive impulse represent on a force-time graph?",
+    "back": "A large positive change in momentum.",
+    "subtopicId": "linear-motion",
+    "group": "Impulse and momentum"
+  },
+  {
+    "id": "linear-motion-058",
+    "front": "When does positive impulse occur during sprinting?",
+    "back": "During propulsion, when the athlete applies force backwards against the ground and is propelled forwards.",
+    "subtopicId": "linear-motion",
+    "group": "Impulse and momentum"
+  },
+  {
+    "id": "linear-motion-059",
+    "front": "What does a negative impulse represent on a force-time graph?",
+    "back": "A decrease in forward momentum.",
+    "subtopicId": "linear-motion",
+    "group": "Impulse and momentum"
+  },
+  {
+    "id": "linear-motion-060",
+    "front": "When does negative impulse occur during sprinting?",
+    "back": "During the braking phase immediately after the foot contacts the ground, when the ground reaction force acts to reduce forward momentum.",
+    "subtopicId": "linear-motion",
+    "group": "Impulse and momentum"
+  },
+  {
+    "id": "linear-motion-061",
+    "front": "What does a small impulse indicate?",
+    "back": "A small change in momentum.",
+    "subtopicId": "linear-motion",
+    "group": "Impulse and momentum"
+  },
+  {
+    "id": "linear-motion-062",
+    "front": "What is a free-body diagram?",
+    "back": "A diagram showing all the external forces acting on an object or performer.",
+    "subtopicId": "linear-motion",
+    "group": "Interpretation of force time graphs"
+  },
+  {
+    "id": "linear-motion-063",
+    "front": "Where is weight drawn from on a free-body diagram?",
+    "back": "From the object's or performer's centre of mass.",
+    "subtopicId": "linear-motion",
+    "group": "Interpretation of force time graphs"
+  },
+  {
+    "id": "linear-motion-064",
+    "front": "In which direction does weight act?",
+    "back": "Vertically downwards towards the centre of the Earth.",
+    "subtopicId": "linear-motion",
+    "group": "Interpretation of force time graphs"
+  },
+  {
+    "id": "linear-motion-065",
+    "front": "Where does a reaction force act from?",
+    "back": "The point of contact between two bodies or surfaces.",
+    "subtopicId": "linear-motion",
+    "group": "Interpretation of force time graphs"
+  },
+  {
+    "id": "linear-motion-066",
+    "front": "What is friction?",
+    "back": "A force that opposes the motion or attempted motion between two surfaces in contact.",
+    "subtopicId": "linear-motion",
+    "group": "Interpretation of force time graphs"
+  },
+  {
+    "id": "linear-motion-067",
+    "front": "Where does friction act from?",
+    "back": "The point of contact between the two surfaces.",
+    "subtopicId": "linear-motion",
+    "group": "Interpretation of force time graphs"
+  },
+  {
+    "id": "linear-motion-068",
+    "front": "In which direction does friction act?",
+    "back": "Opposite to the direction of motion or attempted motion between the surfaces.",
+    "subtopicId": "linear-motion",
+    "group": "Interpretation of force time graphs"
+  },
+  {
+    "id": "linear-motion-069",
+    "front": "How is friction drawn relative to the direction of motion?",
+    "back": "In the opposite direction to the motion or attempted motion.",
+    "subtopicId": "linear-motion",
+    "group": "Interpretation of force time graphs"
+  },
+  {
+    "id": "linear-motion-070",
+    "front": "What is air resistance?",
+    "back": "A drag force that opposes the movement of an object or performer through the air.",
+    "subtopicId": "linear-motion",
+    "group": "Interpretation of force time graphs"
+  },
+  {
+    "id": "linear-motion-071",
+    "front": "Where is air resistance drawn from on a free-body diagram?",
+    "back": "From the centre of mass.",
+    "subtopicId": "linear-motion",
+    "group": "Interpretation of force time graphs"
+  },
+  {
+    "id": "linear-motion-072",
+    "front": "In which direction does air resistance act?",
+    "back": "Opposite to the direction of motion through the air.",
+    "subtopicId": "linear-motion",
+    "group": "Interpretation of force time graphs"
+  },
+  {
+    "id": "linear-motion-073",
+    "front": "What does AR stand for on a free-body diagram?",
+    "back": "Air resistance.",
+    "subtopicId": "linear-motion",
+    "group": "Interpretation of force time graphs"
+  },
+  {
+    "id": "linear-motion-074",
+    "front": "Why is the length of an arrow important on a free-body diagram?",
+    "back": "It represents the magnitude of the force; a longer arrow represents a greater force.",
+    "subtopicId": "linear-motion",
+    "group": "Interpretation of force time graphs"
+  },
+  {
+    "id": "linear-motion-075",
+    "front": "What is net force?",
+    "back": "The resultant force acting on an object after all the individual forces have been combined.",
+    "subtopicId": "linear-motion",
+    "group": "Interpretation of force time graphs"
+  },
+  {
+    "id": "linear-motion-076",
+    "front": "What does a net force of zero mean?",
+    "back": "The forces are balanced, so there is no acceleration and the object remains at rest or continues moving at constant velocity.",
+    "subtopicId": "linear-motion",
+    "group": "Interpretation of force time graphs"
+  },
+  {
+    "id": "linear-motion-077",
+    "front": "What happens when forces are equal in magnitude but opposite in direction?",
+    "back": "The forces are balanced and the resultant force is zero.",
+    "subtopicId": "linear-motion",
+    "group": "Interpretation of force time graphs"
+  },
+  {
+    "id": "linear-motion-078",
+    "front": "What is the result of balanced forces?",
+    "back": "There is zero net force, so there is no acceleration and the object remains at rest or moves at constant velocity.",
+    "subtopicId": "linear-motion",
+    "group": "Interpretation of force time graphs"
+  },
+  {
+    "id": "linear-motion-079",
+    "front": "What happens if the upward reaction force is greater than the downward weight force?",
+    "back": "There is a resultant upward force, causing the performer to accelerate upwards.",
+    "subtopicId": "linear-motion",
+    "group": "Interpretation of force time graphs"
+  }
+]

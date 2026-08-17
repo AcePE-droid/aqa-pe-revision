@@ -1,0 +1,170 @@
+[
+  {
+    "id": "projectile-motion-001",
+    "front": "What is a projectile?",
+    "back": "An object or person that is launched into the air and then moves under the influence of gravity and air resistance.",
+    "subtopicId": "projectile-motion",
+    "group": "Factors affecting horizontal displacement"
+  },
+  {
+    "id": "projectile-motion-002",
+    "front": "What are the three factors affecting horizontal displacement?",
+    "back": "Angle of release; Height of release; Speed of release.",
+    "subtopicId": "projectile-motion",
+    "group": "Factors affecting horizontal displacement"
+  },
+  {
+    "id": "projectile-motion-003",
+    "front": "What does the optimum angle of release depend on?",
+    "back": "The relative heights of the release point and landing point.",
+    "subtopicId": "projectile-motion",
+    "group": "Factors affecting horizontal displacement"
+  },
+  {
+    "id": "projectile-motion-004",
+    "front": "What is the optimum angle of release when the release and landing heights are equal?",
+    "back": "45° when air resistance is ignored.",
+    "subtopicId": "projectile-motion",
+    "group": "Factors affecting horizontal displacement"
+  },
+  {
+    "id": "projectile-motion-005",
+    "front": "What happens to the optimum angle of release if the release height is lower than the landing height?",
+    "back": "It is greater than 45°.",
+    "subtopicId": "projectile-motion",
+    "group": "Factors affecting horizontal displacement"
+  },
+  {
+    "id": "projectile-motion-006",
+    "front": "What happens to the optimum angle of release if the release height is higher than the landing height?",
+    "back": "It is less than 45°.",
+    "subtopicId": "projectile-motion",
+    "group": "Factors affecting horizontal displacement"
+  },
+  {
+    "id": "projectile-motion-007",
+    "front": "What is the relationship between speed of release and horizontal displacement?",
+    "back": "The greater the speed of release, the greater the potential horizontal displacement.",
+    "subtopicId": "projectile-motion",
+    "group": "Factors affecting horizontal displacement"
+  },
+  {
+    "id": "projectile-motion-008",
+    "front": "How can a performer increase the speed of release in projectile events?",
+    "back": "Apply a greater force to the projectile and accelerate it over a greater distance before release.",
+    "subtopicId": "projectile-motion",
+    "group": "Factors affecting horizontal displacement"
+  },
+  {
+    "id": "projectile-motion-009",
+    "front": "What technique changes can increase the speed of release?",
+    "back": "Using a run-up or rotational technique can increase momentum and help generate a greater speed of release.",
+    "subtopicId": "projectile-motion",
+    "group": "Factors affecting horizontal displacement"
+  },
+  {
+    "id": "projectile-motion-010",
+    "front": "What is the effect of release height on horizontal displacement?",
+    "back": "A greater release height generally increases horizontal displacement because the projectile remains in the air for longer.",
+    "subtopicId": "projectile-motion",
+    "group": "Factors affecting horizontal displacement"
+  },
+  {
+    "id": "projectile-motion-011",
+    "front": "Why can a taller cricket fielder potentially throw the ball further?",
+    "back": "A higher release point can increase flight time and therefore horizontal displacement, provided other factors remain constant.",
+    "subtopicId": "projectile-motion",
+    "group": "Factors affecting horizontal displacement"
+  },
+  {
+    "id": "projectile-motion-012",
+    "front": "What advice would you give a shot putter to increase release height?",
+    "back": "Fully extend at release to release the shot from the greatest effective height.",
+    "subtopicId": "projectile-motion",
+    "group": "Factors affecting horizontal displacement"
+  },
+  {
+    "id": "projectile-motion-013",
+    "front": "What is a parabola in projectile motion?",
+    "back": "The curved flight path followed by a projectile.",
+    "subtopicId": "projectile-motion",
+    "group": "Factors affecting flight paths"
+  },
+  {
+    "id": "projectile-motion-014",
+    "front": "What factors affect whether a projectile follows a true or distorted parabola?",
+    "back": "Gravity and air resistance.",
+    "subtopicId": "projectile-motion",
+    "group": "Factors affecting flight paths"
+  },
+  {
+    "id": "projectile-motion-015",
+    "front": "Why does a shot put follow a near-true parabola?",
+    "back": "Its relatively large mass and small cross-sectional area mean air resistance has less influence on its flight path.",
+    "subtopicId": "projectile-motion",
+    "group": "Factors affecting flight paths"
+  },
+  {
+    "id": "projectile-motion-016",
+    "front": "Why does a shuttlecock follow a distorted parabola?",
+    "back": "Its low mass and large surface area mean air resistance has a significant effect on its flight path.",
+    "subtopicId": "projectile-motion",
+    "group": "Factors affecting flight paths"
+  },
+  {
+    "id": "projectile-motion-017",
+    "front": "How does a golf ball's flight path compare with a football and a shot put?",
+    "back": "A golf ball follows a distorted parabola; a football follows a slightly distorted parabola; a shot put follows a near-true parabola.",
+    "subtopicId": "projectile-motion",
+    "group": "Factors affecting flight paths"
+  },
+  {
+    "id": "projectile-motion-018",
+    "front": "Why does a golf ball follow a distorted parabola?",
+    "back": "Air resistance and aerodynamic forces have a significant effect on its flight path.",
+    "subtopicId": "projectile-motion",
+    "group": "Factors affecting flight paths"
+  },
+  {
+    "id": "projectile-motion-019",
+    "front": "Why does a football follow a slightly distorted parabola?",
+    "back": "Its relatively large cross-sectional area increases the effect of air resistance on its flight.",
+    "subtopicId": "projectile-motion",
+    "group": "Factors affecting flight paths"
+  },
+  {
+    "id": "projectile-motion-020",
+    "front": "Why does a shot put follow a near-true parabola compared with other projectiles?",
+    "back": "Its relatively large mass means air resistance has less influence on its flight path.",
+    "subtopicId": "projectile-motion",
+    "group": "Factors affecting flight paths"
+  },
+  {
+    "id": "projectile-motion-021",
+    "front": "What happens to the vertical component of velocity at the highest point of flight?",
+    "back": "The vertical component of velocity is zero at the highest point.",
+    "subtopicId": "projectile-motion",
+    "group": "Vector components of parabolic flight"
+  },
+  {
+    "id": "projectile-motion-022",
+    "front": "What is the vertical component of velocity at release?",
+    "back": "It is positive when the projectile is released upwards.",
+    "subtopicId": "projectile-motion",
+    "group": "Vector components of parabolic flight"
+  },
+  {
+    "id": "projectile-motion-023",
+    "front": "What happens to the vertical component of velocity before landing?",
+    "back": "It becomes negative as the projectile accelerates downwards due to gravity.",
+    "subtopicId": "projectile-motion",
+    "group": "Vector components of parabolic flight"
+  },
+  {
+    "id": "projectile-motion-024",
+    "front": "What is the horizontal component of velocity in projectile motion?",
+    "back": "The horizontal component remains constant if air resistance is negligible.",
+    "subtopicId": "projectile-motion",
+    "group": "Vector components of parabolic flight"
+  }
+]

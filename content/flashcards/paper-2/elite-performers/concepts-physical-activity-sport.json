@@ -1,0 +1,324 @@
+[
+  {
+    "id": "concepts-physical-activity-sport-001",
+    "front": "What is the Sporting Development Continuum?",
+    "back": "A model showing the progression through four levels of sporting involvement: foundation, participation, performance and excellence.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Characteristics and functions of key concepts of the sporting development continuum"
+  },
+  {
+    "id": "concepts-physical-activity-sport-002",
+    "front": "What is the foundation level of the Sporting Development Continuum?",
+    "back": "The introductory level where basic skills and positive attitudes towards physical activity are developed; e.g. primary school Physical Education.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Characteristics and functions of key concepts of the sporting development continuum"
+  },
+  {
+    "id": "concepts-physical-activity-sport-003",
+    "front": "What is the participation level of the Sporting Development Continuum?",
+    "back": "The level where individuals regularly take part in physical activity or sport for enjoyment, health, fitness and social benefits.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Characteristics and functions of key concepts of the sporting development continuum"
+  },
+  {
+    "id": "concepts-physical-activity-sport-004",
+    "front": "What is the performance level of the Sporting Development Continuum?",
+    "back": "The level where performers develop their skills and compete regularly with the aim of improving performance.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Characteristics and functions of key concepts of the sporting development continuum"
+  },
+  {
+    "id": "concepts-physical-activity-sport-005",
+    "front": "What is the excellence level of the Sporting Development Continuum?",
+    "back": "The highest level, involving elite performers competing at national or international level.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Characteristics and functions of key concepts of the sporting development continuum"
+  },
+  {
+    "id": "concepts-physical-activity-sport-006",
+    "front": "What is Physical Recreation?",
+    "back": "The active aspect of leisure involving voluntary participation in physical activity during free time for enjoyment, health, fitness and social benefits.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Characteristics and functions of key concepts of the sporting development continuum"
+  },
+  {
+    "id": "concepts-physical-activity-sport-007",
+    "front": "What are the characteristics of Physical Recreation?",
+    "back": "Physically active; Fun and enjoyable; Informal and non-serious; Voluntary; Takes place during free time; Flexible rules, time and space; Often self-regulated.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Characteristics and functions of key concepts of the sporting development continuum"
+  },
+  {
+    "id": "concepts-physical-activity-sport-008",
+    "front": "At what level of the Sporting Development Continuum is Physical Recreation mainly found?",
+    "back": "The participation level.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Characteristics and functions of key concepts of the sporting development continuum"
+  },
+  {
+    "id": "concepts-physical-activity-sport-009",
+    "front": "What are the functions of Physical Recreation for an individual?",
+    "back": "Improves health and fitness; Develops skills; Provides enjoyment and relaxation; Allows social interaction and the opportunity to make friends.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Characteristics and functions of key concepts of the sporting development continuum"
+  },
+  {
+    "id": "concepts-physical-activity-sport-010",
+    "front": "What are the functions of Physical Recreation for society?",
+    "back": "Can improve social cohesion, reduce antisocial behaviour and reduce pressure on healthcare services by improving health.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Characteristics and functions of key concepts of the sporting development continuum"
+  },
+  {
+    "id": "concepts-physical-activity-sport-011",
+    "front": "What are the main characteristics of sport?",
+    "back": "Serious and competitive; Requires physical prowess; Organised; Has structured rules; Provides intrinsic and extrinsic rewards; Has defined time and space.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Characteristics and functions of key concepts of the sporting development continuum"
+  },
+  {
+    "id": "concepts-physical-activity-sport-012",
+    "front": "What does the serious and competitive characteristic of sport mean?",
+    "back": "Sport involves competition in which performers attempt to achieve success or overcome opponents while following the rules.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Characteristics and functions of key concepts of the sporting development continuum"
+  },
+  {
+    "id": "concepts-physical-activity-sport-013",
+    "front": "What does prowess mean in sport?",
+    "back": "The physical skill, ability and fitness required to perform effectively.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Characteristics and functions of key concepts of the sporting development continuum"
+  },
+  {
+    "id": "concepts-physical-activity-sport-014",
+    "front": "What does organised mean in sport?",
+    "back": "Sport is structured through recognised rules, regulations, officials, competitions and governing bodies.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Characteristics and functions of key concepts of the sporting development continuum"
+  },
+  {
+    "id": "concepts-physical-activity-sport-015",
+    "front": "What types of rewards can be gained through sport?",
+    "back": "Extrinsic rewards, such as trophies and money, and intrinsic rewards, such as pride and satisfaction.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Characteristics and functions of key concepts of the sporting development continuum"
+  },
+  {
+    "id": "concepts-physical-activity-sport-016",
+    "front": "What does time and space mean in sport?",
+    "back": "Sport takes place within defined time limits, boundaries or playing areas that help standardise competition.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Characteristics and functions of key concepts of the sporting development continuum"
+  },
+  {
+    "id": "concepts-physical-activity-sport-017",
+    "front": "What is Physical Education?",
+    "back": "Formal learning through physical activity that takes place within the school curriculum.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Characteristics and functions of key concepts of the sporting development continuum"
+  },
+  {
+    "id": "concepts-physical-activity-sport-018",
+    "front": "What are the main characteristics of Physical Education?",
+    "back": "Compulsory; Takes place during curriculum time; Formally taught; Teacher-led; Structured; Provides a range of physical activities and learning experiences.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Characteristics and functions of key concepts of the sporting development continuum"
+  },
+  {
+    "id": "concepts-physical-activity-sport-019",
+    "front": "At what level of the Sporting Development Continuum is Physical Education mainly found?",
+    "back": "The foundation level.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Characteristics and functions of key concepts of the sporting development continuum"
+  },
+  {
+    "id": "concepts-physical-activity-sport-020",
+    "front": "What is the main aim of Physical Education?",
+    "back": "To develop physical competence, knowledge, health and fitness while encouraging positive attitudes towards lifelong participation in physical activity.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Characteristics and functions of key concepts of the sporting development continuum"
+  },
+  {
+    "id": "concepts-physical-activity-sport-021",
+    "front": "What are potential barriers to participation in Physical Education?",
+    "back": "Limited curriculum time; Lack of funding or facilities; Shortage of qualified or motivated staff; Health and safety concerns; School location and accessibility.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Characteristics and functions of key concepts of the sporting development continuum"
+  },
+  {
+    "id": "concepts-physical-activity-sport-022",
+    "front": "What is School Sport?",
+    "back": "Organised sporting activity provided by a school outside normal Physical Education lessons, usually through extracurricular clubs, training and competition.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Characteristics and functions of key concepts of the sporting development continuum"
+  },
+  {
+    "id": "concepts-physical-activity-sport-023",
+    "front": "What are the main characteristics of School Sport?",
+    "back": "Usually voluntary; Takes place outside curriculum lesson time; Often competitive; Can involve inter-school competition; Allows performers to specialise and develop sporting performance.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Characteristics and functions of key concepts of the sporting development continuum"
+  },
+  {
+    "id": "concepts-physical-activity-sport-024",
+    "front": "What is Outdoor Education?",
+    "back": "Physical activities undertaken in the natural environment that involve challenge and help develop personal and social skills.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Characteristics and functions of key concepts of the sporting development continuum"
+  },
+  {
+    "id": "concepts-physical-activity-sport-025",
+    "front": "What are the key characteristics of Outdoor Education?",
+    "back": "Challenge and perceived risk; Safety awareness; Teamwork; Communication; Leadership; Self-discovery; Respect for the natural environment.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Characteristics and functions of key concepts of the sporting development continuum"
+  },
+  {
+    "id": "concepts-physical-activity-sport-026",
+    "front": "What are the benefits of Outdoor Education?",
+    "back": "It can develop confidence, teamwork, communication, leadership, problem-solving and appreciation of the natural environment.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Characteristics and functions of key concepts of the sporting development continuum"
+  },
+  {
+    "id": "concepts-physical-activity-sport-027",
+    "front": "What are some similarities between Physical Recreation and Physical Education?",
+    "back": "Both involve physical activity, can develop physical skills, improve health and fitness and provide enjoyment and intrinsic benefits.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Similarities and differences between these key concepts"
+  },
+  {
+    "id": "concepts-physical-activity-sport-028",
+    "front": "How does participation differ between Physical Recreation and Physical Education?",
+    "back": "Physical Recreation is voluntary and chosen freely, whereas Physical Education is compulsory within the school curriculum.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Similarities and differences between these key concepts"
+  },
+  {
+    "id": "concepts-physical-activity-sport-029",
+    "front": "When does Physical Recreation usually take place compared with Physical Education?",
+    "back": "Physical Recreation takes place during free time, whereas Physical Education takes place during curriculum time.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Similarities and differences between these key concepts"
+  },
+  {
+    "id": "concepts-physical-activity-sport-030",
+    "front": "How does the organisation of Physical Recreation differ from Physical Education?",
+    "back": "Physical Recreation is generally informal and self-regulated, whereas Physical Education is formal, structured and teacher-led.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Similarities and differences between these key concepts"
+  },
+  {
+    "id": "concepts-physical-activity-sport-031",
+    "front": "How do Physical Recreation and Physical Education differ on the Sporting Development Continuum?",
+    "back": "Physical Recreation is mainly associated with the participation level, whereas Physical Education is mainly associated with the foundation level.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Similarities and differences between these key concepts"
+  },
+  {
+    "id": "concepts-physical-activity-sport-032",
+    "front": "What is a key difference in participation between Sport and Physical Recreation?",
+    "back": "Sport can be selective and may be undertaken professionally, whereas Physical Recreation is generally voluntary and accessible to a wide range of participants.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Similarities and differences between these key concepts"
+  },
+  {
+    "id": "concepts-physical-activity-sport-033",
+    "front": "What is the main focus of Sport compared with Physical Recreation?",
+    "back": "Sport emphasises competition and performance, whereas Physical Recreation primarily emphasises participation, enjoyment, health and social benefits.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Similarities and differences between these key concepts"
+  },
+  {
+    "id": "concepts-physical-activity-sport-034",
+    "front": "How do rules differ between Sport and Physical Recreation?",
+    "back": "Sport has standardised rules enforced by officials, whereas Physical Recreation generally has more flexible and self-regulated rules.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Similarities and differences between these key concepts"
+  },
+  {
+    "id": "concepts-physical-activity-sport-035",
+    "front": "How do rewards differ between Sport and Physical Recreation?",
+    "back": "Sport can provide both intrinsic and extrinsic rewards, whereas Physical Recreation is mainly associated with intrinsic rewards such as enjoyment and satisfaction.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Similarities and differences between these key concepts"
+  },
+  {
+    "id": "concepts-physical-activity-sport-036",
+    "front": "How can skill and equipment differ between Sport and Physical Recreation?",
+    "back": "Competitive sport may require higher levels of skill, fitness and specialised equipment, whereas Physical Recreation can accommodate a wider range of abilities and often requires less specialised equipment.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Similarities and differences between these key concepts"
+  },
+  {
+    "id": "concepts-physical-activity-sport-037",
+    "front": "What is the main difference in timing between Physical Education and School Sport?",
+    "back": "Physical Education takes place during curriculum time, whereas School Sport generally takes place outside curriculum time as an extracurricular activity.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Similarities and differences between these key concepts"
+  },
+  {
+    "id": "concepts-physical-activity-sport-038",
+    "front": "How does participation differ between Physical Education and School Sport?",
+    "back": "Physical Education is compulsory within the school curriculum, whereas participation in School Sport is generally voluntary.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Similarities and differences between these key concepts"
+  },
+  {
+    "id": "concepts-physical-activity-sport-039",
+    "front": "Who participates in Physical Education compared with School Sport?",
+    "back": "Physical Education is intended for all pupils, whereas School Sport may involve pupils who choose to participate or are selected for teams and competitions.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Similarities and differences between these key concepts"
+  },
+  {
+    "id": "concepts-physical-activity-sport-040",
+    "front": "What is the main emphasis of Physical Education compared with School Sport?",
+    "back": "Physical Education focuses on learning, development and participation, whereas School Sport often places greater emphasis on performance and competition.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Similarities and differences between these key concepts"
+  },
+  {
+    "id": "concepts-physical-activity-sport-041",
+    "front": "Who typically leads Physical Education and School Sport?",
+    "back": "Physical Education is normally delivered by teachers, whereas School Sport may be led by teachers, coaches or other qualified staff.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Similarities and differences between these key concepts"
+  },
+  {
+    "id": "concepts-physical-activity-sport-042",
+    "front": "How do activities differ between Physical Education and School Sport?",
+    "back": "Physical Education usually exposes pupils to a broad range of activities, whereas School Sport can provide opportunities to specialise and develop performance in particular sports.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Similarities and differences between these key concepts"
+  },
+  {
+    "id": "concepts-physical-activity-sport-043",
+    "front": "What similarities exist between Physical Education and School Sport?",
+    "back": "Both develop sporting skills, fitness, teamwork and positive attitudes towards physical activity.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Similarities and differences between these key concepts"
+  },
+  {
+    "id": "concepts-physical-activity-sport-044",
+    "front": "How does Sport differ from Physical Education?",
+    "back": "Sport is primarily competitive and can take place at different levels of performance, whereas Physical Education is a compulsory educational process within the school curriculum.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Similarities and differences between these key concepts"
+  },
+  {
+    "id": "concepts-physical-activity-sport-045",
+    "front": "How does Outdoor Education differ from traditional Physical Education?",
+    "back": "Outdoor Education uses activities in natural environments involving challenge and perceived risk, whereas Physical Education generally uses structured physical activities within the school curriculum.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Similarities and differences between these key concepts"
+  },
+  {
+    "id": "concepts-physical-activity-sport-046",
+    "front": "What do the different concepts associated with sporting development have in common?",
+    "back": "They provide different opportunities for physical activity and can contribute to an individual's progression and involvement in sport and physical activity.",
+    "subtopicId": "concepts-physical-activity-sport",
+    "group": "Similarities and differences between these key concepts"
+  }
+]

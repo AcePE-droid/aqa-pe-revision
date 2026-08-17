@@ -1,0 +1,576 @@
+[
+  {
+    "id": "role-of-technology-001",
+    "front": "What is sports analytics?",
+    "back": "The collection and analysis of performance data to improve sporting performance and increase the chances of success.",
+    "subtopicId": "role-of-technology",
+    "group": "Understanding of technology for sports analytics"
+  },
+  {
+    "id": "role-of-technology-002",
+    "front": "What is the main aim of sports analytics?",
+    "back": "To increase the chances of winning more frequently and consistently.",
+    "subtopicId": "role-of-technology",
+    "group": "Understanding of technology for sports analytics"
+  },
+  {
+    "id": "role-of-technology-003",
+    "front": "Why is synthesising data important in sports analytics?",
+    "back": "Raw data must be analysed, interpreted and summarised so it can be used to make informed decisions.",
+    "subtopicId": "role-of-technology",
+    "group": "Understanding of technology for sports analytics"
+  },
+  {
+    "id": "role-of-technology-004",
+    "front": "Why is selective data collection important in sports analytics?",
+    "back": "The quality and relevance of the data collected are more important than simply collecting large quantities of data.",
+    "subtopicId": "role-of-technology",
+    "group": "Understanding of technology for sports analytics"
+  },
+  {
+    "id": "role-of-technology-005",
+    "front": "Why is technology important in sports data collection?",
+    "back": "It allows large amounts of accurate performance data to be collected, stored and analysed.",
+    "subtopicId": "role-of-technology",
+    "group": "Understanding of technology for sports analytics"
+  },
+  {
+    "id": "role-of-technology-006",
+    "front": "What does Opta do in sport?",
+    "back": "Collects and analyses performance data that can be used to assess players, teams and tactics.",
+    "subtopicId": "role-of-technology",
+    "group": "Understanding of technology for sports analytics"
+  },
+  {
+    "id": "role-of-technology-007",
+    "front": "What is quantitative research in sport?",
+    "back": "Objective, numerical and measurable data, such as fitness test results.",
+    "subtopicId": "role-of-technology",
+    "group": "Understanding of technology for sports analytics"
+  },
+  {
+    "id": "role-of-technology-008",
+    "front": "What is qualitative research in sport?",
+    "back": "Descriptive data based on opinions, feelings and experiences.",
+    "subtopicId": "role-of-technology",
+    "group": "Understanding of technology for sports analytics"
+  },
+  {
+    "id": "role-of-technology-009",
+    "front": "What is a limitation of qualitative data?",
+    "back": "It can be subjective, less precise and more time-consuming to analyse.",
+    "subtopicId": "role-of-technology",
+    "group": "Understanding of technology for sports analytics"
+  },
+  {
+    "id": "role-of-technology-010",
+    "front": "What is objective data?",
+    "back": "Factual, measurable and observable information.",
+    "subtopicId": "role-of-technology",
+    "group": "Understanding of technology for sports analytics"
+  },
+  {
+    "id": "role-of-technology-011",
+    "front": "Why is objective data useful in sport?",
+    "back": "It provides factual feedback that can be used to analyse and improve performance.",
+    "subtopicId": "role-of-technology",
+    "group": "Understanding of technology for sports analytics"
+  },
+  {
+    "id": "role-of-technology-012",
+    "front": "What is subjective data?",
+    "back": "Data based on opinions, emotions and personal interpretation.",
+    "subtopicId": "role-of-technology",
+    "group": "Understanding of technology for sports analytics"
+  },
+  {
+    "id": "role-of-technology-013",
+    "front": "Why can subjective data be less reliable?",
+    "back": "It may be affected by personal bias or interpretation.",
+    "subtopicId": "role-of-technology",
+    "group": "Understanding of technology for sports analytics"
+  },
+  {
+    "id": "role-of-technology-014",
+    "front": "What is validity in data collection?",
+    "back": "The extent to which a test measures what it is intended to measure.",
+    "subtopicId": "role-of-technology",
+    "group": "Understanding of technology for sports analytics"
+  },
+  {
+    "id": "role-of-technology-015",
+    "front": "How can validity be assessed?",
+    "back": "By considering whether the data collected accurately measures the intended variable.",
+    "subtopicId": "role-of-technology",
+    "group": "Understanding of technology for sports analytics"
+  },
+  {
+    "id": "role-of-technology-016",
+    "front": "What is reliability in data collection?",
+    "back": "The consistency of results when a test is repeated under the same conditions.",
+    "subtopicId": "role-of-technology",
+    "group": "Understanding of technology for sports analytics"
+  },
+  {
+    "id": "role-of-technology-017",
+    "front": "What factors can affect reliability?",
+    "back": "Changes in testers, conditions, equipment or performer effort.",
+    "subtopicId": "role-of-technology",
+    "group": "Understanding of technology for sports analytics"
+  },
+  {
+    "id": "role-of-technology-018",
+    "front": "What is the purpose of data integrity?",
+    "back": "To ensure data is recorded accurately and remains unchanged when stored or retrieved.",
+    "subtopicId": "role-of-technology",
+    "group": "Understanding of technology for sports analytics"
+  },
+  {
+    "id": "role-of-technology-019",
+    "front": "How should data appear when retrieved if data integrity is maintained?",
+    "back": "It should be exactly the same as when it was originally recorded.",
+    "subtopicId": "role-of-technology",
+    "group": "Understanding of technology for sports analytics"
+  },
+  {
+    "id": "role-of-technology-020",
+    "front": "What is one human cause of compromised data integrity?",
+    "back": "Human error during data entry.",
+    "subtopicId": "role-of-technology",
+    "group": "Understanding of technology for sports analytics"
+  },
+  {
+    "id": "role-of-technology-021",
+    "front": "What technical issues can compromise data integrity?",
+    "back": "Transmission errors, software bugs, viruses and hardware malfunctions.",
+    "subtopicId": "role-of-technology",
+    "group": "Understanding of technology for sports analytics"
+  },
+  {
+    "id": "role-of-technology-022",
+    "front": "How can regular backups help maintain data integrity?",
+    "back": "They provide a secure copy of data if the original data is lost or corrupted.",
+    "subtopicId": "role-of-technology",
+    "group": "Understanding of technology for sports analytics"
+  },
+  {
+    "id": "role-of-technology-023",
+    "front": "How can controlling access help maintain data integrity?",
+    "back": "It prevents unauthorised users from changing, deleting or misusing data.",
+    "subtopicId": "role-of-technology",
+    "group": "Understanding of technology for sports analytics"
+  },
+  {
+    "id": "role-of-technology-024",
+    "front": "How can careful data entry help maintain data integrity?",
+    "back": "It reduces human error and the input of incorrect data.",
+    "subtopicId": "role-of-technology",
+    "group": "Understanding of technology for sports analytics"
+  },
+  {
+    "id": "role-of-technology-025",
+    "front": "How can software help maintain data integrity during transmission?",
+    "back": "Error-detection and correction software can identify and correct transmission errors.",
+    "subtopicId": "role-of-technology",
+    "group": "Understanding of technology for sports analytics"
+  },
+  {
+    "id": "role-of-technology-026",
+    "front": "What are five uses of sports analytics?",
+    "back": "Talent identification and scouting; Injury prevention; Skill and technique development; Fitness monitoring; Game analysis.",
+    "subtopicId": "role-of-technology",
+    "group": "Functions of sports analytics"
+  },
+  {
+    "id": "role-of-technology-027",
+    "front": "How can sports analytics benefit a team?",
+    "back": "It identifies strengths, weaknesses and areas for tactical improvement.",
+    "subtopicId": "role-of-technology",
+    "group": "Functions of sports analytics"
+  },
+  {
+    "id": "role-of-technology-028",
+    "front": "How can sports analytics benefit individual performers?",
+    "back": "It provides objective feedback that can be used to improve performance.",
+    "subtopicId": "role-of-technology",
+    "group": "Functions of sports analytics"
+  },
+  {
+    "id": "role-of-technology-029",
+    "front": "How is sports analytics used in game analysis?",
+    "back": "It allows coaches to evaluate tactics, formations, substitutions and patterns of play.",
+    "subtopicId": "role-of-technology",
+    "group": "Functions of sports analytics"
+  },
+  {
+    "id": "role-of-technology-030",
+    "front": "Why is performance comparison important in sports analytics?",
+    "back": "It allows coaches to compare a performer's current performance with previous or expected levels.",
+    "subtopicId": "role-of-technology",
+    "group": "Functions of sports analytics"
+  },
+  {
+    "id": "role-of-technology-031",
+    "front": "How is sports analytics used in Talent ID?",
+    "back": "Data is used to profile and benchmark athletes to identify those with the potential to become elite performers.",
+    "subtopicId": "role-of-technology",
+    "group": "Functions of sports analytics"
+  },
+  {
+    "id": "role-of-technology-032",
+    "front": "What is an example of a Talent ID criterion?",
+    "back": "Height may be considered when identifying talent for sports such as basketball or rowing.",
+    "subtopicId": "role-of-technology",
+    "group": "Functions of sports analytics"
+  },
+  {
+    "id": "role-of-technology-033",
+    "front": "Why is data important in Talent ID?",
+    "back": "It helps identify athletes whose characteristics suggest they have the potential to succeed at elite level.",
+    "subtopicId": "role-of-technology",
+    "group": "Functions of sports analytics"
+  },
+  {
+    "id": "role-of-technology-034",
+    "front": "What is pathway analytics?",
+    "back": "The systematic evaluation of athlete development pathways using data.",
+    "subtopicId": "role-of-technology",
+    "group": "Functions of sports analytics"
+  },
+  {
+    "id": "role-of-technology-035",
+    "front": "What is fitness monitoring in sport?",
+    "back": "The tracking of physical and performance data to improve health, training and performance.",
+    "subtopicId": "role-of-technology",
+    "group": "Functions of sports analytics"
+  },
+  {
+    "id": "role-of-technology-036",
+    "front": "Who uses fitness monitoring?",
+    "back": "Both recreational performers and elite athletes.",
+    "subtopicId": "role-of-technology",
+    "group": "Functions of sports analytics"
+  },
+  {
+    "id": "role-of-technology-037",
+    "front": "What might recreational performers monitor?",
+    "back": "Heart rate, calories burned and training progress.",
+    "subtopicId": "role-of-technology",
+    "group": "Functions of sports analytics"
+  },
+  {
+    "id": "role-of-technology-038",
+    "front": "What might elite athletes monitor?",
+    "back": "Distance, pace, sleep, calories and heart rate.",
+    "subtopicId": "role-of-technology",
+    "group": "Functions of sports analytics"
+  },
+  {
+    "id": "role-of-technology-039",
+    "front": "How can data technology improve team performance?",
+    "back": "It can analyse performance, identify weaknesses, analyse opponents and support talent recruitment.",
+    "subtopicId": "role-of-technology",
+    "group": "Functions of sports analytics"
+  },
+  {
+    "id": "role-of-technology-040",
+    "front": "What are some examples of technological developments in sport?",
+    "back": "Developments in stadiums and facilities, sporting equipment and filming or analysis technology.",
+    "subtopicId": "role-of-technology",
+    "group": "Development of equipment and facilities in sport and their impact"
+  },
+  {
+    "id": "role-of-technology-041",
+    "front": "How has equipment technology improved performance?",
+    "back": "Developments in helmets, clothing and advanced materials can improve safety and performance.",
+    "subtopicId": "role-of-technology",
+    "group": "Development of equipment and facilities in sport and their impact"
+  },
+  {
+    "id": "role-of-technology-042",
+    "front": "How has clothing technology improved sporting performance?",
+    "back": "Advanced materials and designs can improve comfort, flexibility, aerodynamics and performance.",
+    "subtopicId": "role-of-technology",
+    "group": "Development of equipment and facilities in sport and their impact"
+  },
+  {
+    "id": "role-of-technology-043",
+    "front": "How have technological developments improved sporting facilities?",
+    "back": "Developments such as all-weather surfaces, improved stadiums and advanced training facilities allow performers to train and compete in better conditions.",
+    "subtopicId": "role-of-technology",
+    "group": "Development of equipment and facilities in sport and their impact"
+  },
+  {
+    "id": "role-of-technology-044",
+    "front": "How can all-weather pitches improve sporting performance?",
+    "back": "They provide more consistent playing conditions and allow performers to train and compete throughout the year.",
+    "subtopicId": "role-of-technology",
+    "group": "Development of equipment and facilities in sport and their impact"
+  },
+  {
+    "id": "role-of-technology-045",
+    "front": "What is technology doping?",
+    "back": "The use of prohibited equipment or technology to gain an unfair performance advantage.",
+    "subtopicId": "role-of-technology",
+    "group": "Development of equipment and facilities in sport and their impact"
+  },
+  {
+    "id": "role-of-technology-046",
+    "front": "What is the main problem with technology doping?",
+    "back": "It can provide an unfair advantage and undermine the integrity of sport.",
+    "subtopicId": "role-of-technology",
+    "group": "Development of equipment and facilities in sport and their impact"
+  },
+  {
+    "id": "role-of-technology-047",
+    "front": "Why was the LZR Racer swimsuit banned?",
+    "back": "It was considered to provide an unfair performance advantage through its design and buoyancy.",
+    "subtopicId": "role-of-technology",
+    "group": "Development of equipment and facilities in sport and their impact"
+  },
+  {
+    "id": "role-of-technology-048",
+    "front": "Why was the aluminium cricket bat banned?",
+    "back": "It altered the interaction between the bat and ball and was considered to provide an unfair advantage.",
+    "subtopicId": "role-of-technology",
+    "group": "Development of equipment and facilities in sport and their impact"
+  },
+  {
+    "id": "role-of-technology-049",
+    "front": "Why were APL basketball shoes banned by the NBA?",
+    "back": "Their technology was designed to increase a performer's vertical jump, creating concerns about an unfair advantage.",
+    "subtopicId": "role-of-technology",
+    "group": "Development of equipment and facilities in sport and their impact"
+  },
+  {
+    "id": "role-of-technology-050",
+    "front": "Why are sticky gloves controversial in Australian Rules Football?",
+    "back": "They can improve grip and catching ability, potentially providing an unfair advantage.",
+    "subtopicId": "role-of-technology",
+    "group": "Development of equipment and facilities in sport and their impact"
+  },
+  {
+    "id": "role-of-technology-051",
+    "front": "Why was the self-correcting golf ball banned?",
+    "back": "It reduced the skill required by correcting aspects of the ball's flight.",
+    "subtopicId": "role-of-technology",
+    "group": "Development of equipment and facilities in sport and their impact"
+  },
+  {
+    "id": "role-of-technology-052",
+    "front": "What was Stickum and why was it banned?",
+    "back": "A sticky substance used to improve grip and catching ability that was banned because it provided an unfair advantage.",
+    "subtopicId": "role-of-technology",
+    "group": "Development of equipment and facilities in sport and their impact"
+  },
+  {
+    "id": "role-of-technology-053",
+    "front": "What is technology in sport?",
+    "back": "The application of methods, equipment or systems designed to improve sporting performance, safety or the sporting experience.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Performers"
+  },
+  {
+    "id": "role-of-technology-054",
+    "front": "How can technology positively affect performer health?",
+    "back": "It can monitor fitness, injury and physical condition.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Performers"
+  },
+  {
+    "id": "role-of-technology-055",
+    "front": "What devices can be used to monitor performer fitness?",
+    "back": "Heart-rate monitors, pedometers and body-fat monitors.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Performers"
+  },
+  {
+    "id": "role-of-technology-056",
+    "front": "How can software support athlete preparation?",
+    "back": "It can analyse nutrition and fitness data so training and diet can be adjusted.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Performers"
+  },
+  {
+    "id": "role-of-technology-057",
+    "front": "How has technology supported injury rehabilitation?",
+    "back": "Technology such as cryotherapy and hyperbaric chambers can be used as part of rehabilitation and recovery.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Performers"
+  },
+  {
+    "id": "role-of-technology-058",
+    "front": "What is vibration technology used for in sport?",
+    "back": "Injury prevention, recovery and rehabilitation.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Performers"
+  },
+  {
+    "id": "role-of-technology-059",
+    "front": "How can vibration therapy be applied?",
+    "back": "Directly to an affected area or indirectly to the whole body.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Performers"
+  },
+  {
+    "id": "role-of-technology-060",
+    "front": "What are potential benefits of vibration technology?",
+    "back": "Improved bone density, muscular power and circulation, and reduced pain or DOMS.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Performers"
+  },
+  {
+    "id": "role-of-technology-061",
+    "front": "What is electrostimulation in sport?",
+    "back": "The use of electrical impulses to stimulate muscles.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Performers"
+  },
+  {
+    "id": "role-of-technology-062",
+    "front": "How can electrostimulation benefit a performer?",
+    "back": "It can assist muscular strengthening, recovery and blood flow.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Performers"
+  },
+  {
+    "id": "role-of-technology-063",
+    "front": "How does electrostimulation work?",
+    "back": "Electrodes deliver small electrical impulses that stimulate muscle contractions.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Performers"
+  },
+  {
+    "id": "role-of-technology-064",
+    "front": "What is a negative impact of technology on performers?",
+    "back": "Technology can be expensive and therefore not equally accessible to all performers.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Performers"
+  },
+  {
+    "id": "role-of-technology-065",
+    "front": "How can technology increase pressure on performers?",
+    "back": "Opponents and coaches can analyse performance data and identify weaknesses.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Performers"
+  },
+  {
+    "id": "role-of-technology-066",
+    "front": "How can technology be used to cheat?",
+    "back": "Performers may use prohibited technologies or hidden devices to gain an unfair advantage.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Performers"
+  },
+  {
+    "id": "role-of-technology-067",
+    "front": "What is a major fairness issue associated with sporting technology?",
+    "back": "Performers or teams with greater access to advanced technology may gain an advantage over those with fewer resources.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Performers"
+  },
+  {
+    "id": "role-of-technology-068",
+    "front": "What is Hawk-Eye?",
+    "back": "An optical ball-tracking system used to assist officiating in sports such as tennis and cricket.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Officials"
+  },
+  {
+    "id": "role-of-technology-069",
+    "front": "What is TMO?",
+    "back": "The Television Match Official, used in rugby to review video footage and assist officials with decisions.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Officials"
+  },
+  {
+    "id": "role-of-technology-070",
+    "front": "How is modern technology used in officiating?",
+    "back": "Instant replays, video officials, ball-tracking systems and referee communication systems can improve decision-making.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Officials"
+  },
+  {
+    "id": "role-of-technology-071",
+    "front": "How has technology improved accuracy in sport?",
+    "back": "Electronic timing, photo finishes, instant replays and tracking systems can increase the accuracy of decisions and results.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Officials"
+  },
+  {
+    "id": "role-of-technology-072",
+    "front": "How does technology support officials' communication?",
+    "back": "Microphones and headsets allow officials to communicate quickly with one another.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Officials"
+  },
+  {
+    "id": "role-of-technology-073",
+    "front": "What is a disadvantage of technology for officials?",
+    "back": "Reviewing decisions can cause delays and disrupt the flow of the game.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Officials"
+  },
+  {
+    "id": "role-of-technology-074",
+    "front": "Why can technology still cause problems for officials?",
+    "back": "Incorrect decisions can still occur and officials may become over-reliant on technology.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Officials"
+  },
+  {
+    "id": "role-of-technology-075",
+    "front": "How can technology improve the spectator experience?",
+    "back": "Multiple camera angles, replays, on-screen statistics and analysis can make sport more informative and entertaining.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Spectators and Sponsors"
+  },
+  {
+    "id": "role-of-technology-076",
+    "front": "How can technology widen access to sport?",
+    "back": "Broadcasting technology allows a greater range of sports and competitions to be watched by audiences around the world.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Spectators and Sponsors"
+  },
+  {
+    "id": "role-of-technology-077",
+    "front": "Why can accurate technological decisions improve the spectator experience?",
+    "back": "They can increase perceptions of fairness and reduce incorrect officiating decisions.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Spectators and Sponsors"
+  },
+  {
+    "id": "role-of-technology-078",
+    "front": "How can technology improve the quality of performance spectators watch?",
+    "back": "Developments such as all-weather surfaces can help performers produce higher-quality performances more consistently.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Spectators and Sponsors"
+  },
+  {
+    "id": "role-of-technology-079",
+    "front": "What is a disadvantage of decision-making technology for spectators?",
+    "back": "Waiting for reviews and decisions can interrupt the flow and excitement of the event.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Spectators and Sponsors"
+  },
+  {
+    "id": "role-of-technology-080",
+    "front": "How does technology benefit sponsors?",
+    "back": "Increased broadcast coverage provides more opportunities for advertising and brand exposure.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Spectators and Sponsors"
+  },
+  {
+    "id": "role-of-technology-081",
+    "front": "How can technology increase sponsor visibility?",
+    "back": "Sponsor logos on kits, pitches and advertising boards can receive repeated exposure through broadcasts and replays.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Spectators and Sponsors"
+  },
+  {
+    "id": "role-of-technology-082",
+    "front": "What is a potential risk for sponsors associated with performers?",
+    "back": "Injury, cheating, controversy or poor performance can negatively affect the sponsor's brand image.",
+    "subtopicId": "role-of-technology",
+    "group": "Role of Technology in Sport - Spectators and Sponsors"
+  }
+]

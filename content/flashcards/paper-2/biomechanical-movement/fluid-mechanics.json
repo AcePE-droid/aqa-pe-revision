@@ -1,0 +1,261 @@
+[
+  {
+    "id": "fluid-mechanics-001",
+    "front": "What are drag and lift?",
+    "back": "Dynamic fluid forces that affect the movement of performers and objects through fluids such as air and water.",
+    "subtopicId": "fluid-mechanics",
+    "group": "Dynamic fluid force"
+  },
+  {
+    "id": "fluid-mechanics-002",
+    "front": "What is drag force?",
+    "back": "A resistance force that acts opposite to the direction of motion through a fluid, reducing velocity.",
+    "subtopicId": "fluid-mechanics",
+    "group": "Dynamic fluid force"
+  },
+  {
+    "id": "fluid-mechanics-003",
+    "front": "What causes drag force?",
+    "back": "The interaction between a moving body and the fluid surrounding it, such as air or water.",
+    "subtopicId": "fluid-mechanics",
+    "group": "Dynamic fluid force"
+  },
+  {
+    "id": "fluid-mechanics-004",
+    "front": "Why do cyclists try to minimise drag?",
+    "back": "To reduce air resistance, allowing them to maintain a greater velocity while using less energy.",
+    "subtopicId": "fluid-mechanics",
+    "group": "Dynamic fluid force"
+  },
+  {
+    "id": "fluid-mechanics-005",
+    "front": "What are the two types of drag?",
+    "back": "Surface drag (skin friction drag) and form drag (shape drag).",
+    "subtopicId": "fluid-mechanics",
+    "group": "Dynamic fluid force"
+  },
+  {
+    "id": "fluid-mechanics-006",
+    "front": "What is surface drag?",
+    "back": "Friction between the surface of a moving body and the fluid through which it travels.",
+    "subtopicId": "fluid-mechanics",
+    "group": "Dynamic fluid force"
+  },
+  {
+    "id": "fluid-mechanics-007",
+    "front": "How do swimmers reduce surface drag?",
+    "back": "By reducing surface friction through methods such as wearing smooth swimsuits and swimming caps.",
+    "subtopicId": "fluid-mechanics",
+    "group": "Dynamic fluid force"
+  },
+  {
+    "id": "fluid-mechanics-008",
+    "front": "What is form drag?",
+    "back": "Drag caused by the shape and frontal cross-sectional area of a body as it moves through a fluid.",
+    "subtopicId": "fluid-mechanics",
+    "group": "Dynamic fluid force"
+  },
+  {
+    "id": "fluid-mechanics-009",
+    "front": "How do swimmers reduce form drag?",
+    "back": "By adopting a streamlined body position to reduce frontal cross-sectional area and turbulence.",
+    "subtopicId": "fluid-mechanics",
+    "group": "Dynamic fluid force"
+  },
+  {
+    "id": "fluid-mechanics-010",
+    "front": "What is slipstreaming (drafting)?",
+    "back": "Following closely behind another performer to experience less air resistance.",
+    "subtopicId": "fluid-mechanics",
+    "group": "Dynamic fluid force"
+  },
+  {
+    "id": "fluid-mechanics-011",
+    "front": "How does slipstreaming work?",
+    "back": "The lead performer disrupts and redirects the airflow, creating an area of reduced air resistance behind them for the following performer.",
+    "subtopicId": "fluid-mechanics",
+    "group": "Dynamic fluid force"
+  },
+  {
+    "id": "fluid-mechanics-012",
+    "front": "In which sport is slipstreaming commonly used?",
+    "back": "Cycling, where riders can conserve energy by riding closely behind another cyclist.",
+    "subtopicId": "fluid-mechanics",
+    "group": "Dynamic fluid force"
+  },
+  {
+    "id": "fluid-mechanics-013",
+    "front": "What are the three main factors that affect drag?",
+    "back": "Velocity; Frontal cross-sectional area; Shape and surface characteristics of the moving body.",
+    "subtopicId": "fluid-mechanics",
+    "group": "Factors affecting drag"
+  },
+  {
+    "id": "fluid-mechanics-014",
+    "front": "How does velocity affect drag?",
+    "back": "The greater the velocity, the greater the drag force.",
+    "subtopicId": "fluid-mechanics",
+    "group": "Factors affecting drag"
+  },
+  {
+    "id": "fluid-mechanics-015",
+    "front": "How does cross-sectional area affect drag?",
+    "back": "A larger frontal cross-sectional area increases drag, while a smaller frontal cross-sectional area reduces drag.",
+    "subtopicId": "fluid-mechanics",
+    "group": "Factors affecting drag"
+  },
+  {
+    "id": "fluid-mechanics-016",
+    "front": "How does shape affect drag?",
+    "back": "A more streamlined and aerodynamic shape reduces form drag and turbulence.",
+    "subtopicId": "fluid-mechanics",
+    "group": "Factors affecting drag"
+  },
+  {
+    "id": "fluid-mechanics-017",
+    "front": "How do Tour de France cyclists reduce drag?",
+    "back": "They adopt a low, streamlined body position to reduce their frontal cross-sectional area.",
+    "subtopicId": "fluid-mechanics",
+    "group": "Factors affecting drag"
+  },
+  {
+    "id": "fluid-mechanics-018",
+    "front": "How can clothing reduce drag in sport?",
+    "back": "Tight-fitting, smooth and aerodynamic clothing can reduce surface drag and turbulence.",
+    "subtopicId": "fluid-mechanics",
+    "group": "Factors affecting drag"
+  },
+  {
+    "id": "fluid-mechanics-019",
+    "front": "How do speed skiers reduce drag?",
+    "back": "By adopting a streamlined position and using aerodynamic equipment and clothing.",
+    "subtopicId": "fluid-mechanics",
+    "group": "Factors affecting drag"
+  },
+  {
+    "id": "fluid-mechanics-020",
+    "front": "How do swimmers reduce drag through their equipment?",
+    "back": "By wearing swimming caps and tight-fitting, smooth swimsuits designed to reduce resistance through the water.",
+    "subtopicId": "fluid-mechanics",
+    "group": "Factors affecting drag"
+  },
+  {
+    "id": "fluid-mechanics-021",
+    "front": "What is lift force?",
+    "back": "A dynamic fluid force that acts perpendicular to the direction of motion.",
+    "subtopicId": "fluid-mechanics",
+    "group": "The Bernoulli principle"
+  },
+  {
+    "id": "fluid-mechanics-022",
+    "front": "What is the Bernoulli principle?",
+    "back": "As the velocity of a fluid increases, its pressure decreases; as its velocity decreases, its pressure increases.",
+    "subtopicId": "fluid-mechanics",
+    "group": "The Bernoulli principle"
+  },
+  {
+    "id": "fluid-mechanics-023",
+    "front": "What is angle of attack?",
+    "back": "The angle between a projectile and the direction of the airflow approaching it.",
+    "subtopicId": "fluid-mechanics",
+    "group": "The Bernoulli principle"
+  },
+  {
+    "id": "fluid-mechanics-024",
+    "front": "How does lift act on a discus during flight?",
+    "back": "A difference in air pressure above and below the discus produces a lift force that can act upwards.",
+    "subtopicId": "fluid-mechanics",
+    "group": "The Bernoulli principle"
+  },
+  {
+    "id": "fluid-mechanics-025",
+    "front": "How can the angle of attack affect airflow around a discus?",
+    "back": "It influences the speed and direction of airflow above and below the discus, creating differences in pressure.",
+    "subtopicId": "fluid-mechanics",
+    "group": "The Bernoulli principle"
+  },
+  {
+    "id": "fluid-mechanics-026",
+    "front": "How does lift increase the range of a discus?",
+    "back": "Upward lift can increase flight time, allowing the discus to travel a greater horizontal distance.",
+    "subtopicId": "fluid-mechanics",
+    "group": "The Bernoulli principle"
+  },
+  {
+    "id": "fluid-mechanics-027",
+    "front": "What happens if the angle of attack is too great?",
+    "back": "Drag increases and airflow may separate from the surface, reducing lift and potentially causing the discus to stall.",
+    "subtopicId": "fluid-mechanics",
+    "group": "The Bernoulli principle"
+  },
+  {
+    "id": "fluid-mechanics-028",
+    "front": "What is an effective angle of attack for a discus?",
+    "back": "Approximately 25–40°, depending on factors such as release conditions and wind.",
+    "subtopicId": "fluid-mechanics",
+    "group": "The Bernoulli principle"
+  },
+  {
+    "id": "fluid-mechanics-029",
+    "front": "How does faster-moving air affect pressure according to the Bernoulli principle?",
+    "back": "Faster-moving air produces lower pressure.",
+    "subtopicId": "fluid-mechanics",
+    "group": "The Bernoulli principle"
+  },
+  {
+    "id": "fluid-mechanics-030",
+    "front": "What pressure difference can produce upward lift on a discus?",
+    "back": "Lower pressure above the discus and higher pressure below it produce an upward lift force.",
+    "subtopicId": "fluid-mechanics",
+    "group": "The Bernoulli principle"
+  },
+  {
+    "id": "fluid-mechanics-031",
+    "front": "What is downward lift?",
+    "back": "A lift force acting downwards, often referred to as downforce, which can increase grip and stability.",
+    "subtopicId": "fluid-mechanics",
+    "group": "The Bernoulli principle"
+  },
+  {
+    "id": "fluid-mechanics-032",
+    "front": "How does a car spoiler create downward lift?",
+    "back": "It manipulates airflow to create a pressure difference that produces a downward force on the car.",
+    "subtopicId": "fluid-mechanics",
+    "group": "The Bernoulli principle"
+  },
+  {
+    "id": "fluid-mechanics-033",
+    "front": "Why is downward lift important in motorsport?",
+    "back": "It increases the force between the tyres and the track, improving grip and stability, particularly when cornering at high speeds.",
+    "subtopicId": "fluid-mechanics",
+    "group": "The Bernoulli principle"
+  },
+  {
+    "id": "fluid-mechanics-034",
+    "front": "How can a cyclist's body position affect lift and stability?",
+    "back": "A low, aerodynamic position can reduce unwanted lift and improve stability while also reducing drag.",
+    "subtopicId": "fluid-mechanics",
+    "group": "The Bernoulli principle"
+  },
+  {
+    "id": "fluid-mechanics-035",
+    "front": "Why can reducing lift help cyclists?",
+    "back": "It can improve stability and help maintain effective contact between the tyres and the road or track.",
+    "subtopicId": "fluid-mechanics",
+    "group": "The Bernoulli principle"
+  },
+  {
+    "id": "fluid-mechanics-036",
+    "front": "Why is aerodynamic stability important in speed skiing?",
+    "back": "It helps the skier maintain a stable body position and effective ski contact with the snow at very high speeds.",
+    "subtopicId": "fluid-mechanics",
+    "group": "The Bernoulli principle"
+  },
+  {
+    "id": "fluid-mechanics-037",
+    "front": "How can airflow affect a speed skier?",
+    "back": "Airflow around the skier can create pressure differences and aerodynamic forces that affect stability, drag and contact with the snow.",
+    "subtopicId": "fluid-mechanics",
+    "group": "The Bernoulli principle"
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "id": "goal-setting-001",
+    "front": "What is goal setting?",
+    "back": "The process of establishing specific targets for performance that direct a performer's effort, attention and persistence.",
+    "subtopicId": "goal-setting",
+    "group": "Benefits of types of goal setting"
+  },
+  {
+    "id": "goal-setting-002",
+    "front": "Why does goal setting work?",
+    "back": "It increases effort and persistence and directs attention towards relevant aspects of performance.",
+    "subtopicId": "goal-setting",
+    "group": "Benefits of types of goal setting"
+  },
+  {
+    "id": "goal-setting-003",
+    "front": "What are the three types of goals?",
+    "back": "Outcome goals; Performance goals; Process goals.",
+    "subtopicId": "goal-setting",
+    "group": "Benefits of types of goal setting"
+  },
+  {
+    "id": "goal-setting-004",
+    "front": "What are outcome goals?",
+    "back": "Goals focused on the end result of a competition, usually involving comparison with others.",
+    "subtopicId": "goal-setting",
+    "group": "Benefits of types of goal setting"
+  },
+  {
+    "id": "goal-setting-005",
+    "front": "What are the main characteristics of outcome goals?",
+    "back": "-Concerned with final results, standings or rankings. -Success involves comparison with others. -They are the least controllable because achievement depends partly on the performance of others.",
+    "subtopicId": "goal-setting",
+    "group": "Benefits of types of goal setting"
+  },
+  {
+    "id": "goal-setting-006",
+    "front": "What is an example of an outcome goal?",
+    "back": "Winning the league this season.",
+    "subtopicId": "goal-setting",
+    "group": "Benefits of types of goal setting"
+  },
+  {
+    "id": "goal-setting-007",
+    "front": "What are performance goals?",
+    "back": "Goals focused on achieving a personal performance standard, usually compared with the performer's previous performances.",
+    "subtopicId": "goal-setting",
+    "group": "Benefits of types of goal setting"
+  },
+  {
+    "id": "goal-setting-008",
+    "front": "What are the main characteristics of performance goals?",
+    "back": "-Concerned with personal improvement and achieving performance standards. -Comparison is with the performer's own previous performance. -They are largely within the performer's control.",
+    "subtopicId": "goal-setting",
+    "group": "Benefits of types of goal setting"
+  },
+  {
+    "id": "goal-setting-009",
+    "front": "What is an example of a performance goal?",
+    "back": "Run 400 metres in under 52 seconds by March.",
+    "subtopicId": "goal-setting",
+    "group": "Benefits of types of goal setting"
+  },
+  {
+    "id": "goal-setting-010",
+    "front": "What are process goals?",
+    "back": "Goals focused on the specific actions, techniques or strategies a performer needs to execute during performance.",
+    "subtopicId": "goal-setting",
+    "group": "Benefits of types of goal setting"
+  },
+  {
+    "id": "goal-setting-011",
+    "front": "What are the main characteristics of process goals?",
+    "back": "-Concerned with how a skill or performance is executed. -Focus on specific technical or tactical behaviours. -They are the most immediate and controllable type of goal.",
+    "subtopicId": "goal-setting",
+    "group": "Benefits of types of goal setting"
+  },
+  {
+    "id": "goal-setting-012",
+    "front": "What is an example of a process goal?",
+    "back": "Watch the ball onto the bat for every delivery.",
+    "subtopicId": "goal-setting",
+    "group": "Benefits of types of goal setting"
+  },
+  {
+    "id": "goal-setting-013",
+    "front": "How do the three types of goals rank in terms of performer control?",
+    "back": "Process goals are the most controllable; Performance goals are moderately controllable; Outcome goals are the least controllable.",
+    "subtopicId": "goal-setting",
+    "group": "Benefits of types of goal setting"
+  },
+  {
+    "id": "goal-setting-014",
+    "front": "How can the different types of goals affect anxiety?",
+    "back": "Process and performance goals can reduce anxiety by focusing attention on controllable factors, whereas outcome goals may increase anxiety because the result is less controllable.",
+    "subtopicId": "goal-setting",
+    "group": "Benefits of types of goal setting"
+  },
+  {
+    "id": "goal-setting-015",
+    "front": "What are some benefits of goal setting?",
+    "back": "Increases motivation; Directs attention; Increases persistence; Increases self-efficacy; Can reduce anxiety; Provides a basis for feedback.",
+    "subtopicId": "goal-setting",
+    "group": "Benefits of types of goal setting"
+  },
+  {
+    "id": "goal-setting-016",
+    "front": "How is goal setting linked to attribution theory?",
+    "back": "Process and performance goals can encourage performers to attribute success to internal and controllable factors, such as effort, helping to promote a mastery orientation and reduce learned helplessness.",
+    "subtopicId": "goal-setting",
+    "group": "Benefits of types of goal setting"
+  },
+  {
+    "id": "goal-setting-017",
+    "front": "How is goal setting linked to self-efficacy?",
+    "back": "Achieving appropriately challenging goals provides performance accomplishments, which can increase self-efficacy.",
+    "subtopicId": "goal-setting",
+    "group": "Benefits of types of goal setting"
+  },
+  {
+    "id": "goal-setting-018",
+    "front": "How is goal setting linked to motivation?",
+    "back": "Appropriate goals provide performers with direction and a sense of achievement, helping to maintain motivation.",
+    "subtopicId": "goal-setting",
+    "group": "Benefits of types of goal setting"
+  },
+  {
+    "id": "goal-setting-019",
+    "front": "How is goal setting linked to social loafing?",
+    "back": "Individual process and performance goals increase personal accountability, making each performer's contribution more identifiable and helping to reduce social loafing.",
+    "subtopicId": "goal-setting",
+    "group": "Benefits of types of goal setting"
+  },
+  {
+    "id": "goal-setting-020",
+    "front": "What does SMARTER stand for in goal setting?",
+    "back": "Specific; Measurable; Achievable; Realistic; Time-bound; Evaluate; Re-do.",
+    "subtopicId": "goal-setting",
+    "group": "Principles of effective goal setting"
+  },
+  {
+    "id": "goal-setting-021",
+    "front": "What does Specific mean in SMARTER goal setting?",
+    "back": "The goal should be clear and precise so the performer knows exactly what they are trying to achieve.",
+    "subtopicId": "goal-setting",
+    "group": "Principles of effective goal setting"
+  },
+  {
+    "id": "goal-setting-022",
+    "front": "What does Measurable mean in SMARTER goal setting?",
+    "back": "The goal should be quantifiable so progress and achievement can be assessed.",
+    "subtopicId": "goal-setting",
+    "group": "Principles of effective goal setting"
+  },
+  {
+    "id": "goal-setting-023",
+    "front": "What does Achievable mean in SMARTER goal setting?",
+    "back": "The goal should be within the performer's capabilities and possible to achieve.",
+    "subtopicId": "goal-setting",
+    "group": "Principles of effective goal setting"
+  },
+  {
+    "id": "goal-setting-024",
+    "front": "What does Realistic mean in SMARTER goal setting?",
+    "back": "The goal should be challenging but attainable given the performer's ability, resources and available time.",
+    "subtopicId": "goal-setting",
+    "group": "Principles of effective goal setting"
+  },
+  {
+    "id": "goal-setting-025",
+    "front": "What does Time-bound mean in SMARTER goal setting?",
+    "back": "The goal should have a clear time frame or deadline for completion.",
+    "subtopicId": "goal-setting",
+    "group": "Principles of effective goal setting"
+  },
+  {
+    "id": "goal-setting-026",
+    "front": "What does Evaluate mean in SMARTER goal setting?",
+    "back": "Progress towards the goal should be regularly monitored and reviewed.",
+    "subtopicId": "goal-setting",
+    "group": "Principles of effective goal setting"
+  },
+  {
+    "id": "goal-setting-027",
+    "front": "What does Re-do mean in SMARTER goal setting?",
+    "back": "The goal should be adjusted, revised or reset following evaluation as the performer's performance develops.",
+    "subtopicId": "goal-setting",
+    "group": "Principles of effective goal setting"
+  },
+  {
+    "id": "goal-setting-028",
+    "front": "How should a coach use goal setting with a beginner?",
+    "back": "-Use mainly process goals focused on developing correct technique. -Use short-term goals to provide regular success. -Set achievable goals to build confidence and self-efficacy. -Initially provide more coach guidance when setting goals.",
+    "subtopicId": "goal-setting",
+    "group": "Principles of effective goal setting"
+  },
+  {
+    "id": "goal-setting-029",
+    "front": "How should goal setting be used with an intermediate performer?",
+    "back": "-Use a combination of process and performance goals. -Use short- and medium-term goals. -Regularly evaluate and adjust goals as performance improves. -Give the performer greater involvement in setting their own goals.",
+    "subtopicId": "goal-setting",
+    "group": "Principles of effective goal setting"
+  },
+  {
+    "id": "goal-setting-030",
+    "front": "How should goal setting be used with an expert performer?",
+    "back": "-Use process, performance and outcome goals together. -Emphasise controllable process and performance goals. -Allow greater performer ownership of goal setting. -Link short-, medium- and long-term goals to the performer's training and competition programme.",
+    "subtopicId": "goal-setting",
+    "group": "Principles of effective goal setting"
+  }
+]

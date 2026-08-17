@@ -1,0 +1,394 @@
+[
+  {
+    "id": "attribution-theory-001",
+    "front": "What is attribution?",
+    "back": "The perceived reason or explanation for the outcome of an event, such as why a performer believes they succeeded or failed.",
+    "subtopicId": "attribution-theory",
+    "group": "Attribution process"
+  },
+  {
+    "id": "attribution-theory-002",
+    "front": "Who can provide reasons for success or failure?",
+    "back": "Performers, coaches and managers can make attributions about the causes of success or failure.",
+    "subtopicId": "attribution-theory",
+    "group": "Attribution process"
+  },
+  {
+    "id": "attribution-theory-003",
+    "front": "What happens when performers attribute success internally?",
+    "back": "Confidence, motivation and belief in their own ability can increase.",
+    "subtopicId": "attribution-theory",
+    "group": "Attribution process"
+  },
+  {
+    "id": "attribution-theory-004",
+    "front": "Why can taking responsibility for success help performance?",
+    "back": "It strengthens confidence and encourages the performer to maintain effort and persist with future challenges.",
+    "subtopicId": "attribution-theory",
+    "group": "Attribution process"
+  },
+  {
+    "id": "attribution-theory-005",
+    "front": "What is Weiner's Attribution Model?",
+    "back": "A model that classifies the perceived causes of success and failure according to locus of causality and stability.",
+    "subtopicId": "attribution-theory",
+    "group": "Weiners model"
+  },
+  {
+    "id": "attribution-theory-006",
+    "front": "What is locus of causality?",
+    "back": "The dimension of Weiner's model that identifies whether the cause of an outcome is internal or external to the performer.",
+    "subtopicId": "attribution-theory",
+    "group": "Weiners model"
+  },
+  {
+    "id": "attribution-theory-007",
+    "front": "What is stability?",
+    "back": "The dimension of Weiner's model that identifies whether the cause of an outcome is stable or unstable over time.",
+    "subtopicId": "attribution-theory",
+    "group": "Weiners model"
+  },
+  {
+    "id": "attribution-theory-008",
+    "front": "What is an internal attribution?",
+    "back": "A cause of an outcome that comes from within the performer; e.g. ability or effort.",
+    "subtopicId": "attribution-theory",
+    "group": "Weiners model"
+  },
+  {
+    "id": "attribution-theory-009",
+    "front": "What is an external attribution?",
+    "back": "A cause of an outcome that comes from outside the performer; e.g. task difficulty or luck.",
+    "subtopicId": "attribution-theory",
+    "group": "Weiners model"
+  },
+  {
+    "id": "attribution-theory-010",
+    "front": "What is a stable attribution?",
+    "back": "A cause that is relatively fixed and unlikely to change significantly over time; e.g. ability or task difficulty.",
+    "subtopicId": "attribution-theory",
+    "group": "Weiners model"
+  },
+  {
+    "id": "attribution-theory-011",
+    "front": "What is an unstable attribution?",
+    "back": "A cause that can change from one situation to another; e.g. effort or luck.",
+    "subtopicId": "attribution-theory",
+    "group": "Weiners model"
+  },
+  {
+    "id": "attribution-theory-012",
+    "front": "What are the four common attributions identified in Weiner's model?",
+    "back": "Ability; Effort; Task difficulty; Luck.",
+    "subtopicId": "attribution-theory",
+    "group": "Weiners model"
+  },
+  {
+    "id": "attribution-theory-013",
+    "front": "What is ability as an attribution?",
+    "back": "An internal and stable attribution; e.g. \"I won because I am naturally talented.\"",
+    "subtopicId": "attribution-theory",
+    "group": "Weiners model"
+  },
+  {
+    "id": "attribution-theory-014",
+    "front": "What is effort as an attribution?",
+    "back": "An internal and unstable attribution; e.g. \"I won because I worked hard.\"",
+    "subtopicId": "attribution-theory",
+    "group": "Weiners model"
+  },
+  {
+    "id": "attribution-theory-015",
+    "front": "What is task difficulty as an attribution?",
+    "back": "An external and stable attribution; e.g. \"I lost because the opposition were very difficult to beat.\"",
+    "subtopicId": "attribution-theory",
+    "group": "Weiners model"
+  },
+  {
+    "id": "attribution-theory-016",
+    "front": "What is luck as an attribution?",
+    "back": "An external and unstable attribution; e.g. \"I lost because I was unlucky.\"",
+    "subtopicId": "attribution-theory",
+    "group": "Weiners model"
+  },
+  {
+    "id": "attribution-theory-017",
+    "front": "How can attributions affect task persistence and motivation?",
+    "back": "Attributions influence how a performer interprets success and failure, which can affect confidence, motivation and willingness to persist.",
+    "subtopicId": "attribution-theory",
+    "group": "Link between attribution, task persistence and motivation"
+  },
+  {
+    "id": "attribution-theory-018",
+    "front": "What type of attribution after failure can damage motivation?",
+    "back": "An internal and stable attribution, such as lack of ability, because the performer may believe the cause of failure cannot be changed.",
+    "subtopicId": "attribution-theory",
+    "group": "Link between attribution, task persistence and motivation"
+  },
+  {
+    "id": "attribution-theory-019",
+    "front": "What is a more motivational attribution following failure?",
+    "back": "An internal and unstable attribution, such as insufficient effort, because the performer believes the cause can be changed in the future.",
+    "subtopicId": "attribution-theory",
+    "group": "Link between attribution, task persistence and motivation"
+  },
+  {
+    "id": "attribution-theory-020",
+    "front": "How can attributing failure to effort improve task persistence?",
+    "back": "Effort is changeable and controllable, so the performer can believe that working harder may lead to future success.",
+    "subtopicId": "attribution-theory",
+    "group": "Link between attribution, task persistence and motivation"
+  },
+  {
+    "id": "attribution-theory-021",
+    "front": "How can repeated failure affect task persistence?",
+    "back": "Repeated failure can reduce confidence and motivation, causing the performer to give up or avoid future challenges.",
+    "subtopicId": "attribution-theory",
+    "group": "Link between attribution, task persistence and motivation"
+  },
+  {
+    "id": "attribution-theory-022",
+    "front": "How can successful experiences affect task persistence?",
+    "back": "Success can increase confidence and motivation, encouraging the performer to continue working towards future goals.",
+    "subtopicId": "attribution-theory",
+    "group": "Link between attribution, task persistence and motivation"
+  },
+  {
+    "id": "attribution-theory-023",
+    "front": "What is mastery orientation?",
+    "back": "A positive approach in which performers believe improvement and future success are possible through factors such as effort and persistence.",
+    "subtopicId": "attribution-theory",
+    "group": "Link between attribution, task persistence and motivation"
+  },
+  {
+    "id": "attribution-theory-024",
+    "front": "How do performers with a mastery orientation respond to failure?",
+    "back": "They view failure as temporary and changeable and continue trying to improve.",
+    "subtopicId": "attribution-theory",
+    "group": "Link between attribution, task persistence and motivation"
+  },
+  {
+    "id": "attribution-theory-025",
+    "front": "How do performers with a mastery orientation behave in achievement situations?",
+    "back": "They demonstrate approach behaviour and persist when faced with challenges.",
+    "subtopicId": "attribution-theory",
+    "group": "Link between attribution, task persistence and motivation"
+  },
+  {
+    "id": "attribution-theory-026",
+    "front": "What is self-serving bias?",
+    "back": "The tendency to attribute success to internal factors, such as ability or effort, and failure to external factors, such as luck or task difficulty.",
+    "subtopicId": "attribution-theory",
+    "group": "Self-serving bias"
+  },
+  {
+    "id": "attribution-theory-027",
+    "front": "How can self-serving bias help a performer?",
+    "back": "It can protect confidence and self-esteem following failure and therefore help maintain motivation and task persistence.",
+    "subtopicId": "attribution-theory",
+    "group": "Self-serving bias"
+  },
+  {
+    "id": "attribution-theory-028",
+    "front": "What is a potential limitation of self-serving bias?",
+    "back": "Continually blaming external factors for failure can prevent performers from accepting responsibility and identifying areas they need to improve.",
+    "subtopicId": "attribution-theory",
+    "group": "Self-serving bias"
+  },
+  {
+    "id": "attribution-theory-029",
+    "front": "What is attribution retraining?",
+    "back": "The process of changing the reasons a performer gives for success and failure in order to develop more positive and controllable attributions.",
+    "subtopicId": "attribution-theory",
+    "group": "Attribution retraining"
+  },
+  {
+    "id": "attribution-theory-030",
+    "front": "Why is attribution retraining used?",
+    "back": "To increase confidence, motivation and task persistence and help overcome learned helplessness.",
+    "subtopicId": "attribution-theory",
+    "group": "Attribution retraining"
+  },
+  {
+    "id": "attribution-theory-031",
+    "front": "Which model can coaches use when applying attribution retraining?",
+    "back": "Weiner's Attribution Model.",
+    "subtopicId": "attribution-theory",
+    "group": "Attribution retraining"
+  },
+  {
+    "id": "attribution-theory-032",
+    "front": "How should a coach retrain attributions following failure?",
+    "back": "Encourage the performer to attribute failure to controllable and changeable factors, such as insufficient effort or an ineffective strategy, rather than a fixed lack of ability.",
+    "subtopicId": "attribution-theory",
+    "group": "Attribution retraining"
+  },
+  {
+    "id": "attribution-theory-033",
+    "front": "Why is attributing failure to controllable and unstable factors effective?",
+    "back": "It allows the performer to believe that the cause of failure can be changed, providing hope of future success.",
+    "subtopicId": "attribution-theory",
+    "group": "Attribution retraining"
+  },
+  {
+    "id": "attribution-theory-034",
+    "front": "Why can attributing failure to lack of ability be damaging?",
+    "back": "Ability is viewed as internal and relatively stable, so the performer may believe they cannot change the cause of failure.",
+    "subtopicId": "attribution-theory",
+    "group": "Attribution retraining"
+  },
+  {
+    "id": "attribution-theory-035",
+    "front": "What is learned helplessness?",
+    "back": "A state in which a performer believes that failure is inevitable and that they have little control over outcomes, causing motivation and effort to decrease.",
+    "subtopicId": "attribution-theory",
+    "group": "Learned helplessness"
+  },
+  {
+    "id": "attribution-theory-036",
+    "front": "What type of attributions can contribute to learned helplessness?",
+    "back": "Internal and stable attributions following failure, particularly attributing failure to a lack of ability.",
+    "subtopicId": "attribution-theory",
+    "group": "Learned helplessness"
+  },
+  {
+    "id": "attribution-theory-037",
+    "front": "How does learned helplessness affect confidence?",
+    "back": "It reduces confidence and belief in the performer's ability to succeed.",
+    "subtopicId": "attribution-theory",
+    "group": "Learned helplessness"
+  },
+  {
+    "id": "attribution-theory-038",
+    "front": "What might performers blame for failure when experiencing learned helplessness?",
+    "back": "Internal and stable factors, particularly a perceived lack of ability.",
+    "subtopicId": "attribution-theory",
+    "group": "Learned helplessness"
+  },
+  {
+    "id": "attribution-theory-039",
+    "front": "How does learned helplessness affect behaviour in sport?",
+    "back": "Performers may reduce their effort, avoid challenges or stop trying even when success is possible.",
+    "subtopicId": "attribution-theory",
+    "group": "Learned helplessness"
+  },
+  {
+    "id": "attribution-theory-040",
+    "front": "Why might a performer give up despite having the ability to succeed?",
+    "back": "They have developed the belief that failure is inevitable and that their actions will not change the outcome.",
+    "subtopicId": "attribution-theory",
+    "group": "Learned helplessness"
+  },
+  {
+    "id": "attribution-theory-041",
+    "front": "What is general learned helplessness?",
+    "back": "The belief that failure is inevitable across a broad range of sports or activities.",
+    "subtopicId": "attribution-theory",
+    "group": "Learned helplessness"
+  },
+  {
+    "id": "attribution-theory-042",
+    "front": "What is specific learned helplessness?",
+    "back": "The belief that failure is inevitable in one particular sport, skill or activity.",
+    "subtopicId": "attribution-theory",
+    "group": "Learned helplessness"
+  },
+  {
+    "id": "attribution-theory-043",
+    "front": "What is the difference between general and specific learned helplessness?",
+    "back": "General learned helplessness affects a broad range of sports or activities, whereas specific learned helplessness relates to one particular sport, skill or activity.",
+    "subtopicId": "attribution-theory",
+    "group": "Learned helplessness"
+  },
+  {
+    "id": "attribution-theory-044",
+    "front": "What factors can contribute to learned helplessness?",
+    "back": "Repeated failure; Negative feedback and criticism; Negative experiences; Continually attributing failure to a lack of ability.",
+    "subtopicId": "attribution-theory",
+    "group": "Learned helplessness"
+  },
+  {
+    "id": "attribution-theory-045",
+    "front": "What can incorrect attributions lead to?",
+    "back": "Reduced confidence and, over time, learned helplessness.",
+    "subtopicId": "attribution-theory",
+    "group": "Learned helplessness"
+  },
+  {
+    "id": "attribution-theory-046",
+    "front": "What is the opposite of learned helplessness?",
+    "back": "Mastery orientation.",
+    "subtopicId": "attribution-theory",
+    "group": "Learned helplessness"
+  },
+  {
+    "id": "attribution-theory-047",
+    "front": "How can a coach use reinforcement to prevent learned helplessness?",
+    "back": "Use positive reinforcement to recognise effort, improvement and successful performance.",
+    "subtopicId": "attribution-theory",
+    "group": "Strategies to avoid learned helplessness"
+  },
+  {
+    "id": "attribution-theory-048",
+    "front": "How can early success help prevent learned helplessness?",
+    "back": "Achievable tasks provide successful experiences that increase confidence and belief in ability.",
+    "subtopicId": "attribution-theory",
+    "group": "Strategies to avoid learned helplessness"
+  },
+  {
+    "id": "attribution-theory-049",
+    "front": "How can goal setting help prevent learned helplessness?",
+    "back": "Set achievable but challenging goals that allow performers to experience progress and success.",
+    "subtopicId": "attribution-theory",
+    "group": "Strategies to avoid learned helplessness"
+  },
+  {
+    "id": "attribution-theory-050",
+    "front": "How can coaches use personal achievements to prevent learned helplessness?",
+    "back": "Highlight individual improvements and successful actions even when the overall performance or result is unsuccessful.",
+    "subtopicId": "attribution-theory",
+    "group": "Strategies to avoid learned helplessness"
+  },
+  {
+    "id": "attribution-theory-051",
+    "front": "How can attribution retraining help prevent learned helplessness?",
+    "back": "Encourage performers to attribute failure to controllable and changeable factors, such as effort or strategy, rather than a fixed lack of ability.",
+    "subtopicId": "attribution-theory",
+    "group": "Strategies to avoid learned helplessness"
+  },
+  {
+    "id": "attribution-theory-052",
+    "front": "How can past successful performances help prevent learned helplessness?",
+    "back": "Reminding performers of previous successes can increase confidence and demonstrate that future success is possible.",
+    "subtopicId": "attribution-theory",
+    "group": "Strategies to avoid learned helplessness"
+  },
+  {
+    "id": "attribution-theory-053",
+    "front": "How can support and encouragement help prevent learned helplessness?",
+    "back": "Positive feedback and encouragement can increase confidence, motivation and willingness to persist.",
+    "subtopicId": "attribution-theory",
+    "group": "Strategies to avoid learned helplessness"
+  },
+  {
+    "id": "attribution-theory-054",
+    "front": "How can mental practice help prevent learned helplessness?",
+    "back": "Rehearsing successful performance can increase confidence and create positive expectations about future performance.",
+    "subtopicId": "attribution-theory",
+    "group": "Strategies to avoid learned helplessness"
+  },
+  {
+    "id": "attribution-theory-055",
+    "front": "How can arousal control help prevent learned helplessness?",
+    "back": "Techniques such as imagery, centring and controlled breathing can help performers manage anxiety and maintain confidence.",
+    "subtopicId": "attribution-theory",
+    "group": "Strategies to avoid learned helplessness"
+  },
+  {
+    "id": "attribution-theory-056",
+    "front": "How can individual coaching help prevent learned helplessness?",
+    "back": "One-to-one coaching can provide specific feedback, support and achievable targets tailored to the performer's needs.",
+    "subtopicId": "attribution-theory",
+    "group": "Strategies to avoid learned helplessness"
+  }
+]

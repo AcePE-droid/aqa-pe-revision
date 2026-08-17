@@ -1,0 +1,674 @@
+[
+  {
+    "id": "stress-management-001",
+    "front": "What is stress in sport?",
+    "back": "A performer's response to a perceived demand or threat that they believe requires them to adapt or cope.",
+    "subtopicId": "stress-management",
+    "group": "Stress and stressor"
+  },
+  {
+    "id": "stress-management-002",
+    "front": "Is stress always negative?",
+    "back": "No. Stress can have either positive or negative effects depending on how the performer perceives the situation.",
+    "subtopicId": "stress-management",
+    "group": "Stress and stressor"
+  },
+  {
+    "id": "stress-management-003",
+    "front": "What is eustress?",
+    "back": "A positive response to a stressful situation in which the performer views the demand as a challenge they can cope with.",
+    "subtopicId": "stress-management",
+    "group": "Stress and stressor"
+  },
+  {
+    "id": "stress-management-004",
+    "front": "Why can eustress improve performance?",
+    "back": "It can increase motivation, confidence, focus and readiness to perform.",
+    "subtopicId": "stress-management",
+    "group": "Stress and stressor"
+  },
+  {
+    "id": "stress-management-005",
+    "front": "Give an example of eustress in sport.",
+    "back": "A performer feeling excited and motivated by the challenge of competing in an important final.",
+    "subtopicId": "stress-management",
+    "group": "Stress and stressor"
+  },
+  {
+    "id": "stress-management-006",
+    "front": "What is negative stress in sport?",
+    "back": "A negative response to a perceived threat in which the performer feels unable to cope with the demands of the situation.",
+    "subtopicId": "stress-management",
+    "group": "Stress and stressor"
+  },
+  {
+    "id": "stress-management-007",
+    "front": "What happens when stress is perceived negatively?",
+    "back": "Anxiety can increase and the performer may believe that the demands of the situation exceed their ability to cope.",
+    "subtopicId": "stress-management",
+    "group": "Stress and stressor"
+  },
+  {
+    "id": "stress-management-008",
+    "front": "What are the two main types of effects caused by negative stress?",
+    "back": "Cognitive effects and somatic effects.",
+    "subtopicId": "stress-management",
+    "group": "Stress and stressor"
+  },
+  {
+    "id": "stress-management-009",
+    "front": "What are cognitive effects of stress?",
+    "back": "Psychological effects such as worry, negative thoughts, loss of concentration and poor decision-making.",
+    "subtopicId": "stress-management",
+    "group": "Stress and stressor"
+  },
+  {
+    "id": "stress-management-010",
+    "front": "Give an example of a cognitive effect of stress.",
+    "back": "Losing concentration or focusing on negative thoughts during performance.",
+    "subtopicId": "stress-management",
+    "group": "Stress and stressor"
+  },
+  {
+    "id": "stress-management-011",
+    "front": "Why can attentional narrowing negatively affect performance?",
+    "back": "The performer may focus on too few cues and miss important information from the sporting environment.",
+    "subtopicId": "stress-management",
+    "group": "Stress and stressor"
+  },
+  {
+    "id": "stress-management-012",
+    "front": "What are somatic effects of stress?",
+    "back": "Physical or physiological responses to stress.",
+    "subtopicId": "stress-management",
+    "group": "Stress and stressor"
+  },
+  {
+    "id": "stress-management-013",
+    "front": "Give examples of somatic effects of stress.",
+    "back": "Increased heart rate; Increased breathing rate; Sweating; Nausea; Muscular tension.",
+    "subtopicId": "stress-management",
+    "group": "Stress and stressor"
+  },
+  {
+    "id": "stress-management-014",
+    "front": "What is muscular tension?",
+    "back": "An increase in muscle tightness caused by physiological arousal or stress.",
+    "subtopicId": "stress-management",
+    "group": "Stress and stressor"
+  },
+  {
+    "id": "stress-management-015",
+    "front": "Why can excessive muscular tension harm performance?",
+    "back": "It can reduce coordination, fluency and accuracy and make movements less efficient.",
+    "subtopicId": "stress-management",
+    "group": "Stress and stressor"
+  },
+  {
+    "id": "stress-management-016",
+    "front": "What is a stressor?",
+    "back": "An environmental, psychological or physical demand that causes a performer to experience stress.",
+    "subtopicId": "stress-management",
+    "group": "Stress and stressor"
+  },
+  {
+    "id": "stress-management-017",
+    "front": "Give examples of stressors in sport.",
+    "back": "Injury; Fear of failure; Important competitions; Strong opposition; Expectations from coaches or spectators.",
+    "subtopicId": "stress-management",
+    "group": "Stress and stressor"
+  },
+  {
+    "id": "stress-management-018",
+    "front": "How can pressure from others act as a stressor?",
+    "back": "Expectations from coaches, teammates, spectators or family can increase the performer's perceived pressure.",
+    "subtopicId": "stress-management",
+    "group": "Stress and stressor"
+  },
+  {
+    "id": "stress-management-019",
+    "front": "Why do performers respond differently to the same stressor?",
+    "back": "Because stress depends on how each performer perceives and interprets the demands of the situation.",
+    "subtopicId": "stress-management",
+    "group": "Stress and stressor"
+  },
+  {
+    "id": "stress-management-020",
+    "front": "How can stress affect sporting performance?",
+    "back": "Positive interpretation can enhance performance, whereas excessive or negatively perceived stress can impair performance.",
+    "subtopicId": "stress-management",
+    "group": "Stress and stressor"
+  },
+  {
+    "id": "stress-management-021",
+    "front": "Why is stress management important in sport?",
+    "back": "It helps performers control cognitive and physiological responses so they can maintain concentration and perform effectively under pressure.",
+    "subtopicId": "stress-management",
+    "group": "Stress and stressor"
+  },
+  {
+    "id": "stress-management-022",
+    "front": "How can a warm-up help manage stress before performance?",
+    "back": "A structured warm-up gives the performer a familiar routine, reduces uncertainty and helps regulate arousal before competition.",
+    "subtopicId": "stress-management",
+    "group": "Use of warm up as stress management"
+  },
+  {
+    "id": "stress-management-023",
+    "front": "How can a warm-up reduce cognitive stress?",
+    "back": "It directs attention towards relevant movements and performance cues, reducing time available for negative thoughts and worry.",
+    "subtopicId": "stress-management",
+    "group": "Use of warm up as stress management"
+  },
+  {
+    "id": "stress-management-024",
+    "front": "How can a warm-up reduce somatic stress?",
+    "back": "Progressive physical activity can help reduce excessive muscular tension while preparing the body for performance.",
+    "subtopicId": "stress-management",
+    "group": "Use of warm up as stress management"
+  },
+  {
+    "id": "stress-management-025",
+    "front": "How can a familiar pre-performance routine help control stress?",
+    "back": "It gives the performer a sense of control and familiarity, which can reduce anxiety and increase confidence.",
+    "subtopicId": "stress-management",
+    "group": "Use of warm up as stress management"
+  },
+  {
+    "id": "stress-management-026",
+    "front": "How can mental preparation be incorporated into a warm-up?",
+    "back": "Performers can use techniques such as imagery, positive self-talk and controlled breathing alongside physical preparation.",
+    "subtopicId": "stress-management",
+    "group": "Use of warm up as stress management"
+  },
+  {
+    "id": "stress-management-027",
+    "front": "Why should a warm-up help a performer reach an appropriate level of arousal?",
+    "back": "Too little arousal may lead to underperformance, while excessive arousal can increase anxiety and reduce concentration.",
+    "subtopicId": "stress-management",
+    "group": "Use of warm up as stress management"
+  },
+  {
+    "id": "stress-management-028",
+    "front": "Can stress-management techniques target different responses to stress?",
+    "back": "Yes. Cognitive techniques primarily target thoughts and concentration, while somatic techniques primarily target physiological responses.",
+    "subtopicId": "stress-management",
+    "group": "Effects of cognitive and somatice techniques on performer"
+  },
+  {
+    "id": "stress-management-029",
+    "front": "What are the main effects of cognitive stress-management techniques?",
+    "back": "They can reduce negative thoughts, improve concentration, increase confidence and help the performer focus on relevant cues.",
+    "subtopicId": "stress-management",
+    "group": "Effects of cognitive and somatice techniques on performer"
+  },
+  {
+    "id": "stress-management-030",
+    "front": "What are the main effects of somatic stress-management techniques?",
+    "back": "They can reduce muscular tension, heart rate and excessive physiological arousal, helping the performer feel calmer and more controlled.",
+    "subtopicId": "stress-management",
+    "group": "Effects of cognitive and somatice techniques on performer"
+  },
+  {
+    "id": "stress-management-031",
+    "front": "How can stress-management techniques improve performance?",
+    "back": "They help the performer reach an appropriate level of arousal, maintain concentration and execute skills more effectively under pressure.",
+    "subtopicId": "stress-management",
+    "group": "Effects of cognitive and somatice techniques on performer"
+  },
+  {
+    "id": "stress-management-032",
+    "front": "How can cognitive techniques affect confidence?",
+    "back": "They can replace negative thoughts with positive expectations and increase belief in successful performance.",
+    "subtopicId": "stress-management",
+    "group": "Effects of cognitive and somatice techniques on performer"
+  },
+  {
+    "id": "stress-management-033",
+    "front": "How can somatic techniques affect movement quality?",
+    "back": "Reducing excessive muscular tension can improve coordination, fluency, accuracy and efficiency of movement.",
+    "subtopicId": "stress-management",
+    "group": "Effects of cognitive and somatice techniques on performer"
+  },
+  {
+    "id": "stress-management-034",
+    "front": "How can stress-management techniques affect decision-making?",
+    "back": "Reduced anxiety and improved attentional control allow relevant information to be processed more effectively.",
+    "subtopicId": "stress-management",
+    "group": "Effects of cognitive and somatice techniques on performer"
+  },
+  {
+    "id": "stress-management-035",
+    "front": "Why should performers practise stress-management techniques before using them in competition?",
+    "back": "Regular practice makes the techniques familiar and allows them to be used quickly and effectively under pressure.",
+    "subtopicId": "stress-management",
+    "group": "Effects of cognitive and somatice techniques on performer"
+  },
+  {
+    "id": "stress-management-036",
+    "front": "What is psychological skills training?",
+    "back": "The systematic practice of psychological techniques designed to improve mental control and sporting performance.",
+    "subtopicId": "stress-management",
+    "group": "Effects of cognitive and somatice techniques on performer"
+  },
+  {
+    "id": "stress-management-037",
+    "front": "Why do elite performers use psychological skills training?",
+    "back": "To control stress and anxiety, improve concentration and confidence and maintain performance under pressure.",
+    "subtopicId": "stress-management",
+    "group": "Effects of cognitive and somatice techniques on performer"
+  },
+  {
+    "id": "stress-management-038",
+    "front": "What is thought stopping?",
+    "back": "A cognitive technique used to interrupt negative thoughts and redirect attention towards relevant or positive cues.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-039",
+    "front": "How does thought stopping work?",
+    "back": "The performer uses a rehearsed word, thought or action to interrupt negative thinking and refocus attention.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-040",
+    "front": "Why is prior practice important for thought stopping?",
+    "back": "The cue must be rehearsed so that it can quickly trigger a change in attention during performance.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-041",
+    "front": "Give a sporting example of thought stopping.",
+    "back": "A cricketer tapping the bat on the ground after a poor delivery to interrupt negative thoughts and refocus on the next ball.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-042",
+    "front": "What is positive self-talk?",
+    "back": "The use of positive statements or cue words to replace negative thoughts and increase confidence and concentration.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-043",
+    "front": "How does positive self-talk reduce stress?",
+    "back": "It helps challenge negative thinking, increase confidence and maintain focus on controllable aspects of performance.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-044",
+    "front": "Give an example of positive self-talk.",
+    "back": "A performer telling themselves, \"Stay calm, move quickly and attack the ball.\"",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-045",
+    "front": "What is imagery?",
+    "back": "The mental recreation or creation of sporting experiences using the senses without physically performing the action.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-046",
+    "front": "What can imagery include besides the movement itself?",
+    "back": "Visual images, sounds, physical sensations and emotions associated with successful performance.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-047",
+    "front": "How can imagery increase confidence?",
+    "back": "Rehearsing successful performances can create positive expectations and remind the performer of previous success.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-048",
+    "front": "Give a sporting example of imagery.",
+    "back": "A netball shooter imagining the correct technique and the ball passing successfully through the ring before taking a shot.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-049",
+    "front": "What is visualisation?",
+    "back": "A form of imagery in which the performer creates a mental picture of successfully executing a skill or performance.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-050",
+    "front": "Why can visualisation be effective under pressure?",
+    "back": "The performer has mentally rehearsed the situation beforehand, making it feel more familiar when it occurs.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-051",
+    "front": "What is internal imagery?",
+    "back": "Imagining the performance from the performer's own perspective, including the feelings and sensations of the movement.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-052",
+    "front": "What is external imagery?",
+    "back": "Imagining the performance from an outside perspective, as though watching yourself perform.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-053",
+    "front": "How can imagery reduce stress away from performance?",
+    "back": "The performer can imagine a calm and relaxing environment to reduce anxiety and physiological arousal.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-054",
+    "front": "What is mental rehearsal?",
+    "back": "Mentally practising the sequence and execution of a skill without physically performing it.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-055",
+    "front": "Why is mental rehearsal useful for routines?",
+    "back": "It reinforces the sequence of movements and reduces the likelihood of forgetting part of the routine.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-056",
+    "front": "When is mental rehearsal most effective?",
+    "back": "When practised regularly in a calm environment and then applied as part of preparation for performance.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-057",
+    "front": "What is attentional control?",
+    "back": "The ability to direct and switch attention towards the most relevant cues at the appropriate time.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-058",
+    "front": "How can stress affect attentional control?",
+    "back": "Excessive arousal can narrow attention too much, causing the performer to miss relevant information.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-059",
+    "front": "What happens to attentional focus at low levels of arousal?",
+    "back": "Attention may be too broad, allowing irrelevant as well as relevant cues to be processed.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-060",
+    "front": "What can happen to attention at excessively high levels of arousal?",
+    "back": "Attention can become excessively narrow, causing important peripheral information to be missed.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-061",
+    "front": "At what level of arousal is cue utilisation generally most effective?",
+    "back": "At an optimal or moderate level of arousal, where relevant cues can be processed without excessive distraction.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-062",
+    "front": "What is cue utilisation?",
+    "back": "The performer's ability to identify and process relevant information from the sporting environment.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-063",
+    "front": "What is selective attention?",
+    "back": "The process of filtering out irrelevant information and focusing on relevant cues.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-064",
+    "front": "What are the four attentional styles?",
+    "back": "Broad external; Narrow external; Broad internal; Narrow internal.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-065",
+    "front": "What is broad external attention?",
+    "back": "Taking in a wide range of information from the external environment.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-066",
+    "front": "Give an example of broad external attention.",
+    "back": "A midfielder scanning the positions of teammates and opponents before receiving the ball.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-067",
+    "front": "What is narrow external attention?",
+    "back": "Focusing on one or a small number of external cues.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-068",
+    "front": "Give an example of narrow external attention.",
+    "back": "A golfer focusing on the ball and target immediately before putting.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-069",
+    "front": "What is broad internal attention?",
+    "back": "Considering several internal thoughts or pieces of information, often when analysing or planning.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-070",
+    "front": "Give an example of broad internal attention.",
+    "back": "A performer analysing tactics and considering several possible strategies during a break in play.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-071",
+    "front": "What is narrow internal attention?",
+    "back": "Focusing on one specific thought, feeling or internal cue.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-072",
+    "front": "Give an example of narrow internal attention.",
+    "back": "A performer focusing on controlled breathing immediately before performing a skill.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-073",
+    "front": "How can attentional control reduce stress?",
+    "back": "It allows the performer to focus on relevant information rather than distractions or negative thoughts.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-074",
+    "front": "Why are experienced performers often better at attentional control?",
+    "back": "They are better able to identify relevant cues and switch between attentional styles according to the demands of the situation.",
+    "subtopicId": "stress-management",
+    "group": "Explanation of cognitive techniques"
+  },
+  {
+    "id": "stress-management-075",
+    "front": "What are somatic stress-management techniques?",
+    "back": "Techniques designed primarily to reduce the physiological symptoms of stress and excessive arousal.",
+    "subtopicId": "stress-management",
+    "group": "Explanations of somatic techniques"
+  },
+  {
+    "id": "stress-management-076",
+    "front": "What physical effects can somatic stress-management techniques reduce?",
+    "back": "Excessive muscular tension, increased heart rate, rapid breathing and other physiological symptoms of stress.",
+    "subtopicId": "stress-management",
+    "group": "Explanations of somatic techniques"
+  },
+  {
+    "id": "stress-management-077",
+    "front": "Name three somatic stress-management techniques.",
+    "back": "Biofeedback; Progressive muscular relaxation; Centring.",
+    "subtopicId": "stress-management",
+    "group": "Explanations of somatic techniques"
+  },
+  {
+    "id": "stress-management-078",
+    "front": "What is biofeedback?",
+    "back": "A technique that uses physiological measurements to make performers aware of their body's stress responses so they can learn to control them.",
+    "subtopicId": "stress-management",
+    "group": "Explanations of somatic techniques"
+  },
+  {
+    "id": "stress-management-079",
+    "front": "What is the aim of biofeedback?",
+    "back": "To help the performer recognise physiological signs of stress and learn techniques to reduce them.",
+    "subtopicId": "stress-management",
+    "group": "Explanations of somatic techniques"
+  },
+  {
+    "id": "stress-management-080",
+    "front": "What happens once a performer becomes skilled at biofeedback?",
+    "back": "They may learn to recognise and control their stress responses without relying on monitoring equipment.",
+    "subtopicId": "stress-management",
+    "group": "Explanations of somatic techniques"
+  },
+  {
+    "id": "stress-management-081",
+    "front": "What physiological measures can be used in biofeedback?",
+    "back": "Heart rate; Galvanic skin response; Electromyography (EMG).",
+    "subtopicId": "stress-management",
+    "group": "Explanations of somatic techniques"
+  },
+  {
+    "id": "stress-management-082",
+    "front": "What is galvanic skin response?",
+    "back": "A measure of changes in the electrical conductance of the skin associated with sweating.",
+    "subtopicId": "stress-management",
+    "group": "Explanations of somatic techniques"
+  },
+  {
+    "id": "stress-management-083",
+    "front": "What can an increased galvanic skin response indicate?",
+    "back": "Increased sweating associated with greater physiological arousal or stress.",
+    "subtopicId": "stress-management",
+    "group": "Explanations of somatic techniques"
+  },
+  {
+    "id": "stress-management-084",
+    "front": "What is electromyography (EMG)?",
+    "back": "A method of measuring electrical activity in muscles to assess muscular activation and tension.",
+    "subtopicId": "stress-management",
+    "group": "Explanations of somatic techniques"
+  },
+  {
+    "id": "stress-management-085",
+    "front": "Why is recognising physiological stress important?",
+    "back": "It allows the performer to identify increasing arousal and apply relaxation techniques before performance is negatively affected.",
+    "subtopicId": "stress-management",
+    "group": "Explanations of somatic techniques"
+  },
+  {
+    "id": "stress-management-086",
+    "front": "What is progressive muscular relaxation (PMR)?",
+    "back": "A relaxation technique involving systematically tensing and then relaxing different muscle groups.",
+    "subtopicId": "stress-management",
+    "group": "Explanations of somatic techniques"
+  },
+  {
+    "id": "stress-management-087",
+    "front": "How is progressive muscular relaxation performed?",
+    "back": "The performer deliberately tenses a muscle group, holds the tension briefly and then consciously relaxes it before progressing to another muscle group.",
+    "subtopicId": "stress-management",
+    "group": "Explanations of somatic techniques"
+  },
+  {
+    "id": "stress-management-088",
+    "front": "What happens during progressive muscular relaxation?",
+    "back": "The contrast between tension and relaxation helps the performer recognise and reduce excessive muscular tension.",
+    "subtopicId": "stress-management",
+    "group": "Explanations of somatic techniques"
+  },
+  {
+    "id": "stress-management-089",
+    "front": "In what order can muscle groups be relaxed during progressive muscular relaxation?",
+    "back": "The performer can work systematically through the body, progressively tensing and relaxing different muscle groups.",
+    "subtopicId": "stress-management",
+    "group": "Explanations of somatic techniques"
+  },
+  {
+    "id": "stress-management-090",
+    "front": "What is centring?",
+    "back": "A breathing-control technique used to reduce excessive arousal and refocus attention.",
+    "subtopicId": "stress-management",
+    "group": "Explanations of somatic techniques"
+  },
+  {
+    "id": "stress-management-091",
+    "front": "How does centring reduce stress?",
+    "back": "Slow, controlled breathing reduces physiological arousal while directing attention towards the breathing process rather than the stressor.",
+    "subtopicId": "stress-management",
+    "group": "Explanations of somatic techniques"
+  },
+  {
+    "id": "stress-management-092",
+    "front": "What type of breathing is used during centring?",
+    "back": "Slow, deep and controlled diaphragmatic breathing.",
+    "subtopicId": "stress-management",
+    "group": "Explanations of somatic techniques"
+  },
+  {
+    "id": "stress-management-093",
+    "front": "Why can centring reduce stress?",
+    "back": "It helps lower physiological arousal, releases tension and redirects attention away from negative thoughts.",
+    "subtopicId": "stress-management",
+    "group": "Explanations of somatic techniques"
+  },
+  {
+    "id": "stress-management-094",
+    "front": "When can centring be used once mastered?",
+    "back": "It can be used quickly before or during performance whenever the performer needs to regain control.",
+    "subtopicId": "stress-management",
+    "group": "Explanations of somatic techniques"
+  },
+  {
+    "id": "stress-management-095",
+    "front": "Give a sporting example of centring.",
+    "back": "A rugby player using slow, controlled breathing immediately before taking a goal kick.",
+    "subtopicId": "stress-management",
+    "group": "Explanations of somatic techniques"
+  },
+  {
+    "id": "stress-management-096",
+    "front": "Why is centring particularly useful in sport?",
+    "back": "It can be applied quickly during pauses in performance to reduce excessive arousal and restore concentration.",
+    "subtopicId": "stress-management",
+    "group": "Explanations of somatic techniques"
+  }
+]

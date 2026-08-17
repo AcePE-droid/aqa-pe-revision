@@ -1,0 +1,149 @@
+[
+  {
+    "id": "personality-001",
+    "front": "What is the definition of personality?",
+    "back": "The unique psychological characteristics and behavioural patterns that make an individual different from others.",
+    "subtopicId": "personality",
+    "group": "Nature v nurture"
+  },
+  {
+    "id": "personality-002",
+    "front": "What are the two main theories within the nature versus nurture debate of personality?",
+    "back": "Trait theory and social learning theory.",
+    "subtopicId": "personality",
+    "group": "Nature v nurture"
+  },
+  {
+    "id": "personality-003",
+    "front": "What is trait theory?",
+    "back": "The theory that personality is determined by innate characteristics called traits, which are relatively stable and enduring across different situations.",
+    "subtopicId": "personality",
+    "group": "Nature v nurture"
+  },
+  {
+    "id": "personality-004",
+    "front": "Is trait theory associated with nature or nurture?",
+    "back": "Nature.",
+    "subtopicId": "personality",
+    "group": "Nature v nurture"
+  },
+  {
+    "id": "personality-005",
+    "front": "What is a limitation of trait theory?",
+    "back": "It can be considered too simplistic because it underestimates the influence of the environment and different situations on behaviour.",
+    "subtopicId": "personality",
+    "group": "Nature v nurture"
+  },
+  {
+    "id": "personality-006",
+    "front": "What is social learning theory?",
+    "back": "The theory that personality and behaviour are learned from other people, particularly significant others and role models.",
+    "subtopicId": "personality",
+    "group": "Nature v nurture"
+  },
+  {
+    "id": "personality-007",
+    "front": "What is socialisation?",
+    "back": "The process of learning and adopting behaviours, values and attitudes through interaction with others.",
+    "subtopicId": "personality",
+    "group": "Nature v nurture"
+  },
+  {
+    "id": "personality-008",
+    "front": "What are the stages of social learning theory?",
+    "back": "Observe the behaviour of others; observe whether the behaviour is reinforced; imitate reinforced behaviour; repeated learned behaviours can become part of personality.",
+    "subtopicId": "personality",
+    "group": "Nature v nurture"
+  },
+  {
+    "id": "personality-009",
+    "front": "What is an advantage of social learning theory?",
+    "back": "It explains how personality and behaviour can develop and change through interaction with the environment.",
+    "subtopicId": "personality",
+    "group": "Nature v nurture"
+  },
+  {
+    "id": "personality-010",
+    "front": "What is a limitation of social learning theory?",
+    "back": "It can underestimate the influence of innate and genetic factors on personality.",
+    "subtopicId": "personality",
+    "group": "Nature v nurture"
+  },
+  {
+    "id": "personality-011",
+    "front": "What is the interactionist perspective?",
+    "back": "The view that behaviour and personality are influenced by an interaction between inherited traits and environmental or situational factors.",
+    "subtopicId": "personality",
+    "group": "Interactionist perspective"
+  },
+  {
+    "id": "personality-012",
+    "front": "What are the two interactionist approaches to personality?",
+    "back": "Lewin's interactionist approach and Hollander's personality structure.",
+    "subtopicId": "personality",
+    "group": "Interactionist perspective"
+  },
+  {
+    "id": "personality-013",
+    "front": "What is Lewin's approach to personality?",
+    "back": "Behaviour results from the interaction between an individual's personality and their environment.",
+    "subtopicId": "personality",
+    "group": "Interactionist perspective"
+  },
+  {
+    "id": "personality-014",
+    "front": "What does Lewin's approach suggest about the traits we are born with?",
+    "back": "Inherited traits may be adapted and expressed differently depending on the situation or environment.",
+    "subtopicId": "personality",
+    "group": "Interactionist perspective"
+  },
+  {
+    "id": "personality-015",
+    "front": "What is Lewin's formula?",
+    "back": "B = f(P × E), meaning behaviour is a function of personality and environment.",
+    "subtopicId": "personality",
+    "group": "Interactionist perspective"
+  },
+  {
+    "id": "personality-016",
+    "front": "What is Hollander's interactionist theory of personality?",
+    "back": "A model of personality consisting of three layers: the psychological core, typical responses and role-related behaviour.",
+    "subtopicId": "personality",
+    "group": "Interactionist perspective"
+  },
+  {
+    "id": "personality-017",
+    "front": "What does the inner layer of Hollander's personality structure represent?",
+    "back": "The psychological core; the most stable and enduring part of personality, representing the individual's beliefs, values and attitudes.",
+    "subtopicId": "personality",
+    "group": "Interactionist perspective"
+  },
+  {
+    "id": "personality-018",
+    "front": "What does the middle layer of Hollander's personality structure represent?",
+    "back": "Typical responses; the usual ways an individual responds to different situations, which can be influenced by the environment.",
+    "subtopicId": "personality",
+    "group": "Interactionist perspective"
+  },
+  {
+    "id": "personality-019",
+    "front": "What does the outer layer of Hollander's personality structure represent?",
+    "back": "Role-related behaviour; the most changeable aspect of personality, where behaviour changes according to the situation and role being performed.",
+    "subtopicId": "personality",
+    "group": "Interactionist perspective"
+  },
+  {
+    "id": "personality-020",
+    "front": "What are three ways the interactionist perspective can be used to improve sporting performance?",
+    "back": "-A coach can anticipate how a performer may behave in particular situations and intervene when necessary, such as substituting a player who is becoming aggressive. -A nervous performer can practise performing under pressure or in front of spectators during training. -A coach can help a performer adapt their behaviour to specific situations, such as taking penalties under pressure.",
+    "subtopicId": "personality",
+    "group": "Interactionist perspective to imrpove performance"
+  },
+  {
+    "id": "personality-021",
+    "front": "How can understanding personality help improve sporting performance?",
+    "back": "Understanding individual differences in personality can help coaches adapt their approach to performers and identify how individuals may respond to situations such as pressure, competition and anxiety.",
+    "subtopicId": "personality",
+    "group": "Interactionist perspective to imrpove performance"
+  }
+]

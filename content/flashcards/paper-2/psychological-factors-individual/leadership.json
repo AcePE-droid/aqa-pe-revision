@@ -1,0 +1,394 @@
+[
+  {
+    "id": "leadership-001",
+    "front": "What is a leader?",
+    "back": "Someone who influences others to help them achieve their goals.",
+    "subtopicId": "leadership",
+    "group": "Characteristics of effective leaders"
+  },
+  {
+    "id": "leadership-002",
+    "front": "Why are leadership qualities important?",
+    "back": "They help a leader influence the group effectively and achieve its goals.",
+    "subtopicId": "leadership",
+    "group": "Characteristics of effective leaders"
+  },
+  {
+    "id": "leadership-003",
+    "front": "What is charisma in leadership?",
+    "back": "A quality that gives a leader a strong presence and encourages others to listen to and follow them.",
+    "subtopicId": "leadership",
+    "group": "Characteristics of effective leaders"
+  },
+  {
+    "id": "leadership-004",
+    "front": "Why is communication important for a leader?",
+    "back": "It allows the leader to clearly communicate information, instructions and feedback to the group.",
+    "subtopicId": "leadership",
+    "group": "Characteristics of effective leaders"
+  },
+  {
+    "id": "leadership-005",
+    "front": "What are interpersonal skills in leadership?",
+    "back": "The ability to interact and communicate effectively with other people.",
+    "subtopicId": "leadership",
+    "group": "Characteristics of effective leaders"
+  },
+  {
+    "id": "leadership-006",
+    "front": "What is empathy in leadership?",
+    "back": "The ability to understand and consider the feelings and viewpoints of others.",
+    "subtopicId": "leadership",
+    "group": "Characteristics of effective leaders"
+  },
+  {
+    "id": "leadership-007",
+    "front": "Why is experience important for a leader?",
+    "back": "It provides knowledge and understanding developed through previous situations.",
+    "subtopicId": "leadership",
+    "group": "Characteristics of effective leaders"
+  },
+  {
+    "id": "leadership-008",
+    "front": "What does it mean for a leader to be inspirational?",
+    "back": "Being able to motivate and encourage others to persist when situations become difficult.",
+    "subtopicId": "leadership",
+    "group": "Characteristics of effective leaders"
+  },
+  {
+    "id": "leadership-009",
+    "front": "Why is confidence important in a leader?",
+    "back": "A confident leader can increase the confidence and belief of group members.",
+    "subtopicId": "leadership",
+    "group": "Characteristics of effective leaders"
+  },
+  {
+    "id": "leadership-010",
+    "front": "What are organisational skills in leadership?",
+    "back": "The ability to effectively plan, organise and prepare training and performance.",
+    "subtopicId": "leadership",
+    "group": "Characteristics of effective leaders"
+  },
+  {
+    "id": "leadership-011",
+    "front": "What are leadership styles?",
+    "back": "The different approaches a leader can use when leading a group.",
+    "subtopicId": "leadership",
+    "group": "Styles of leadership"
+  },
+  {
+    "id": "leadership-012",
+    "front": "Who identified three main leadership styles?",
+    "back": "Kurt Lewin.",
+    "subtopicId": "leadership",
+    "group": "Styles of leadership"
+  },
+  {
+    "id": "leadership-013",
+    "front": "What are the three leadership styles identified by Lewin?",
+    "back": "Autocratic; Democratic; Laissez-faire.",
+    "subtopicId": "leadership",
+    "group": "Styles of leadership"
+  },
+  {
+    "id": "leadership-014",
+    "front": "What is an autocratic leadership style?",
+    "back": "A leadership style in which the leader makes the decisions and gives instructions with little or no input from the group.",
+    "subtopicId": "leadership",
+    "group": "Styles of leadership"
+  },
+  {
+    "id": "leadership-015",
+    "front": "What is task-oriented leadership?",
+    "back": "A leadership approach focused on achieving goals, completing tasks and producing results.",
+    "subtopicId": "leadership",
+    "group": "Styles of leadership"
+  },
+  {
+    "id": "leadership-016",
+    "front": "What is a democratic leadership style?",
+    "back": "A leadership style in which the leader involves group members in the decision-making process.",
+    "subtopicId": "leadership",
+    "group": "Styles of leadership"
+  },
+  {
+    "id": "leadership-017",
+    "front": "What is person-oriented leadership?",
+    "back": "A leadership approach focused on relationships, communication and the needs of group members.",
+    "subtopicId": "leadership",
+    "group": "Styles of leadership"
+  },
+  {
+    "id": "leadership-018",
+    "front": "What is a key advantage of democratic leadership?",
+    "back": "Group members have greater involvement and responsibility and may be able to continue effectively when the leader is absent.",
+    "subtopicId": "leadership",
+    "group": "Styles of leadership"
+  },
+  {
+    "id": "leadership-019",
+    "front": "What is a laissez-faire leadership style?",
+    "back": "A leadership style in which the leader gives group members considerable responsibility and freedom to make decisions.",
+    "subtopicId": "leadership",
+    "group": "Styles of leadership"
+  },
+  {
+    "id": "leadership-020",
+    "front": "What is a potential disadvantage of laissez-faire leadership?",
+    "back": "Less motivated or inexperienced performers may lack direction and reduce their effort.",
+    "subtopicId": "leadership",
+    "group": "Styles of leadership"
+  },
+  {
+    "id": "leadership-021",
+    "front": "When is autocratic leadership most effective?",
+    "back": "When quick decisions, clear direction and strong control are required.",
+    "subtopicId": "leadership",
+    "group": "Leadership styles for different sporting situations"
+  },
+  {
+    "id": "leadership-022",
+    "front": "When might an autocratic leadership style be appropriate in sport?",
+    "back": "In dangerous situations, under time pressure, with large groups or with inexperienced performers who require clear instructions.",
+    "subtopicId": "leadership",
+    "group": "Leadership styles for different sporting situations"
+  },
+  {
+    "id": "leadership-023",
+    "front": "When is democratic leadership most effective?",
+    "back": "When performers are experienced, motivated and able to contribute effectively to decision-making.",
+    "subtopicId": "leadership",
+    "group": "Leadership styles for different sporting situations"
+  },
+  {
+    "id": "leadership-024",
+    "front": "When might a democratic leadership style be appropriate in sport?",
+    "back": "When developing tactics or strategies with experienced performers who can contribute useful ideas.",
+    "subtopicId": "leadership",
+    "group": "Leadership styles for different sporting situations"
+  },
+  {
+    "id": "leadership-025",
+    "front": "When is laissez-faire leadership most effective?",
+    "back": "When performers are highly experienced, knowledgeable and intrinsically motivated.",
+    "subtopicId": "leadership",
+    "group": "Leadership styles for different sporting situations"
+  },
+  {
+    "id": "leadership-026",
+    "front": "What factors should determine the leadership style used in sport?",
+    "back": "The situation, task, time available, group characteristics, performer experience and motivation.",
+    "subtopicId": "leadership",
+    "group": "Leadership styles for different sporting situations"
+  },
+  {
+    "id": "leadership-027",
+    "front": "What are the two types of leader?",
+    "back": "Prescribed leaders and emergent leaders.",
+    "subtopicId": "leadership",
+    "group": "Perscribed amd emergent leaders"
+  },
+  {
+    "id": "leadership-028",
+    "front": "What is a prescribed leader?",
+    "back": "A leader who is formally appointed to the leadership role by an external authority.",
+    "subtopicId": "leadership",
+    "group": "Perscribed amd emergent leaders"
+  },
+  {
+    "id": "leadership-029",
+    "front": "What is an emergent leader?",
+    "back": "A leader who naturally emerges from within the group because of their influence, skills or personality.",
+    "subtopicId": "leadership",
+    "group": "Perscribed amd emergent leaders"
+  },
+  {
+    "id": "leadership-030",
+    "front": "What is a sporting example of a prescribed leader?",
+    "back": "A coach appointed by a club to manage a team.",
+    "subtopicId": "leadership",
+    "group": "Perscribed amd emergent leaders"
+  },
+  {
+    "id": "leadership-031",
+    "front": "What is a sporting example of an emergent leader?",
+    "back": "An experienced player who naturally begins to motivate, organise and influence teammates.",
+    "subtopicId": "leadership",
+    "group": "Perscribed amd emergent leaders"
+  },
+  {
+    "id": "leadership-032",
+    "front": "What is Fiedler's Contingency Theory of leadership?",
+    "back": "A theory stating that the effectiveness of a leadership style depends on how favourable the situation is.",
+    "subtopicId": "leadership",
+    "group": "Fielder's contigency theory"
+  },
+  {
+    "id": "leadership-033",
+    "front": "What key factor does Fiedler's Contingency Theory focus on?",
+    "back": "The favourableness of the situation.",
+    "subtopicId": "leadership",
+    "group": "Fielder's contigency theory"
+  },
+  {
+    "id": "leadership-034",
+    "front": "What determines how favourable a situation is in Fiedler's theory?",
+    "back": "Leader-member relations; Task structure; Leader's position of power.",
+    "subtopicId": "leadership",
+    "group": "Fielder's contigency theory"
+  },
+  {
+    "id": "leadership-035",
+    "front": "What are leader-member relations?",
+    "back": "The quality of the relationship, trust and respect between the leader and group members.",
+    "subtopicId": "leadership",
+    "group": "Fielder's contigency theory"
+  },
+  {
+    "id": "leadership-036",
+    "front": "What is task structure?",
+    "back": "The extent to which the task is clearly defined and understood.",
+    "subtopicId": "leadership",
+    "group": "Fielder's contigency theory"
+  },
+  {
+    "id": "leadership-037",
+    "front": "What is the leader's position of power?",
+    "back": "The amount of authority and control the leader has over the group.",
+    "subtopicId": "leadership",
+    "group": "Fielder's contigency theory"
+  },
+  {
+    "id": "leadership-038",
+    "front": "What is a highly favourable situation?",
+    "back": "A situation where leader-member relations are good, the task is clearly structured and the leader has strong authority.",
+    "subtopicId": "leadership",
+    "group": "Fielder's contigency theory"
+  },
+  {
+    "id": "leadership-039",
+    "front": "What is a highly unfavourable situation?",
+    "back": "A situation where leader-member relations are poor, the task is unclear and the leader has weak authority.",
+    "subtopicId": "leadership",
+    "group": "Fielder's contigency theory"
+  },
+  {
+    "id": "leadership-040",
+    "front": "What is a moderately favourable situation?",
+    "back": "A situation that falls between highly favourable and highly unfavourable conditions.",
+    "subtopicId": "leadership",
+    "group": "Fielder's contigency theory"
+  },
+  {
+    "id": "leadership-041",
+    "front": "Which leadership approach is most effective in highly favourable situations?",
+    "back": "Task-oriented leadership.",
+    "subtopicId": "leadership",
+    "group": "Fielder's contigency theory"
+  },
+  {
+    "id": "leadership-042",
+    "front": "Which leadership approach is most effective in highly unfavourable situations?",
+    "back": "Task-oriented leadership.",
+    "subtopicId": "leadership",
+    "group": "Fielder's contigency theory"
+  },
+  {
+    "id": "leadership-043",
+    "front": "Which leadership approach is most effective in moderately favourable situations?",
+    "back": "Person-oriented leadership.",
+    "subtopicId": "leadership",
+    "group": "Fielder's contigency theory"
+  },
+  {
+    "id": "leadership-044",
+    "front": "What leadership style is commonly associated with task-oriented leadership?",
+    "back": "Autocratic leadership.",
+    "subtopicId": "leadership",
+    "group": "Fielder's contigency theory"
+  },
+  {
+    "id": "leadership-045",
+    "front": "What leadership style is commonly associated with person-oriented leadership?",
+    "back": "Democratic leadership.",
+    "subtopicId": "leadership",
+    "group": "Fielder's contigency theory"
+  },
+  {
+    "id": "leadership-046",
+    "front": "Why can task-oriented leadership be effective in highly unfavourable situations?",
+    "back": "It provides clear instructions, structure and direction when the group requires strong leadership.",
+    "subtopicId": "leadership",
+    "group": "Fielder's contigency theory"
+  },
+  {
+    "id": "leadership-047",
+    "front": "What is Chelladurai's Multidimensional Model of Leadership?",
+    "back": "A sport-specific model explaining how leadership effectiveness depends on the interaction between situational characteristics, leader characteristics and member characteristics.",
+    "subtopicId": "leadership",
+    "group": "Challadurais multi-dimensional model"
+  },
+  {
+    "id": "leadership-048",
+    "front": "What does Chelladurai's model suggest leads to optimum performance and satisfaction?",
+    "back": "A match between required behaviour, preferred behaviour and actual leader behaviour.",
+    "subtopicId": "leadership",
+    "group": "Challadurais multi-dimensional model"
+  },
+  {
+    "id": "leadership-049",
+    "front": "Why is Chelladurai's model particularly relevant to sport?",
+    "back": "It considers the characteristics of the sporting situation, the leader and the performers.",
+    "subtopicId": "leadership",
+    "group": "Challadurais multi-dimensional model"
+  },
+  {
+    "id": "leadership-050",
+    "front": "What are situational characteristics in Chelladurai's model?",
+    "back": "Factors relating to the sporting environment and task, such as time pressure, opposition and the type of activity.",
+    "subtopicId": "leadership",
+    "group": "Challadurais multi-dimensional model"
+  },
+  {
+    "id": "leadership-051",
+    "front": "What are leader characteristics in Chelladurai's model?",
+    "back": "Characteristics such as the leader's personality, experience and leadership style.",
+    "subtopicId": "leadership",
+    "group": "Challadurais multi-dimensional model"
+  },
+  {
+    "id": "leadership-052",
+    "front": "What are member characteristics in Chelladurai's model?",
+    "back": "Characteristics of the performers, such as age, experience, motivation and skill level.",
+    "subtopicId": "leadership",
+    "group": "Challadurais multi-dimensional model"
+  },
+  {
+    "id": "leadership-053",
+    "front": "What is required behaviour in Chelladurai's model?",
+    "back": "The leadership behaviour required by the demands of the situation.",
+    "subtopicId": "leadership",
+    "group": "Challadurais multi-dimensional model"
+  },
+  {
+    "id": "leadership-054",
+    "front": "What is preferred behaviour in Chelladurai's model?",
+    "back": "The leadership behaviour preferred by the performers.",
+    "subtopicId": "leadership",
+    "group": "Challadurais multi-dimensional model"
+  },
+  {
+    "id": "leadership-055",
+    "front": "What is actual behaviour in Chelladurai's model?",
+    "back": "The leadership behaviour actually displayed by the leader.",
+    "subtopicId": "leadership",
+    "group": "Challadurais multi-dimensional model"
+  },
+  {
+    "id": "leadership-056",
+    "front": "When are maximum performance and satisfaction most likely to be achieved according to Chelladurai's model?",
+    "back": "When actual leader behaviour closely matches both the required behaviour of the situation and the preferred behaviour of the group.",
+    "subtopicId": "leadership",
+    "group": "Challadurais multi-dimensional model"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "levers-001",
+    "front": "What are the three classes of lever?",
+    "back": "First-class lever = Effort–Fulcrum–Resistance; Second-class lever = Fulcrum–Resistance–Effort; Third-class lever = Fulcrum–Effort–Resistance.",
+    "subtopicId": "levers",
+    "group": "Three classes of levers"
+  },
+  {
+    "id": "levers-002",
+    "front": "What are examples of first-class levers in the body?",
+    "back": "Flexion and extension of the head and neck; extension of the elbow using the triceps.",
+    "subtopicId": "levers",
+    "group": "Three classes of levers"
+  },
+  {
+    "id": "levers-003",
+    "front": "What is an example of a second-class lever in the body?",
+    "back": "Plantar flexion at the ankle, such as pushing up onto the toes when jumping for a header.",
+    "subtopicId": "levers",
+    "group": "Three classes of levers"
+  },
+  {
+    "id": "levers-004",
+    "front": "What are examples of third-class levers in the body?",
+    "back": "Most levers in the body are third class; examples include flexion at the elbow using the biceps and flexion at the hip and knee.",
+    "subtopicId": "levers",
+    "group": "Three classes of levers"
+  },
+  {
+    "id": "levers-005",
+    "front": "What are two benefits of lever systems?",
+    "back": "They can allow a large resistance to be moved with a relatively small effort, or increase the speed and range of movement at the end of a lever.",
+    "subtopicId": "levers",
+    "group": "Three classes of levers"
+  },
+  {
+    "id": "levers-006",
+    "front": "What happens when the fulcrum is closer to the resistance in a first-class lever?",
+    "back": "The effort arm becomes longer than the resistance arm, creating a mechanical advantage and allowing a larger resistance to be moved with less effort.",
+    "subtopicId": "levers",
+    "group": "Three classes of levers"
+  },
+  {
+    "id": "levers-007",
+    "front": "What happens when the fulcrum is closer to the effort in a first-class lever?",
+    "back": "The resistance arm becomes longer, creating a mechanical disadvantage but allowing greater speed and range of movement at the resistance end.",
+    "subtopicId": "levers",
+    "group": "Three classes of levers"
+  },
+  {
+    "id": "levers-008",
+    "front": "Why is the position of the fulcrum important in a lever system?",
+    "back": "It affects the relative lengths of the effort and resistance arms, influencing mechanical advantage, force, speed and range of movement.",
+    "subtopicId": "levers",
+    "group": "Three classes of levers"
+  },
+  {
+    "id": "levers-009",
+    "front": "What is an advantage of a second-class lever?",
+    "back": "It has a mechanical advantage, allowing a large resistance to be moved with a relatively small effort.",
+    "subtopicId": "levers",
+    "group": "Three classes of levers"
+  },
+  {
+    "id": "levers-010",
+    "front": "What is a disadvantage of a second-class lever?",
+    "back": "It produces less speed and range of movement at the resistance end compared with a third-class lever.",
+    "subtopicId": "levers",
+    "group": "Three classes of levers"
+  },
+  {
+    "id": "levers-011",
+    "front": "What is an advantage of first- and third-class levers?",
+    "back": "They can provide a large range of movement and high speed at the end of the lever when operating with a mechanical disadvantage.",
+    "subtopicId": "levers",
+    "group": "Three classes of levers"
+  },
+  {
+    "id": "levers-012",
+    "front": "What is a disadvantage of first- and third-class levers?",
+    "back": "When operating with a mechanical disadvantage, a relatively large effort is required to move the resistance.",
+    "subtopicId": "levers",
+    "group": "Three classes of levers"
+  },
+  {
+    "id": "levers-013",
+    "front": "What is mechanical advantage and what is its formula?",
+    "back": "Mechanical advantage occurs when the effort arm is longer than the resistance arm, allowing a relatively small effort to move a larger resistance; Mechanical advantage = Effort arm ÷ Resistance arm.",
+    "subtopicId": "levers",
+    "group": "Mechancial advantage and disadvantage"
+  },
+  {
+    "id": "levers-014",
+    "front": "What are the features of a mechanical advantage?",
+    "back": "A relatively small effort can move a larger resistance; the effort arm is longer than the resistance arm; second-class levers always have a mechanical advantage.",
+    "subtopicId": "levers",
+    "group": "Mechancial advantage and disadvantage"
+  },
+  {
+    "id": "levers-015",
+    "front": "What is a mechanical disadvantage?",
+    "back": "A mechanical disadvantage occurs when the resistance arm is longer than the effort arm, meaning a greater effort is required to move the resistance.",
+    "subtopicId": "levers",
+    "group": "Mechancial advantage and disadvantage"
+  },
+  {
+    "id": "levers-016",
+    "front": "What are the features of a mechanical disadvantage?",
+    "back": "Third-class levers always have a mechanical disadvantage; they can increase the speed and range of movement at the end of the lever.",
+    "subtopicId": "levers",
+    "group": "Mechancial advantage and disadvantage"
+  }
+]

@@ -1,0 +1,667 @@
+[
+  {
+    "id": "preparation-training-methods-001",
+    "front": "What is quantitative data?",
+    "back": "Numerical data that can be measured and recorded.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Key terms relating to labratory conditions"
+  },
+  {
+    "id": "preparation-training-methods-002",
+    "front": "Give an example of quantitative data from fitness testing.",
+    "back": "The distance covered during the Cooper 12-minute run.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Key terms relating to labratory conditions"
+  },
+  {
+    "id": "preparation-training-methods-003",
+    "front": "What is qualitative data?",
+    "back": "Descriptive, non-numerical data based on qualities, opinions or feelings.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Key terms relating to labratory conditions"
+  },
+  {
+    "id": "preparation-training-methods-004",
+    "front": "Give an example of qualitative data.",
+    "back": "A performer's description of how difficult an exercise felt.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Key terms relating to labratory conditions"
+  },
+  {
+    "id": "preparation-training-methods-005",
+    "front": "What is objective data?",
+    "back": "Data based on facts and measurements that are not influenced by personal opinion.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Key terms relating to labratory conditions"
+  },
+  {
+    "id": "preparation-training-methods-006",
+    "front": "Give an example of objective data.",
+    "back": "A performer's score on the multi-stage fitness test (bleep test).",
+    "subtopicId": "preparation-training-methods",
+    "group": "Key terms relating to labratory conditions"
+  },
+  {
+    "id": "preparation-training-methods-007",
+    "front": "What is subjective data?",
+    "back": "Data based on personal opinions, judgements or feelings.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Key terms relating to labratory conditions"
+  },
+  {
+    "id": "preparation-training-methods-008",
+    "front": "Which types of data can the Borg Scale produce?",
+    "back": "Subjective and quantitative data.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Key terms relating to labratory conditions"
+  },
+  {
+    "id": "preparation-training-methods-009",
+    "front": "What is the Borg Scale used to measure?",
+    "back": "A performer's rating of perceived exertion (RPE), indicating how hard they feel they are working.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Key terms relating to labratory conditions"
+  },
+  {
+    "id": "preparation-training-methods-010",
+    "front": "What is validity?",
+    "back": "The extent to which a test measures what it is intended to measure.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Key terms relating to labratory conditions"
+  },
+  {
+    "id": "preparation-training-methods-011",
+    "front": "Why is sport specificity important for validity?",
+    "back": "A fitness test should reflect the fitness component and, where appropriate, the movements and demands of the sport being assessed.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Key terms relating to labratory conditions"
+  },
+  {
+    "id": "preparation-training-methods-012",
+    "front": "What is reliability?",
+    "back": "The ability of a test to produce consistent results when repeated under the same conditions.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Key terms relating to labratory conditions"
+  },
+  {
+    "id": "preparation-training-methods-013",
+    "front": "Name one factor that can improve reliability.",
+    "back": "Using standardised equipment and procedures.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Key terms relating to labratory conditions"
+  },
+  {
+    "id": "preparation-training-methods-014",
+    "front": "Name another factor that can improve reliability.",
+    "back": "Using an experienced tester.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Key terms relating to labratory conditions"
+  },
+  {
+    "id": "preparation-training-methods-015",
+    "front": "Why can human error reduce reliability?",
+    "back": "Errors in timing, recording or measurement can cause inconsistent results.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Key terms relating to labratory conditions"
+  },
+  {
+    "id": "preparation-training-methods-016",
+    "front": "Why can the 30 m sprint test have limited validity?",
+    "back": "It primarily measures acceleration and speed over 30 m, so it may not reflect the specific speed demands of every sport.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Key terms relating to labratory conditions"
+  },
+  {
+    "id": "preparation-training-methods-017",
+    "front": "Why can the Illinois Agility Test have limited validity?",
+    "back": "The predetermined movement pattern may not reflect the reactive and sport-specific agility required in many activities, such as racket or invasion games.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Key terms relating to labratory conditions"
+  },
+  {
+    "id": "preparation-training-methods-018",
+    "front": "What is stage 1 of a warm-up?",
+    "back": "Cardiovascular exercise to gradually increase heart rate, breathing rate and body temperature.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Warm up and cool down"
+  },
+  {
+    "id": "preparation-training-methods-019",
+    "front": "What happens to heart rate during a warm-up?",
+    "back": "Heart rate gradually increases to increase blood flow and oxygen delivery to the working muscles.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Warm up and cool down"
+  },
+  {
+    "id": "preparation-training-methods-020",
+    "front": "What is vascular shunting?",
+    "back": "The redistribution of blood so that more blood is directed towards the working muscles and less to areas with a lower demand.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Warm up and cool down"
+  },
+  {
+    "id": "preparation-training-methods-021",
+    "front": "What is stage 2 of a warm-up?",
+    "back": "Stretching to increase flexibility and range of movement.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Warm up and cool down"
+  },
+  {
+    "id": "preparation-training-methods-022",
+    "front": "What is static stretching?",
+    "back": "A stretch in which a muscle is lengthened and held in a fixed position without movement.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Warm up and cool down"
+  },
+  {
+    "id": "preparation-training-methods-023",
+    "front": "What is ballistic stretching?",
+    "back": "A form of stretching that uses fast, bouncing or jerking movements to increase range of movement.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Warm up and cool down"
+  },
+  {
+    "id": "preparation-training-methods-024",
+    "front": "Who should use ballistic stretching?",
+    "back": "Experienced and well-trained performers who require dynamic ranges of movement specific to their activity.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Warm up and cool down"
+  },
+  {
+    "id": "preparation-training-methods-025",
+    "front": "What is stage 3 of a warm-up?",
+    "back": "Sport- and skill-specific practice that prepares the performer for the movements required in the activity.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Warm up and cool down"
+  },
+  {
+    "id": "preparation-training-methods-026",
+    "front": "Why does warming up reduce the risk of injury?",
+    "back": "It increases muscle temperature and elasticity, allowing muscles and connective tissues to move through a greater range of movement.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Warm up and cool down"
+  },
+  {
+    "id": "preparation-training-methods-027",
+    "front": "What physiological change helps oxygen dissociate from haemoglobin during a warm-up?",
+    "back": "An increase in muscle and blood temperature, which encourages oxygen to dissociate more readily from haemoglobin.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Warm up and cool down"
+  },
+  {
+    "id": "preparation-training-methods-028",
+    "front": "What happens to synovial fluid during a warm-up?",
+    "back": "Synovial fluid becomes less viscous, improving lubrication and allowing smoother movement at synovial joints.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Warm up and cool down"
+  },
+  {
+    "id": "preparation-training-methods-029",
+    "front": "What is the purpose of a cool-down?",
+    "back": "To gradually return the body towards resting levels while maintaining blood flow to aid recovery.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Warm up and cool down"
+  },
+  {
+    "id": "preparation-training-methods-030",
+    "front": "Why does a cool-down help prevent blood pooling?",
+    "back": "It maintains the skeletal muscle pump, helping venous return and preventing blood from pooling in the veins.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Warm up and cool down"
+  },
+  {
+    "id": "preparation-training-methods-031",
+    "front": "What is DOMS?",
+    "back": "Delayed Onset Muscle Soreness; muscle soreness and stiffness that typically develops following strenuous or unfamiliar exercise.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Warm up and cool down"
+  },
+  {
+    "id": "preparation-training-methods-032",
+    "front": "What type of muscle contraction is particularly associated with DOMS?",
+    "back": "Eccentric muscle contractions.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Warm up and cool down"
+  },
+  {
+    "id": "preparation-training-methods-033",
+    "front": "What are the principles of training?",
+    "back": "Specificity; Progression; Overload; Reversibility; Recovery.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Principles of training"
+  },
+  {
+    "id": "preparation-training-methods-034",
+    "front": "What is specificity in training?",
+    "back": "Training should be relevant to the demands of the sport, including the energy systems, muscles, skills, movements, intensity and duration involved.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Principles of training"
+  },
+  {
+    "id": "preparation-training-methods-035",
+    "front": "What is progression in training?",
+    "back": "Gradually increasing the demands of training as the performer's fitness and ability improve.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Principles of training"
+  },
+  {
+    "id": "preparation-training-methods-036",
+    "front": "What is overload in training?",
+    "back": "Training at a greater level than the body is accustomed to in order to cause physiological adaptations and improve fitness.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Principles of training"
+  },
+  {
+    "id": "preparation-training-methods-037",
+    "front": "What is reversibility?",
+    "back": "The principle that training adaptations and fitness gains can be lost when training is reduced or stopped.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Principles of training"
+  },
+  {
+    "id": "preparation-training-methods-038",
+    "front": "What is reversibility also known as?",
+    "back": "Detraining.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Principles of training"
+  },
+  {
+    "id": "preparation-training-methods-039",
+    "front": "Why is recovery important in training?",
+    "back": "It allows the body to repair and adapt following training while reducing the risk of overtraining and injury.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Principles of training"
+  },
+  {
+    "id": "preparation-training-methods-040",
+    "front": "What recovery ratio can be used when planning training?",
+    "back": "A 3:1 ratio can be used, such as three training days followed by one recovery day, although recovery requirements depend on the performer and training demands.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Principles of training"
+  },
+  {
+    "id": "preparation-training-methods-041",
+    "front": "What does FITT stand for?",
+    "back": "Frequency; Intensity; Time; Type.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Principles of training"
+  },
+  {
+    "id": "preparation-training-methods-042",
+    "front": "What is frequency in training?",
+    "back": "How often training takes place.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Principles of training"
+  },
+  {
+    "id": "preparation-training-methods-043",
+    "front": "What is intensity in training?",
+    "back": "How hard the performer trains.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Principles of training"
+  },
+  {
+    "id": "preparation-training-methods-044",
+    "front": "What is time in training?",
+    "back": "The duration of each training session.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Principles of training"
+  },
+  {
+    "id": "preparation-training-methods-045",
+    "front": "What is type in training?",
+    "back": "The method or form of training used, which should be specific to the performer's training goals.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Principles of training"
+  },
+  {
+    "id": "preparation-training-methods-046",
+    "front": "What is periodisation?",
+    "back": "The division of a training programme into structured periods or cycles to help a performer achieve peak performance at the appropriate time.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Periodisation"
+  },
+  {
+    "id": "preparation-training-methods-047",
+    "front": "What are the three training cycles used in periodisation?",
+    "back": "Macrocycle; Mesocycle; Microcycle.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Periodisation"
+  },
+  {
+    "id": "preparation-training-methods-048",
+    "front": "What is a macrocycle?",
+    "back": "The longest training cycle, covering an extended period and working towards a long-term performance goal.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Periodisation"
+  },
+  {
+    "id": "preparation-training-methods-049",
+    "front": "Give an example of a macrocycle in athletics.",
+    "back": "A four-year training programme leading up to the Olympic Games.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Periodisation"
+  },
+  {
+    "id": "preparation-training-methods-050",
+    "front": "Give an example of a macrocycle in football.",
+    "back": "A full competitive season.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Periodisation"
+  },
+  {
+    "id": "preparation-training-methods-051",
+    "front": "What are the three periods within a macrocycle?",
+    "back": "The preparation period; Competition period; Transition period.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Periodisation"
+  },
+  {
+    "id": "preparation-training-methods-052",
+    "front": "What is the preparation period?",
+    "back": "The period in which training focuses on developing the fitness and skills required for competition.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Periodisation"
+  },
+  {
+    "id": "preparation-training-methods-053",
+    "front": "What is the competition period?",
+    "back": "The period in which training focuses on maintaining fitness and refining skills and tactics for competition.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Periodisation"
+  },
+  {
+    "id": "preparation-training-methods-054",
+    "front": "What is the transition period?",
+    "back": "The period following competition that focuses on active recovery and physical and psychological regeneration.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Periodisation"
+  },
+  {
+    "id": "preparation-training-methods-055",
+    "front": "What is a mesocycle?",
+    "back": "A medium-term training cycle, typically lasting several weeks, that focuses on developing a particular aspect of performance.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Periodisation"
+  },
+  {
+    "id": "preparation-training-methods-056",
+    "front": "What might a sprinter focus on during a mesocycle?",
+    "back": "A specific component of fitness such as speed or power.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Periodisation"
+  },
+  {
+    "id": "preparation-training-methods-057",
+    "front": "What might a marathon runner focus on during a mesocycle?",
+    "back": "Aerobic endurance.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Periodisation"
+  },
+  {
+    "id": "preparation-training-methods-058",
+    "front": "What is a microcycle?",
+    "back": "A short-term training cycle, typically lasting around one week.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Periodisation"
+  },
+  {
+    "id": "preparation-training-methods-059",
+    "front": "What does a microcycle include?",
+    "back": "Individual training sessions, competition and recovery or rest days.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Periodisation"
+  },
+  {
+    "id": "preparation-training-methods-060",
+    "front": "Give an example of a microcycle.",
+    "back": "A Monday-to-Sunday weekly training programme.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Periodisation"
+  },
+  {
+    "id": "preparation-training-methods-061",
+    "front": "What is peaking?",
+    "back": "Planning and organising training so that a performer reaches their optimal physical and psychological condition for a major competition.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Periodisation"
+  },
+  {
+    "id": "preparation-training-methods-062",
+    "front": "What is tapering?",
+    "back": "The planned reduction in training volume before a major competition to reduce fatigue and allow the performer to reach peak performance.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Periodisation"
+  },
+  {
+    "id": "preparation-training-methods-063",
+    "front": "What is tapering?",
+    "back": "The planned reduction in training volume before a major competition to reduce fatigue and allow the performer to reach peak performance.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-064",
+    "front": "Why is tapering used?",
+    "back": "To reduce accumulated fatigue and allow adequate recovery while maintaining fitness before competition.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-065",
+    "front": "When does tapering usually occur?",
+    "back": "During the final phase of training before a major competition.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-066",
+    "front": "What is the main benefit of tapering?",
+    "back": "It allows the performer to recover from training and maximise performance while reducing the risk of overtraining.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-067",
+    "front": "What is peaking?",
+    "back": "Planning and organising training so that a performer reaches their optimal physical and psychological condition for a major competition.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-068",
+    "front": "Why is peaking important?",
+    "back": "It helps ensure the performer produces their best possible performance at the most important competition.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-069",
+    "front": "What factors does peaking consider?",
+    "back": "Physical readiness and psychological readiness.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-070",
+    "front": "What is double periodisation?",
+    "back": "Planning the training year so that a performer reaches peak performance twice within the same year or season.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-071",
+    "front": "Why might a performer use double periodisation?",
+    "back": "To reach peak performance for two important competitions or competitive periods within the same year.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-072",
+    "front": "Give an example of double periodisation in athletics.",
+    "back": "A distance runner peaking for both the cross-country season and the track season.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-073",
+    "front": "Give an example of double periodisation in team sports.",
+    "back": "A footballer aiming to peak for important periods of both club and international competition.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-074",
+    "front": "What type of training year is required for double periodisation?",
+    "back": "A double-periodised training year containing two planned performance peaks.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-075",
+    "front": "What does continuous training develop?",
+    "back": "It primarily develops aerobic endurance through sustained, low-to-moderate intensity exercise without rest intervals.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-076",
+    "front": "What is an advantage of continuous training?",
+    "back": "It improves cardiovascular endurance and aerobic capacity.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-077",
+    "front": "What is a disadvantage of continuous training?",
+    "back": "It can be monotonous and time-consuming.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-078",
+    "front": "What is fartlek training?",
+    "back": "A training method in which the speed and intensity of continuous exercise are varied to stress both the aerobic and anaerobic energy systems.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-079",
+    "front": "What are some characteristics of fartlek training?",
+    "back": "-It involves continuous exercise at varying intensities. -The performer can vary the intensity and duration. -It can include changes in speed and terrain.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-080",
+    "front": "What are the advantages of fartlek training?",
+    "back": "-Develops aerobic and anaerobic fitness. -Can improve recovery between changes in intensity. -Provides greater variety than steady-paced continuous training.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-081",
+    "front": "What is a disadvantage of fartlek training?",
+    "back": "It can be difficult to monitor and control training intensity accurately.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-082",
+    "front": "What does interval training develop?",
+    "back": "It can develop both aerobic and anaerobic fitness depending on the intensity, duration and recovery periods used.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-083",
+    "front": "How does interval training work?",
+    "back": "Periods of exercise are alternated with periods of recovery, with the work-to-rest ratio adapted to the performer's training goals.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-084",
+    "front": "What is an advantage of interval training?",
+    "back": "It is highly adaptable and can be manipulated to develop different components of fitness and energy systems.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-085",
+    "front": "What is a disadvantage of interval training?",
+    "back": "High-intensity interval training can cause significant fatigue and may increase injury risk if recovery is inadequate.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-086",
+    "front": "What is circuit training?",
+    "back": "A series of exercises performed at different stations, with each station targeting a particular activity or component of fitness.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-087",
+    "front": "What is important when planning circuit training?",
+    "back": "The number and variety of stations, work and recovery periods and exercise order should be planned so that appropriate muscle groups can recover between stations.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-088",
+    "front": "What are the advantages of circuit training?",
+    "back": "It can develop a range of fitness components, can be adapted to different performers and can be completed individually or as a group.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-089",
+    "front": "What are the disadvantages of circuit training?",
+    "back": "It can require significant equipment, space and preparation time, particularly when training large groups.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-090",
+    "front": "What is weight training?",
+    "back": "A form of resistance training involving free weights, resistance machines or other forms of resistance to develop muscular strength, power or endurance.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-091",
+    "front": "What are the advantages of weight training?",
+    "back": "It can be adapted to develop muscular strength, power or muscular endurance and can target specific muscle groups.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-092",
+    "front": "What are the disadvantages of weight training?",
+    "back": "Incorrect technique or excessive resistance can increase the risk of injury, and additional muscle mass may disadvantage some endurance performers.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-093",
+    "front": "What is PNF stretching?",
+    "back": "An advanced flexibility method involving a passive stretch followed by an isometric contraction and relaxation of the target muscle before it is stretched further to increase range of movement.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-094",
+    "front": "What is an advantage of PNF stretching?",
+    "back": "It is highly effective at increasing flexibility and range of movement at a joint.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  },
+  {
+    "id": "preparation-training-methods-095",
+    "front": "What is a disadvantage of PNF stretching?",
+    "back": "It can increase the risk of injury if performed incorrectly and often requires assistance from a trained partner or coach.",
+    "subtopicId": "preparation-training-methods",
+    "group": "Training methods"
+  }
+]

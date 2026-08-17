@@ -1,0 +1,618 @@
+[
+  {
+    "id": "injury-prevention-rehabilitation-001",
+    "front": "What is an acute injury?",
+    "back": "An injury that occurs suddenly during exercise or competition, often causing immediate pain.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Acute injuries"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-002",
+    "front": "What is a transverse fracture?",
+    "back": "A fracture that runs straight across the bone, perpendicular to its long axis.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Acute injuries"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-003",
+    "front": "What is an open or compound fracture?",
+    "back": "A fracture in which the broken bone pierces the skin or there is an open wound exposing the fracture.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Acute injuries"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-004",
+    "front": "What is an oblique fracture?",
+    "back": "A fracture that runs diagonally across the bone.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Acute injuries"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-005",
+    "front": "What is a comminuted fracture?",
+    "back": "A fracture in which the bone breaks into three or more pieces.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Acute injuries"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-006",
+    "front": "What is a greenstick fracture?",
+    "back": "An incomplete fracture in which the bone bends and cracks rather than breaking completely; it is most common in children.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Acute injuries"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-007",
+    "front": "What is a spiral fracture?",
+    "back": "A fracture that twists around the bone in a spiral pattern.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Acute injuries"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-008",
+    "front": "What are the two main types of sports injury?",
+    "back": "Acute injuries and chronic injuries.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Acute injuries"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-009",
+    "front": "What is a linear fracture?",
+    "back": "A fracture that runs parallel to the length of the bone.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Acute injuries"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-010",
+    "front": "Give two examples of acute injuries.",
+    "back": "A sprained ankle and a torn ligament.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Acute injuries"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-011",
+    "front": "What type of pain is commonly associated with acute injuries?",
+    "back": "Sudden and often severe pain.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Acute injuries"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-012",
+    "front": "What are two functional signs of an acute injury?",
+    "back": "Restricted movement and significant weakness in the affected limb.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Acute injuries"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-013",
+    "front": "What is a chronic injury?",
+    "back": "An injury that develops gradually over time, usually as a result of repetitive stress or overuse.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Chronic injuries"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-014",
+    "front": "What are common characteristics of chronic injuries?",
+    "back": "They develop gradually, can persist for a long period and may initially be ignored by performers.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Chronic injuries"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-015",
+    "front": "Give two examples of chronic injuries.",
+    "back": "Achilles tendinopathy and tennis elbow.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Chronic injuries"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-016",
+    "front": "What is tendinopathy?",
+    "back": "Pain and impaired function of a tendon, commonly associated with repetitive loading or overuse.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Chronic injuries"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-017",
+    "front": "What does the Achilles tendon connect?",
+    "back": "The calf muscles to the heel bone (calcaneus).",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Chronic injuries"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-018",
+    "front": "What activities commonly place repeated stress on the Achilles tendon?",
+    "back": "Walking, running and jumping.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Chronic injuries"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-019",
+    "front": "Where do stress fractures most commonly occur?",
+    "back": "In weight-bearing bones, particularly those of the lower leg and foot.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Chronic injuries"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-020",
+    "front": "What commonly causes stress fractures?",
+    "back": "Repeated stress on a bone, often caused by a rapid increase in training volume or intensity without adequate recovery.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Chronic injuries"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-021",
+    "front": "Why can fatigued muscles contribute to stress fractures?",
+    "back": "Fatigued muscles become less effective at absorbing shock, causing more stress to be transferred to the bones.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Chronic injuries"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-022",
+    "front": "What part of the body does tennis elbow affect?",
+    "back": "The tendons that attach the forearm muscles to the outside of the elbow.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Chronic injuries"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-023",
+    "front": "What happens to the tendon in tennis elbow?",
+    "back": "Repeated overuse can cause small amounts of tendon damage and degeneration, resulting in pain.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Chronic injuries"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-024",
+    "front": "What are the symptoms of tennis elbow?",
+    "back": "Pain and tenderness around the outside of the elbow, which may worsen during gripping or wrist movements.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Chronic injuries"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-025",
+    "front": "What causes tennis elbow?",
+    "back": "Repetitive stress and overuse of the forearm muscles and tendons.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Chronic injuries"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-026",
+    "front": "What are the six ways of reducing the risk of injury?",
+    "back": "Warming up; Screening; Protective equipment; Flexibility training; Taping and bracing; Correct technique.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Injury prevention"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-027",
+    "front": "What is the main purpose of screening in sport?",
+    "back": "To identify potential health problems, injury risks or physical weaknesses before participation, helping to reduce the risk of injury and improve performance.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Injury prevention"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-028",
+    "front": "How can screening benefit performers before symptoms appear?",
+    "back": "It can identify potential health problems or injury risks before symptoms develop.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Injury prevention"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-029",
+    "front": "How can screening potentially be life-saving for performers?",
+    "back": "It can identify serious health conditions, such as cardiac abnormalities, that may increase the risk of sudden cardiac death during exercise.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Injury prevention"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-030",
+    "front": "Why do sports governing bodies encourage cardiac screening?",
+    "back": "To identify performers who may have previously undetected cardiac abnormalities that could place them at risk during intense exercise.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Injury prevention"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-031",
+    "front": "What is the purpose of musculoskeletal screening in professional sport?",
+    "back": "To identify potential injury risk factors by assessing areas such as muscle imbalances, joint range of movement, posture, mobility and stability.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Injury prevention"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-032",
+    "front": "Besides reducing injury risk, how else can screening benefit performers?",
+    "back": "It can help improve performance by identifying physical weaknesses or imbalances that can then be addressed through training.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Injury prevention"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-033",
+    "front": "What is a potential disadvantage of screening related to accuracy?",
+    "back": "Screening is not always completely accurate and may produce false-positive or false-negative results.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Injury prevention"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-034",
+    "front": "How can screening negatively affect a performer's psychological well-being?",
+    "back": "It may increase anxiety or worry if a potential health problem or increased injury risk is identified.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Injury prevention"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-035",
+    "front": "What is the main goal of flexibility training?",
+    "back": "To increase range of movement at a joint by improving the extensibility of muscles and connective tissues.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Injury prevention"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-036",
+    "front": "What does passive stretching involve?",
+    "back": "Using an external force, such as a partner, another body part or an object, to move a joint through a greater range of movement.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Injury prevention"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-037",
+    "front": "What is static stretching?",
+    "back": "Moving a joint to the end of its comfortable range of movement and holding the position without movement for a period of time.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Injury prevention"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-038",
+    "front": "What is active stretching?",
+    "back": "Using the strength of the agonist muscle to move and hold a joint in a stretched position without external assistance.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Injury prevention"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-039",
+    "front": "What is ballistic stretching?",
+    "back": "A dynamic form of stretching that uses fast, bouncing or jerking movements to increase range of movement.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Injury prevention"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-040",
+    "front": "Who should use ballistic stretching?",
+    "back": "Experienced and well-trained performers whose activity requires explosive or dynamic ranges of movement.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Injury prevention"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-041",
+    "front": "What is the purpose of taping a weak or injured joint?",
+    "back": "To provide additional support and stability, helping to reduce unwanted movement and the risk of further injury.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Injury prevention"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-042",
+    "front": "When is taping commonly used in sport?",
+    "back": "It may be used during rehabilitation or return to sport following an injury, such as an ankle sprain, to provide additional support.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Injury prevention"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-043",
+    "front": "How is bracing different from taping?",
+    "back": "A brace is a supportive device that is generally more substantial than tape and may include rigid or hinged components to provide additional stability.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Injury prevention"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-044",
+    "front": "What is the main aim of using a brace?",
+    "back": "To support and stabilise a weak or previously injured joint and reduce the risk of further injury.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Injury prevention"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-045",
+    "front": "What are the five methods of rehabilitation?",
+    "back": "Cryotherapy; Proprioceptive training; Hydrotherapy; Strength training; Hyperbaric oxygen therapy.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Recovery methods"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-046",
+    "front": "What is the aim of using a hyperbaric chamber during injury recovery?",
+    "back": "To potentially accelerate recovery by increasing the amount of oxygen available to body tissues.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Recovery methods"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-047",
+    "front": "What is the environment like inside a hyperbaric chamber?",
+    "back": "It contains 100% oxygen at a pressure greater than normal atmospheric pressure.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Recovery methods"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-048",
+    "front": "Why can increased pressure in a hyperbaric chamber aid recovery?",
+    "back": "The increased pressure allows more oxygen to dissolve into the blood plasma, increasing oxygen delivery to body tissues.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Recovery methods"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-049",
+    "front": "How can hyperbaric oxygen therapy potentially aid injury recovery?",
+    "back": "It can increase oxygen delivery to damaged tissues, which may support tissue repair and reduce swelling.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Recovery methods"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-050",
+    "front": "How does cryotherapy treat injuries?",
+    "back": "By cooling the injured area to reduce pain, blood flow and swelling.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Recovery methods"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-051",
+    "front": "What does RICE stand for?",
+    "back": "Rest; Ice; Compression; Elevation.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Recovery methods"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-052",
+    "front": "What is the analgesic effect of cryotherapy?",
+    "back": "The pain-reducing effect produced by cooling the injured area and decreasing nerve activity.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Recovery methods"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-053",
+    "front": "What is the purpose of whole-body cryotherapy (WBC)?",
+    "back": "To expose the body to extremely cold temperatures for a short period, with the aim of reducing pain and supporting recovery.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Recovery methods"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-054",
+    "front": "How cold can a whole-body cryotherapy chamber become?",
+    "back": "Temperatures can fall below −100°C.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Recovery methods"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-055",
+    "front": "What protective clothing is worn during whole-body cryotherapy?",
+    "back": "Protective clothing is worn over the extremities, such as gloves, socks and suitable footwear, to reduce the risk of cold injury.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Recovery methods"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-056",
+    "front": "How long does a person typically remain in a whole-body cryotherapy chamber?",
+    "back": "Usually no longer than a few minutes, commonly around 2–3 minutes.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Recovery methods"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-057",
+    "front": "What happens during whole-body cryotherapy?",
+    "back": "-The body is briefly exposed to extremely cold air. -Peripheral blood vessels constrict, reducing blood flow towards the skin and extremities. -After leaving the chamber, the body gradually rewarms and blood flow to the peripheral tissues increases.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Recovery methods"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-058",
+    "front": "Where does hydrotherapy typically take place?",
+    "back": "In a warm-water pool.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Recovery methods"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-059",
+    "front": "What are three benefits of hydrotherapy?",
+    "back": "-Can improve circulation. -Can reduce pain and muscle tension. -Allows controlled movement during rehabilitation.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Recovery methods"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-060",
+    "front": "How does water help adjust exercise intensity during hydrotherapy?",
+    "back": "Buoyancy supports body weight and reduces loading, while water resistance can be used to increase the difficulty of movements.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Recovery methods"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-061",
+    "front": "Why is buoyancy helpful during injury rehabilitation?",
+    "back": "It reduces the load placed on joints and injured structures, allowing movements and exercises that may be difficult on land.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Recovery methods"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-062",
+    "front": "How does water resistance benefit an injured area during hydrotherapy?",
+    "back": "It provides resistance to movement, allowing muscles to be progressively strengthened in a controlled environment.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Recovery methods"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-063",
+    "front": "What are four types of strength training that can be used during rehabilitation?",
+    "back": "Free weights; Resistance machines; Body-weight exercises; Resistance bands.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Recovery methods"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-064",
+    "front": "What is an advantage of free weights during rehabilitation?",
+    "back": "Exercises can be adapted to target specific muscles and replicate sport-specific movement patterns.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Recovery methods"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-065",
+    "front": "What is a disadvantage of free weights during rehabilitation?",
+    "back": "Incorrect technique or excessive resistance can increase the risk of further injury.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Recovery methods"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-066",
+    "front": "What is an advantage of resistance machines during rehabilitation?",
+    "back": "They provide controlled movement and resistance, which can be useful when gradually rebuilding strength.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Recovery methods"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-067",
+    "front": "What is a disadvantage of resistance machines during rehabilitation?",
+    "back": "The fixed movement path can limit range of movement and may be less sport-specific than free-weight exercises.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Recovery methods"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-068",
+    "front": "What is an advantage of body-weight exercises during rehabilitation?",
+    "back": "They can provide relatively low resistance and can be adapted to suit the early stages of rehabilitation.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Recovery methods"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-069",
+    "front": "What is a disadvantage of body-weight exercises during rehabilitation?",
+    "back": "It can be more difficult to progressively increase resistance compared with other strength-training methods.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Recovery methods"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-070",
+    "front": "What is an advantage of resistance bands during rehabilitation?",
+    "back": "Different bands provide varying levels of resistance, allowing the performer to progressively increase the difficulty of exercises.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Recovery methods"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-071",
+    "front": "What is a disadvantage of resistance bands during rehabilitation?",
+    "back": "Bands can deteriorate or snap if damaged or used incorrectly, potentially causing injury.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Recovery methods"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-072",
+    "front": "What is proprioception?",
+    "back": "The body's ability to sense the position and movement of its joints and limbs without relying on vision.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Physiological reasons for rehabilitation"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-073",
+    "front": "What is the goal of proprioceptive training?",
+    "back": "To retrain the body to subconsciously control the position and movement of an injured joint.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Physiological reasons for rehabilitation"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-074",
+    "front": "Why is proprioceptive training important after an injury?",
+    "back": "Injury can impair proprioception, muscle function and coordination, so training helps restore joint stability and movement control.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Physiological reasons for rehabilitation"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-075",
+    "front": "What types of exercises are used in proprioceptive training?",
+    "back": "Balance and coordination exercises that challenge joint stability and neuromuscular control.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Physiological reasons for rehabilitation"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-076",
+    "front": "What are the advantages of proprioceptive training?",
+    "back": "-Improves joint stability. -Reduces the risk of re-injury. -Improves coordination and balance. -Improves awareness of joint position.",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Physiological reasons for rehabilitation"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-077",
+    "front": "Why is sleep important for recovery?",
+    "back": "Sleep allows the body to recover from exercise; Increases growth hormone production; Allows damaged muscle tissue to be repaired; Reduces fatigue; Improves concentration and reaction time; Reduces the risk of injury",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Sleep and nutrition for recovery"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-078",
+    "front": "How does sleep help repair muscles?",
+    "back": "Growth hormone production increases during sleep, helping repair damaged muscle tissue and supporting recovery",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Sleep and nutrition for recovery"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-079",
+    "front": "How does sleep affect protein and muscle recovery?",
+    "back": "Sleep supports the repair and rebuilding of muscle tissue following exercise",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Sleep and nutrition for recovery"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-080",
+    "front": "How does sleep affect blood supply and recovery?",
+    "back": "During non-REM sleep less blood is needed by the brain, allowing more blood to be available to the muscles to aid recovery",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Sleep and nutrition for recovery"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-081",
+    "front": "How does sleep affect reaction time and concentration?",
+    "back": "Sufficient sleep reduces tiredness and improves concentration and reaction time; Lack of sleep can delay reaction time and negatively affect performance",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Sleep and nutrition for recovery"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-082",
+    "front": "How does sleep affect injury risk?",
+    "back": "Sufficient sleep allows greater recovery and maintains concentration; Lack of sleep can increase injury risk due to reduced concentration and insufficient recovery",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Sleep and nutrition for recovery"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-083",
+    "front": "What can happen to performance if a performer does not get enough sleep?",
+    "back": "Increased fatigue; Slower recovery; Reduced concentration; Delayed reaction time; Increased risk of injury; Reduced performance",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Sleep and nutrition for recovery"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-084",
+    "front": "Why is nutrition important for recovery?",
+    "back": "Nutrition replenishes energy stores; Provides protein for growth and repair; Replaces fluids lost through exercise; Provides nutrients required for normal body functioning",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Sleep and nutrition for recovery"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-085",
+    "front": "Why are carbohydrates important for recovery?",
+    "back": "Carbohydrates replenish glycogen stores that have been depleted during exercise, providing energy for subsequent exercise",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Sleep and nutrition for recovery"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-086",
+    "front": "Why is protein important for recovery?",
+    "back": "Protein is required for growth and repair of muscle tissue damaged during exercise",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Sleep and nutrition for recovery"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-087",
+    "front": "Why is hydration important for recovery?",
+    "back": "Water replaces fluids lost through sweating and helps restore normal hydration levels following exercise",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Sleep and nutrition for recovery"
+  },
+  {
+    "id": "injury-prevention-rehabilitation-088",
+    "front": "What nutrients are particularly important for recovery after exercise?",
+    "back": "Carbohydrates to replenish glycogen stores; Protein for growth and repair; Water to restore hydration",
+    "subtopicId": "injury-prevention-rehabilitation",
+    "group": "Sleep and nutrition for recovery"
+  }
+]

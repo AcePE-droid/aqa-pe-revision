@@ -1,0 +1,450 @@
+[
+  {
+    "id": "diet-nutrition-001",
+    "front": "Why are carbohydrates important for a sports performer?",
+    "back": "They provide energy for exercise; low glycaemic index (GI) carbohydrates provide a slower, more sustained release of glucose, while high GI carbohydrates provide a faster release of glucose for rapid energy availability.",
+    "subtopicId": "diet-nutrition",
+    "group": "Exercise related function of food classes"
+  },
+  {
+    "id": "diet-nutrition-002",
+    "front": "What are the two types of carbohydrates?",
+    "back": "Complex carbohydrates – generally provide a slower, more sustained release of energy. Simple carbohydrates – generally provide a faster source of energy.",
+    "subtopicId": "diet-nutrition",
+    "group": "Exercise related function of food classes"
+  },
+  {
+    "id": "diet-nutrition-003",
+    "front": "What are some examples of foods high in carbohydrates?",
+    "back": "Potatoes, bread, rice and cereals.",
+    "subtopicId": "diet-nutrition",
+    "group": "Exercise related function of food classes"
+  },
+  {
+    "id": "diet-nutrition-004",
+    "front": "How do fats support normal bodily function?",
+    "back": "Fats are a major source of energy, particularly during low-intensity aerobic activity; they also provide insulation and protection for vital organs.",
+    "subtopicId": "diet-nutrition",
+    "group": "Exercise related function of food classes"
+  },
+  {
+    "id": "diet-nutrition-005",
+    "front": "Why are fats important for a sports performer?",
+    "back": "They provide an important source of energy during prolonged, low-intensity aerobic exercise and can help increase body mass when required.",
+    "subtopicId": "diet-nutrition",
+    "group": "Exercise related function of food classes"
+  },
+  {
+    "id": "diet-nutrition-006",
+    "front": "What are the three types of fats?",
+    "back": "Saturated fats; Unsaturated fats; Trans fats.",
+    "subtopicId": "diet-nutrition",
+    "group": "Exercise related function of food classes"
+  },
+  {
+    "id": "diet-nutrition-007",
+    "front": "What are unsaturated fats?",
+    "back": "Fats that are generally liquid at room temperature and are commonly found in plant oils, nuts, seeds and oily fish; they are considered the healthier type of dietary fat.",
+    "subtopicId": "diet-nutrition",
+    "group": "Exercise related function of food classes"
+  },
+  {
+    "id": "diet-nutrition-008",
+    "front": "What are saturated fats?",
+    "back": "Fats that are generally solid at room temperature and are commonly found in animal products such as meat and dairy; intake should be moderated as excessive consumption can negatively affect cardiovascular health.",
+    "subtopicId": "diet-nutrition",
+    "group": "Exercise related function of food classes"
+  },
+  {
+    "id": "diet-nutrition-009",
+    "front": "What are trans fats?",
+    "back": "Unsaturated fats that have been chemically altered through hydrogenation; they can increase LDL cholesterol and decrease HDL cholesterol, increasing the risk of cardiovascular disease.",
+    "subtopicId": "diet-nutrition",
+    "group": "Exercise related function of food classes"
+  },
+  {
+    "id": "diet-nutrition-010",
+    "front": "How do proteins support normal bodily function?",
+    "back": "Proteins are essential for growth and repair of body tissues and are used to produce enzymes, hormones and haemoglobin.",
+    "subtopicId": "diet-nutrition",
+    "group": "Exercise related function of food classes"
+  },
+  {
+    "id": "diet-nutrition-011",
+    "front": "Why are proteins important for a sports performer?",
+    "back": "They support the growth and repair of muscle tissue following exercise and can also provide a minor source of energy.",
+    "subtopicId": "diet-nutrition",
+    "group": "Exercise related function of food classes"
+  },
+  {
+    "id": "diet-nutrition-012",
+    "front": "What are six important vitamins and how do they support normal bodily function?",
+    "back": "Vitamin C – maintains healthy cells and connective tissues. Vitamin D – aids calcium absorption and supports healthy bones. Vitamin B1 – helps release energy from food and supports the nervous system. Vitamin B2 – helps maintain healthy skin and eyes and assists energy release. Vitamin B6 – helps form haemoglobin and release energy from food. Vitamin B12 – helps form red blood cells and release energy from food.",
+    "subtopicId": "diet-nutrition",
+    "group": "Exercise related function of food classes"
+  },
+  {
+    "id": "diet-nutrition-013",
+    "front": "Why are vitamins important for a sports performer?",
+    "back": "They support processes such as energy release, red blood cell production and bone health, helping the body function effectively during exercise.",
+    "subtopicId": "diet-nutrition",
+    "group": "Exercise related function of food classes"
+  },
+  {
+    "id": "diet-nutrition-014",
+    "front": "What are three important minerals?",
+    "back": "Calcium; Iron; Sodium.",
+    "subtopicId": "diet-nutrition",
+    "group": "Exercise related function of food classes"
+  },
+  {
+    "id": "diet-nutrition-015",
+    "front": "How does calcium support normal bodily function?",
+    "back": "It helps maintain strong bones and teeth and contributes to normal muscle function.",
+    "subtopicId": "diet-nutrition",
+    "group": "Exercise related function of food classes"
+  },
+  {
+    "id": "diet-nutrition-016",
+    "front": "How does iron support normal bodily function?",
+    "back": "It is required for the formation of haemoglobin, which transports oxygen in the blood.",
+    "subtopicId": "diet-nutrition",
+    "group": "Exercise related function of food classes"
+  },
+  {
+    "id": "diet-nutrition-017",
+    "front": "How does sodium support normal bodily function?",
+    "back": "It helps regulate fluid balance and contributes to nerve impulses and muscle contractions; excessive sodium intake can increase blood pressure and cardiovascular disease risk.",
+    "subtopicId": "diet-nutrition",
+    "group": "Exercise related function of food classes"
+  },
+  {
+    "id": "diet-nutrition-018",
+    "front": "Why are minerals important for a sports performer?",
+    "back": "Iron supports haemoglobin production and therefore oxygen transport; calcium supports strong bones and muscle function; sodium helps regulate fluid balance, nerve impulses and muscle contractions.",
+    "subtopicId": "diet-nutrition",
+    "group": "Exercise related function of food classes"
+  },
+  {
+    "id": "diet-nutrition-019",
+    "front": "How does fibre support normal bodily function?",
+    "back": "It supports a healthy digestive system, helps regulate bowel function and can slow the absorption of glucose.",
+    "subtopicId": "diet-nutrition",
+    "group": "Exercise related function of food classes"
+  },
+  {
+    "id": "diet-nutrition-020",
+    "front": "Why is fibre important for a sports performer?",
+    "back": "It supports digestive health and helps maintain a balanced diet, allowing the body to obtain the nutrients required for normal function and performance.",
+    "subtopicId": "diet-nutrition",
+    "group": "Exercise related function of food classes"
+  },
+  {
+    "id": "diet-nutrition-021",
+    "front": "How does water support normal bodily function?",
+    "back": "Water makes up approximately 60% of body mass and is essential for transporting nutrients, waste products and hormones around the body.",
+    "subtopicId": "diet-nutrition",
+    "group": "Exercise related function of food classes"
+  },
+  {
+    "id": "diet-nutrition-022",
+    "front": "Why is water important for a sports performer?",
+    "back": "It helps regulate body temperature, replace fluid lost through sweating and prevent dehydration during exercise.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-023",
+    "front": "What is glycogen loading?",
+    "back": "A form of dietary manipulation used to increase muscle glycogen stores above their normal levels before prolonged endurance exercise.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-024",
+    "front": "What is the body's preferred fuel during high-intensity endurance exercise?",
+    "back": "Carbohydrate stored as muscle glycogen.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-025",
+    "front": "What happens if glycogen is used faster than it can be replaced?",
+    "back": "Glycogen stores become depleted.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-026",
+    "front": "What are the effects of depleted glycogen stores during exercise?",
+    "back": "Fatigue occurs and the performer becomes unable to maintain the same exercise intensity and duration.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-027",
+    "front": "What type of diet does an endurance athlete need to replenish glycogen stores?",
+    "back": "A carbohydrate-rich diet.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-028",
+    "front": "How much carbohydrate should an endurance athlete consume each day?",
+    "back": "Approximately 6–10 g of carbohydrate per kilogram of body mass per day, depending on training demands.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-029",
+    "front": "What should an athlete do in the three days before an endurance event?",
+    "back": "Increase carbohydrate intake while reducing training intensity to maximise muscle glycogen stores.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-030",
+    "front": "What does the traditional six-day glycogen-loading method involve during the first three days?",
+    "back": "A low-carbohydrate, higher-protein diet combined with relatively high-intensity exercise to deplete existing glycogen stores.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-031",
+    "front": "What type of training is performed during the depletion phase of traditional glycogen loading?",
+    "back": "Relatively high-intensity exercise designed to reduce existing muscle glycogen stores.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-032",
+    "front": "What is the intended benefit of depleting glycogen stores before the loading phase?",
+    "back": "The subsequent high-carbohydrate diet can cause glycogen supercompensation, increasing muscle glycogen stores above normal levels.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-033",
+    "front": "How does glycogen loading help endurance performance?",
+    "back": "Increased muscle glycogen stores delay fatigue and reduce the likelihood of the performer \"hitting the wall.\"",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-034",
+    "front": "What is a positive effect of glycogen loading on endurance performance?",
+    "back": "It delays fatigue and increases endurance capacity.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-035",
+    "front": "What is a key muscular benefit of glycogen loading?",
+    "back": "It increases the amount of glycogen stored within the muscles.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-036",
+    "front": "What is a common negative effect during the depletion phase of traditional glycogen loading?",
+    "back": "Reduced energy levels, which can negatively affect training and performance.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-037",
+    "front": "What emotional side effect can occur during the depletion phase of glycogen loading?",
+    "back": "Irritability.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-038",
+    "front": "What negative effect can the carbohydrate-loading phase have on body mass?",
+    "back": "Increased glycogen storage is accompanied by increased water retention, which can cause temporary weight gain and bloating.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-039",
+    "front": "What physical drawbacks can occur during the carbohydrate-loading phase?",
+    "back": "Increased body mass, feelings of heaviness and possible digestive discomfort.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-040",
+    "front": "When should carbohydrate intake begin after exercise to replenish glycogen stores?",
+    "back": "As soon as possible after exercise, particularly during the early recovery period when glycogen synthesis is elevated.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-041",
+    "front": "Why is consuming carbohydrates soon after exercise beneficial for glycogen replenishment?",
+    "back": "The rate of muscle glycogen synthesis is elevated after exercise, so early carbohydrate intake can accelerate glycogen restoration.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-042",
+    "front": "What carbohydrate-to-protein ratio is commonly recommended in a post-exercise recovery drink such as chocolate milk?",
+    "back": "Approximately 3:1 to 4:1 carbohydrates to protein.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-043",
+    "front": "Why can chocolate milk be effective for post-exercise recovery?",
+    "back": "It provides carbohydrates to replenish glycogen, protein to support muscle repair and fluid to aid rehydration.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-044",
+    "front": "What is an additional benefit of consuming a recovery drink such as chocolate milk after exercise?",
+    "back": "It provides fluid for rehydration and can be a convenient way to consume carbohydrates and protein soon after exercise.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-045",
+    "front": "What is creatine monohydrate used for?",
+    "back": "It is used to increase phosphocreatine (PC) stores within the muscles, increasing the availability of energy for short-duration, high-intensity exercise.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-046",
+    "front": "What effect does creatine have on the ATP-PC system?",
+    "back": "It increases phosphocreatine stores, allowing ATP to be resynthesised more rapidly and helping maintain high-intensity performance for slightly longer; it can also improve recovery between repeated high-intensity efforts.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-047",
+    "front": "What is a key goal of creatine supplementation?",
+    "back": "To increase the availability of phosphocreatine so ATP can be rapidly resynthesised during short bursts of high-intensity activity.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-048",
+    "front": "What is one muscular benefit of creatine supplementation?",
+    "back": "It can contribute to increases in muscle mass and strength when combined with resistance training.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-049",
+    "front": "What are some possible side effects of creatine supplementation?",
+    "back": "-Water retention and weight gain. -Bloating. -Gastrointestinal discomfort such as diarrhoea or stomach cramps.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-050",
+    "front": "How might creatine negatively affect performance?",
+    "back": "Increased body mass caused partly by water retention may disadvantage performers in endurance or weight-bearing activities.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-051",
+    "front": "What is a criticism regarding the effectiveness of creatine?",
+    "back": "The benefits vary between individuals and are most relevant to repeated short-duration, high-intensity activities rather than all types of performance.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-052",
+    "front": "What is sodium bicarbonate used for in sport?",
+    "back": "It acts as a buffer, helping neutralise excess hydrogen ions produced during high-intensity exercise and reducing the decline in muscle pH.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-053",
+    "front": "What is \"soda loading\"?",
+    "back": "The ingestion of sodium bicarbonate before exercise to increase the body's buffering capacity, helping reduce acidity and delay fatigue during high-intensity exercise.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-054",
+    "front": "What are the benefits of sodium bicarbonate for athletes?",
+    "back": "-Helps buffer hydrogen ions. -Delays fatigue during high-intensity exercise. -May allow high-intensity exercise to be maintained for longer.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-055",
+    "front": "What are the negative side effects of sodium bicarbonate?",
+    "back": "-Vomiting. -Stomach pain. -Cramping. -Diarrhoea. -Bloating.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-056",
+    "front": "What type of supplement is caffeine?",
+    "back": "A stimulant that increases alertness and can reduce the perception of fatigue.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-057",
+    "front": "How can caffeine affect energy use during exercise?",
+    "back": "Caffeine may increase fat mobilisation and can help spare muscle glycogen during prolonged aerobic exercise.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-058",
+    "front": "Who commonly uses caffeine and why?",
+    "back": "Endurance performers commonly use caffeine because it can reduce perceived exertion and fatigue, helping maintain prolonged performance.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-059",
+    "front": "What dose of caffeine can be effective for improving performance?",
+    "back": "Approximately 3–6 mg of caffeine per kilogram of body mass is commonly used to improve exercise performance.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-060",
+    "front": "What are four positive effects of caffeine on performance?",
+    "back": "-Increases mental alertness. -Reduces the perception of fatigue. -May help spare muscle glycogen during prolonged exercise. -Can improve concentration and reaction time.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-061",
+    "front": "How can caffeine benefit endurance athletes?",
+    "back": "It can reduce perceived exertion and fatigue and may increase fat mobilisation, helping preserve glycogen during prolonged exercise.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-062",
+    "front": "What is a possible concern regarding caffeine and hydration?",
+    "back": "Caffeine has a mild diuretic effect, although moderate doses do not normally cause significant dehydration during exercise.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-063",
+    "front": "What is a possible coordination-related negative effect of excessive caffeine consumption?",
+    "back": "Excessive caffeine can cause tremors or jitteriness, which may negatively affect fine motor control.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  },
+  {
+    "id": "diet-nutrition-064",
+    "front": "What are some possible side effects of excessive caffeine consumption?",
+    "back": "-Irritability. -Insomnia. -Anxiety. -Tremors. -Gastrointestinal discomfort. -Increased heart rate or heart palpitations.",
+    "subtopicId": "diet-nutrition",
+    "group": "Dietry supplimentation"
+  }
+]

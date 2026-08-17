@@ -1,0 +1,366 @@
+[
+  {
+    "id": "angular-motion-001",
+    "front": "What does Newton's First Law of Angular Motion state?",
+    "back": "A rotating body will continue to rotate with constant angular momentum unless acted upon by an external torque.",
+    "subtopicId": "angular-motion",
+    "group": "Newtons laws of angular motion"
+  },
+  {
+    "id": "angular-motion-002",
+    "front": "What does Newton's Second Law of Angular Motion state?",
+    "back": "The rate of change of angular momentum is proportional to the applied torque and occurs in the direction of that torque.",
+    "subtopicId": "angular-motion",
+    "group": "Newtons laws of angular motion"
+  },
+  {
+    "id": "angular-motion-003",
+    "front": "What does Newton's Third Law of Angular Motion state?",
+    "back": "When one body applies a torque to another body, the second body applies an equal and opposite torque to the first.",
+    "subtopicId": "angular-motion",
+    "group": "Newtons laws of angular motion"
+  },
+  {
+    "id": "angular-motion-004",
+    "front": "What is inertia?",
+    "back": "Resistance to a change in motion.",
+    "subtopicId": "angular-motion",
+    "group": "Newtons laws of angular motion"
+  },
+  {
+    "id": "angular-motion-005",
+    "front": "What is moment of inertia?",
+    "back": "The resistance of a body to a change in its angular motion.",
+    "subtopicId": "angular-motion",
+    "group": "Newtons laws of angular motion"
+  },
+  {
+    "id": "angular-motion-006",
+    "front": "What happens at the start of rotation due to moment of inertia?",
+    "back": "The body resists a change from its current state of angular motion.",
+    "subtopicId": "angular-motion",
+    "group": "Newtons laws of angular motion"
+  },
+  {
+    "id": "angular-motion-007",
+    "front": "What does moment of inertia depend on?",
+    "back": "The mass of the body and the distribution of that mass around the axis of rotation.",
+    "subtopicId": "angular-motion",
+    "group": "Newtons laws of angular motion"
+  },
+  {
+    "id": "angular-motion-008",
+    "front": "How does mass affect moment of inertia?",
+    "back": "The greater the mass, the greater the moment of inertia.",
+    "subtopicId": "angular-motion",
+    "group": "Newtons laws of angular motion"
+  },
+  {
+    "id": "angular-motion-009",
+    "front": "How does the distribution of mass affect moment of inertia?",
+    "back": "The closer the mass is to the axis of rotation, the lower the moment of inertia and the easier it is to rotate.",
+    "subtopicId": "angular-motion",
+    "group": "Newtons laws of angular motion"
+  },
+  {
+    "id": "angular-motion-010",
+    "front": "What happens to moment of inertia when distance from the axis increases?",
+    "back": "Moment of inertia increases.",
+    "subtopicId": "angular-motion",
+    "group": "Newtons laws of angular motion"
+  },
+  {
+    "id": "angular-motion-011",
+    "front": "What happens to moment of inertia when distance from the axis decreases?",
+    "back": "Moment of inertia decreases.",
+    "subtopicId": "angular-motion",
+    "group": "Newtons laws of angular motion"
+  },
+  {
+    "id": "angular-motion-012",
+    "front": "What happens to the recovery leg during sprinting?",
+    "back": "Flexion at the hip and knee brings the mass of the leg closer to the hip joint.",
+    "subtopicId": "angular-motion",
+    "group": "Newtons laws of angular motion"
+  },
+  {
+    "id": "angular-motion-013",
+    "front": "How does recovery leg flexion affect moment of inertia?",
+    "back": "It reduces the moment of inertia by bringing the mass closer to the axis of rotation.",
+    "subtopicId": "angular-motion",
+    "group": "Newtons laws of angular motion"
+  },
+  {
+    "id": "angular-motion-014",
+    "front": "Why does reduced moment of inertia improve sprinting technique?",
+    "back": "It allows the recovery leg to rotate forwards more quickly in preparation for the next stride.",
+    "subtopicId": "angular-motion",
+    "group": "Newtons laws of angular motion"
+  },
+  {
+    "id": "angular-motion-015",
+    "front": "What happens to the drive leg during sprinting?",
+    "back": "Extension occurs at the hip and knee.",
+    "subtopicId": "angular-motion",
+    "group": "Newtons laws of angular motion"
+  },
+  {
+    "id": "angular-motion-016",
+    "front": "What happens to the moment of inertia of the drive leg during extension?",
+    "back": "Moment of inertia increases as the mass of the leg moves further from the hip joint.",
+    "subtopicId": "angular-motion",
+    "group": "Newtons laws of angular motion"
+  },
+  {
+    "id": "angular-motion-017",
+    "front": "What is angular motion?",
+    "back": "Movement around a fixed point or axis.",
+    "subtopicId": "angular-motion",
+    "group": "Defenitions and units of angular motion"
+  },
+  {
+    "id": "angular-motion-018",
+    "front": "What is torque?",
+    "back": "The turning effect produced by a force, measured in newton metres (Nm).",
+    "subtopicId": "angular-motion",
+    "group": "Defenitions and units of angular motion"
+  },
+  {
+    "id": "angular-motion-019",
+    "front": "What is a radian?",
+    "back": "The unit of measurement for angles; one radian is approximately 57.3°.",
+    "subtopicId": "angular-motion",
+    "group": "Defenitions and units of angular motion"
+  },
+  {
+    "id": "angular-motion-020",
+    "front": "What is angular displacement?",
+    "back": "The change in angular position from the starting position to the finishing position.",
+    "subtopicId": "angular-motion",
+    "group": "Defenitions and units of angular motion"
+  },
+  {
+    "id": "angular-motion-021",
+    "front": "What is angular velocity?",
+    "back": "The rate of change of angular displacement.",
+    "subtopicId": "angular-motion",
+    "group": "Defenitions and units of angular motion"
+  },
+  {
+    "id": "angular-motion-022",
+    "front": "What is angular acceleration?",
+    "back": "The rate of change of angular velocity.",
+    "subtopicId": "angular-motion",
+    "group": "Defenitions and units of angular motion"
+  },
+  {
+    "id": "angular-motion-023",
+    "front": "What is angular momentum?",
+    "back": "The quantity of rotational motion a body possesses.",
+    "subtopicId": "angular-motion",
+    "group": "Defenitions and units of angular motion"
+  },
+  {
+    "id": "angular-motion-024",
+    "front": "What is moment of inertia?",
+    "back": "A body's resistance to a change in its angular motion.",
+    "subtopicId": "angular-motion",
+    "group": "Defenitions and units of angular motion"
+  },
+  {
+    "id": "angular-motion-025",
+    "front": "What is a moment of force?",
+    "back": "The turning effect of a force about an axis or fulcrum.",
+    "subtopicId": "angular-motion",
+    "group": "Defenitions and units of angular motion"
+  },
+  {
+    "id": "angular-motion-026",
+    "front": "What is the angle of release?",
+    "back": "The angle at which a projectile is released, measured relative to the horizontal.",
+    "subtopicId": "angular-motion",
+    "group": "Defenitions and units of angular motion"
+  },
+  {
+    "id": "angular-motion-027",
+    "front": "What is a parabolic curve?",
+    "back": "The curved flight path followed by a projectile.",
+    "subtopicId": "angular-motion",
+    "group": "Defenitions and units of angular motion"
+  },
+  {
+    "id": "angular-motion-028",
+    "front": "What does angular motion involve?",
+    "back": "Rotation around a fixed point or axis.",
+    "subtopicId": "angular-motion",
+    "group": "Defenitions and units of angular motion"
+  },
+  {
+    "id": "angular-motion-029",
+    "front": "Can angular motion involve part of the body?",
+    "back": "Yes, angular motion can involve the whole body or an individual body part.",
+    "subtopicId": "angular-motion",
+    "group": "Defenitions and units of angular motion"
+  },
+  {
+    "id": "angular-motion-030",
+    "front": "What type of force creates angular motion?",
+    "back": "An eccentric force acting outside the centre of mass.",
+    "subtopicId": "angular-motion",
+    "group": "Defenitions and units of angular motion"
+  },
+  {
+    "id": "angular-motion-031",
+    "front": "What causes angular motion?",
+    "back": "Torque.",
+    "subtopicId": "angular-motion",
+    "group": "Defenitions and units of angular motion"
+  },
+  {
+    "id": "angular-motion-032",
+    "front": "What happens to torque if force increases?",
+    "back": "Torque increases, provided the perpendicular distance from the axis remains constant.",
+    "subtopicId": "angular-motion",
+    "group": "Defenitions and units of angular motion"
+  },
+  {
+    "id": "angular-motion-033",
+    "front": "What happens to torque if the same force is applied further from the axis of rotation?",
+    "back": "Torque increases because the perpendicular distance from the axis increases.",
+    "subtopicId": "angular-motion",
+    "group": "Defenitions and units of angular motion"
+  },
+  {
+    "id": "angular-motion-034",
+    "front": "What is the formula for moment of force (torque)?",
+    "back": "Torque = Force × Perpendicular distance from the axis of rotation.",
+    "subtopicId": "angular-motion",
+    "group": "Defenitions and units of angular motion"
+  },
+  {
+    "id": "angular-motion-035",
+    "front": "What units is torque measured in?",
+    "back": "Newton metres (Nm).",
+    "subtopicId": "angular-motion",
+    "group": "Defenitions and units of angular motion"
+  },
+  {
+    "id": "angular-motion-036",
+    "front": "What is angular momentum?",
+    "back": "The quantity of rotational motion a body possesses.",
+    "subtopicId": "angular-motion",
+    "group": "Conservation of angular momentum during flight"
+  },
+  {
+    "id": "angular-motion-037",
+    "front": "What does angular momentum depend on?",
+    "back": "Moment of inertia and angular velocity.",
+    "subtopicId": "angular-motion",
+    "group": "Conservation of angular momentum during flight"
+  },
+  {
+    "id": "angular-motion-038",
+    "front": "What is the formula for angular momentum?",
+    "back": "Angular momentum = Moment of inertia × Angular velocity.",
+    "subtopicId": "angular-motion",
+    "group": "Conservation of angular momentum during flight"
+  },
+  {
+    "id": "angular-motion-039",
+    "front": "What is the relationship between moment of inertia and angular velocity when angular momentum is conserved?",
+    "back": "They are inversely proportional.",
+    "subtopicId": "angular-motion",
+    "group": "Conservation of angular momentum during flight"
+  },
+  {
+    "id": "angular-motion-040",
+    "front": "What happens to angular velocity if moment of inertia increases?",
+    "back": "Angular velocity decreases, provided angular momentum remains constant.",
+    "subtopicId": "angular-motion",
+    "group": "Conservation of angular momentum during flight"
+  },
+  {
+    "id": "angular-motion-041",
+    "front": "What happens to angular velocity if moment of inertia decreases?",
+    "back": "Angular velocity increases, provided angular momentum remains constant.",
+    "subtopicId": "angular-motion",
+    "group": "Conservation of angular momentum during flight"
+  },
+  {
+    "id": "angular-motion-042",
+    "front": "What is conservation of angular momentum?",
+    "back": "Angular momentum remains constant unless an external torque acts on the body.",
+    "subtopicId": "angular-motion",
+    "group": "Conservation of angular momentum during flight"
+  },
+  {
+    "id": "angular-motion-043",
+    "front": "How does Newton's First Law of Angular Motion relate to angular momentum?",
+    "back": "A body's angular momentum remains constant unless an external torque acts upon it.",
+    "subtopicId": "angular-motion",
+    "group": "Conservation of angular momentum during flight"
+  },
+  {
+    "id": "angular-motion-044",
+    "front": "When can conservation of angular momentum be observed in sport?",
+    "back": "During flight, when external torque is minimal, or during rotational movements on low-friction surfaces such as ice.",
+    "subtopicId": "angular-motion",
+    "group": "Conservation of angular momentum during flight"
+  },
+  {
+    "id": "angular-motion-045",
+    "front": "How does diving demonstrate conservation of angular momentum?",
+    "back": "Once airborne, a diver can change their moment of inertia by changing body position, causing an inverse change in angular velocity while total angular momentum remains approximately constant.",
+    "subtopicId": "angular-motion",
+    "group": "Conservation of angular momentum during flight"
+  },
+  {
+    "id": "angular-motion-046",
+    "front": "What axis of rotation is used during a figure skating spin?",
+    "back": "The longitudinal axis.",
+    "subtopicId": "angular-motion",
+    "group": "Conservation of angular momentum during flight"
+  },
+  {
+    "id": "angular-motion-047",
+    "front": "Why does ice help a figure skater conserve angular momentum?",
+    "back": "The low friction between the skate and ice reduces external torque opposing the rotation.",
+    "subtopicId": "angular-motion",
+    "group": "Conservation of angular momentum during flight"
+  },
+  {
+    "id": "angular-motion-048",
+    "front": "How do figure skaters control their spin speed?",
+    "back": "By changing the distribution of their body mass and therefore their moment of inertia.",
+    "subtopicId": "angular-motion",
+    "group": "Conservation of angular momentum during flight"
+  },
+  {
+    "id": "angular-motion-049",
+    "front": "What happens when a figure skater begins a spin with their arms and leg extended?",
+    "back": "Mass is distributed further from the longitudinal axis, producing a larger moment of inertia.",
+    "subtopicId": "angular-motion",
+    "group": "Conservation of angular momentum during flight"
+  },
+  {
+    "id": "angular-motion-050",
+    "front": "What is the effect of extending the limbs during a figure skating spin?",
+    "back": "Moment of inertia increases and angular velocity decreases.",
+    "subtopicId": "angular-motion",
+    "group": "Conservation of angular momentum during flight"
+  },
+  {
+    "id": "angular-motion-051",
+    "front": "What happens when a figure skater pulls their arms and legs towards their body?",
+    "back": "Mass moves closer to the longitudinal axis, reducing moment of inertia.",
+    "subtopicId": "angular-motion",
+    "group": "Conservation of angular momentum during flight"
+  },
+  {
+    "id": "angular-motion-052",
+    "front": "What is the effect of pulling the limbs in during a spin?",
+    "back": "Moment of inertia decreases and angular velocity increases, producing a faster spin.",
+    "subtopicId": "angular-motion",
+    "group": "Conservation of angular momentum during flight"
+  }
+]

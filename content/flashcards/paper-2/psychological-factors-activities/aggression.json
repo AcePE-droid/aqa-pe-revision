@@ -1,0 +1,219 @@
+[
+  {
+    "id": "aggression-001",
+    "front": "What is aggression in sport?",
+    "back": "Behaviour intended to harm another person, which is outside the rules or conventions of the sport and is often hostile and uncontrolled.",
+    "subtopicId": "aggression",
+    "group": "Aggression v assersion"
+  },
+  {
+    "id": "aggression-002",
+    "front": "What is assertion?",
+    "back": "Controlled, goal-directed behaviour within the rules of the sport, involving no intention to harm another person.",
+    "subtopicId": "aggression",
+    "group": "Aggression v assersion"
+  },
+  {
+    "id": "aggression-003",
+    "front": "Why can boxing be considered a grey area between aggression and assertion?",
+    "back": "Performers intentionally strike their opponents, but these actions are permitted within the rules and conventions of the sport.",
+    "subtopicId": "aggression",
+    "group": "Aggression v assersion"
+  },
+  {
+    "id": "aggression-004",
+    "front": "What is the aggression-assertion continuum?",
+    "back": "A continuum showing that sporting behaviour can range from controlled, rule-bound assertive behaviour to uncontrolled, harmful aggressive behaviour.",
+    "subtopicId": "aggression",
+    "group": "Aggression v assersion"
+  },
+  {
+    "id": "aggression-005",
+    "front": "What is instinct theory of aggression?",
+    "back": "The theory that aggression is innate, instinctive and biologically programmed.",
+    "subtopicId": "aggression",
+    "group": "Theories of aggression"
+  },
+  {
+    "id": "aggression-006",
+    "front": "Give a sporting example of instinct theory.",
+    "back": "A performer instinctively becoming aggressive when defending their territory during a home match.",
+    "subtopicId": "aggression",
+    "group": "Theories of aggression"
+  },
+  {
+    "id": "aggression-007",
+    "front": "What is catharsis?",
+    "back": "The release of aggressive feelings or emotional tension, resulting in a reduction in the drive to be aggressive.",
+    "subtopicId": "aggression",
+    "group": "Theories of aggression"
+  },
+  {
+    "id": "aggression-008",
+    "front": "How does sport link to catharsis?",
+    "back": "Sport can provide an acceptable outlet through which aggressive feelings can be released.",
+    "subtopicId": "aggression",
+    "group": "Theories of aggression"
+  },
+  {
+    "id": "aggression-009",
+    "front": "What is a criticism of instinct theory?",
+    "back": "It does not explain why levels of aggression vary between individuals and situations, as aggression can also be learned and influenced by the environment.",
+    "subtopicId": "aggression",
+    "group": "Theories of aggression"
+  },
+  {
+    "id": "aggression-010",
+    "front": "What is an advantage of instinct theory?",
+    "back": "It provides an explanation for aggression as a natural behaviour that all individuals have the potential to display.",
+    "subtopicId": "aggression",
+    "group": "Theories of aggression"
+  },
+  {
+    "id": "aggression-011",
+    "front": "What is the frustration-aggression hypothesis?",
+    "back": "The theory that frustration caused by being prevented from achieving a goal creates an aggressive drive, which may lead to aggressive behaviour.",
+    "subtopicId": "aggression",
+    "group": "Theories of aggression"
+  },
+  {
+    "id": "aggression-012",
+    "front": "Give a sporting example of the frustration-aggression hypothesis.",
+    "back": "A footballer retaliating aggressively after being repeatedly fouled or prevented from scoring.",
+    "subtopicId": "aggression",
+    "group": "Theories of aggression"
+  },
+  {
+    "id": "aggression-013",
+    "front": "What happens when aggression is released according to the frustration-aggression hypothesis?",
+    "back": "The aggressive drive is reduced, producing catharsis.",
+    "subtopicId": "aggression",
+    "group": "Theories of aggression"
+  },
+  {
+    "id": "aggression-014",
+    "front": "What can happen if frustration is not released?",
+    "back": "The aggressive drive may remain and aggression may be displayed later when an appropriate opportunity or cue occurs.",
+    "subtopicId": "aggression",
+    "group": "Theories of aggression"
+  },
+  {
+    "id": "aggression-015",
+    "front": "What is an advantage of the frustration-aggression hypothesis?",
+    "back": "It can explain why frustration caused by situations such as losing or poor performance may increase aggressive behaviour.",
+    "subtopicId": "aggression",
+    "group": "Theories of aggression"
+  },
+  {
+    "id": "aggression-016",
+    "front": "What is a limitation of the frustration-aggression hypothesis?",
+    "back": "Frustration does not always result in aggression, and aggression can occur without obvious frustration.",
+    "subtopicId": "aggression",
+    "group": "Theories of aggression"
+  },
+  {
+    "id": "aggression-017",
+    "front": "What is the aggressive cue hypothesis (Berkowitz)?",
+    "back": "The theory that frustration creates a readiness for aggression, but aggressive behaviour occurs when learned environmental cues trigger the response.",
+    "subtopicId": "aggression",
+    "group": "Theories of aggression"
+  },
+  {
+    "id": "aggression-018",
+    "front": "Give examples of aggressive cues in sport.",
+    "back": "An aggressive opponent or rival; Hostile crowd behaviour; Aggressive behaviour from a coach or teammates; Previous experiences associated with aggression.",
+    "subtopicId": "aggression",
+    "group": "Theories of aggression"
+  },
+  {
+    "id": "aggression-019",
+    "front": "What is an advantage of the aggressive cue hypothesis?",
+    "back": "It recognises that environmental and situational cues can influence whether frustration results in aggression.",
+    "subtopicId": "aggression",
+    "group": "Theories of aggression"
+  },
+  {
+    "id": "aggression-020",
+    "front": "What is a limitation of the aggressive cue hypothesis?",
+    "back": "It does not fully explain individual differences in how performers respond to the same aggressive cues.",
+    "subtopicId": "aggression",
+    "group": "Theories of aggression"
+  },
+  {
+    "id": "aggression-021",
+    "front": "What is social learning theory (Bandura)?",
+    "back": "The theory that aggression is learned by observing and imitating others, particularly when aggressive behaviour is reinforced.",
+    "subtopicId": "aggression",
+    "group": "Theories of aggression"
+  },
+  {
+    "id": "aggression-022",
+    "front": "What is the main principle of social learning theory?",
+    "back": "Performers observe the behaviour of role models and are more likely to imitate aggressive behaviour if they see it being rewarded or reinforced.",
+    "subtopicId": "aggression",
+    "group": "Theories of aggression"
+  },
+  {
+    "id": "aggression-023",
+    "front": "What are the four stages involved in learning aggression through social learning?",
+    "back": "Observe the behaviour; Identify with the role model; Observe reinforcement of the behaviour; Imitate the behaviour.",
+    "subtopicId": "aggression",
+    "group": "Theories of aggression"
+  },
+  {
+    "id": "aggression-024",
+    "front": "What is an advantage of social learning theory?",
+    "back": "It helps explain why levels and types of aggression can differ between sporting environments and cultures.",
+    "subtopicId": "aggression",
+    "group": "Theories of aggression"
+  },
+  {
+    "id": "aggression-025",
+    "front": "What is a limitation of social learning theory?",
+    "back": "Not everyone who observes reinforced aggression imitates it, and the theory can underestimate biological influences.",
+    "subtopicId": "aggression",
+    "group": "Theories of aggression"
+  },
+  {
+    "id": "aggression-026",
+    "front": "What does the ASIF memory aid stand for?",
+    "back": "Aggressive cue hypothesis; Social learning theory; Instinct theory; Frustration-aggression hypothesis.",
+    "subtopicId": "aggression",
+    "group": "Theories of aggression"
+  },
+  {
+    "id": "aggression-027",
+    "front": "Why should aggression be controlled in sport?",
+    "back": "Excessive aggression can increase the risk of injury, reduce concentration, increase anxiety and lead to penalties or disciplinary action.",
+    "subtopicId": "aggression",
+    "group": "Strategies to control aggression"
+  },
+  {
+    "id": "aggression-028",
+    "front": "What methods can coaches use to reduce aggression?",
+    "back": "-Substitute or remove performers who are becoming excessively aggressive. -Use positive reinforcement to reward assertive behaviour. -Provide positive role models who demonstrate controlled behaviour.",
+    "subtopicId": "aggression",
+    "group": "Strategies to control aggression"
+  },
+  {
+    "id": "aggression-029",
+    "front": "What does channelling aggression into assertion mean?",
+    "back": "Redirecting aggressive energy into controlled, goal-directed behaviour that remains within the rules of the sport.",
+    "subtopicId": "aggression",
+    "group": "Strategies to control aggression"
+  },
+  {
+    "id": "aggression-030",
+    "front": "What cognitive methods can a performer use to control aggression?",
+    "back": "Imagery; Positive self-talk; Goal setting; Thought stopping.",
+    "subtopicId": "aggression",
+    "group": "Strategies to control aggression"
+  },
+  {
+    "id": "aggression-031",
+    "front": "What somatic methods can a performer use to control aggression?",
+    "back": "Controlled breathing; Progressive muscular relaxation; Biofeedback.",
+    "subtopicId": "aggression",
+    "group": "Strategies to control aggression"
+  }
+]
