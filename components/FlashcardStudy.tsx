@@ -236,14 +236,14 @@ export default function FlashcardStudy({
             onClick={() => {
               if (navPhase === "idle") setFlipped((f) => !f);
             }}
-            className="group flex min-h-[70vh] w-full [perspective:1000px] sm:min-h-[55vh] sm:w-[65%] sm:max-w-3xl"
+            className="group flex min-h-[70vh] w-full cursor-pointer [perspective:1000px] sm:min-h-[55vh] sm:w-[65%] sm:max-w-3xl"
           >
             <div
               className={`relative h-full w-full transition-transform duration-[450ms] ease-out [transform-style:preserve-3d] ${
                 flipped ? "[transform:rotateY(180deg)]" : ""
               }`}
             >
-              <div className="absolute inset-0 flex flex-col items-center justify-center overflow-hidden rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-lg [backface-visibility:hidden] sm:p-12">
+              <div className={`absolute inset-0 flex flex-col items-center justify-center overflow-hidden rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-md transition-all duration-200 ease-out [backface-visibility:hidden] group-hover:scale-[1.01] group-hover:shadow-lg group-hover:ring-4 group-hover:ring-slate-200/60 ${subjectStyle.hoverBorderStrong} sm:p-12`}>
                 <div className={contentTransitionClasses(navPhase, direction)}>
                   <p className="text-2xl font-medium leading-relaxed text-slate-900 sm:text-3xl">
                     {card.front}
@@ -253,7 +253,7 @@ export default function FlashcardStudy({
                   </p>
                 </div>
               </div>
-              <div className="absolute inset-0 flex flex-col items-center justify-center overflow-hidden rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-lg [backface-visibility:hidden] [transform:rotateY(180deg)] sm:p-12">
+              <div className={`absolute inset-0 flex flex-col items-center justify-center overflow-hidden rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-md transition-all duration-200 ease-out [backface-visibility:hidden] [transform:rotateY(180deg)] group-hover:[transform:rotateY(180deg)_scale(1.01)] group-hover:shadow-lg group-hover:ring-4 group-hover:ring-slate-200/60 ${subjectStyle.hoverBorderStrong} sm:p-12`}>
                 <div className={contentTransitionClasses(navPhase, direction)}>
                   <p className="text-2xl font-medium leading-relaxed text-slate-900 sm:text-3xl">
                     {card.back}
