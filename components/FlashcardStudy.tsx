@@ -157,7 +157,7 @@ export default function FlashcardStudy({
         >
           <X className="h-6 w-6" />
         </Link>
-        <p className="min-w-0 truncate text-center text-sm text-slate-700">{breadcrumb}</p>
+        <p className={`min-w-0 truncate text-center text-sm ${subjectStyle.icon}`}>{breadcrumb}</p>
         <div className="flex shrink-0 flex-col items-end gap-0.5">
           <p className="text-sm text-slate-500">
             Card {index + 1} of {cards.length}
