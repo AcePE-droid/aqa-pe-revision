@@ -10,6 +10,8 @@ import {
   setFlashcardStatus,
   getFlashcardCelebrated,
   setFlashcardCelebrated,
+  getLastLearningCardIds,
+  setLastLearningCardIds,
   type FlashcardStatus,
 } from "@/lib/progress";
 import { getSubjectStyle } from "@/lib/subject-styles";
@@ -81,6 +83,10 @@ export default function FlashcardStudy({
   // True when the student hit "Restart deck" but every card in the subtopic
   // is already known, so there's nothing left to filter down to.
   const [reviewEmpty, setReviewEmpty] = useState(false);
+  // IDs marked "learning" as of the end of the last completed session for
+  // this subtopic - frozen snapshot, only refreshed when the current
+  // session itself completes (see mark()).
+  const [lastLearningIds, setLastLearningIds] = useState<Set<string>>(new Set());
   const subjectStyle = getSubjectStyle(subjectSlug);
 
   const timers = useRef<number[]>([]);
@@ -89,6 +95,7 @@ export default function FlashcardStudy({
     setProgress(getFlashcardProgress(subtopicId));
     setSessionCards(cards);
     setReviewEmpty(false);
+    setLastLearningIds(new Set(getLastLearningCardIds(subtopicId)));
   }, [subtopicId, cards]);
 
   useEffect(() => {
@@ -135,6 +142,9 @@ export default function FlashcardStudy({
     if (index < sessionCards.length - 1) {
       runTransition(index + 1, "next");
     } else {
+      const learningIds = cards.filter((c) => updatedProgress[c.id] === "learning").map((c) => c.id);
+      setLastLearningCardIds(subtopicId, learningIds);
+      setLastLearningIds(new Set(learningIds));
       setDirection("next");
       setNavPhase("out");
       schedule(() => {
@@ -242,7 +252,14 @@ export default function FlashcardStudy({
                 <p className="text-lg font-medium text-slate-700">Nice work — every card marked as known.</p>
               </>
             ) : (
-              <p className="text-lg font-medium text-slate-700">You&rsquo;ve reached the end of the deck.</p>
+              <>
+                <p className="text-lg font-medium text-slate-700">You&rsquo;ve reached the end of the deck.</p>
+                {learningCount > 0 && (
+                  <p className="text-sm text-slate-500">
+                    You&rsquo;re still learning {learningCount} flashcard{learningCount === 1 ? "" : "s"}.
+                  </p>
+                )}
+              </>
             )}
             <div className="flex gap-3">
               <button
@@ -272,6 +289,11 @@ export default function FlashcardStudy({
               }`}
             >
               <div className={`absolute inset-0 flex flex-col items-center justify-center overflow-hidden rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-md transition-all duration-200 ease-out [backface-visibility:hidden] group-hover:scale-[1.01] group-hover:shadow-lg group-hover:ring-4 group-hover:ring-slate-200/60 ${subjectStyle.hoverBorderStrong} sm:p-12`}>
+                {lastLearningIds.has(card.id) && (
+                  <span className="absolute left-4 top-4 rounded-full border border-amber-300 bg-amber-50 px-2.5 py-1 text-[11px] font-medium text-amber-700 sm:left-6 sm:top-6">
+                    Still learning
+                  </span>
+                )}
                 <div className={contentTransitionClasses(navPhase, direction)}>
                   <p className="text-2xl font-medium leading-relaxed text-slate-900 sm:text-3xl">
                     {card.front}
@@ -282,6 +304,11 @@ export default function FlashcardStudy({
                 </div>
               </div>
               <div className={`absolute inset-0 flex flex-col items-center justify-center overflow-hidden rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-md transition-all duration-200 ease-out [backface-visibility:hidden] [transform:rotateY(180deg)] group-hover:[transform:rotateY(180deg)_scale(1.01)] group-hover:shadow-lg group-hover:ring-4 group-hover:ring-slate-200/60 ${subjectStyle.hoverBorderStrong} sm:p-12`}>
+                {lastLearningIds.has(card.id) && (
+                  <span className="absolute left-4 top-4 rounded-full border border-amber-300 bg-amber-50 px-2.5 py-1 text-[11px] font-medium text-amber-700 sm:left-6 sm:top-6">
+                    Still learning
+                  </span>
+                )}
                 <div className={contentTransitionClasses(navPhase, direction)}>
                   <p className="text-2xl font-medium leading-relaxed text-slate-900 sm:text-3xl">
                     {card.back}

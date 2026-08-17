@@ -17,6 +17,10 @@ function celebratedKey(subtopicId: string) {
   return `${STORAGE_PREFIX}flashcards-celebrated:${subtopicId}`;
 }
 
+function lastLearningKey(subtopicId: string) {
+  return `${STORAGE_PREFIX}flashcards-last-learning:${subtopicId}`;
+}
+
 function readJson<T>(key: string, fallback: T): T {
   if (typeof window === "undefined") return fallback;
   try {
@@ -61,6 +65,19 @@ export function getFlashcardCelebrated(subtopicId: string): boolean {
 
 export function setFlashcardCelebrated(subtopicId: string, celebrated: boolean) {
   writeJson(celebratedKey(subtopicId), celebrated);
+}
+
+// IDs of cards marked "learning" as of the end of the most recently
+// completed study session for this subtopic. Frozen at session-completion
+// time (not live-updated mid-session), so the study screen can badge "what
+// needed focus last time" independent of marks made so far in the current
+// pass.
+export function getLastLearningCardIds(subtopicId: string): string[] {
+  return readJson(lastLearningKey(subtopicId), []);
+}
+
+export function setLastLearningCardIds(subtopicId: string, cardIds: string[]) {
+  writeJson(lastLearningKey(subtopicId), cardIds);
 }
 
 /** Clears all PE Revision progress data from localStorage. */

@@ -23,6 +23,7 @@ export default async function FlashcardStudyPage(
 
   return (
     <FlashcardStudy
+      key={subtopic.id}
       subtopicId={subtopic.id}
       subtopicName={subtopic.name}
       topicName={topic.name}
