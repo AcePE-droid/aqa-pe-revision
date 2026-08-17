@@ -4,7 +4,7 @@ import { useEffect, useState, type ReactNode } from "react";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { getQuestionProgress } from "@/lib/progress";
-import { CARD_BASE_CLASSES, CARD_INTERACTIVE_CLASSES, CARD_HOVER_BORDER } from "@/lib/styles";
+import { CARD_BASE_CLASSES, CARD_INTERACTIVE_CLASSES } from "@/lib/styles";
 
 type Props = {
   name: string;
@@ -12,6 +12,7 @@ type Props = {
   href: string;
   icon: ReactNode;
   iconClassName: string;
+  hoverBorderClassName: string;
   hoverBgClassName: string;
   progressBarClassName: string;
   subtopicIds: string[];
@@ -24,6 +25,7 @@ export default function QuestionSubjectCard({
   href,
   icon,
   iconClassName,
+  hoverBorderClassName,
   hoverBgClassName,
   progressBarClassName,
   subtopicIds,
@@ -59,7 +61,7 @@ export default function QuestionSubjectCard({
   return (
     <Link
       href={href}
-      className={`flex items-start gap-4 ${CARD_BASE_CLASSES} ${CARD_INTERACTIVE_CLASSES} ${CARD_HOVER_BORDER} ${hoverBgClassName}`}
+      className={`flex items-start gap-4 ${CARD_BASE_CLASSES} ${CARD_INTERACTIVE_CLASSES} ${hoverBorderClassName} ${hoverBgClassName}`}
     >
       {icon}
       <div className="flex-1">

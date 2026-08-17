@@ -15,6 +15,7 @@ export type SubjectCardData = {
   href: string;
   Icon: LucideIcon;
   iconClassName: string;
+  hoverBorderClassName: string;
   hoverBgClassName: string;
 };
 
@@ -32,6 +33,7 @@ export function getSubjectCards(basePath: string): SubjectCardData[] {
       href: `${basePath}/${subject.slug}`,
       Icon: SUBJECT_ICONS[subject.name] ?? Brain,
       iconClassName: getSubjectStyle(subject.slug).icon,
+      hoverBorderClassName: getSubjectStyle(subject.slug).hoverBorder,
       hoverBgClassName: getSubjectStyle(subject.slug).hoverBg,
     };
   });

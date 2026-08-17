@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Folder, ChevronRight, ChevronDown } from "lucide-react";
+import { getSubjectStyle } from "@/lib/subject-styles";
 
 export type SubtopicItem = {
   slug: string;
@@ -26,11 +27,13 @@ export type PaperGroup = {
 
 type Props = {
   groups: PaperGroup[];
+  subjectSlug: string;
 };
 
-export default function SectionSubjectTree({ groups }: Props) {
+export default function SectionSubjectTree({ groups, subjectSlug }: Props) {
   const [openPaper, setOpenPaper] = useState<string | null>(groups[0]?.paper.slug ?? null);
   const [openTopics, setOpenTopics] = useState<Set<string>>(new Set());
+  const style = getSubjectStyle(subjectSlug);
 
   function toggleTopic(key: string) {
     setOpenTopics((prev) => {
@@ -53,7 +56,7 @@ export default function SectionSubjectTree({ groups }: Props) {
           <div key={paper.slug} className="border-b border-slate-200 last:border-b-0">
             <button
               onClick={() => setOpenPaper(isPaperOpen ? null : paper.slug)}
-              className="flex w-full items-center gap-3 px-4 py-3 text-left hover:bg-slate-50"
+              className={`flex w-full items-center gap-3 border border-transparent px-4 py-3 text-left ${style.hoverBorder} ${style.hoverBg}`}
             >
               <Folder className="h-4 w-4 shrink-0 text-blue-600" />
               <span className="flex-1 text-sm font-semibold text-slate-900">
@@ -73,7 +76,9 @@ export default function SectionSubjectTree({ groups }: Props) {
                   const isTopicOpen = openTopics.has(key);
                   return (
                     <div key={topic.slug} className="border-t border-slate-100">
-                      <div className="flex items-center gap-3 py-3 pl-11 pr-4 hover:bg-blue-50/50">
+                      <div
+                        className={`flex items-center gap-3 border border-transparent py-3 pl-11 pr-4 ${style.hoverBorder} ${style.hoverBg}`}
+                      >
                         <Folder className="h-4 w-4 shrink-0 text-slate-300" />
                         <Link href={topic.href} className="flex-1 text-sm font-medium text-slate-900">
                           {topic.name}
@@ -100,7 +105,7 @@ export default function SectionSubjectTree({ groups }: Props) {
                             <Link
                               key={subtopic.slug}
                               href={subtopic.href}
-                              className="flex items-center gap-3 py-2 pl-[4.75rem] pr-4 text-sm text-slate-700 hover:bg-blue-50/50 hover:text-slate-900"
+                              className={`flex items-center gap-3 border border-transparent py-2 pl-[4.75rem] pr-4 text-sm text-slate-700 hover:text-slate-900 ${style.hoverBorder} ${style.hoverBg}`}
                             >
                               <span className="flex-1">{subtopic.name}</span>
                               <span className="text-xs text-slate-400">{subtopic.meta}</span>

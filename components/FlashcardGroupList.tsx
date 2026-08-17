@@ -1,13 +1,16 @@
 import Link from "next/link";
 import type { Flashcard } from "@/types/content";
 import { slugify } from "@/lib/slug";
+import { getSubjectStyle } from "@/lib/subject-styles";
 
 type Props = {
   basePath: string; // e.g. "/paper-1/applied-anatomy/cardiovascular"
   flashcards: Flashcard[];
+  subjectSlug: string;
 };
 
-export default function FlashcardGroupList({ basePath, flashcards }: Props) {
+export default function FlashcardGroupList({ basePath, flashcards, subjectSlug }: Props) {
+  const style = getSubjectStyle(subjectSlug);
   if (flashcards.length === 0) {
     return <p className="mt-8 text-slate-500">No flashcards for this subtopic yet.</p>;
   }
@@ -39,7 +42,7 @@ export default function FlashcardGroupList({ basePath, flashcards }: Props) {
               <li key={key}>
                 <Link
                   href={`${basePath}/flashcards?group=${key}`}
-                  className="flex items-center justify-between rounded-lg border border-slate-200 px-4 py-3 hover:border-blue-300 hover:bg-blue-50/50"
+                  className={`flex items-center justify-between rounded-lg border border-slate-200 px-4 py-3 ${style.hoverBorder} ${style.hoverBg}`}
                 >
                   <span className="text-sm font-medium text-slate-900">{label}</span>
                   <span className="text-xs text-slate-500">{count} card{count === 1 ? "" : "s"}</span>

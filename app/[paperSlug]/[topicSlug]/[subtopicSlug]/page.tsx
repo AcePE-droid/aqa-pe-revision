@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { resolveSubtopicPath, getFlashcards } from "@/lib/content";
+import { slugify } from "@/lib/slug";
 import FlashcardGroupList from "@/components/FlashcardGroupList";
 
 export default async function SubtopicPage(
@@ -27,7 +28,11 @@ export default async function SubtopicPage(
         {subtopic.name}
       </h1>
 
-      <FlashcardGroupList basePath={basePath} flashcards={flashcards} />
+      <FlashcardGroupList
+        basePath={basePath}
+        flashcards={flashcards}
+        subjectSlug={slugify(topic.subject)}
+      />
     </div>
   );
 }

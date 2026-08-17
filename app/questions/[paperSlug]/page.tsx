@@ -57,7 +57,7 @@ export default async function QuestionsSubjectPage(props: PageProps<"/questions/
         Click a topic to start a question session, or expand it to practise a single subtopic.
       </p>
 
-      <SectionSubjectTree groups={Array.from(groups.values())} />
+      <SectionSubjectTree groups={Array.from(groups.values())} subjectSlug={subjectSlug} />
     </div>
   );
 }
