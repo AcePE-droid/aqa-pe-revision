@@ -13,6 +13,10 @@ function questionKey(subtopicId: string) {
   return `${STORAGE_PREFIX}questions:${subtopicId}`;
 }
 
+function celebratedKey(subtopicId: string) {
+  return `${STORAGE_PREFIX}flashcards-celebrated:${subtopicId}`;
+}
+
 function readJson<T>(key: string, fallback: T): T {
   if (typeof window === "undefined") return fallback;
   try {
@@ -46,6 +50,17 @@ export function setQuestionAttempted(subtopicId: string, questionId: string) {
   const progress = getQuestionProgress(subtopicId);
   progress[questionId] = true;
   writeJson(questionKey(subtopicId), progress);
+}
+
+// Whether the "every card marked as known" celebration has already been
+// shown for the subtopic's current completed run. Cleared on deck restart
+// so a fresh full completion can celebrate again.
+export function getFlashcardCelebrated(subtopicId: string): boolean {
+  return readJson(celebratedKey(subtopicId), false);
+}
+
+export function setFlashcardCelebrated(subtopicId: string, celebrated: boolean) {
+  writeJson(celebratedKey(subtopicId), celebrated);
 }
 
 /** Clears all PE Revision progress data from localStorage. */

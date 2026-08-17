@@ -2,9 +2,17 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { X, ChevronLeft, ChevronRight } from "lucide-react";
+import { X, ChevronLeft, ChevronRight, Trophy } from "lucide-react";
+import confetti from "canvas-confetti";
 import type { Flashcard } from "@/types/content";
-import { getFlashcardProgress, setFlashcardStatus, type FlashcardStatus } from "@/lib/progress";
+import {
+  getFlashcardProgress,
+  setFlashcardStatus,
+  getFlashcardCelebrated,
+  setFlashcardCelebrated,
+  type FlashcardStatus,
+} from "@/lib/progress";
+import { getSubjectStyle } from "@/lib/subject-styles";
 
 type Props = {
   subtopicId: string;
@@ -51,6 +59,7 @@ export default function FlashcardStudy({
   subtopicId,
   subtopicName,
   topicName,
+  subjectSlug,
   backHref,
   cards,
   groupLabel,
@@ -62,6 +71,8 @@ export default function FlashcardStudy({
   const [direction, setDirection] = useState<NavDirection>("next");
   const [deckEnded, setDeckEnded] = useState(false);
   const [highlighted, setHighlighted] = useState<FlashcardStatus | null>(null);
+  const [celebrating, setCelebrating] = useState(false);
+  const subjectStyle = getSubjectStyle(subjectSlug);
 
   const timers = useRef<number[]>([]);
 
@@ -105,7 +116,8 @@ export default function FlashcardStudy({
   function mark(status: FlashcardStatus) {
     if (navPhase !== "idle") return;
     setFlashcardStatus(subtopicId, card.id, status);
-    setProgress((prev) => ({ ...prev, [card.id]: status }));
+    const updatedProgress = { ...progress, [card.id]: status };
+    setProgress(updatedProgress);
     setHighlighted(status);
     schedule(() => setHighlighted(null), HIGHLIGHT_MS);
 
@@ -117,8 +129,26 @@ export default function FlashcardStudy({
       schedule(() => {
         setNavPhase("idle");
         setDeckEnded(true);
+        maybeCelebrate(updatedProgress);
       }, OUT_MS);
     }
+  }
+
+  function maybeCelebrate(finalProgress: Record<string, FlashcardStatus>) {
+    const allKnown = cards.length > 0 && cards.every((c) => finalProgress[c.id] === "known");
+    if (!allKnown || getFlashcardCelebrated(subtopicId)) return;
+    setFlashcardCelebrated(subtopicId, true);
+    setCelebrating(true);
+    confetti({
+      particleCount: 40,
+      spread: 70,
+      startVelocity: 35,
+      gravity: 1.1,
+      ticks: 150,
+      scalar: 0.75,
+      origin: { x: 0.5, y: 0.45 },
+      colors: subjectStyle.confettiColors,
+    });
   }
 
   function restart() {
@@ -126,6 +156,8 @@ export default function FlashcardStudy({
     setIndex(0);
     setFlipped(false);
     setNavPhase("idle");
+    setCelebrating(false);
+    setFlashcardCelebrated(subtopicId, false);
   }
 
   const knownCount = Object.values(progress).filter((s) => s === "known").length;
@@ -176,7 +208,14 @@ export default function FlashcardStudy({
       <div className="flex flex-1 flex-col items-center justify-center px-4 pb-4">
         {deckEnded ? (
           <div className="flex min-h-[70vh] w-full flex-col items-center justify-center gap-6 text-center sm:min-h-[55vh] sm:w-[65%] sm:max-w-3xl">
-            <p className="text-lg font-medium text-slate-700">You&rsquo;ve reached the end of the deck.</p>
+            {celebrating ? (
+              <>
+                <Trophy className={`h-12 w-12 ${subjectStyle.icon}`} />
+                <p className="text-lg font-medium text-slate-700">Nice work — every card marked as known.</p>
+              </>
+            ) : (
+              <p className="text-lg font-medium text-slate-700">You&rsquo;ve reached the end of the deck.</p>
+            )}
             <div className="flex gap-3">
               <button
                 onClick={restart}

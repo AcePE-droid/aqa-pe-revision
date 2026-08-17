@@ -18,6 +18,10 @@ export type SubjectStyle = {
   // cards). Stored pre-fixed with `group-hover:` since that's the only place
   // this field is used.
   hoverBorderStrong: string;
+  // Hex colours for the deck-mastery confetti celebration (FlashcardStudy).
+  // canvas-confetti needs real colour values rather than Tailwind classes,
+  // so these are written out as hex (300/400/600 shades of the accent).
+  confettiColors: string[];
 };
 
 const DEFAULT_STYLE: SubjectStyle = {
@@ -27,6 +31,7 @@ const DEFAULT_STYLE: SubjectStyle = {
   hoverBorder: "hover:border-blue-300",
   hoverBg: "hover:bg-slate-50",
   hoverBorderStrong: "group-hover:border-blue-400",
+  confettiColors: ["#93c5fd", "#60a5fa", "#2563eb"],
 };
 
 // Keyed by subject slug (matches `getSubjects()` in lib/content.ts, i.e.
@@ -39,6 +44,7 @@ export const subjectStyles: Record<string, SubjectStyle> = {
     hoverBorder: "hover:border-rose-300",
     hoverBg: "hover:bg-rose-50/60",
     hoverBorderStrong: "group-hover:border-rose-400",
+    confettiColors: ["#fda4af", "#fb7185", "#e11d48"],
   },
   "sports-psychology": {
     icon: "text-violet-700",
@@ -47,6 +53,7 @@ export const subjectStyles: Record<string, SubjectStyle> = {
     hoverBorder: "hover:border-violet-300",
     hoverBg: "hover:bg-violet-50/60",
     hoverBorderStrong: "group-hover:border-violet-400",
+    confettiColors: ["#c4b5fd", "#a78bfa", "#7c3aed"],
   },
   "sport-society-history": {
     icon: "text-amber-700",
@@ -55,6 +62,7 @@ export const subjectStyles: Record<string, SubjectStyle> = {
     hoverBorder: "hover:border-amber-300",
     hoverBg: "hover:bg-amber-50/60",
     hoverBorderStrong: "group-hover:border-amber-400",
+    confettiColors: ["#fcd34d", "#fbbf24", "#d97706"],
   },
 };
 
