@@ -72,13 +72,24 @@ export default function FlashcardStudy({
   const [deckEnded, setDeckEnded] = useState(false);
   const [highlighted, setHighlighted] = useState<FlashcardStatus | null>(null);
   const [celebrating, setCelebrating] = useState(false);
+  // The cards actually being studied right now. Equal to the full `cards`
+  // prop except after a filtered restart (see restart()), where it's
+  // narrowed to the not-yet-known cards. Kept separate from `cards` so the
+  // celebration check (maybeCelebrate) can keep judging mastery against the
+  // whole subtopic rather than whatever subset is in the current session.
+  const [sessionCards, setSessionCards] = useState<Flashcard[]>(cards);
+  // True when the student hit "Restart deck" but every card in the subtopic
+  // is already known, so there's nothing left to filter down to.
+  const [reviewEmpty, setReviewEmpty] = useState(false);
   const subjectStyle = getSubjectStyle(subjectSlug);
 
   const timers = useRef<number[]>([]);
 
   useEffect(() => {
     setProgress(getFlashcardProgress(subtopicId));
-  }, [subtopicId]);
+    setSessionCards(cards);
+    setReviewEmpty(false);
+  }, [subtopicId, cards]);
 
   useEffect(() => {
     const activeTimers = timers.current;
@@ -91,7 +102,7 @@ export default function FlashcardStudy({
     timers.current.push(window.setTimeout(fn, ms));
   }
 
-  const card = cards[index];
+  const card = sessionCards[index];
 
   function runTransition(newIndex: number, dir: NavDirection) {
     if (navPhase !== "idle") return;
@@ -109,7 +120,7 @@ export default function FlashcardStudy({
   }
 
   function goTo(newIndex: number) {
-    if (newIndex < 0 || newIndex >= cards.length) return;
+    if (newIndex < 0 || newIndex >= sessionCards.length) return;
     runTransition(newIndex, newIndex > index ? "next" : "prev");
   }
 
@@ -121,7 +132,7 @@ export default function FlashcardStudy({
     setHighlighted(status);
     schedule(() => setHighlighted(null), HIGHLIGHT_MS);
 
-    if (index < cards.length - 1) {
+    if (index < sessionCards.length - 1) {
       runTransition(index + 1, "next");
     } else {
       setDirection("next");
@@ -151,7 +162,20 @@ export default function FlashcardStudy({
     });
   }
 
-  function restart() {
+  // useAll=true bypasses the not-known filter (used by the "Restart with all
+  // cards" edge-case button when every card is already known).
+  function restart(useAll = false) {
+    if (!useAll) {
+      const remaining = cards.filter((c) => progress[c.id] !== "known");
+      if (remaining.length === 0) {
+        setReviewEmpty(true);
+        return;
+      }
+      setSessionCards(remaining);
+    } else {
+      setSessionCards(cards);
+    }
+    setReviewEmpty(false);
     setDeckEnded(false);
     setIndex(0);
     setFlipped(false);
@@ -189,7 +213,7 @@ export default function FlashcardStudy({
         <p className="min-w-0 truncate text-center text-sm text-slate-700">{breadcrumb}</p>
         <div className="flex shrink-0 flex-col items-end gap-0.5">
           <p className="text-sm text-slate-500">
-            Card {index + 1} of {cards.length}
+            Card {index + 1} of {sessionCards.length}
           </p>
           <p className="flex items-center gap-1.5 text-xs text-slate-400">
             <span className="flex items-center gap-1">
@@ -208,7 +232,11 @@ export default function FlashcardStudy({
       <div className="flex flex-1 flex-col items-center justify-center px-4 pb-4">
         {deckEnded ? (
           <div className="flex min-h-[70vh] w-full flex-col items-center justify-center gap-6 text-center sm:min-h-[55vh] sm:w-[65%] sm:max-w-3xl">
-            {celebrating ? (
+            {reviewEmpty ? (
+              <p className="text-lg font-medium text-slate-700">
+                Every card is marked as known — nothing to review.
+              </p>
+            ) : celebrating ? (
               <>
                 <Trophy className={`h-12 w-12 ${subjectStyle.icon}`} />
                 <p className="text-lg font-medium text-slate-700">Nice work — every card marked as known.</p>
@@ -218,10 +246,10 @@ export default function FlashcardStudy({
             )}
             <div className="flex gap-3">
               <button
-                onClick={restart}
+                onClick={() => restart(reviewEmpty)}
                 className="rounded-md border border-slate-300 bg-white px-5 py-2.5 text-sm font-medium text-slate-700 hover:bg-slate-50"
               >
-                Restart deck
+                {reviewEmpty ? "Restart with all cards" : "Restart deck"}
               </button>
               <Link
                 href={backHref}
@@ -304,7 +332,7 @@ export default function FlashcardStudy({
             </button>
             <button
               onClick={() => goTo(index + 1)}
-              disabled={index === cards.length - 1 || navPhase !== "idle"}
+              disabled={index === sessionCards.length - 1 || navPhase !== "idle"}
               className="flex items-center gap-1 rounded-md px-3 py-2 text-sm font-medium text-slate-600 hover:bg-slate-100 disabled:opacity-30"
             >
               Next <ChevronRight className="h-4 w-4" />
