@@ -194,8 +194,12 @@ export default function FlashcardStudy({
     setFlashcardCelebrated(subtopicId, false);
   }
 
-  const knownCount = Object.values(progress).filter((s) => s === "known").length;
-  const learningCount = Object.values(progress).filter((s) => s === "learning").length;
+  // Scoped to `cards` (the deck currently loaded - the full subtopic, or a
+  // single group when a `?group=` filter is active) rather than every entry
+  // in the subtopic's stored progress, so a group-filtered session doesn't
+  // pick up marks made on other groups within the same subtopic.
+  const knownCount = cards.filter((c) => progress[c.id] === "known").length;
+  const learningCount = cards.filter((c) => progress[c.id] === "learning").length;
 
   if (!card) {
     return (

@@ -32,6 +32,7 @@ export default async function SubtopicPage(
         basePath={basePath}
         flashcards={flashcards}
         subjectSlug={slugify(topic.subject)}
+        subtopicId={subtopic.id}
       />
     </div>
   );
