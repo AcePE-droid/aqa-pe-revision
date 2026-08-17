@@ -1,308 +1,359 @@
 [
   {
     "id": "respiratory-001",
-    "front": "What is respiration?",
-    "back": "The process of taking in oxygen and removing carbon dioxide (CO₂).",
-    "subtopicId": "respiratory"
+    "front": "What is tidal volume?",
+    "back": "The volume of air breathed in or out during each breath; it increases during exercise.",
+    "subtopicId": "respiratory",
+    "group": "Lung volumes"
   },
   {
     "id": "respiratory-002",
-    "front": "What processes does respiration include?",
-    "back": "Ventilation; External respiration; Transport of gases; Internal respiration; Cellular respiration.",
-    "subtopicId": "respiratory"
+    "front": "What is inspiratory reserve volume?",
+    "back": "The additional volume of air that can be forcibly inhaled after a normal inspiration; it decreases during exercise.",
+    "subtopicId": "respiratory",
+    "group": "Lung volumes"
   },
   {
     "id": "respiratory-003",
-    "front": "What is external respiration?",
-    "back": "Gaseous exchange between the lungs and the blood.",
-    "subtopicId": "respiratory"
+    "front": "What is expiratory reserve volume?",
+    "back": "The additional volume of air that can be forcibly exhaled after a normal expiration; it decreases during exercise.",
+    "subtopicId": "respiratory",
+    "group": "Lung volumes"
   },
   {
     "id": "respiratory-004",
-    "front": "What is internal respiration?",
-    "back": "Gaseous exchange between the blood and body tissues.",
-    "subtopicId": "respiratory"
+    "front": "What is residual volume?",
+    "back": "The volume of air remaining in the lungs after maximal expiration; it remains largely unchanged during exercise.",
+    "subtopicId": "respiratory",
+    "group": "Lung volumes"
   },
   {
     "id": "respiratory-005",
-    "front": "What is cellular respiration?",
-    "back": "The metabolic reactions that take place within cells to release energy from fuels such as glucose.",
-    "subtopicId": "respiratory"
+    "front": "What is minute ventilation?",
+    "back": "The volume of air breathed in or out per minute; it increases significantly during exercise.",
+    "subtopicId": "respiratory",
+    "group": "Lung volumes"
   },
   {
     "id": "respiratory-006",
-    "front": "What is the passage of air through the respiratory system?",
-    "back": "Nose/mouth → Pharynx → Larynx → Trachea → Left and right bronchi → Bronchioles → Alveoli.",
-    "subtopicId": "respiratory"
+    "front": "What instrument is used to measure lung volumes?",
+    "back": "A spirometer.",
+    "subtopicId": "respiratory",
+    "group": "Lung volumes"
   },
   {
     "id": "respiratory-007",
-    "front": "What is tidal volume?",
-    "back": "The volume of air breathed in or out during each breath; it increases during exercise.",
-    "subtopicId": "respiratory"
+    "front": "What changes in breathing can a spirometer show during exercise?",
+    "back": "Breathing frequency and tidal volume increase.",
+    "subtopicId": "respiratory",
+    "group": "Lung volumes"
   },
   {
     "id": "respiratory-008",
-    "front": "What is inspiratory reserve volume?",
-    "back": "The additional volume of air that can be forcibly inhaled after a normal inspiration; it decreases during exercise.",
-    "subtopicId": "respiratory"
+    "front": "What is respiration?",
+    "back": "The process of taking in oxygen and removing carbon dioxide (CO₂).",
+    "subtopicId": "respiratory",
+    "group": "Gas exchange"
   },
   {
     "id": "respiratory-009",
-    "front": "What is expiratory reserve volume?",
-    "back": "The additional volume of air that can be forcibly exhaled after a normal expiration; it decreases during exercise.",
-    "subtopicId": "respiratory"
+    "front": "What processes does respiration include?",
+    "back": "Ventilation; External respiration; Transport of gases; Internal respiration; Cellular respiration.",
+    "subtopicId": "respiratory",
+    "group": "Gas exchange"
   },
   {
     "id": "respiratory-010",
-    "front": "What is residual volume?",
-    "back": "The volume of air remaining in the lungs after maximal expiration; it remains largely unchanged during exercise.",
-    "subtopicId": "respiratory"
+    "front": "What is external respiration?",
+    "back": "Gaseous exchange between the lungs and the blood.",
+    "subtopicId": "respiratory",
+    "group": "Gas exchange"
   },
   {
     "id": "respiratory-011",
-    "front": "What is minute ventilation?",
-    "back": "The volume of air breathed in or out per minute; it increases significantly during exercise.",
-    "subtopicId": "respiratory"
+    "front": "What is internal respiration?",
+    "back": "Gaseous exchange between the blood and body tissues.",
+    "subtopicId": "respiratory",
+    "group": "Gas exchange"
   },
   {
     "id": "respiratory-012",
-    "front": "How is pulmonary ventilation regulated during exercise?",
-    "back": "Through neural, chemical and hormonal control.",
-    "subtopicId": "respiratory"
+    "front": "What is cellular respiration?",
+    "back": "The metabolic reactions that take place within cells to release energy from fuels such as glucose.",
+    "subtopicId": "respiratory",
+    "group": "Gas exchange"
   },
   {
     "id": "respiratory-013",
-    "front": "What is the respiratory centre?",
-    "back": "The area in the medulla oblongata that controls the rate and depth of breathing.",
-    "subtopicId": "respiratory"
+    "front": "What are the positive effects of exercise on the respiratory system?",
+    "back": "Increased VO₂ max; Increased tidal volume; Stronger respiratory muscles; Increased a-vO₂ difference; Increased capillary density around the alveoli; Increased breathing depth; Improved efficiency of gaseous exchange.",
+    "subtopicId": "respiratory",
+    "group": "Gas exchange"
   },
   {
     "id": "respiratory-014",
-    "front": "What is neural control of breathing?",
-    "back": "The regulation of breathing through the brain, nervous system and sensory receptors.",
-    "subtopicId": "respiratory"
+    "front": "How do adaptations to the respiratory system improve performance?",
+    "back": "They increase oxygen uptake and gaseous exchange, increase oxygen delivery to the working muscles, improve carbon dioxide removal and delay fatigue.",
+    "subtopicId": "respiratory",
+    "group": "Gas exchange"
   },
   {
     "id": "respiratory-015",
-    "front": "What is chemical control of breathing?",
-    "back": "The regulation of breathing in response to changes in blood chemistry, particularly carbon dioxide concentration and blood pH.",
-    "subtopicId": "respiratory"
+    "front": "What are the overall effects of respiratory adaptations on health and performance?",
+    "back": "They allow a performer to exercise at a higher intensity for longer, remain predominantly aerobic for longer and delay the accumulation of lactate.",
+    "subtopicId": "respiratory",
+    "group": "Gas exchange"
   },
   {
     "id": "respiratory-016",
-    "front": "How does the sympathetic nervous system affect breathing?",
-    "back": "It prepares the body for exercise and increases breathing rate.",
-    "subtopicId": "respiratory"
+    "front": "What is the passage of air through the respiratory system?",
+    "back": "Nose/mouth → Pharynx → Larynx → Trachea → Left and right bronchi → Bronchioles → Alveoli.",
+    "subtopicId": "respiratory",
+    "group": "Pulmonary ventilation"
   },
   {
     "id": "respiratory-017",
-    "front": "How does the parasympathetic nervous system affect breathing?",
-    "back": "It helps return breathing rate towards resting levels.",
-    "subtopicId": "respiratory"
+    "front": "How is pulmonary ventilation regulated during exercise?",
+    "back": "Through neural, chemical and hormonal control.",
+    "subtopicId": "respiratory",
+    "group": "Pulmonary ventilation"
   },
   {
     "id": "respiratory-018",
-    "front": "What happens during inspiration?",
-    "back": "The diaphragm contracts and flattens; the external intercostal muscles contract, moving the rib cage upwards and outwards; thoracic volume increases; pressure in the lungs decreases below atmospheric pressure; air moves into the lungs.",
-    "subtopicId": "respiratory"
+    "front": "What is the respiratory centre?",
+    "back": "The area in the medulla oblongata that controls the rate and depth of breathing.",
+    "subtopicId": "respiratory",
+    "group": "Pulmonary ventilation"
   },
   {
     "id": "respiratory-019",
-    "front": "Which muscles are used during inspiration at rest?",
-    "back": "The diaphragm and external intercostal muscles.",
-    "subtopicId": "respiratory"
+    "front": "What is neural control of breathing?",
+    "back": "The regulation of breathing through the brain, nervous system and sensory receptors.",
+    "subtopicId": "respiratory",
+    "group": "Pulmonary ventilation"
   },
   {
     "id": "respiratory-020",
-    "front": "Which muscles are used during inspiration during exercise?",
-    "back": "The diaphragm, external intercostals and accessory muscles including the sternocleidomastoid, scalenes and pectoralis minor.",
-    "subtopicId": "respiratory"
+    "front": "What is chemical control of breathing?",
+    "back": "The regulation of breathing in response to changes in blood chemistry, particularly carbon dioxide concentration and blood pH.",
+    "subtopicId": "respiratory",
+    "group": "Pulmonary ventilation"
   },
   {
     "id": "respiratory-021",
-    "front": "What happens during expiration at rest?",
-    "back": "The diaphragm and external intercostal muscles relax; the diaphragm returns to its dome shape; the rib cage moves downwards and inwards; thoracic volume decreases; pressure in the lungs increases and air is forced out.",
-    "subtopicId": "respiratory"
+    "front": "How does the sympathetic nervous system affect breathing?",
+    "back": "It prepares the body for exercise and increases breathing rate.",
+    "subtopicId": "respiratory",
+    "group": "Pulmonary ventilation"
   },
   {
     "id": "respiratory-022",
-    "front": "Which muscles are involved in expiration at rest?",
-    "back": "Expiration at rest is mainly passive and occurs as the diaphragm and external intercostal muscles relax and the lungs recoil elastically.",
-    "subtopicId": "respiratory"
+    "front": "How does the parasympathetic nervous system affect breathing?",
+    "back": "It helps return breathing rate towards resting levels.",
+    "subtopicId": "respiratory",
+    "group": "Pulmonary ventilation"
   },
   {
     "id": "respiratory-023",
-    "front": "Which muscles are used during forced expiration during exercise?",
-    "back": "The internal intercostals and abdominal muscles.",
-    "subtopicId": "respiratory"
+    "front": "What happens during inspiration?",
+    "back": "The diaphragm contracts and flattens; the external intercostal muscles contract, moving the rib cage upwards and outwards; thoracic volume increases; pressure in the lungs decreases below atmospheric pressure; air moves into the lungs.",
+    "subtopicId": "respiratory",
+    "group": "Pulmonary ventilation"
   },
   {
     "id": "respiratory-024",
-    "front": "Why is the pressure gradient important for breathing?",
-    "back": "Air moves down a pressure gradient; it enters the lungs when intrapulmonary pressure is lower than atmospheric pressure and leaves when intrapulmonary pressure is higher than atmospheric pressure.",
-    "subtopicId": "respiratory"
+    "front": "Which muscles are used during inspiration at rest?",
+    "back": "The diaphragm and external intercostal muscles.",
+    "subtopicId": "respiratory",
+    "group": "Pulmonary ventilation"
   },
   {
     "id": "respiratory-025",
-    "front": "What happens when the volume of the thoracic cavity increases?",
-    "back": "Pressure within the lungs decreases, causing air to move into the lungs.",
-    "subtopicId": "respiratory"
+    "front": "Which muscles are used during inspiration during exercise?",
+    "back": "The diaphragm, external intercostals and accessory muscles including the sternocleidomastoid, scalenes and pectoralis minor.",
+    "subtopicId": "respiratory",
+    "group": "Pulmonary ventilation"
   },
   {
     "id": "respiratory-026",
-    "front": "What happens when the volume of the thoracic cavity decreases?",
-    "back": "Pressure within the lungs increases, causing air to move out of the lungs.",
-    "subtopicId": "respiratory"
+    "front": "What happens during expiration at rest?",
+    "back": "The diaphragm and external intercostal muscles relax; the diaphragm returns to its dome shape; the rib cage moves downwards and inwards; thoracic volume decreases; pressure in the lungs increases and air is forced out.",
+    "subtopicId": "respiratory",
+    "group": "Pulmonary ventilation"
   },
   {
     "id": "respiratory-027",
-    "front": "What instrument is used to measure lung volumes?",
-    "back": "A spirometer.",
-    "subtopicId": "respiratory"
+    "front": "Which muscles are involved in expiration at rest?",
+    "back": "Expiration at rest is mainly passive and occurs as the diaphragm and external intercostal muscles relax and the lungs recoil elastically.",
+    "subtopicId": "respiratory",
+    "group": "Pulmonary ventilation"
   },
   {
     "id": "respiratory-028",
-    "front": "What changes in breathing can a spirometer show during exercise?",
-    "back": "Breathing frequency and tidal volume increase.",
-    "subtopicId": "respiratory"
+    "front": "Which muscles are used during forced expiration during exercise?",
+    "back": "The internal intercostals and abdominal muscles.",
+    "subtopicId": "respiratory",
+    "group": "Pulmonary ventilation"
   },
   {
     "id": "respiratory-029",
-    "front": "What is the role of the inspiratory centre?",
-    "back": "It sends nerve impulses via the phrenic nerve to the diaphragm and via the intercostal nerves to the external intercostal muscles, causing inspiration; when stimulation stops, passive expiration occurs due to elastic recoil.",
-    "subtopicId": "respiratory"
+    "front": "Why is the pressure gradient important for breathing?",
+    "back": "Air moves down a pressure gradient; it enters the lungs when intrapulmonary pressure is lower than atmospheric pressure and leaves when intrapulmonary pressure is higher than atmospheric pressure.",
+    "subtopicId": "respiratory",
+    "group": "Pulmonary ventilation"
   },
   {
     "id": "respiratory-030",
-    "front": "What is the inspiratory centre responsible for?",
-    "back": "Controlling the basic rhythm of breathing by stimulating inspiration, with passive expiration occurring when inspiratory stimulation stops.",
-    "subtopicId": "respiratory"
+    "front": "What happens when the volume of the thoracic cavity increases?",
+    "back": "Pressure within the lungs decreases, causing air to move into the lungs.",
+    "subtopicId": "respiratory",
+    "group": "Pulmonary ventilation"
   },
   {
     "id": "respiratory-031",
-    "front": "What is the expiratory centre responsible for?",
-    "back": "Stimulating the expiratory muscles during forced expiration, particularly during exercise.",
-    "subtopicId": "respiratory"
+    "front": "What happens when the volume of the thoracic cavity decreases?",
+    "back": "Pressure within the lungs increases, causing air to move out of the lungs.",
+    "subtopicId": "respiratory",
+    "group": "Pulmonary ventilation"
   },
   {
     "id": "respiratory-032",
-    "front": "What chemical changes occur during exercise?",
-    "back": "CO₂ concentration increases; hydrogen ion concentration increases; blood pH decreases, making the blood more acidic; during high-intensity exercise, lactate production also increases.",
-    "subtopicId": "respiratory"
+    "front": "What is the role of the inspiratory centre?",
+    "back": "It sends nerve impulses via the phrenic nerve to the diaphragm and via the intercostal nerves to the external intercostal muscles, causing inspiration; when stimulation stops, passive expiration occurs due to elastic recoil.",
+    "subtopicId": "respiratory",
+    "group": "Pulmonary ventilation"
   },
   {
     "id": "respiratory-033",
-    "front": "How does chemical control regulate breathing during exercise?",
-    "back": "Chemoreceptors detect changes in blood chemistry, including increased CO₂ and decreased pH; impulses are sent to the respiratory centre in the medulla oblongata, which increases stimulation of the respiratory muscles, causing the rate and depth of breathing to increase.",
-    "subtopicId": "respiratory"
+    "front": "What is the inspiratory centre responsible for?",
+    "back": "Controlling the basic rhythm of breathing by stimulating inspiration, with passive expiration occurring when inspiratory stimulation stops.",
+    "subtopicId": "respiratory",
+    "group": "Pulmonary ventilation"
   },
   {
     "id": "respiratory-034",
-    "front": "What other receptors are involved in the neural control of breathing?",
-    "back": "Proprioceptors; Baroreceptors; Stretch receptors.",
-    "subtopicId": "respiratory"
+    "front": "What is the expiratory centre responsible for?",
+    "back": "Stimulating the expiratory muscles during forced expiration, particularly during exercise.",
+    "subtopicId": "respiratory",
+    "group": "Pulmonary ventilation"
   },
   {
     "id": "respiratory-035",
-    "front": "What is the role of stretch receptors during breathing?",
-    "back": "They detect excessive stretching of the lungs and help prevent overinflation by sending impulses to the respiratory centre, promoting expiration.",
-    "subtopicId": "respiratory"
+    "front": "What chemical changes occur during exercise?",
+    "back": "CO₂ concentration increases; hydrogen ion concentration increases; blood pH decreases, making the blood more acidic; during high-intensity exercise, lactate production also increases.",
+    "subtopicId": "respiratory",
+    "group": "Pulmonary ventilation"
   },
   {
     "id": "respiratory-036",
-    "front": "What is the first stage of hormonal control of pulmonary ventilation?",
-    "back": "Adrenaline is produced by the adrenal glands, which are located above the kidneys.",
-    "subtopicId": "respiratory"
+    "front": "How does chemical control regulate breathing during exercise?",
+    "back": "Chemoreceptors detect changes in blood chemistry, including increased CO₂ and decreased pH; impulses are sent to the respiratory centre in the medulla oblongata, which increases stimulation of the respiratory muscles, causing the rate and depth of breathing to increase.",
+    "subtopicId": "respiratory",
+    "group": "Pulmonary ventilation"
   },
   {
     "id": "respiratory-037",
-    "front": "What is the second stage of hormonal control of pulmonary ventilation?",
-    "back": "Adrenaline is transported in the blood and influences the nervous system.",
-    "subtopicId": "respiratory"
+    "front": "What is the first stage of hormonal control of pulmonary ventilation?",
+    "back": "Adrenaline is produced by the adrenal glands, which are located above the kidneys.",
+    "subtopicId": "respiratory",
+    "group": "Pulmonary ventilation"
   },
   {
     "id": "respiratory-038",
-    "front": "What is the third stage of hormonal control of pulmonary ventilation?",
-    "back": "Before exercise, the brain stimulates the adrenal glands to release adrenaline in anticipation of increased oxygen demand and carbon dioxide removal.",
-    "subtopicId": "respiratory"
+    "front": "What is the second stage of hormonal control of pulmonary ventilation?",
+    "back": "Adrenaline is transported in the blood and influences the nervous system.",
+    "subtopicId": "respiratory",
+    "group": "Pulmonary ventilation"
   },
   {
     "id": "respiratory-039",
-    "front": "What is the fourth stage of hormonal control of pulmonary ventilation?",
-    "back": "Breathing rate increases in preparation for exercise.",
-    "subtopicId": "respiratory"
+    "front": "What is the third stage of hormonal control of pulmonary ventilation?",
+    "back": "Before exercise, the brain stimulates the adrenal glands to release adrenaline in anticipation of increased oxygen demand and carbon dioxide removal.",
+    "subtopicId": "respiratory",
+    "group": "Pulmonary ventilation"
   },
   {
     "id": "respiratory-040",
-    "front": "What are the positive effects of exercise on the respiratory system?",
-    "back": "Increased VO₂ max; Increased tidal volume; Stronger respiratory muscles; Increased a-vO₂ difference; Increased capillary density around the alveoli; Increased breathing depth; Improved efficiency of gaseous exchange.",
-    "subtopicId": "respiratory"
+    "front": "What is the fourth stage of hormonal control of pulmonary ventilation?",
+    "back": "Breathing rate increases in preparation for exercise.",
+    "subtopicId": "respiratory",
+    "group": "Pulmonary ventilation"
   },
   {
     "id": "respiratory-041",
-    "front": "How do adaptations to the respiratory system improve performance?",
-    "back": "They increase oxygen uptake and gaseous exchange, increase oxygen delivery to the working muscles, improve carbon dioxide removal and delay fatigue.",
-    "subtopicId": "respiratory"
+    "front": "What other receptors are involved in the neural control of breathing?",
+    "back": "Proprioceptors; Baroreceptors; Stretch receptors.",
+    "subtopicId": "respiratory",
+    "group": "Receptors involved in pulmonary ventilation"
   },
   {
     "id": "respiratory-042",
-    "front": "What are the overall effects of respiratory adaptations on health and performance?",
-    "back": "They allow a performer to exercise at a higher intensity for longer, remain predominantly aerobic for longer and delay the accumulation of lactate.",
-    "subtopicId": "respiratory"
+    "front": "What is the role of stretch receptors during breathing?",
+    "back": "They detect excessive stretching of the lungs and help prevent overinflation by sending impulses to the respiratory centre, promoting expiration.",
+    "subtopicId": "respiratory",
+    "group": "Receptors involved in pulmonary ventilation"
   },
   {
     "id": "respiratory-043",
     "front": "What effect does smoking have on the trachea and bronchi?",
     "back": "It irritates and inflames the lining of the trachea and bronchi.",
-    "subtopicId": "respiratory"
+    "subtopicId": "respiratory",
+    "group": "Lifestyle choices on respiratory system"
   },
   {
     "id": "respiratory-044",
     "front": "How does smoking affect lung function?",
     "back": "It reduces lung function and increases breathlessness due to inflammation and narrowing of the airways.",
-    "subtopicId": "respiratory"
+    "subtopicId": "respiratory",
+    "group": "Lifestyle choices on respiratory system"
   },
   {
     "id": "respiratory-045",
     "front": "What happens to cilia as a result of smoking?",
     "back": "Cilia become damaged and are less able to remove mucus and debris, resulting in mucus build-up and a smoker's cough.",
-    "subtopicId": "respiratory"
+    "subtopicId": "respiratory",
+    "group": "Lifestyle choices on respiratory system"
   },
   {
     "id": "respiratory-046",
     "front": "What happens to the alveoli as a result of smoking?",
     "back": "The alveolar walls can become damaged and break down, reducing the surface area available for gaseous exchange.",
-    "subtopicId": "respiratory"
+    "subtopicId": "respiratory",
+    "group": "Lifestyle choices on respiratory system"
   },
   {
     "id": "respiratory-047",
     "front": "What respiratory disease can be caused by poor lung health?",
     "back": "Chronic Obstructive Pulmonary Disease (COPD).",
-    "subtopicId": "respiratory"
+    "subtopicId": "respiratory",
+    "group": "Lifestyle choices on respiratory system"
   },
   {
     "id": "respiratory-048",
     "front": "What is COPD and what condition is associated with it?",
     "back": "COPD is a group of chronic lung conditions that restrict airflow and cause breathing difficulties; emphysema is one condition associated with COPD.",
-    "subtopicId": "respiratory"
+    "subtopicId": "respiratory",
+    "group": "Lifestyle choices on respiratory system"
   },
   {
     "id": "respiratory-049",
     "front": "How does carbon monoxide affect oxygen transport?",
     "back": "Haemoglobin has a greater affinity for carbon monoxide than oxygen, so carbon monoxide binds to haemoglobin and reduces the oxygen-carrying capacity of the blood, increasing breathlessness during exercise.",
-    "subtopicId": "respiratory"
+    "subtopicId": "respiratory",
+    "group": "Lifestyle choices on respiratory system"
   },
   {
     "id": "respiratory-050",
     "front": "What are the effects of smoking on oxygen supply to the muscles?",
     "back": "Smoking reduces the efficiency of oxygen delivery to the working muscles because carbon monoxide binds to haemoglobin, reducing the oxygen-carrying capacity of the blood.",
-    "subtopicId": "respiratory"
+    "subtopicId": "respiratory",
+    "group": "Lifestyle choices on respiratory system"
   },
   {
     "id": "respiratory-051",
     "front": "How does smoking negatively affect gaseous exchange and the respiratory system?",
     "back": "It reduces the efficiency of gaseous exchange; damages the alveoli; tar and other chemicals damage the airways; narrowed airways increase resistance to airflow; and the risk of respiratory disease increases.",
-    "subtopicId": "respiratory"
+    "subtopicId": "respiratory",
+    "group": "Lifestyle choices on respiratory system"
   }
 ]

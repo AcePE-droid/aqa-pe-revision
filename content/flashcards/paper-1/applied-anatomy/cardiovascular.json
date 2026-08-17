@@ -1,722 +1,842 @@
 [
   {
-    "id": "cv-001",
-    "front": "What does the vena cava do?",
-    "back": "It returns deoxygenated blood to the right atrium.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-002",
-    "front": "What does the pulmonary vein do?",
-    "back": "It carries oxygenated blood to the left atrium.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-003",
-    "front": "What does the pulmonary artery do?",
-    "back": "It carries deoxygenated blood from the right ventricle to the lungs.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-004",
-    "front": "What does the aorta do?",
-    "back": "It carries oxygenated blood from the left ventricle to the rest of the body.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-005",
-    "front": "What is the first step of the cardiac conduction system?",
-    "back": "1 - An electrical impulse originates at the sinoatrial (SA) node, initiating the heartbeat.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-006",
-    "front": "What is the second step of the cardiac conduction system?",
-    "back": "2 - The electrical impulse spreads across the atria in a wave of excitation.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-007",
-    "front": "What is the third step of the cardiac conduction system?",
-    "back": "3 - The atria contract, forcing blood into the ventricles.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-008",
-    "front": "What is the fourth step of the cardiac conduction system?",
-    "back": "4 - The electrical impulse passes through the atrioventricular (AV) node.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-009",
-    "front": "What is the fifth step of the cardiac conduction system?",
-    "back": "5 - The AV node delays transmission for approximately 0.1 seconds, allowing the atria to fully contract before ventricular systole begins.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-010",
-    "front": "What is the sixth step of the cardiac conduction system?",
-    "back": "6 - The electrical impulse passes down specialised fibres that form the Bundle of His, located in the septum.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-011",
-    "front": "What is the seventh step of the cardiac conduction system?",
-    "back": "7 - The Bundle of His divides into two bundle branches, which branch into Purkinje fibres that spread throughout the ventricles.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-012",
-    "front": "What is the eighth step of the cardiac conduction system?",
-    "back": "8 - The ventricles contract, forcing blood up and out of the heart.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-013",
-    "front": "What are the three factors that affect the rate of the cardiac conduction system?",
-    "back": "1 - Chemoreceptors; 2 - Baroreceptors; 3 - Proprioceptors.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-014",
-    "front": "What is the neural control mechanism?",
-    "back": "It involves the sympathetic nervous system and the parasympathetic nervous system.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-015",
-    "front": "What does the sympathetic nervous system do?",
-    "back": "It stimulates the heart to beat faster.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-016",
-    "front": "What does the parasympathetic nervous system do?",
-    "back": "It returns heart rate to its resting level.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-017",
-    "front": "What are the two parts of the nervous system?",
-    "back": "The central nervous system (CNS), consisting of the brain and spinal cord; and the peripheral nervous system (PNS), consisting of the nerves that transmit information to and from the CNS.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-018",
-    "front": "What do the CNS and PNS do in controlling heart rate?",
-    "back": "The cardiac control centre (CCC), located in the medulla oblongata, coordinates heart rate. Sympathetic nerve impulses are sent to the SA node while parasympathetic impulses decrease, increasing heart rate. The CCC is stimulated by chemoreceptors, baroreceptors and proprioceptors.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-019",
-    "front": "Where are chemoreceptors located?",
-    "back": "In the aortic arch and carotid arteries.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-020",
-    "front": "How do chemoreceptors work?",
-    "back": "They detect changes in blood acidity caused by increased carbon dioxide (CO₂) levels and send signals to the cardiac control centre (CCC), which stimulates the sympathetic nervous system to increase heart rate.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-021",
-    "front": "Where are proprioceptors located?",
-    "back": "In muscles, tendons and joints.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-022",
-    "front": "How do proprioceptors work?",
-    "back": "At the start of exercise, they detect movement. They send impulses to the medulla oblongata, which sends impulses via the sympathetic nervous system to the SA node, increasing heart rate.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-023",
-    "front": "What happens when the parasympathetic nervous system stimulates the SA node?",
-    "back": "Heart rate decreases.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-024",
-    "front": "What do baroreceptors respond to?",
-    "back": "They respond to stretching of the arterial walls caused by changes in blood pressure.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-025",
-    "front": "How do baroreceptors work?",
-    "back": "They establish a blood pressure set point. Any fluctuation causes signals to be sent to the medulla oblongata, which adjusts heart rate accordingly.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-026",
-    "front": "What happens if there is an increase in arterial pressure?",
-    "back": "Increased stretching of the baroreceptors causes heart rate to decrease, and vice versa.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-027",
-    "front": "What do the baroreceptors do at the start of exercise?",
-    "back": "Their blood pressure set point increases before exercise, preventing a reflex decrease in heart rate as blood pressure rises.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-028",
-    "front": "What is the hormonal control mechanism?",
-    "back": "It is the control of heart rate through hormones released into the bloodstream.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-029",
-    "front": "How does the hormonal control mechanism work?",
-    "back": "Adrenaline is released by the adrenal glands during exercise. It stimulates the SA node, increasing both the rate and force of contraction, which increases cardiac output.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-030",
-    "front": "What is the result of the hormonal control mechanism during exercise?",
-    "back": "More blood reaches the working muscles, increasing oxygen delivery and improving performance.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-031",
-    "front": "What is stroke volume?",
-    "back": "The volume of blood pumped out of the ventricles with each heartbeat.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-032",
-    "front": "What is the average resting stroke volume?",
-    "back": "Approximately 70 ml per beat.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-033",
-    "front": "What is venous return?",
-    "back": "The volume of blood returning to the heart via the veins.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-034",
-    "front": "What else increases if venous return increases?",
-    "back": "Stroke volume increases.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-035",
-    "front": "What is the elasticity of cardiac fibres?",
-    "back": "The degree to which cardiac muscle fibres stretch during the diastole phase of the cardiac cycle.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-036",
-    "front": "What happens if the cardiac fibres stretch more?",
-    "back": "A greater stretch produces a more forceful contraction, increasing stroke volume and ejection fraction. This is known as Starling's Law.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-037",
-    "front": "What is ejection fraction?",
-    "back": "The percentage of blood pumped out of the left ventricle with each heartbeat.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-038",
-    "front": "What is the ejection fraction equation?",
-    "back": "Ejection fraction = Stroke volume ÷ End-diastolic volume.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-039",
-    "front": "What are the stages of Starling's Law?",
-    "back": "1 - Increased venous return; 2 - Greater diastolic filling of the heart; 3 - Cardiac muscle fibres are stretched; 4 - Greater force of contraction; 5 - Increased stroke volume and ejection fraction.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-040",
-    "front": "What is the average ejection fraction?",
-    "back": "Approximately 60% at rest, but it can increase to around 85% following endurance training.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-041",
-    "front": "What happens to stroke volume in response to exercise?",
-    "back": "Stroke volume increases, but only up to approximately 40–60% of maximum effort, after which it plateaus.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-042",
-    "front": "Why does stroke volume only increase up to 40–60% of maximum effort during exercise?",
-    "back": "As heart rate approaches its maximum, the diastolic phase becomes shorter, giving the ventricles less time to fill with blood, which limits stroke volume.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-043",
-    "front": "What is the average resting heart rate?",
-    "back": "Approximately 72 bpm.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-044",
-    "front": "How does heart rate increase during exercise?",
-    "back": "Heart rate increases in direct proportion to exercise intensity; as intensity increases, heart rate also increases.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-045",
-    "front": "What are the long-term effects of endurance training on heart rate?",
-    "back": "Cardiac hypertrophy, increased stroke volume and a decreased resting heart rate (bradycardia).",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-046",
-    "front": "What is cardiac output?",
-    "back": "The volume of blood pumped by the heart per minute.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-047",
-    "front": "What happens as stroke volume increases?",
-    "back": "Resting heart rate decreases while cardiac output remains approximately the same.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-048",
-    "front": "How does heart rate respond during maximal exercise?",
-    "back": "A - Anticipatory rise due to adrenaline stimulating the SA node; B - Rapid rise due to the onset of exercise and predominantly anaerobic work; C - Heart rate continues to rise as exercise intensity reaches maximum; E - Rapid decline immediately after exercise; F - Slower recovery while waste products such as lactic acid are removed and the body returns to resting conditions.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-049",
-    "front": "How does heart rate respond during submaximal exercise?",
-    "back": "A - Anticipatory rise due to adrenaline stimulating the SA node; B - Rapid rise at the start of exercise; D - Steady state, where oxygen supply meets oxygen demand; E - Rapid decline immediately after exercise; F - Slower recovery while the body returns to resting conditions.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-050",
+    "id": "cardiovascular-001",
     "front": "What is the definition of health?",
     "back": "A state of complete physical, mental and social well-being.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Health and fitness"
   },
   {
-    "id": "cv-051",
+    "id": "cardiovascular-002",
     "front": "What is the definition of fitness?",
     "back": "The ability to meet the demands of the environment.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Health and fitness"
   },
   {
-    "id": "cv-052",
+    "id": "cardiovascular-003",
     "front": "How does coronary heart disease (CHD) occur?",
     "back": "CHD occurs when the coronary arteries become narrowed or blocked due to the build-up of fatty deposits (atheroma). This process is known as atherosclerosis.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Health and fitness"
   },
   {
-    "id": "cv-053",
+    "id": "cardiovascular-004",
     "front": "What are fatty deposits called, and what causes them?",
     "back": "Fatty deposits are called atheroma. They are caused by factors such as high blood pressure, high cholesterol, smoking and physical inactivity.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Health and fitness"
   },
   {
-    "id": "cv-054",
+    "id": "cardiovascular-005",
     "front": "What are the six stages leading to coronary heart disease?",
     "back": "1 - Coronary arteries become narrowed; 2 - Less oxygen reaches the heart muscle; 3 - Chest pain (angina) occurs; 4 - An atheroma ruptures, causing a blood clot to form; 5 - The blood clot blocks the artery; 6 - Oxygen supply to the heart muscle is cut off, causing a heart attack (myocardial infarction).",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Health and fitness"
   },
   {
-    "id": "cv-055",
+    "id": "cardiovascular-006",
     "front": "How can regular exercise improve heart health?",
     "back": "It strengthens the heart through cardiac hypertrophy, improves efficiency, maintains the elasticity of blood vessels, helps regulate blood pressure and reduces cholesterol levels.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Health and fitness"
   },
   {
-    "id": "cv-056",
+    "id": "cardiovascular-007",
     "front": "What effect does high blood pressure have on the arteries?",
     "back": "It places extra strain on the arterial walls and increases the risk of heart attack, kidney disease and stroke if left untreated.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Health and fitness"
   },
   {
-    "id": "cv-057",
+    "id": "cardiovascular-008",
     "front": "What is the normal blood pressure measurement?",
     "back": "120/80 mmHg.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Health and fitness"
   },
   {
-    "id": "cv-058",
+    "id": "cardiovascular-009",
     "front": "How does regular exercise affect blood pressure?",
     "back": "It can reduce both systolic and diastolic blood pressure by approximately 5–10 mmHg, reducing the risk of cardiovascular disease.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Health and fitness"
   },
   {
-    "id": "cv-059",
+    "id": "cardiovascular-010",
     "front": "What are high-density lipoproteins (HDL), and what do they do?",
     "back": "HDL is known as \"good\" cholesterol. It transports excess cholesterol from the blood back to the liver, where it is broken down, reducing the risk of coronary heart disease.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Health and fitness"
   },
   {
-    "id": "cv-060",
+    "id": "cardiovascular-011",
     "front": "What are low-density lipoproteins (LDL), and what do they do?",
     "back": "LDL is known as \"bad\" cholesterol. It transports cholesterol from the liver to body tissues, and high levels are associated with an increased risk of coronary heart disease.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Health and fitness"
   },
   {
-    "id": "cv-061",
+    "id": "cardiovascular-012",
     "front": "How does a stroke occur?",
     "back": "When the blood supply to part of the brain is cut off, causing damage to brain cells.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Health and fitness"
   },
   {
-    "id": "cv-062",
+    "id": "cardiovascular-013",
     "front": "What can strokes cause?",
     "back": "Brain injury, disability and sometimes death.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Health and fitness"
   },
   {
-    "id": "cv-063",
+    "id": "cardiovascular-014",
     "front": "What is an ischaemic stroke?",
     "back": "-The most common type of stroke. -Occurs when a blood clot stops the blood supply to part of the brain.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Health and fitness"
   },
   {
-    "id": "cv-064",
+    "id": "cardiovascular-015",
     "front": "What is a haemorrhagic stroke?",
     "back": "A type of stroke that occurs when a weakened blood vessel supplying the brain bursts.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Health and fitness"
   },
   {
-    "id": "cv-065",
+    "id": "cardiovascular-016",
     "front": "How does regular exercise help prevent a stroke, and by what percentage does it reduce the risk?",
     "back": "-Lowers blood pressure and helps maintain a healthy weight. -Reduces the risk by approximately 27%.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Health and fitness"
   },
   {
-    "id": "cv-066",
+    "id": "cardiovascular-017",
     "front": "What are six lifestyle choices and what can they lead to?",
     "back": "-Bad diet = obesity linked to CHD. -Smoking = reduced lung capacity and can cause lung cancer. -Lack of exercise = obesity, reduced flexibility, high blood pressure and increased risk of CHD. -Alcohol/drugs = liver damage, heart disease, cancer and diabetes. -Lack of sleep = fatigue and stress. -Overtraining = long-term injuries.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Health and fitness"
   },
   {
-    "id": "cv-067",
-    "front": "What is steady state?",
-    "back": "When the athlete is able to meet the oxygen demand with the oxygen supply.",
-    "subtopicId": "cardiovascular"
+    "id": "cardiovascular-018",
+    "front": "What does the vena cava do?",
+    "back": "It returns deoxygenated blood to the right atrium.",
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-068",
-    "front": "What does research actually show about steady state?",
-    "back": "Heart rate slowly continues to rise.",
-    "subtopicId": "cardiovascular"
+    "id": "cardiovascular-019",
+    "front": "What does the pulmonary vein do?",
+    "back": "It carries oxygenated blood to the left atrium.",
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-069",
-    "front": "What is cardiovascular drift characterised by?",
-    "back": "A progressive decrease in stroke volume and arterial blood pressure, together with an increase in heart rate.",
-    "subtopicId": "cardiovascular"
+    "id": "cardiovascular-020",
+    "front": "What does the pulmonary artery do?",
+    "back": "It carries deoxygenated blood from the right ventricle to the lungs.",
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-070",
-    "front": "When does cardiovascular drift occur?",
-    "back": "During prolonged exercise in a warm environment despite the exercise intensity remaining the same.",
-    "subtopicId": "cardiovascular"
+    "id": "cardiovascular-021",
+    "front": "What does the aorta do?",
+    "back": "It carries oxygenated blood from the left ventricle to the rest of the body.",
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-071",
-    "front": "Why does cardiovascular drift occur?",
-    "back": "-When we sweat, some of the fluid lost comes from blood plasma. -This decrease in plasma volume reduces venous return, therefore reducing stroke volume. -Heart rate increases to compensate and maintain cardiac output while helping cool the body.",
-    "subtopicId": "cardiovascular"
+    "id": "cardiovascular-022",
+    "front": "What is the first step of the cardiac conduction system?",
+    "back": "1 - An electrical impulse originates at the sinoatrial (SA) node, initiating the heartbeat.",
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-072",
-    "front": "How can cardiovascular drift be minimised?",
-    "back": "Drink plenty of water before and during exercise.",
-    "subtopicId": "cardiovascular"
+    "id": "cardiovascular-023",
+    "front": "What is the second step of the cardiac conduction system?",
+    "back": "2 - The electrical impulse spreads across the atria in a wave of excitation.",
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-073",
+    "id": "cardiovascular-024",
+    "front": "What is the third step of the cardiac conduction system?",
+    "back": "3 - The atria contract, forcing blood into the ventricles.",
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
+  },
+  {
+    "id": "cardiovascular-025",
+    "front": "What is the fourth step of the cardiac conduction system?",
+    "back": "4 - The electrical impulse passes through the atrioventricular (AV) node.",
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
+  },
+  {
+    "id": "cardiovascular-026",
+    "front": "What is the fifth step of the cardiac conduction system?",
+    "back": "5 - The AV node delays transmission for approximately 0.1 seconds, allowing the atria to fully contract before ventricular systole begins.",
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
+  },
+  {
+    "id": "cardiovascular-027",
+    "front": "What is the sixth step of the cardiac conduction system?",
+    "back": "6 - The electrical impulse passes down specialised fibres that form the Bundle of His, located in the septum.",
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
+  },
+  {
+    "id": "cardiovascular-028",
+    "front": "What is the seventh step of the cardiac conduction system?",
+    "back": "7 - The Bundle of His divides into two bundle branches, which branch into Purkinje fibres that spread throughout the ventricles.",
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
+  },
+  {
+    "id": "cardiovascular-029",
+    "front": "What is the eighth step of the cardiac conduction system?",
+    "back": "8 - The ventricles contract, forcing blood up and out of the heart.",
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
+  },
+  {
+    "id": "cardiovascular-030",
+    "front": "What is the neural control mechanism?",
+    "back": "It involves the sympathetic nervous system and the parasympathetic nervous system.",
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
+  },
+  {
+    "id": "cardiovascular-031",
+    "front": "What does the sympathetic nervous system do?",
+    "back": "It stimulates the heart to beat faster.",
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
+  },
+  {
+    "id": "cardiovascular-032",
+    "front": "What does the parasympathetic nervous system do?",
+    "back": "It returns heart rate to its resting level.",
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
+  },
+  {
+    "id": "cardiovascular-033",
+    "front": "What are the two parts of the nervous system?",
+    "back": "The central nervous system (CNS), consisting of the brain and spinal cord; and the peripheral nervous system (PNS), consisting of the nerves that transmit information to and from the CNS.",
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
+  },
+  {
+    "id": "cardiovascular-034",
+    "front": "What do the CNS and PNS do in controlling heart rate?",
+    "back": "The cardiac control centre (CCC), located in the medulla oblongata, coordinates heart rate. Sympathetic nerve impulses are sent to the SA node while parasympathetic impulses decrease, increasing heart rate. The CCC is stimulated by chemoreceptors, baroreceptors and proprioceptors.",
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
+  },
+  {
+    "id": "cardiovascular-035",
+    "front": "What happens when the parasympathetic nervous system stimulates the SA node?",
+    "back": "Heart rate decreases.",
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
+  },
+  {
+    "id": "cardiovascular-036",
+    "front": "What is the hormonal control mechanism?",
+    "back": "It is the control of heart rate through hormones released into the bloodstream.",
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
+  },
+  {
+    "id": "cardiovascular-037",
+    "front": "How does the hormonal control mechanism work?",
+    "back": "Adrenaline is released by the adrenal glands during exercise. It stimulates the SA node, increasing both the rate and force of contraction, which increases cardiac output.",
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
+  },
+  {
+    "id": "cardiovascular-038",
+    "front": "What is the result of the hormonal control mechanism during exercise?",
+    "back": "More blood reaches the working muscles, increasing oxygen delivery and improving performance.",
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
+  },
+  {
+    "id": "cardiovascular-039",
+    "front": "What is the average resting heart rate?",
+    "back": "Approximately 72 bpm.",
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
+  },
+  {
+    "id": "cardiovascular-040",
+    "front": "How does heart rate increase during exercise?",
+    "back": "Heart rate increases in direct proportion to exercise intensity; as intensity increases, heart rate also increases.",
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
+  },
+  {
+    "id": "cardiovascular-041",
+    "front": "What are the long-term effects of endurance training on heart rate?",
+    "back": "Cardiac hypertrophy, increased stroke volume and a decreased resting heart rate (bradycardia).",
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
+  },
+  {
+    "id": "cardiovascular-042",
+    "front": "What is cardiac output?",
+    "back": "The volume of blood pumped by the heart per minute.",
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
+  },
+  {
+    "id": "cardiovascular-043",
+    "front": "What happens as stroke volume increases?",
+    "back": "Resting heart rate decreases while cardiac output remains approximately the same.",
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
+  },
+  {
+    "id": "cardiovascular-044",
+    "front": "How does heart rate respond during maximal exercise?",
+    "back": "A - Anticipatory rise due to adrenaline stimulating the SA node; B - Rapid rise due to the onset of exercise and predominantly anaerobic work; C - Heart rate continues to rise as exercise intensity reaches maximum; E - Rapid decline immediately after exercise; F - Slower recovery while waste products such as lactic acid are removed and the body returns to resting conditions.",
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
+  },
+  {
+    "id": "cardiovascular-045",
+    "front": "How does heart rate respond during submaximal exercise?",
+    "back": "A - Anticipatory rise due to adrenaline stimulating the SA node; B - Rapid rise at the start of exercise; D - Steady state, where oxygen supply meets oxygen demand; E - Rapid decline immediately after exercise; F - Slower recovery while the body returns to resting conditions.",
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
+  },
+  {
+    "id": "cardiovascular-046",
     "front": "What measures blood pressure?",
     "back": "A sphygmomanometer.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-074",
+    "id": "cardiovascular-047",
     "front": "Why is it difficult to return blood from the large veins to the heart?",
     "back": "-The pressure is very low in the large veins, so active mechanisms are required to return blood to the heart.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-075",
+    "id": "cardiovascular-048",
     "front": "How does the skeletal muscle pump work?",
     "back": "-When muscles contract and relax, they change shape. -They press on nearby veins, creating a pumping effect. -This squeezes blood towards the heart.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-076",
+    "id": "cardiovascular-049",
     "front": "How does the respiratory pump work?",
     "back": "-When the muscles contract and relax during breathing, pressure changes occur in the thoracic and abdominal cavities. -These pressure changes compress nearby veins and assist venous return to the heart.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-077",
+    "id": "cardiovascular-050",
     "front": "How do pocket valves work?",
     "back": "-Valves ensure blood flows in only one direction. -Once blood has passed through them, they close to prevent backflow.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-078",
+    "id": "cardiovascular-051",
     "front": "How does the suction pump action of the heart work?",
     "back": "-Blood moves from the atria to the ventricles. -This leaves less blood in the atria. -More blood is drawn into the atria from the vena cava due to the pressure gradient.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-079",
+    "id": "cardiovascular-052",
     "front": "What are two other factors that assist venous return?",
     "back": "-A thin layer of smooth muscle helps move blood towards the heart. -Gravity helps blood return to the heart from the upper body.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-080",
+    "id": "cardiovascular-053",
     "front": "Which venous return mechanisms are used at rest?",
     "back": "Valves and the smooth muscle in veins are sufficient to maintain venous return.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-081",
+    "id": "cardiovascular-054",
     "front": "Which venous return mechanisms are used during exercise?",
     "back": "The skeletal muscle pump, respiratory pump and increased suction pump action of the heart due to the greater oxygen demand.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-082",
+    "id": "cardiovascular-055",
     "front": "What happens to the venous return mechanisms immediately after exercise?",
     "back": "These mechanisms still need to remain active. -An active cool-down keeps the skeletal muscle pump and respiratory pump working, preventing blood pooling.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-083",
+    "id": "cardiovascular-056",
     "front": "What happens to venous return when systolic blood pressure increases?",
     "back": "Venous return increases.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-084",
+    "id": "cardiovascular-057",
     "front": "How is venous return determined?",
     "back": "By the pressure gradient between the right atrium and the vena cava.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-085",
+    "id": "cardiovascular-058",
     "front": "What is the calculation for venous return?",
     "back": "(Venous pressure − Right atrial pressure) ÷ Venous vascular resistance.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-086",
+    "id": "cardiovascular-059",
     "front": "What three factors increase venous return?",
     "back": "1. An increase in venous pressure. 2. A decrease in right atrial pressure. 3. A decrease in venous vascular resistance.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-087",
+    "id": "cardiovascular-060",
     "front": "What happens to venous return if right atrial pressure increases?",
     "back": "Venous return decreases.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-088",
+    "id": "cardiovascular-061",
     "front": "What can significantly affect the return of blood to the right atrium?",
     "back": "Small changes in blood pressure in either the right atrium or the peripheral veins.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-089",
+    "id": "cardiovascular-062",
     "front": "Why does a small change in blood pressure in either the right atrium or the peripheral veins cause a large increase in venous return?",
     "back": "-The blood pressure in the right atrium and peripheral veins is normally very low, so the pressure gradient driving venous return is also low. -A small change in blood pressure can therefore produce a much larger pressure gradient, increasing venous return.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-090",
+    "id": "cardiovascular-063",
     "front": "Why does venous return increase from the peripheral circulation to the right atrium during exercise?",
     "back": "Due to small changes in blood pressure between the atria and the peripheral circulation.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-091",
-    "front": "What is oxyhaemoglobin distribution?",
-    "back": "The transport of oxygen through the bloodstream to the muscles during exercise.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-092",
-    "front": "How many oxygen molecules can be transported by one haemoglobin molecule?",
-    "back": "4",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-093",
-    "front": "What is haemoglobin dissociation?",
-    "back": "When there is a low partial pressure of oxygen at the tissues, oxygen is released from oxyhaemoglobin.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-094",
-    "front": "How is oxygen stored in the muscles and why?",
-    "back": "It is stored by myoglobin, which has a higher affinity for oxygen and stores it for use by the mitochondria until it is needed by the muscles.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-095",
-    "front": "What are three causes of the Bohr shift?",
-    "back": "-Increase in blood temperature. -Increase in CO₂. -Decrease in pH (increased acidity).",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-096",
-    "front": "How does an increase in blood temperature affect the Bohr shift?",
-    "back": "When blood and muscle temperature increase during exercise, oxygen dissociates from haemoglobin more quickly.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-097",
-    "front": "How does an increase in CO₂ affect the Bohr shift?",
-    "back": "As blood CO₂ levels rise during exercise, oxygen dissociates from haemoglobin more quickly.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-098",
-    "front": "How does pH affect the Bohr shift?",
-    "back": "More CO₂ lowers the pH of the blood. A decrease in blood pH causes oxygen to dissociate from haemoglobin more quickly.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-099",
-    "front": "What does the oxyhaemoglobin dissociation curve show?",
-    "back": "It shows the relationship between oxygen and haemoglobin.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-100",
-    "front": "Which way does the oxyhaemoglobin dissociation curve shift during exercise and why? (Bohr shift)",
-    "back": "It shifts to the right because when muscles require more oxygen, oxygen dissociates more readily from haemoglobin in the blood capillaries to the muscle tissues.",
-    "subtopicId": "cardiovascular"
-  },
-  {
-    "id": "cv-101",
+    "id": "cardiovascular-064",
     "front": "What is vasodilation?",
     "back": "The widening of arteries to allow more blood to flow through.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-102",
+    "id": "cardiovascular-065",
     "front": "What is vasoconstriction?",
     "back": "The narrowing of arteries to reduce blood flow.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-103",
+    "id": "cardiovascular-066",
     "front": "How much blood does the cardiac muscle receive before and during exercise?",
     "back": "The same amount.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-104",
+    "id": "cardiovascular-067",
     "front": "Why shouldn't you eat within an hour before exercise? (Vascular shunting)",
     "back": "A full digestive system results in more blood being directed to the digestive organs rather than the working muscles, negatively affecting exercise performance.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-105",
+    "id": "cardiovascular-068",
     "front": "What allows brain function to be maintained during exercise?",
     "back": "A constant flow of blood to the brain.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-106",
+    "id": "cardiovascular-069",
     "front": "Why does more blood go to the skin during exercise?",
     "back": "To help cool the body through heat loss.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-107",
+    "id": "cardiovascular-070",
     "front": "What controls blood flow and blood pressure?",
     "back": "The vasomotor centre in the medulla oblongata.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-108",
+    "id": "cardiovascular-071",
     "front": "How is blood flow controlled during exercise?",
     "back": "-Chemoreceptors detect chemical changes. -These receptors stimulate the vasomotor centre, which redistributes blood through vasodilation and vasoconstriction.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-109",
+    "id": "cardiovascular-072",
     "front": "What are pre-capillary sphincters and where are they located?",
     "back": "Tiny rings of smooth muscle located at the entrance to capillaries.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-110",
+    "id": "cardiovascular-073",
     "front": "What happens when pre-capillary sphincters relax and contract?",
     "back": "Relax = blood flow increases. Contract = blood flow decreases.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-111",
+    "id": "cardiovascular-074",
     "front": "What happens to the pre-capillary sphincters during exercise?",
     "back": "The pre-capillary sphincters supplying the skeletal muscles relax to increase blood flow, therefore increasing oxygen delivery to the tissues.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-112",
+    "id": "cardiovascular-075",
     "front": "How does redistribution of blood occur sympathetically?",
     "back": "Through stimulation of sympathetic nerves in the walls of the blood vessels.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-113",
+    "id": "cardiovascular-076",
     "front": "What happens to blood redistribution when sympathetic stimulation increases?",
     "back": "Vasoconstriction occurs, reducing blood flow to that area so blood can be redistributed elsewhere.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-114",
+    "id": "cardiovascular-077",
     "front": "What happens to blood redistribution when sympathetic stimulation decreases?",
     "back": "Vasodilation occurs, increasing blood flow to that area.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-115",
+    "id": "cardiovascular-078",
     "front": "Why is redistribution of blood important? (4)",
     "back": "-Increases the supply of oxygen to working muscles. -Removes waste products from the muscles. -Ensures more blood is directed to the skin to regulate body temperature. -Directs more blood to the heart as it requires more oxygen during exercise.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "Regulation of response during exercise"
   },
   {
-    "id": "cv-116",
+    "id": "cardiovascular-079",
+    "front": "What are the three factors that affect the rate of the cardiac conduction system?",
+    "back": "1 - Chemoreceptors; 2 - Baroreceptors; 3 - Proprioceptors.",
+    "subtopicId": "cardiovascular",
+    "group": "Receptors"
+  },
+  {
+    "id": "cardiovascular-080",
+    "front": "Where are chemoreceptors located?",
+    "back": "In the aortic arch and carotid arteries.",
+    "subtopicId": "cardiovascular",
+    "group": "Receptors"
+  },
+  {
+    "id": "cardiovascular-081",
+    "front": "How do chemoreceptors work?",
+    "back": "They detect changes in blood acidity caused by increased carbon dioxide (CO₂) levels and send signals to the cardiac control centre (CCC), which stimulates the sympathetic nervous system to increase heart rate.",
+    "subtopicId": "cardiovascular",
+    "group": "Receptors"
+  },
+  {
+    "id": "cardiovascular-082",
+    "front": "Where are proprioceptors located?",
+    "back": "In muscles, tendons and joints.",
+    "subtopicId": "cardiovascular",
+    "group": "Receptors"
+  },
+  {
+    "id": "cardiovascular-083",
+    "front": "How do proprioceptors work?",
+    "back": "At the start of exercise, they detect movement. They send impulses to the medulla oblongata, which sends impulses via the sympathetic nervous system to the SA node, increasing heart rate.",
+    "subtopicId": "cardiovascular",
+    "group": "Receptors"
+  },
+  {
+    "id": "cardiovascular-084",
+    "front": "What do baroreceptors respond to?",
+    "back": "They respond to stretching of the arterial walls caused by changes in blood pressure.",
+    "subtopicId": "cardiovascular",
+    "group": "Receptors"
+  },
+  {
+    "id": "cardiovascular-085",
+    "front": "How do baroreceptors work?",
+    "back": "They establish a blood pressure set point. Any fluctuation causes signals to be sent to the medulla oblongata, which adjusts heart rate accordingly.",
+    "subtopicId": "cardiovascular",
+    "group": "Receptors"
+  },
+  {
+    "id": "cardiovascular-086",
+    "front": "What happens if there is an increase in arterial pressure?",
+    "back": "Increased stretching of the baroreceptors causes heart rate to decrease, and vice versa.",
+    "subtopicId": "cardiovascular",
+    "group": "Receptors"
+  },
+  {
+    "id": "cardiovascular-087",
+    "front": "What do the baroreceptors do at the start of exercise?",
+    "back": "Their blood pressure set point increases before exercise, preventing a reflex decrease in heart rate as blood pressure rises.",
+    "subtopicId": "cardiovascular",
+    "group": "Receptors"
+  },
+  {
+    "id": "cardiovascular-088",
+    "front": "What is oxyhaemoglobin distribution?",
+    "back": "The transport of oxygen through the bloodstream to the muscles during exercise.",
+    "subtopicId": "cardiovascular",
+    "group": "Transport of oxygen"
+  },
+  {
+    "id": "cardiovascular-089",
+    "front": "How many oxygen molecules can be transported by one haemoglobin molecule?",
+    "back": "4",
+    "subtopicId": "cardiovascular",
+    "group": "Transport of oxygen"
+  },
+  {
+    "id": "cardiovascular-090",
+    "front": "What is haemoglobin dissociation?",
+    "back": "When there is a low partial pressure of oxygen at the tissues, oxygen is released from oxyhaemoglobin.",
+    "subtopicId": "cardiovascular",
+    "group": "Transport of oxygen"
+  },
+  {
+    "id": "cardiovascular-091",
+    "front": "How is oxygen stored in the muscles and why?",
+    "back": "It is stored by myoglobin, which has a higher affinity for oxygen and stores it for use by the mitochondria until it is needed by the muscles.",
+    "subtopicId": "cardiovascular",
+    "group": "Transport of oxygen"
+  },
+  {
+    "id": "cardiovascular-092",
+    "front": "What are three causes of the Bohr shift?",
+    "back": "-Increase in blood temperature. -Increase in CO₂. -Decrease in pH (increased acidity).",
+    "subtopicId": "cardiovascular",
+    "group": "Transport of oxygen"
+  },
+  {
+    "id": "cardiovascular-093",
+    "front": "How does an increase in blood temperature affect the Bohr shift?",
+    "back": "When blood and muscle temperature increase during exercise, oxygen dissociates from haemoglobin more quickly.",
+    "subtopicId": "cardiovascular",
+    "group": "Transport of oxygen"
+  },
+  {
+    "id": "cardiovascular-094",
+    "front": "How does an increase in CO₂ affect the Bohr shift?",
+    "back": "As blood CO₂ levels rise during exercise, oxygen dissociates from haemoglobin more quickly.",
+    "subtopicId": "cardiovascular",
+    "group": "Transport of oxygen"
+  },
+  {
+    "id": "cardiovascular-095",
+    "front": "How does pH affect the Bohr shift?",
+    "back": "More CO₂ lowers the pH of the blood. A decrease in blood pH causes oxygen to dissociate from haemoglobin more quickly.",
+    "subtopicId": "cardiovascular",
+    "group": "Transport of oxygen"
+  },
+  {
+    "id": "cardiovascular-096",
+    "front": "What does the oxyhaemoglobin dissociation curve show?",
+    "back": "It shows the relationship between oxygen and haemoglobin.",
+    "subtopicId": "cardiovascular",
+    "group": "Transport of oxygen"
+  },
+  {
+    "id": "cardiovascular-097",
+    "front": "Which way does the oxyhaemoglobin dissociation curve shift during exercise and why? (Bohr shift)",
+    "back": "It shifts to the right because when muscles require more oxygen, oxygen dissociates more readily from haemoglobin in the blood capillaries to the muscle tissues.",
+    "subtopicId": "cardiovascular",
+    "group": "Transport of oxygen"
+  },
+  {
+    "id": "cardiovascular-098",
+    "front": "What is stroke volume?",
+    "back": "The volume of blood pumped out of the ventricles with each heartbeat.",
+    "subtopicId": "cardiovascular",
+    "group": "Starlings law of the heart"
+  },
+  {
+    "id": "cardiovascular-099",
+    "front": "What is the average resting stroke volume?",
+    "back": "Approximately 70 ml per beat.",
+    "subtopicId": "cardiovascular",
+    "group": "Starlings law of the heart"
+  },
+  {
+    "id": "cardiovascular-100",
+    "front": "What is venous return?",
+    "back": "The volume of blood returning to the heart via the veins.",
+    "subtopicId": "cardiovascular",
+    "group": "Starlings law of the heart"
+  },
+  {
+    "id": "cardiovascular-101",
+    "front": "What else increases if venous return increases?",
+    "back": "Stroke volume increases.",
+    "subtopicId": "cardiovascular",
+    "group": "Starlings law of the heart"
+  },
+  {
+    "id": "cardiovascular-102",
+    "front": "What is the elasticity of cardiac fibres?",
+    "back": "The degree to which cardiac muscle fibres stretch during the diastole phase of the cardiac cycle.",
+    "subtopicId": "cardiovascular",
+    "group": "Starlings law of the heart"
+  },
+  {
+    "id": "cardiovascular-103",
+    "front": "What happens if the cardiac fibres stretch more?",
+    "back": "A greater stretch produces a more forceful contraction, increasing stroke volume and ejection fraction. This is known as Starling's Law.",
+    "subtopicId": "cardiovascular",
+    "group": "Starlings law of the heart"
+  },
+  {
+    "id": "cardiovascular-104",
+    "front": "What is ejection fraction?",
+    "back": "The percentage of blood pumped out of the left ventricle with each heartbeat.",
+    "subtopicId": "cardiovascular",
+    "group": "Starlings law of the heart"
+  },
+  {
+    "id": "cardiovascular-105",
+    "front": "What is the ejection fraction equation?",
+    "back": "Ejection fraction = Stroke volume ÷ End-diastolic volume.",
+    "subtopicId": "cardiovascular",
+    "group": "Starlings law of the heart"
+  },
+  {
+    "id": "cardiovascular-106",
+    "front": "What are the stages of Starling's Law?",
+    "back": "1 - Increased venous return; 2 - Greater diastolic filling of the heart; 3 - Cardiac muscle fibres are stretched; 4 - Greater force of contraction; 5 - Increased stroke volume and ejection fraction.",
+    "subtopicId": "cardiovascular",
+    "group": "Starlings law of the heart"
+  },
+  {
+    "id": "cardiovascular-107",
+    "front": "What is the average ejection fraction?",
+    "back": "Approximately 60% at rest, but it can increase to around 85% following endurance training.",
+    "subtopicId": "cardiovascular",
+    "group": "Starlings law of the heart"
+  },
+  {
+    "id": "cardiovascular-108",
+    "front": "What happens to stroke volume in response to exercise?",
+    "back": "Stroke volume increases, but only up to approximately 40–60% of maximum effort, after which it plateaus.",
+    "subtopicId": "cardiovascular",
+    "group": "Starlings law of the heart"
+  },
+  {
+    "id": "cardiovascular-109",
+    "front": "Why does stroke volume only increase up to 40–60% of maximum effort during exercise?",
+    "back": "As heart rate approaches its maximum, the diastolic phase becomes shorter, giving the ventricles less time to fill with blood, which limits stroke volume.",
+    "subtopicId": "cardiovascular",
+    "group": "Starlings law of the heart"
+  },
+  {
+    "id": "cardiovascular-110",
+    "front": "What is steady state?",
+    "back": "When the athlete is able to meet the oxygen demand with the oxygen supply.",
+    "subtopicId": "cardiovascular",
+    "group": "Cardiovascular drift"
+  },
+  {
+    "id": "cardiovascular-111",
+    "front": "What does research actually show about steady state?",
+    "back": "Heart rate slowly continues to rise.",
+    "subtopicId": "cardiovascular",
+    "group": "Cardiovascular drift"
+  },
+  {
+    "id": "cardiovascular-112",
+    "front": "What is cardiovascular drift characterised by?",
+    "back": "A progressive decrease in stroke volume and arterial blood pressure, together with an increase in heart rate.",
+    "subtopicId": "cardiovascular",
+    "group": "Cardiovascular drift"
+  },
+  {
+    "id": "cardiovascular-113",
+    "front": "When does cardiovascular drift occur?",
+    "back": "During prolonged exercise in a warm environment despite the exercise intensity remaining the same.",
+    "subtopicId": "cardiovascular",
+    "group": "Cardiovascular drift"
+  },
+  {
+    "id": "cardiovascular-114",
+    "front": "Why does cardiovascular drift occur?",
+    "back": "-When we sweat, some of the fluid lost comes from blood plasma. -This decrease in plasma volume reduces venous return, therefore reducing stroke volume. -Heart rate increases to compensate and maintain cardiac output while helping cool the body.",
+    "subtopicId": "cardiovascular",
+    "group": "Cardiovascular drift"
+  },
+  {
+    "id": "cardiovascular-115",
+    "front": "How can cardiovascular drift be minimised?",
+    "back": "Drink plenty of water before and during exercise.",
+    "subtopicId": "cardiovascular",
+    "group": "Cardiovascular drift"
+  },
+  {
+    "id": "cardiovascular-116",
     "front": "What is the a-vO₂ difference?",
     "back": "The difference between the oxygen content of the arterial blood arriving at the muscles and the venous blood leaving the muscles.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "A-Vo2 difference"
   },
   {
-    "id": "cv-117",
+    "id": "cardiovascular-117",
     "front": "What is the a-vO₂ difference like at rest?",
     "back": "It is low because the muscles require relatively little oxygen.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "A-Vo2 difference"
   },
   {
-    "id": "cv-118",
+    "id": "cardiovascular-118",
     "front": "What is the a-vO₂ difference like during exercise?",
     "back": "It increases because the muscles extract more oxygen from the blood.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "A-Vo2 difference"
   },
   {
-    "id": "cv-119",
+    "id": "cardiovascular-119",
     "front": "How does an increase in the a-vO₂ difference affect gaseous exchange?",
     "back": "It increases gaseous exchange at the alveoli, allowing more oxygen to be taken in and more carbon dioxide to be released.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "A-Vo2 difference"
   },
   {
-    "id": "cv-120",
+    "id": "cardiovascular-120",
     "front": "How can we increase our a-vO₂ difference?",
     "back": "Through training, which increases the amount of oxygen extracted from the blood.",
-    "subtopicId": "cardiovascular"
+    "subtopicId": "cardiovascular",
+    "group": "A-Vo2 difference"
   }
 ]

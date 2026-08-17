@@ -1,296 +1,345 @@
 [
   {
     "id": "neuromuscular-001",
-    "front": "What does the autonomic nervous system do?",
-    "back": "It regulates involuntary functions of internal organs and consists primarily of the sympathetic and parasympathetic nervous systems.",
-    "subtopicId": "neuromuscular"
+    "front": "What are the three main types of skeletal muscle fibre?",
+    "back": "Slow oxidative (Type I) – slow twitch; Fast oxidative glycolytic (Type IIa) – fast twitch; Fast glycolytic (Type IIx) – fast twitch.",
+    "subtopicId": "neuromuscular",
+    "group": "Muscle fibre type"
   },
   {
     "id": "neuromuscular-002",
-    "front": "How does the neuromuscular system work?",
-    "back": "The nervous system and muscular system work together to control and produce movement.",
-    "subtopicId": "neuromuscular"
+    "front": "Where are the three types of muscle fibre found?",
+    "back": "Within skeletal muscles; the proportion of each fibre type varies between individuals and is largely genetically determined.",
+    "subtopicId": "neuromuscular",
+    "group": "Muscle fibre type"
   },
   {
     "id": "neuromuscular-003",
-    "front": "What is the overall role of the sympathetic and parasympathetic nervous systems?",
-    "back": "They regulate involuntary bodily functions, with the sympathetic nervous system preparing the body for activity and the parasympathetic nervous system returning the body towards its resting state.",
-    "subtopicId": "neuromuscular"
+    "front": "Which muscle fibre type would an elite marathon runner predominantly have?",
+    "back": "Slow oxidative (Type I) muscle fibres.",
+    "subtopicId": "neuromuscular",
+    "group": "Muscle fibre type"
   },
   {
     "id": "neuromuscular-004",
-    "front": "What does the sympathetic nervous system do to the body?",
-    "back": "It prepares the body for exercise through the \"fight or flight\" response.",
-    "subtopicId": "neuromuscular"
+    "front": "What are the characteristics of slow oxidative (Type I) muscle fibres?",
+    "back": "-Slow contraction speed. -High resistance to fatigue. -High mitochondrial density. -High myoglobin content. -Dense capillary supply. -Well suited to aerobic energy production.",
+    "subtopicId": "neuromuscular",
+    "group": "Muscle fibre type"
   },
   {
     "id": "neuromuscular-005",
-    "front": "What does the parasympathetic nervous system do to the body?",
-    "back": "It promotes the \"rest and digest\" response, reducing activity and returning the body towards its resting state.",
-    "subtopicId": "neuromuscular"
+    "front": "What sports are slow oxidative (Type I) muscle fibres best suited to?",
+    "back": "Endurance events such as marathon running.",
+    "subtopicId": "neuromuscular",
+    "group": "Muscle fibre type"
   },
   {
     "id": "neuromuscular-006",
-    "front": "What are the three main types of skeletal muscle fibre?",
-    "back": "Slow oxidative (Type I) – slow twitch; Fast oxidative glycolytic (Type IIa) – fast twitch; Fast glycolytic (Type IIx) – fast twitch.",
-    "subtopicId": "neuromuscular"
+    "front": "What are the characteristics of fast oxidative glycolytic (Type IIa) muscle fibres?",
+    "back": "-Produce energy through both aerobic and anaerobic processes. -Moderate mitochondrial density. -Relatively resistant to fatigue. -Fast contraction speed. -Adaptable through training.",
+    "subtopicId": "neuromuscular",
+    "group": "Muscle fibre type"
   },
   {
     "id": "neuromuscular-007",
-    "front": "Where are the three types of muscle fibre found?",
-    "back": "Within skeletal muscles; the proportion of each fibre type varies between individuals and is largely genetically determined.",
-    "subtopicId": "neuromuscular"
+    "front": "What are the characteristics of fast glycolytic (Type IIb) muscle fibres?",
+    "back": "-Fast contraction speed. -Fatigue quickly. -Low mitochondrial density. -Low oxidative capacity. -Produce high levels of force and power for short-duration, high-intensity movements.",
+    "subtopicId": "neuromuscular",
+    "group": "Muscle fibre type"
   },
   {
     "id": "neuromuscular-008",
-    "front": "Which muscle fibre type would an elite marathon runner predominantly have?",
-    "back": "Slow oxidative (Type I) muscle fibres.",
-    "subtopicId": "neuromuscular"
+    "front": "What sports are fast glycolytic (Type IIb) muscle fibres best suited to?",
+    "back": "Explosive, high-intensity activities such as sprinting and high jump.",
+    "subtopicId": "neuromuscular",
+    "group": "Muscle fibre type"
   },
   {
     "id": "neuromuscular-009",
-    "front": "What are the characteristics of slow oxidative (Type I) muscle fibres?",
-    "back": "-Slow contraction speed. -High resistance to fatigue. -High mitochondrial density. -High myoglobin content. -Dense capillary supply. -Well suited to aerobic energy production.",
-    "subtopicId": "neuromuscular"
+    "front": "What are the effects of training on muscle fibres?",
+    "back": "Muscle fibre type is largely genetically determined, but muscle fibres can increase in size through hypertrophy, resulting in greater strength and force production.",
+    "subtopicId": "neuromuscular",
+    "group": "Muscle fibre type"
   },
   {
     "id": "neuromuscular-010",
-    "front": "What sports are slow oxidative (Type I) muscle fibres best suited to?",
-    "back": "Endurance events such as marathon running.",
-    "subtopicId": "neuromuscular"
+    "front": "What does the autonomic nervous system do?",
+    "back": "It regulates involuntary functions of internal organs and consists primarily of the sympathetic and parasympathetic nervous systems.",
+    "subtopicId": "neuromuscular",
+    "group": "Nervous system"
   },
   {
     "id": "neuromuscular-011",
-    "front": "What are the characteristics of fast oxidative glycolytic (Type IIa) muscle fibres?",
-    "back": "-Produce energy through both aerobic and anaerobic processes. -Moderate mitochondrial density. -Relatively resistant to fatigue. -Fast contraction speed. -Adaptable through training.",
-    "subtopicId": "neuromuscular"
+    "front": "How does the neuromuscular system work?",
+    "back": "The nervous system and muscular system work together to control and produce movement.",
+    "subtopicId": "neuromuscular",
+    "group": "Nervous system"
   },
   {
     "id": "neuromuscular-012",
-    "front": "What are the characteristics of fast glycolytic (Type IIb) muscle fibres?",
-    "back": "-Fast contraction speed. -Fatigue quickly. -Low mitochondrial density. -Low oxidative capacity. -Produce high levels of force and power for short-duration, high-intensity movements.",
-    "subtopicId": "neuromuscular"
+    "front": "What is the overall role of the sympathetic and parasympathetic nervous systems?",
+    "back": "They regulate involuntary bodily functions, with the sympathetic nervous system preparing the body for activity and the parasympathetic nervous system returning the body towards its resting state.",
+    "subtopicId": "neuromuscular",
+    "group": "Nervous system"
   },
   {
     "id": "neuromuscular-013",
-    "front": "What sports are fast glycolytic (Type IIb) muscle fibres best suited to?",
-    "back": "Explosive, high-intensity activities such as sprinting and high jump.",
-    "subtopicId": "neuromuscular"
+    "front": "What does the sympathetic nervous system do to the body?",
+    "back": "It prepares the body for exercise through the \"fight or flight\" response.",
+    "subtopicId": "neuromuscular",
+    "group": "Nervous system"
   },
   {
     "id": "neuromuscular-014",
-    "front": "What are the effects of training on muscle fibres?",
-    "back": "Muscle fibre type is largely genetically determined, but muscle fibres can increase in size through hypertrophy, resulting in greater strength and force production.",
-    "subtopicId": "neuromuscular"
+    "front": "What does the parasympathetic nervous system do to the body?",
+    "back": "It promotes the \"rest and digest\" response, reducing activity and returning the body towards its resting state.",
+    "subtopicId": "neuromuscular",
+    "group": "Nervous system"
   },
   {
     "id": "neuromuscular-015",
-    "front": "What are muscle fibres grouped into?",
-    "back": "Motor units.",
-    "subtopicId": "neuromuscular"
+    "front": "What does PNF stand for?",
+    "back": "Proprioceptive Neuromuscular Facilitation.",
+    "subtopicId": "neuromuscular",
+    "group": "Proprioceptors"
   },
   {
     "id": "neuromuscular-016",
-    "front": "What does a motor unit consist of?",
-    "back": "A motor neuron and all the muscle fibres it controls.",
-    "subtopicId": "neuromuscular"
+    "front": "What is PNF?",
+    "back": "An advanced form of flexibility training that uses stretching and muscle contractions to increase range of movement.",
+    "subtopicId": "neuromuscular",
+    "group": "Proprioceptors"
   },
   {
     "id": "neuromuscular-017",
-    "front": "How many muscle fibre types are found within one motor unit?",
-    "back": "One type; the muscle fibres within a motor unit are the same fibre type.",
-    "subtopicId": "neuromuscular"
+    "front": "What is a commonly used PNF technique?",
+    "back": "CRAC: Contract – Relax – Antagonist – Contract.",
+    "subtopicId": "neuromuscular",
+    "group": "Proprioceptors"
   },
   {
     "id": "neuromuscular-018",
-    "front": "How does a muscle contraction occur within a motor unit?",
-    "back": "A nerve impulse travels along the motor neuron to the muscle fibres, stimulating them to contract.",
-    "subtopicId": "neuromuscular"
+    "front": "What are proprioceptors?",
+    "back": "Sensory receptors located in muscles, tendons and joints that detect changes in movement, position and tension.",
+    "subtopicId": "neuromuscular",
+    "group": "Proprioceptors"
   },
   {
     "id": "neuromuscular-019",
-    "front": "What do motor neurons transmit and where do they transmit them?",
-    "back": "They transmit nerve impulses from the central nervous system to muscle fibres.",
-    "subtopicId": "neuromuscular"
+    "front": "What are the two proprioceptors important in PNF stretching?",
+    "back": "Muscle spindles and Golgi tendon organs (GTOs).",
+    "subtopicId": "neuromuscular",
+    "group": "Proprioceptors"
   },
   {
     "id": "neuromuscular-020",
-    "front": "What are the physical features of a motor neuron?",
-    "back": "A motor neuron has branches that connect to muscle fibres at neuromuscular junctions.",
-    "subtopicId": "neuromuscular"
+    "front": "What do muscle spindles detect?",
+    "back": "Changes in muscle length and the speed at which the muscle is being stretched.",
+    "subtopicId": "neuromuscular",
+    "group": "Proprioceptors"
   },
   {
     "id": "neuromuscular-021",
-    "front": "What are skeletal muscles made up of?",
-    "back": "Many motor units of varying sizes.",
-    "subtopicId": "neuromuscular"
+    "front": "What do Golgi tendon organs detect?",
+    "back": "Changes in muscle tension.",
+    "subtopicId": "neuromuscular",
+    "group": "Proprioceptors"
   },
   {
     "id": "neuromuscular-022",
-    "front": "What is found in a motor unit within a small muscle?",
-    "back": "A motor neuron controlling a relatively small number of muscle fibres, allowing fine and precise movements.",
-    "subtopicId": "neuromuscular"
+    "front": "Where are muscle spindles located?",
+    "back": "Within skeletal muscles, running parallel to the muscle fibres.",
+    "subtopicId": "neuromuscular",
+    "group": "Proprioceptors"
   },
   {
     "id": "neuromuscular-023",
-    "front": "What is found in a motor unit within a large muscle?",
-    "back": "A motor neuron controlling a large number of muscle fibres, allowing greater force production.",
-    "subtopicId": "neuromuscular"
+    "front": "What information do muscle spindles provide to the central nervous system (CNS)?",
+    "back": "Information about the length of the muscle and the speed at which it is being stretched.",
+    "subtopicId": "neuromuscular",
+    "group": "Proprioceptors"
   },
   {
     "id": "neuromuscular-024",
-    "front": "What is the all-or-none law?",
-    "back": "When a motor unit reaches its threshold, all the muscle fibres within that motor unit contract; if the threshold is not reached, none contract.",
-    "subtopicId": "neuromuscular"
+    "front": "What happens after the CNS receives information from muscle spindles?",
+    "back": "The CNS sends motor impulses back to the stretched muscle, causing it to contract and producing the stretch reflex.",
+    "subtopicId": "neuromuscular",
+    "group": "Proprioceptors"
   },
   {
     "id": "neuromuscular-025",
-    "front": "What is a motor unit unable to do according to the all-or-none law?",
-    "back": "Partially contract; either all the muscle fibres within the motor unit contract or none do.",
-    "subtopicId": "neuromuscular"
+    "front": "What is the purpose of the stretch reflex?",
+    "back": "To protect the muscle from excessive stretching by causing it to contract.",
+    "subtopicId": "neuromuscular",
+    "group": "Proprioceptors"
   },
   {
     "id": "neuromuscular-026",
-    "front": "What is the threshold?",
-    "back": "The minimum level of stimulation required to cause a motor unit to contract.",
-    "subtopicId": "neuromuscular"
+    "front": "Where are Golgi tendon organs located?",
+    "back": "Within tendons near the junction between the muscle and tendon.",
+    "subtopicId": "neuromuscular",
+    "group": "Proprioceptors"
   },
   {
     "id": "neuromuscular-027",
-    "front": "What happens if a nerve impulse reaches or exceeds the threshold?",
-    "back": "All the muscle fibres within the motor unit contract.",
-    "subtopicId": "neuromuscular"
+    "front": "What do Golgi tendon organs detect during PNF stretching?",
+    "back": "Increased levels of tension within the muscle-tendon unit.",
+    "subtopicId": "neuromuscular",
+    "group": "Proprioceptors"
   },
   {
     "id": "neuromuscular-028",
-    "front": "What happens if a nerve impulse is below the threshold?",
-    "back": "The motor unit does not contract.",
-    "subtopicId": "neuromuscular"
+    "front": "What happens during PNF when a muscle contracts isometrically?",
+    "back": "Golgi tendon organs detect increased tension and send sensory information to the central nervous system, which leads to inhibition of the contracting muscle.",
+    "subtopicId": "neuromuscular",
+    "group": "Proprioceptors"
   },
   {
     "id": "neuromuscular-029",
-    "front": "What is wave summation?",
-    "back": "An increase in the force of contraction caused by repeated stimulation of a muscle before it has fully relaxed.",
-    "subtopicId": "neuromuscular"
+    "front": "What is the result of the inhibitory response from the Golgi tendon organs?",
+    "back": "The muscle relaxes through autogenic inhibition, allowing it to be stretched further and increasing range of movement.",
+    "subtopicId": "neuromuscular",
+    "group": "Proprioceptors"
   },
   {
     "id": "neuromuscular-030",
-    "front": "What happens during the first stage of wave summation?",
-    "back": "Each nerve impulse causes calcium ions to be released within the muscle fibre.",
-    "subtopicId": "neuromuscular"
+    "front": "What are muscle fibres grouped into?",
+    "back": "Motor units.",
+    "subtopicId": "neuromuscular",
+    "group": "Recruitment of muscle fibres"
   },
   {
     "id": "neuromuscular-031",
-    "front": "What happens if nerve impulses are repeated before the muscle has time to relax?",
-    "back": "Calcium ions accumulate and the individual contractions combine, producing a stronger and more sustained contraction.",
-    "subtopicId": "neuromuscular"
+    "front": "What does a motor unit consist of?",
+    "back": "A motor neuron and all the muscle fibres it controls.",
+    "subtopicId": "neuromuscular",
+    "group": "Recruitment of muscle fibres"
   },
   {
     "id": "neuromuscular-032",
-    "front": "What is a tetanic contraction?",
-    "back": "A smooth, sustained muscle contraction caused by rapid, repeated stimulation with insufficient time for the muscle to relax.",
-    "subtopicId": "neuromuscular"
+    "front": "How many muscle fibre types are found within one motor unit?",
+    "back": "One type; the muscle fibres within a motor unit are the same fibre type.",
+    "subtopicId": "neuromuscular",
+    "group": "Recruitment of muscle fibres"
   },
   {
     "id": "neuromuscular-033",
-    "front": "What is spatial summation?",
-    "back": "The recruitment of additional motor units to increase the force of a muscle contraction.",
-    "subtopicId": "neuromuscular"
+    "front": "How does a muscle contraction occur within a motor unit?",
+    "back": "A nerve impulse travels along the motor neuron to the muscle fibres, stimulating them to contract.",
+    "subtopicId": "neuromuscular",
+    "group": "Recruitment of muscle fibres"
   },
   {
     "id": "neuromuscular-034",
-    "front": "How does spatial summation increase the force of contraction?",
-    "back": "As greater force is required, more motor units are recruited, increasing the number of muscle fibres contracting.",
-    "subtopicId": "neuromuscular"
+    "front": "What do motor neurons transmit and where do they transmit them?",
+    "back": "They transmit nerve impulses from the central nervous system to muscle fibres.",
+    "subtopicId": "neuromuscular",
+    "group": "Recruitment of muscle fibres"
   },
   {
     "id": "neuromuscular-035",
-    "front": "What does PNF stand for?",
-    "back": "Proprioceptive Neuromuscular Facilitation.",
-    "subtopicId": "neuromuscular"
+    "front": "What are the physical features of a motor neuron?",
+    "back": "A motor neuron has branches that connect to muscle fibres at neuromuscular junctions.",
+    "subtopicId": "neuromuscular",
+    "group": "Recruitment of muscle fibres"
   },
   {
     "id": "neuromuscular-036",
-    "front": "What is PNF?",
-    "back": "An advanced form of flexibility training that uses stretching and muscle contractions to increase range of movement.",
-    "subtopicId": "neuromuscular"
+    "front": "What are skeletal muscles made up of?",
+    "back": "Many motor units of varying sizes.",
+    "subtopicId": "neuromuscular",
+    "group": "Recruitment of muscle fibres"
   },
   {
     "id": "neuromuscular-037",
-    "front": "What is a commonly used PNF technique?",
-    "back": "CRAC: Contract – Relax – Antagonist – Contract.",
-    "subtopicId": "neuromuscular"
+    "front": "What is found in a motor unit within a small muscle?",
+    "back": "A motor neuron controlling a relatively small number of muscle fibres, allowing fine and precise movements.",
+    "subtopicId": "neuromuscular",
+    "group": "Recruitment of muscle fibres"
   },
   {
     "id": "neuromuscular-038",
-    "front": "What are proprioceptors?",
-    "back": "Sensory receptors located in muscles, tendons and joints that detect changes in movement, position and tension.",
-    "subtopicId": "neuromuscular"
+    "front": "What is found in a motor unit within a large muscle?",
+    "back": "A motor neuron controlling a large number of muscle fibres, allowing greater force production.",
+    "subtopicId": "neuromuscular",
+    "group": "Recruitment of muscle fibres"
   },
   {
     "id": "neuromuscular-039",
-    "front": "What are the two proprioceptors important in PNF stretching?",
-    "back": "Muscle spindles and Golgi tendon organs (GTOs).",
-    "subtopicId": "neuromuscular"
+    "front": "What is the all-or-none law?",
+    "back": "When a motor unit reaches its threshold, all the muscle fibres within that motor unit contract; if the threshold is not reached, none contract.",
+    "subtopicId": "neuromuscular",
+    "group": "Recruitment of muscle fibres"
   },
   {
     "id": "neuromuscular-040",
-    "front": "What do muscle spindles detect?",
-    "back": "Changes in muscle length and the speed at which the muscle is being stretched.",
-    "subtopicId": "neuromuscular"
+    "front": "What is a motor unit unable to do according to the all-or-none law?",
+    "back": "Partially contract; either all the muscle fibres within the motor unit contract or none do.",
+    "subtopicId": "neuromuscular",
+    "group": "Recruitment of muscle fibres"
   },
   {
     "id": "neuromuscular-041",
-    "front": "What do Golgi tendon organs detect?",
-    "back": "Changes in muscle tension.",
-    "subtopicId": "neuromuscular"
+    "front": "What is the threshold?",
+    "back": "The minimum level of stimulation required to cause a motor unit to contract.",
+    "subtopicId": "neuromuscular",
+    "group": "Recruitment of muscle fibres"
   },
   {
     "id": "neuromuscular-042",
-    "front": "Where are muscle spindles located?",
-    "back": "Within skeletal muscles, running parallel to the muscle fibres.",
-    "subtopicId": "neuromuscular"
+    "front": "What happens if a nerve impulse reaches or exceeds the threshold?",
+    "back": "All the muscle fibres within the motor unit contract.",
+    "subtopicId": "neuromuscular",
+    "group": "Recruitment of muscle fibres"
   },
   {
     "id": "neuromuscular-043",
-    "front": "What information do muscle spindles provide to the central nervous system (CNS)?",
-    "back": "Information about the length of the muscle and the speed at which it is being stretched.",
-    "subtopicId": "neuromuscular"
+    "front": "What happens if a nerve impulse is below the threshold?",
+    "back": "The motor unit does not contract.",
+    "subtopicId": "neuromuscular",
+    "group": "Recruitment of muscle fibres"
   },
   {
     "id": "neuromuscular-044",
-    "front": "What happens after the CNS receives information from muscle spindles?",
-    "back": "The CNS sends motor impulses back to the stretched muscle, causing it to contract and producing the stretch reflex.",
-    "subtopicId": "neuromuscular"
+    "front": "What is wave summation?",
+    "back": "An increase in the force of contraction caused by repeated stimulation of a muscle before it has fully relaxed.",
+    "subtopicId": "neuromuscular",
+    "group": "Recruitment of muscle fibres"
   },
   {
     "id": "neuromuscular-045",
-    "front": "What is the purpose of the stretch reflex?",
-    "back": "To protect the muscle from excessive stretching by causing it to contract.",
-    "subtopicId": "neuromuscular"
+    "front": "What happens during the first stage of wave summation?",
+    "back": "Each nerve impulse causes calcium ions to be released within the muscle fibre.",
+    "subtopicId": "neuromuscular",
+    "group": "Recruitment of muscle fibres"
   },
   {
     "id": "neuromuscular-046",
-    "front": "Where are Golgi tendon organs located?",
-    "back": "Within tendons near the junction between the muscle and tendon.",
-    "subtopicId": "neuromuscular"
+    "front": "What happens if nerve impulses are repeated before the muscle has time to relax?",
+    "back": "Calcium ions accumulate and the individual contractions combine, producing a stronger and more sustained contraction.",
+    "subtopicId": "neuromuscular",
+    "group": "Recruitment of muscle fibres"
   },
   {
     "id": "neuromuscular-047",
-    "front": "What do Golgi tendon organs detect during PNF stretching?",
-    "back": "Increased levels of tension within the muscle-tendon unit.",
-    "subtopicId": "neuromuscular"
+    "front": "What is a tetanic contraction?",
+    "back": "A smooth, sustained muscle contraction caused by rapid, repeated stimulation with insufficient time for the muscle to relax.",
+    "subtopicId": "neuromuscular",
+    "group": "Recruitment of muscle fibres"
   },
   {
     "id": "neuromuscular-048",
-    "front": "What happens during PNF when a muscle contracts isometrically?",
-    "back": "Golgi tendon organs detect increased tension and send sensory information to the central nervous system, which leads to inhibition of the contracting muscle.",
-    "subtopicId": "neuromuscular"
+    "front": "What is spatial summation?",
+    "back": "The recruitment of additional motor units to increase the force of a muscle contraction.",
+    "subtopicId": "neuromuscular",
+    "group": "Recruitment of muscle fibres"
   },
   {
     "id": "neuromuscular-049",
-    "front": "What is the result of the inhibitory response from the Golgi tendon organs?",
-    "back": "The muscle relaxes through autogenic inhibition, allowing it to be stretched further and increasing range of movement.",
-    "subtopicId": "neuromuscular"
+    "front": "How does spatial summation increase the force of contraction?",
+    "back": "As greater force is required, more motor units are recruited, increasing the number of muscle fibres contracting.",
+    "subtopicId": "neuromuscular",
+    "group": "Recruitment of muscle fibres"
   }
 ]
