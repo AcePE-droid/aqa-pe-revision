@@ -5,7 +5,6 @@ import Link from "next/link";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import type { Flashcard } from "@/types/content";
 import { getFlashcardProgress, setFlashcardStatus, type FlashcardStatus } from "@/lib/progress";
-import { getSubjectStyle } from "@/lib/subject-styles";
 
 type Props = {
   subtopicId: string;
@@ -52,7 +51,6 @@ export default function FlashcardStudy({
   subtopicId,
   subtopicName,
   topicName,
-  subjectSlug,
   backHref,
   cards,
   groupLabel,
@@ -145,7 +143,6 @@ export default function FlashcardStudy({
   }
 
   const breadcrumb = [topicName, subtopicName, groupLabel].filter(Boolean).join(" · ");
-  const subjectStyle = getSubjectStyle(subjectSlug);
 
   return (
     <div className="fixed inset-0 z-50 flex flex-col bg-white [background-image:radial-gradient(circle,rgba(100,116,139,0.09)_1.25px,transparent_1.25px)] [background-size:28px_28px] [background-position:center]">
@@ -157,7 +154,7 @@ export default function FlashcardStudy({
         >
           <X className="h-6 w-6" />
         </Link>
-        <p className={`min-w-0 truncate text-center text-sm ${subjectStyle.icon}`}>{breadcrumb}</p>
+        <p className="min-w-0 truncate text-center text-sm text-slate-700">{breadcrumb}</p>
         <div className="flex shrink-0 flex-col items-end gap-0.5">
           <p className="text-sm text-slate-500">
             Card {index + 1} of {cards.length}
@@ -207,7 +204,7 @@ export default function FlashcardStudy({
                 flipped ? "[transform:rotateY(180deg)]" : ""
               }`}
             >
-              <div className={`absolute inset-0 flex flex-col items-center justify-center overflow-hidden rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-lg transition-colors [backface-visibility:hidden] ${subjectStyle.hoverBorderStrong} sm:p-12`}>
+              <div className="absolute inset-0 flex flex-col items-center justify-center overflow-hidden rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-lg [backface-visibility:hidden] sm:p-12">
                 <div className={contentTransitionClasses(navPhase, direction)}>
                   <p className="text-2xl font-medium leading-relaxed text-slate-900 sm:text-3xl">
                     {card.front}
@@ -217,7 +214,7 @@ export default function FlashcardStudy({
                   </p>
                 </div>
               </div>
-              <div className={`absolute inset-0 flex flex-col items-center justify-center overflow-hidden rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-lg transition-colors [backface-visibility:hidden] [transform:rotateY(180deg)] ${subjectStyle.hoverBorderStrong} sm:p-12`}>
+              <div className="absolute inset-0 flex flex-col items-center justify-center overflow-hidden rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-lg [backface-visibility:hidden] [transform:rotateY(180deg)] sm:p-12">
                 <div className={contentTransitionClasses(navPhase, direction)}>
                   <p className="text-2xl font-medium leading-relaxed text-slate-900 sm:text-3xl">
                     {card.back}
