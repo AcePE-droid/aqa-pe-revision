@@ -288,7 +288,7 @@ export default function FlashcardStudy({
                 flipped ? "[transform:rotateY(180deg)]" : ""
               }`}
             >
-              <div className={`absolute inset-0 flex flex-col items-center justify-center overflow-hidden rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-md transition-all duration-200 ease-out [backface-visibility:hidden] group-hover:scale-[1.01] group-hover:shadow-lg group-hover:ring-4 group-hover:ring-slate-200/60 ${subjectStyle.hoverBorderStrong} sm:p-12`}>
+              <div className={`absolute inset-0 flex flex-col items-center justify-center overflow-hidden rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-md transition-[box-shadow,border-color] duration-200 ease-out [backface-visibility:hidden] group-hover:shadow-lg group-hover:ring-4 group-hover:ring-slate-200/60 ${subjectStyle.hoverBorderStrong} sm:p-12`}>
                 {lastLearningIds.has(card.id) && (
                   <span className="absolute left-4 top-4 rounded-full border border-amber-300 bg-amber-50 px-2.5 py-1 text-[11px] font-medium text-amber-700 sm:left-6 sm:top-6">
                     Still learning
@@ -303,7 +303,7 @@ export default function FlashcardStudy({
                   </p>
                 </div>
               </div>
-              <div className={`absolute inset-0 flex flex-col items-center justify-center overflow-hidden rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-md transition-all duration-200 ease-out [backface-visibility:hidden] [transform:rotateY(180deg)] group-hover:[transform:rotateY(180deg)_scale(1.01)] group-hover:shadow-lg group-hover:ring-4 group-hover:ring-slate-200/60 ${subjectStyle.hoverBorderStrong} sm:p-12`}>
+              <div className={`absolute inset-0 flex flex-col items-center justify-center overflow-hidden rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-md transition-[box-shadow,border-color] duration-200 ease-out [backface-visibility:hidden] [transform:rotateY(180deg)] group-hover:shadow-lg group-hover:ring-4 group-hover:ring-slate-200/60 ${subjectStyle.hoverBorderStrong} sm:p-12`}>
                 {lastLearningIds.has(card.id) && (
                   <span className="absolute left-4 top-4 rounded-full border border-amber-300 bg-amber-50 px-2.5 py-1 text-[11px] font-medium text-amber-700 sm:left-6 sm:top-6">
                     Still learning
