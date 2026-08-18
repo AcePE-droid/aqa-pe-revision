@@ -1,0 +1,240 @@
+[
+  {
+    "id": "rot-q1",
+    "questionNumber": "Q16",
+    "question": "One function of sports analytics is game analysis.\nState two other functions of sports analytics.",
+    "marks": 2,
+    "markScheme": "- Monitor fitness for performance (1)\n- Assess the development of the skill/techniques of a performer (1)\n- Reduce/prevent injuries from occurring (1)\n- Identify talented individuals/scouting (1)\nAccept any other appropriate functions of sports analytics.\nMax 2 marks.",
+    "subtopicId": "role-of-technology"
+  },
+  {
+    "id": "rot-q2",
+    "questionNumber": "Q17",
+    "question": "One function of sports analytics is game analysis.\nExplain how technology can be used to carry out game analysis in field hockey.",
+    "marks": 2,
+    "markScheme": "- Video analysis can be used to assess the technical performance of individual players/the number of successful passes completed/shooting accuracy/interceptions (1)\n- GPS data can be used to assess the effort of individual players/the total distance covered, the number of sprints/high intensity effort carried out (1)\nAccept any other appropriate explanation.\nMax 2 marks.",
+    "subtopicId": "role-of-technology"
+  },
+  {
+    "id": "rot-q3",
+    "questionNumber": "Q18",
+    "question": "Using testing and recording equipment such as a metabolic cart for indirect calorimetry can provide useful information about performance.\nDescribe what a metabolic cart is and how it can be used to carry out indirect calorimetry.",
+    "marks": 3,
+    "markScheme": "- Includes headgear, a computer, a screen and breathing tubes (1)\n- Indirect calorimetry measures the volume of O2 consumed and CO2 produced (1)\n- This can be used to calculate RER/which fuels are being used to sustain activity at a set intensity (1)\nAccept any other appropriate description.\nMax 3 marks.",
+    "subtopicId": "role-of-technology"
+  },
+  {
+    "id": "rot-q4",
+    "questionNumber": "Q19",
+    "question": "Table 1 shows multi-stage fitness test results for five male rugby union players.\nTable 1: Multi-stage fitness test results\nRating | Number of players\nExcellent | 2\nVery good | 2\nAverage | 1\nPoor | 0\nVery poor | 0\nTable 2 shows the data a coach was presented with after a different member of staff had input these results onto a computer.\nTable 2: Multi-stage fitness test results\nRating | Number of players\nExcellent | 0\nVery good | 1\nAverage | 2\nPoor | 2\nVery poor | 0\nAnalyse the factors that may have affected the integrity of the data shown in Table 2.",
+    "marks": 3,
+    "markScheme": "- The data may have been inputted/recorded incorrectly/misinterpreted (1)\n- (Human error) the member of staff may have entered the data incorrectly onto the computer (1)\n- Any software packages used for inputting data may have been affected by a virus/bug, which has altered/compromised data accuracy (1)\n- Computers/software may have been left unsupervised, leaving it vulnerable to being tampered with/altered by other people (1)\n- The coaches may not have saved/stored the data appropriately/securely, meaning it may have been altered (1)\n- Credit reference to the difference in data between Table 1 and Table 2 (1)\nAccept any other relevant analysis.\nMax 3 marks.",
+    "subtopicId": "role-of-technology"
+  },
+  {
+    "id": "rot-q5",
+    "questionNumber": "Q20",
+    "question": "Respiratory Exchange Ratio (RER) is a method for measuring the energy expenditure of an athlete.\nThe table below shows the RER values of three performers.\nPerformer | RER\nPerformer 1 | 0.85\nPerformer 2 | 1.00\nPerformer 3 | 0.70\nWhich of these performers is using fat as their main energy source?",
+    "marks": 1,
+    "markScheme": "Correct answer: C - Performer 3.\n1 mark for the correct option.",
+    "subtopicId": "role-of-technology",
+    "isMultipleChoice": true,
+    "options": [
+      "A - Performer 2",
+      "B - Performer 1",
+      "C - Performer 3"
+    ],
+    "correctOption": "C - Performer 3"
+  },
+  {
+    "id": "rot-q6",
+    "questionNumber": "Q21",
+    "question": "Maintaining the integrity of data can be difficult.\nWhich of the following issues relates specifically to manual data entry?",
+    "marks": 1,
+    "markScheme": "Correct answer: C - Human error.\n1 mark for the correct option.",
+    "subtopicId": "role-of-technology",
+    "isMultipleChoice": true,
+    "options": [
+      "A - Transmission from one computer to another",
+      "B - Hardware malfunction",
+      "C - Human error",
+      "D - Bugs or viruses"
+    ],
+    "correctOption": "C - Human error"
+  },
+  {
+    "id": "rot-q7",
+    "questionNumber": "Q23",
+    "question": "State two forms of technology a coach could use in sports analytics.",
+    "marks": 2,
+    "markScheme": "- GPS (1)\n- Video/motion analysis (1)\n- Heart rate monitor measures (1)\n- Performance/match analysis programmes (1)\nAccept first two answers only.\nAccept other forms of relevant technology. Answers must relate to sports analytics.\nMax 2 marks.",
+    "subtopicId": "role-of-technology"
+  },
+  {
+    "id": "rot-q8",
+    "questionNumber": "Q24",
+    "question": "Discuss the role of technology for a coach in the analysis of team games.",
+    "marks": 4,
+    "markScheme": "Positives of technology for a coach (sub-max 3):\n- Can help identify strengths and weaknesses of a team/individual, which can inform training programme/team selection (1)\n- Heart rate monitors/GPS can allow analysis of work rate/fatigue/fitness to inform injuries/substitutions/training programmes (1)\n- Analysis of opposition data can help inform which tactics/formations to play (1)\n- Video analysis allows assessment of a player's technique, which can be used to adapt technique to improve performance/prevent injury (1)\n- Stores information about a player's performance, so the coach isn't required to retain it (1)\nNegatives of technology for a coach (sub-max 3):\n- For team games there is potential for lots of data to be collected, which can overload a coach (1)\n- If coaches are unable to understand/analyse all the data collected then it is difficult to make use of it (1)\n- There can become a reliance on data so it becomes less about a coach's knowledge (1)\n- Data does not always show a true reflection of performance (1)\n- If equipment is not maintained/experiences interference it may become unreliable (1)\n- Use of computers is a possible negative as they are open to potential hacking, which can compromise data (1)\nAccept any other appropriate discursive points. Answers must be linked specifically to analysis of players in team games.\nMax 4 marks.",
+    "subtopicId": "role-of-technology"
+  },
+  {
+    "id": "rot-q9",
+    "questionNumber": "Q25",
+    "question": "Data are collected on two occasions using the same test. The results collected are consistent.\nWhat is this an example of?",
+    "marks": 1,
+    "markScheme": "Correct answer: C - Reliability.\n1 mark for the correct option.",
+    "subtopicId": "role-of-technology",
+    "isMultipleChoice": true,
+    "options": [
+      "A - Subjectivity",
+      "B - Validity",
+      "C - Reliability",
+      "D - Objectivity"
+    ],
+    "correctOption": "C - Reliability"
+  },
+  {
+    "id": "rot-q10",
+    "questionNumber": "Q26",
+    "question": "Different types of feedback are used by coaches to improve performance.\nSports analytics increases the range of feedback available to a performer. This will lead to an increase in performance.\nAnalyse this statement.",
+    "marks": 8,
+    "markScheme": "Possible content may include:\nAO1 - Knowledge of sports analytics and types of feedback: means of collecting data, including video analysis/GPS/VO2 max/lactate threshold/indirect calorimetry/RER/GPS software and devices. Types of feedback: positive, negative, extrinsic, intrinsic, knowledge of results, knowledge of performance.\nAO2 - Application: data gathered could lead a coach to offer more extrinsic feedback, allowing the performer to make improvements and stay motivated; data may lead to more positive or negative feedback about success; the coach can offer feedback on knowledge of results and identify corrections needed in quality of performance; the performer may use data to inform their own intrinsic feelings and improvements.\nAO3 - Analysis/evaluation: the coach needs to consider the integrity of the data used; feedback needs to be relevant, simple and understandable to support improvements; timing of feedback is vital, considering stage of learning, level of performance and motivation; consider whether the performer has the capability to respond to feedback; consider how accurate, reliable and valid the data is.\nCredit any other relevant analysis of this statement.\nMax 8 marks.",
+    "subtopicId": "role-of-technology"
+  },
+  {
+    "id": "rot-q11",
+    "questionNumber": "Q27",
+    "question": "Which method of estimating energy expenditure involves measuring the production of CO2 and/or the consumption of O2?",
+    "marks": 1,
+    "markScheme": "Correct answer: C - Indirect calorimetry.\n1 mark for the correct option.",
+    "subtopicId": "role-of-technology",
+    "isMultipleChoice": true,
+    "options": [
+      "A - VO2 max test",
+      "B - Lactate sampling",
+      "C - Indirect calorimetry"
+    ],
+    "correctOption": "C - Indirect calorimetry"
+  },
+  {
+    "id": "rot-q12",
+    "questionNumber": "Q28",
+    "question": "GPS technology is becoming increasingly popular with rugby league teams to analyse players' movements in training and during games.\nEvaluate the use of GPS technology and the data it provides.",
+    "marks": 8,
+    "markScheme": "Possible content may include:\nAO1 - Knowledge of GPS and different types of data: GPS is technology athletes can wear to track their movements, collecting data such as speed and distance travelled. GPS equipment is portable, provides real-time data and is reasonably accurate. Data can be quantitative or qualitative. Reliability refers to whether repeated testing would produce the same results.\nAO2 - Application: GPS is precise and technical, providing players/coaches with data to tailor training programmes, assess in-game performance and evaluate work-rate/exertion; coaches can identify periods of most intense play, activity profiles by position, and detect fatigue using reliable historical data.\nAO3 - Evaluation: GPS is expensive so not accessible to all teams; equipment can be unreliable due to battery life and may underestimate distance/speed; not 100% reliable due to satellite location; errors can occur if researchers do not know how to use the equipment correctly; accuracy affected by poorly maintained or cheaper equipment; GPS only provides quantitative data which coaches may not fully understand, whereas qualitative data also has value, eg assessing passing quality; the advantages have a positive impact for teams, helping prevent injury and informing substitutions.\nCredit other relevant evaluation of the use of GPS by team sports in relation to reliability.\nMax 8 marks.",
+    "subtopicId": "role-of-technology"
+  },
+  {
+    "id": "rot-q13",
+    "questionNumber": "Q29",
+    "question": "Which one of the following components of fitness can be measured using indirect calorimetry?",
+    "marks": 1,
+    "markScheme": "Correct answer: C - Aerobic endurance.\n1 mark for the correct option.",
+    "subtopicId": "role-of-technology",
+    "isMultipleChoice": true,
+    "options": [
+      "A - Muscular endurance",
+      "B - Flexibility",
+      "C - Aerobic endurance",
+      "D - Strength"
+    ],
+    "correctOption": "C - Aerobic endurance"
+  },
+  {
+    "id": "rot-q14",
+    "questionNumber": "Q30",
+    "question": "Satellite based navigation is often carried out using GPS.\nWhat does GPS stand for?",
+    "marks": 1,
+    "markScheme": "Correct answer: D - Global positioning system.\n1 mark for the correct option.",
+    "subtopicId": "role-of-technology",
+    "isMultipleChoice": true,
+    "options": [
+      "A - Geographic positioning system",
+      "B - Global positioning software",
+      "C - Geographic positioning software",
+      "D - Global positioning system"
+    ],
+    "correctOption": "D - Global positioning system"
+  },
+  {
+    "id": "rot-q15",
+    "questionNumber": "Q31",
+    "question": "The table below shows fictional winning times for the men's 110 metres hurdles final from several Olympic Games.\nYear | Time completed (s)\n1956 | 13.70\n1968 | 13.33\n1980 | 13.39\n1992 | 13.12\n2004 | 12.91\n2016 | 12.63\n2020 | 12.79\nConsider how commercialisation and the improvement in technology for sports analytics have affected performance in the 110 metres hurdles at the Olympic Games.\nUse the data in the table to support your answer.",
+    "marks": 8,
+    "markScheme": "Possible content may include:\nAO1 - Knowledge of commercialisation and technology for sports analytics: commercialisation is the selling of a product for profit, requiring access to as many people as possible through the media - the link between media, commercialisation and sport is referred to as the golden triangle. Improved technology has made sport available to a mass audience, increasing commercial value. Sports analytics is the use of data to better understand performance, collecting athlete/biomechanical/fitness data, making data objective, valid and reliable.\nAO2 - Application to the hurdler: commercialisation makes more money available through sponsorship deals or televised appearances, which can finance training with the best coaches, nutritionists and psychologists; technology for sports analytics improves data collection, eg motion-detecting sensors capturing performance to identify weaknesses.\nAO3 - Analysis/evaluation: despite the data anomaly in 1980 (where times increased), the trend shows an improvement in winning times over the period shown. The anomaly could be due to factors such as nations boycotting the event, the quality of the track, or the running environment. This increase in performance could be due to additional training time as a result of increased funding available through commercialisation, plus sponsorship/endorsement possibilities allowing full-time training. Increased revenue has also funded the development of sport technology, eg analysis of running gait/biomechanics, increasing efficiency and helping identify and correct weaknesses.\nAccept other appropriate considerations.\nMax 8 marks.",
+    "subtopicId": "role-of-technology"
+  },
+  {
+    "id": "rot-q16",
+    "questionNumber": "Q32",
+    "question": "Explain two ways in which analytics may be beneficial for a performer. Use a named game of your choice (eg hockey) in your answer.",
+    "marks": 2,
+    "markScheme": "Answer for hockey (other game activities can be used).\n- Can monitor the amount of pitch covered during a game to ascertain if a position is played effectively (1)\n- Real-time technical feedback can be given by a coach to improve awareness and improve technique (1)\n- Small GPS receivers can monitor distance covered, acceleration, speed to provide physiological data for analysis/training plans (1)\n- Tactics can be monitored and evaluated, eg possession area of the pitch that results in the most goals being scored (1)\nAccept any other explanation. Answers must relate to an example of a game.\nMax 2 marks.",
+    "subtopicId": "role-of-technology"
+  },
+  {
+    "id": "rot-q17",
+    "questionNumber": "Q33",
+    "question": "Discuss how technological advancements, such as Hawkeye at Wimbledon, have increased the viewing experience for the audience.",
+    "marks": 5,
+    "markScheme": "AO1 (sub-max 2 marks) - Effects of technology on the audience present:\n- Playback of decision on large screen (1)\n- Involvement in decisions (1)\n- Information given from officials (1)\n- Nature of the event has changed (1)\n- More accurate decisions (1)\nAO3 (sub-max 3 marks) - Positive viewing experience:\n- Increase in excitement waiting for decisions (1)\n- Less controversy, decisions tend to be fairer (1)\n- Rule changes to incorporate technology can improve the viewing experience (1)\n- Play of a higher standard/players cannot hide behind gamesmanship (1)\nNegative viewing experience:\n- Traditionalists will find the changing nature of sport against their liking (1)\n- It can prove boring/time consuming waiting on decisions (1)\n- Less controversy over decisions may reduce the atmosphere of the event (1)\n- Frustration can rise as players use technology for their own gain (1)\nAccept any other relevant discursive points.\nMax 5 marks.",
+    "subtopicId": "role-of-technology"
+  },
+  {
+    "id": "rot-q18",
+    "questionNumber": "Q34",
+    "question": "Describe some of the advantages to a coach of using sports analytics.",
+    "marks": 3,
+    "markScheme": "Award one mark for each of the following points (max 3 marks):\n- Detailed analysis of team performance\n- Identify weaknesses in performance\n- Identify individual skill/fitness weaknesses\n- Measure performance improvements\n- Statistics better than opinion/objective vs subjective\nMax 3 marks.",
+    "subtopicId": "role-of-technology"
+  },
+  {
+    "id": "rot-q19",
+    "questionNumber": "Q35",
+    "question": "Describe some of the advantages to the spectator of developments in technology.",
+    "marks": 3,
+    "markScheme": "Award one mark for each of the following points (max 3 marks):\n- Increased experience at home through use of more cameras/player cam\n- Wider range of sports accessible/visible through technology, eg glass walls in squash\n- All-weather surfaces - improved skill, truer bounce, multiple fixtures\n- Improved camera technology, eg Hawkeye\n- On-screen information/interaction, eg shots on target\nMax 3 marks.",
+    "subtopicId": "role-of-technology"
+  },
+  {
+    "id": "rot-q20",
+    "questionNumber": "Q36",
+    "question": "Describe ways that a coach can benefit from the use of technology.",
+    "marks": 3,
+    "markScheme": "Award one mark for each of the following points (max 3 marks):\n- Video analysis of matches to highlight strengths/weaknesses and/or tactics/strategies\n- Video analysis of technique\n- Detailed analysis of success of nutrition/training programmes\n- New training techniques/equipment to improve performance\n- Specific/detailed recording of performances/split times\nMax 3 marks.",
+    "subtopicId": "role-of-technology"
+  },
+  {
+    "id": "rot-q21",
+    "questionNumber": "Q37",
+    "question": "State how the technological development of facilities and equipment can help to optimise elite performance.",
+    "marks": 4,
+    "markScheme": "- (Sports science support) - technology for biomechanical analysis to identify strengths/weaknesses in performance (1)\n- High quality facilities to improve training leading to increased fitness (1)\n- (Sports medicine) - technology for rehabilitation after injury, eg soft tissue therapy (1)\n- Technological innovation leading to improvements in kit, eg climate control clothing (1)\nAccept other relevant responses.\nMax 4 marks.",
+    "subtopicId": "role-of-technology"
+  },
+  {
+    "id": "rot-q22",
+    "questionNumber": "Q38",
+    "question": "Evaluate the positive and negative impacts and effects of technology on the performer.",
+    "marks": 8,
+    "markScheme": "Possible content may include:\nAO1 - Knowledge of technology: better knowledge of requirements of sport/fitness/nutrition; better materials for buildings/facilities/surfaces; better materials for clothing/equipment; cameras/computers/software/video/match analysis; injury prevention/rehabilitation/recovery/treatment/medical.\nAO2 - Application to performer: improved performances/more records broken; able to perform more frequently; increased risk of injury; improved analysis of performance/more accurate testing/GPS tracking information; more accurate scoring/officiating decisions/timing.\nAO3 - Evaluation: improved performances but higher expectations; sport/performers become more popular but experience reduced career length; use of technology limited by costs.\nAccept any other appropriate evaluation.\nMax 8 marks.",
+    "subtopicId": "role-of-technology"
+  },
+  {
+    "id": "rot-q23",
+    "questionNumber": "Q39",
+    "question": "Analyse the benefits that technology has had for the sporting spectator.",
+    "marks": 8,
+    "markScheme": "Possible content may include:\nAO1 - Knowledge of technology: better knowledge of requirements of a greater range of sports; provision of better stadia/facilities/surfaces; more interaction with activity through use of cameras/replays/video/match analysis; instant access to information.\nAO2 - Application to spectator: improved performances/more records broken; sport seen/available more frequently; spectate in comfort/at home/better facilities; sports rules changed to improve spectating experience, eg penalty shoot-outs/sudden death/no replays; better/more accurate officiating.\nAO3 - Evaluation: performances available to more spectators; increased watching/decreased participation; spectator arguably more important than performer; sport as a form of entertainment.\nAccept any other appropriate analysis.\nMax 8 marks.",
+    "subtopicId": "role-of-technology"
+  },
+  {
+    "id": "rot-q24",
+    "questionNumber": "Q40",
+    "question": "The rewards for success in elite sport are increasing every year and officials are under greater pressure than ever from players, supporters and the media.\nDiscuss the suggestion that the increased use of technology to help officials make the correct decision has improved the sporting event.",
+    "marks": 8,
+    "markScheme": "Possible content may include:\nAO1 - Knowledge of technology: better playing surfaces; better clothing/footwear; use of cameras/video; use of communications equipment; use of computers/software.\nAO2 - Application: Video Assistant Referee (VAR) in football has other officials watching for incidents of foul play; Television Match Official (TMO) used in rugby to decide whether foul play or a try has occurred; goal-line technology in football to check if a goal has been scored; Hawkeye used in tennis/cricket to show ball flightpath; Hotspot used in cricket to see if the ball hit the bat; improved timing accuracy in athletics/swimming; photo finish cameras used in athletics; post-event disciplinary action taken for foul play not seen by officials; improved fitness of officials to keep up with performers.\nAO3 - Analysis. Improvements: technology ensures correct decisions/fair competition/less controversy/players more confident in decisions; helps officials communicate with each other; less pressure/post-match criticism on officials; accurate timing/measurement; creates excitement in the crowd waiting for a decision/allows players to challenge decisions. Disadvantages: officials using technology can still be wrong/technology can't be used for everything; over-reliance on technology can reduce respect for an official's decision being final; technology must be accurate and highly reliable; changes the nature of the sport; cost limits use of technology at all events; breaks in play can be disruptive for spectators if too long.\nAccept any other appropriate analysis.\nMax 8 marks.",
+    "subtopicId": "role-of-technology"
+  }
+]

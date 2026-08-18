@@ -1,0 +1,74 @@
+[
+  {
+    "id": "amt-q1",
+    "questionNumber": "Q7",
+    "question": "A performer with a 'need to achieve' (Nach) personality often demonstrates approach behaviour. Identify three other characteristics of an individual with a need to achieve (Nach) personality.",
+    "marks": 3,
+    "markScheme": "- Seeks out challenging situations / competitive\n- Takes risks\n- Task persistence / mastery orientation\n- Not afraid of failure\n- Values feedback from others / coach / accepts criticism\n- Attributes performance to internal factors / effort / ability\nAccept first three answers only. Accept other appropriate characteristics.\nMax 3 marks.",
+    "subtopicId": "achievement-motivation-theory"
+  },
+  {
+    "id": "amt-q2",
+    "questionNumber": "Q8",
+    "question": "Identify and describe one strategy a coach could use to develop approach behaviour in a hockey player. Use a sporting example to support your answer.",
+    "marks": 3,
+    "markScheme": "- Reinforcement - the coach could offer rewards / praise to players who do well, so players keep the desire to succeed, eg a coach could congratulate a player each time they win a tackle\n- Attribute success internally / attribution retraining - the coach can tell the player that success was due to the player themselves, eg acknowledging how much effort a player put in to help the team win\n- Allow success - to increase confidence the coach can make tasks easier, eg setting easier drills during a training session\n- Goal setting - the coach could set achievable goals that can be met with effort, eg to complete 5 successful tackles in the next match\nAccept other appropriate identification, description and sporting example.\nMax 3 marks.",
+    "subtopicId": "achievement-motivation-theory"
+  },
+  {
+    "id": "amt-q3",
+    "questionNumber": "Q2",
+    "question": "A cricket match ends level after the final over, so a Super Over is required to decide the winner. Two batters respond differently when the captain asks them to face the first ball of the Super Over. One player volunteers immediately and the other asks not to be selected. Analyse why the two players might have responded differently. Refer to achievement motivation theory and commercialisation in your answer.",
+    "marks": 15,
+    "markScheme": "AO1 - knowledge: achievement motivation is the desire to succeed or the fear of failure; personality can be Need to Achieve (nAch) or Need to Avoid Failure (nAf); situational factors include the probability of success and the incentive value of success. Commercialisation is the process of attempting to generate money from sport, eg through sponsorship, media coverage and merchandising.\nAO2 - application: the player who volunteers appears to display nAch characteristics - responds positively to the challenge, welcomes the roughly 50/50 probability of success and the incentive value of winning the match. The player who declines appears to display nAf characteristics - perceives the situation as a high risk of public failure and responds negatively to the probability of success and incentive value.\nAO3 - analysis: the volunteering player may perceive the bowling attack as a fair challenge to their ability and welcomes the evaluation of performing under scrutiny; they may value the incentive of being seen as a match-winner, which could enhance their commercial profile through sponsorship interest or media attention. The reluctant player may be demotivated by the fear of public evaluation and negative feedback if they fail; they may worry that a high-profile failure could affect existing sponsorship arrangements or their reputation with the media, and so prefers to avoid the situation altogether. Other factors such as current form, fatigue, or previous experience in similar situations could also be discussed.\nAccept any other relevant analytical point about why the two players may have responded differently. Answers must refer to achievement motivation and commercialisation.\nMax 15 marks.",
+    "subtopicId": "achievement-motivation-theory"
+  },
+  {
+    "id": "amt-q4",
+    "questionNumber": "Q5",
+    "question": "Describe Achievement Goal Theory.",
+    "marks": 3,
+    "markScheme": "- Motivation and task persistence depend on the type of goal set\n- Concerns how an individual measures/defines success\n- Task/mastery goals focus on mastering the skill/self-improvement, linked to high intrinsic motivation and positive attitudes\n- Ego/performance goals involve comparison with others; performers with this orientation are more easily discouraged and may select easier tasks\nMax 3 marks.",
+    "subtopicId": "achievement-motivation-theory"
+  },
+  {
+    "id": "amt-q5",
+    "questionNumber": "Q15",
+    "question": "The Theory of Achievement Motivation suggests there are two personality types: Need to Achieve and Need to Avoid Failure. Which one of the following statements best describes the characteristics of a performer with a Need to Achieve personality?",
+    "marks": 1,
+    "markScheme": "Correct answer: B - Completes the task quickly, persists, chooses challenging tasks, enjoys performing in front of others.\n1 mark for the correct option.",
+    "subtopicId": "achievement-motivation-theory",
+    "isMultipleChoice": true,
+    "options": [
+      "A - Takes their time completing the task, attributes success to external factors, chooses easy tasks, avoids performing in front of others",
+      "B - Completes the task quickly, persists, chooses challenging tasks, enjoys performing in front of others",
+      "C - Completes the task quickly, worries about failure, chooses easy tasks, avoids performing in front of others",
+      "D - Takes their time completing the task, persists, chooses easy or hard tasks, enjoys performing in front of others"
+    ],
+    "correctOption": "B - Completes the task quickly, persists, chooses challenging tasks, enjoys performing in front of others"
+  },
+  {
+    "id": "amt-q6",
+    "questionNumber": "Q33",
+    "question": "Elite shot put athletes often display approach behaviour. How does the achievement motivation of a performer affect their approach behaviour?",
+    "marks": 4,
+    "markScheme": "Explanation:\nA - (Achievement motivation) desire to succeed - fear of failure\nB - (depends on) probability of success/chances of success\nC - (depends on) incentive value of success/rewards available/intrinsic motivation/extrinsic rewards\nD - (depends on) personality of the performer/need to achieve (NACH) or need to avoid failure (NAF)\n(Sub max of 2 marks for explanation, A to D)\nApplication:\nE - A performer with a higher need to achieve will display approach behaviour\nF - A performer with a higher need to avoid failure will display avoidance behaviour\nG - (Approach behaviour/NACH) attempts challenges/takes risks/does not worry about failure/likes feedback or equivalent. (Avoidance behaviour/NAF) avoids challenges/worries about failure/dislikes feedback or equivalent\n(Sub max of 2 marks for application, E to G; G - either NACH or NAF characteristics can be awarded but not both)\nMax 4 marks.",
+    "subtopicId": "achievement-motivation-theory"
+  },
+  {
+    "id": "amt-q7",
+    "questionNumber": "Q30",
+    "question": "The coach and captain of a team must motivate players to perform in competitive situations and encourage them to believe in their own ability. Explain the factors that contribute to a performer's level of 'achievement motivation'.",
+    "marks": 3,
+    "markScheme": "- Achievement motivation = desire to succeed - fear of failure\n- Interactionist approach/depends on the personality and the situation\n- (Personality) - either Need to Achieve (nAch) or Need to Avoid Failure (nAf)\n- (Situation) - probability of success\n- (Situation) - incentive value of success\nMax 3 marks.",
+    "subtopicId": "achievement-motivation-theory"
+  },
+  {
+    "id": "amt-q8",
+    "questionNumber": "Q31",
+    "question": "The coach and captain of a team must motivate players to perform in competitive situations and encourage them to believe in their own ability. Explain how 'approach behaviour' can be developed within the team.",
+    "marks": 4,
+    "markScheme": "- Positive experiences/give success/avoid negative feelings\n- Gradually increase task difficulty\n- Goal setting\n- Use positive feedback and praise/support from significant others\n- Reduce punishment\n- Encourage risk taking\n- Use attributions correctly\n- Develop high levels of self-efficacy/avoid learned helplessness\nMax 4 marks.",
+    "subtopicId": "achievement-motivation-theory"
+  }
+]

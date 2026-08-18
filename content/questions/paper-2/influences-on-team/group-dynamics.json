@@ -1,0 +1,90 @@
+[
+  {
+    "id": "gd-q1",
+    "questionNumber": "Q3",
+    "question": "Suggest strategies that a coach may use to reduce the effects of social loafing in a rowing eight and the impact these may have on performance.",
+    "marks": 4,
+    "markScheme": "AO1: Strategies (Sub-max 2 marks):\n- Recognise and reward individual effort\n- Give rowers specific roles and/or responsibilities\n- Set individual goals / SMARTER targets, according to the crew's aims\n- Avoid situations in which social loafing could occur\n- Maintain fitness of the crew / individuals\n- Organise team-bonding activities / create more group identity\nAO3: Impacts (Sub-max 2 marks):\n- Rowers should feel more motivated / valued, work harder / feel more confident\n- Improved relationships / crew dynamics\n- Reduced faulty processes / better teamwork / bigger contribution\n- Improvement in all rowers' productivity\n- Reduced fatigue of individual rowers\nAccept other relevant strategies or impacts.\nMax 4 marks.",
+    "subtopicId": "group-dynamics"
+  },
+  {
+    "id": "gd-q2",
+    "questionNumber": "Q9",
+    "question": "Tuckman suggested the formation of a group occurs in a specific order. Which one of the following orders is correct?",
+    "marks": 1,
+    "markScheme": "Correct answer: B - Forming, storming, norming, performing.\n1 mark for the correct option.",
+    "subtopicId": "group-dynamics",
+    "isMultipleChoice": true,
+    "options": [
+      "A - Storming, forming, performing, norming",
+      "B - Forming, storming, norming, performing",
+      "C - Norming, storming, forming, performing",
+      "D - Performing, norming, storming, forming"
+    ],
+    "correctOption": "B - Forming, storming, norming, performing"
+  },
+  {
+    "id": "gd-q3",
+    "questionNumber": "Q13",
+    "question": "The way in which members of a relay swimming team relate to each other is known as cohesion. Suggest why cohesive teams tend to be more successful.",
+    "marks": 3,
+    "markScheme": "- Success is more likely with good task cohesion, as the team works together towards a common goal\n- The team works together effectively, concentrating on the task/goal rather than personal disputes\n- Compared with social cohesion, which helps team members support each other\n- Success often improves overall cohesion, leading to further success\nAccept other relevant responses.\nMax 3 marks.",
+    "subtopicId": "group-dynamics"
+  },
+  {
+    "id": "gd-q4",
+    "questionNumber": "Q20",
+    "question": "A rugby sevens squad often displays strong cohesion during a tournament. Explain the importance of cohesion on group productivity and suggest strategies a coach can use to improve the actual productivity of the squad.",
+    "marks": 15,
+    "markScheme": "AO1 - knowledge: cohesion is the tendency of a group to stay together to achieve their goal/task. Key terms include task cohesion, social cohesion, social loafing and the Ringelmann effect. Cohesion depends on group members, the task, the leader and other team factors; Actual productivity = potential productivity - losses due to faulty processes.\nAO2 - application: linking types of cohesion to sporting examples, eg co-ordination losses in a rugby sevens squad may be due to poor communication during a fast-paced attacking move or a misunderstanding of tactics.\nAO3 - analysis/evaluation: strategies such as structured practice to ensure players understand tactics (improving task cohesion), giving individuals specific responsibility or goals, explaining roles within the squad, and providing feedback. Strategies to develop social cohesion, eg team-bonding activities, could also be outlined. Evaluation may include a reasoned discussion, eg task cohesion is arguably more important than social cohesion, and a squad can be successful with limited social cohesion, whereas strong social cohesion without challenge to poor performance (cliques) could undermine productivity.\nCredit other relevant explanation points. Answers must suggest strategies to improve the actual productivity of the squad.\nMax 15 marks.",
+    "subtopicId": "group-dynamics"
+  },
+  {
+    "id": "gd-q5",
+    "questionNumber": "Q8",
+    "question": "Successful teams have to work together to maximise their chance of winning. Tuckman suggested that there are four stages of group formation. Name and explain the second and third stages of group formation.",
+    "marks": 2,
+    "markScheme": "2 marks for 2 of:\nStorming - individuals establishing their position within the group/discussion of ideas/conflict of ideas/alliances formed/establishment of roles (accept first two named stages only)\nNorming - agreement of roles/norms/positioning/group gains stability/development of cohesion/individuals co-operate\n(Correct stage must be identified to be credited.)\nMax 2 marks.",
+    "subtopicId": "group-dynamics"
+  },
+  {
+    "id": "gd-q6",
+    "questionNumber": "Q9",
+    "question": "Explain how faulty processes can have a negative impact on group productivity.",
+    "marks": 5,
+    "markScheme": "5 marks for 5 of:\nActual/group productivity = Potential productivity - losses due to faulty processes\n(Faulty process) Co-ordination losses - accept other words for losses (as question not focussed specifically on Steiner's model), eg poor co-ordination; (any one of) poor tactics/lack of communication/poor teamwork or equivalent (must be linked to the correct term)\nRingelmann Effect - (explanation) as the group size increases the individual contribution decreases/more opportunity for communication breakdown (must be linked to the correct term)\n(Faulty process) Motivational losses - accept other words for losses, eg poor motivation; (any one of) incorrect arousal levels/feeling under-valued/low self-efficacy/poor concentration/avoidance behaviour/fear of failure (must be linked to the correct term)\nSocial loafing - (explanation) reduction in motivation and individual effort/individual hides in the group/coasts (must be linked to the correct term)\nCohesion/task cohesion decreases/actual productivity decreases; social cohesion is poor - social cliques formed\nMax 5 marks.",
+    "subtopicId": "group-dynamics"
+  },
+  {
+    "id": "gd-q7",
+    "questionNumber": "Q22",
+    "question": "The creation of a successful team rarely happens by chance. Identify and explain Carron's antecedents (factors) that contribute to the cohesiveness of a group.",
+    "marks": 3,
+    "markScheme": "3 marks for 3 of: (factor must be named and at least one explanation point given to be credited)\nEnvironment/situational factors - size of group/time/facilities/age or equivalent\nMember/personal factors - ability/motivation/satisfaction/similarity of group or equivalent\nLeadership factors - style/behaviour/personality/relationship with group or equivalent\nTeam factors - task/motivation/stability/ability/shared experiences or equivalent\n(Four correct factors named but no explanation - awarded if no other marks awarded.)\nMax 3 marks.",
+    "subtopicId": "group-dynamics"
+  },
+  {
+    "id": "gd-q8",
+    "questionNumber": "Q28",
+    "question": "A national netball squad recently won a fictional major international tournament for the first time, having demonstrated excellent teamwork, leadership and the ability to perform under pressure. Explain the importance of cohesion to group productivity.",
+    "marks": 8,
+    "markScheme": "A - Cohesion - tendency of a group to stay together to achieve their goal/task (must link working together with goal/task)\nB - Cohesion depends on group members/task/leader/team-based factors/equivalent (have to name at least two out of these to get the mark; refers to Carron's antecedents)\nC - Actual productivity = potential productivity - losses due to faulty processes\nD - Co-ordination losses/faulty processes, eg poor teamwork/poor tactics\nE - Motivational losses/faulty processes, eg loss of concentration/low self-confidence (D and E can be awarded if faulty processes are explained in correct context)\nF - Social loafing - performer 'hides' within a team\nG - Ringelmann effect - performance/cohesion may decrease as group size increases\nH - Task cohesion - ability of the group to work together to achieve a common goal\nI - Social cohesion - interaction of players and their interpersonal relationships (F, G, H, I - terms must be explained)\nJ - Task cohesion is more important than social cohesion/a team can be successful with poor social cohesion\nK - Social cohesion can undermine performance/formation of cliques/not challenging poor performance for fear of upsetting others\nL - Social cohesion can aid performance by challenging the norm\nMax 8 marks.",
+    "subtopicId": "group-dynamics"
+  },
+  {
+    "id": "gd-q9",
+    "questionNumber": "Q29",
+    "question": "The national netball squad demonstrated excellent teamwork, leadership and the ability to perform under pressure. Outline possible strategies that can be used to reduce the negative impact of faulty processes on performance.",
+    "marks": 8,
+    "markScheme": "Description of stages of group formation are not creditworthy - if answers are given in the context of applying strategies to improve cohesion, marks can be awarded.\nA - Practice/training to ensure all understand the tactics\nB - Give individuals specific responsibility/set goals (reward is too vague)\nC - Explain specific roles within the team (make individuals feel valid is too vague)\nD - Give feedback/video analysis of performance/reinforcement\nE - Develop peer support/encourage each other/encourage open discussion/an effective leader\nF - Vary practice to maintain motivation/train in small groups\nG - Improve fitness levels\nH - Team bonding exercises/social outings\nI - Avoid social cliques\nJ - Create a group identity, eg team kit\nK - Develop self-confidence/self-efficacy/self-esteem/credit use of attributions\nL - Maintain team stability if possible/limit change\nMax 8 marks.",
+    "subtopicId": "group-dynamics"
+  },
+  {
+    "id": "gd-q10",
+    "questionNumber": "Q8",
+    "question": "A coach will often try to pair players with compatible personalities to form a successful table tennis doubles partnership. Explain the term 'task cohesion' and why it is vital for success in any game.",
+    "marks": 4,
+    "markScheme": "4 marks for 4 of:\nTask cohesion - the ability of the group to achieve a common goal;\nPlayers need to be able to interact effectively/good communication;\nUnderstand own role/other's role/good co-ordination;\nPoor cohesion can be classed as a faulty process;\nGood task cohesion can help social cohesion;\nSocial cohesion - the ability of the group to relate well to each other/get along socially;\nSocial cohesion is not vital for group success/task cohesion is more important than social cohesion.\nMax 4 marks.",
+    "subtopicId": "group-dynamics"
+  }
+]

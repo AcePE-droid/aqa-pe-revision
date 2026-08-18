@@ -1,0 +1,58 @@
+[
+  {
+    "id": "anx-q1",
+    "questionNumber": "Q21",
+    "question": "'Feelings of apprehension and worry due to a tendency to view all competitive situations as threatening.' Identify this type of anxiety.",
+    "marks": 1,
+    "markScheme": "Correct answer: C - Competitive trait.\n1 mark for the correct option.",
+    "subtopicId": "anxiety",
+    "isMultipleChoice": true,
+    "options": [
+      "A - Cognitive",
+      "B - Competitive state",
+      "C - Competitive trait",
+      "D - Somatic"
+    ],
+    "correctOption": "C - Competitive trait"
+  },
+  {
+    "id": "anx-q2",
+    "questionNumber": "Q10",
+    "question": "A darts player becomes noticeably tense before throwing to win the match. Describe what you understand by the term 'competitive state anxiety'.",
+    "marks": 2,
+    "markScheme": "- Anxiety experienced at a specific time during a competitive situation\n- May be cognitive and/or somatic anxiety\nAccept other appropriate descriptions of competitive state anxiety.\nMax 2 marks.",
+    "subtopicId": "anxiety"
+  },
+  {
+    "id": "anx-q3",
+    "questionNumber": "Q18",
+    "question": "Many elite performers complete personality and anxiety tests as part of their preparation for competition. Name one self-report questionnaire often used to measure anxiety and outline the disadvantages of using this form of data collection.",
+    "marks": 3,
+    "markScheme": "Named test (accept first answer only for named questionnaire): Sport Competition Anxiety Test/SCAT; State Trait Anxiety Inventory/STAI; Competitive Sport Anxiety Inventory/CSAI-2 (Sub-max of 1 mark for named test.)\nDisadvantages:\n- Misinterpretation of questions/lack of understanding\n- Answers may not be truthful/provide socially desirable answers\n- Questions may not allow for full answers/limited options to express emotions\n- Inappropriate questions/biased questions\n- Situation when completed may not be ideal/may rush to complete questionnaire (do not accept 'time consuming')\nMax 3 marks.",
+    "subtopicId": "anxiety"
+  },
+  {
+    "id": "anx-q4",
+    "questionNumber": "Q24",
+    "question": "Different methods of assessment can be used to measure anxiety levels and also to identify potential elite performers. What are the disadvantages of using observation as a method to assess anxiety?",
+    "marks": 3,
+    "markScheme": "- Subjective/not objective (do not accept 'unreliable/not valid')\n- Reliant on the skill of the observer\n- Time consuming/expensive/needs to be completed several times\n- Observer needs to know the normal behaviour patterns of the performer for comparison\n- May need several observers (at the same time)\n- If the performer knows observation is occurring they may behave differently/become more anxious/increased state anxiety/experience evaluation apprehension/social inhibition (being observed alone is insufficient - needs the effect on the performer)\nMax 3 marks.",
+    "subtopicId": "anxiety"
+  },
+  {
+    "id": "anx-q5",
+    "questionNumber": "Q32",
+    "question": "All players within a team are likely to experience 'anxiety' at some point during their performance. Identify and explain the different types of anxiety that may affect a performer.",
+    "marks": 3,
+    "markScheme": "- Trait anxiety/A-Trait - performer generally perceives situations as threatening (no marks for just naming the types of anxiety)\n- State anxiety/A-State - level of anxiety at a specific time/particular situation\n- Competitive Trait Anxiety - performer generally perceives competitive situations as threatening\n- Competitive State Anxiety - level of anxiety during competitive situations\n- Cognitive anxiety - psychological responses/thoughts and worries of the performer/doubts in their ability to complete the task\n- Somatic anxiety - physiological responses of the performer/increased heart rate/sweating or equivalent (body's response is too vague unless supported with examples)\nMax 3 marks.",
+    "subtopicId": "anxiety"
+  },
+  {
+    "id": "anx-q6",
+    "questionNumber": "Q28",
+    "question": "A swimming coach would like to measure anxiety levels of the squad during a gala using observations and physiological measures. The coach has known the swimmers for at least two years. The coach will conduct the observations himself and will use technology to take physiological measures. Evaluate the validity of using observations and physiological measures to measure the anxiety of the swimmers during the gala.",
+    "marks": 8,
+    "markScheme": "AO1 - Knowledge of observations and physiological measures to measure anxiety and validity. Anxiety can be measured by observing athletes; also by physiological measures including heart rate, sweating, respiration rate and hormone secretion. Validity refers to whether the data collected actually measures what it claims to measure.\nAO2 - Application to the swimming squad. Observations are realistic and true to life; the coach knows the swimmers well after two years so can notice changes from the norm. Observations are subjective, based on the coach's opinions. Physiological measures such as heart rate monitors are objective and factual, allowing comparison with previous data, and the coach can receive data during the gala.\nAO3 - Evaluation. Observations can be effective as the coach knows the swimmers, but it may be difficult to watch all swimmers at once, and the process is time consuming and subjective. If swimmers know they are being observed or monitored, their behaviour or physiological readings may change, which could reduce the validity of the results in both cases.\nMax 8 marks.",
+    "subtopicId": "anxiety"
+  }
+]

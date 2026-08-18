@@ -1,0 +1,42 @@
+[
+  {
+    "id": "agg-q1",
+    "questionNumber": "Q13",
+    "question": "The table below shows the number of players sin-binned in the Rugby League Super League each season. Sin-bins can be given for aggressive foul play. Instinct theory and the frustration-aggression hypothesis are psychological theories relating to aggression in sport. Use these theories to analyse why aggressive acts still exist in rugby league and evaluate the effectiveness of strategies used to prevent player violence. (Season / Number of sin-bins: 2019 - 62, 2020 - 48, 2021 - 39, 2022 - 35)",
+    "marks": 15,
+    "markScheme": "AO1 - Knowledge of instinct theory and frustration-aggression hypothesis and strategies to overcome player violence. Instinct theory states that aggressive behaviour is inherited genetically and that a trait of violence is within everyone. Frustration-aggression hypothesis theory states that frustration develops when goal directed behaviour is blocked; catharsis is achieved by successfully releasing aggression through an aggressive act. Strategies to overcome player violence include bans, fines, sin-bins, fair play awards, codes of conduct, and improved refereeing.\nAO2 - Application to rugby league. A goal being blocked could be due to poor refereeing decisions, or the fact that the opposition are winning. If a player is illegally tackled when running towards the try line they might immediately retaliate. Strategies used in rugby league to combat violence include sin-bins and post-match bans, which can also affect player pay.\nAO3 - Analysis/evaluation. There is an argument that strategies have been effective due to the decrease in sin-bins shown in the table. However, there is a counter-argument that strategies have not been fully effective, since player violence still exists and sin-bins are still being awarded. Some may argue the effectiveness of bans and lost pay may be reduced for players with high salaries.\nCredit other relevant analysis.\nMax 15 marks.",
+    "subtopicId": "aggression"
+  },
+  {
+    "id": "agg-q2",
+    "questionNumber": "Q34",
+    "question": "Describe how the 'frustration-aggression hypothesis' can be used to explain an aggressive act in basketball. Use an example in your answer.",
+    "marks": 4,
+    "markScheme": "AO1 (sub-max 3 marks):\n- Blocked goal causes frustration\n- Frustration causes aggression\n- Release of aggression has a cathartic effect / catharsis\nAO2 (sub-max 1 mark):\n- eg an opponent in basketball consistently fouls a player without it being called; the resultant frustration leads to an aggressive act, eg elbowing the opponent\nAccept any other relevant description. The use of an example can only be credited once.\nMax 4 marks.",
+    "subtopicId": "aggression"
+  },
+  {
+    "id": "agg-q3",
+    "questionNumber": "Q12",
+    "question": "During competitive contests, judo athletes may display aggressive behaviour. Suggest three strategies a coach could use to eliminate aggressive behaviour.",
+    "marks": 3,
+    "markScheme": "- Punish aggressive acts/disqualify from the contest/fine or equivalent\n- Develop a code of conduct/promote fair play\n- Remove from the situation/substitute/change tactics\n- Encourage peer support/group pressure against aggression\n- Give a role of responsibility/set performance or process goals\n- Highlight non-aggressive/positive role models\n- Reduce the importance of the event/avoid a 'win at all costs' attitude\n- Use stress management techniques/accept named examples\n- Reward/positively reinforce assertive, controlled play\n- Develop fitness levels to reduce frustration caused by fatigue\nAccept other relevant strategies. Answers must relate to competitive situations.\nMax 3 marks.",
+    "subtopicId": "aggression"
+  },
+  {
+    "id": "agg-q4",
+    "questionNumber": "Q24",
+    "question": "During competitive matches, handball players may become over-aroused and commit aggressive acts, such as illegal contact. The frustration-aggression hypothesis offers one explanation for the cause of aggressive behaviour. Using other psychological theories of aggression, explain the weaknesses of the frustration-aggression hypothesis.",
+    "marks": 4,
+    "markScheme": "4 marks for 4 of:\nA - Not all frustration leads to aggression\nB - Not all aggression is the result of frustration\nC - No allowance for the situation/environment\nD - Cue-arousal theory/aggressive cue hypothesis suggests aggression occurs when specific cues are present\nE - Instinct/Trait Theory suggests aggression is innate\nF - Instinct/Trait Theory suggests built up energy has to be released/a cathartic effect\nG - Social Learning Theory/Observational Learning suggests behaviour is copied from others\nMax 4 marks.",
+    "subtopicId": "aggression"
+  },
+  {
+    "id": "agg-q5",
+    "questionNumber": "Q13",
+    "question": "Sporting contests require the performer's full commitment, both physically and psychologically. The performance of some taekwondo competitors can be hindered by over-arousal. Explain, using appropriate psychological theories, the possible causes of aggressive behaviour during sporting contests and suggest strategies that a coach could use to develop the assertive behaviour of a performer.",
+    "marks": 14,
+    "markScheme": "Theories of Aggression (theory must be correctly named to be credited with marks):\n- Instinct (Theory)/Trait (Theory) - aggression is innate/born with aggressive traits; aggression builds up and has to be released; displacement theory/individuals wait for an acceptable time to be aggressive, eg sport; cathartic effect/catharsis ('stress relief' too vague)\n- Frustration-Aggression (Hypothesis/theory) - must be named in full, NOT 'FA hypothesis'; blocked goal causes frustration; frustration causes aggression (can only be awarded if the correct context of a goal being blocked is included); release of aggression has a cathartic effect/catharsis\n- Aggressive Cue (Hypothesis)/Cue Arousal (Theory) - frustration builds but aggression is only released when a socially desirable cue is present, eg the referee can't see you/the coach encourages aggression\n- Social Learning (Theory) - aggression is learnt by observing and copying others/vicarious experience; reinforcement causes behaviour to be repeated/or an appropriate applied example\nStrategies to develop assertive behaviour (answers should focus on strategies the coach could use, not officials, NGBs or the individual):\n- Punish aggressive acts/fine the player/drop for the next match or equivalent\n- Develop the competitor's code of conduct/promote fair play (focus is on encouraging non-aggressive behaviour)\n- Remove from the situation/change position/substitution/change tactics\n- Encourage peer support/group pressure\n- Give a role of responsibility/set performance goals/process goals\n- Highlight non-aggressive/positive role models\n- Reduce the importance of the event/avoid a 'win at all cost' attitude\n- Stress management techniques/accept named examples\n- Rewards/positive reinforcement for assertive play (focus is on rewarding non-aggressive behaviour)\n- Develop fitness levels\nMax 14 marks.",
+    "subtopicId": "aggression"
+  }
+]

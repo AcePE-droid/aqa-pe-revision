@@ -366,5 +366,133 @@
     "marks": 4,
     "markScheme": "Blood acidity increases / pH lowers due to an increase in hydrogen ions (H+), caused by increased carbon dioxide production during the game (1). This is detected by chemoreceptors (1). Nerve impulses are sent to the medulla oblongata / cardiac control centre (1). Increased sympathetic nervous impulses are sent to the sinoatrial (SA) node, alongside a decrease in parasympathetic/vagus nerve impulses, increasing heart rate (1). Max 4 marks.",
     "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q36",
+    "questionNumber": "Q36",
+    "question": "During a hockey match, a player's arterio-venous oxygen difference (a-vO2 diff) will increase.\n\nWhat is the significance of this increase in a-vO2 diff to the player's performance?",
+    "marks": 3,
+    "markScheme": "- Difference between the oxygen content of arterial and venous blood (1).\n- More oxygen is extracted/needed by the muscles, used for energy/ATP production (1).\n- Significant for endurance/aerobic exercise, and leads to improved performance (linked to increased oxygen use) (1).\nAccept alternative points: increased oxygen diffusion at the lungs/muscle, linked to more oxygen in the blood / more CO2 produced. Max 3 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q37i",
+    "questionNumber": "Q37(i)",
+    "question": "Many people play badminton as a way of improving their fitness.\n\n(i) Explain the difference between the terms health and fitness.",
+    "marks": 1,
+    "markScheme": "Fitness – ability to cope with/meet the demands of the environment. Health – a state of complete social, mental and physical wellbeing. Both phrases required. 1 mark.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q37ii",
+    "questionNumber": "Q37(ii)",
+    "question": "Many people play badminton as a way of improving their fitness.\n\n(ii) Explain how the health of a performer may affect their fitness.",
+    "marks": 2,
+    "markScheme": "- Can be unhealthy (e.g. illness/injury) and unable to train, so fitness declines – must link decreased fitness to ill-health (1).\n- Can be unhealthy but still able to train, so fitness can still improve – must link increased fitness despite ill-health (1).\nMax 2 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q38i",
+    "questionNumber": "Q38(i)",
+    "question": "(i) Where is myoglobin found in the body, and what is its role during exercise?",
+    "marks": 2,
+    "markScheme": "- Found in the muscle (required term: muscle) (1).\n- Stores/supplies oxygen to the mitochondria (1).\nMax 2 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q38ii",
+    "questionNumber": "Q38(ii)",
+    "question": "(ii) During an 800 m race, the oxyhaemoglobin dissociation curve shifts to the right.\n\nExplain the causes of this shift and the effect it has on oxygen delivery to the working muscles.",
+    "marks": 4,
+    "markScheme": "Sub max 3 (causes of the shift):\n- Increase in muscle/body temperature (1).\n- Increase in blood carbon dioxide concentration/pCO2 (1).\n- Increase in blood acidity/hydrogen ions/decrease in pH (1).\n- This is the Bohr shift (required term) (1).\n\nSub max 2 (effect on oxygen delivery):\n- Resulting in reduced affinity/less saturation of haemoglobin with oxygen (1).\n- An increase in oxygen release/dissociation to the muscles, so muscles receive more oxygen (1).\n\nMax 4 marks for part (ii).",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q39",
+    "questionNumber": "Q39",
+    "question": "Cardiovascular drift can occur during a long training ride. Explain the term cardiovascular drift.",
+    "marks": 3,
+    "markScheme": "Any three of:\n- Cardiovascular drift starts after around 10 minutes of exercise.\n- Heart rate increases and stroke volume/ejection fraction decreases despite constant intensity.\n- Fluid is lost as sweat, reducing blood plasma volume/increasing blood viscosity.\n- This reduces venous return.\n- Cardiac output still increases (via Starling's law/increased HR) as more energy is needed to help cool the body.\nMax 3 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q40",
+    "questionNumber": "Q40",
+    "question": "Swimmers often use continuous swimming as part of their training programme. Both heart rate and stroke volume increase during a swim set.\n\nUse Starling's law of the heart to explain how stroke volume increases during the swim.",
+    "marks": 3,
+    "markScheme": "- Increased venous return (not simply 'more blood back to heart') (1).\n- Greater diastolic filling – the heart fills with more blood, stretching the cardiac muscle (1).\n- This results in a stronger/more powerful force of contraction, increasing ejection fraction (not 'increases stroke volume', as given in the question) (1).\nMax 3 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q41",
+    "questionNumber": "Q41",
+    "question": "Explain how the heart controls the rate at which it beats.",
+    "marks": 4,
+    "markScheme": "- The heart generates its own electrical impulses (intrinsic/myogenic, not 'electrical signals' alone) (1).\n- The sinoatrial node (SAN), the pacemaker, initiates the impulse, causing atrial contraction/systole (1).\n- The impulse passes to the atrioventricular node (AVN) (1).\n- Then down the Bundle of His to the Purkinje fibres, causing the ventricles to contract (1).\nMax 4 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q42",
+    "questionNumber": "Q42",
+    "question": "Cycling helps the venous return mechanism.\n\nExplain how the venous return mechanism works.",
+    "marks": 3,
+    "markScheme": "Any three of:\n- The skeletal muscle pump/respiratory pump/suction pump of the heart aid venous return.\n- One-way (pocket) valves in the veins ensure blood flows in one direction (must be linked to location/direction).\n- Contraction of the leg muscles compresses the veins.\n- Breathing/inspiration increases pressure changes that compress veins.\n- Suction pressure of the heart draws blood up.\nMax 3 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q43",
+    "questionNumber": "Q43",
+    "question": "During a basketball game, a player's work rate will vary. Describe how the parasympathetic and sympathetic nerve pathways control heart rate during the game.",
+    "marks": 4,
+    "markScheme": "Any four of:\n- Controlled by the medulla/cardiac control centre.\n- Sympathetic pathway increases heart rate via release of adrenaline/noradrenaline.\n- This also increases stroke volume/ejection fraction.\n- Parasympathetic pathway decreases heart rate via the vagus nerve.\n- This involves release of acetylcholine.\n- Both pathways act on the sinoatrial node (SAN).\nMax 4 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q44",
+    "questionNumber": "Q44",
+    "question": "Explain how rising levels of carbon dioxide cause an increase in cardiac output.",
+    "marks": 4,
+    "markScheme": "Any four of:\n- Increased CO2 raises hydrogen ion concentration/lowers blood pH.\n- This is detected by chemoreceptors.\n- Impulses are sent to the cardiac control centre/medulla.\n- Increased sympathetic stimulation (and decreased parasympathetic/vagus stimulation) occurs.\n- Adrenaline/noradrenaline is released, acting on the SA node.\n- Heart rate increases.\n- Venous return increases.\n- Stroke volume/ejection fraction increases via Starling's law.\nMax 4 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q45",
+    "questionNumber": "Q45",
+    "question": "For effective performance, rugby players require oxygen to be delivered to the muscles and carbon dioxide to be removed.\n\nExplain how oxygen is taken up by haemoglobin at the lungs and released at the muscle site.",
+    "marks": 3,
+    "markScheme": "Any three of:\n- Haemoglobin forms oxyhaemoglobin (HbO2) at the lungs.\n- At the lungs, partial pressure of oxygen is high in the air/low in the blood, so haemoglobin becomes saturated.\n- At the muscles, partial pressure of oxygen is low, so oxygen dissociates from haemoglobin.\n- Reference to myoglobin taking up the released oxygen in the muscle.\nMax 3 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q46",
+    "questionNumber": "Q46",
+    "question": "When a footballer is sprinting, blood is redirected to the working muscles.\n\nExplain how this redistribution of blood is achieved.",
+    "marks": 3,
+    "markScheme": "- Increased metabolic activity/CO2/lactic acid causes a drop in blood pH/increased acidity, detected by chemoreceptors (1).\n- A message is sent to the medulla/vasomotor control centre (1).\n- The sympathetic/autonomic system releases adrenaline/noradrenaline, acting on pre-capillary sphincters/arterioles – causing vasoconstriction to organs not needed and vasodilation to the working muscles (1).\nMax 3 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q47",
+    "questionNumber": "Q47",
+    "question": "How does rowing assist the venous return mechanism?",
+    "marks": 2,
+    "markScheme": "- Contracting muscles compress the veins (1).\n- Veins have one-way (pocket) valves to prevent backflow, and changes in chest pressure during breathing help push blood towards the heart (1).\nMax 2 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q48i",
+    "questionNumber": "Q48(i)",
+    "question": "Performers in team games such as hockey need to be suitably prepared to meet the demands of the game.\n\n(i) In order to play hockey effectively, performers need to be fit. What do you understand by the term fitness?",
+    "marks": 1,
+    "markScheme": "The ability to meet the demands of the environment/cope with everyday tasks. 1 mark.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q48ii",
+    "questionNumber": "Q48(ii)",
+    "question": "(ii) Discuss whether you must be healthy in order to be fit.",
+    "marks": 2,
+    "markScheme": "Healthy – a state of social, mental and physical wellbeing. It is possible to be fit and healthy, and also possible to be fit but unhealthy (e.g. an athlete with an underlying illness). 2 marks.",
+    "subtopicId": "cardiovascular"
   }
 ]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "attr-q1",
+    "questionNumber": "Q18",
+    "question": "The table below shows Weiner's Model of attribution. Define the term attribution and, using examples from tennis, describe the different attributions labelled B, C and D. (Locus of Causality: Internal/External; Locus of Stability: Stable = Ability / C; Unstable = B / D)",
+    "marks": 4,
+    "markScheme": "Award one mark for each of the following points.\n- Perceived reason/cause/blame for the success or failure of a performance\n- (B - effort) amount of practice/preparation given for the match by the player\n- (C - task difficulty) standard of the opponent/competition\n- (D - luck - factors beyond the player's control) eg poor weather affecting the ball toss/a bad line call\nMax 4 marks.",
+    "subtopicId": "attribution-theory"
+  },
+  {
+    "id": "attr-q2",
+    "questionNumber": "Q22",
+    "question": "All basketball teams will experience victories and defeats. Explain how the coach of a basketball team can use knowledge of Weiner's Attribution Theory to maintain the motivation of the team following defeat.",
+    "marks": 8,
+    "markScheme": "Use of attribution theory:\nA - (explanation of attribution) perceived reason for success or failure or equivalent\nB - Locus of causality/locus of stability/locus of control (any one named dimension acceptable)\nC - Never attribute failure to internal-stable factors/ability\nD - Applied example, eg 'lack of skill'\nE - (attribute loss to) internal-unstable factors/effort\nF - Applied example, eg 'try harder next time'\nG - (attribute loss to) external-stable factors/task difficulty\nH - Applied example, eg 'the opposition were too strong'\nI - (attribute loss to) external-unstable factors/luck\nJ - Applied example, eg 'a poor refereeing decision'\nK - (attribute loss to) controllable factors\nL - Applied example, eg 'our tactics weren't right'\nM - Self-serving bias\nN - Attributes success to internal factors and defeat to external factors (only awarded if linked to point M)\nDo not accept an annotated diagram of Weiner's Model - must be explained fully.\nAnswer must focus on defeat, not following success.\nIf an example is linked to the incorrect dimension no mark is awarded, eg internal-unstable - luck.\nMax 8 marks.",
+    "subtopicId": "attribution-theory"
+  },
+  {
+    "id": "attr-q3",
+    "questionNumber": "Q35",
+    "question": "Elite fencers have to maintain high levels of motivation to perform at their optimum level. How can a coach use attributions to maintain high levels of motivation following a defeat?",
+    "marks": 3,
+    "markScheme": "- Never attribute failure to internal-stable factors/ability\n- Self-serving bias\n- (Attribute loss to) internal-unstable factors/effort\n- (Attribute loss to) external-stable factors/task difficulty\n- (Attribute loss to) external-unstable factors/luck\n- (Attribute loss to) controllable factors\n- Attribution retraining\nAnswer must focus on defeat, not following success. Stating 'internal'/'external' or 'stable'/'unstable' alone is too vague. If an example is linked to the incorrect dimension no mark is awarded, eg internal-unstable - luck. Diagrams must be annotated, not just a diagram of Weiner's model - must be applied.\nMax 3 marks.",
+    "subtopicId": "attribution-theory"
+  },
+  {
+    "id": "attr-q4",
+    "questionNumber": "Q26",
+    "question": "Effective captains use a variety of methods to motivate their teams. How would a captain use knowledge of self-serving bias to motivate their team?",
+    "marks": 4,
+    "markScheme": "- (Self-serving bias) correct use of attributions to protect self-esteem/self-efficacy/self-confidence/avoid learned helplessness\n- Attributing success to internal-stable factors/ability\n- Attributing success to internal-unstable factors/effort\n- Attribute failure to controllable factors\n- Attributing failure to internal-unstable factors/effort\n- Attributing failure to external-stable factors/task difficulty\n- Attributing failure to external-unstable factors/luck\n(Accept description of dimension or an example.)\nMax 4 marks.",
+    "subtopicId": "attribution-theory"
+  },
+  {
+    "id": "attr-q5",
+    "questionNumber": "Q5",
+    "question": "Elite squash players have to devote large amounts of time to develop their skills, requiring a positive attitude and high levels of motivation. How would a coach use 'attribution theory' to maintain motivation following a defeat?",
+    "marks": 4,
+    "markScheme": "4 marks for 4 of:\nAttributions - perceived reasons for performance/outcome;\nFailure to internal-unstable factors/effort (Weiner's Model on its own gains no marks - must be reference to applied use);\nFailure to external-unstable factors/luck;\nFailure to external-stable factors/task difficulty;\nFailure to external control, eg those areas which the player cannot influence;\nNot internal-stable factors, eg ability (accept reverse answer);\n(Not learned helplessness/self-efficacy)\nSelf-serving bias;\nAttribution re-training.\n(Don't just accept 'external factors' or 'internal factors'.)\nMax 4 marks.",
+    "subtopicId": "attribution-theory"
+  }
+]

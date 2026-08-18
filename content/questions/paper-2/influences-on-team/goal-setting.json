@@ -1,0 +1,82 @@
+[
+  {
+    "id": "gs-q1",
+    "questionNumber": "Q1",
+    "question": "Which type of goal is concerned with achieving a better result than an opponent?",
+    "marks": 1,
+    "markScheme": "Correct answer: A - Outcome goal.\n1 mark for the correct option.",
+    "subtopicId": "goal-setting",
+    "isMultipleChoice": true,
+    "options": [
+      "A - Outcome goal",
+      "B - Performance goal",
+      "C - Process goal",
+      "D - Product goal"
+    ],
+    "correctOption": "A - Outcome goal"
+  },
+  {
+    "id": "gs-q2",
+    "questionNumber": "Q14(a)",
+    "question": "Research shows that goal setting can have a positive effect on performance. (a) Identify the benefits of goal setting.",
+    "marks": 3,
+    "markScheme": "A. Improved confidence / self-efficacy\nB. Increased motivation / drive\nC. Prevents learning plateau\nD. Task persistence / push themselves\nE. Reduced anxiety / stress / more relaxed\nF. Focuses attention / concentration / improved selective attention\nMax 3 marks.",
+    "subtopicId": "goal-setting"
+  },
+  {
+    "id": "gs-q3",
+    "questionNumber": "Q14(b)",
+    "question": "Research shows that goal setting can have a positive effect on performance. (b) Explain why a coach would use performance goals and outcome goals for a performer.",
+    "marks": 2,
+    "markScheme": "Performance goal:\nA. To improve personal standards / personal best\n(Sub max 1 mark)\nB. To avoid comparisons with others\nOutcome goal:\nC. To achieve a better result (eg to win a game, finish in a certain position)\nMax 2 marks.",
+    "subtopicId": "goal-setting"
+  },
+  {
+    "id": "gs-q4",
+    "questionNumber": "Q26",
+    "question": "What are outcome goals? Use a sporting example in your answer.",
+    "marks": 2,
+    "markScheme": "AO1:\n- Outcome goals are set against the performance of others and are based on a result\nAO2:\n- For example, finishing on the podium in a triathlon\nAccept other suitable descriptions and examples.\nMax 2 marks.",
+    "subtopicId": "goal-setting"
+  },
+  {
+    "id": "gs-q5",
+    "questionNumber": "Q27",
+    "question": "What are task orientated goals? Use a sporting example in your answer.",
+    "marks": 2,
+    "markScheme": "AO1:\n- Task orientated goals are concerned with improvements in technique or performance\n- There are two types of task orientated goals: process and performance goals\nAO2:\n- For example, to improve the timing of a take-off in the long jump\nAccept other suitable descriptions and examples.\nMax 2 marks.",
+    "subtopicId": "goal-setting"
+  },
+  {
+    "id": "gs-q6",
+    "questionNumber": "Q1",
+    "question": "Identify and explain the different types of goals that a coach could use to motivate performers.",
+    "marks": 4,
+    "markScheme": "4 marks for 4 of:\nA - SMARTER/SMART goals - specific/measurable/accepted/realistic/time phased/exciting/recorded (any two named principles for one mark)\nB - Short/mid/long term goal - concept of specific goals over differing time scales (do not need to name all three to be awarded the mark)\nC - Outcome/product goal - based on the end result/against other performers, eg finishing position in a race\nD - Performance goal/task/task-orientated - based on personal standards, eg a personal best\nE - Process-orientated goal/process goal - based on personal completion of tactics or techniques, eg completion of a specific sub-routine\n(No mark for just naming types of goal.)\nMax 4 marks.",
+    "subtopicId": "goal-setting"
+  },
+  {
+    "id": "gs-q7",
+    "questionNumber": "Q10",
+    "question": "Performers need to learn skills in order to take part in physical activity. Skilled movements are learned, economic and efficient - they do not waste energy. One way of helping performers to learn is to set suitable goals. What are the benefits of goal setting?",
+    "marks": 3,
+    "markScheme": "Improved confidence/self-efficacy\nIncreased motivation/drive\nTask persistence/want to keep trying\nReduced anxiety/more relaxed or equivalent\nFocuses attention/concentration/improved selective attention\nApproach behaviours\nMax 3 marks.",
+    "subtopicId": "goal-setting"
+  },
+  {
+    "id": "gs-q8",
+    "questionNumber": "Q25",
+    "question": "Effective captains use a variety of methods to motivate their teams. Explain the characteristics of effective goal setting.",
+    "marks": 3,
+    "markScheme": "3 marks for 3 of: (must be an explanation for each term - accept suitable examples for explanation)\n(Specific) - linked to the performer/sport/position\n(Measurable) - objective/not subjective\n(Agreed/accepted) - involve the performer in setting the goals\n(Realistic/achievable) - within the performer's ability/not demotivating\n(Time phased/long and short term goals) - set a time for evaluation\n(Exciting/challenging) - motivate the performer\n(Recorded) - written for future reference/improves ownership (no marks for just SMART, SMARTER, SCAMP)\n(Outcome goal) - based on the end result, eg winning the match\n(Performance goal) - based on the performer's own ability level, eg linked to a personal best time/completing a specific percentage pass rate\n(Process goal) - based on the performer's techniques/tactics, eg extending the arms when passing/completing a specific role within a tactical formation\nMax 3 marks.",
+    "subtopicId": "goal-setting"
+  },
+  {
+    "id": "gs-q9",
+    "questionNumber": "Q9",
+    "question": "In order to improve a netball player's performance, a coach may set goals. Explain why these goals need to be realistic, specific and time-based.",
+    "marks": 3,
+    "markScheme": "Realistic - to maintain motivation/gain satisfaction/increase confidence by being achievable.\nSpecific - so the performer has personalised goals/targets for an aspect of the sport/netball.\nTime-based - so the target has to be reached quickly/not too drawn out/allows evaluation/re-evaluation.\nMax 3 marks.",
+    "subtopicId": "goal-setting"
+  }
+]

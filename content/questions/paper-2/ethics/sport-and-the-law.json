@@ -1,0 +1,58 @@
+[
+  {
+    "id": "sl-q1",
+    "questionNumber": "Q34",
+    "question": "In which of the following situations would a performer need assistance from the law as a result of an incident occurring outside of competition?",
+    "marks": 1,
+    "markScheme": "Correct answer: D - Contractual issues.\n1 mark for the correct option.",
+    "subtopicId": "sport-and-the-law",
+    "isMultipleChoice": true,
+    "options": [
+      "A - Referee negligence",
+      "B - Opponents being violent",
+      "C - Spectators attacking a player",
+      "D - Contractual issues"
+    ],
+    "correctOption": "D - Contractual issues"
+  },
+  {
+    "id": "sl-q2",
+    "questionNumber": "Q35",
+    "question": "State four reasons why sports legislation is important for performers.",
+    "marks": 4,
+    "markScheme": "Award one mark for each of the following points:\n- To protect from injuries obtained through sport/through violence/deviance of other players (1)\n- To protect against potential spectator behaviour (1)\n- Dispute contracts with employers/sponsors (1)\n- Can be compensated for loss of earnings (1)\n- Equal opportunities/protect from discrimination (1)\n- Protection from sexual abuse/negligence of referees or coaches (1)\n- Protection against media intrusion into private lives (1)\nAccept first four points only.\nAccept any other appropriate reason. Answers must relate specifically to performers and not just generic.\nMax 4 marks.",
+    "subtopicId": "sport-and-the-law"
+  },
+  {
+    "id": "sl-q3",
+    "questionNumber": "Q36",
+    "question": "Coaches legally have to demonstrate a duty of care by reducing potential risks and dangers for players.\nOutline how coaches can demonstrate a duty of care.",
+    "marks": 3,
+    "markScheme": "- Providing first aid provision so that injured players are dealt with (1)\n- Maintain the right supervision numbers to allow safe participation/balanced competition (1)\n- Collect medical information/contact details so incidents can be dealt with (1)\n- Carry out a risk assessment so dangers are planned for/check equipment/clothing/facilities (1)\n- Adapt sessions to the needs/ability of participants (1)\n- Suitably trained, eg DBS/safeguarding/first aid, or educate on dangers of drugs/overtraining/appropriate training (1)\nAccept other appropriate descriptions of duty of care.\nMax 3 marks.",
+    "subtopicId": "sport-and-the-law"
+  },
+  {
+    "id": "sl-q4",
+    "questionNumber": "Q37",
+    "question": "The law has become increasingly involved in sporting issues.\nState how the law can protect elite performers.",
+    "marks": 3,
+    "markScheme": "3 marks for 3 of:\n- (On field of play) opposition player fouls/protection from violent spectators\n- (Off field of play) contracts with employers/administration of wages/assets/transfer regulations/Court of Arbitration for Sport\n- Sponsorship deals/commercial deals\n- Protection from media intrusion into private life/privacy law\n- Child protection laws\n- Protection from racism/sexism/disability/equal opportunities\n- Health and safety requirements/negligence laws\nMax 3 marks.",
+    "subtopicId": "sport-and-the-law"
+  },
+  {
+    "id": "sl-q5",
+    "questionNumber": "Q38",
+    "question": "The majority of spectators attend major sporting events with the expectation of observing a high standard of performance in a safe environment.\nExplain how the law aims to protect spectators.",
+    "marks": 8,
+    "markScheme": "Focus of the question is on the law rather than NGBs and clubs protecting spectators.\nDo not accept: no alcohol at grounds/clubs fined/points deducted/use of role models/campaigns/segregation of fans.\n- Games played at specified times/kick-off times imposed by police\n- Pubs banned from opening prior to a game\n- All-seater stadiums/health and safety requirements\n- Violent/racist individuals prosecuted\n- Specific laws, eg trespassing on the pitch/field of play\n- Individuals banned from grounds\n- Individuals banned from travelling abroad/passports confiscated\n- Increased police/security at events/use of CCTV\n- Players fined/prosecuted for inciting crowd violence/gestures to crowd/racist comments\n- Police share information about known individuals\n- Ticket touts/black market ticket sales\nMax 8 marks.",
+    "subtopicId": "sport-and-the-law"
+  },
+  {
+    "id": "sl-q6",
+    "questionNumber": "Q39",
+    "question": "Some sports have experienced violence, both on and off the field of play, involving both players and spectators.\nHow does the law and sports legislation help to ensure that performers are protected during sporting contests?",
+    "marks": 3,
+    "markScheme": "3 marks for 3 of:\n- Protect against violent play\n- Employment contracts with clubs/sponsorship/commercial contracts/avoid burnout. Any links to private life and media intrusion are irrelevant.\n- Ensure duty of care from officials/negligence of poor referees\n- Safe playing environment/stadiums suitable for purpose\n- Protection from violent spectators/hooligans/terrorist threats. Link to rules is irrelevant, focus not on method.\n- Ensure opponents using doping methods are banned\n- Equality legislation/racism act/sexism act/disability acts/age or weight categories/gender\nMax 3 marks.",
+    "subtopicId": "sport-and-the-law"
+  }
+]

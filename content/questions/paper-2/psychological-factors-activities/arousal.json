@@ -1,0 +1,106 @@
+[
+  {
+    "id": "aro-q1",
+    "questionNumber": "Q5",
+    "question": "Theory X shows a curve where performance rises to a peak at a moderate level of arousal and then falls away gradually as arousal continues to increase. Theory Y shows a curve where performance rises steadily with arousal up to a critical point, after which a small further increase in arousal causes a dramatic, rapid drop in performance. Identify theories X and Y.",
+    "marks": 1,
+    "markScheme": "Correct answer: X: Inverted U theory, Y: Catastrophe theory.\n1 mark for the correct option.",
+    "subtopicId": "arousal",
+    "isMultipleChoice": true,
+    "options": [
+      "A - X: Catastrophe theory Y: Drive theory",
+      "B - X: Catastrophe theory Y: Inverted U theory",
+      "C - X: Inverted U theory Y: Catastrophe theory",
+      "D - X: Drive theory Y: Catastrophe theory"
+    ],
+    "correctOption": "C - X: Inverted U theory Y: Catastrophe theory"
+  },
+  {
+    "id": "aro-q2",
+    "questionNumber": "Q19",
+    "question": "To maximise the chance of success an elite performer must reach their optimum level of arousal. The inverted U theory illustrates the relationship between arousal and performance, showing performance improving with arousal up to an optimum point before declining as arousal continues to rise. Describe how the nature of a task may affect the optimum level of arousal and outline the possible impact of under-arousal on performance.",
+    "marks": 4,
+    "markScheme": "A. (Nature of the task) complex or fine skills need lower levels of arousal\nB. (Nature of the task) simple or gross skills need higher levels of arousal\nC. (Impact on performance) poor selective attention / cues missed\nD. (Impact on performance) lack of concentration / focus\nE. (Impact on performance) social loafing / social loafer\nF. (Impact on performance) Ringelmann effect\nG. (Impact on performance) slower / poor reaction time / response time / slower decision making\nH. Attentional wastage\nI. Attentional narrowing\nJ. Failed to reach zone of optimal functioning / peak flow experience\n(Sub-max 2 marks points C-J)\nMax 4 marks.",
+    "subtopicId": "arousal"
+  },
+  {
+    "id": "aro-q3",
+    "questionNumber": "Q22",
+    "question": "Graph A shows performance rising steadily to a peak with increasing arousal, before dropping sharply once a critical threshold is passed. Graph B shows performance continuing to rise as arousal increases, right up to the highest levels of arousal shown. Analyse the graphs to identify when optimal performance occurs for each theory of arousal, labelled A and B.",
+    "marks": 2,
+    "markScheme": "A - (Catastrophe theory) - at the top of the curve, just before the critical threshold\nB - (Drive theory) - at the highest level of arousal shown\nAccept a clearly labelled annotated graph.\nMax 2 marks.",
+    "subtopicId": "arousal"
+  },
+  {
+    "id": "aro-q4",
+    "questionNumber": "Q24",
+    "question": "There are a number of theories of arousal and performance. Which one theory states that, as arousal increases, so does performance? This theory can also be written as P = f(D x H).",
+    "marks": 1,
+    "markScheme": "Correct answer: B - Drive theory.\n1 mark for the correct option.",
+    "subtopicId": "arousal",
+    "isMultipleChoice": true,
+    "options": [
+      "A - Catastrophe theory",
+      "B - Drive theory",
+      "C - Inverted U theory",
+      "D - Zone of optimal functioning theory"
+    ],
+    "correctOption": "B - Drive theory"
+  },
+  {
+    "id": "aro-q5",
+    "questionNumber": "Q14",
+    "question": "The inverted U theory suggests optimal arousal can improve performance. Which one of the following statements is correct?",
+    "marks": 1,
+    "markScheme": "Correct answer: C - Complex skills require lower levels of arousal.\n1 mark for the correct option.",
+    "subtopicId": "arousal",
+    "isMultipleChoice": true,
+    "options": [
+      "A - Simple skills require higher levels of arousal",
+      "B - Experienced performers require lower levels of arousal",
+      "C - Complex skills require lower levels of arousal",
+      "D - Introverts require lower levels of arousal"
+    ],
+    "correctOption": "C - Complex skills require lower levels of arousal"
+  },
+  {
+    "id": "aro-q6",
+    "questionNumber": "Q34",
+    "question": "A basketball player becomes over-aroused before shooting a free throw with the scores level in the final seconds. Apart from aggression, using appropriate psychological terms, explain the impact of over-arousal on the performer.",
+    "marks": 4,
+    "markScheme": "A - Anxiety - drop in performance\nB - State anxiety/competitive state anxiety - increased level of anxiety at a specific time\nC - Cognitive anxiety - negative thoughts/emotions (accept suitable examples)\nD - Somatic anxiety - increased physiological responses (accept suitable examples)\nE - Evaluation apprehension - fear of performance being judged\nF - Social inhibition - increased anxiety due to others being present\nG - Selective attention/information processing - unable to focus on relevant cues\nH - Attentional narrowing - only focusing on specific cues rather than all those that are relevant\nI - Attentional wastage - focusing on cues that are irrelevant\n(Term must be named and explained for the mark to be awarded)\nMax 4 marks.",
+    "subtopicId": "arousal"
+  },
+  {
+    "id": "aro-q7",
+    "questionNumber": "Q4",
+    "question": "Elite performers must control their arousal levels in high pressure sporting situations, often in front of large audiences. The inverted U theory suggests that performers have an optimal level of arousal. Explain the factors that may influence different optimal levels of arousal.",
+    "marks": 3,
+    "markScheme": "(Skill level) - novice/cognitive performers require lower levels of arousal/experienced/autonomous performers require higher levels\n(Type of skill) - fine skills require lower levels/gross skills require higher levels\n(Type of skill) - complex skills require lower levels/simple skills require higher levels\n(Personality of the performer) - introverts require lower levels/extroverts require higher levels\n(Do not accept examples of sports without a link to the factor.)\nMax 3 marks.",
+    "subtopicId": "arousal"
+  },
+  {
+    "id": "aro-q8",
+    "questionNumber": "Q16",
+    "question": "The performer and the coach must work together so that the performer can control their arousal levels during competition. Identify three characteristics of the peak flow experience.",
+    "marks": 3,
+    "markScheme": "- Highly focussed on the task/good selective attention/fully absorbed/involved in the activity\n- Movement or skill feels effortless/physical and mental harmony\n- Clear goals\n- High levels of confidence/self-efficacy/sense of well being\n- Sub-conscious feelings of control/being on autopilot/automatic/optimal levels of arousal/zone of optimal functioning (ZOF) ('in the zone' too vague - needs link to correct arousal levels)\nMax 3 marks.",
+    "subtopicId": "arousal"
+  },
+  {
+    "id": "aro-q9",
+    "questionNumber": "Q20",
+    "question": "Using appropriate psychological theories, explain why performers may have different levels of optimal arousal.",
+    "marks": 8,
+    "markScheme": "Theories must be named to be credited with marks. Annotated graphs may support the answer. Catastrophe Theory is irrelevant.\nA - Drive Theory\nB - As arousal increases so does the likelihood of the dominant response/habit\nC - Experienced players perform better with higher levels of arousal/the more experienced players in a team require higher levels of arousal\nD - Novice players perform better with lower levels of arousal\nE - Inverted U Theory\nF - As arousal increases so does performance but only to a certain level\nG - Optimal arousal occurs at moderate levels\nH - (Personality of performer) extroverts require higher levels of arousal/introverts require lower levels of arousal\nI - (Nature of the task) complex or fine skills need lower levels of arousal/simple or gross skills need higher levels of arousal (accept relevant sporting examples if used in correct context)\nJ - (Skill of performer) experienced performers need higher levels of arousal/novices need lower levels of arousal\nZone of Optimal Functioning - do NOT credit ZOF as part of the inverted U theory, only as a separate theory.\nK - Some performers have a wider range of optimal arousal levels/different band widths of optimal arousal\nMax 8 marks.",
+    "subtopicId": "arousal"
+  },
+  {
+    "id": "aro-q10",
+    "questionNumber": "Q6",
+    "question": "During a rowing race, a competitor may display signs of anxiety and become over-aroused. Using the 'catastrophe theory', describe how over-arousal may affect a rower's performance.",
+    "marks": 4,
+    "markScheme": "- Performers need moderate/optimum levels of arousal to perform at their best (annotated diagrams can be credited)\n- Over-arousal causes a decrease in performance\n- Performer can recover (if only slight over-arousal)\n- Caused by cognitive anxiety\n- Performance can continue to decrease and not recover\n- Caused by cognitive and somatic anxiety\n- Recovery time can vary depending on the level of over-arousal and the performer/duration of the event\nMax 4 marks.",
+    "subtopicId": "arousal"
+  }
+]

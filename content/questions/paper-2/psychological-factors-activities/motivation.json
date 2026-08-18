@@ -1,0 +1,98 @@
+[
+  {
+    "id": "mot-q1",
+    "questionNumber": "Q32",
+    "question": "Which one of these could act as extrinsic motivation for a javelin thrower?",
+    "marks": 1,
+    "markScheme": "Correct answer: B - Gaining a medal for winning the javelin event.\n1 mark for the correct option.",
+    "subtopicId": "motivation",
+    "isMultipleChoice": true,
+    "options": [
+      "A - Feeling of pride at the distance of the throw recorded",
+      "B - Gaining a medal for winning the javelin event",
+      "C - Improved social status within the athletics club",
+      "D - Performing the javelin throw for enjoyment"
+    ],
+    "correctOption": "B - Gaining a medal for winning the javelin event"
+  },
+  {
+    "id": "mot-q2",
+    "questionNumber": "Q16",
+    "question": "Motivation is used to increase the effort and persistence of a performer. Explain how a ski coach can use different forms of motivation to improve performance. Use examples to support your answer.",
+    "marks": 3,
+    "markScheme": "- Intrinsic motivation by setting goals/challenges that develop feelings of self-satisfaction/pride\n- Extrinsic motivation by providing tangible rewards, eg medals/trophies/certificates\n- Extrinsic motivation by providing intangible rewards, eg praise/applause/records\nMax 3 marks.",
+    "subtopicId": "motivation"
+  },
+  {
+    "id": "mot-q3",
+    "questionNumber": "Q21",
+    "question": "Motivation is important for lacrosse players. Name and describe different forms of motivation.",
+    "marks": 3,
+    "markScheme": "A - Intrinsic - motivation from within/internal desire/want\nB - Extrinsic - motivation from external sources/outside the player\nC - (Extrinsic) tangible - physical rewards, eg trophies\nD - (Extrinsic) intangible - non-physical rewards, eg praise\nMax 3 marks.",
+    "subtopicId": "motivation"
+  },
+  {
+    "id": "mot-q4",
+    "questionNumber": "Q11",
+    "question": "Observational learning involves the stages of attention, retention, motor production and motivation. Using examples, name the two different types of extrinsic motivation.",
+    "marks": 2,
+    "markScheme": "Tangible - badges/prizes/rewards/cups/medals, etc (require name and example)\nIntangible - praise/peers/fans/crowd cheering/fame, etc (require name and example)\n(Accept personal best if in context, eg a coach telling you that you've achieved it.)\nMax 2 marks.",
+    "subtopicId": "motivation"
+  },
+  {
+    "id": "mot-q5",
+    "questionNumber": "Q12(i)",
+    "question": "Games players will practise to improve their skills, but to do this regularly requires motivation. (i) How does intrinsic motivation differ from extrinsic motivation?",
+    "marks": 1,
+    "markScheme": "Intrinsic from within/inside and extrinsic from outside. (If just 'intrinsic from within and extrinsic is not' this is too vague.) Intrinsic = drive/urge from within.\n1 mark.",
+    "subtopicId": "motivation"
+  },
+  {
+    "id": "mot-q6",
+    "questionNumber": "Q12(ii)",
+    "question": "Games players will practise to improve their skills, but to do this regularly requires motivation. (ii) Explain why intrinsic motivation is thought to be a better form of motivation than extrinsic motivation.",
+    "marks": 3,
+    "markScheme": "- Intrinsic motivation gives the performer a sense of control over performance; concerned with self\n- (Excessive) extrinsic motivation may reduce/lead to loss of intrinsic motivation/playing for the prize, not love of the game\n- Performers demand increasing extrinsic rewards/some rewards become unimportant/lose their value\n- Failure to achieve an extrinsic reward may lead to a loss of intrinsic motivation/if no reward, they give up\n- Extrinsic motivation controls or manipulates behaviour/overly reliant\n- (Excessive) need for extrinsic reward can lead to too much pressure/win at all costs/leads to cheating\n('Extrinsic is no good' is too vague as it is in the question.)\nMax 3 marks.",
+    "subtopicId": "motivation"
+  },
+  {
+    "id": "mot-q7",
+    "questionNumber": "Q27(i)",
+    "question": "In order to learn a skill, a performer needs to be motivated. (i) What do you understand by the term 'intrinsic' motivation?",
+    "marks": 2,
+    "markScheme": "The will/want/desire/drive to win/achieve success/equivalent, that occurs within the performer/equivalent (accept examples - self-satisfaction/personal pride/etc). (Stating the reverse, such as 'it's not rewards', is too vague.)\nMax 2 marks.",
+    "subtopicId": "motivation"
+  },
+  {
+    "id": "mot-q8",
+    "questionNumber": "Q27(ii)",
+    "question": "In order to learn a skill, a performer needs to be motivated. (ii) Explain the disadvantages of using 'extrinsic' motivation to motivate an individual.",
+    "marks": 2,
+    "markScheme": "(Excessive) extrinsic motivation may damage/lead to loss of intrinsic motivation/love of the activity/self-satisfaction (idea is too much extrinsic motivation is bad). Become dependent on/loss of extrinsic motivation (idea that extrinsic motivation controls you). Excessive extrinsic motivation eventually loses its effect/becomes worthless. Removal/failure to achieve extrinsic reward may lead to loss of motivation (not achieving enough for extrinsic motivation to work). Too much pressure, leading to cheating (accept 'win at all costs').\nMax 2 marks.",
+    "subtopicId": "motivation"
+  },
+  {
+    "id": "mot-q9",
+    "questionNumber": "Q27(iii)",
+    "question": "In order to learn a skill, a performer needs to be motivated. (iii) How could a coach motivate a group of athletics squad members, of differing abilities, who regularly train together?",
+    "marks": 4,
+    "markScheme": "Allow success/handicap races/competitions/group similar abilities together (idea of competitions for success, NOT becoming competitive). Use of external rewards/prizes/equivalent. Make it fun/enjoyable. Use of role models. Use praise/verbal encouragement/reinforcement/positive feedback (not just feedback). Emphasise personal improvement/set personal goals/challenges. Avoid punishment. Immediate reinforcement for weaker performers. Attribute success internally.\nMax 4 marks.",
+    "subtopicId": "motivation"
+  },
+  {
+    "id": "mot-q10",
+    "questionNumber": "Q1(i)",
+    "question": "In order to improve their performance, badminton players need motivation. (i) Explain the meaning of the term 'motivation'.",
+    "marks": 2,
+    "markScheme": "The will/desire/drive/want to learn/achieve success/equivalent; Intrinsic - from within/self-satisfaction; Extrinsic - rewards; Tangible - touchable/eg; Non-tangible - not physical/equivalent.\nMax 2 marks.",
+    "subtopicId": "motivation"
+  },
+  {
+    "id": "mot-q11",
+    "questionNumber": "Q1(ii)",
+    "question": "In order to improve their performance, badminton players need motivation. (ii) How could a coach motivate a badminton player to improve?",
+    "marks": 3,
+    "markScheme": "Make it fun/variation in training/more interesting (accept reverse - not boring); Use reinforcement/praise/verbal encouragement/equivalent; Use of external rewards - certificates/prizes; Allow success; Alter environment to favour players/feel competent; Positive feedback/eg; Set more (demanding/achievable) goals/target/more competition; Emphasise personal improvement; Use role models.\nMax 3 marks.",
+    "subtopicId": "motivation"
+  }
+]

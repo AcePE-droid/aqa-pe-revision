@@ -1,0 +1,192 @@
+[
+  {
+    "id": "dep-q1",
+    "questionNumber": "Q1",
+    "question": "Which one of the following organisations only provides support to talented athletes?",
+    "marks": 1,
+    "markScheme": "Correct answer: B - UK Sport.\n1 mark for the correct option.",
+    "subtopicId": "development-elite-performers",
+    "isMultipleChoice": true,
+    "options": [
+      "A - National Governing Bodies",
+      "B - UK Sport",
+      "C - Sport England"
+    ],
+    "correctOption": "B - UK Sport"
+  },
+  {
+    "id": "dep-q2",
+    "questionNumber": "Q2",
+    "question": "Two adults play squash for the purpose of physical recreation.\nIn which one of the following levels of the sporting development continuum does this activity occur?",
+    "marks": 1,
+    "markScheme": "Correct answer: C - Participation.\n1 mark for the correct option.",
+    "subtopicId": "development-elite-performers",
+    "isMultipleChoice": true,
+    "options": [
+      "A - Performance",
+      "B - Foundation",
+      "C - Participation"
+    ],
+    "correctOption": "C - Participation"
+  },
+  {
+    "id": "dep-q3",
+    "questionNumber": "Q3",
+    "question": "Analyse how support provided by the National Institutes of Sport has helped to improve the performance of British elite swimmers.",
+    "marks": 15,
+    "markScheme": "Students are expected to answer in continuous prose, use good English, organise information clearly and use specialist vocabulary where appropriate.\nAO1 - Knowledge of support provided by the National Institutes of Sport: sports science support/physiologists/psychologists/biomechanists/performance analysts/nutritionists; sports medicine and rehabilitation/physiotherapists; lifestyle support services/financial advice; access to high quality facilities; access to high quality/highly qualified coaches; involvement in cutting edge research and innovation.\nAO2 - Application to elite swimmers: sports science analyses fitness levels, eg lactate threshold; sports psychologists help swimmers devise strategies to meet their unique needs; nutritionists design individualised nutritional strategies; physiotherapists minimise the impact of injuries on training; strength and conditioning coaches produce bespoke periodised programmes; lifestyle support helps negotiate sponsorship/media/budgeting; swimmers have frequent access to Olympic-standard 50m pools; access to cutting edge swimwear and technology to reduce drag.\nAO3 - Analysis of impact: regular fitness monitoring ensures training is effective and peak condition is reached for competitions; psychological strategies help swimmers cope with pressure, enabling their best performance when it matters; bespoke nutritional plans maintain optimal body composition and support recovery; minimising injuries avoids reversibility, keeping swimmers fit for the highest profile events; bespoke strength and conditioning optimises attributes such as power-to-weight ratio, important for swimming speed; support with sponsorship/media/budgeting allows full focus on training; regular training at Olympic-standard venues builds familiarity and comfort when competing in similar environments; coaches' technical/tactical understanding maximises progress each session; cutting-edge swimwear/technology improves times and stroke efficiency.\nAccept any other appropriate analysis of how support from the National Institutes of Sport has helped the performance of British elite swimmers.\nMax 15 marks.",
+    "subtopicId": "development-elite-performers"
+  },
+  {
+    "id": "dep-q4",
+    "questionNumber": "Q4",
+    "question": "Which organisation is responsible for creating the World Class Performance Programme?",
+    "marks": 1,
+    "markScheme": "Correct answer: A - UK Sport.\n1 mark for the correct option.",
+    "subtopicId": "development-elite-performers",
+    "isMultipleChoice": true,
+    "options": [
+      "A - UK Sport",
+      "B - National Governing Body",
+      "C - Sport England",
+      "D - National Institute of Sport"
+    ],
+    "correctOption": "A - UK Sport"
+  },
+  {
+    "id": "dep-q5",
+    "questionNumber": "Q5",
+    "question": "There are personal, social and cultural factors required to support the progression from talent identification to elite performance.\nWhich of the following are personal factors only?",
+    "marks": 1,
+    "markScheme": "Correct answer: A - Commitment, determination, high levels of fitness.\n1 mark for the correct option.",
+    "subtopicId": "development-elite-performers",
+    "isMultipleChoice": true,
+    "options": [
+      "A - Commitment, determination, high levels of fitness",
+      "B - Media coverage of sport, motivation, natural talent",
+      "C - High levels of fitness, media coverage of sport, natural talent",
+      "D - Equal opportunities, self-discipline, structured levels of competition"
+    ],
+    "correctOption": "A - Commitment, determination, high levels of fitness"
+  },
+  {
+    "id": "dep-q6",
+    "questionNumber": "Q6",
+    "question": "Each national governing body will produce a Whole Sport Plan.\nIdentify the characteristics of a Whole Sport Plan.",
+    "marks": 3,
+    "markScheme": "- Four year plan\n- To support grass roots to elite\n- Receive resources/funding (from National Lottery/Sport England)/funding dependent on success\n- How to deliver the Start, Stay, Succeed/Grow, Sustain, Excel/aims of Sport England\n- Increase number of volunteers/qualified/specialised coaches\n- Share 'best practice'\n- More medals/KPIs/talent ID/titles - refers to measurable performance improvements at elite level\nMax 3 marks.",
+    "subtopicId": "development-elite-performers"
+  },
+  {
+    "id": "dep-q7",
+    "questionNumber": "Q7",
+    "question": "Describe the support available within sporting organisations that allows talented individuals to become elite performers.",
+    "marks": 5,
+    "markScheme": "5 marks for 5 of:\n- Provide equal opportunities policies/reduce discrimination/democratise sports\n- Talent identification/development systems/widespread screening and testing/testing in schools/systematic system\n- Profiles of physiological/psychological attributes of successful athletes to measure against\n- Liaison between organisations, eg NGB and UK Sport (need two named organisations)\n- Coherent sport policy/government guidelines/UK Sport strategy/Whole Sport Plans/named performance pathway initiatives, eg World Class Performance Pathway or equivalent\n- Competition pathway/structured levels of competition\n- Targeting resources effectively/access to high quality coaching/facilities/biomechanics or equivalent\n- NGBs accountable for lottery money received/distribution of funding grants\nMax 5 marks.",
+    "subtopicId": "development-elite-performers"
+  },
+  {
+    "id": "dep-q8",
+    "questionNumber": "Q8",
+    "question": "Although amateur athletes do not receive payment directly from competing in their sport, there are opportunities for them to receive financial support from organisations such as the National Lottery.\nState three other ways in which amateur athletes can be financially supported.",
+    "marks": 3,
+    "markScheme": "3 marks for 3 of:\n- SportsAid\n- Sponsorship/endorsement\n- Scholarships\n- Family support\n- Grants from NGB/local authority\n- Appearance money\nAccept first three answers only. Do not accept TASS/Lottery funded schemes.\nMax 3 marks.",
+    "subtopicId": "development-elite-performers"
+  },
+  {
+    "id": "dep-q9",
+    "questionNumber": "Q9",
+    "question": "Outline the advantages and disadvantages of lottery funding of elite sport in the UK.",
+    "marks": 4,
+    "markScheme": "4 marks for 4 of: sub max 2 marks per section\nAdvantages: allows more competitive opportunities within a sport; allows for more sports to be supported; raises the profile of sport within society/seen as a good cause; NGBs and performers are supposed to be accountable; allows government to spend money elsewhere, eg health.\nDisadvantages: certain sports are overlooked/refused funding; pressure on NGB/performers to be accountable/'no win no funding' culture; can provide the government with a 'get out' for funding sport; over-reliant on funding; lack of funding may influence choice of sport for an elite athlete.\nMax 4 marks.",
+    "subtopicId": "development-elite-performers"
+  },
+  {
+    "id": "dep-q10",
+    "questionNumber": "Q10",
+    "question": "Justify one method by which National Governing Bodies promote 'equality of opportunity'.",
+    "marks": 1,
+    "markScheme": "Award one mark for any of the following points.\n- Use of positive role models for targeted groups to aspire to be like (1)\n- Accessible facilities for groups with specific needs, more likely to be used if felt to be appropriate (1)\n- Meet government requirements, eg through Whole Sport Plans (1)\n- Incorporate specific targeted policies at under-represented groups so groups feel catered for and will potentially take part (1)\n- Use of sport-specific development officers to target underrepresented groups and liaise with the community (1)\n- Allocate resources to targeted groups or areas, eg inner cities to encourage urban opportunities (1)\nAccept any other justification of a method by which NGBs promote equality of opportunity.\nMax 1 mark.",
+    "subtopicId": "development-elite-performers"
+  },
+  {
+    "id": "dep-q11",
+    "questionNumber": "Q11",
+    "question": "Explain how the structure of the World Class Performance Pathway supports the development of elite athletes.",
+    "marks": 3,
+    "markScheme": "Award one mark for each of the following points.\n- World class talent feeds into the pathway to identify those with potential to progress, placing them on development programmes involving training and competing, eg sailing (1)\n- World class podium potential - athletes whose performances suggest realistic medal-winning capabilities in the coming cycle, or newly funded sports demonstrating the ability to become competitive (1)\n- World class podium is the top of the pathway - supporting athletes likely to win a medal at the next Olympic/Paralympic Games based on previous performance success (ie a maximum of four years from the podium) (1)\nAccept other relevant explanations of how the structure of the World Class Performance Pathway supports elite development.\nMax 3 marks.",
+    "subtopicId": "development-elite-performers"
+  },
+  {
+    "id": "dep-q12",
+    "questionNumber": "Q12",
+    "question": "Outline the role and purpose of a national governing body in modern day sport.",
+    "marks": 3,
+    "markScheme": "3 marks for 3 of:\n- Increase participation/grass roots to elite\n- Responsible for individual sports\n- Liaise with the International Sports Federation\n- Ensure rules are followed in their sport/handle misconduct (Do not accept 'create the rules')\n- Organise competitions/coaching/facilities\n- Select national teams\n- Liaise with other organisations, eg UK Sport/BOA/Sport England\n- Carry out policies such as government/UK Sport/equal opportunities\n- Whole Sport Plans/Long Term Athlete Development/Talent Identification\n- Access funding/distribute funding\nMax 3 marks.",
+    "subtopicId": "development-elite-performers"
+  },
+  {
+    "id": "dep-q13",
+    "questionNumber": "Q13",
+    "question": "England, Wales, Scotland and Northern Ireland all have national Institutes of Sport, providing high quality facilities and coaches.\nWhat is the role and purpose of national Institutes of Sport?",
+    "marks": 3,
+    "markScheme": "3 marks for 3 of:\n- Designed to foster the talents of Britain's elite athletes/medal count\n- Sports science/sports medicine/support applied physiology/biomechanics/medical consultation/medical screening/nutritional advice/performance analysis/psychology/podiatry/strength and conditioning/sports massage/sports vision/technology/research and innovation\n- Work in multi-disciplinary teams to develop athletes/support coaches and Performance Directors\n- The Performance Lifestyle programmes/career and education advice/ACE\n- Olympic and Paralympic sports/some non-Olympic sports, eg Premier League football\n- Address issues of under-represented groups/some community focus\n- Work with (need at least one example): NGB/sport partners/UK Sport/Sport England or equivalent named organisation\nMax 3 marks.",
+    "subtopicId": "development-elite-performers"
+  },
+  {
+    "id": "dep-q14",
+    "questionNumber": "Q14",
+    "question": "Currently, a national governing body for a sport produces a Whole Sport Plan. How does this benefit a sport?",
+    "marks": 5,
+    "markScheme": "- Grass roots to elite or equivalent\n- Increases participation/members/clubs\n- Funding to that sport depends on the success of the plan (Increased or more required)\n- Increase resources/funding for that sport (Increased or more required. Do not accept 'increased facilities')\n- From Sport England (UK Sport)\n- Helps deliver Start, Stay, Succeed/Grow, Sustain, Excel/Places People Play\n- Increase number of volunteers/qualified coaches (Increased or more required)\n- Partnerships with school/community sport programmes\n- Shared 'best practice'\n- Measurable/increased performance at elite level/more medals/KPIs/talent ID\nMax 5 marks.",
+    "subtopicId": "development-elite-performers"
+  },
+  {
+    "id": "dep-q15",
+    "questionNumber": "Q15",
+    "question": "The modern Olympic Games have changed considerably in nature and size since Baron Pierre de Coubertin organised the first modern Games in Athens in 1896, which involved only amateur performers competing in nine sports.\nExplain the social factors in the UK that encourage the development of elite athletes and increase the chance of winning medals.",
+    "marks": 8,
+    "markScheme": "- Status of sport/level of media coverage\n- Equal opportunities policies/anti-discrimination policies\n- School/university experience\n- Club network/access to clubs/facility provision\n- Parental/family/peer support\n- Socio-economic/social status\n- (Funding) - private/scholarships/sponsorships/SportsAid or equivalent (source rather than distribution, too vague on its own)\n- (Funding) - public/lottery/local authority or equivalent (source rather than distribution, too vague on its own)\n- Sport England - co-ordinated development of grass roots/participation\nMax 8 marks.",
+    "subtopicId": "development-elite-performers"
+  },
+  {
+    "id": "dep-q16",
+    "questionNumber": "Q16",
+    "question": "The modern Olympic Games have changed considerably in nature and size since Baron Pierre de Coubertin organised the first modern Games in Athens in 1896, which involved only amateur performers competing in nine sports.\nExplain the support programmes in the UK that encourage the development of elite athletes and increase the chance of winning medals.",
+    "marks": 8,
+    "markScheme": "Any organisation named must also have a description of its role.\n- UK Sport coordinates development of elite sport/provides support services\n- Coordinated approach of sports organisations working together (UK Sport, Sport England, NGBs, EIS, BOA, UK Coaching, national institutes of sport) - two organisations must be named to credit\n- Whole Sport Plans\n- High quality facilities\n- High quality coaching\n- Talent identification programmes, eg named regional/sport-specific talent programmes\n- Levels of structured competition\n- Progression routes/district to county to region/LTAD or equivalent\n- Research and development programmes\n- Sports science/biomechanics/sports psychology/nutritional advice/strength and conditioning\n- Sports medicine/physiotherapy\n- World Class Performance Pathway/Programme\n- (Explanation of WCPP) - Talent; Development; Podium\n- Talented Athlete Support Scheme/TASS/Athlete Personal Awards\n- Performance Lifestyle/ACE programme\nMax 8 marks.",
+    "subtopicId": "development-elite-performers"
+  },
+  {
+    "id": "dep-q17",
+    "questionNumber": "Q17",
+    "question": "UK Sport coordinates a talent identification programme to help achieve its aim of developing elite performers.\nWhat are the characteristics of an effective talent identification programme?",
+    "marks": 3,
+    "markScheme": "3 marks for 3 of:\n- Widespread testing programme/equal opportunities/testing at different age groups/schools\n- Knowledgeable/high quality scouts/high quality coaches able to spot talent (Do not accept reference to high quality coaches alone - must link to ability to identify talent)\n- Physiological/psychological/skills testing/high quality testing facilities (Do not accept 'training', 'facilities', 'funding' alone)\n- Database for comparison\n- Co-ordinated approach between organisations\n- Structured competition/progression routes/representative structure/development squads\nMax 3 marks.",
+    "subtopicId": "development-elite-performers"
+  },
+  {
+    "id": "dep-q18",
+    "questionNumber": "Q18",
+    "question": "UK Sport coordinates a talent identification programme to help achieve its aim of developing elite performers.\nExplain strategies that UK Sport has implemented to develop elite performers.",
+    "marks": 4,
+    "markScheme": "4 marks for 4 of:\n- Co-ordinated approach with NGBs/home nation unions or named sporting organisation\n- Provide centres of excellence/national institutes of sport or equivalent\n- World Class Performance Programme/Pathway\n- (Operates at three levels) Talent - Development - Podium (No need to explain levels but all three needed for the mark)\n- (World Class Events) - major events hosted in the UK\n- (Research and Innovation) - develops new technology for training and equipment\n- (People Development) - develops high quality coaches/leaders/organisers or equivalent\n- (Ideals) - develops partnerships with other countries\n- Sports Science/Sports Medicine/Performance Lifestyle/Athlete Career Education\n- (Equality) - promotes equal access/fair play/high standards of conduct/doping controls\n- (International Influence) - developing links with international organisations/federations\n- (International Development/Leadership) - promoting sport in other countries to improve participation\n- Distributing/uses National Lottery funding/Athlete Personal Awards\nDo not credit general answers, eg facilities, funding, coaches, etc.\nMax 4 marks.",
+    "subtopicId": "development-elite-performers"
+  },
+  {
+    "id": "dep-q19",
+    "questionNumber": "Q19",
+    "question": "To maximise the chances of winning medals at major championships, such as the Olympic Games, performers need the support of many organisations.\nOutline and explain the structure of the World Class Performance Pathway.",
+    "marks": 3,
+    "markScheme": "3 marks for 3 of:\n- Organised by UK Sport\n- Podium - supporting athletes with a realistic chance of winning a medal at the next Olympic/Paralympic Games (ie a maximum of four years from the podium)\n- Podium potential - athletes whose performances suggest realistic medal-winning capabilities in the coming cycle, or newly funded sports demonstrating the ability to become competitive within the next 4-6 years\n- Talent - designed to support the identification and confirmation of athletes who have the potential to progress through the World Class pathway with the help of targeted investment\nThree terms named but not explained gains no credit - correct term must be named and explained.\nMax 3 marks.",
+    "subtopicId": "development-elite-performers"
+  },
+  {
+    "id": "dep-q20",
+    "questionNumber": "Q20",
+    "question": "To maximise the chances of winning medals at major championships, such as the Olympic Games, performers need the support of many organisations.\nExplain the support structures for elite performers provided by the National Institutes of Excellence, such as the English Institute of Sport.",
+    "marks": 4,
+    "markScheme": "4 marks for 4 of:\n- Regional or satellite centres/hubs\n- High quality facilities/coaches\n- (Sports science support) - biomechanics/strength and conditioning/psychology/talent identification/physiology/performance analysis/nutrition - must give examples of support\n- (Sports medicine) - physiotherapy/soft tissue therapy - must give examples of support\n- Performance lifestyle/athlete advisors/ACE\n- Research and innovation\n- Athlete zone/support hub\nMax 4 marks.",
+    "subtopicId": "development-elite-performers"
+  }
+]

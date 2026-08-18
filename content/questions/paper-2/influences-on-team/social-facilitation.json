@@ -1,0 +1,82 @@
+[
+  {
+    "id": "sf-q1",
+    "questionNumber": "Q2",
+    "question": "A snooker player is about to take a crucial pot in the deciding frame of a televised professional final, watched by a large crowd and a TV audience. Evaluate how the presence of others can impact on the player taking the pot.",
+    "marks": 6,
+    "markScheme": "AO2:\nAudience can increase / decrease performance.\nSocial facilitation = audience improves performance.\nSocial inhibition = audience decreases performance.\nEvaluation apprehension = perceived fear of being judged by other players / fans.\nAO3:\nPassive others (audience) can be acknowledged by the player - spectators / TV audiences adding to pressure / expectations. Interactive others (co-actors / the opponent) are present, with the opponent potentially trying to influence the player's thinking. The player may be aware of social reinforcers, eg family or coach in the audience. The player may experience evaluation apprehension, thinking about expectations / consequences before playing the shot. The influence of others could motivate the player to concentrate and perform well (facilitate) or could hinder (inhibit) performance, dependent on personality / experience and effect on arousal levels. As snooker is a fine, closed skill requiring low arousal, an elite player may be facilitated while a novice may be inhibited by the crowd, with the dominant response being affected accordingly.\nPresence of others will increase arousal and possibly anxiety.\nMaximum of 2 marks awarded for AO2 only. Accept other appropriate evaluation.\nMax 6 marks.",
+    "subtopicId": "social-facilitation"
+  },
+  {
+    "id": "sf-q2",
+    "questionNumber": "Q6",
+    "question": "Which of these statements describes social inhibition?",
+    "marks": 1,
+    "markScheme": "Correct answer: B - The negative effect of the presence of others on performance.\n1 mark for the correct option.",
+    "subtopicId": "social-facilitation",
+    "isMultipleChoice": true,
+    "options": [
+      "A - The facilitated effect of the presence of others on performance",
+      "B - The negative effect of the presence of others on performance",
+      "C - The positive effect of the presence of others on performance",
+      "D - The potential effect of the presence of others on performance"
+    ],
+    "correctOption": "B - The negative effect of the presence of others on performance"
+  },
+  {
+    "id": "sf-q3",
+    "questionNumber": "Q1",
+    "question": "County-level badminton players regularly compete in front of large crowds at regional finals. Discuss the effect that the presence of spectators can have on performers. Suggest strategies that can be used to limit any potential negative effects.",
+    "marks": 8,
+    "markScheme": "AO1 - Knowledge of the effects of an audience: social facilitation is the positive influence of the presence of others on performance; social inhibition is the negative effect of an audience on performance; links to drive theory - as arousal increases so does the likelihood of the dominant response occurring.\nAO2 - Application: a positive effect (social facilitation) may enhance well-learned/autonomous responses, so the dominant response tends to be correct and simple, over-learned shots (eg a routine clear) are unaffected. A negative effect (social inhibition) may impair a beginner/cognitive-stage player, whose dominant response tends to be incorrect, so complex shots break down under scrutiny. Not all players are affected equally - depends on evaluation apprehension / distraction-conflict theory (must focus on task not audience).\nAO3 - Strategies: stress management/relaxation techniques to control arousal; mental rehearsal/imagery/visualisation before matches; training in front of increasing numbers of spectators to build experience; improving selective attention to filter out crowd noise; reducing the perceived importance of the event; setting achievable process goals; avoiding social comparison; verbal encouragement from coach/team mates to build self-efficacy.\nAccept any other relevant discursive point about the effect spectators can have on performers and strategies to limit negative effects.\nMax 8 marks.",
+    "subtopicId": "social-facilitation"
+  },
+  {
+    "id": "sf-q4",
+    "questionNumber": "Q28",
+    "question": "Spectators can have an impact on the quality of a platform diver's performance. Explain the difference between the terms social inhibition and evaluation apprehension.",
+    "marks": 2,
+    "markScheme": "A - (social inhibition) the negative influence on performance of others/an audience being present at the time\nB - (evaluation apprehension) the negative influence of others if the performer feels they are being judged (need to identify which term is being discussed; 'being watched' too vague)\nMax 2 marks.",
+    "subtopicId": "social-facilitation"
+  },
+  {
+    "id": "sf-q5",
+    "questionNumber": "Q29",
+    "question": "Spectators can have an impact on the quality of a tennis player's performance. Outline strategies a coach may use to reduce the negative effects of an audience on performance.",
+    "marks": 5,
+    "markScheme": "5 marks for 5 of:\nA - Train in front of others\nB - Improve selective attention and cut out the effect of the audience\nC - Reduce the importance of the event\nD - Avoid social comparison with others/coach in a non-evaluative environment initially/verbal encouragement/persuasive communication\nE - Encourage team mates/support staff to be supportive\nF - Mental rehearsal/imagery/visualisation\nG - Other named stress management and relaxation techniques\nH - Goal setting\nI - Use attributions correctly/accept suitable examples\nJ - Ensure skills are over-learned/highly skilled/autonomous phase/performance accomplishments/ensure success\nMax 5 marks.",
+    "subtopicId": "social-facilitation"
+  },
+  {
+    "id": "sf-q6",
+    "questionNumber": "Q5",
+    "question": "Explain the term evaluation apprehension.",
+    "marks": 2,
+    "markScheme": "A - (Evaluation apprehension) negative influence of an audience\nB - Performer only influenced by an audience or crowd if they perceive they are judging their performance\nMax 2 marks.",
+    "subtopicId": "social-facilitation"
+  },
+  {
+    "id": "sf-q7",
+    "questionNumber": "Q33",
+    "question": "All players within a team are likely to experience 'anxiety' at some point during their performance. Discuss the suggestion that 'home field advantage' will always improve the performance of the home team.",
+    "marks": 4,
+    "markScheme": "4 marks for 4 of: (sub max 2) - answer has to indicate whether the discussion refers to the home or away team\nAgree:\nHome support tends to improve social/performance facilitation effect/boost self-efficacy/lower levels of anxiety\nMore matches won at home than away/during early rounds of competitions/host nation medal counts (do not accept 'do not have to travel'; 'feel safe' too vague)\nHome teams tend to play more attacking styles/tactics/functional aggressive behaviour (accept reverse answer)\nProximity effect/closeness of crowd has a negative effect on visiting teams\nLarger crowd/hostile crowd has a negative effect on visiting teams\nAway team commit more fouls/can become anxious/over-aroused due to the crowd or unfamiliar surroundings ('discomfort' too vague)\nSocial inhibition can be awarded if explained in the correct context and linked to the away team\nDisagree:\nIncreased pressure from the home crowd (increased pressure too vague - have to state where the pressure is from)\nThe more important the game, the greater the pressure/choke effect/championship choke\nPerformers become more self-conscious at home, causing over-arousal\nPlayers place more pressure on themselves at home matches due to expectations\nSocial inhibition for the home team\nEvaluation apprehension for the home team\nMax 4 marks.",
+    "subtopicId": "social-facilitation"
+  },
+  {
+    "id": "sf-q8",
+    "questionNumber": "Q2",
+    "question": "The crowd can affect elite performers either positively or negatively. After winning a race at a major athletics meeting, a fictional 800m runner, Priya Bansal, commented: 'The crowd were incredible today, they really got behind me on that last lap, more than I've ever felt before. It gave me a huge lift and completely changed the momentum of the race.' Explain the concept of 'social facilitation' and how it can affect performance.",
+    "marks": 8,
+    "markScheme": "A - Social facilitation - influence of the presence of others on performance/presence of others increases arousal\nB - Social inhibition - negative effect of an audience on performance\nC - Audience - those watching\nD - Co-actors - performing the same task but not in competition\nE - Competitive co-actors - in direct competition\nF - Social reinforcers - direct influence, eg coach\nG - Linked to drive theory\nH - Increasing arousal leads to the dominant response/habit occurring\nI - Experienced performers perform better/simple skills\nJ - Novices perform worse/complex skills\nK - Evaluation apprehension - influence greater if being judged\nL - Baron's Distraction-Conflict Theory - need to focus on the task and ignore the audience\nMax 8 marks.",
+    "subtopicId": "social-facilitation"
+  },
+  {
+    "id": "sf-q9",
+    "questionNumber": "Q3",
+    "question": "The crowd can affect elite performers either positively or negatively. After winning a race at a major athletics meeting, Priya Bansal commented: 'The crowd were incredible today, they really got behind me on that last lap, more than I've ever felt before. It gave me a huge lift and completely changed the momentum of the race.' Outline the possible strategies which the performer and coach may use to limit any negative effects that may occur.",
+    "marks": 8,
+    "markScheme": "A - Mental rehearsal/imagery/visualisation\nB - Train in front of others and gradually increase numbers\nC - Improve selective attention and cut out the audience effect\nD - Reduce the importance of the event\nE - Avoid social comparisons/teach/coach in a non-evaluative environment initially/verbal encouragement\nF - Encourage team-mates to be supportive\nG - Use stress management/relaxation techniques/suitable examples\nH - Accept a second named stress reduction technique\nI - Use attributions correctly/suitable examples\nJ - Over-learn skills/encourage the dominant habit to occur/reach the autonomous stage of learning/ensure success\nMax 8 marks.",
+    "subtopicId": "social-facilitation"
+  }
+]

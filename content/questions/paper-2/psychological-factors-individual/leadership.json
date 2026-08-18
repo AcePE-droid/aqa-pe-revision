@@ -1,0 +1,90 @@
+[
+  {
+    "id": "lead-q1",
+    "questionNumber": "Q9",
+    "question": "Outline the autocratic and laissez-faire styles of leadership.",
+    "marks": 2,
+    "markScheme": "Autocratic:\n- Task oriented / dictator style / leader makes all the decisions / very direct in their approach\nLaissez-faire:\n- Provides little support or input / lets team members do as they wish\nAccept other appropriate outlines.\nMax 2 marks.",
+    "subtopicId": "leadership"
+  },
+  {
+    "id": "lead-q2",
+    "questionNumber": "Q10",
+    "question": "Explain when a coach would use the autocratic and laissez-faire styles in a sporting context.",
+    "marks": 2,
+    "markScheme": "Autocratic:\n- Used when quick decisions need to be made / with large groups / when discipline is needed / with an inexperienced team / novices / cognitive learners / dangerous situations\nLaissez-faire:\n- Used when time is available / with experienced performers / autonomous learners / more motivated performers / no danger\nAccept other appropriate explanations.\nMax 2 marks.",
+    "subtopicId": "leadership"
+  },
+  {
+    "id": "lead-q3",
+    "questionNumber": "Q15",
+    "question": "Name and explain the stages of group formation and, using Chelladurai's and Fiedler's leadership models, explain how a leader can ensure a group work together to achieve success.",
+    "marks": 15,
+    "markScheme": "AO1 (4 marks): Stages of group formation: Forming, Storming, Norming, Performing, Adjourning/Mourning. Chelladurai's Model: depends on situational characteristics; leader's characteristics; group/member characteristics. Fiedler's Model: depends on the favourableness of the situation.\nAO2 (5 marks): Forming - developing relationships / meeting new group members. Storming - individuals determine position within the group / conflict / establishing roles. Norming - co-operation / cohesion develops / common goal accepted. Performing - working to a common goal / cohesive team. Adjourning/Mourning - completing the task and breaking up the team. Chelladurai's Model: Situation - eg group size / nature of task / time available. Leadership - eg experience / personality / skill level. Members - eg motivation / ability / age. Fiedler's Model: favourableness depends on the task / leader's relationship with the group / leader's position of authority. Leadership style = task-orientated / autocratic or person-orientated / democratic.\nAO3 (6 marks): Chelladurai's Model: if the required behaviour and the actual behaviour match the preferred behaviour, the group will work together / based on satisfaction leading to better performance. Fiedler's Model: use task-orientated in most/least favourable situations, eg a dangerous situation with novices. Use person-orientated in moderately favourable situations, eg new members joining a team for pre-season training.\nMax 15 marks.",
+    "subtopicId": "leadership"
+  },
+  {
+    "id": "lead-q4",
+    "questionNumber": "Q31",
+    "question": "Which one of these is not a characteristic of a democratic leader?",
+    "marks": 1,
+    "markScheme": "Correct answer: A - Asks for little or no feedback.\n1 mark for the correct option.",
+    "subtopicId": "leadership",
+    "isMultipleChoice": true,
+    "options": [
+      "A - Asks for little or no feedback",
+      "B - Includes members of the group in decision making",
+      "C - May look for consensus via a vote",
+      "D - Values innovative ideas from others"
+    ],
+    "correctOption": "A - Asks for little or no feedback"
+  },
+  {
+    "id": "lead-q5",
+    "questionNumber": "Q17",
+    "question": "Fiedler suggests that a task-orientated style of leadership should be used if the situation is classed as favourable. Using an example from volleyball, outline the characteristics of a favourable situation.",
+    "marks": 3,
+    "markScheme": "AO1 (sub max 2 marks):\n- Leader respected by the group/leader has a good relationship with the group\n- Clear task/goal/roles\n- Good support network/high level of trust\n- Group highly motivated/high ability/highly successful/good resources/equipment/facilities\nAO2 (sub max 1 mark):\n- For example, a respected volleyball coach whose squad are experienced, well resourced and focused on winning the league title for the third consecutive season\nAccept other relevant responses. Answers must use an example.\nMax 3 marks.",
+    "subtopicId": "leadership"
+  },
+  {
+    "id": "lead-q6",
+    "questionNumber": "Q26",
+    "question": "Leaders and coaches have an important role in developing the performance of their players. Outline the role of a cricket team captain and explain the difference between a prescribed leader and an emergent leader.",
+    "marks": 3,
+    "markScheme": "3 marks for 3 of:\nA - (role of a leader) direct behaviour/influence others/motivate/set goals/provide guidance/provide feedback or equivalent\nB - (prescribed leader) appointed by an external authority to lead the group, eg selected by the club committee\nC - (emergent leader) appointed by/approved by the group (not just 'from within the team')\nMax 3 marks.",
+    "subtopicId": "leadership"
+  },
+  {
+    "id": "lead-q7",
+    "questionNumber": "Q32",
+    "question": "The leader of a mountaineering expedition has an important role to ensure the team works together safely. Explain the term autocratic leader and outline when the autocratic style of leadership should be used.",
+    "marks": 3,
+    "markScheme": "3 marks for 3 of:\nA - (Autocratic leader) makes all the decisions/no input from the team/task focused/not concerned about inter-personal relationships\nB - (Situation) limited time available\nC - (Situation) complex/dangerous task\nD - (Situation) large number of people/performers\nE - (Situation) clear/specific goals\nF - (Situation) decisions need to be made quickly\nG - (Situation) inexperienced group so need to be told what to do/experienced and willing to accept instructions (awarded if explained in correct context)\nH - Most favourable/least favourable situations\n(Sub max of 1 mark for explanation; sub max of 2 marks for situation)\nMax 3 marks.",
+    "subtopicId": "leadership"
+  },
+  {
+    "id": "lead-q8",
+    "questionNumber": "Q17",
+    "question": "The figure below shows Chelladurai's multi-dimensional model of leadership. When quality of performance and levels of satisfaction are high, optimal levels of arousal are more likely. Use the figure above to explain how a coach can help a performer reach optimal levels of arousal.",
+    "marks": 4,
+    "markScheme": "Situation, performer and leader characteristics must be considered.\n(Required behaviour) - determined by the situation\n(Preferred behaviour) - the performer's ideal behaviour of the leader\n(Actual leader behaviour) - the leader's action towards the performer\nThe closer the leader's behaviour is to that expected by the performer, the greater the chance of optimal arousal/performance will be of a high quality/levels of satisfaction\n(Refers to the link between leader and group only, not the task.)\nHaving all three behaviours matching is the ideal.\nMax 4 marks.",
+    "subtopicId": "leadership"
+  },
+  {
+    "id": "lead-q9",
+    "questionNumber": "Q23",
+    "question": "Fiedler suggested that the preferred style of leadership depends on the favourableness of the situation. Outline the characteristics of a favourable situation and name the style of leadership that should be used when this occurs.",
+    "marks": 4,
+    "markScheme": "4 marks for 4 of:\nTask-centred/task-orientated/autocratic leadership style (sub max 1 mark)\nLeader respected by group (NOT 'cohesiveness of the group')\nLeader has a good relationship with the group\nGroup is highly motivated\nGroup has high ability/is highly successful\nClear task/goal/roles (NOT 'easy task')\nGood support network\nGood resources/equipment/facilities\nMax 4 marks.",
+    "subtopicId": "leadership"
+  },
+  {
+    "id": "lead-q10",
+    "questionNumber": "Q34",
+    "question": "The captain of a team should be respected and should ensure that all players have a positive attitude. Identify three characteristics of a good leader and explain the difference between an emergent leader and a prescribed leader.",
+    "marks": 3,
+    "markScheme": "3 marks for 3 of: (take first 3 answers - if talking about leadership styles, this is NOT a characteristic)\nCharacteristics (any three from) confident/organised/inspirational/good communicator/knowledgeable/visionary/good decision maker/interpersonal skills/approachable/determined/empathy/charismatic/motivational/equivalent\nEmergent leader - group approval/elected by the team\nPrescribed leader - appointed by an external authority to lead the group\nMax 3 marks.",
+    "subtopicId": "leadership"
+  }
+]
