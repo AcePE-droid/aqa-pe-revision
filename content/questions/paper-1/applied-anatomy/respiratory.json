@@ -1,0 +1,194 @@
+[
+  {
+    "id": "resp-q1",
+    "questionNumber": "Q1",
+    "question": "Which one of these statements defines inspiratory reserve volume?",
+    "marks": 1,
+    "markScheme": "Correct answer: B - Volume of air that can be forcibly inspired after a normal breath in.\n1 mark for the correct option.",
+    "subtopicId": "respiratory",
+    "isMultipleChoice": true,
+    "options": [
+      "A - Volume of air that remains in the lungs after maximal expiration",
+      "B - Volume of air that can be forcibly inspired after a normal breath in",
+      "C - Volume of air inspired and expired per breath",
+      "D - Volume of air inspired and expired per minute"
+    ],
+    "correctOption": "B - Volume of air that can be forcibly inspired after a normal breath in"
+  },
+  {
+    "id": "resp-q2",
+    "questionNumber": "Q2",
+    "question": "Smoking is a poor lifestyle choice because of the negative effect it can have on health and performance.\nIdentify one physiological effect of smoking on the respiratory system and explain its impact on performance in a five-a-side football player.",
+    "marks": 4,
+    "markScheme": "AO1 (sub max 1) - carbon monoxide binds to haemoglobin rather than oxygen; or nicotine constricts the bronchioles; or damaged cilia; or reduction in number/damaged alveoli. Physiological effects must relate specifically to the respiratory system.\nAO2 - reduced gaseous exchange in the lungs/oxygen transport to the muscles (1).\nAO3 - this decreases the player's ability to utilise oxygen in energy production/work aerobically (1), meaning less energy for the activity/fatigues quicker due to working anaerobically (1).\nAccept other appropriate physiological effects and explanations of impact on performance. Max 4 marks.",
+    "subtopicId": "respiratory"
+  },
+  {
+    "id": "resp-q3",
+    "questionNumber": "Q3",
+    "question": "A diagram illustrates the partial pressure of oxygen (pO2) and carbon dioxide (pCO2) in the alveoli and blood capillary of a rower during a training session.\nConsider how oxygen and carbon dioxide move between the alveoli and the blood capillary. Refer to the diagram in your answer.",
+    "marks": 4,
+    "markScheme": "- Diffusion is the movement of gases from a high concentration/partial pressure to a low concentration/partial pressure (1).\n- Oxygen: partial pressure of oxygen is higher in the alveoli and lower in the blood (1), so it moves/diffuses from the alveoli into the blood (1).\n- Carbon dioxide: partial pressure of carbon dioxide is higher in the blood and lower in the alveoli, so it moves/diffuses from the blood into the alveoli (1).\nMax 4 marks.",
+    "subtopicId": "respiratory"
+  },
+  {
+    "id": "resp-q4",
+    "questionNumber": "Q4",
+    "question": "Which one of these physiological measures is calculated using the equation 'breathing rate x tidal volume'?",
+    "marks": 1,
+    "markScheme": "Correct answer: B - Minute ventilation.\n1 mark for the correct option.",
+    "subtopicId": "respiratory",
+    "isMultipleChoice": true,
+    "options": [
+      "A - Vital capacity",
+      "B - Minute ventilation",
+      "C - Residual volume",
+      "D - Inspiratory reserve volume"
+    ],
+    "correctOption": "B - Minute ventilation"
+  },
+  {
+    "id": "resp-q5",
+    "questionNumber": "Q5",
+    "question": "Describe how poor lifestyle choices may affect the respiratory system.",
+    "marks": 3,
+    "markScheme": "Any three of:\n- Lack of exercise/poor diet reduces cardiovascular endurance, leading to inefficient gas exchange.\n- Smoking increases breathlessness and damages cells lining the trachea/bronchi/bronchioles.\n- Excess mucus causes smoker's cough.\n- Breakdown of alveolar walls reduces efficiency of gaseous exchange.\n- Carbon monoxide from cigarettes binds more readily to haemoglobin than oxygen, reducing oxygen-carrying capacity.\n- Reduced stamina/cardio-respiratory endurance overall.\nMax 3 marks.",
+    "subtopicId": "respiratory"
+  },
+  {
+    "id": "resp-q6",
+    "questionNumber": "Q6",
+    "question": "Evaluate the impact of long-term aerobic training and lifestyle choices on the respiratory system.",
+    "marks": 8,
+    "markScheme": "AO1 (up to 2) - improvements to respiratory efficiency after a period of aerobic training; increased ability to supply oxygen to the muscles; effects of training include increased alveolar surface area, increased capillary density, strengthened respiratory muscles, increased tidal volume/minute ventilation, increased vital capacity, increased VO2 max. Effects of smoking: decreased efficiency of oxygen supply; carbon monoxide reduces oxygen absorbed into the blood as haemoglobin has a greater affinity for CO than O2.\nAO2 (up to 3) - greater oxygen diffusion into the blood/CO2 into the alveoli; greater saturation of haemoglobin with oxygen; greater diffusion at the muscle site; reduces/delays respiratory muscle fatigue; delays OBLA/lactate threshold; increased aerobic endurance. Effects of smoking: decreased diffusion gradient; increased risk of respiratory disease; tar build-up inhibits gaseous exchange; narrowed airways increase respiratory resistance.\nAO3 (up to 3) - aerobic exercise improves (and smoking reduces) aerobic endurance; consideration of training types (continuous/altitude/fartlek/HIIT) and which is most sustainable/effective long term.\nMax 8 marks.",
+    "subtopicId": "respiratory"
+  },
+  {
+    "id": "resp-q7",
+    "questionNumber": "Q7",
+    "question": "Tidal volume and minute ventilation of a rower will vary at rest and during a race.\nDefine tidal volume and minute ventilation.",
+    "marks": 2,
+    "markScheme": "- Tidal volume - the amount of air breathed in or out in one breath (1).\n- Minute ventilation - the amount of air breathed in or out per minute (tidal volume x breathing rate) (1).\nTerm must be stated. Max 2 marks.",
+    "subtopicId": "respiratory"
+  },
+  {
+    "id": "resp-q8",
+    "questionNumber": "Q8",
+    "question": "Explain how a rower's increase in minute ventilation allows them to maintain performance throughout a race.",
+    "marks": 3,
+    "markScheme": "Any three of:\n- Increased oxygen exchange in the alveoli.\n- Increased oxygen delivery to the working muscles.\n- Muscles able to work aerobically for longer.\n- Less lactic acid produced.\n- Increased rate of CO2 removal in the alveoli.\nMax 3 marks.",
+    "subtopicId": "respiratory"
+  },
+  {
+    "id": "resp-q9",
+    "questionNumber": "Q9",
+    "question": "Identify which one of the following statements defines residual volume.",
+    "marks": 1,
+    "markScheme": "Correct answer: B - The amount of air left in the lungs after maximal expiration has occurred.\n1 mark for the correct option.",
+    "subtopicId": "respiratory",
+    "isMultipleChoice": true,
+    "options": [
+      "A - The amount of air breathed in or out per breath",
+      "B - The amount of air left in the lungs after maximal expiration has occurred",
+      "C - The amount of air that can be forcibly expelled after a normal breath",
+      "D - The amount of air that can be forcibly inspired at the end of a breath"
+    ],
+    "correctOption": "B - The amount of air left in the lungs after maximal expiration has occurred"
+  },
+  {
+    "id": "resp-q10",
+    "questionNumber": "Q10",
+    "question": "Gaseous exchange occurs between the capillaries and tissues, and between the capillaries and alveoli.\nOutline how the following characteristics of capillaries allow for efficient gaseous exchange: one cell thick; large surface area; narrow diameter.",
+    "marks": 3,
+    "markScheme": "- One cell thick - provides a short route/distance for diffusion (1).\n- Large surface area - provides a greater area/contact opportunity for diffusion to occur (1).\n- Narrow diameter - slows the passage of red blood cells, allowing more time for diffusion (1).\nMax 3 marks.",
+    "subtopicId": "respiratory"
+  },
+  {
+    "id": "resp-q11",
+    "questionNumber": "Q11",
+    "question": "The table below shows the partial pressure of oxygen (PO2) and carbon dioxide (PCO2) in a blood capillary and a muscle for a rugby forward during a scrum.\n | PO2 (mmHg) | PCO2 (mmHg)\nBlood capillary | 95 | 41\nMuscle | 38 | 48\nUsing the table above, describe how oxygen and carbon dioxide move between the blood and the muscles.",
+    "marks": 4,
+    "markScheme": "Gases move by diffusion, from an area of high to low concentration/partial pressure (1).\nOxygen: PO2 higher in blood (95) than in muscle (38) (1), so oxygen moves/diffuses from the blood into the muscle (1).\nCarbon dioxide: PCO2 higher in muscle (48) than in blood (41), so CO2 moves/diffuses from the muscle into the blood (1).\nMust state the correct gas for each mark. Max 4 marks.",
+    "subtopicId": "respiratory"
+  },
+  {
+    "id": "resp-q12",
+    "questionNumber": "Q12",
+    "question": "Many swimmers use continuous training to maintain a good level of fitness. A spirometer trace for a swimmer at rest shows three labelled sections: P, Q and R, where P is the volume breathed in and out normally, Q is the volume that can be forcibly exhaled after a normal breath out, and R is the volume remaining in the lungs after maximal expiration.\n(i) Complete the table to identify the type of lung volume represented by P, Q and R.\n(ii) What effect does a period of continuous training have on lung volumes Q and R shown above?",
+    "marks": 5,
+    "markScheme": "(i) P = Tidal volume; Q = Expiratory reserve volume; R = Residual volume. Accept first answer only. 3 marks.\n(ii) Q (expiratory reserve volume) decreases/gets smaller (1). R (residual volume) stays the same/remains unchanged (1). 2 marks.\nMax 5 marks.",
+    "subtopicId": "respiratory"
+  },
+  {
+    "id": "resp-q13",
+    "questionNumber": "Q13",
+    "question": "While playing basketball, a performer will experience changes in lung volumes.\nComplete the table below to show how tidal volume, inspiratory reserve volume and expiratory reserve volume change during exercise.\nVolume name | Value at rest | Change during exercise\nBreathing rate | 14 breaths min-1 | Increases\nTidal volume | 480 cm3 | ?\nInspiratory reserve volume | 3000 cm3 | ?\nExpiratory reserve volume | 1100 cm3 | ?\nVital capacity | 4600 cm3 | No change",
+    "marks": 3,
+    "markScheme": "- Tidal volume - increases (1).\n- Inspiratory reserve volume - decreases (1).\n- Expiratory reserve volume - decreases (1).\nAccept equivalent terms for increase/decrease. Max 3 marks.",
+    "subtopicId": "respiratory"
+  },
+  {
+    "id": "resp-q14",
+    "questionNumber": "Q14",
+    "question": "Explain how the gas exchange system operates at the muscles.",
+    "marks": 4,
+    "markScheme": "- Diffusion occurs from high to low concentration/partial pressure (down a diffusion gradient) (1); requires thin/permeable membranes and a short diffusion distance (1).\n- Oxygen: high pO2 in the blood/low pO2 in the muscle, so oxygen moves into the muscle and combines with myoglobin/dissociates from haemoglobin (1).\n- Carbon dioxide: high pCO2 in the muscle/low pCO2 in the blood, so CO2 moves into the blood, dissolving in plasma or combining with haemoglobin to form bicarbonate ions (1).\nMax 4 marks.",
+    "subtopicId": "respiratory"
+  },
+  {
+    "id": "resp-q15",
+    "questionNumber": "Q15",
+    "question": "During a game of squash, a player's breathing rate may vary.\nExplain how increases in the levels of carbon dioxide and acidity in the blood cause breathing rate to rise.",
+    "marks": 3,
+    "markScheme": "- Detected by chemoreceptors (in the carotid arteries/aortic arch/medulla) (1).\n- Nerve impulses sent to the respiratory control centre in the medulla (1).\n- Nervous output via the phrenic nerve to the diaphragm and intercostal muscles, increasing their rate of contraction (1).\nMax 3 marks.",
+    "subtopicId": "respiratory"
+  },
+  {
+    "id": "resp-q16",
+    "questionNumber": "Q16",
+    "question": "Breathing rate increases to get more oxygen into the blood. Gaseous exchange involves oxygen diffusing across membranes.\nIdentify the membranes involved in this diffusion, and identify one characteristic of these membranes that allows diffusion to happen.",
+    "marks": 2,
+    "markScheme": "Alveolar and capillary membranes identified (sub max 1). Membranes are thin/one cell thick, requiring only a short diffusion distance (and are moist/semi-permeable) (1). Max 2 marks.",
+    "subtopicId": "respiratory"
+  },
+  {
+    "id": "resp-q17",
+    "questionNumber": "Q17",
+    "question": "In order to make use of their stamina, hockey players need to take in oxygen.\nA figure gives values for the partial pressure of oxygen and carbon dioxide at two different locations within one gas exchange system.\n(i) Use the information in the figure to explain how oxygen and carbon dioxide move between the two locations.\n(ii) The alveoli provide the lungs with a large surface area for diffusion. Name two other structural features of the lungs that assist diffusion.",
+    "marks": 5,
+    "markScheme": "(i) Diffusion occurs from high to low concentration/partial pressure (1); some detail of the specific differences shown in the figure, eg oxygen partial pressure higher in the alveoli, lower in the capillary (1); gases move in opposite directions - oxygen from alveoli to capillary, carbon dioxide from capillary to alveoli (1). 3 marks.\n(ii) Any two of: large blood supply/many capillaries; thin/semi-permeable membrane (one cell thick); short diffusion distance/pathway; layer of moisture; slower blood flow/transit time. 2 marks.\nMax 5 marks.",
+    "subtopicId": "respiratory"
+  },
+  {
+    "id": "resp-q18",
+    "questionNumber": "Q18",
+    "question": "A spirometer trace for a resting rugby player is divided into four labelled sections, from top to bottom: Section W (the amount of air that can be forcibly inhaled above a normal breath in); Section X (air breathed in and out during normal quiet breathing); Section Y (the amount of air that can be forcibly exhaled after a normal breath out); Section Z (air remaining in the lungs after maximal expiration).\nWhich lung volume is represented by Section Y?",
+    "marks": 1,
+    "markScheme": "Y = Expiratory reserve volume. 1 mark.",
+    "subtopicId": "respiratory"
+  },
+  {
+    "id": "resp-q19",
+    "questionNumber": "Q19",
+    "question": "Using the spirometer trace described in the previous question, what would be the effect on Section X of a period of continuous swimming training?",
+    "marks": 2,
+    "markScheme": "Any two of: increase in tidal volume (Section X gets larger/higher proportion of the trace); more frequent peaks/breaths shown closer together. Max 2 marks.",
+    "subtopicId": "respiratory"
+  },
+  {
+    "id": "resp-q20",
+    "questionNumber": "Q20",
+    "question": "Athletes usually need an efficient cardio-respiratory system to meet the demands of an activity.\nHow is breathing rate controlled to meet the demands of changing levels of exercise during a basketball game?",
+    "marks": 4,
+    "markScheme": "Any four of: exercise/movement produces more carbon dioxide; increased acidity/decrease in pH/increase in hydrogen ions in the blood; detected by chemoreceptors; nerve impulses sent to the respiratory centre/medulla; via the phrenic nerve to the diaphragm/intercostal muscles/sternocleidomastoid/scalenes/pectoralis minor/abdominals. Max 4 marks.",
+    "subtopicId": "respiratory"
+  },
+  {
+    "id": "resp-q21",
+    "questionNumber": "Q21",
+    "question": "How is breathing rate regulated by the body to meet the increasing demands of exercise during a game of rugby?",
+    "marks": 4,
+    "markScheme": "- Increased carbon dioxide/lactic acid/acidity detected by chemoreceptors in the carotid arteries/aortic arch (1).\n- Nerve impulses sent to the respiratory centre/medulla (1).\n- Nerve impulses sent via the phrenic nerve to breathing muscles/diaphragm/intercostal muscles (1).\n- Results in deeper and faster breathing (1).\nMax 4 marks.",
+    "subtopicId": "respiratory"
+  }
+]

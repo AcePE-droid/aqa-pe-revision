@@ -1,0 +1,290 @@
+[
+  {
+    "id": "es-q1",
+    "questionNumber": "Q1",
+    "question": "Which of the following best describes the method used to estimate the proportion of carbohydrate and fat being used as fuel during steady-state exercise?",
+    "marks": 1,
+    "markScheme": "Correct answer: C - Analysing the ratio of expired carbon dioxide to inspired oxygen (indirect calorimetry).\n1 mark for the correct option.",
+    "subtopicId": "energy-systems",
+    "isMultipleChoice": true,
+    "options": [
+      "A - Measuring core body temperature before and after exercise",
+      "B - Recording heart rate throughout the exercise bout",
+      "C - Analysing the ratio of expired carbon dioxide to inspired oxygen (indirect calorimetry)",
+      "D - Measuring blood lactate concentration at rest"
+    ],
+    "correctOption": "C - Analysing the ratio of expired carbon dioxide to inspired oxygen (indirect calorimetry)"
+  },
+  {
+    "id": "es-q2",
+    "questionNumber": "Q2",
+    "question": "A physiologist tests a triathlete on a cycle ergometer at three different exercise intensities. Arterial and venous oxygen content (ml O2 per 100ml blood) are recorded at each intensity.\nIntensity | Arterial O2 content | Venous O2 content\nLight | 20.0 | 16.5\nModerate | 20.0 | 13.0\nHeavy | 20.0 | 8.5\n(a) Define the term arteriovenous oxygen difference (a-VO2 diff).\n(b) Using the data in the table, calculate the a-VO2 diff at the heavy exercise intensity and explain why this value increases as exercise intensity rises.",
+    "marks": 4,
+    "markScheme": "(a) 1 mark: the difference in oxygen content between arterial (oxygenated) blood and venous (deoxygenated) blood, ie the amount of oxygen extracted/taken up by the tissues/muscles.\n(b) Calculation: 20.0 - 8.5 = 11.5 ml O2 per 100ml blood (1 mark).\nExplanation (2 marks from):\n- Working muscles extract/consume more oxygen from the blood as intensity increases (greater oxygen demand).\n- Increased capillarisation/vascular shunting redirects more blood to active muscle.\n- Redistribution of blood flow away from non-essential organs (vascular shunt) increases oxygen delivery to muscle.\n- Bohr shift/increased temperature, CO2, and reduced pH at the muscle cause more oxygen to be released from haemoglobin.\nMax 4 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q3",
+    "questionNumber": "Q3",
+    "question": "Name the enzyme responsible for breaking down phosphocreatine (PC) to resynthesise ATP during the first few seconds of maximal exercise.",
+    "marks": 1,
+    "markScheme": "Creatine kinase (accept phosphocreatine kinase). 1 mark.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q4",
+    "questionNumber": "Q4",
+    "question": "A gymnastics coach wants to improve a competitor's hip flexibility ahead of a routine that requires extreme ranges of motion at the hip joint. The coach is considering introducing proprioceptive neuromuscular facilitation (PNF) stretching as part of the training programme.\nEvaluate the use of PNF stretching, with reference to the role of proprioceptors, as a method of improving flexibility for this gymnast. In your answer you should consider the physiological mechanisms involved and any practical limitations of using this method.\n(AO1 = 4 marks, AO2 = 5 marks, AO3 = 6 marks)",
+    "marks": 15,
+    "markScheme": "Indicative content - no single answer is required; mark holistically.\nAO1 (knowledge) may include: definition of PNF; roles of muscle spindles (detect change in length/rate of stretch, trigger stretch reflex) and Golgi tendon organs (detect tension, trigger autogenic inhibition/inverse stretch reflex); stages of PNF (passive stretch, isometric contraction against resistance, relaxation, further passive stretch).\nAO2 (application) may include: applying the mechanism to the gymnast's hip flexors/hamstrings; explaining how GTO activation allows a deeper stretch than static stretching alone; need for a partner/coach assistance.\nAO3 (evaluation) may include: PNF is more effective than static stretching at increasing range of motion; requires a partner and is time-consuming; risk of injury/muscle soreness if performed incorrectly; discomfort may reduce compliance; best used post-exercise when muscles are warm; long-term adaptations include reduced sensitivity of the stretch reflex allowing greater ROM.\nMax 15 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q5",
+    "questionNumber": "Q5",
+    "question": "A sports scientist is working with an 800m runner to improve performance. The runner's VO2max has been measured at 62 ml/kg/min, and post-race recovery data shows a prolonged period of elevated oxygen consumption above resting levels.\nDiscuss the significance of VO2max to the performance of the 800m runner and explain the physiological processes that contribute to excess post-exercise oxygen consumption (EPOC) following the race.\n(AO1 = 4 marks, AO2 = 5 marks, AO3 = 6 marks)",
+    "marks": 15,
+    "markScheme": "Indicative content - mark holistically.\nAO1 may include: definition of VO2max; definition of EPOC; fast/alactacid component (restoration of ATP-PC stores, replenishment of myoglobin oxygen stores) and slow/lactacid component (removal of lactate, elevated body temperature, elevated hormones, elevated heart rate/breathing rate).\nAO2 may include: application to the 800m event (combination of aerobic and anaerobic energy systems); linking high VO2max to greater aerobic capacity/delayed OBLA; linking EPOC components to the specific demands of an 800m race (high lactate production).\nAO3 may include: evaluating limitations of VO2max as a predictor of 800m performance (anaerobic capacity/lactate tolerance also crucial, running economy, genetics vs trainability); evaluating how EPOC recovery time may affect subsequent performance/training; discussing individual differences in EPOC magnitude.\nMax 15 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q6",
+    "questionNumber": "Q6",
+    "question": "Explain how ATP is resynthesised within the mitochondria of a muscle cell during prolonged, low to moderate intensity exercise such as long-distance cycling.",
+    "marks": 4,
+    "markScheme": "4 marks from:\n- Aerobic system used; requires oxygen.\n- Occurs in the mitochondria (matrix and cristae).\n- Glycolysis produces pyruvic acid, which (in presence of oxygen) enters the Krebs cycle.\n- Krebs cycle produces small amounts of ATP plus hydrogen carried by NAD/FAD to the electron transport chain.\n- Electron transport chain: hydrogen combines with oxygen to form water, and large amounts of ATP are resynthesised.\n- Fats (beta oxidation) can also be used as a fuel source, converted to acetyl coenzyme A and fed into the Krebs cycle.\nMax 4 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q7",
+    "questionNumber": "Q7",
+    "question": "A middle-distance runner increases their pace significantly during the final 800m of a 5000m race. Identify factors that would cause an increase in blood lactate accumulation during this final section of the race.",
+    "marks": 4,
+    "markScheme": "4 marks from:\n- Increase in exercise intensity above the lactate/anaerobic threshold.\n- Increased reliance on the anaerobic glycolytic system.\n- Recruitment of fast twitch (Type IIx) fibres, which produce more lactate.\n- Reduced oxygen availability/delivery to working muscles relative to demand.\n- Rate of lactate production exceeds rate of removal/clearance.\n- Build-up of hydrogen ions associated with anaerobic glycolysis.\nMax 4 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q8",
+    "questionNumber": "Q8",
+    "question": "A basketball coach wants to improve the explosive power of the team's forwards for rebounding and includes both plyometric training and interval training in the pre-season programme.\nEvaluate the effectiveness of combining plyometric training and interval training to improve the performance of the basketball forwards.",
+    "marks": 8,
+    "markScheme": "Indicative content.\nPlyometrics: rapid stretch-shortening cycle, eccentric then concentric contraction, increases power output/rate of force development, mimics jumping/rebounding action, but high risk of injury (joints/tendons), requires good strength base, needs adequate recovery between sessions.\nInterval training: alternates work and rest periods, can target both aerobic and anaerobic systems depending on work:rest ratio, improves recovery between bursts of activity (relevant to repeated sprinting/jumping in basketball), can be tailored to specific energy system demands of the sport, risk of overtraining if rest insufficient.\nCombined evaluation: complementary methods addressing power and repeated-effort capacity relevant to basketball; need for periodisation to avoid excessive fatigue/injury risk; suitability depends on player's training age/fitness level.\nMax 8 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q9",
+    "questionNumber": "Q9",
+    "question": "A sports science department is deciding how best to assess the aerobic and anaerobic fitness of two athletes: a 100m sprinter and a marathon runner. They are considering using a multistage fitness test with blood lactate sampling for both athletes.\nEvaluate the appropriateness of using a multistage fitness test with blood lactate sampling to assess the fitness of the sprinter compared with the marathon runner.\n(AO1 = 4 marks, AO2 = 5 marks, AO3 = 6 marks)",
+    "marks": 15,
+    "markScheme": "Indicative content - mark holistically.\nAO1 may include: description of the multistage fitness test (incremental, shuttle running to exhaustion, used to estimate VO2max); description of blood lactate sampling (measures lactate concentration at increasing intensities to identify OBLA/lactate threshold).\nAO2 may include: applying test suitability to each athlete - the test is aerobic in nature and more relevant to the marathon runner's dominant energy system; the sprinter relies predominantly on the ATP-PC and anaerobic glycolytic systems, which are not well assessed by this protocol.\nAO3 may include: evaluating validity (test may lack sport-specific validity for a sprinter), evaluating practicality/cost/need for trained staff for lactate sampling, discussing alternative more valid tests for sprinters (eg 30m/40m sprint test, Wingate test) and for marathon runners (eg direct VO2max gas analysis test).\nMax 15 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q10",
+    "questionNumber": "Q10",
+    "question": "A field hockey player uses high-intensity interval training (HIIT) alongside speed, agility and quickness (SAQ) training to prepare for the intermittent demands of match play.\nExplain how HIIT and SAQ training would each benefit the hockey player's performance.",
+    "marks": 4,
+    "markScheme": "4 marks from:\n- HIIT alternates short bursts of high-intensity work with recovery periods, improving both aerobic and anaerobic capacity, relevant to the stop-start nature of hockey.\n- HIIT can increase the rate of lactate removal/tolerance to lactate, delaying fatigue during repeated sprints.\n- SAQ training improves the neuromuscular pathways/reaction time involved in rapid changes of direction and acceleration.\n- SAQ training improves footwork/agility relevant to evading opponents and reacting to the ball.\n- Both methods are sport-specific, replicating the intermittent, multidirectional movement patterns of hockey (specificity of training).\nMax 4 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q11",
+    "questionNumber": "Q11",
+    "question": "A 1500m runner is considering a period of altitude training at 2200m above sea level, six weeks before an important championship.\nEvaluate the potential benefits and drawbacks of altitude training for this athlete.",
+    "marks": 8,
+    "markScheme": "Indicative content.\nBenefits: reduced partial pressure of oxygen stimulates increased erythropoietin (EPO) release, leading to increased red blood cell/haemoglobin concentration, improving oxygen-carrying capacity on return to sea level; potential increase in capillarisation and mitochondrial density; psychological benefits of altitude training camps.\nDrawbacks: acclimatisation period reduces training intensity/quality initially; altitude sickness risk; benefits are temporary and detraining can occur if timing to competition is wrong; expensive and requires access to altitude facilities; individual variation in response; polycythemia can increase blood viscosity.\nTiming considerations: typically requires 2-4 weeks minimum exposure and correct timing of return to sea level to peak for competition (avoiding return too close to competition, which may coincide with a dip in performance).\nMax 8 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q12",
+    "questionNumber": "Q12",
+    "question": "The table below shows the approximate winning times for three track events at a national athletics championship.\nEvent | Approximate winning time\n100m | 10.1 seconds\n800m | 1 minute 46 seconds\n10,000m | 27 minutes 30 seconds\nUsing the data provided, analyse the relative contributions of the ATP-PC, anaerobic glycolytic and aerobic energy systems to performance in each of these three events.\n(AO1 = 4 marks, AO2 = 5 marks, AO3 = 6 marks)",
+    "marks": 15,
+    "markScheme": "Indicative content - mark holistically.\nAO1 may include: description of the three energy systems, their duration of predominance, fuel sources and rate of ATP production (ATP-PC: immediate, 0-10s, PC as fuel, fast rate; anaerobic glycolysis: short duration, up to ~3 mins, glycogen/glucose as fuel, produces lactate; aerobic: long duration, glycogen/fats as fuel, requires oxygen, slower rate but sustainable).\nAO2 may include: applying the energy continuum to each event - 100m predominantly ATP-PC system with some anaerobic glycolysis; 800m predominantly anaerobic glycolysis with substantial aerobic contribution; 10,000m predominantly aerobic system.\nAO3 may include: analysing that no single system works in isolation (energy continuum), discussing individual variation, and the implications for training prescription for each event (eg training the dominant system(s) for each distance).\nMax 15 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q13",
+    "questionNumber": "Q13",
+    "question": "A rugby union back row forward covers a mixture of high-intensity sprints, tackles and periods of lower-intensity jogging or walking during an 80-minute match.\nDiscuss the relative contribution of the aerobic and anaerobic energy systems to this player's performance throughout a match.",
+    "marks": 8,
+    "markScheme": "Indicative content.\nAnaerobic systems (ATP-PC and anaerobic glycolysis) dominate during short, high-intensity actions such as sprints, tackles and rucking/mauling; aerobic system dominates during lower-intensity periods (jogging, walking, recovery between phases of play) and underpins the ability to repeat high-intensity efforts throughout the match; the energy continuum applies - systems work together and the balance shifts constantly depending on intensity; aerobic fitness underpins recovery between anaerobic bursts; over 80 minutes, aerobic system contributes a large overall percentage of total energy but anaerobic systems are critical at match-deciding moments.\nMax 8 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q14",
+    "questionNumber": "Q14",
+    "question": "Some anaerobic athletes use sodium bicarbonate loading before competition. Explain how this strategy could benefit performance in an event lasting approximately 60-90 seconds.",
+    "marks": 3,
+    "markScheme": "3 marks from:\n- Sodium bicarbonate increases the alkaline reserve/buffering capacity of the blood.\n- This allows more hydrogen ions to be buffered/neutralised, delaying the fall in pH associated with anaerobic glycolysis.\n- This can delay the onset of fatigue and allow the athlete to sustain a higher intensity for longer during events reliant on the anaerobic glycolytic system.\nMax 3 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q15",
+    "questionNumber": "Q15",
+    "question": "A road cyclist is planning a training camp at moderate altitude. Outline advantages and disadvantages of training at altitude compared with training at sea level.",
+    "marks": 5,
+    "markScheme": "5 marks from:\nAdvantages:\n- Increased red blood cell count/haemoglobin due to increased EPO release, improving oxygen-carrying capacity.\n- Can lead to improved aerobic performance once acclimatised and returned to sea level.\nDisadvantages:\n- Reduced training intensity possible during initial acclimatisation.\n- Risk of altitude sickness.\n- Benefits are temporary/reversible (detraining) if not timed correctly with competition.\n- Access/cost issues in reaching suitable altitude locations.\nMax 5 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q16",
+    "questionNumber": "Q16",
+    "question": "Define the term VO2max.",
+    "marks": 2,
+    "markScheme": "2 marks from:\n- The maximum volume/rate of oxygen that can be taken up/utilised by the body.\n- Per minute.\n- Usually expressed relative to body mass (ml/kg/min).\nMax 2 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q17",
+    "questionNumber": "Q17",
+    "question": "A shot putter relies heavily on the ATP-PC system during competition. Outline the advantages and disadvantages of this energy system for the shot putter.",
+    "marks": 4,
+    "markScheme": "4 marks from:\nAdvantages:\n- Produces ATP very rapidly, suited to short maximal efforts such as the put itself.\n- No fatiguing by-products produced (no lactic acid).\nDisadvantages:\n- Limited stores of phosphocreatine in the muscle, so the system can only sustain maximal effort for around 8-10 seconds.\n- Requires a relatively long recovery period (up to 3 minutes) to fully replenish PC stores before the system can be used maximally again.\nMax 4 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q18",
+    "questionNumber": "Q18",
+    "question": "Explain the effect that a single maximal 6-second sprint would have on an athlete's muscular ATP and phosphocreatine (PC) stores.",
+    "marks": 3,
+    "markScheme": "3 marks from:\n- ATP stores are depleted almost immediately (within 1-2 seconds) and must be continuously resynthesised.\n- PC stores are broken down (via creatine kinase) to resynthesise ATP, and are significantly depleted by the end of the sprint.\n- PC stores are not fully replenished immediately and require rest/recovery (using the aerobic system) to be restored.\nMax 3 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q19",
+    "questionNumber": "Q19",
+    "question": "Explain how having a high VO2max would benefit a cross-country skier during a race lasting over 30 minutes.",
+    "marks": 3,
+    "markScheme": "3 marks from:\n- Greater ability to take in, transport and utilise oxygen, allowing more ATP to be produced aerobically.\n- Allows the skier to work at a higher percentage of their maximum aerobic capacity without accumulating lactate (delayed onset of blood lactate accumulation).\n- Delays the point at which anaerobic glycolysis is required, delaying fatigue.\n- Enables faster recovery between high-intensity sections of the course (eg uphill sections).\nMax 3 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q20",
+    "questionNumber": "Q20",
+    "question": "Describe the methods by which lactate/lactic acid can be removed from the muscles and blood following a period of anaerobic exercise.",
+    "marks": 4,
+    "markScheme": "4 marks from:\n- Converted back into pyruvic acid and used as a fuel source in the aerobic system (oxidised in the mitochondria).\n- Converted into glucose/glycogen in the liver (Cori cycle) and stored or used as an energy source.\n- Converted into protein.\n- Removed via sweat and urine (small amounts).\n- Active recovery (light exercise) increases blood flow to muscles and speeds removal compared with passive recovery.\nMax 4 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q21",
+    "questionNumber": "Q21",
+    "question": "Explain, with reference to the muscular and nervous systems, how plyometric training can improve an athlete's power output.",
+    "marks": 4,
+    "markScheme": "4 marks from:\n- Involves a rapid eccentric (lengthening) contraction immediately followed by a rapid concentric (shortening) contraction (stretch-shortening cycle).\n- The eccentric phase stores elastic energy in the muscle/tendon, which is released during the concentric phase to increase force production.\n- Stimulates the muscle spindles, triggering the stretch reflex, which increases motor unit recruitment/activation during the concentric phase.\n- Over time, training reduces the inhibitory effect of the Golgi tendon organs, allowing higher forces to be tolerated/produced.\n- Improves the rate of force development/neuromuscular coordination.\nMax 4 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q22",
+    "questionNumber": "Q22",
+    "question": "Outline the key stages/features of the Krebs cycle in the production of ATP.",
+    "marks": 3,
+    "markScheme": "3 marks from:\n- Occurs in the mitochondrial matrix.\n- Pyruvic acid (from glycolysis) is converted to acetyl coenzyme A, which enters the cycle.\n- A series of reactions produce a small amount of ATP directly (substrate-level phosphorylation).\n- Hydrogen is released and carried by NAD and FAD to the electron transport chain.\n- Carbon dioxide is produced as a by-product (removed via the lungs).\nMax 3 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q23",
+    "questionNumber": "Q23",
+    "question": "A netball player experiences a sharp rise in blood lactate during the final quarter of a match, when the tempo of play increases significantly. Identify factors that could explain this increase.",
+    "marks": 4,
+    "markScheme": "4 marks from:\n- Increase in exercise intensity above lactate threshold/OBLA.\n- Greater recruitment of fast twitch fibres, which rely more heavily on anaerobic glycolysis.\n- Reduced oxygen delivery relative to the increased demand of the muscles.\n- Rate of lactate production exceeding the rate at which it can be removed/buffered.\n- Accumulated fatigue reducing the efficiency of the aerobic system, increasing reliance on anaerobic glycolysis.\nMax 4 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q24",
+    "questionNumber": "Q24",
+    "question": "An athlete performs a 12-minute continuous run at a constant submaximal pace. Oxygen consumption is measured throughout the run and for 10 minutes afterwards during recovery. At the start of exercise, oxygen consumption rises gradually before reaching a steady state, while the athlete's oxygen requirement is met almost immediately. After exercise stops, oxygen consumption remains above resting levels for several minutes before gradually returning to resting values.\n(a) Name the phase that occurs at the start of exercise, before a steady state is reached.\n(b) Explain why oxygen consumption remains elevated above resting levels after exercise has stopped.",
+    "marks": 4,
+    "markScheme": "(a) 1 mark: oxygen deficit.\n(b) 3 marks from:\n- This is known as excess post-exercise oxygen consumption (EPOC).\n- Fast/alactacid component: used to resaturate myoglobin with oxygen and resynthesise ATP and PC stores.\n- Slow/lactacid component: used to convert lactate back to pyruvic acid/glucose, and to support elevated body temperature, heart rate and breathing rate as the body returns to resting state.\nMax 4 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q25",
+    "questionNumber": "Q25",
+    "question": "Identify the predominant energy system(s) used during a single shot put throw, and justify your answer.",
+    "marks": 3,
+    "markScheme": "3 marks from:\n- ATP-PC system is predominant.\n- Because the activity is maximal intensity and very short duration (a few seconds).\n- ATP-PC system provides ATP at the fastest rate, suited to this brief, explosive action, and stored ATP/PC is sufficient for the duration of the throw.\nMax 3 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q26",
+    "questionNumber": "Q26",
+    "question": "Explain how a marathon runner's use of carbohydrate and fat as fuel sources would change over the course of a marathon.",
+    "marks": 3,
+    "markScheme": "3 marks from:\n- Early in the race, at a relatively higher exercise intensity, carbohydrate (glycogen) is the predominant fuel source.\n- As the race progresses and glycogen stores become depleted, there is a shift towards greater reliance on fat as a fuel source.\n- Fat provides a slower rate of ATP production/requires more oxygen per unit of ATP compared with carbohydrate, but is a larger, more sustainable fuel store.\n- This can lead to a reduction in pace/intensity later in the race (linked to glycogen depletion, sometimes referred to as \"hitting the wall\").\nMax 3 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q27",
+    "questionNumber": "Q27",
+    "question": "\"Altitude training will always improve an athlete's performance when they return to sea level.\" Discuss this statement.",
+    "marks": 8,
+    "markScheme": "Indicative content.\nArguments for: increased red blood cell/haemoglobin concentration due to increased EPO, improved oxygen-carrying capacity, increased capillarisation and mitochondrial density with correctly structured training.\nArguments against: individual variability in response to altitude (some athletes respond poorly); reduced training intensity/quality during acclimatisation may cause detraining in other fitness components; benefits are temporary and can be lost quickly if timing of return to sea level competition is incorrect; risk of illness/altitude sickness disrupting training; not appropriate for all events (eg very short, anaerobic events may see limited benefit or may even be disadvantaged by reduced training quality); expensive/access issues affecting quality of preparation.\nConclusion: benefit is not guaranteed and depends on correct planning, timing, individual response and event type.\nMax 8 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q28",
+    "questionNumber": "Q28",
+    "question": "Discuss the factors that determine an individual's VO2max.",
+    "marks": 8,
+    "markScheme": "Indicative content.\nFactors may include: genetics (proportion of slow twitch fibres, heart size, lung volume - largely genetically determined, accounting for a large proportion of variation); age (VO2max declines with age after early adulthood); sex (typically lower in females, partly due to differences in body composition/haemoglobin levels); training status (aerobic training can increase VO2max, eg through increased stroke volume, cardiac output, capillarisation, mitochondrial density); altitude/environment; body composition (higher body fat can lower relative VO2max, ml/kg/min).\nDiscussion should note the relative trainability of VO2max is limited (largely genetically determined ceiling) versus the extent to which training can improve it within that genetic ceiling.\nMax 8 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q29",
+    "questionNumber": "Q29",
+    "question": "A sports scientist uses blood lactate sampling and measures the respiratory exchange ratio (RER) during an incremental treadmill test.\n(a) Define respiratory exchange ratio (RER).\n(b) Explain what an RER value of 1.0 or above would indicate about the athlete's fuel use and energy system contribution at that point in the test.",
+    "marks": 4,
+    "markScheme": "(a) 2 marks: the ratio of carbon dioxide produced to oxygen consumed (VCO2/VO2), used to estimate the proportion of carbohydrate and fat being metabolised.\n(b) 2 marks: an RER of 1.0 or above indicates that carbohydrate is the predominant/exclusive fuel being used, and/or that the athlete is working at a high intensity with an increasing anaerobic contribution (excess CO2 being produced from buffering of lactic acid, in addition to that from aerobic metabolism).\nMax 4 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q30",
+    "questionNumber": "Q30",
+    "question": "Explain the relationship between exercise intensity and the proportion of carbohydrate and fat used as fuel.",
+    "marks": 7,
+    "markScheme": "7 marks from:\n- At low/light exercise intensities, fat is the predominant fuel source.\n- At high/vigorous exercise intensities, carbohydrate becomes the predominant fuel source.\n- This is because fat metabolism (beta oxidation) requires more oxygen per unit of ATP produced compared with carbohydrate metabolism, making it too slow to meet the demands of high-intensity exercise.\n- Carbohydrate can be metabolised both aerobically and anaerobically, allowing a faster rate of ATP production suited to higher intensities.\n- As intensity increases, there is a progressive shift (the \"crossover concept\") from predominantly fat to predominantly carbohydrate metabolism.\n- Training status can shift this crossover point, with trained individuals able to use a higher proportion of fat at a given intensity (glycogen sparing).\n- Duration of exercise also interacts with this relationship - as glycogen depletes during prolonged exercise, reliance on fat increases even if intensity is maintained.\nMax 7 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q31",
+    "questionNumber": "Q31",
+    "question": "A weightlifting coach introduces plyometric training (eg depth jumps and box jumps) to improve an athlete's explosive power in the clean and jerk.\nEvaluate the use of plyometric training to improve this athlete's performance.",
+    "marks": 8,
+    "markScheme": "Indicative content.\nBenefits: improves rate of force development and power output via the stretch-shortening cycle; closely mimics the explosive triple extension (hip, knee, ankle) required in weightlifting; can improve neuromuscular efficiency/motor unit recruitment.\nDrawbacks: high risk of injury to joints, tendons and ligaments if progression is too rapid; requires a solid strength base before introduction; requires full recovery between sessions to avoid overtraining; technique must be closely coached to avoid poor landing mechanics.\nEvaluation: should be periodised appropriately within a training programme, alongside strength training, and is most effective when specific to the sporting movement.\nMax 8 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q32",
+    "questionNumber": "Q32",
+    "question": "Explain the energy system(s) used to provide ATP during a two-minute floor gymnastics routine, which combines short bursts of maximal effort (tumbling passes) with lower-intensity linking movements.",
+    "marks": 7,
+    "markScheme": "7 marks from:\n- The ATP-PC system provides energy for each short, maximal-intensity tumbling pass (a few seconds each).\n- Recovery between tumbling passes (during linking movements) allows partial replenishment of PC stores via the aerobic system.\n- The anaerobic glycolytic system contributes as the routine progresses and PC stores are not fully restored between efforts, particularly toward the end of the routine.\n- The aerobic system provides energy during lower-intensity linking sequences and underpins recovery throughout.\n- This demonstrates the energy continuum, with the predominant system constantly shifting depending on the intensity of each phase of the routine.\n- Accumulation of lactate/fatigue may increase toward the end of the routine as anaerobic glycolysis contributes more.\nMax 7 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q33",
+    "questionNumber": "Q33",
+    "question": "Explain the purpose of the fast (alactacid) component of EPOC following a set of maximal sprints.",
+    "marks": 4,
+    "markScheme": "4 marks from:\n- Restores/resynthesises ATP and phosphocreatine (PC) stores that were depleted during the sprints.\n- Resaturates myoglobin with oxygen.\n- Occurs rapidly, typically complete within 2-3 minutes of recovery.\n- Requires oxygen, hence oxygen consumption remains elevated above resting levels during this phase.\nMax 4 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q34",
+    "questionNumber": "Q34",
+    "question": "State two long-term adaptations to the cardiovascular or respiratory system as a result of aerobic endurance training that would improve oxygen transport to working muscles.",
+    "marks": 2,
+    "markScheme": "2 marks from:\n- Increased stroke volume/cardiac output.\n- Increased number of red blood cells/haemoglobin (increased blood volume).\n- Increased capillarisation of muscles.\n- Cardiac hypertrophy.\nMax 2 marks.",
+    "subtopicId": "energy-systems"
+  },
+  {
+    "id": "es-q35",
+    "questionNumber": "Q35",
+    "question": "Explain what is meant by the term \"onset of blood lactate accumulation\" (OBLA) and describe how endurance training can affect it.",
+    "marks": 3,
+    "markScheme": "3 marks from:\n- OBLA is the point during exercise of increasing intensity at which blood lactate begins to accumulate rapidly (typically above a concentration of around 4 mmol/l).\n- It marks the point at which lactate production exceeds the rate of removal.\n- Endurance training can delay OBLA, allowing the athlete to work at a higher percentage of VO2max/higher intensity before lactate accumulates significantly.\nMax 3 marks.",
+    "subtopicId": "energy-systems"
+  }
+]

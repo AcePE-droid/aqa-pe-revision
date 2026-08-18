@@ -1,0 +1,114 @@
+[
+  {
+    "id": "nm-q1",
+    "questionNumber": "Q1",
+    "question": "Proprioceptive Neuromuscular Facilitation (PNF) is a form of stretching used by a javelin thrower to increase flexibility.\nExplain the role of golgi tendon organs during PNF.",
+    "marks": 2,
+    "markScheme": "Golgi tendon organs detect the tension in the muscle (created during the isometric contraction phase) (1). They send inhibitory signals/autogenic inhibition, delaying the stretch reflex (1), allowing for a greater range of movement (1). Max 2 marks.",
+    "subtopicId": "neuromuscular"
+  },
+  {
+    "id": "nm-q2",
+    "questionNumber": "Q2",
+    "question": "The main muscle fibre type used to generate a powerful badminton smash is fast glycolytic (type IIx).\nState three characteristics of this muscle fibre type.",
+    "marks": 3,
+    "markScheme": "Any three of: large motor neurone size; large muscle fibre diameter; more sarcoplasmic reticulum development; high PC stores; high glycogen stores; low mitochondrial density; low myoglobin content; low capillary density; high myosin ATPase/glycolytic enzyme activity; high fatigability/low aerobic capacity; high force production/speed of contraction; white in colour. Accept first three answers only. Max 3 marks.",
+    "subtopicId": "neuromuscular"
+  },
+  {
+    "id": "nm-q3",
+    "questionNumber": "Q3",
+    "question": "It is important for a track cyclist to push off the pedals explosively to achieve a fast start.\nUsing Newton's first and second laws of linear motion and knowledge of the neuromuscular system, analyse how a track cyclist is able to achieve a fast start.",
+    "marks": 8,
+    "markScheme": "Students are expected to answer in continuous prose, use good English, organise information clearly and use specialist vocabulary where appropriate.\nAO1 - Newton's first law (law of inertia: a body's reluctance to change its state of motion; a force is required to overcome inertia) and second law (rate of change of momentum is proportional to the applied force; force = mass x acceleration). Neuromuscular system knowledge: muscle fibre types, motor unit recruitment, spatial summation (varying number/size of motor units) and wave summation (repeated impulses before relaxation producing a tetanic contraction), all-or-none law.\nAO2 - Application: the cyclist is initially stationary (inertia); to overcome this, force must be applied through the legs onto the pedals. By varying the force of contraction and number of motor units recruited (spatial summation), the cyclist changes momentum from stationary to moving. A high percentage of fast twitch (type IIx) fibres and recruitment of large motor units is beneficial for generating the initial force needed.\nAO3 - Analysis/evaluation: the greater the force applied to the pedals, the more rapidly inertia is overcome and the greater the resulting acceleration (Newton's second law), giving the cyclist an advantage over competitors. Using wave summation (increasing the frequency of motor unit stimulation so fibres do not fully relax between impulses) further increases the force of contraction and therefore acceleration.\nAccept other appropriate analysis of Newton's laws and the neuromuscular system in achieving a fast start. Max 8 marks.",
+    "subtopicId": "neuromuscular"
+  },
+  {
+    "id": "nm-q4",
+    "questionNumber": "Q4",
+    "question": "Which of these are characteristics of a type I muscle fibre?",
+    "marks": 1,
+    "markScheme": "Correct answer: C - High resistance to fatigue and high numbers of mitochondria.\n1 mark for the correct option.",
+    "subtopicId": "neuromuscular",
+    "isMultipleChoice": true,
+    "options": [
+      "A - Large muscle fibre diameter and high myoglobin count",
+      "B - Low phosphocreatine stores and low glycogen content",
+      "C - High resistance to fatigue and high numbers of mitochondria",
+      "D - Large motor neuron size and large capillary density"
+    ],
+    "correctOption": "C - High resistance to fatigue and high numbers of mitochondria"
+  },
+  {
+    "id": "nm-q5",
+    "questionNumber": "Q5",
+    "question": "Muscle spindles are proprioceptors located between the muscle fibres, used by a gymnast balancing on the beam.\nOutline the role of muscle spindles.",
+    "marks": 2,
+    "markScheme": "Detect changes in muscle length/tension/stretch (1). Prevent overstretching by initiating the stretch reflex (1). Max 2 marks.",
+    "subtopicId": "neuromuscular"
+  },
+  {
+    "id": "nm-q6",
+    "questionNumber": "Q6",
+    "question": "A swimmer's shoulder moves through the pull phase of front crawl.\nComplete the table below to identify the type of joint, the main agonist and the joint action at the swimmer's shoulder during the pull phase.\nType of joint | Main agonist | Joint action",
+    "marks": 3,
+    "markScheme": "Type of joint: ball and socket (1). Main agonist: latissimus dorsi (1). Joint action: extension (1). Max 3 marks.",
+    "subtopicId": "neuromuscular"
+  },
+  {
+    "id": "nm-q7",
+    "questionNumber": "Q7",
+    "question": "Explain how wave summation allows a high jumper to generate the required force at take-off.",
+    "marks": 3,
+    "markScheme": "Wave summation allows a more powerful contraction (1) because the muscle is stimulated again before it has relaxed (1), enabling the high jumper to apply greater force to achieve the required height at take-off (1). Max 3 marks.",
+    "subtopicId": "neuromuscular"
+  },
+  {
+    "id": "nm-q8",
+    "questionNumber": "Q8",
+    "question": "(a) Fast twitch glycolytic muscle fibres (type IIx) are used by a rugby prop during a scrummaging drive.\nIdentify two characteristics of fast twitch glycolytic muscle fibres (type IIx).\n(b) Explain how the characteristics you identified in part (a) are suited to producing ATP anaerobically during the drive.",
+    "marks": 4,
+    "markScheme": "(a) Any two of: fast motor neurone conduction velocity; large muscle fibre diameter; more sarcoplasmic reticulum development; high PC stores; high glycogen stores; high myosin ATPase/glycolytic enzyme activity. Do not accept 'produces powerful contraction' (given in stem). 2 marks.\n(b) High PC stores - increased energy source for ATP production via the ATP-PC system (1). High glycogen stores - increased energy source via the lactate anaerobic system (1). High myosin ATPase/glycolytic enzyme activity - increased enzyme activity for ATP production within these systems (1). 2 marks.\nMax 4 marks.",
+    "subtopicId": "neuromuscular"
+  },
+  {
+    "id": "nm-q9",
+    "questionNumber": "Q9",
+    "question": "A high jumper must generate an explosive, powerful movement at take-off.\nName the muscle fibre type predominantly used during take-off and state the functional characteristics that allow these muscles to produce this type of movement.",
+    "marks": 3,
+    "markScheme": "Fast twitch fibres/type II (specific fibre type must be named) (1). Fast speed of contraction (1). High force/powerful/strong contraction (1). Max 3 marks.",
+    "subtopicId": "neuromuscular"
+  },
+  {
+    "id": "nm-q10",
+    "questionNumber": "Q10",
+    "question": "During a badminton match, a player executes a variety of shots, from powerful smashes to gentle drop shots.\nOutline how the force of muscle contraction can be varied to ensure that these skills are executed correctly.",
+    "marks": 8,
+    "markScheme": "Questions with 6 or more marks are marked using a level of response mark scheme; students are rewarded for content and their ability to construct a coherent, substantiated, logically structured argument.\nPossible content: size of motor units recruited - larger for greater contraction, smaller for less powerful movements; number of units recruited varies; fast twitch fibres recruited for more powerful contractions (eg the smash) rather than slow twitch; all-or-none law - once threshold is reached, all fibres in the motor unit contract; wave summation - increasing frequency of impulses prevents the muscle relaxing, increasing force (tetanus/tetanic contraction); spatial summation - varying the number/size of motor units recruited; muscle spindles detect changes in muscle length/speed of contraction and send information to the CNS, which compares this to past experience/long-term memory to ensure correct force is applied; rotating the frequency of impulses to motor units delays fatigue by allowing some units to rest while others work. Max 8 marks.",
+    "subtopicId": "neuromuscular"
+  },
+  {
+    "id": "nm-q11",
+    "questionNumber": "Q11",
+    "question": "Performers must develop the capacity of the appropriate muscle fibres for their event and recover as quickly as possible following exercise.\nName the muscle fibre type in use during a long-distance open-water swim, and identify the physiological characteristics that allow these muscle fibres to work for an extended period of time.",
+    "marks": 3,
+    "markScheme": "Slow twitch fibres/type I/slow oxidative fibres (1). Sub max 2 of: high number/density of mitochondria; high level of myoglobin; high capillary density; high levels of triglyceride/fat stores; high levels of oxidative enzymes. Do not accept 'red in colour'. Max 3 marks.",
+    "subtopicId": "neuromuscular"
+  },
+  {
+    "id": "nm-q12",
+    "questionNumber": "Q12",
+    "question": "Weightlifting requires controlled, powerful movements.\nHow can a performer vary the strength of muscular contractions to ensure that a lift is completed correctly?",
+    "marks": 4,
+    "markScheme": "Any four of: greater force needed means larger motor units are recruited; more motor units recruited (spatial/multiple unit summation, must be explained); fast twitch fibres recruited rather than slow twitch for greater force; all-or-none law - once threshold/action potential is reached, contraction occurs in all fibres of the motor unit; wave summation/increased frequency of impulses means the motor unit is unable to fully relax, increasing force (tetanus for powerful contraction); muscle spindles detect changes in muscle length/speed of contraction and send information to the CNS, which compares this to past experience to apply the correct force; rotating the frequency of impulses to different motor units delays fatigue. Max 4 marks.",
+    "subtopicId": "neuromuscular"
+  },
+  {
+    "id": "nm-q13",
+    "questionNumber": "Q13",
+    "question": "During the runway approach, a long jumper must generate an explosive take-off as quickly as possible.\nIdentify the muscle fibre type used to complete this action and justify your answer.",
+    "marks": 3,
+    "markScheme": "Fast twitch fibres/type II (first answer only) (1). Type IIx/fast twitch glycolytic/FTG (1). Fast speed of contraction and high force/powerful/strong contraction (1). If both fast twitch subtypes are named, credit the first point only. Max 3 marks.",
+    "subtopicId": "neuromuscular"
+  }
+]
