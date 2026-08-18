@@ -2,25 +2,369 @@
   {
     "id": "cv-q1",
     "questionNumber": "Q1",
-    "question": "[PLACEHOLDER] Explain the term 'venous return' and describe two mechanisms that assist it during exercise.",
-    "marks": 4,
-    "markScheme": "[PLACEHOLDER]\n1 mark: Venous return is the volume of blood returned to the right atrium per minute.\n1 mark: Skeletal muscle pump - contracting muscles squeeze veins, pushing blood towards the heart.\n1 mark: Respiratory pump - pressure changes in the thorax during breathing help draw blood back to the heart.\n1 mark: Pocket valves - prevent backflow of blood, ensuring one-directional flow.",
+    "question": "A hockey player has been resting on the bench and is brought on as a substitute. As soon as she starts sprinting, venous return begins to increase rapidly.\n\nExplain three mechanisms that cause venous return to increase when exercise begins.",
+    "marks": 3,
+    "markScheme": "Award one mark for any of the following points (description required, not just naming):\n- Skeletal muscle pump – contracting skeletal muscles compress adjacent veins, squeezing blood back towards the heart (1).\n- Respiratory pump – increased breathing rate/depth changes pressure in the thoracic and abdominal cavities, aiding blood flow back to the heart (1).\n- Suction pump of the heart – increased force/rate of ventricular contraction draws more blood back towards the heart (1).\n- Pocket valves – located in the veins, prevent backflow of blood, keeping flow moving one way towards the heart (1).\n- Smooth muscle / venoconstriction – involuntary contraction of vein walls helps squeeze blood back to the heart (1).\nAccept other appropriate descriptions of venous return mechanisms. Max 3 marks.",
     "subtopicId": "cardiovascular"
   },
   {
     "id": "cv-q2",
     "questionNumber": "Q2",
-    "question": "[PLACEHOLDER] Which of the following best describes the Frank-Starling mechanism?",
+    "question": "The table below shows heart rate and stroke volume data for a competitive swimmer at rest and during a race.\n\nCondition | Heart rate (bpm) | Stroke volume (ml)\nRest | 65 | 80\nRace pace | 170 | 115\n\nCalculate the swimmer's cardiac output at race pace. Show your working and state the correct units.",
+    "marks": 2,
+    "markScheme": "Award one mark for correct calculation and one mark for correct units.\n170 x 115 = 19550 ml/min / 19.55 L/min.\nAward two marks for the correct answer with no working. Do not credit heart rate x stroke volume alone without a numerical answer.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q3",
+    "questionNumber": "Q3",
+    "question": "Before kick-off, a rugby player's heart rate begins to rise. This response, and the heartbeat itself, is coordinated by the heart's own electrical conduction system.\n\nOutline the sequence of electrical events in the cardiac conduction system that results in contraction of the ventricles.",
+    "marks": 3,
+    "markScheme": "Award one mark for each point, in the correct order:\n- The sinoatrial node (SAN), the pacemaker of the heart, generates an electrical impulse that spreads across the atria as a wave of excitation (1).\n- This causes the atria to contract (atrial systole) (1).\n- The impulse reaches the atrioventricular node (AVN), which briefly delays it (allowing the atria to fully empty), before it passes down the Bundle of His to the Purkinje fibres in the ventricle walls (1).\n- This causes the ventricles to contract (ventricular systole) (1).\nStudents must refer to the sequence in the correct order. Max 3 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q4",
+    "questionNumber": "Q4",
+    "question": "A trained triathlete and an untrained office worker, both aged 24, have their resting heart rate and stroke volume measured.\n\nExplain how, and why, the components of cardiac output at rest are likely to differ between the triathlete and the office worker.",
+    "marks": 3,
+    "markScheme": "Award one mark for each of the following points:\n- The triathlete would have a lower resting heart rate, below 60 bpm / bradycardia (1).\n- The triathlete has a higher resting stroke volume, ejecting more blood per beat (1).\n- This is due to cardiac hypertrophy from regular training, giving the triathlete a stronger, more forceful contraction (1).\nMax 3 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q5",
+    "questionNumber": "Q5",
+    "question": "Which receptor is responsible for detecting a change in blood pressure?",
     "marks": 1,
-    "markScheme": "[PLACEHOLDER] Correct answer: B - Increased venous return stretches the ventricle walls, causing a more forceful contraction.",
+    "markScheme": "C - Baroreceptor.",
     "subtopicId": "cardiovascular",
     "isMultipleChoice": true,
     "options": [
-      "A - Increased heart rate always leads to increased stroke volume",
-      "B - Increased venous return stretches the ventricle walls, causing a more forceful contraction",
-      "C - Blood pressure decreases as exercise intensity increases",
-      "D - Cardiac output remains constant regardless of exercise intensity"
+      "A - Chemoreceptor",
+      "B - Proprioceptor",
+      "C - Baroreceptor",
+      "D - Mechanoreceptor"
     ],
-    "correctOption": "B - Increased venous return stretches the ventricle walls, causing a more forceful contraction"
+    "correctOption": "C - Baroreceptor"
+  },
+  {
+    "id": "cv-q6",
+    "questionNumber": "Q6",
+    "question": "An elite female marathon runner recorded a VO2 max of 74 ml/kg/min. A recreational club runner of a similar age typically records a VO2 max of 50–55 ml/kg/min.\n\nAnalyse the factors that could explain the elite marathon runner's higher VO2 max, and the effects these factors have on her performance.",
+    "marks": 8,
+    "markScheme": "Students are expected to answer in continuous prose, use good English, organise information clearly and use specialist vocabulary where appropriate.\n\nPossible content may include:\nAO1 – Knowledge of VO2 max and the factors affecting it, e.g. VO2 max is the maximum volume of oxygen that can be taken up and utilised per minute, and is directly related to aerobic power. Factors affecting VO2 max include genetics, age, gender, training status, altitude exposure, body composition and lifestyle.\nAO2 – Application to the elite marathon runner, e.g. her high VO2 max is likely to result from years of high-volume aerobic training, which increases red blood cell count, capillarisation of the muscles and mitochondrial density. Her age (likely within a peak performance range) also supports a high VO2 max, whereas the club runner may not train at the same volume or intensity.\nAO3 – Analysis/evaluation of the impact on performance, e.g. a higher VO2 max increases oxygen delivery to working muscles, raising the lactate threshold and allowing the marathon runner to sustain a faster pace for longer before OBLA occurs. However, genetic ceiling may mean training alone cannot fully explain the gap between the two runners; some individuals have a naturally higher genetic potential for VO2 max regardless of training.\nCredit other relevant analysis of the factors affecting VO2 max and how they influence marathon performance. Max 8 marks.\n\nLevel | Marks | Description\n4 | 7–8 | Knowledge is consistently accurate and well detailed. Application of breadth or depth of knowledge is clearly evident. Analysis and/or evaluation is coherently and consistently made between different relevant factors and their impact. Relevant terminology is consistently used.\n3 | 5–6 | Knowledge is usually accurate and detailed. Application is often evident. Analysis and/or evaluation is often made between different relevant factors and is usually coherent. Relevant terminology is often used.\n2 | 3–4 | Knowledge is sometimes accurate with some detail. Application is sometimes evident. Analysis and/or evaluation is sometimes made but may lack coherence. Relevant terminology is sometimes used.\n1 | 1–2 | Knowledge may be limited. Application may be limited or not evident. There may be little or no analysis and/or evaluation. Relevant terminology is occasionally used.\n0 | 0 | No relevant content.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q7a",
+    "questionNumber": "Q7(a)",
+    "question": "The graph plots the relationship between partial pressure of oxygen and percentage oxygen saturation for a triathlete's:\n- haemoglobin at rest\n- haemoglobin during exercise\n- myoglobin\n\n(a) Complete the table to identify curves X, Y and Z shown on the graph. Write either X, Y or Z in the box next to the relationship it matches. Use each letter only once.\n\nHaemoglobin at rest | ___\nHaemoglobin during exercise | ___\nMyoglobin | ___",
+    "marks": 3,
+    "markScheme": "Haemoglobin at rest = Y\nHaemoglobin during exercise = Z\nMyoglobin = X\nMax 3 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q7b",
+    "questionNumber": "Q7(b)",
+    "question": "Using the graph, explain the role of haemoglobin and myoglobin during exercise.",
+    "marks": 4,
+    "markScheme": "Haemoglobin during exercise: transports oxygen in the blood to the muscles (1); lower affinity/saturation with oxygen during exercise (1); increased oxygen release/dissociation to the working muscles (1); muscles receive more oxygen (1). Sub max 2 marks.\nMyoglobin: stores/transports oxygen in the muscle (1); has a higher affinity for oxygen than haemoglobin (1); oxygen dissociates from myoglobin only at a very low PO2 (1). Sub max 2 marks.\nDo not accept 'myoglobin in muscle' alone. Max 4 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q8",
+    "questionNumber": "Q8",
+    "question": "A cyclist is climbing a long hill during a road race. The skeletal muscle pump and venous valves in her legs help to return blood to the heart.\n\nExplain how the skeletal muscle pump and venous valves work together to increase venous return during the climb.",
+    "marks": 3,
+    "markScheme": "- The contracting leg muscles compress the veins as they shorten (1).\n- This squeezes/forces blood back towards the heart (1).\n- One-way (pocket) valves prevent the backflow of blood, closing once blood has passed through (1).\nMax 3 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q9",
+    "questionNumber": "Q9",
+    "question": "Explain the effect of adrenaline on heart rate before, and during, a 100 m sprint.",
+    "marks": 3,
+    "markScheme": "- Anticipatory rise occurs before the race begins, caused by the release of adrenaline (1).\n- Adrenaline continues to be released, maintaining an increased heart rate during the race (1).\n- Adrenaline acts on the sinoatrial (SA) node, increasing the rate of impulses/firing (1).\nMax 3 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q10",
+    "questionNumber": "Q10",
+    "question": "Explain why a high haemoglobin concentration is important for a cross-country skier.",
+    "marks": 3,
+    "markScheme": "- Haemoglobin transports oxygen in the blood to the working muscles (1).\n- Cross-country skiing is a predominantly aerobic event, requiring sustained oxygen delivery over a long duration (1).\n- A higher haemoglobin concentration increases oxygen-carrying capacity, delaying fatigue/OBLA (1).\nMax 3 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q11",
+    "questionNumber": "Q11",
+    "question": "Which one of the following statements accurately describes Starling's law of the heart?",
+    "marks": 1,
+    "markScheme": "A - Increased venous return leads to increased stroke volume.",
+    "subtopicId": "cardiovascular",
+    "isMultipleChoice": true,
+    "options": [
+      "A - Increased venous return leads to increased stroke volume",
+      "B - Increased heart rate during long periods of exercise at the same intensity",
+      "C - Increased action of skeletal muscles to increase venous return",
+      "D - Increased rate of oxygen transport by the circulatory system"
+    ],
+    "correctOption": "A - Increased venous return leads to increased stroke volume"
+  },
+  {
+    "id": "cv-q12",
+    "questionNumber": "Q12",
+    "question": "The graphs below show the heart rates of two athletes before, during and after a training session, each using a different training method (fartlek and interval training).\n\nState the term used to describe the increase in heart rate labelled X, which occurs before exercise begins, and name the hormone responsible for this increase.",
+    "marks": 2,
+    "markScheme": "Anticipatory rise (1). Adrenaline / epinephrine (1). Max 2 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q13",
+    "questionNumber": "Q13",
+    "question": "The Bohr shift is the movement of the oxyhaemoglobin dissociation curve to the right during exercise. Which pair of factors causes the Bohr shift?",
+    "marks": 1,
+    "markScheme": "D - Increase in carbon dioxide, increase in temperature.",
+    "subtopicId": "cardiovascular",
+    "isMultipleChoice": true,
+    "options": [
+      "A - Decrease in carbon dioxide, decrease in temperature",
+      "B - Increase in carbon dioxide, decrease in temperature",
+      "C - Decrease in carbon dioxide, increase in temperature",
+      "D - Increase in carbon dioxide, increase in temperature"
+    ],
+    "correctOption": "D - Increase in carbon dioxide, increase in temperature"
+  },
+  {
+    "id": "cv-q14",
+    "questionNumber": "Q14",
+    "question": "The graph below shows the cardiac output, heart rate and stroke volume of a marathon runner competing in hot conditions over a two-hour period.\n\nUsing the graph, explain the effect of prolonged exercise in hot conditions on cardiac output and its components.",
+    "marks": 4,
+    "markScheme": "Award one mark for each point.\nAO2 (sub max 2): Cardiac output increases during prolonged exercise (1); this is because heart rate gradually increases to compensate for a decrease in stroke volume (1) – this is cardiovascular drift (1).\nAO3: Stroke volume decreases during prolonged exercise in the heat because fluid is lost from the blood plasma through sweating (1); cardiac output must increase to maintain oxygen delivery to the muscles and to help cool the body (1).\nAccept other appropriate explanations. Max 4 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q15",
+    "questionNumber": "Q15",
+    "question": "Amara and Ben are both 22 years old. Amara does no regular exercise. Ben is a competitive triathlete who trains most days of the week.\n\nHow would maximal cardiac output differ between Amara and Ben? Justify your answer.",
+    "marks": 3,
+    "markScheme": "How: Ben's maximal cardiac output would be higher (1).\nWhy (sub max 2): Ben has a greater maximum stroke volume than Amara (1); this is despite both having a similar maximum heart rate, as maximum HR is not significantly affected by training (1); Ben's greater stroke volume is due to cardiac hypertrophy / increased blood volume from training (1).\nAccept reverse answers in relation to Amara. Max 3 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q16",
+    "questionNumber": "Q16",
+    "question": "Sadia has been told she has a high level of LDL cholesterol. Identify one possible effect this could have on her health.",
+    "marks": 1,
+    "markScheme": "Increased risk of cardiovascular disease / heart attack / stroke / atherosclerosis (1). Accept any other appropriate effect. Max 1 mark.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q17",
+    "questionNumber": "Q17",
+    "question": "Evaluate the effectiveness of continuous training for a 10,000 m track athlete. Consider the effects of this type of training on the cardiovascular system in your answer.",
+    "marks": 8,
+    "markScheme": "Students are expected to answer in continuous prose, use good English, organise information clearly and use specialist vocabulary where appropriate.\n\nPossible content may include:\nAO1 – Continuous training involves working for a prolonged period (usually 30+ minutes) without breaks, typically at 60–80% of maximum heart rate, to develop aerobic endurance. Long-term cardiovascular adaptations include cardiac hypertrophy, increased maximum cardiac output, increased blood volume and increased capillarisation.\nAO2 – Application to the 10,000 m athlete: since the event is predominantly aerobic, continuous training is well suited to developing the endurance capacity required. Cardiac hypertrophy from continuous training increases maximal cardiac output, allowing the athlete to sustain a faster pace for the full distance.\nAO3 – Evaluation: continuous training alone may not fully prepare the athlete for the anaerobic demands of a fast start or a finishing sprint, so interval or fartlek training should also be included; continuous training may also increase risk of overuse injury if used exclusively.\nMax 8 marks.\n\nLevel | Marks | Description\n4 | 7–8 | Knowledge is consistently accurate and well detailed. Application is clearly evident. Analysis/evaluation is coherently and consistently made. Relevant terminology consistently used.\n3 | 5–6 | Knowledge is usually accurate and detailed. Application is often evident. Analysis/evaluation is often made and usually coherent. Relevant terminology often used.\n2 | 3–4 | Knowledge is sometimes accurate with some detail. Application sometimes evident. Analysis/evaluation sometimes made but may lack coherence. Relevant terminology sometimes used.\n1 | 1–2 | Knowledge may be limited. Application may be limited/not evident. Little or no analysis/evaluation. Relevant terminology occasionally used.\n0 | 0 | No relevant content.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q18",
+    "questionNumber": "Q18",
+    "question": "What is meant by the term arteriovenous oxygen difference (a-vO2 diff)?",
+    "marks": 1,
+    "markScheme": "The difference in the volume/content of oxygen between arterial and venous blood (1). Accept any other suitable definition. Max 1 mark.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q19",
+    "questionNumber": "Q19",
+    "question": "Explain how arteriovenous oxygen difference (a-vO2 diff) changes at the onset of a basketball match.",
+    "marks": 2,
+    "markScheme": "The a-vO2 diff increases (1). More oxygen is extracted and used by the working muscles, so venous blood returning to the heart contains less oxygen (1). Max 2 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q20",
+    "questionNumber": "Q20",
+    "question": "Suggest two ways in which the health of a sedentary adult could benefit from taking up regular jogging.",
+    "marks": 2,
+    "markScheme": "Award one mark for each point (max 2): reduces body fat / obesity risk / cholesterol (1); strengthens the heart / reduces risk of cardiovascular disease (1); improves social / mental / physical wellbeing (1).",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q21",
+    "questionNumber": "Q21",
+    "question": "Heart rate is controlled by the cardiac conduction system. Which one of the following is the correct order of the cardiac conduction system?",
+    "marks": 1,
+    "markScheme": "A - Sinoatrial node, atrioventricular node, Bundle of His, Purkinje fibres.",
+    "subtopicId": "cardiovascular",
+    "isMultipleChoice": true,
+    "options": [
+      "A - Sinoatrial node, atrioventricular node, Bundle of His, Purkinje fibres",
+      "B - Atrioventricular node, sinoatrial node, Bundle of His, Purkinje fibres",
+      "C - Sinoatrial node, atrioventricular node, Purkinje fibres, Bundle of His",
+      "D - Atrioventricular node, sinoatrial node, Purkinje fibres, Bundle of His"
+    ],
+    "correctOption": "A - Sinoatrial node, atrioventricular node, Bundle of His, Purkinje fibres"
+  },
+  {
+    "id": "cv-q22",
+    "questionNumber": "Q22",
+    "question": "Identify two functions of the fast component of Excess Post-exercise Oxygen Consumption (EPOC).",
+    "marks": 1,
+    "markScheme": "A - Restore phosphocreatine (PC) and resaturate myoglobin with oxygen.",
+    "subtopicId": "cardiovascular",
+    "isMultipleChoice": true,
+    "options": [
+      "A - Restore phosphocreatine (PC) and resaturate myoglobin with oxygen",
+      "B - Break down lactic acid and normalise body temperature",
+      "C - Resaturate myoglobin with oxygen and normalise body temperature",
+      "D - Restore phosphocreatine (PC) and break down lactic acid"
+    ],
+    "correctOption": "A - Restore phosphocreatine (PC) and resaturate myoglobin with oxygen"
+  },
+  {
+    "id": "cv-q23i",
+    "questionNumber": "Q23(i)",
+    "question": "James has a high body fat percentage, which is negatively affecting his health and fitness.\n\n(i) Define the terms health and fitness.",
+    "marks": 2,
+    "markScheme": "Health – a state of complete social, mental and physical wellbeing (1). Fitness – the ability to meet/cope with the demands of the environment / carry out everyday tasks without undue fatigue (1). 2 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q23ii",
+    "questionNumber": "Q23(ii)",
+    "question": "(ii) Other than diet, explain how two different lifestyle choices can have a negative impact on health.",
+    "marks": 2,
+    "markScheme": "Any two from: Smoking – reduces lung/oxygen transport capacity, increases risk of heart disease/cancer. (Lack of) exercise – increases risk of obesity, reduced strength/flexibility, increased blood pressure. Alcohol/drug use – damages liver/heart, increases risk of disease. Poor work-life balance – increased stress. Lack of sleep – fatigue/stress. Over-training – long-term injury risk. Do not accept answers relating to diet. 2 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q24i",
+    "questionNumber": "Q24(i)",
+    "question": "When a swimmer trains continuously for an extended period, blood is redistributed around the body, as shown in the graph below.\n\n(i) Identify and explain the change in blood flow during exercise at two different locations shown in the graph.",
+    "marks": 4,
+    "markScheme": "Identification of location and change (must state location): skeletal muscles – increase in blood flow; digestive system/gut – decrease in blood flow. Accept one further valid location. Explanation must be linked: (muscles) to supply more oxygen/nutrients for increased energy demand; (gut) blood redistributed away from the gut to where it is needed more. 4 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q24ii",
+    "questionNumber": "Q24(ii)",
+    "question": "(ii) Explain how the redistribution of blood is achieved during exercise.",
+    "marks": 3,
+    "markScheme": "Increase in CO2/acidity/decrease in pH detected by chemoreceptors, or movement detected by proprioceptors/mechanoreceptors; message sent to the vasomotor centre/medulla oblongata; increase in sympathetic nervous system impulses/adrenaline released; pre-capillary sphincters control blood flow via vasodilation to areas needing more blood (e.g. muscles) and vasoconstriction of areas needing less (e.g. gut, kidneys). 3 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q25",
+    "questionNumber": "Q25",
+    "question": "During a game of netball, oxygen must be transported to the working muscles.\n\nWhat is the difference between haemoglobin and myoglobin when transporting and storing oxygen?",
+    "marks": 2,
+    "markScheme": "Haemoglobin – found in the blood/red blood cells, transports oxygen around the body (1). Myoglobin – found in the muscle, stores oxygen (has a higher affinity for oxygen than haemoglobin) and releases it to the mitochondria when needed (1). Must state substance and location for each mark.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q26",
+    "questionNumber": "Q26",
+    "question": "A cyclist completes a 60-minute steady-state ride at a constant, sub-maximal pace. Towards the end of the session, cardiovascular drift occurs.\n\nExplain the term cardiovascular drift.",
+    "marks": 3,
+    "markScheme": "Increase in heart rate and a decrease in stroke volume/ejection fraction over time, despite exercise intensity remaining the same (1). Occurs during prolonged exercise, typically after around 10 minutes (1). Caused by a reduction in blood plasma volume due to sweating, making the blood more viscous and reducing venous return (1). Aims to maintain cardiac output and help cool the body (1). Max 3 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q27i",
+    "questionNumber": "Q27(i)",
+    "question": "Heart rate values will vary before, during and after a hockey match.\n\n(i) Explain the term anticipatory rise.",
+    "marks": 1,
+    "markScheme": "An increase in heart rate before exercise begins, caused by the release of adrenaline (1). Must include the idea of 'before exercise' and 'adrenaline' for the mark. 1 mark.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q27ii",
+    "questionNumber": "Q27(ii)",
+    "question": "(ii) Neural control of heart rate involves the autonomic nervous system. Identify and explain the role of different receptors involved in increasing heart rate during the match.",
+    "marks": 3,
+    "markScheme": "Chemoreceptors – detect an increase in blood acidity/CO2/decrease in pH. Proprioceptors/mechanoreceptors – detect movement/muscular contraction. Baroreceptors – detect a decrease in blood pressure. Impulses sent to the cardiac control centre/medulla, increasing sympathetic impulses to the SA node. Must name each receptor and its specific role. 3 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q28i",
+    "questionNumber": "Q28(i)",
+    "question": "The table below shows the redistribution of blood during exercise for a road cyclist.\n\nOrgan | At rest (cm3 per min) | Maximum effort (cm3 per min)\nSkeletal muscles | 1100 | 25500\nCoronary vessels | 220 | 1150\nSkin | 450 | 700\nKidneys | 1050 | 320\nLiver / gut | 1300 | 400\nBrain | 740 | 740\nOther | 240 | 590\nWhole body | 5100 | 29400\n\n(i) Explain how the redistribution of blood occurs during exercise.",
+    "marks": 3,
+    "markScheme": "Increase in CO2/acidity or decrease in pH/O2 detected by chemoreceptors; movement detected by proprioceptors/mechanoreceptors; message sent to the vasomotor centre/medulla; sympathetic nervous system activity/(nor)adrenaline increases; pre-capillary sphincters control blood flow via vasodilation (to muscles) and vasoconstriction (away from gut/kidneys/liver). Terms need explaining, not just naming. 3 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q28ii",
+    "questionNumber": "Q28(ii)",
+    "question": "(ii) Explain why blood flow to the brain remains the same during rest and during maximum effort.",
+    "marks": 2,
+    "markScheme": "The brain must remain fully functional/active during exercise (1); it requires a constant supply of oxygen and nutrients regardless of exercise intensity (1). 2 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q28iii",
+    "questionNumber": "Q28(iii)",
+    "question": "(iii) Using the table above, explain why performers should not eat immediately before exercise.",
+    "marks": 2,
+    "markScheme": "During exercise, blood flow to the gut falls sharply (from 1300 to 400 cm3/min, using the table) (1); as blood/oxygen is needed for digestion, eating before exercise competes for the reduced blood supply available to the gut, and diverts blood away from the working muscles (1). 2 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q29",
+    "questionNumber": "Q29",
+    "question": "How may improved cardiovascular fitness, gained through regular rowing machine training, benefit an individual's long-term health?",
+    "marks": 1,
+    "markScheme": "Any specific benefit, e.g. reduces body fat/obesity/cholesterol; strengthens the heart/reduces risk of cardiovascular disease; improves social/physical/mental wellbeing. Vague answers (e.g. 'feel better', 'live longer') are not creditable. Max 1 mark.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q30",
+    "questionNumber": "Q30",
+    "question": "Towards the end of a hard interval session, a runner's chemoreceptors detect rising carbon dioxide levels in the blood.\n\nExplain how this causes an increase in the runner's breathing rate.",
+    "marks": 3,
+    "markScheme": "Nerve impulses sent to the respiratory (control) centre in the medulla via the autonomic nervous system (1). Impulses travel via the phrenic and intercostal nerves to the diaphragm and intercostal muscles (1). This causes deeper breathing/increased tidal volume, and may involve accessory muscles such as the sternocleidomastoid and scalenes (1). Do not accept 'faster breathing' alone, as this is given in the question. Max 3 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q31",
+    "questionNumber": "Q31",
+    "question": "During a hard training session, a cyclist's arteriovenous oxygen difference (a-vO2 diff) increases.\n\nExplain what is meant by the term a-vO2 diff, and why this value rises during exercise.",
+    "marks": 2,
+    "markScheme": "The difference between the oxygen content of arterial and venous blood / how much oxygen is extracted and used by the muscles (1). This value increases during exercise because more oxygen is extracted and used by the working muscles for energy/ATP production (1). Max 2 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q32",
+    "questionNumber": "Q32",
+    "question": "Explain the causes of the Bohr shift during a set of hard hill sprints, and how this shift benefits oxygen delivery to the working muscles.",
+    "marks": 3,
+    "markScheme": "Exercise increases muscle temperature (1). Exercise increases CO2 production/acidity, lowering blood pH (1). This shifts the oxyhaemoglobin dissociation curve to the right, meaning more oxygen dissociates from haemoglobin at the working muscles, increasing oxygen availability (1). Max 3 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q33",
+    "questionNumber": "Q33",
+    "question": "Explain how repeated sprinting during a game of squash affects the venous return mechanism.",
+    "marks": 3,
+    "markScheme": "Venous return increases during the game (do not accept 'changes' alone). Skeletal muscle pump – repeated muscle contractions compress the veins, pushing blood towards the heart (1). One-way (pocket) valves in the veins prevent backflow (1). Respiratory pump – increased breathing rate/depth alters pressure in the thorax, compressing veins and assisting flow back to the heart (1). Max 3 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q34",
+    "questionNumber": "Q34",
+    "question": "Use Starling's law of the heart to explain how a boxer's stroke volume increases during a bout.",
+    "marks": 3,
+    "markScheme": "Increased venous return during the bout (do not accept 'more blood back to the heart' alone) (1). This leads to greater diastolic filling / increased preload, stretching the cardiac muscle (1). The stretched cardiac muscle contracts with greater force, increasing ejection fraction (do not accept 'increases stroke volume' as this is given in the question) (1). Max 3 marks.",
+    "subtopicId": "cardiovascular"
+  },
+  {
+    "id": "cv-q35",
+    "questionNumber": "Q35",
+    "question": "During a game of football, a player's heart rate will vary.\n\nExplain how changes in the acidity of the blood cause heart rate to increase during the game.",
+    "marks": 4,
+    "markScheme": "Blood acidity increases / pH lowers due to an increase in hydrogen ions (H+), caused by increased carbon dioxide production during the game (1). This is detected by chemoreceptors (1). Nerve impulses are sent to the medulla oblongata / cardiac control centre (1). Increased sympathetic nervous impulses are sent to the sinoatrial (SA) node, alongside a decrease in parasympathetic/vagus nerve impulses, increasing heart rate (1). Max 4 marks.",
+    "subtopicId": "cardiovascular"
   }
 ]
