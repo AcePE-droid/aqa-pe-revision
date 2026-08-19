@@ -1,25 +1,19 @@
-# Cardiovascular System
+# Placeholder notes
 
-**[PLACEHOLDER CONTENT]** These notes are a rendering test only and will be replaced with the
-site owner's own rewritten notes from the AQA A-Level PE textbook.
+This is placeholder content to test the notes rendering. Real notes for
+A-VO2 difference will replace this once written.
 
-## Key Definitions
+## Example heading
 
-- **Cardiac output (Q)** — volume of blood pumped by the heart in one minute
-- **Stroke volume (SV)** — volume of blood ejected per beat
-- **Heart rate (HR)** — number of beats per minute
+Example paragraph text so we can see how prose renders on the notes page.
+Lines should be comfortable to read — not too wide, not too narrow.
 
-## The Cardiac Cycle
+## Example list
 
-| Phase | What happens |
-| --- | --- |
-| Diastole | Heart chambers relax and fill with blood |
-| Atrial systole | Atria contract, pushing blood into the ventricles |
-| Ventricular systole | Ventricles contract, ejecting blood into circulation |
+- First point
+- Second point
+- Third point
 
-> Remember: cardiac output = stroke volume x heart rate. This relationship is central to
-> understanding cardiovascular adaptations to exercise.
+## Example bold and italic
 
-## Further Reading
-
-Full notes for this subtopic are still being written.
+Text with **bold** and *italic* to check formatting.

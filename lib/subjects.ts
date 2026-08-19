@@ -42,3 +42,7 @@ export function getSubjectCards(basePath: string): SubjectCardData[] {
 export function getFlashcardSubjectCards(): SubjectCardData[] {
   return getSubjectCards("/flashcards");
 }
+
+export function getNotesSubjectCards(): SubjectCardData[] {
+  return getSubjectCards("/notes");
+}
