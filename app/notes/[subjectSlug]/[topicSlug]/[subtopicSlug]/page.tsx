@@ -2,19 +2,30 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { resolveSubtopicPath, getNotesMarkdown, getFlashcards, getQuestions } from "@/lib/content";
-import { slugify } from "@/lib/slug";
+import {
+  getSubjectBySlug,
+  getTopicBySlug,
+  getSubtopicBySlug,
+  getPaperById,
+  getNotesMarkdown,
+  getFlashcards,
+  getQuestions,
+} from "@/lib/content";
 
 export default async function NotesSubtopicPage(
-  props: PageProps<"/notes/[paperSlug]/[topicSlug]/[subtopicSlug]">
+  props: PageProps<"/notes/[subjectSlug]/[topicSlug]/[subtopicSlug]">
 ) {
-  const { paperSlug, topicSlug, subtopicSlug } = await props.params;
-  const resolved = resolveSubtopicPath(paperSlug, topicSlug, subtopicSlug);
-  if (!resolved) notFound();
-  const { paper, topic, subtopic } = resolved;
+  const { subjectSlug, topicSlug, subtopicSlug } = await props.params;
+  const subject = getSubjectBySlug(subjectSlug);
+  const topic = getTopicBySlug(topicSlug);
+  const subtopic = getSubtopicBySlug(subtopicSlug);
+  if (!subject || !topic || !subtopic || topic.subject !== subject.name || subtopic.topicId !== topic.id) {
+    notFound();
+  }
+  const paper = getPaperById(topic.paperId);
+  if (!paper) notFound();
 
-  const notesMarkdown = getNotesMarkdown(paperSlug, topicSlug, subtopicSlug);
-  const subjectSlug = slugify(topic.subject);
+  const notesMarkdown = getNotesMarkdown(paper.slug, topic.slug, subtopic.slug);
   const basePath = `/${paper.slug}/${topic.slug}/${subtopic.slug}`;
   const flashcardCount = getFlashcards(paper.slug, topic.slug, subtopic.slug).length;
   const questionCount = getQuestions(paper.slug, topic.slug, subtopic.slug).length;
@@ -22,7 +33,7 @@ export default async function NotesSubtopicPage(
   return (
     <div className="py-16">
       <Link
-        href={`/notes/${subjectSlug}/${topic.slug}`}
+        href={`/notes/${subject.slug}/${topic.slug}`}
         className="text-sm font-medium text-blue-600 hover:underline"
       >
         &larr; {topic.name}
@@ -43,7 +54,7 @@ export default async function NotesSubtopicPage(
           <div>
             <p className="text-slate-500">Notes for this subtopic haven&apos;t been written yet.</p>
             <Link
-              href={`/notes/${subjectSlug}/${topic.slug}`}
+              href={`/notes/${subject.slug}/${topic.slug}`}
               className="mt-3 inline-block text-sm font-medium text-blue-600 hover:underline"
             >
               &larr; Back to {topic.name}

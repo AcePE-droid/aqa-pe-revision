@@ -54,7 +54,7 @@ export default async function NotesTopicPage(props: PageProps<"/notes/[subjectSl
           return (
             <Link
               key={subtopic.id}
-              href={`/notes/${paper.slug}/${topic.slug}/${subtopic.slug}`}
+              href={`/notes/${subject.slug}/${topic.slug}/${subtopic.slug}`}
               className={`flex items-center justify-between ${CARD_BASE_CLASSES} ${CARD_INTERACTIVE_CLASSES} ${style.hoverBorder} ${style.hoverBg}`}
             >
               <h2 className="text-base font-semibold text-slate-900">{subtopic.name}</h2>

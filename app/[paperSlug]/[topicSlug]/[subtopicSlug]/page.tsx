@@ -14,6 +14,7 @@ export default async function SubtopicPage(
 
   const flashcards = getFlashcards(paper.slug, topic.slug, subtopic.slug);
   const hasNotes = getNotesMarkdown(paper.slug, topic.slug, subtopic.slug) !== null;
+  const subjectSlug = slugify(topic.subject);
 
   const basePath = `/${paper.slug}/${topic.slug}/${subtopic.slug}`;
 
@@ -30,7 +31,7 @@ export default async function SubtopicPage(
       </h1>
       {hasNotes && (
         <Link
-          href={`/notes/${paper.slug}/${topic.slug}/${subtopic.slug}`}
+          href={`/notes/${subjectSlug}/${topic.slug}/${subtopic.slug}`}
           className="mt-2 inline-block text-sm font-medium text-blue-600 hover:underline"
         >
           View notes for this subtopic &rarr;
