@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import AuthStatus from "@/components/AuthStatus";
 
 const navLinks = [
   { href: "/flashcards", label: "Flashcards" },
@@ -37,6 +38,7 @@ export default function Header() {
               </Link>
             );
           })}
+          <AuthStatus />
         </nav>
       </div>
     </header>
