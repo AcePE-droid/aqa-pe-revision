@@ -18,6 +18,19 @@ function readJsonSafe<T>(relativePath: string, fallback: T): T {
   return JSON.parse(raw) as T;
 }
 
+/**
+ * Defense-in-depth: slugs used in content.ts always originate from validated
+ * JSON records (papers/topics/subtopics), never directly from route params.
+ * This guard rejects anything that isn't a plain slug (no path separators,
+ * traversal sequences, or leading dots) so a future caller can't accidentally
+ * turn one of the file-path-building functions below into a path traversal.
+ */
+const SAFE_SLUG_PATTERN = /^[a-z0-9-]+$/;
+
+function isSafeSlug(slug: string): boolean {
+  return SAFE_SLUG_PATTERN.test(slug);
+}
+
 export function getPapers(): Paper[] {
   return readJson<Paper[]>("papers.json");
 }
@@ -94,6 +107,7 @@ export function resolveSubtopicPath(
 }
 
 export function getFlashcards(paperSlug: string, topicSlug: string, subtopicSlug: string): Flashcard[] {
+  if (!isSafeSlug(paperSlug) || !isSafeSlug(topicSlug) || !isSafeSlug(subtopicSlug)) return [];
   return readJsonSafe<Flashcard[]>(
     `flashcards/${paperSlug}/${topicSlug}/${subtopicSlug}.json`,
     []
@@ -101,6 +115,7 @@ export function getFlashcards(paperSlug: string, topicSlug: string, subtopicSlug
 }
 
 export function getQuestions(paperSlug: string, topicSlug: string, subtopicSlug: string): Question[] {
+  if (!isSafeSlug(paperSlug) || !isSafeSlug(topicSlug) || !isSafeSlug(subtopicSlug)) return [];
   return readJsonSafe<Question[]>(
     `questions/${paperSlug}/${topicSlug}/${subtopicSlug}.json`,
     []
@@ -108,6 +123,7 @@ export function getQuestions(paperSlug: string, topicSlug: string, subtopicSlug:
 }
 
 export function getNotesMarkdown(paperSlug: string, topicSlug: string, subtopicSlug: string): string | null {
+  if (!isSafeSlug(paperSlug) || !isSafeSlug(topicSlug) || !isSafeSlug(subtopicSlug)) return null;
   const filePath = path.join(CONTENT_DIR, `notes/${paperSlug}/${topicSlug}/${subtopicSlug}.md`);
   if (!fs.existsSync(filePath)) return null;
   return fs.readFileSync(filePath, "utf-8");
