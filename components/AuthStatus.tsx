@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import type { User } from "@supabase/supabase-js";
 import { createClient } from "@/lib/supabase/client";
+import { migrateLocalProgressToCloud } from "@/lib/progress";
 
 // Shows a "Log in" link when signed out, or a profile menu (email + log out)
 // when signed in. Lives in the header's nav row alongside the other links.
@@ -17,8 +18,14 @@ export default function AuthStatus() {
 
     supabase.auth.getUser().then(({ data }) => setUser(data.user));
 
-    const { data: listener } = supabase.auth.onAuthStateChange((_event, session) => {
+    const { data: listener } = supabase.auth.onAuthStateChange((event, session) => {
       setUser(session?.user ?? null);
+      // Only fires on a genuine sign-in (not on session restore at mount,
+      // which fires "INITIAL_SESSION"), so this runs once per real sign-in -
+      // a no-op if the user's cloud progress is already populated.
+      if (event === "SIGNED_IN" && session?.user) {
+        migrateLocalProgressToCloud(session.user.id);
+      }
     });
 
     return () => listener.subscription.unsubscribe();

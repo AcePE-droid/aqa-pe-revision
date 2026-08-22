@@ -5,7 +5,8 @@ import Link from "next/link";
 import type { Flashcard } from "@/types/content";
 import { slugify } from "@/lib/slug";
 import { getSubjectStyle } from "@/lib/subject-styles";
-import { getFlashcardProgress } from "@/lib/progress";
+import { getSubtopicProgress } from "@/lib/progress";
+import { useAuthUserId } from "@/lib/supabase/useAuthUserId";
 
 type Props = {
   basePath: string; // e.g. "/paper-1/applied-anatomy/cardiovascular"
@@ -22,12 +23,22 @@ export default function FlashcardGroupList({ basePath, flashcards, subjectSlug, 
   // hydration mismatch, matching the pattern used by FlashcardProgressBadge.
   const [known, setKnown] = useState<number | null>(null);
   const [learning, setLearning] = useState<number | null>(null);
+  const userId = useAuthUserId();
 
   useEffect(() => {
-    const progress = getFlashcardProgress(subtopicId);
-    setKnown(flashcards.filter((c) => progress[c.id] === "known").length);
-    setLearning(flashcards.filter((c) => progress[c.id] === "learning").length);
-  }, [subtopicId, flashcards]);
+    let cancelled = false;
+    getSubtopicProgress(
+      subtopicId,
+      flashcards.map((c) => c.id)
+    ).then((progress) => {
+      if (cancelled) return;
+      setKnown(flashcards.filter((c) => progress[c.id] === "known").length);
+      setLearning(flashcards.filter((c) => progress[c.id] === "learning").length);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [subtopicId, flashcards, userId]);
 
   if (flashcards.length === 0) {
     return <p className="mt-8 text-slate-500">No flashcards for this subtopic yet.</p>;

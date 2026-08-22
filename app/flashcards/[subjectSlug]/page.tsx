@@ -16,7 +16,7 @@ type PaperSection = {
     slug: string;
     name: string;
     href: string;
-    subtopicIds: string[];
+    subtopicFlashcards: { subtopicId: string; flashcardIds: string[] }[];
     total: number;
   }[];
 };
@@ -37,10 +37,11 @@ export default async function FlashcardSubjectPage(
     if (!paper) continue;
 
     const subtopics = getSubtopicsByTopicId(topic.id);
-    const total = subtopics.reduce(
-      (sum, subtopic) => sum + getFlashcards(paper.slug, topic.slug, subtopic.slug).length,
-      0
-    );
+    const subtopicFlashcards = subtopics.map((subtopic) => ({
+      subtopicId: subtopic.id,
+      flashcardIds: getFlashcards(paper.slug, topic.slug, subtopic.slug).map((f) => f.id),
+    }));
+    const total = subtopicFlashcards.reduce((sum, s) => sum + s.flashcardIds.length, 0);
 
     const section = sections.get(paper.id) ?? {
       paper: { slug: paper.slug, name: paper.name },
@@ -50,7 +51,7 @@ export default async function FlashcardSubjectPage(
       slug: topic.slug,
       name: topic.name,
       href: `/${paper.slug}/${topic.slug}`,
-      subtopicIds: subtopics.map((s) => s.id),
+      subtopicFlashcards,
       total,
     });
     sections.set(paper.id, section);
@@ -76,7 +77,7 @@ export default async function FlashcardSubjectPage(
                   key={topic.slug}
                   name={topic.name}
                   href={topic.href}
-                  subtopicIds={topic.subtopicIds}
+                  subtopicFlashcards={topic.subtopicFlashcards}
                   total={topic.total}
                   progressBarClassName={style.progressBar}
                   hoverBorderClassName={style.hoverBorder}

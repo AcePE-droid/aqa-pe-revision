@@ -3,13 +3,14 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { getFlashcardProgress } from "@/lib/progress";
+import { getSubtopicProgress } from "@/lib/progress";
+import { useAuthUserId } from "@/lib/supabase/useAuthUserId";
 import { CARD_BASE_CLASSES, CARD_INTERACTIVE_CLASSES, CARD_HOVER_BORDER, CARD_HOVER_BG } from "@/lib/styles";
 
 type Props = {
   name: string;
   href: string;
-  subtopicIds: string[];
+  subtopicFlashcards: { subtopicId: string; flashcardIds: string[] }[];
   total: number;
   progressBarClassName?: string;
   hoverBorderClassName?: string;
@@ -20,7 +21,7 @@ type Props = {
 export default function TopicCard({
   name,
   href,
-  subtopicIds,
+  subtopicFlashcards,
   total,
   progressBarClassName = "bg-blue-600",
   hoverBorderClassName = CARD_HOVER_BORDER,
@@ -28,16 +29,28 @@ export default function TopicCard({
   arrowClassName = "text-blue-600",
 }: Props) {
   const [known, setKnown] = useState<number | null>(null);
+  const userId = useAuthUserId();
 
   useEffect(() => {
-    // localStorage isn't available during SSR, so this can only be read after mount -
-    // deliberately deferred to avoid a client/server hydration mismatch.
-    const count = subtopicIds.reduce((sum, id) => {
-      const progress = getFlashcardProgress(id);
-      return sum + Object.values(progress).filter((s) => s === "known").length;
-    }, 0);
-    setKnown(count);
-  }, [subtopicIds]);
+    // Reading progress (local or cloud) can't happen synchronously, so this
+    // can only resolve after mount - deliberately deferred to avoid a
+    // client/server hydration mismatch, and re-run on auth state changes so
+    // signing in/out doesn't leave a stale count on screen.
+    let cancelled = false;
+    Promise.all(
+      subtopicFlashcards.map(({ subtopicId, flashcardIds }) => getSubtopicProgress(subtopicId, flashcardIds))
+    ).then((progressBySubtopic) => {
+      if (cancelled) return;
+      const count = progressBySubtopic.reduce(
+        (sum, progress) => sum + Object.values(progress).filter((s) => s === "known").length,
+        0
+      );
+      setKnown(count);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [subtopicFlashcards, userId]);
 
   if (total === 0) {
     return (

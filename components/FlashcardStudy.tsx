@@ -6,8 +6,8 @@ import { X, ChevronLeft, ChevronRight, Trophy } from "lucide-react";
 import confetti from "canvas-confetti";
 import type { Flashcard } from "@/types/content";
 import {
-  getFlashcardProgress,
-  setFlashcardStatus,
+  getSubtopicProgress,
+  setCardStatus,
   getFlashcardCelebrated,
   setFlashcardCelebrated,
   getLastLearningCardIds,
@@ -15,6 +15,7 @@ import {
   type FlashcardStatus,
 } from "@/lib/progress";
 import { getSubjectStyle } from "@/lib/subject-styles";
+import { useAuthUserId } from "@/lib/supabase/useAuthUserId";
 
 type Props = {
   subtopicId: string;
@@ -88,15 +89,30 @@ export default function FlashcardStudy({
   // session itself completes (see mark()).
   const [lastLearningIds, setLastLearningIds] = useState<Set<string>>(new Set());
   const subjectStyle = getSubjectStyle(subjectSlug);
+  const userId = useAuthUserId();
 
   const timers = useRef<number[]>([]);
 
   useEffect(() => {
-    setProgress(getFlashcardProgress(subtopicId));
+    // Reset immediately (rather than waiting for the async fetch) so a
+    // subtopic/card-set change never briefly shows the previous subtopic's
+    // progress applied to the new cards.
+    setProgress({});
     setSessionCards(cards);
     setReviewEmpty(false);
     setLastLearningIds(new Set(getLastLearningCardIds(subtopicId)));
-  }, [subtopicId, cards]);
+
+    let cancelled = false;
+    getSubtopicProgress(
+      subtopicId,
+      cards.map((c) => c.id)
+    ).then((p) => {
+      if (!cancelled) setProgress(p);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [subtopicId, cards, userId]);
 
   useEffect(() => {
     const activeTimers = timers.current;
@@ -133,7 +149,7 @@ export default function FlashcardStudy({
 
   function mark(status: FlashcardStatus) {
     if (navPhase !== "idle") return;
-    setFlashcardStatus(subtopicId, card.id, status);
+    void setCardStatus(subtopicId, card.id, status);
     const updatedProgress = { ...progress, [card.id]: status };
     setProgress(updatedProgress);
     setHighlighted(status);

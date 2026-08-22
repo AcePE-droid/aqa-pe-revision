@@ -1,5 +1,14 @@
-// Client-side progress tracking, stored entirely in localStorage.
-// No backend, no accounts - all state lives in the visitor's browser.
+// Progress tracking. Anonymous visitors are backed entirely by localStorage;
+// signed-in users are synced to Supabase (`flashcard_progress` table). Callers
+// don't need to know which backend is in play - these functions check auth
+// state internally and route accordingly.
+//
+// Only flashcard known/learning status syncs to the cloud. Question-attempt
+// flags, the "celebrated" flag, and "last learning" card IDs stay
+// localStorage-only for everyone (including signed-in users) - see the
+// bottom of this file.
+
+import { createClient } from "@/lib/supabase/client";
 
 export type FlashcardStatus = "unseen" | "learning" | "known";
 
@@ -36,15 +45,145 @@ function writeJson(key: string, value: unknown) {
   window.localStorage.setItem(key, JSON.stringify(value));
 }
 
-export function getFlashcardProgress(subtopicId: string): Record<string, FlashcardStatus> {
+// --- Flashcard progress (synced for signed-in users) -----------------------
+
+async function getCurrentUserId(): Promise<string | null> {
+  try {
+    const supabase = createClient();
+    const { data } = await supabase.auth.getSession();
+    return data.session?.user.id ?? null;
+  } catch (err) {
+    console.warn("Could not read auth session, falling back to local progress:", err);
+    return null;
+  }
+}
+
+function getLocalFlashcardProgress(subtopicId: string): Record<string, FlashcardStatus> {
   return readJson(flashcardKey(subtopicId), {});
 }
 
-export function setFlashcardStatus(subtopicId: string, cardId: string, status: FlashcardStatus) {
-  const progress = getFlashcardProgress(subtopicId);
-  progress[cardId] = status;
+function setLocalFlashcardStatus(subtopicId: string, flashcardId: string, status: FlashcardStatus) {
+  const progress = getLocalFlashcardProgress(subtopicId);
+  progress[flashcardId] = status;
   writeJson(flashcardKey(subtopicId), progress);
 }
+
+/**
+ * Progress for every flashcard in `flashcardIds`, scoped to `subtopicId`
+ * for the local (anonymous) fallback. `flashcardIds` is required so that
+ * the cloud path - where rows have no subtopic column - can be scoped to
+ * exactly the right cards (needed for correct per-subtopic/per-topic
+ * aggregation, e.g. in TopicCard).
+ */
+export async function getSubtopicProgress(
+  subtopicId: string,
+  flashcardIds: string[]
+): Promise<Record<string, FlashcardStatus>> {
+  const userId = await getCurrentUserId();
+  if (!userId) return getLocalFlashcardProgress(subtopicId);
+  if (flashcardIds.length === 0) return {};
+
+  const supabase = createClient();
+  const { data, error } = await supabase
+    .from("flashcard_progress")
+    .select("flashcard_id, status")
+    .eq("user_id", userId)
+    .in("flashcard_id", flashcardIds);
+
+  if (error) {
+    console.warn("Failed to read flashcard progress from Supabase:", error);
+    return {};
+  }
+
+  const progress: Record<string, FlashcardStatus> = {};
+  for (const row of data ?? []) {
+    progress[row.flashcard_id] = row.status as FlashcardStatus;
+  }
+  return progress;
+}
+
+export async function getCardStatus(subtopicId: string, flashcardId: string): Promise<FlashcardStatus> {
+  const progress = await getSubtopicProgress(subtopicId, [flashcardId]);
+  return progress[flashcardId] ?? "unseen";
+}
+
+export async function setCardStatus(
+  subtopicId: string,
+  flashcardId: string,
+  status: FlashcardStatus
+): Promise<void> {
+  const userId = await getCurrentUserId();
+  if (!userId) {
+    setLocalFlashcardStatus(subtopicId, flashcardId, status);
+    return;
+  }
+
+  const supabase = createClient();
+  if (status === "unseen") {
+    const { error } = await supabase
+      .from("flashcard_progress")
+      .delete()
+      .eq("user_id", userId)
+      .eq("flashcard_id", flashcardId);
+    if (error) console.warn("Failed to clear flashcard progress in Supabase:", error);
+    return;
+  }
+
+  const { error } = await supabase
+    .from("flashcard_progress")
+    .upsert({ user_id: userId, flashcard_id: flashcardId, status, updated_at: new Date().toISOString() });
+  if (error) console.warn("Failed to save flashcard progress to Supabase:", error);
+}
+
+export async function getSubtopicCounts(
+  subtopicId: string,
+  flashcardIds: string[]
+): Promise<{ known: number; learning: number; total: number }> {
+  const progress = await getSubtopicProgress(subtopicId, flashcardIds);
+  const known = flashcardIds.filter((id) => progress[id] === "known").length;
+  const learning = flashcardIds.filter((id) => progress[id] === "learning").length;
+  return { known, learning, total: flashcardIds.length };
+}
+
+/**
+ * Copies local flashcard progress into Supabase on first sign-in. A no-op if
+ * the user's cloud table already has any rows, so a second device signing in
+ * later doesn't clobber progress already synced from the first - cloud wins.
+ */
+export async function migrateLocalProgressToCloud(userId: string): Promise<void> {
+  const supabase = createClient();
+
+  const { count, error: countError } = await supabase
+    .from("flashcard_progress")
+    .select("flashcard_id", { count: "exact", head: true })
+    .eq("user_id", userId);
+
+  if (countError) {
+    console.warn("Could not check existing cloud progress before migration:", countError);
+    return;
+  }
+  if (count && count > 0) return; // already has cloud progress - don't overwrite
+
+  if (typeof window === "undefined") return;
+  const rows: { user_id: string; flashcard_id: string; status: FlashcardStatus }[] = [];
+  const prefix = `${STORAGE_PREFIX}flashcards:`;
+  for (const key of Object.keys(window.localStorage)) {
+    if (!key.startsWith(prefix)) continue;
+    const progress = readJson<Record<string, FlashcardStatus>>(key, {});
+    for (const [flashcardId, status] of Object.entries(progress)) {
+      if (status === "known" || status === "learning") {
+        rows.push({ user_id: userId, flashcard_id: flashcardId, status });
+      }
+    }
+  }
+  if (rows.length === 0) return;
+
+  const { error } = await supabase.from("flashcard_progress").upsert(rows);
+  if (error) console.warn("Failed to migrate local flashcard progress to Supabase:", error);
+}
+
+// --- Question progress, celebration flag, last-learning IDs ----------------
+// Local-only for all users, signed in or not - not part of the account sync.
 
 export function getQuestionProgress(subtopicId: string): Record<string, boolean> {
   return readJson(questionKey(subtopicId), {});

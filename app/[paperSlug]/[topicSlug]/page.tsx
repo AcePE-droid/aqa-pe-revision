@@ -29,7 +29,7 @@ export default async function TopicPage(props: PageProps<"/[paperSlug]/[topicSlu
 
       <div className="mt-8 flex flex-col gap-3">
         {subtopics.map((subtopic) => {
-          const flashcardCount = getFlashcards(paper.slug, topic.slug, subtopic.slug).length;
+          const flashcardIds = getFlashcards(paper.slug, topic.slug, subtopic.slug).map((f) => f.id);
           return (
             <Link
               key={subtopic.id}
@@ -37,7 +37,11 @@ export default async function TopicPage(props: PageProps<"/[paperSlug]/[topicSlu
               className={`${CARD_BASE_CLASSES} ${CARD_INTERACTIVE_CLASSES} ${style.hoverBorder} ${style.hoverBg}`}
             >
               <h2 className="text-base font-semibold text-slate-900">{subtopic.name}</h2>
-              <FlashcardProgressBadge subtopicId={subtopic.id} total={flashcardCount} />
+              <FlashcardProgressBadge
+                subtopicId={subtopic.id}
+                flashcardIds={flashcardIds}
+                total={flashcardIds.length}
+              />
             </Link>
           );
         })}
