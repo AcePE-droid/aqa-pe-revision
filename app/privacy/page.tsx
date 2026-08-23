@@ -1,11 +1,10 @@
 // DRAFT — review before publishing. This page is a starting point, not
-// final legal text. Before launch: replace PRIVACY_EMAIL with a real
-// address, replace LAST_UPDATED with the actual publish date, and have the
-// whole policy reviewed (ideally by someone other than the person who wrote
-// the site) for accuracy against what the site actually does at that time.
+// final legal text. Before launch: replace LAST_UPDATED with the actual
+// publish date, and have the whole policy reviewed (ideally by someone
+// other than the person who wrote the site) for accuracy against what the
+// site actually does at that time.
 
-// TODO: replace with a real, monitored email address before publishing
-const PRIVACY_EMAIL = "privacy@example.com";
+const PRIVACY_EMAIL = "acepe26.a.level@gmail.com";
 
 // TODO: set to the real publish date before this policy goes live
 const LAST_UPDATED = "[date to be set before publishing]";

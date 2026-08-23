@@ -1,7 +1,6 @@
 import Link from "next/link";
 
-// TODO: replace with real feedback email before launch
-const FEEDBACK_EMAIL = "feedback@example.com";
+const FEEDBACK_EMAIL = "acepe26.a.level@gmail.com";
 
 export default function Footer() {
   return (

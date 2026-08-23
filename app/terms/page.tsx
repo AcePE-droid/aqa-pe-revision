@@ -1,9 +1,8 @@
 // DRAFT — review before publishing. This page is a starting point, not
-// final legal text. Before launch: replace the contact email, replace the
-// last-updated date, and have the whole document reviewed for accuracy.
+// final legal text. Before launch: replace the last-updated date, and have
+// the whole document reviewed for accuracy.
 
-// TODO: replace with a real, monitored email address before publishing
-const CONTACT_EMAIL = "privacy@example.com";
+const CONTACT_EMAIL = "acepe26.a.level@gmail.com";
 
 // TODO: set to the real publish date before this page goes live
 const LAST_UPDATED = "[date to be set before publishing]";
