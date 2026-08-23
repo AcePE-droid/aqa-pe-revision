@@ -1,5 +1,6 @@
 import Link from "next/link";
 import SubjectCard from "@/components/SubjectCard";
+import AccountDeletedToast from "@/components/AccountDeletedToast";
 import { getFlashcardSubjectCards } from "@/lib/subjects";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
 
   return (
     <div className="py-20">
+      <AccountDeletedToast />
       <div className="text-center sm:text-left">
         <h1 className="font-serif text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl">
           AQA A-Level PE Revision, Simplified

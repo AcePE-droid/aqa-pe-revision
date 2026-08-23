@@ -71,9 +71,16 @@ export default function AuthStatus() {
       {menuOpen && (
         <div className="absolute right-0 mt-2 w-56 rounded-xl border border-slate-200 bg-white p-3 shadow-md">
           <p className="truncate px-1 pb-2 text-xs text-slate-500">{user.email}</p>
+          <Link
+            href="/account"
+            onClick={() => setMenuOpen(false)}
+            className="block w-full rounded-md px-3 py-1.5 text-left text-sm font-medium text-slate-700 hover:bg-slate-50"
+          >
+            Your account
+          </Link>
           <button
             onClick={handleLogOut}
-            className="w-full rounded-md border border-slate-300 px-3 py-1.5 text-left text-sm font-medium text-slate-700 hover:bg-slate-50"
+            className="mt-1 w-full rounded-md border border-slate-300 px-3 py-1.5 text-left text-sm font-medium text-slate-700 hover:bg-slate-50"
           >
             Log out
           </button>

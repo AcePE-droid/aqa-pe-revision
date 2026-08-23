@@ -41,9 +41,11 @@ Supabase can't be set up automatically — follow these steps once, in order.
    with the same values, for the **Production** (and Preview, if you use
    preview deployments) environment. Redeploy after adding them.
 
-   Do **not** use the `service_role` key anywhere in this project — only the
-   `anon` `public` key. The `anon` key is safe to expose to the browser; the
-   `service_role` key is not and is not needed for anything built so far.
+   For this step, only use the `anon` `public` key — it's the only one safe
+   to expose to the browser. The site also uses the `service_role` key (for
+   account deletion) — see `docs/service-role-key-setup.md` for that,
+   separately; it's a secret, server-only key and doesn't go in
+   `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
 
 ## 4. Enable Google sign-in
 

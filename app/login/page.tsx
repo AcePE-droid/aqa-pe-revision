@@ -2,6 +2,7 @@
 
 import { Suspense, useState } from "react";
 import { useSearchParams } from "next/navigation";
+import Link from "next/link";
 import { createClient } from "@/lib/supabase/client";
 import { CARD_BASE_CLASSES } from "@/lib/styles";
 
@@ -109,6 +110,18 @@ export default function LoginPage() {
             {formError && <p className="text-sm text-red-700">{formError}</p>}
           </form>
         )}
+
+        <p className="mt-6 text-xs text-slate-400">
+          By continuing, you agree to our{" "}
+          <Link href="/privacy" className="underline hover:text-slate-600">
+            Privacy Policy
+          </Link>{" "}
+          and{" "}
+          <Link href="/terms" className="underline hover:text-slate-600">
+            Terms of Service
+          </Link>
+          .
+        </p>
       </div>
     </div>
   );

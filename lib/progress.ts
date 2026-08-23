@@ -182,6 +182,19 @@ export async function migrateLocalProgressToCloud(userId: string): Promise<void>
   if (error) console.warn("Failed to migrate local flashcard progress to Supabase:", error);
 }
 
+/**
+ * Deletes all of a signed-in user's cloud flashcard progress rows. Used by
+ * the "Reset my progress" flow for signed-in users, in addition to (not
+ * instead of) clearing localStorage on this device - RLS already lets a
+ * user delete their own rows, so this uses the normal browser client rather
+ * than a server route.
+ */
+export async function resetCloudProgress(userId: string): Promise<void> {
+  const supabase = createClient();
+  const { error } = await supabase.from("flashcard_progress").delete().eq("user_id", userId);
+  if (error) console.warn("Failed to reset cloud flashcard progress:", error);
+}
+
 // --- Question progress, celebration flag, last-learning IDs ----------------
 // Local-only for all users, signed in or not - not part of the account sync.
 
