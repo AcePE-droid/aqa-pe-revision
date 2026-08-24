@@ -64,25 +64,34 @@ export default async function NotesSubjectPage(props: PageProps<"/notes/[subject
       <p className="mt-2 text-slate-600">Choose a topic to browse notes.</p>
 
       <div className="mt-8 flex flex-col gap-10">
-        {Array.from(sections.values()).map(({ paper, topics }) => (
-          <div key={paper.slug}>
-            <h2 className="text-sm font-medium text-slate-500">{paper.name}</h2>
-            <div className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2">
-              {topics.map((topic) => (
-                <NotesTopicCard
-                  key={topic.slug}
-                  name={topic.name}
-                  href={topic.href}
-                  withNotes={topic.withNotes}
-                  total={topic.total}
-                  hoverBorderClassName={style.hoverBorder}
-                  hoverBgClassName={style.hoverBg}
-                  arrowClassName={style.icon}
-                />
-              ))}
+        {(() => {
+          // Chapters number continuously across the whole subject (paper
+          // sections are just visual groupings), textbook-style.
+          let chapter = 0;
+          return Array.from(sections.values()).map(({ paper, topics }) => (
+            <div key={paper.slug}>
+              <h2 className="text-sm font-medium text-slate-500">{paper.name}</h2>
+              <div className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2">
+                {topics.map((topic) => {
+                  chapter += 1;
+                  return (
+                    <NotesTopicCard
+                      key={topic.slug}
+                      index={chapter}
+                      name={topic.name}
+                      href={topic.href}
+                      withNotes={topic.withNotes}
+                      total={topic.total}
+                      hoverBorderClassName={style.hoverBorder}
+                      hoverBgClassName={style.hoverBg}
+                      arrowClassName={style.icon}
+                    />
+                  );
+                })}
+              </div>
             </div>
-          </div>
-        ))}
+          ));
+        })()}
       </div>
     </div>
   );

@@ -6,11 +6,13 @@ import {
   getSubjectBySlug,
   getTopicBySlug,
   getSubtopicBySlug,
+  getSubtopicsByTopicId,
   getPaperById,
   getNotesMarkdown,
   getFlashcards,
   getQuestions,
 } from "@/lib/content";
+import { getSubjectStyle } from "@/lib/subject-styles";
 
 export default async function NotesSubtopicPage(
   props: PageProps<"/notes/[subjectSlug]/[topicSlug]/[subtopicSlug]">
@@ -29,6 +31,12 @@ export default async function NotesSubtopicPage(
   const basePath = `/${paper.slug}/${topic.slug}/${subtopic.slug}`;
   const flashcardCount = getFlashcards(paper.slug, topic.slug, subtopic.slug).length;
   const questionCount = getQuestions(paper.slug, topic.slug, subtopic.slug).length;
+  const style = getSubjectStyle(subject.slug);
+
+  // Section number within its chapter (topic), textbook-style - "03" rather
+  // than an internal ID, purely a reading aid for where this sits in the topic.
+  const siblingSubtopics = getSubtopicsByTopicId(topic.id);
+  const sectionNumber = siblingSubtopics.findIndex((s) => s.id === subtopic.id) + 1;
 
   return (
     <div className="py-16">
@@ -38,17 +46,40 @@ export default async function NotesSubtopicPage(
       >
         &larr; {topic.name}
       </Link>
-      <h1 className="mt-2 font-serif text-3xl font-semibold tracking-tight text-slate-900">
-        {subtopic.name}
-      </h1>
-      <p className="mt-1 text-sm text-slate-500">
-        Notes &middot; {topic.name} &middot; {topic.subject}
-      </p>
 
-      <div className="mt-8 max-w-[720px]">
+      <div className="mt-6 max-w-[68ch]">
+        <p className={`text-xs font-semibold uppercase tracking-widest ${style.icon}`}>
+          {topic.name}
+        </p>
+        <div className="mt-2 flex items-baseline gap-4">
+          <span className="font-serif text-4xl font-light text-slate-300 sm:text-5xl">
+            {String(sectionNumber).padStart(2, "0")}
+          </span>
+          <h1 className="font-serif text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl">
+            {subtopic.name}
+          </h1>
+        </div>
+        <div className="mt-6 h-px w-full bg-slate-200" />
+      </div>
+
+      <div className="mt-8 max-w-[68ch]">
         {notesMarkdown ? (
-          <article className="prose prose-slate max-w-none text-lg leading-relaxed prose-headings:font-serif prose-headings:mt-8 prose-p:leading-relaxed prose-li:leading-relaxed">
-            <ReactMarkdown remarkPlugins={[remarkGfm]}>{notesMarkdown}</ReactMarkdown>
+          <article className="prose prose-slate max-w-none text-lg leading-[1.8] prose-headings:font-serif prose-headings:tracking-tight prose-headings:text-slate-900 prose-h2:mt-14 prose-h2:text-2xl prose-h3:mt-10 prose-h3:text-xl prose-p:my-6 prose-li:my-1 prose-strong:text-slate-900 prose-a:text-blue-600">
+            <ReactMarkdown
+              remarkPlugins={[remarkGfm]}
+              components={{
+                blockquote: ({ children }) => (
+                  <div className="not-prose my-8 flex gap-4">
+                    <div className={`w-1 shrink-0 rounded-full ${style.progressBar}`} />
+                    <blockquote className="font-serif text-xl italic leading-relaxed text-slate-700">
+                      {children}
+                    </blockquote>
+                  </div>
+                ),
+              }}
+            >
+              {notesMarkdown}
+            </ReactMarkdown>
           </article>
         ) : (
           <div>
@@ -64,8 +95,8 @@ export default async function NotesSubtopicPage(
       </div>
 
       {(flashcardCount > 0 || questionCount > 0) && (
-        <div className="mt-12 max-w-[720px]">
-          <p className="text-sm font-medium text-slate-500">Also study</p>
+        <div className="mt-12 max-w-[68ch]">
+          <p className="text-xs font-semibold uppercase tracking-widest text-slate-500">Also study</p>
           <div className="mt-3 grid grid-cols-1 gap-4 sm:grid-cols-2">
             {flashcardCount > 0 && (
               <Link

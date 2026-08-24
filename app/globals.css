@@ -18,3 +18,18 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }
+
+/* Faint ruled writing lines for the practice-question free-text answer box,
+   evoking exam-paper answer lines. Line spacing matches the textarea's
+   line-height so text sits on the rules rather than crossing them. */
+.ruled-lines {
+  line-height: 28px;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent,
+    transparent 27px,
+    rgba(100, 116, 139, 0.18) 27px,
+    rgba(100, 116, 139, 0.18) 28px
+  );
+  background-attachment: local;
+}

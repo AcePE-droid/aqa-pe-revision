@@ -36,16 +36,20 @@ export default async function NotesTopicPage(props: PageProps<"/notes/[subjectSl
       <p className="mt-2 text-slate-600">Choose a subtopic to view notes.</p>
 
       <div className="mt-8 flex flex-col gap-3">
-        {subtopics.map((subtopic) => {
+        {subtopics.map((subtopic, i) => {
           const hasNotes = getNotesMarkdown(paper.slug, topic.slug, subtopic.slug) !== null;
+          const number = String(i + 1).padStart(2, "0");
 
           if (!hasNotes) {
             return (
               <div
                 key={subtopic.id}
-                className={`flex items-center justify-between ${CARD_BASE_CLASSES} opacity-50`}
+                className={`flex items-center gap-4 ${CARD_BASE_CLASSES} opacity-50`}
               >
-                <h2 className="text-base font-semibold text-slate-900">{subtopic.name}</h2>
+                <span className="font-serif text-lg font-light text-slate-300">{number}</span>
+                <h2 className="flex-1 font-serif text-base font-semibold text-slate-900">
+                  {subtopic.name}
+                </h2>
                 <p className="text-sm text-slate-500">Coming soon</p>
               </div>
             );
@@ -55,9 +59,12 @@ export default async function NotesTopicPage(props: PageProps<"/notes/[subjectSl
             <Link
               key={subtopic.id}
               href={`/notes/${subject.slug}/${topic.slug}/${subtopic.slug}`}
-              className={`flex items-center justify-between ${CARD_BASE_CLASSES} ${CARD_INTERACTIVE_CLASSES} ${style.hoverBorder} ${style.hoverBg}`}
+              className={`flex items-center gap-4 ${CARD_BASE_CLASSES} ${CARD_INTERACTIVE_CLASSES} ${style.hoverBorder} ${style.hoverBg}`}
             >
-              <h2 className="text-base font-semibold text-slate-900">{subtopic.name}</h2>
+              <span className="font-serif text-lg font-light text-slate-300">{number}</span>
+              <h2 className="flex-1 font-serif text-base font-semibold text-slate-900">
+                {subtopic.name}
+              </h2>
               <p className="text-sm text-slate-500">Notes available</p>
             </Link>
           );
