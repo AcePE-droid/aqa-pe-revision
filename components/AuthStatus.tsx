@@ -6,9 +6,18 @@ import type { User } from "@supabase/supabase-js";
 import { createClient } from "@/lib/supabase/client";
 import { migrateLocalProgressToCloud } from "@/lib/progress";
 
+type Props = {
+  // "desktop" (default) is the compact dropdown used in the header's nav row.
+  // "mobile" renders the same auth state as plain, full-width rows for the
+  // hamburger menu instead, and calls onNavigate whenever an item is chosen
+  // so the caller can close the menu.
+  variant?: "desktop" | "mobile";
+  onNavigate?: () => void;
+};
+
 // Shows a "Log in" link when signed out, or a profile menu (email + log out)
-// when signed in. Lives in the header's nav row alongside the other links.
-export default function AuthStatus() {
+// when signed in.
+export default function AuthStatus({ variant = "desktop", onNavigate }: Props) {
   const [user, setUser] = useState<User | null>(null);
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
@@ -32,6 +41,7 @@ export default function AuthStatus() {
   }, []);
 
   useEffect(() => {
+    if (variant !== "desktop") return;
     function handleClickOutside(e: MouseEvent) {
       if (menuRef.current && !menuRef.current.contains(e.target as Node)) {
         setMenuOpen(false);
@@ -39,12 +49,48 @@ export default function AuthStatus() {
     }
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, []);
+  }, [variant]);
 
   async function handleLogOut() {
     const supabase = createClient();
     await supabase.auth.signOut();
     setMenuOpen(false);
+    onNavigate?.();
+  }
+
+  if (variant === "mobile") {
+    if (!user) {
+      return (
+        <Link
+          href="/login"
+          onClick={onNavigate}
+          className="flex min-h-[44px] items-center border-b-2 border-transparent px-4 text-base font-medium text-slate-700 hover:bg-slate-50"
+        >
+          Log in
+        </Link>
+      );
+    }
+
+    const label = user.user_metadata?.full_name || user.email;
+
+    return (
+      <div className="mt-2 border-t border-slate-200 pt-2">
+        <p className="truncate px-4 pb-1 text-xs text-slate-500">{label}</p>
+        <Link
+          href="/account"
+          onClick={onNavigate}
+          className="flex min-h-[44px] items-center px-4 text-base font-medium text-slate-700 hover:bg-slate-50"
+        >
+          Your account
+        </Link>
+        <button
+          onClick={handleLogOut}
+          className="flex min-h-[44px] w-full items-center px-4 text-left text-base font-medium text-slate-700 hover:bg-slate-50"
+        >
+          Log out
+        </button>
+      </div>
+    );
   }
 
   if (!user) {

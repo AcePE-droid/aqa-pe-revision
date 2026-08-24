@@ -12,9 +12,9 @@ export default function AboutPage() {
           will be.
         </p>
         <p>
-          Everything here &mdash; flashcards, practice questions, and notes &mdash; is organised
-          by the official AQA specification (7582), so you can revise topic by topic and know
-          you&apos;re covering what&apos;s actually examinable.
+          Flashcards, practice questions, and notes are all organised by the official AQA
+          specification (7582), so you can revise topic by topic and know you&apos;re covering
+          what&apos;s actually examinable.
         </p>
         <p className="rounded-md border border-slate-200 bg-slate-50 p-4 text-sm text-slate-600">
           <strong className="text-slate-800">Disclaimer:</strong> This is an independent,

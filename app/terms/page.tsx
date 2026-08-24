@@ -29,7 +29,7 @@ export default function TermsOfServicePage() {
           <p className="mt-2">
             PE Revision is a student-made revision resource. It isn&rsquo;t affiliated with,
             endorsed by, or produced by AQA. Content is written in good faith, but it may contain
-            mistakes — always cross-reference against your official course materials.
+            mistakes, so always cross-reference against your official course materials.
           </p>
         </section>
 
@@ -37,7 +37,7 @@ export default function TermsOfServicePage() {
           <h2 className="text-lg font-semibold text-slate-900">3. Content and copying</h2>
           <p className="mt-2">
             Content on this site (flashcards, questions, notes) is made by us for your revision. You
-            can use it freely for your own studying — including printing pages or sharing links with
+            can use it freely for your own studying, including printing pages or sharing links with
             classmates. Please don&rsquo;t republish or resell our content on another site.
           </p>
         </section>
@@ -63,7 +63,7 @@ export default function TermsOfServicePage() {
         <section>
           <h2 className="text-lg font-semibold text-slate-900">6. Fair use</h2>
           <p className="mt-2">
-            Use the site to revise, not to abuse it — no scraping, spamming, or attacking the site.
+            Use the site to revise, not to abuse it. No scraping, spamming, or attacking the site.
             We can suspend or delete accounts that misuse the site.
           </p>
         </section>
@@ -73,7 +73,7 @@ export default function TermsOfServicePage() {
           <p className="mt-2">
             The site is free, and we do our best to keep it running, but we can&rsquo;t guarantee
             it&rsquo;ll always be available. We may take it down for updates, or eventually shut it
-            down altogether — if we do, we&rsquo;ll give notice where we can.
+            down altogether. If we do, we&rsquo;ll give notice where we can.
           </p>
         </section>
 

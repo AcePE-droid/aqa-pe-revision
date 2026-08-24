@@ -38,7 +38,7 @@ export default function PrivacyPolicyPage() {
           <ul className="mt-2 list-disc pl-5">
             <li>Your email address, if you sign in with a magic link or Google</li>
             <li>Your name, if Google shares it when you sign in with Google</li>
-            <li>Your flashcard progress — which cards you&rsquo;ve marked as known or still learning</li>
+            <li>Your flashcard progress (which cards you&rsquo;ve marked as known or still learning)</li>
             <li>A session cookie, to keep you signed in</li>
             <li>Basic browser storage (localStorage) to save your progress if you&rsquo;re not signed in</li>
           </ul>
@@ -51,7 +51,7 @@ export default function PrivacyPolicyPage() {
             <li>To sync your flashcard progress across your devices</li>
           </ul>
           <p className="mt-2">
-            That&rsquo;s it — no advertising, no marketing emails, and we never sell your data to
+            That&rsquo;s it. No advertising, no marketing emails, and we never sell your data to
             anyone.
           </p>
         </section>
@@ -60,15 +60,15 @@ export default function PrivacyPolicyPage() {
           <h2 className="text-lg font-semibold text-slate-900">4. Who else can see it</h2>
           <ul className="mt-2 list-disc pl-5">
             <li>
-              <strong>Supabase</strong> (a US company, using an EU-based database) — stores your
+              <strong>Supabase</strong> (a US company, using an EU-based database): stores your
               account and progress data
             </li>
             <li>
-              <strong>Google</strong> — only if you choose to sign in with Google, in which case
+              <strong>Google</strong>: only if you choose to sign in with Google, in which case
               Google knows you signed in to this site
             </li>
             <li>
-              <strong>Vercel</strong> (a US company) — hosts the site
+              <strong>Vercel</strong> (a US company): hosts the site
             </li>
           </ul>
           <p className="mt-2">Nobody else sees your data.</p>
