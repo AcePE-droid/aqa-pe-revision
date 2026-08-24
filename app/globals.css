@@ -33,3 +33,42 @@ body {
   );
   background-attachment: local;
 }
+
+/* Homepage hero: one-shot underline draw under "in one place" on page load.
+   Fires once (no loop) and stays visible via forwards fill-mode. */
+.hero-underline {
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: draw-underline 800ms ease-out 200ms forwards;
+}
+
+/* Homepage hero: gently bobbing scroll-down hint. */
+.hero-scroll-indicator {
+  animation: hero-bob 1.5s ease-in-out infinite;
+}
+
+@keyframes draw-underline {
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes hero-bob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-underline {
+    animation: none;
+    transform: scaleX(1);
+  }
+  .hero-scroll-indicator {
+    animation: none;
+  }
+}
