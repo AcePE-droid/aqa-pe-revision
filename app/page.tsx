@@ -1,8 +1,12 @@
 import Link from "next/link";
 import { ChevronDown } from "lucide-react";
 import AccountDeletedToast from "@/components/AccountDeletedToast";
+import WhatsInsideSection from "@/components/WhatsInsideSection";
+import { getTotalFlashcardCount } from "@/lib/content";
 
 export default function Home() {
+  const flashcardCount = getTotalFlashcardCount();
+
   return (
     <div>
       <AccountDeletedToast />
@@ -34,13 +38,15 @@ export default function Home() {
         </div>
 
         <Link
-          href="#why"
+          href="#whats-inside"
           aria-label="Scroll to learn more"
           className="pb-10 text-slate-400 hover:text-slate-600"
         >
           <ChevronDown className="hero-scroll-indicator h-6 w-6" />
         </Link>
       </section>
+
+      <WhatsInsideSection flashcardCount={flashcardCount} />
 
       <section id="why" className="scroll-mt-24 border-t border-slate-200 py-20 text-center">
         <div className="mx-auto max-w-2xl">

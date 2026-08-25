@@ -132,3 +132,28 @@ export function getNotesMarkdown(paperSlug: string, topicSlug: string, subtopicS
 export function getPastPapers(): PastPaper[] {
   return readJsonSafe<PastPaper[]>("past-papers.json", []);
 }
+
+function countFlashcardsInDir(dir: string): number {
+  let total = 0;
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const fullPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      total += countFlashcardsInDir(fullPath);
+    } else if (entry.name.endsWith(".json")) {
+      const cards = JSON.parse(fs.readFileSync(fullPath, "utf-8"));
+      total += Array.isArray(cards) ? cards.length : 0;
+    }
+  }
+  return total;
+}
+
+/**
+ * Total flashcard count across every subtopic file under content/flashcards,
+ * rounded down to the nearest 100 for cleaner homepage copy (e.g. "2,400"
+ * instead of "2,407"). Recomputed at build/request time, so it stays in
+ * sync automatically as new flashcards are imported.
+ */
+export function getTotalFlashcardCount(): number {
+  const total = countFlashcardsInDir(path.join(CONTENT_DIR, "flashcards"));
+  return Math.floor(total / 100) * 100;
+}
