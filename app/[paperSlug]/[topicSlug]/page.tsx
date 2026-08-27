@@ -34,7 +34,7 @@ export default async function TopicPage(props: PageProps<"/[paperSlug]/[topicSlu
             <Link
               key={subtopic.id}
               href={`/${paper.slug}/${topic.slug}/${subtopic.slug}`}
-              className={`${CARD_BASE_CLASSES} ${CARD_INTERACTIVE_CLASSES} ${style.hoverBorder} ${style.hoverBg}`}
+              className={`${CARD_BASE_CLASSES} ${CARD_INTERACTIVE_CLASSES} ${style.border} ${style.hoverBg}`}
             >
               <h2 className="text-base font-semibold text-slate-900">{subtopic.name}</h2>
               <FlashcardProgressBadge

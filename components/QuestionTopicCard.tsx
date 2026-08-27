@@ -1,12 +1,12 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { CARD_BASE_CLASSES, CARD_INTERACTIVE_CLASSES, CARD_HOVER_BORDER, CARD_HOVER_BG } from "@/lib/styles";
+import { CARD_BASE_CLASSES, CARD_INTERACTIVE_CLASSES, CARD_BORDER_DEFAULT, CARD_HOVER_BG } from "@/lib/styles";
 
 type Props = {
   name: string;
   href: string;
   total: number;
-  hoverBorderClassName?: string;
+  borderClassName?: string;
   hoverBgClassName?: string;
   arrowClassName?: string;
 };
@@ -20,13 +20,13 @@ export default function QuestionTopicCard({
   name,
   href,
   total,
-  hoverBorderClassName = CARD_HOVER_BORDER,
+  borderClassName = CARD_BORDER_DEFAULT,
   hoverBgClassName = CARD_HOVER_BG,
   arrowClassName = "text-blue-600",
 }: Props) {
   if (total === 0) {
     return (
-      <div className={`flex flex-col gap-3 ${CARD_BASE_CLASSES} opacity-50`}>
+      <div className={`flex flex-col gap-3 ${CARD_BASE_CLASSES} ${borderClassName} opacity-50`}>
         <h2 className="text-lg font-bold text-slate-900">{name}</h2>
         <p className="text-sm text-slate-500">Coming soon</p>
       </div>
@@ -36,7 +36,7 @@ export default function QuestionTopicCard({
   return (
     <Link
       href={href}
-      className={`flex flex-col gap-3 ${CARD_BASE_CLASSES} ${CARD_INTERACTIVE_CLASSES} ${hoverBorderClassName} ${hoverBgClassName}`}
+      className={`flex flex-col gap-3 ${CARD_BASE_CLASSES} ${CARD_INTERACTIVE_CLASSES} ${borderClassName} ${hoverBgClassName}`}
     >
       <div className="flex items-start justify-between gap-3">
         <h2 className="text-lg font-bold text-slate-900">{name}</h2>

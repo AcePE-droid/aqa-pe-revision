@@ -4,7 +4,7 @@ import { Suspense, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/client";
-import { CARD_BASE_CLASSES } from "@/lib/styles";
+import { CARD_BASE_CLASSES, CARD_BORDER_DEFAULT } from "@/lib/styles";
 
 const ERROR_MESSAGES: Record<string, string> = {
   auth: "Something went wrong signing you in. Please try again.",
@@ -61,7 +61,7 @@ export default function LoginPage() {
 
   return (
     <div className="py-16">
-      <div className={`mx-auto max-w-[420px] ${CARD_BASE_CLASSES}`}>
+      <div className={`mx-auto max-w-[420px] ${CARD_BASE_CLASSES} ${CARD_BORDER_DEFAULT}`}>
         <h1 className="font-serif text-2xl font-semibold tracking-tight text-slate-900">
           Log in or create an account
         </h1>

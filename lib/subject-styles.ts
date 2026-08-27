@@ -1,36 +1,39 @@
-// Per-subject accent colours, used sparingly across the site (icons, progress
-// bars, hover borders, study-mode breadcrumb) so a student always has a
-// visual anchor to which subject they're in.
+// Per-subject accent colours, used across the site (icons, progress bars,
+// card borders, study-mode breadcrumb) so a student always has a visual
+// anchor to which subject they're in. The accent is shown at all times on
+// subject-scoped elements, not just on hover - hover feedback (shadow,
+// subtle background tint) stays separate and subtle.
 //
-// Tailwind can't detect dynamically-constructed class names like
-// `text-${color}-700`, so every class string used anywhere in the app must
-// be written out in full here rather than built at runtime.
+// The three accent hex values themselves live as named theme colours in
+// app/globals.css (--color-subject-anatomy/psychology/society), generated
+// into `bg-subject-anatomy`, `text-subject-anatomy`, `border-subject-anatomy`
+// etc. utilities. Tailwind can't detect dynamically-constructed class names
+// like `text-subject-${slug}`, so every class string used anywhere in the
+// app must be written out in full here rather than built at runtime.
 
 export type SubjectStyle = {
   icon: string;
   progressBar: string;
-  lightBg: string;
-  hoverBorder: string;
+  // Permanent border colour for any card/element representing this subject.
+  border: string;
+  // Subtle hover-only background tint, layered on top of the permanent
+  // border above.
   hoverBg: string;
-  // Stronger hover border cue than `hoverBorder`, for the study-mode
-  // flashcard specifically (it's the sole focal point of that screen, so it
-  // warrants a more visible signal than the -300 shade used on regular
-  // cards). Stored pre-fixed with `group-hover:` since that's the only place
-  // this field is used.
-  hoverBorderStrong: string;
+  lightBg: string;
   // Hex colours for the deck-mastery confetti celebration (FlashcardStudy).
   // canvas-confetti needs real colour values rather than Tailwind classes,
-  // so these are written out as hex (300/400/600 shades of the accent).
+  // so these are written out as hex: a lighter tint, the exact accent, and a
+  // darker shade, all derived from the single specified accent hex (the
+  // accent hex itself is never altered).
   confettiColors: string[];
 };
 
 const DEFAULT_STYLE: SubjectStyle = {
   icon: "text-blue-600",
   progressBar: "bg-blue-600",
-  lightBg: "bg-blue-50",
-  hoverBorder: "hover:border-blue-300",
+  border: "border-slate-200",
   hoverBg: "hover:bg-slate-50",
-  hoverBorderStrong: "group-hover:border-blue-400",
+  lightBg: "bg-blue-50",
   confettiColors: ["#93c5fd", "#60a5fa", "#2563eb"],
 };
 
@@ -38,31 +41,28 @@ const DEFAULT_STYLE: SubjectStyle = {
 // `slugify(topic.subject)`).
 export const subjectStyles: Record<string, SubjectStyle> = {
   "anatomy-physiology": {
-    icon: "text-rose-700",
-    progressBar: "bg-rose-600",
-    lightBg: "bg-rose-50",
-    hoverBorder: "hover:border-rose-300",
-    hoverBg: "hover:bg-rose-50/60",
-    hoverBorderStrong: "group-hover:border-rose-400",
-    confettiColors: ["#fda4af", "#fb7185", "#e11d48"],
+    icon: "text-subject-anatomy",
+    progressBar: "bg-subject-anatomy",
+    border: "border-subject-anatomy",
+    hoverBg: "hover:bg-subject-anatomy/5",
+    lightBg: "bg-subject-anatomy/10",
+    confettiColors: ["#8390b1", "#405487", "#303f65"],
   },
   "sports-psychology": {
-    icon: "text-violet-700",
-    progressBar: "bg-violet-600",
-    lightBg: "bg-violet-50",
-    hoverBorder: "hover:border-violet-300",
-    hoverBg: "hover:bg-violet-50/60",
-    hoverBorderStrong: "group-hover:border-violet-400",
-    confettiColors: ["#c4b5fd", "#a78bfa", "#7c3aed"],
+    icon: "text-subject-psychology",
+    progressBar: "bg-subject-psychology",
+    border: "border-subject-psychology",
+    hoverBg: "hover:bg-subject-psychology/5",
+    lightBg: "bg-subject-psychology/10",
+    confettiColors: ["#f3a8a1", "#ee8278", "#b3625a"],
   },
   "sport-society-history": {
-    icon: "text-amber-700",
-    progressBar: "bg-amber-600",
-    lightBg: "bg-amber-50",
-    hoverBorder: "hover:border-amber-300",
-    hoverBg: "hover:bg-amber-50/60",
-    hoverBorderStrong: "group-hover:border-amber-400",
-    confettiColors: ["#fcd34d", "#fbbf24", "#d97706"],
+    icon: "text-subject-society",
+    progressBar: "bg-subject-society",
+    border: "border-subject-society",
+    hoverBg: "hover:bg-subject-society/5",
+    lightBg: "bg-subject-society/10",
+    confettiColors: ["#ddeaac", "#cee188", "#9ba966"],
   },
 };
 

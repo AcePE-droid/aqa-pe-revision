@@ -12,7 +12,7 @@ type Props = {
   href: string;
   icon: ReactNode;
   iconClassName: string;
-  hoverBorderClassName: string;
+  borderClassName: string;
   hoverBgClassName: string;
   progressBarClassName: string;
   subtopicIds: string[];
@@ -25,7 +25,7 @@ export default function QuestionSubjectCard({
   href,
   icon,
   iconClassName,
-  hoverBorderClassName,
+  borderClassName,
   hoverBgClassName,
   progressBarClassName,
   subtopicIds,
@@ -45,7 +45,7 @@ export default function QuestionSubjectCard({
 
   if (totalQuestions === 0) {
     return (
-      <div className={`flex items-start gap-4 ${CARD_BASE_CLASSES} opacity-50`}>
+      <div className={`flex items-start gap-4 ${CARD_BASE_CLASSES} ${borderClassName} opacity-50`}>
         {icon}
         <div>
           <h2 className="text-lg font-semibold text-slate-900">{name}</h2>
@@ -61,7 +61,7 @@ export default function QuestionSubjectCard({
   return (
     <Link
       href={href}
-      className={`flex items-start gap-4 ${CARD_BASE_CLASSES} ${CARD_INTERACTIVE_CLASSES} ${hoverBorderClassName} ${hoverBgClassName}`}
+      className={`flex items-start gap-4 ${CARD_BASE_CLASSES} ${CARD_INTERACTIVE_CLASSES} ${borderClassName} ${hoverBgClassName}`}
     >
       {icon}
       <div className="flex-1">

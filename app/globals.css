@@ -11,6 +11,14 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-inter);
   --font-serif: var(--font-lora);
+
+  /* Per-subject accent colours (lib/subject-styles.ts is the single source
+     of truth for which subject uses which token). Exact hex values as
+     specified by the site owner - do not round to the nearest stock
+     Tailwind colour. */
+  --color-subject-anatomy: #405487;
+  --color-subject-psychology: #ee8278;
+  --color-subject-society: #cee188;
 }
 
 body {

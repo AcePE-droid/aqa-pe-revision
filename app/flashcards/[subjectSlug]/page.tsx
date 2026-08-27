@@ -80,7 +80,7 @@ export default async function FlashcardSubjectPage(
                   subtopicFlashcards={topic.subtopicFlashcards}
                   total={topic.total}
                   progressBarClassName={style.progressBar}
-                  hoverBorderClassName={style.hoverBorder}
+                  borderClassName={style.border}
                   hoverBgClassName={style.hoverBg}
                   arrowClassName={style.icon}
                 />

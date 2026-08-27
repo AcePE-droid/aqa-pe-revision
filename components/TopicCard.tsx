@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { getSubtopicProgress } from "@/lib/progress";
 import { useAuthUserId } from "@/lib/supabase/useAuthUserId";
-import { CARD_BASE_CLASSES, CARD_INTERACTIVE_CLASSES, CARD_HOVER_BORDER, CARD_HOVER_BG } from "@/lib/styles";
+import { CARD_BASE_CLASSES, CARD_INTERACTIVE_CLASSES, CARD_BORDER_DEFAULT, CARD_HOVER_BG } from "@/lib/styles";
 
 type Props = {
   name: string;
@@ -13,7 +13,7 @@ type Props = {
   subtopicFlashcards: { subtopicId: string; flashcardIds: string[] }[];
   total: number;
   progressBarClassName?: string;
-  hoverBorderClassName?: string;
+  borderClassName?: string;
   hoverBgClassName?: string;
   arrowClassName?: string;
 };
@@ -24,7 +24,7 @@ export default function TopicCard({
   subtopicFlashcards,
   total,
   progressBarClassName = "bg-blue-600",
-  hoverBorderClassName = CARD_HOVER_BORDER,
+  borderClassName = CARD_BORDER_DEFAULT,
   hoverBgClassName = CARD_HOVER_BG,
   arrowClassName = "text-blue-600",
 }: Props) {
@@ -54,7 +54,7 @@ export default function TopicCard({
 
   if (total === 0) {
     return (
-      <div className={`flex flex-col gap-3 ${CARD_BASE_CLASSES} opacity-50`}>
+      <div className={`flex flex-col gap-3 ${CARD_BASE_CLASSES} ${borderClassName} opacity-50`}>
         <h2 className="text-lg font-bold text-slate-900">{name}</h2>
         <p className="text-sm text-slate-500">Coming soon</p>
         <div className="h-1.5 w-full overflow-hidden rounded-full bg-slate-100" />
@@ -67,7 +67,7 @@ export default function TopicCard({
   return (
     <Link
       href={href}
-      className={`flex flex-col gap-3 ${CARD_BASE_CLASSES} ${CARD_INTERACTIVE_CLASSES} ${hoverBorderClassName} ${hoverBgClassName}`}
+      className={`flex flex-col gap-3 ${CARD_BASE_CLASSES} ${CARD_INTERACTIVE_CLASSES} ${borderClassName} ${hoverBgClassName}`}
     >
       <div className="flex items-start justify-between gap-3">
         <h2 className="text-lg font-bold text-slate-900">{name}</h2>

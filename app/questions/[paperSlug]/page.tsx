@@ -72,7 +72,7 @@ export default async function QuestionsSubjectPage(props: PageProps<"/questions/
                   name={card.name}
                   href={card.href}
                   total={card.total}
-                  hoverBorderClassName={style.hoverBorder}
+                  borderClassName={style.border}
                   hoverBgClassName={style.hoverBg}
                   arrowClassName={style.icon}
                 />

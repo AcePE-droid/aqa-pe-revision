@@ -84,7 +84,7 @@ export default function FlashcardGroupList({ basePath, flashcards, subjectSlug, 
               <li key={key}>
                 <Link
                   href={`${basePath}/flashcards?group=${key}`}
-                  className={`flex items-center justify-between rounded-lg border border-slate-200 px-4 py-3 ${style.hoverBorder} ${style.hoverBg}`}
+                  className={`flex items-center justify-between rounded-lg border px-4 py-3 ${style.border} ${style.hoverBg}`}
                 >
                   <span className="text-sm font-medium text-slate-900">{label}</span>
                   <span className="text-xs text-slate-500">{count} card{count === 1 ? "" : "s"}</span>

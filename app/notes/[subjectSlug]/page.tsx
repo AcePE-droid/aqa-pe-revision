@@ -82,7 +82,7 @@ export default async function NotesSubjectPage(props: PageProps<"/notes/[subject
                       href={topic.href}
                       withNotes={topic.withNotes}
                       total={topic.total}
-                      hoverBorderClassName={style.hoverBorder}
+                      borderClassName={style.border}
                       hoverBgClassName={style.hoverBg}
                       arrowClassName={style.icon}
                     />

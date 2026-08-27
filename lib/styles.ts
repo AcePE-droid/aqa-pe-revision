@@ -3,16 +3,25 @@
 // identical across the site regardless of which section they're in.
 // Card variants add their own layout/content classes alongside these; they
 // must not override them.
+//
+// Deliberately excludes a border colour: subject-scoped cards need a
+// permanently-visible accent border (lib/subject-styles.ts `border` field),
+// while subject-agnostic cards fall back to CARD_BORDER_DEFAULT below. Every
+// consumer of CARD_BASE_CLASSES must supply one or the other explicitly.
 export const CARD_BASE_CLASSES =
-  "rounded-xl border border-slate-200 bg-white p-5 md:p-6 transition-all duration-200";
+  "rounded-xl border bg-white p-5 md:p-6 transition-all duration-200";
 
 // Added on top of CARD_BASE_CLASSES for cards that are actually clickable
 // links (as opposed to e.g. a disabled "coming soon" card).
 export const CARD_INTERACTIVE_CLASSES = "hover:shadow-md cursor-pointer";
 
-// Default hover border for cards with no per-subject accent. Cards that
-// carry a subject accent (lib/subject-styles.ts) use their own hoverBorder
-// instead of this.
+// Default (permanent) border colour for cards with no per-subject accent.
+export const CARD_BORDER_DEFAULT = "border-slate-200";
+
+// Extra hover darkening for cards with no per-subject accent. Cards that
+// carry a subject accent (lib/subject-styles.ts) already show their accent
+// border at all times, so hover:shadow-md (from CARD_INTERACTIVE_CLASSES)
+// alone is their hover cue.
 export const CARD_HOVER_BORDER = "hover:border-slate-300";
 
 // Default hover background for cards with no per-subject accent. Cards that

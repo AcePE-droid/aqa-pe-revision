@@ -44,7 +44,7 @@ export default async function NotesTopicPage(props: PageProps<"/notes/[subjectSl
             return (
               <div
                 key={subtopic.id}
-                className={`flex items-center gap-4 ${CARD_BASE_CLASSES} opacity-50`}
+                className={`flex items-center gap-4 ${CARD_BASE_CLASSES} ${style.border} opacity-50`}
               >
                 <span className="font-serif text-lg font-light text-slate-300">{number}</span>
                 <h2 className="flex-1 font-serif text-base font-semibold text-slate-900">
@@ -59,7 +59,7 @@ export default async function NotesTopicPage(props: PageProps<"/notes/[subjectSl
             <Link
               key={subtopic.id}
               href={`/notes/${subject.slug}/${topic.slug}/${subtopic.slug}`}
-              className={`flex items-center gap-4 ${CARD_BASE_CLASSES} ${CARD_INTERACTIVE_CLASSES} ${style.hoverBorder} ${style.hoverBg}`}
+              className={`flex items-center gap-4 ${CARD_BASE_CLASSES} ${CARD_INTERACTIVE_CLASSES} ${style.border} ${style.hoverBg}`}
             >
               <span className="font-serif text-lg font-light text-slate-300">{number}</span>
               <h2 className="flex-1 font-serif text-base font-semibold text-slate-900">

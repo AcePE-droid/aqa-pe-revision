@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Layers, BookOpen, FileText, type LucideIcon } from "lucide-react";
-import { CARD_BASE_CLASSES } from "@/lib/styles";
+import { CARD_BASE_CLASSES, CARD_BORDER_DEFAULT } from "@/lib/styles";
 
 type Props = {
   flashcardCount: number;
@@ -72,7 +72,7 @@ export default function WhatsInsideSection({ flashcardCount }: Props) {
         {cards.map(({ icon: Icon, heading, description, delay }) => (
           <div
             key={heading}
-            className={`flex flex-col gap-3 ${CARD_BASE_CLASSES} ${delay} transition-[opacity,transform] duration-[550ms] ease-out motion-reduce:!translate-y-0 motion-reduce:!opacity-100 motion-reduce:!transition-none ${
+            className={`flex flex-col gap-3 ${CARD_BASE_CLASSES} ${CARD_BORDER_DEFAULT} ${delay} transition-[opacity,transform] duration-[550ms] ease-out motion-reduce:!translate-y-0 motion-reduce:!opacity-100 motion-reduce:!transition-none ${
               inView ? "translate-y-0 opacity-100" : "translate-y-5 opacity-0"
             }`}
           >

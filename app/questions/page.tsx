@@ -38,7 +38,7 @@ export default function QuestionsHubPage() {
               href={subject.href}
               icon={<subject.Icon className={`mt-0.5 h-6 w-6 shrink-0 ${subject.iconClassName}`} />}
               iconClassName={subject.iconClassName}
-              hoverBorderClassName={subject.hoverBorderClassName}
+              borderClassName={subject.borderClassName}
               hoverBgClassName={subject.hoverBgClassName}
               progressBarClassName={getSubjectStyle(subject.slug).progressBar}
               subtopicIds={subtopicIds}

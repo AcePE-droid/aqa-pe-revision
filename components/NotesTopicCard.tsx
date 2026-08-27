@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { CARD_BASE_CLASSES, CARD_INTERACTIVE_CLASSES, CARD_HOVER_BORDER, CARD_HOVER_BG } from "@/lib/styles";
+import { CARD_BASE_CLASSES, CARD_INTERACTIVE_CLASSES, CARD_BORDER_DEFAULT, CARD_HOVER_BG } from "@/lib/styles";
 
 type Props = {
   index: number;
@@ -8,7 +8,7 @@ type Props = {
   href: string;
   withNotes: number;
   total: number;
-  hoverBorderClassName?: string;
+  borderClassName?: string;
   hoverBgClassName?: string;
   arrowClassName?: string;
 };
@@ -24,7 +24,7 @@ export default function NotesTopicCard({
   href,
   withNotes,
   total,
-  hoverBorderClassName = CARD_HOVER_BORDER,
+  borderClassName = CARD_BORDER_DEFAULT,
   hoverBgClassName = CARD_HOVER_BG,
   arrowClassName = "text-blue-600",
 }: Props) {
@@ -32,7 +32,7 @@ export default function NotesTopicCard({
 
   if (withNotes === 0) {
     return (
-      <div className={`flex items-start gap-4 ${CARD_BASE_CLASSES} opacity-50`}>
+      <div className={`flex items-start gap-4 ${CARD_BASE_CLASSES} ${borderClassName} opacity-50`}>
         <span className="font-serif text-2xl font-light text-slate-300">{number}</span>
         <div>
           <h2 className="font-serif text-lg font-semibold text-slate-900">{name}</h2>
@@ -45,7 +45,7 @@ export default function NotesTopicCard({
   return (
     <Link
       href={href}
-      className={`flex items-start gap-4 ${CARD_BASE_CLASSES} ${CARD_INTERACTIVE_CLASSES} ${hoverBorderClassName} ${hoverBgClassName}`}
+      className={`flex items-start gap-4 ${CARD_BASE_CLASSES} ${CARD_INTERACTIVE_CLASSES} ${borderClassName} ${hoverBgClassName}`}
     >
       <span className="font-serif text-2xl font-light text-slate-300">{number}</span>
       <div className="flex-1">
