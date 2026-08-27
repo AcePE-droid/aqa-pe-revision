@@ -42,13 +42,13 @@ export default function WhatsInsideSection({ flashcardCount }: Props) {
     {
       icon: Layers,
       heading: "Flashcards",
-      description: `Over ${flashcardCount.toLocaleString()} flashcards for every subtopic — study with active recall`,
+      description: `Over ${flashcardCount.toLocaleString()} flashcards for every subtopic, study with active recall`,
       delay: "delay-0",
     },
     {
       icon: BookOpen,
       heading: "Revision Notes",
-      description: "Condensed notes for every topic — no fluff, just what you need",
+      description: "Condensed notes for every topic, no fluff, just what you need",
       delay: "delay-150",
     },
     {
