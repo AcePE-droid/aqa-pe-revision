@@ -63,7 +63,7 @@ export default function WhatsInsideSection({ flashcardCount }: Props) {
     <section
       id="whats-inside"
       ref={sectionRef}
-      className="scroll-mt-24 border-t border-slate-200 py-20 text-center"
+      className="scroll-mt-24 py-20 text-center"
     >
       <h2 className="font-serif text-2xl font-semibold tracking-tight text-slate-600 sm:text-3xl">
         What&rsquo;s inside

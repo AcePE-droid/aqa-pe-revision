@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { ChevronDown } from "lucide-react";
 import AccountDeletedToast from "@/components/AccountDeletedToast";
 import WhatsInsideSection from "@/components/WhatsInsideSection";
 import { getTotalFlashcardCount } from "@/lib/content";
@@ -11,38 +10,28 @@ export default function Home() {
     <div>
       <AccountDeletedToast />
 
-      <section className="flex min-h-[60vh] flex-col items-center px-4 text-center">
-        <div className="flex flex-1 flex-col items-center justify-center">
-          <h1 className="font-serif text-5xl font-semibold tracking-tight text-slate-900 sm:text-6xl md:text-7xl">
-            All your A-Level PE revision,
-            <br />
-            <span className="relative inline-block">
-              in one place
-              <span
-                aria-hidden="true"
-                className="hero-underline absolute inset-x-0 -bottom-1 h-1 rounded-full bg-blue-600"
-              />
-            </span>
-            .
-          </h1>
-          <p className="mt-6 max-w-xl text-lg leading-8 text-slate-600">
-            Flashcards, practice questions, and revision notes for every topic on the AQA (7582)
-            spec. Made by a former student, for students. Free forever.
-          </p>
-          <Link
-            href="/flashcards"
-            className="mt-8 inline-flex items-center justify-center rounded-md bg-blue-600 px-6 py-3 text-base font-medium text-white hover:bg-blue-700"
-          >
-            Start revising
-          </Link>
-        </div>
-
+      <section className="flex min-h-[60vh] flex-col items-center justify-center px-4 text-center">
+        <h1 className="font-serif text-5xl font-semibold tracking-tight text-slate-900 sm:text-6xl md:text-7xl">
+          All your A-Level PE revision,
+          <br />
+          <span className="relative inline-block">
+            in one place
+            <span
+              aria-hidden="true"
+              className="hero-underline absolute inset-x-0 -bottom-1 h-1 rounded-full bg-blue-600"
+            />
+          </span>
+          .
+        </h1>
+        <p className="mt-6 max-w-xl text-lg leading-8 text-slate-600">
+          Flashcards, practice questions, and revision notes for every topic on the AQA (7582)
+          spec. Made by a former student, for students. Free forever.
+        </p>
         <Link
-          href="#whats-inside"
-          aria-label="Scroll to learn more"
-          className="pb-10 text-slate-400 hover:text-slate-600"
+          href="/flashcards"
+          className="mt-8 inline-flex items-center justify-center rounded-md bg-blue-600 px-6 py-3 text-base font-medium text-white hover:bg-blue-700"
         >
-          <ChevronDown className="hero-scroll-indicator h-6 w-6" />
+          Start revising
         </Link>
       </section>
 
