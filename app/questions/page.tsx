@@ -1,6 +1,5 @@
 import { getSubjectCards } from "@/lib/subjects";
 import { getTopicsBySubject, getSubtopicsByTopicId, getPaperById, getQuestions } from "@/lib/content";
-import { getSubjectStyle } from "@/lib/subject-styles";
 import QuestionSubjectCard from "@/components/QuestionSubjectCard";
 
 export default function QuestionsHubPage() {
@@ -36,11 +35,14 @@ export default function QuestionsHubPage() {
               name={subject.name}
               subtitle={subject.subtitle}
               href={subject.href}
-              icon={<subject.Icon className={`mt-0.5 h-6 w-6 shrink-0 ${subject.iconClassName}`} />}
-              iconClassName={subject.iconClassName}
+              icon={<subject.Icon className={`mt-0.5 h-6 w-6 shrink-0 ${subject.onSolidIconClassName}`} />}
               borderClassName={subject.borderClassName}
-              hoverBgClassName={subject.hoverBgClassName}
-              progressBarClassName={getSubjectStyle(subject.slug).progressBar}
+              solidBgClassName={subject.solidBgClassName}
+              onSolidTextClassName={subject.onSolidTextClassName}
+              onSolidSubtextClassName={subject.onSolidSubtextClassName}
+              onSolidIconClassName={subject.onSolidIconClassName}
+              onSolidTrackClassName={subject.onSolidTrackClassName}
+              onSolidFillClassName={subject.onSolidFillClassName}
               subtopicIds={subtopicIds}
               totalQuestions={totalQuestions}
             />

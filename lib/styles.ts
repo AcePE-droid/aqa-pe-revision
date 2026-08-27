@@ -8,8 +8,12 @@
 // permanently-visible accent border (lib/subject-styles.ts `border` field),
 // while subject-agnostic cards fall back to CARD_BORDER_DEFAULT below. Every
 // consumer of CARD_BASE_CLASSES must supply one or the other explicitly.
-export const CARD_BASE_CLASSES =
-  "rounded-xl border bg-white p-5 md:p-6 transition-all duration-200";
+// Shared shape/spacing, deliberately excluding a background colour so
+// solid-fill subject cards (SubjectCard, QuestionSubjectCard) can supply
+// their own accent background instead of the default white below.
+export const CARD_SHAPE_CLASSES = "rounded-xl border p-5 md:p-6 transition-all duration-200";
+
+export const CARD_BASE_CLASSES = `${CARD_SHAPE_CLASSES} bg-white`;
 
 // Added on top of CARD_BASE_CLASSES for cards that are actually clickable
 // links (as opposed to e.g. a disabled "coming soon" card).

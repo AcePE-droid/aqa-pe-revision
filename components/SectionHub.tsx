@@ -10,6 +10,10 @@ type Subject = {
   iconClassName?: string;
   borderClassName?: string;
   hoverBgClassName?: string;
+  solidBgClassName?: string;
+  onSolidTextClassName?: string;
+  onSolidSubtextClassName?: string;
+  onSolidIconClassName?: string;
 };
 
 type Props = {
@@ -37,6 +41,10 @@ export default function SectionHub({ eyebrow, title, description, subjects }: Pr
             iconClassName={subject.iconClassName}
             borderClassName={subject.borderClassName}
             hoverBgClassName={subject.hoverBgClassName}
+            solidBgClassName={subject.solidBgClassName}
+            onSolidTextClassName={subject.onSolidTextClassName}
+            onSolidSubtextClassName={subject.onSolidSubtextClassName}
+            onSolidIconClassName={subject.onSolidIconClassName}
           />
         ))}
       </div>

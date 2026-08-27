@@ -26,6 +26,20 @@ export type SubjectStyle = {
   // darker shade, all derived from the single specified accent hex (the
   // accent hex itself is never altered).
   confettiColors: string[];
+  // Solid-fill variant for the top-level subject-picker cards (SubjectCard,
+  // QuestionSubjectCard): the card background is the full accent colour
+  // rather than white. Text/icon/progress-bar colours on top of that fill
+  // are chosen per-subject for WCAG contrast, since the three accent hexes
+  // have very different lightness (navy is dark -> white text; the coral
+  // and green accents are mid-tone -> white text fails contrast on them, so
+  // they use dark text instead). Flagged for the site owner: this means the
+  // three solid cards don't share one text colour.
+  solidBg: string;
+  onSolidText: string;
+  onSolidSubtext: string;
+  onSolidIcon: string;
+  onSolidTrack: string;
+  onSolidFill: string;
 };
 
 const DEFAULT_STYLE: SubjectStyle = {
@@ -35,6 +49,12 @@ const DEFAULT_STYLE: SubjectStyle = {
   hoverBg: "hover:bg-slate-50",
   lightBg: "bg-blue-50",
   confettiColors: ["#93c5fd", "#60a5fa", "#2563eb"],
+  solidBg: "bg-blue-600",
+  onSolidText: "text-white",
+  onSolidSubtext: "text-white/80",
+  onSolidIcon: "text-white",
+  onSolidTrack: "bg-white/25",
+  onSolidFill: "bg-white",
 };
 
 // Keyed by subject slug (matches `getSubjects()` in lib/content.ts, i.e.
@@ -47,6 +67,12 @@ export const subjectStyles: Record<string, SubjectStyle> = {
     hoverBg: "hover:bg-subject-anatomy/5",
     lightBg: "bg-subject-anatomy/10",
     confettiColors: ["#8390b1", "#405487", "#303f65"],
+    solidBg: "bg-subject-anatomy",
+    onSolidText: "text-white",
+    onSolidSubtext: "text-white/80",
+    onSolidIcon: "text-white",
+    onSolidTrack: "bg-white/25",
+    onSolidFill: "bg-white",
   },
   "sports-psychology": {
     icon: "text-subject-psychology",
@@ -55,6 +81,12 @@ export const subjectStyles: Record<string, SubjectStyle> = {
     hoverBg: "hover:bg-subject-psychology/5",
     lightBg: "bg-subject-psychology/10",
     confettiColors: ["#f3a8a1", "#ee8278", "#b3625a"],
+    solidBg: "bg-subject-psychology",
+    onSolidText: "text-slate-900",
+    onSolidSubtext: "text-slate-900/70",
+    onSolidIcon: "text-slate-900",
+    onSolidTrack: "bg-slate-900/15",
+    onSolidFill: "bg-slate-900/70",
   },
   "sport-society-history": {
     icon: "text-subject-society",
@@ -62,7 +94,13 @@ export const subjectStyles: Record<string, SubjectStyle> = {
     border: "border-subject-society",
     hoverBg: "hover:bg-subject-society/5",
     lightBg: "bg-subject-society/10",
-    confettiColors: ["#ddeaac", "#cee188", "#9ba966"],
+    confettiColors: ["#a9c081", "#7a9e3d", "#5c772e"],
+    solidBg: "bg-subject-society",
+    onSolidText: "text-slate-900",
+    onSolidSubtext: "text-slate-900/70",
+    onSolidIcon: "text-slate-900",
+    onSolidTrack: "bg-slate-900/15",
+    onSolidFill: "bg-slate-900/70",
   },
 };
 

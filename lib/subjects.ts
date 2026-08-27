@@ -17,6 +17,12 @@ export type SubjectCardData = {
   iconClassName: string;
   borderClassName: string;
   hoverBgClassName: string;
+  solidBgClassName: string;
+  onSolidTextClassName: string;
+  onSolidSubtextClassName: string;
+  onSolidIconClassName: string;
+  onSolidTrackClassName: string;
+  onSolidFillClassName: string;
 };
 
 /**
@@ -26,15 +32,22 @@ export type SubjectCardData = {
 export function getSubjectCards(basePath: string): SubjectCardData[] {
   return getSubjects().map((subject) => {
     const topics = getTopicsBySubject(subject.name);
+    const style = getSubjectStyle(subject.slug);
     return {
       slug: subject.slug,
       name: subject.name,
       subtitle: topics.map((t) => t.name).join(", "),
       href: `${basePath}/${subject.slug}`,
       Icon: SUBJECT_ICONS[subject.name] ?? Brain,
-      iconClassName: getSubjectStyle(subject.slug).icon,
-      borderClassName: getSubjectStyle(subject.slug).border,
-      hoverBgClassName: getSubjectStyle(subject.slug).hoverBg,
+      iconClassName: style.icon,
+      borderClassName: style.border,
+      hoverBgClassName: style.hoverBg,
+      solidBgClassName: style.solidBg,
+      onSolidTextClassName: style.onSolidText,
+      onSolidSubtextClassName: style.onSolidSubtext,
+      onSolidIconClassName: style.onSolidIcon,
+      onSolidTrackClassName: style.onSolidTrack,
+      onSolidFillClassName: style.onSolidFill,
     };
   });
 }
