@@ -39,11 +39,6 @@ body {
     rgba(100, 116, 139, 0.18) 27px,
     rgba(100, 116, 139, 0.18) 28px
   );
-  /* Anchor the gradient to the content box (where text actually starts)
-     rather than the padding box (the default), so the first rule lines
-     up under the first line of text/placeholder instead of appearing
-     inside the top padding. */
-  background-origin: content-box;
   background-attachment: local;
 }
 

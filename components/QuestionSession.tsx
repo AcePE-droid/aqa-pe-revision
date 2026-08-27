@@ -181,7 +181,7 @@ export default function QuestionSession({ breadcrumb, subjectSlug, backHref, que
                 onChange={(e) => setAnswer(e.target.value)}
                 disabled={revealed}
                 placeholder="Type your answer..."
-                className="ruled-lines mt-6 h-[202px] w-full rounded-md border border-slate-200 p-4 font-serif text-slate-800 focus:border-blue-400 focus:outline-none disabled:bg-slate-50"
+                className="ruled-lines mt-6 h-[224px] w-full rounded-md border border-slate-200 px-4 py-0 font-serif text-slate-800 focus:border-blue-400 focus:outline-none disabled:bg-slate-50"
               />
             )}
 
