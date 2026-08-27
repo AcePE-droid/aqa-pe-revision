@@ -10,7 +10,7 @@ export default function Home() {
     <div>
       <AccountDeletedToast />
 
-      <section className="flex min-h-[60vh] flex-col items-center justify-center px-4 text-center">
+      <section className="flex min-h-[30vh] flex-col items-center justify-center px-4 text-center">
         <h1 className="font-serif text-5xl font-semibold tracking-tight text-slate-900 sm:text-6xl md:text-7xl">
           All your A-Level PE revision,
           <br />
