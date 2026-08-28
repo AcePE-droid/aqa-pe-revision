@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { X, ChevronLeft, ChevronRight, ClipboardCheck } from "lucide-react";
 import type { Question } from "@/types/content";
-import { getQuestionProgress, setQuestionAttempted } from "@/lib/progress";
+import { getQuestionProgress, setQuestionAttempted, setQuestionMarks } from "@/lib/progress";
 import { getSubjectStyle } from "@/lib/subject-styles";
 
 type Props = {
@@ -59,12 +59,23 @@ function stripOptionLabel(option: string): string {
   return option.replace(/^[A-Za-z]\s*[-.):]\s*/, "");
 }
 
+// Colour bands for the self-assessed-mark badge, matching the site's
+// existing green/amber/red palette used elsewhere for correct/incorrect
+// states (see the multiple-choice option classes below).
+function markBadgeClasses(marksAwarded: number, totalMarks: number): string {
+  const pct = totalMarks > 0 ? marksAwarded / totalMarks : 0;
+  if (pct >= 0.8) return "border-green-300 bg-green-100 text-green-800";
+  if (pct >= 0.5) return "border-amber-300 bg-amber-100 text-amber-800";
+  return "border-red-300 bg-red-100 text-red-800";
+}
+
 export default function QuestionSession({ breadcrumb, subjectSlug, backHref, questions }: Props) {
   const [index, setIndex] = useState(0);
   const [answer, setAnswer] = useState("");
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [revealed, setRevealed] = useState(false);
   const [attemptedIds, setAttemptedIds] = useState<Set<string>>(new Set());
+  const [selfMarks, setSelfMarks] = useState<Record<string, number>>({});
 
   const question = questions[index];
 
@@ -72,11 +83,18 @@ export default function QuestionSession({ breadcrumb, subjectSlug, backHref, que
     // localStorage isn't available during SSR, so this can only be read after mount -
     // deliberately deferred to avoid a client/server hydration mismatch.
     const ids = new Set<string>();
+    const marks: Record<string, number> = {};
     for (const q of questions) {
       const progress = getQuestionProgress(q.subtopicId);
-      if (progress[q.id]) ids.add(q.id);
+      if (progress[q.id]) {
+        ids.add(q.id);
+        if (progress[q.id].marksAwarded !== undefined) {
+          marks[q.id] = progress[q.id].marksAwarded!;
+        }
+      }
     }
     setAttemptedIds(ids);
+    setSelfMarks(marks);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -88,10 +106,19 @@ export default function QuestionSession({ breadcrumb, subjectSlug, backHref, que
     setRevealed(false);
   }
 
-  function reveal() {
-    setRevealed(true);
-    setQuestionAttempted(question.subtopicId, question.id);
-    setAttemptedIds((prev) => new Set(prev).add(question.id));
+  function toggleReveal() {
+    if (!revealed) {
+      setRevealed(true);
+      setQuestionAttempted(question.subtopicId, question.id);
+      setAttemptedIds((prev) => new Set(prev).add(question.id));
+    } else {
+      setRevealed(false);
+    }
+  }
+
+  function saveMark(marks: number) {
+    setQuestionMarks(question.subtopicId, question.id, marks);
+    setSelfMarks((prev) => ({ ...prev, [question.id]: marks }));
   }
 
   const subjectStyle = getSubjectStyle(subjectSlug);
@@ -138,9 +165,18 @@ export default function QuestionSession({ breadcrumb, subjectSlug, backHref, que
               <span className="inline-flex h-10 min-w-10 items-center justify-center rounded-md border-2 border-slate-900 px-2 font-serif text-lg font-bold text-slate-900">
                 {question.questionNumber}
               </span>
-              <span className="shrink-0 rounded-md border border-slate-300 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-slate-600">
-                {question.marks} mark{question.marks === 1 ? "" : "s"}
-              </span>
+              <div className="flex shrink-0 items-center gap-2">
+                {selfMarks[question.id] !== undefined && (
+                  <span
+                    className={`rounded-md border px-2 py-1 text-xs font-semibold ${markBadgeClasses(selfMarks[question.id], question.marks)}`}
+                  >
+                    {selfMarks[question.id]}/{question.marks}
+                  </span>
+                )}
+                <span className="rounded-md border border-slate-300 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-slate-600">
+                  {question.marks} mark{question.marks === 1 ? "" : "s"}
+                </span>
+              </div>
             </div>
             <p className="mt-5 whitespace-pre-wrap font-serif text-lg leading-8 text-slate-800">
               {question.question}
@@ -179,20 +215,19 @@ export default function QuestionSession({ breadcrumb, subjectSlug, backHref, que
               <textarea
                 value={answer}
                 onChange={(e) => setAnswer(e.target.value)}
-                disabled={revealed}
                 placeholder="Type your answer..."
-                className="ruled-lines mt-6 h-[224px] w-full rounded-md border border-slate-200 px-4 py-0 font-serif text-slate-800 focus:border-blue-400 focus:outline-none disabled:bg-slate-50"
+                className="ruled-lines mt-6 h-[224px] w-full rounded-md border border-slate-200 px-4 py-0 font-serif text-slate-800 focus:border-blue-400 focus:outline-none"
               />
             )}
 
-            {!revealed ? (
-              <button
-                onClick={reveal}
-                className="mt-4 rounded-md bg-blue-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-blue-700"
-              >
-                Reveal Mark Scheme
-              </button>
-            ) : (
+            <button
+              onClick={toggleReveal}
+              className="mt-4 rounded-md bg-blue-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-blue-700"
+            >
+              {revealed ? "Hide Mark Scheme" : "Show Mark Scheme"}
+            </button>
+
+            {revealed && (
               <div className="mt-4 overflow-hidden rounded-md border border-slate-200">
                 <div className="flex items-center gap-2 border-b border-slate-200 bg-slate-50 px-4 py-2.5">
                   <ClipboardCheck className="h-4 w-4 text-slate-500" />
@@ -220,6 +255,26 @@ export default function QuestionSession({ breadcrumb, subjectSlug, backHref, que
                   <p className="mt-4 border-t border-slate-100 pt-3 text-xs font-semibold uppercase tracking-wide text-slate-400">
                     Total: {question.marks} mark{question.marks === 1 ? "" : "s"}
                   </p>
+                </div>
+
+                <div className="border-t border-slate-200 bg-white px-4 py-4">
+                  <p className="text-sm font-medium text-slate-700">How many marks did you give yourself?</p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    {Array.from({ length: question.marks + 1 }, (_, i) => i).map((mark) => (
+                      <button
+                        key={mark}
+                        onClick={() => saveMark(mark)}
+                        className={`flex h-10 w-10 items-center justify-center rounded-lg border-2 text-sm font-semibold transition-colors ${
+                          selfMarks[question.id] === mark
+                            ? "border-blue-600 bg-blue-100 text-blue-600"
+                            : "border-slate-200 bg-white text-slate-700 hover:border-slate-300"
+                        }`}
+                      >
+                        {mark}
+                      </button>
+                    ))}
+                  </div>
+                  <p className="mt-2 text-xs text-slate-500">out of {question.marks}</p>
                 </div>
               </div>
             )}

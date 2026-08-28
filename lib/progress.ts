@@ -198,13 +198,37 @@ export async function resetCloudProgress(userId: string): Promise<void> {
 // --- Question progress, celebration flag, last-learning IDs ----------------
 // Local-only for all users, signed in or not - not part of the account sync.
 
-export function getQuestionProgress(subtopicId: string): Record<string, boolean> {
-  return readJson(questionKey(subtopicId), {});
+export type QuestionProgress = {
+  attempted: boolean;
+  marksAwarded?: number;
+};
+
+function migrateQuestionProgress(old: Record<string, boolean | QuestionProgress>): Record<string, QuestionProgress> {
+  const migrated: Record<string, QuestionProgress> = {};
+  for (const [id, value] of Object.entries(old)) {
+    if (typeof value === "boolean") {
+      migrated[id] = { attempted: value };
+    } else {
+      migrated[id] = value;
+    }
+  }
+  return migrated;
+}
+
+export function getQuestionProgress(subtopicId: string): Record<string, QuestionProgress> {
+  const raw = readJson<Record<string, boolean | QuestionProgress>>(questionKey(subtopicId), {});
+  return migrateQuestionProgress(raw);
 }
 
 export function setQuestionAttempted(subtopicId: string, questionId: string) {
   const progress = getQuestionProgress(subtopicId);
-  progress[questionId] = true;
+  progress[questionId] = { attempted: true, marksAwarded: progress[questionId]?.marksAwarded };
+  writeJson(questionKey(subtopicId), progress);
+}
+
+export function setQuestionMarks(subtopicId: string, questionId: string, marksAwarded: number) {
+  const progress = getQuestionProgress(subtopicId);
+  progress[questionId] = { attempted: true, marksAwarded };
   writeJson(questionKey(subtopicId), progress);
 }
 

@@ -44,7 +44,7 @@ export default function QuestionSubjectCard({
     // deliberately deferred to avoid a client/server hydration mismatch.
     const count = subtopicIds.reduce((sum, id) => {
       const progress = getQuestionProgress(id);
-      return sum + Object.values(progress).filter(Boolean).length;
+      return sum + Object.values(progress).filter((p) => p.attempted).length;
     }, 0);
     setAttempted(count);
   }, [subtopicIds]);
