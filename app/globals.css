@@ -19,6 +19,21 @@
   --color-subject-anatomy: #405487;
   --color-subject-psychology: #f5b4ae;
   --color-subject-society: #6fa189;
+
+  /* Site-wide highlight accent (links, "Start now" CTAs, active nav
+     underlines, small badges/labels). Overrides Tailwind's stock "blue"
+     palette so every existing `blue-*` utility across the site picks up
+     the new brand colour without touching the subject accent colours
+     above. #736aec is the exact hex specified by the site owner; the
+     other shades are a proportional tint/shade ramp derived from it. */
+  --color-blue-50: #eae8fc;
+  --color-blue-100: #d9d6fa;
+  --color-blue-300: #b3aef5;
+  --color-blue-400: #9189f0;
+  --color-blue-500: #8077ee;
+  --color-blue-600: #736aec;
+  --color-blue-700: #4d41e7;
+  --color-blue-800: #2b1de2;
 }
 
 body {
