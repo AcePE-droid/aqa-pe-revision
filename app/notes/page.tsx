@@ -20,8 +20,12 @@ export default function NotesHubPage() {
             subtitle={subject.subtitle}
             href={subject.href}
             Icon={subject.Icon}
-            iconClassName={subject.iconClassName}
-            accentBarClassName={subject.progressBarClassName}
+            solidBgClassName={subject.solidBgClassName}
+            borderClassName={subject.borderClassName}
+            onSolidTextClassName={subject.onSolidTextClassName}
+            onSolidSubtextClassName={subject.onSolidSubtextClassName}
+            onSolidIconClassName={subject.onSolidIconClassName}
+            onSolidFillClassName={subject.onSolidFillClassName}
             index={index}
           />
         ))}

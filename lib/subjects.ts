@@ -23,7 +23,6 @@ export type SubjectCardData = {
   onSolidIconClassName: string;
   onSolidTrackClassName: string;
   onSolidFillClassName: string;
-  progressBarClassName: string;
 };
 
 /**
@@ -49,7 +48,6 @@ export function getSubjectCards(basePath: string): SubjectCardData[] {
       onSolidIconClassName: style.onSolidIcon,
       onSolidTrackClassName: style.onSolidTrack,
       onSolidFillClassName: style.onSolidFill,
-      progressBarClassName: style.progressBar,
     };
   });
 }
