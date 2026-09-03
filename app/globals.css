@@ -17,8 +17,8 @@
      specified by the site owner - do not round to the nearest stock
      Tailwind colour. */
   --color-subject-anatomy: #405487;
-  --color-subject-psychology: #ee8278;
-  --color-subject-society: #7a9e3d;
+  --color-subject-psychology: #f5b4ae;
+  --color-subject-society: #6fa189;
 }
 
 body {
