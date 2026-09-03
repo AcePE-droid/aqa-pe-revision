@@ -25,7 +25,7 @@ export default function Home() {
         </h1>
         <p className="mt-6 max-w-xl text-lg leading-8 text-slate-600">
           Flashcards, practice questions, and revision notes for every topic on the AQA (7582)
-          spec. Made by a student for future students.
+          spec. Made by a student, for future students.
         </p>
         <Link
           href="/flashcards"
