@@ -1,0 +1,16 @@
+## Motivation: Intrinsic and Extrinsic
+
+**Motivation** is the drive needed to succeed, describing the internal and external stimuli and mechanisms that drive and direct behaviour. Keeping individual sports performers and members of teams motivated is a high priority for sports coaches, as motivation keeps players on track and ensures they are giving their best effort in every game.
+
+- **Intrinsic motivation** comes from within the performer – it is a drive that comes from within, itself giving a feeling of pride and satisfaction from having completed a task, such as when a climber completes a difficult route or when a runner completes a marathon, with the objective having been met giving a sense of self-satisfaction
+- **Extrinsic motivation** comes from an outside source, such as the coach or other players, or could come from external sources like spectators cheering on, such as the crowds that support and encourage the runners in the London Marathon or in a 10k running event. Extrinsic motivation can be presented in two forms: tangible and intangible
+- **Tangible rewards** are those that are physical and can be touched or held, such as medals or certificates achieved by youngsters as they make progress in early swimming classes, or the cups and trophies won by professional players as they win their league or cup competition
+- **Intangible rewards** are non-physical and concern the praise and encouragement that could be gained from the coach, applause from the crowd, positive comments given by the press, and even the breaking of a personal best time when a certificate may not be given but you know you have done well
+
+## Balancing Motivation and Coaching Tactics
+
+Coaches and players must be careful not to place too much emphasis on extrinsic rewards, since over-use may lead to a loss in value and incentive – there is always a trophy or badge on offer, so this might become the norm rather than the exception, and players may even compete to get the reward and not for the true value of the game.
+
+- Excessive extrinsic rewards may also place pressure on players to gain the reward and could even lead to cheating as players bend the rules to gain the reward. Extrinsic motives can undermine the intrinsic reasons for competing, since players may start to compete just to get a reward and not for the benefits in exercise, health and skill improvements that competing could bring
+- Intrinsic motivation is better because it is stronger and longer lasting. The coach should maintain intrinsic and extrinsic motives by using tactics such as: offering rewards and incentives early on, e.g. a 'player of the week' award; making the activity fun and enjoyable, perhaps by including mini-games and easier tasks to allow success; pointing out the health benefits of the task; breaking the skill down into parts, to allow success on each part; pointing out role models to whom the performer can aspire; making the performer feel responsible for any success achieved by giving praise; attributing success internally, telling the player that a good result was down to them; setting goals or targets that are achievable by the performer; and using feedback to inspire and correct errors
+- It might not always be possible to increase motivation as other influences, such as anxiety, could be present during a performance
