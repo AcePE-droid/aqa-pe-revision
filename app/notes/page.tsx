@@ -6,7 +6,7 @@ export default function NotesHubPage() {
 
   return (
     <div className="flex min-h-[70vh] flex-col justify-center py-16 text-center">
-      <p className="text-sm font-medium text-blue-600">Notes</p>
+      <p className="text-sm font-semibold uppercase tracking-wide text-blue-600">Notes</p>
       <h1 className="mt-1 font-serif text-4xl font-semibold tracking-tight text-slate-900 md:text-5xl">
         Read condensed revision notes
       </h1>
