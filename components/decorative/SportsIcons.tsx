@@ -18,8 +18,8 @@ export function Football(props: IconProps) {
   return (
     <svg {...base} {...props}>
       <circle cx="12" cy="12" r="9" />
-      <path d="M12 7.5l2.6 1.9-1 3h-3.2l-1-3z" />
-      <path d="M12 3.5v4M12 20.5v-4M4.3 8.6l3.1-.7M19.7 8.6l-3.1-.7M5 16.4l2.9-2.1M19 16.4l-2.9-2.1" />
+      <path d="M12 8.7l3.1 2.3-1.2 3.7h-3.8l-1.2-3.7z" />
+      <path d="M12 8.7L12 3M15.1 11L20.6 9.2M13.9 14.7L17.3 19.3M10.1 14.7L6.7 19.3M8.9 11L3.4 9.2" />
     </svg>
   );
 }
@@ -49,7 +49,7 @@ export function TennisRacket(props: IconProps) {
   return (
     <svg {...base} {...props}>
       <ellipse cx="11" cy="8" rx="6" ry="7" />
-      <path d="M7 8h8M11 2v12" />
+      <path d="M5 8h12M11 1v14" />
       <path d="M11 15v7" />
     </svg>
   );
@@ -58,8 +58,9 @@ export function TennisRacket(props: IconProps) {
 export function TableTennisBat(props: IconProps) {
   return (
     <svg {...base} {...props}>
-      <circle cx="10" cy="10" r="6" />
-      <path d="M14.2 14.2L21 21" />
+      <circle cx="9" cy="9" r="6" />
+      <path d="M9 15v6" strokeWidth={3} />
+      <circle cx="18.5" cy="17.5" r="1.3" fill="currentColor" stroke="none" />
     </svg>
   );
 }
@@ -85,9 +86,10 @@ export function BoxingGlove(props: IconProps) {
 export function Shuttlecock(props: IconProps) {
   return (
     <svg {...base} {...props}>
-      <circle cx="12" cy="4.5" r="2" />
-      <path d="M12 6.5L6 19h12z" />
-      <path d="M12 6.5v12.5" />
+      <ellipse cx="12" cy="19" rx="2.2" ry="1.6" />
+      <path d="M12 17.5L7 6h10z" />
+      <path d="M12 17.5V6" />
+      <path d="M8.5 10.5h7M7.7 13.5h8.6" />
     </svg>
   );
 }

@@ -84,6 +84,24 @@ const ICONS: {
     style: { top: "46%", left: "17%", width: "48px", height: "48px", transform: "rotate(8deg)" },
     hideOnMobile: true,
   },
+  {
+    Icon: Basketball,
+    className: "text-subject-society/18",
+    style: { top: "14%", left: "48%", width: "36px", height: "36px", transform: "rotate(-8deg)" },
+    hideOnMobile: true,
+  },
+  {
+    Icon: RugbyBall,
+    className: "text-subject-anatomy/18",
+    style: { top: "44%", left: "52%", width: "40px", height: "40px", transform: "rotate(10deg)" },
+    hideOnMobile: true,
+  },
+  {
+    Icon: GolfClub,
+    className: "text-subject-psychology/22",
+    style: { top: "88%", left: "50%", width: "36px", height: "36px", transform: "rotate(-15deg)" },
+    hideOnMobile: true,
+  },
 ];
 
 export default function SportsBackground() {
