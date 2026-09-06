@@ -1,10 +1,9 @@
 "use client";
 
 import { useEffect, useState, type ReactNode } from "react";
-import Link from "next/link";
-import { ArrowRight } from "lucide-react";
 import { getQuestionProgress } from "@/lib/progress";
-import { CARD_SHAPE_CLASSES, CARD_BASE_CLASSES, CARD_INTERACTIVE_CLASSES } from "@/lib/styles";
+import { CARD_SHAPE_CLASSES } from "@/lib/styles";
+import SubjectSquareCard from "@/components/SubjectSquareCard";
 
 type Props = {
   name: string;
@@ -17,9 +16,9 @@ type Props = {
   solidBgClassName: string;
   onSolidTextClassName: string;
   onSolidSubtextClassName: string;
-  onSolidIconClassName: string;
   onSolidTrackClassName: string;
   onSolidFillClassName: string;
+  index: number;
 };
 
 export default function QuestionSubjectCard({
@@ -33,9 +32,9 @@ export default function QuestionSubjectCard({
   solidBgClassName,
   onSolidTextClassName,
   onSolidSubtextClassName,
-  onSolidIconClassName,
   onSolidTrackClassName,
   onSolidFillClassName,
+  index,
 }: Props) {
   const [attempted, setAttempted] = useState<number | null>(null);
 
@@ -51,13 +50,12 @@ export default function QuestionSubjectCard({
 
   if (totalQuestions === 0) {
     return (
-      <div className={`flex items-start gap-4 ${CARD_BASE_CLASSES} ${borderClassName} opacity-50`}>
+      <div className={`flex flex-col ${CARD_SHAPE_CLASSES} ${borderClassName} opacity-50`}>
         {icon}
-        <div>
-          <h2 className="text-lg font-semibold text-slate-900">{name}</h2>
-          <p className="mt-1 text-sm text-slate-500">{subtitle}</p>
-          <p className="mt-3 text-sm text-slate-500">Coming soon</p>
-        </div>
+        <h2 className="mt-6 font-serif text-xl font-semibold text-slate-900">{name}</h2>
+        <span className="mt-2 block h-0.5 w-10 bg-slate-300" />
+        <p className="mt-3 text-sm leading-relaxed text-slate-500">{subtitle}</p>
+        <p className="mt-3 text-sm text-slate-500">Coming soon</p>
       </div>
     );
   }
@@ -65,28 +63,28 @@ export default function QuestionSubjectCard({
   const pct = attempted ? Math.min(100, Math.round((attempted / totalQuestions) * 100)) : 0;
 
   return (
-    <Link
+    <SubjectSquareCard
+      name={name}
+      subtitle={subtitle}
       href={href}
-      className={`flex items-start gap-4 ${CARD_SHAPE_CLASSES} ${CARD_INTERACTIVE_CLASSES} ${solidBgClassName} ${borderClassName}`}
+      icon={icon}
+      solidBgClassName={solidBgClassName}
+      borderClassName={borderClassName}
+      onSolidTextClassName={onSolidTextClassName}
+      onSolidSubtextClassName={onSolidSubtextClassName}
+      onSolidFillClassName={onSolidFillClassName}
+      index={index}
     >
-      {icon}
-      <div className="flex-1">
-        <div className="flex items-start justify-between gap-3">
-          <h2 className={`text-lg font-semibold ${onSolidTextClassName}`}>{name}</h2>
-          <ArrowRight className={`mt-1 h-4 w-4 shrink-0 ${onSolidIconClassName}`} />
-        </div>
-        <p className={`mt-1 text-sm ${onSolidSubtextClassName}`}>{subtitle}</p>
-        <p className={`mt-3 text-sm ${onSolidSubtextClassName}`}>
-          {attempted === null
-            ? "\u00A0"
-            : attempted > 0
-              ? `${attempted} / ${totalQuestions} questions answered`
-              : `${totalQuestions} question${totalQuestions === 1 ? "" : "s"}`}
-        </p>
-        <div className={`mt-2 h-1.5 w-full overflow-hidden rounded-full ${onSolidTrackClassName}`}>
-          <div className={`h-full rounded-full ${onSolidFillClassName}`} style={{ width: `${pct}%` }} />
-        </div>
+      <p className={`mt-3 text-sm ${onSolidSubtextClassName}`}>
+        {attempted === null
+          ? "\u00A0"
+          : attempted > 0
+            ? `${attempted} / ${totalQuestions} questions answered`
+            : `${totalQuestions} question${totalQuestions === 1 ? "" : "s"}`}
+      </p>
+      <div className={`mt-2 h-1.5 w-full overflow-hidden rounded-full ${onSolidTrackClassName}`}>
+        <div className={`h-full rounded-full ${onSolidFillClassName}`} style={{ width: `${pct}%` }} />
       </div>
-    </Link>
+    </SubjectSquareCard>
   );
 }

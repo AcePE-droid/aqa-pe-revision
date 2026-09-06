@@ -1,38 +1,40 @@
 import Link from "next/link";
-import type { LucideIcon } from "lucide-react";
+import type { ReactNode } from "react";
 import { CARD_SHAPE_CLASSES, CARD_INTERACTIVE_CLASSES } from "@/lib/styles";
 
-// Notes-only subject card: a solid-fill "article grid" treatment that matches
-// the color energy of Flashcards/Practice Questions, but stays visually
-// distinct through shape rather than color: a 3-up grid, a faint serif page
-// numeral, and a short underline beneath the heading instead of a progress
-// bar or arrow icon.
+// Shared solid-fill "article grid" subject card used across Notes,
+// Flashcards and Practice Questions hub pages: a 3-up grid, a faint serif
+// page numeral, and a short underline beneath the heading. `children` lets a
+// section append extra content (e.g. progress info) below the subtitle.
+// `icon` is a pre-rendered node (rather than a component reference) so this
+// can be used from client-component callers without crossing the
+// server/client serialization boundary with a raw component reference.
 type Props = {
   name: string;
   subtitle: string;
   href: string;
-  Icon: LucideIcon;
+  icon: ReactNode;
   solidBgClassName: string;
   borderClassName: string;
   onSolidTextClassName: string;
   onSolidSubtextClassName: string;
-  onSolidIconClassName: string;
   onSolidFillClassName: string;
   index: number;
+  children?: ReactNode;
 };
 
-export default function NotesSubjectCard({
+export default function SubjectSquareCard({
   name,
   subtitle,
   href,
-  Icon,
+  icon,
   solidBgClassName,
   borderClassName,
   onSolidTextClassName,
   onSolidSubtextClassName,
-  onSolidIconClassName,
   onSolidFillClassName,
   index,
+  children,
 }: Props) {
   const numeral = String(index + 1).padStart(2, "0");
 
@@ -42,7 +44,7 @@ export default function NotesSubjectCard({
       className={`flex flex-col ${CARD_SHAPE_CLASSES} ${CARD_INTERACTIVE_CLASSES} ${solidBgClassName} ${borderClassName}`}
     >
       <div className="flex items-start justify-between">
-        <Icon className={`h-6 w-6 ${onSolidIconClassName}`} />
+        {icon}
         <span
           aria-hidden="true"
           className={`select-none font-serif text-4xl font-light opacity-40 ${onSolidSubtextClassName}`}
@@ -53,6 +55,7 @@ export default function NotesSubjectCard({
       <h2 className={`mt-6 font-serif text-xl font-semibold ${onSolidTextClassName}`}>{name}</h2>
       <span className={`mt-2 block h-0.5 w-10 ${onSolidFillClassName}`} />
       <p className={`mt-3 text-sm leading-relaxed ${onSolidSubtextClassName}`}>{subtitle}</p>
+      {children}
     </Link>
   );
 }
