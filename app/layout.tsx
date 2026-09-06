@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter, Lora } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import SportsBackground from "@/components/decorative/SportsBackground";
 import "./globals.css";
 
 const inter = Inter({
@@ -25,7 +24,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={`${inter.variable} ${lora.variable} h-full scroll-smooth antialiased`}>
       <body className="min-h-full flex flex-col bg-background text-slate-900">
-        <SportsBackground />
         <Header />
         <main className="flex-1">
           <div className="mx-auto w-full max-w-[1100px] px-6 md:px-8 lg:px-12">{children}</div>
