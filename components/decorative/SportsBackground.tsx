@@ -13,6 +13,9 @@ import {
   Shuttlecock,
   RugbyBall,
   Bicycle,
+  Volleyball,
+  CricketBat,
+  Skis,
 } from "./SportsIcons";
 
 // Routes where the ambient icon backdrop should NOT show: the marketing
@@ -35,37 +38,37 @@ const ICONS: {
   {
     Icon: Football,
     className: "text-subject-anatomy/20",
-    style: { top: "6%", left: "5%", width: "44px", height: "44px", transform: "rotate(-12deg)" },
+    style: { top: "6%", left: "5%", width: "42px", height: "42px", transform: "rotate(-9deg)" },
   },
   {
     Icon: Basketball,
     className: "text-subject-psychology/25",
-    style: { top: "10%", right: "6%", width: "52px", height: "52px", transform: "rotate(15deg)" },
+    style: { top: "10%", right: "6%", width: "50px", height: "50px", transform: "rotate(12deg)" },
   },
   {
     Icon: GolfClub,
     className: "text-subject-society/20",
-    style: { top: "34%", left: "3%", width: "60px", height: "60px", transform: "rotate(-20deg)" },
+    style: { top: "34%", left: "3%", width: "58px", height: "58px", transform: "rotate(-18deg)" },
   },
   {
     Icon: TennisRacket,
     className: "text-subject-anatomy/20",
-    style: { top: "30%", right: "4%", width: "56px", height: "56px", transform: "rotate(18deg)" },
+    style: { top: "30%", right: "4%", width: "58px", height: "58px", transform: "rotate(16deg)" },
   },
   {
     Icon: TableTennisBat,
-    className: "text-subject-psychology/25",
-    style: { top: "58%", left: "6%", width: "44px", height: "44px", transform: "rotate(10deg)" },
+    className: "text-subject-psychology/38",
+    style: { top: "58%", left: "6%", width: "44px", height: "44px", transform: "rotate(8deg)" },
   },
   {
     Icon: Netball,
     className: "text-subject-society/20",
-    style: { top: "54%", right: "5%", width: "48px", height: "48px", transform: "rotate(-8deg)" },
+    style: { top: "54%", right: "5%", width: "48px", height: "48px", transform: "rotate(-6deg)" },
   },
   {
     Icon: BoxingGlove,
     className: "text-subject-anatomy/20",
-    style: { top: "78%", left: "10%", width: "52px", height: "52px", transform: "rotate(12deg)" },
+    style: { top: "78%", left: "10%", width: "52px", height: "52px", transform: "rotate(9deg)" },
   },
   {
     Icon: Shuttlecock,
@@ -76,30 +79,30 @@ const ICONS: {
   {
     Icon: RugbyBall,
     className: "text-subject-society/20",
-    style: { top: "82%", right: "12%", width: "56px", height: "56px", transform: "rotate(-15deg)" },
+    style: { top: "82%", right: "12%", width: "56px", height: "56px", transform: "rotate(-12deg)" },
   },
   {
     Icon: Bicycle,
     className: "text-subject-anatomy/18",
-    style: { top: "46%", left: "17%", width: "48px", height: "48px", transform: "rotate(8deg)" },
+    style: { top: "46%", left: "17%", width: "48px", height: "48px", transform: "rotate(6deg)" },
     hideOnMobile: true,
   },
   {
-    Icon: Basketball,
-    className: "text-subject-society/18",
-    style: { top: "14%", left: "48%", width: "36px", height: "36px", transform: "rotate(-8deg)" },
+    Icon: Volleyball,
+    className: "text-subject-psychology/20",
+    style: { top: "68%", left: "44%", width: "40px", height: "40px", transform: "rotate(-8deg)" },
     hideOnMobile: true,
   },
   {
-    Icon: RugbyBall,
+    Icon: CricketBat,
+    className: "text-subject-society/20",
+    style: { top: "16%", right: "20%", width: "46px", height: "46px", transform: "rotate(0deg)" },
+    hideOnMobile: true,
+  },
+  {
+    Icon: Skis,
     className: "text-subject-anatomy/18",
-    style: { top: "44%", left: "52%", width: "40px", height: "40px", transform: "rotate(10deg)" },
-    hideOnMobile: true,
-  },
-  {
-    Icon: GolfClub,
-    className: "text-subject-psychology/22",
-    style: { top: "88%", left: "50%", width: "36px", height: "36px", transform: "rotate(-15deg)" },
+    style: { top: "86%", left: "56%", width: "44px", height: "44px", transform: "rotate(0deg)" },
     hideOnMobile: true,
   },
 ];
