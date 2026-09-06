@@ -61,7 +61,6 @@ export function TableTennisBat(props: IconProps) {
     <svg {...base} {...props}>
       <circle cx="9" cy="9" r="6" />
       <path d="M9 15v6" strokeWidth={3} />
-      <circle cx="18.5" cy="17.5" r="1.3" fill="currentColor" stroke="none" />
     </svg>
   );
 }
@@ -78,10 +77,9 @@ export function Netball(props: IconProps) {
 export function BoxingGlove(props: IconProps) {
   return (
     <svg {...base} {...props}>
-      <rect x="7.5" y="3" width="7" height="4.5" rx="1.5" />
-      <path d="M6.5 7.5h9a3 3 0 0 1 3 3v3A6.5 6.5 0 0 1 12 20a6.5 6.5 0 0 1-6.5-6.5v-6z" />
-      <path d="M6 10.5c-1.6.2-2.6 1.6-2.2 3.1.3 1.2 1.5 1.9 2.7 1.7" />
-      <path d="M9 12v2.5M12 11.5v3.5" />
+      <rect x="9" y="2.5" width="6" height="5" rx="2" />
+      <rect x="5.5" y="7" width="12" height="13" rx="6" />
+      <ellipse cx="4.5" cy="13" rx="2.6" ry="3.2" />
     </svg>
   );
 }
