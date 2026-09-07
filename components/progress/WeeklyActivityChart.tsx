@@ -15,15 +15,27 @@ export type DayActivity = {
 // desktop, tap toggles it on mobile (no reliable hover there), and focus
 // opens it via keyboard. Colours reuse the site's existing blue-600/slate
 // tokens rather than introducing a new colour just for the tooltip.
+// Below this, the Y-axis is anchored to a fixed "strong study day" benchmark
+// rather than the week's own tallest bar - otherwise a single 30-item day
+// would render maxed-out, leaving no visual room for bigger days later.
+// Only days that genuinely exceed the benchmark push the axis higher (with
+// headroom), so heavy activity still shows proportionally rather than
+// clipping.
+const BENCHMARK_DAY_TOTAL = 150;
+const AXIS_HEADROOM = 1.25;
+const MAX_BAR_HEIGHT_PX = 90;
+
 export default function WeeklyActivityChart({ days }: { days: DayActivity[] }) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const maxDayTotal = Math.max(1, ...days.map((d) => d.total));
+  const rawAxisMax = Math.max(BENCHMARK_DAY_TOTAL, maxDayTotal * AXIS_HEADROOM);
+  const axisMax = Math.ceil(rawAxisMax / 25) * 25;
   const hasRecentActivity = days.some((d) => d.total > 0);
 
   return (
     <div>
-      <div className="mt-6 flex items-end justify-between gap-2" style={{ height: 96 }}>
+      <div className="mt-8 flex items-end justify-between gap-2" style={{ height: 128 }}>
         {days.map((d, i) => {
           const isOpen = openIndex === i;
           return (
@@ -50,7 +62,7 @@ export default function WeeklyActivityChart({ days }: { days: DayActivity[] }) {
                   hasRecentActivity ? "cursor-pointer" : "cursor-default"
                 }`}
                 style={{
-                  height: hasRecentActivity ? `${Math.max(4, (d.total / maxDayTotal) * 80)}px` : "6px",
+                  height: hasRecentActivity ? `${Math.max(4, (d.total / axisMax) * MAX_BAR_HEIGHT_PX)}px` : "6px",
                 }}
               />
               <span className="text-xs text-slate-500">{d.label}</span>
