@@ -23,7 +23,7 @@ async function getCurrentUserId(): Promise<string | null> {
 }
 
 export async function logFlashcardActivity(params: {
-  subjectSlug: string;
+  subject: string;
   subtopicId: string;
   flashcardId: string;
   status: "known" | "learning";
@@ -41,7 +41,7 @@ export async function logFlashcardActivity(params: {
   const { error } = await supabase.rpc("log_activity_event", {
     p_user_id: userId,
     p_content_type: "flashcard",
-    p_subject: params.subjectSlug,
+    p_subject: params.subject,
     p_bucket: params.subtopicId,
     p_item_id: params.flashcardId,
     p_result: params.status === "known" ? "known" : "still_learning",
@@ -61,7 +61,7 @@ export async function logFlashcardActivity(params: {
 const WRITTEN_CORRECT_THRESHOLD = 0.65;
 
 export async function logQuestionActivity(params: {
-  subjectSlug: string;
+  subject: string;
   subtopicId: string;
   questionId: string;
   marksAwarded: number;
@@ -103,7 +103,7 @@ export async function logQuestionActivity(params: {
   const { error } = await supabase.rpc("log_activity_event", {
     p_user_id: userId,
     p_content_type: "question",
-    p_subject: params.subjectSlug,
+    p_subject: params.subject,
     p_bucket: params.subtopicId,
     p_item_id: params.questionId,
     p_result: correct ? "correct" : "incorrect",

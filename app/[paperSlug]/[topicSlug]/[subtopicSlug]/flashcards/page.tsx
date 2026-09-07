@@ -28,6 +28,7 @@ export default async function FlashcardStudyPage(
       subtopicName={subtopic.name}
       topicName={topic.name}
       subjectSlug={slugify(topic.subject)}
+      subject={topic.subject}
       backHref={`/${paper.slug}/${topic.slug}/${subtopic.slug}`}
       cards={cards}
       groupLabel={groupLabel}
