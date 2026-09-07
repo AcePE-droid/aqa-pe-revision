@@ -79,7 +79,7 @@ Supabase about it.
 4. Go to **APIs & Services → Credentials**.
 5. Click **Create Credentials → OAuth client ID**.
    - **Application type**: Web application.
-   - **Name**: anything, e.g. "PE Revision".
+   - **Name**: anything, e.g. "AcePE".
    - **Authorized redirect URIs**: click **Add URI** and paste the Supabase
      callback URL you copied in step 4a
      (`https://abcdefghijk.supabase.co/auth/v1/callback`).

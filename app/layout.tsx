@@ -16,7 +16,7 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  title: "PE Revision | AQA A-Level PE (7582)",
+  title: "AcePE | AQA A-Level PE (7582)",
   description:
     "Free flashcards, practice questions, and study notes for AQA A-Level PE (7582).",
 };

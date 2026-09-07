@@ -256,7 +256,7 @@ export function setLastLearningCardIds(subtopicId: string, cardIds: string[]) {
   writeJson(lastLearningKey(subtopicId), cardIds);
 }
 
-/** Clears all PE Revision progress data from localStorage. */
+/** Clears all AcePE progress data from localStorage. */
 export function resetAllProgress() {
   if (typeof window === "undefined") return;
   const keys = Object.keys(window.localStorage).filter((k) => k.startsWith(STORAGE_PREFIX));
