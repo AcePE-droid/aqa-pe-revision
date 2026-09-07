@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { CARD_BASE_CLASSES, CARD_BORDER_DEFAULT } from "@/lib/styles";
 
 export type LeaderboardRow = {
@@ -13,9 +14,17 @@ export type LeaderboardRow = {
 type Props = {
   weekly: LeaderboardRow[];
   allTime: LeaderboardRow[];
+  // Ranked within just the signed-in user + their accepted friends (see
+  // app/my-progress/page.tsx) - always includes the signed-in user, even
+  // when hasFriends is false.
+  friendsWeekly: LeaderboardRow[];
+  friendsAllTime: LeaderboardRow[];
+  hasFriends: boolean;
   currentUserId: string;
   // "Your rank" line shown below the list when the signed-in user isn't in
   // the top 10 fetched for that window - null if they have no score yet.
+  // Only relevant to the Global tab - the Friends tab always includes the
+  // signed-in user in its (usually short) list already.
   yourRank: { weekly: number | null; allTime: number | null };
 };
 
@@ -40,13 +49,23 @@ function ToggleButton({
   );
 }
 
-export default function LeaderboardSection({ weekly, allTime, currentUserId, yourRank }: Props) {
+export default function LeaderboardSection({
+  weekly,
+  allTime,
+  friendsWeekly,
+  friendsAllTime,
+  hasFriends,
+  currentUserId,
+  yourRank,
+}: Props) {
   const [selectedWindow, setSelectedWindow] = useState<"weekly" | "all_time">("weekly");
   const [tab, setTab] = useState<"global" | "friends">("global");
 
-  const rows = selectedWindow === "weekly" ? weekly : allTime;
+  const globalRows = selectedWindow === "weekly" ? weekly : allTime;
+  const friendRows = selectedWindow === "weekly" ? friendsWeekly : friendsAllTime;
+  const rows = tab === "global" ? globalRows : friendRows;
   const myRank = selectedWindow === "weekly" ? yourRank.weekly : yourRank.allTime;
-  const inTop10 = rows.some((r) => r.userId === currentUserId);
+  const inTop10 = globalRows.some((r) => r.userId === currentUserId);
 
   return (
     <section className={`${CARD_BASE_CLASSES} ${CARD_BORDER_DEFAULT}`}>
@@ -72,12 +91,15 @@ export default function LeaderboardSection({ weekly, allTime, currentUserId, you
         </div>
       </div>
 
-      {tab === "friends" ? (
+      {tab === "friends" && !hasFriends ? (
         <div className="mt-8 rounded-lg border border-dashed border-slate-300 bg-slate-50 px-6 py-10 text-center">
-          <p className="text-sm font-medium text-slate-700">Friends leaderboard coming soon</p>
+          <p className="text-sm font-medium text-slate-700">No friends yet</p>
           <p className="mx-auto mt-1 max-w-sm text-xs text-slate-500">
-            This needs a friends/follow system first - a way for users to find, add, and accept each
-            other - before the leaderboard can be filtered to people you know.
+            Search for friends by username on the{" "}
+            <Link href="/friends" className="font-medium text-blue-600 hover:underline">
+              Friends
+            </Link>{" "}
+            page to see how you compare.
           </p>
         </div>
       ) : rows.length === 0 ? (
@@ -103,7 +125,7 @@ export default function LeaderboardSection({ weekly, allTime, currentUserId, you
               </li>
             ))}
           </ol>
-          {!inTop10 && myRank !== null && (
+          {tab === "global" && !inTop10 && myRank !== null && (
             <p className="mt-4 border-t border-slate-100 pt-3 text-sm text-slate-500">
               Your rank: <span className="font-semibold text-slate-900">#{myRank}</span>
             </p>
