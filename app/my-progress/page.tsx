@@ -53,7 +53,7 @@ export default async function MyProgressPage() {
     supabase.from("daily_activity").select("cards_reviewed, questions_answered").eq("user_id", user.id),
     supabase.from("badges").select("id, name, description"),
     supabase.from("user_badges").select("badge_id, unlocked_at").eq("user_id", user.id),
-    supabase.from("leaderboard_scores").select("window, score, rank").eq("user_id", user.id),
+    supabase.from("leaderboard_scores").select("window_name, score, rank").eq("user_id", user.id),
   ]);
 
   // --- Leaderboard: uses the service-role admin client because ranking
@@ -69,14 +69,14 @@ export default async function MyProgressPage() {
       admin
         .from("leaderboard_scores")
         .select("user_id, score, rank")
-        .eq("window", "weekly")
+        .eq("window_name", "weekly")
         .not("rank", "is", null)
         .order("rank", { ascending: true })
         .limit(10),
       admin
         .from("leaderboard_scores")
         .select("user_id, score, rank")
-        .eq("window", "all_time")
+        .eq("window_name", "all_time")
         .not("rank", "is", null)
         .order("rank", { ascending: true })
         .limit(10),
@@ -102,8 +102,8 @@ export default async function MyProgressPage() {
   }
 
   const yourRank = {
-    weekly: myScoreRows?.find((r) => r.window === "weekly")?.rank ?? null,
-    allTime: myScoreRows?.find((r) => r.window === "all_time")?.rank ?? null,
+    weekly: myScoreRows?.find((r) => r.window_name === "weekly")?.rank ?? null,
+    allTime: myScoreRows?.find((r) => r.window_name === "all_time")?.rank ?? null,
   };
 
   // --- Content coverage, subject strength, focus buckets ---

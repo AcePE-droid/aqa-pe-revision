@@ -144,14 +144,14 @@ grant select, insert, update on public.question_progress to authenticated;
 -- ---------------------------------------------------------------------
 create table if not exists public.leaderboard_scores (
   user_id uuid not null references auth.users (id) on delete cascade,
-  window text not null check (window in ('all_time', 'weekly')),
+  window_name text not null check (window_name in ('all_time', 'weekly')),
   volume_points numeric not null default 0,
   accuracy_bonus numeric not null default 0,
   consistency_bonus numeric not null default 0,
   score numeric not null default 0,
   rank int,
   updated_at timestamptz not null default now(),
-  primary key (user_id, window)
+  primary key (user_id, window_name)
 );
 
 alter table public.leaderboard_scores enable row level security;
@@ -340,9 +340,9 @@ begin
     v_consistency_bonus := least(v_current_streak, 10) / 10.0;
     v_score := v_volume * (1 + v_accuracy_bonus * 0.10) * (1 + v_consistency_bonus * 0.20);
 
-    insert into public.leaderboard_scores (user_id, window, volume_points, accuracy_bonus, consistency_bonus, score, updated_at)
+    insert into public.leaderboard_scores (user_id, window_name, volume_points, accuracy_bonus, consistency_bonus, score, updated_at)
     values (p_user_id, v_window_name, v_volume, v_accuracy_bonus, v_consistency_bonus, v_score, now())
-    on conflict (user_id, window) do update
+    on conflict (user_id, window_name) do update
       set volume_points = excluded.volume_points,
           accuracy_bonus = excluded.accuracy_bonus,
           consistency_bonus = excluded.consistency_bonus,
@@ -534,8 +534,8 @@ as $$
   update public.leaderboard_scores ls
   set rank = ranked.rank
   from (
-    select user_id, window, row_number() over (partition by window order by score desc) as rank
+    select user_id, window_name, row_number() over (partition by window_name order by score desc) as rank
     from public.leaderboard_scores
   ) ranked
-  where ls.user_id = ranked.user_id and ls.window = ranked.window;
+  where ls.user_id = ranked.user_id and ls.window_name = ranked.window_name;
 $$;
