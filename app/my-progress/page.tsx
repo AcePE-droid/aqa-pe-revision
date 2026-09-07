@@ -56,16 +56,37 @@ export default async function MyProgressPage() {
     supabase.from("leaderboard_scores").select("window_name, score, rank").eq("user_id", user.id),
   ]);
 
-  // --- Leaderboard: uses the service-role admin client because ranking
-  // requires seeing every user's score, which per-user RLS on
+  // --- Leaderboard: score reads use the service-role admin client because
+  // ranking requires seeing every user's score, which per-user RLS on
   // leaderboard_scores doesn't allow (see the migration's own note on that
   // policy). Falls back to an empty leaderboard rather than crashing the
-  // page if the service-role key isn't configured.
+  // page if the service-role key isn't configured. Usernames are read with
+  // the regular (RLS-scoped) client instead - profiles has a "select ->
+  // anyone signed in" policy, so no admin client is needed there.
   let weeklyLeaderboard: LeaderboardRow[] = [];
   let allTimeLeaderboard: LeaderboardRow[] = [];
+  let friendsWeeklyLeaderboard: LeaderboardRow[] = [];
+  let friendsAllTimeLeaderboard: LeaderboardRow[] = [];
+  let hasFriends = false;
   try {
     const admin = createAdminClient();
-    const [{ data: weeklyScores }, { data: allTimeScores }, { data: usersPage }] = await Promise.all([
+
+    const { data: friendshipRows } = await supabase
+      .from("friendships")
+      .select("user_id_a, user_id_b")
+      .eq("status", "accepted")
+      .or(`user_id_a.eq.${user.id},user_id_b.eq.${user.id}`);
+
+    const friendIds = (friendshipRows ?? []).map((r) => (r.user_id_a === user.id ? r.user_id_b : r.user_id_a));
+    hasFriends = friendIds.length > 0;
+    const friendsAndSelfIds = [user.id, ...friendIds];
+
+    const [
+      { data: weeklyScores },
+      { data: allTimeScores },
+      { data: friendsWeeklyScores },
+      { data: friendsAllTimeScores },
+    ] = await Promise.all([
       admin
         .from("leaderboard_scores")
         .select("user_id, score, rank")
@@ -80,23 +101,53 @@ export default async function MyProgressPage() {
         .not("rank", "is", null)
         .order("rank", { ascending: true })
         .limit(10),
-      admin.auth.admin.listUsers({ perPage: 1000 }),
+      admin.from("leaderboard_scores").select("user_id, score").eq("window_name", "weekly").in("user_id", friendsAndSelfIds),
+      admin
+        .from("leaderboard_scores")
+        .select("user_id, score")
+        .eq("window_name", "all_time")
+        .in("user_id", friendsAndSelfIds),
     ]);
 
-    const nameById = new Map<string, string>();
-    for (const u of usersPage?.users ?? []) {
-      nameById.set(u.id, (u.user_metadata?.full_name as string | undefined) || u.email || "Anonymous");
-    }
+    const allUserIds = new Set<string>(friendsAndSelfIds);
+    for (const row of weeklyScores ?? []) allUserIds.add(row.user_id);
+    for (const row of allTimeScores ?? []) allUserIds.add(row.user_id);
+
+    const { data: profileRows } = await supabase
+      .from("profiles")
+      .select("user_id, username")
+      .in("user_id", Array.from(allUserIds));
+    const usernameById = new Map((profileRows ?? []).map((p) => [p.user_id, p.username]));
 
     const toRow = (row: { user_id: string; score: number; rank: number | null }): LeaderboardRow => ({
       userId: row.user_id,
-      displayName: nameById.get(row.user_id) ?? "Anonymous",
+      displayName: usernameById.get(row.user_id) ?? "Unknown",
       rank: row.rank,
       score: row.score,
     });
 
     weeklyLeaderboard = (weeklyScores ?? []).map(toRow);
     allTimeLeaderboard = (allTimeScores ?? []).map(toRow);
+
+    // Friends tab is ranked within just this user + their accepted friends
+    // (not the global `rank` column, which wouldn't make sense for a small
+    // subset). Anyone with no leaderboard_scores row yet (no activity) still
+    // shows up at score 0 rather than being dropped, so a friend doesn't
+    // just seem to be missing.
+    const buildFriendsRows = (rows: { user_id: string; score: number }[] | null): LeaderboardRow[] => {
+      const scoreById = new Map((rows ?? []).map((r) => [r.user_id, r.score]));
+      return friendsAndSelfIds
+        .map((id) => ({
+          userId: id,
+          displayName: usernameById.get(id) ?? "Unknown",
+          score: scoreById.get(id) ?? 0,
+        }))
+        .sort((a, b) => b.score - a.score)
+        .map((row, i) => ({ ...row, rank: i + 1 }));
+    };
+
+    friendsWeeklyLeaderboard = buildFriendsRows(friendsWeeklyScores);
+    friendsAllTimeLeaderboard = buildFriendsRows(friendsAllTimeScores);
   } catch (err) {
     console.warn("Leaderboard unavailable:", err);
   }
@@ -289,6 +340,9 @@ export default async function MyProgressPage() {
         <LeaderboardSection
           weekly={weeklyLeaderboard}
           allTime={allTimeLeaderboard}
+          friendsWeekly={friendsWeeklyLeaderboard}
+          friendsAllTime={friendsAllTimeLeaderboard}
+          hasFriends={hasFriends}
           currentUserId={user.id}
           yourRank={yourRank}
         />
