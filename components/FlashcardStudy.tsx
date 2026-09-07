@@ -23,6 +23,7 @@ type Props = {
   subtopicName: string;
   topicName: string;
   subjectSlug: string;
+  subject: string;
   backHref: string;
   cards: Flashcard[];
   groupLabel?: string;
@@ -65,6 +66,7 @@ export default function FlashcardStudy({
   subtopicName,
   topicName,
   subjectSlug,
+  subject,
   backHref,
   cards,
   groupLabel,
@@ -160,7 +162,7 @@ export default function FlashcardStudy({
 
     const bucketKnownCount = cards.filter((c) => updatedProgress[c.id] === "known").length;
     void logFlashcardActivity({
-      subjectSlug,
+      subject,
       subtopicId,
       flashcardId: card.id,
       status: status as "known" | "learning",

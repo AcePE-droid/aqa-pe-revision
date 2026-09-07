@@ -11,6 +11,7 @@ import { logQuestionActivity } from "@/lib/activity";
 type Props = {
   breadcrumb: string;
   subjectSlug: string;
+  subject: string;
   backHref: string;
   questions: Question[];
   subjectTotalItems: number;
@@ -71,7 +72,14 @@ function markBadgeClasses(marksAwarded: number, totalMarks: number): string {
   return "border-red-300 bg-red-100 text-red-800";
 }
 
-export default function QuestionSession({ breadcrumb, subjectSlug, backHref, questions, subjectTotalItems }: Props) {
+export default function QuestionSession({
+  breadcrumb,
+  subjectSlug,
+  subject,
+  backHref,
+  questions,
+  subjectTotalItems,
+}: Props) {
   const [index, setIndex] = useState(0);
   const [answer, setAnswer] = useState("");
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
@@ -123,7 +131,7 @@ export default function QuestionSession({ breadcrumb, subjectSlug, backHref, que
     setSelfMarks((prev) => ({ ...prev, [question.id]: marks }));
 
     void logQuestionActivity({
-      subjectSlug,
+      subject,
       subtopicId: question.subtopicId,
       questionId: question.id,
       marksAwarded: marks,

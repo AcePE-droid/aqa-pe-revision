@@ -17,6 +17,7 @@ export default async function SubtopicQuestionSessionPage(
     <QuestionSession
       breadcrumb={`${topic.name} \u00b7 ${subtopic.name}`}
       subjectSlug={slugify(topic.subject)}
+      subject={topic.subject}
       backHref={`/questions/${slugify(topic.subject)}`}
       questions={questions}
       subjectTotalItems={getSubjectItemCounts(topic.subject)}

@@ -152,6 +152,73 @@ export function getSubjectItemCounts(subjectName: string): number {
   return total;
 }
 
+export type ProgressBucketInfo = {
+  id: string;
+  name: string;
+  topicName: string;
+  subject: string;
+  totalItems: number;
+};
+
+export type ProgressContentIndex = {
+  // Item id -> owning subject/subtopic, for mapping a user's flashcard_progress
+  // / question_progress rows (which only carry an item id) back to a subject
+  // and bucket for the My Progress page's per-subject/per-bucket stats.
+  flashcardSubject: Map<string, string>;
+  flashcardBucket: Map<string, string>;
+  questionSubject: Map<string, string>;
+  questionBucket: Map<string, string>;
+  buckets: Map<string, ProgressBucketInfo>;
+  subjectTotals: Map<string, number>;
+};
+
+/**
+ * One-pass index over all content, built for the My Progress page: maps
+ * every flashcard/question id to its subject and bucket (subtopic id), and
+ * totals item counts per bucket and per subject. Kept separate from
+ * getSubjectItemCounts (which callers on the study/question pages use
+ * individually per-subject) so this page doesn't re-scan the content
+ * directory once per subject.
+ */
+export function getProgressContentIndex(): ProgressContentIndex {
+  const flashcardSubject = new Map<string, string>();
+  const flashcardBucket = new Map<string, string>();
+  const questionSubject = new Map<string, string>();
+  const questionBucket = new Map<string, string>();
+  const buckets = new Map<string, ProgressBucketInfo>();
+  const subjectTotals = new Map<string, number>();
+
+  for (const topic of getTopics()) {
+    const paper = getPaperById(topic.paperId);
+    if (!paper) continue;
+    for (const subtopic of getSubtopicsByTopicId(topic.id)) {
+      const flashcards = getFlashcards(paper.slug, topic.slug, subtopic.slug);
+      const questions = getQuestions(paper.slug, topic.slug, subtopic.slug);
+
+      for (const card of flashcards) {
+        flashcardSubject.set(card.id, topic.subject);
+        flashcardBucket.set(card.id, subtopic.id);
+      }
+      for (const q of questions) {
+        questionSubject.set(q.id, topic.subject);
+        questionBucket.set(q.id, subtopic.id);
+      }
+
+      const totalItems = flashcards.length + questions.length;
+      buckets.set(subtopic.id, {
+        id: subtopic.id,
+        name: subtopic.name,
+        topicName: topic.name,
+        subject: topic.subject,
+        totalItems,
+      });
+      subjectTotals.set(topic.subject, (subjectTotals.get(topic.subject) ?? 0) + totalItems);
+    }
+  }
+
+  return { flashcardSubject, flashcardBucket, questionSubject, questionBucket, buckets, subjectTotals };
+}
+
 function countFlashcardsInDir(dir: string): number {
   let total = 0;
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
