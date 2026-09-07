@@ -86,12 +86,31 @@ body {
   }
 }
 
+/* Badge-unlock toast: slides/fades in from the top on mount. */
+.badge-toast-enter {
+  animation: badge-toast-in 300ms ease-out;
+}
+
+@keyframes badge-toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .hero-underline {
     animation: none;
     transform: scaleX(1);
   }
   .hero-scroll-indicator {
+    animation: none;
+  }
+  .badge-toast-enter {
     animation: none;
   }
 }

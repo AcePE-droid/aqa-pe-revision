@@ -17,6 +17,7 @@ import {
 import { getSubjectStyle } from "@/lib/subject-styles";
 import { useAuthUserId } from "@/lib/supabase/useAuthUserId";
 import { logFlashcardActivity } from "@/lib/activity";
+import { useBadgeUnlock } from "@/components/badges/BadgeUnlockProvider";
 
 type Props = {
   subtopicId: string;
@@ -95,6 +96,7 @@ export default function FlashcardStudy({
   const [lastLearningIds, setLastLearningIds] = useState<Set<string>>(new Set());
   const subjectStyle = getSubjectStyle(subjectSlug);
   const userId = useAuthUserId();
+  const { notifyBadgesUnlocked } = useBadgeUnlock();
 
   const timers = useRef<number[]>([]);
 
@@ -170,7 +172,7 @@ export default function FlashcardStudy({
       bucketKnownPct: cards.length > 0 ? (bucketKnownCount / cards.length) * 100 : 0,
       bucketTotalItems: cards.length,
       subjectTotalItems,
-    });
+    }).then(notifyBadgesUnlocked);
 
     if (index < sessionCards.length - 1) {
       runTransition(index + 1, "next");

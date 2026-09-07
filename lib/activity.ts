@@ -22,6 +22,10 @@ async function getCurrentUserId(): Promise<string | null> {
   }
 }
 
+// Returns the ids of any badges newly unlocked by this event (see
+// check_and_award_badges() / log_activity_event() in the gamification
+// migration), so callers can pop up a "badge unlocked" toast. Empty array on
+// any failure or for anonymous users.
 export async function logFlashcardActivity(params: {
   subject: string;
   subtopicId: string;
@@ -31,14 +35,14 @@ export async function logFlashcardActivity(params: {
   bucketKnownPct: number;
   bucketTotalItems: number;
   subjectTotalItems: number;
-}): Promise<void> {
+}): Promise<string[]> {
   const userId = await getCurrentUserId();
-  if (!userId) return;
+  if (!userId) return [];
 
   const isFirstTransition = !params.wasKnownBefore && params.status === "known";
 
   const supabase = createClient();
-  const { error } = await supabase.rpc("log_activity_event", {
+  const { data, error } = await supabase.rpc("log_activity_event", {
     p_user_id: userId,
     p_content_type: "flashcard",
     p_subject: params.subject,
@@ -50,7 +54,11 @@ export async function logFlashcardActivity(params: {
     p_bucket_total_items: params.bucketTotalItems,
     p_bucket_known_pct: params.bucketKnownPct,
   });
-  if (error) console.warn("Failed to log flashcard activity:", error);
+  if (error) {
+    console.warn("Failed to log flashcard activity:", error);
+    return [];
+  }
+  return data ?? [];
 }
 
 // Threshold for counting a self-graded written answer as "correct" for
@@ -69,9 +77,9 @@ export async function logQuestionActivity(params: {
   isMultipleChoice: boolean;
   selectedOptionCorrect: boolean | null; // null when not multiple-choice / nothing selected
   subjectTotalItems: number;
-}): Promise<void> {
+}): Promise<string[]> {
   const userId = await getCurrentUserId();
-  if (!userId) return;
+  if (!userId) return [];
 
   const correct =
     params.isMultipleChoice && params.selectedOptionCorrect !== null
@@ -100,7 +108,7 @@ export async function logQuestionActivity(params: {
   });
   if (upsertError) console.warn("Failed to save cloud question progress:", upsertError);
 
-  const { error } = await supabase.rpc("log_activity_event", {
+  const { data, error } = await supabase.rpc("log_activity_event", {
     p_user_id: userId,
     p_content_type: "question",
     p_subject: params.subject,
@@ -112,5 +120,9 @@ export async function logQuestionActivity(params: {
     p_bucket_total_items: null,
     p_bucket_known_pct: null,
   });
-  if (error) console.warn("Failed to log question activity:", error);
+  if (error) {
+    console.warn("Failed to log question activity:", error);
+    return [];
+  }
+  return data ?? [];
 }
