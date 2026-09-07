@@ -6,11 +6,17 @@ import { getSubjectStyle } from "@/lib/subject-styles";
 import { CARD_BASE_CLASSES, CARD_BORDER_DEFAULT } from "@/lib/styles";
 import BadgesSection from "@/components/progress/BadgesSection";
 import LeaderboardSection, { type LeaderboardRow } from "@/components/progress/LeaderboardSection";
+import WeeklyActivityChart from "@/components/progress/WeeklyActivityChart";
 
 // Buckets (subtopics) need at least this many attempted items before they're
 // eligible for "Focus on this next" - otherwise a single missed flashcard in
 // a barely-touched topic would show up as a 0% "weakest" bucket.
 const MIN_BUCKET_ATTEMPTS = 5;
+
+// Buckets at or above this known/correct percentage are considered mastered
+// and must never appear in "Focus on this next", even if there aren't 5
+// other genuinely weak buckets to fill out the list.
+const MASTERY_THRESHOLD_PCT = 90;
 
 function StatTile({ label, value }: { label: string; value: string }) {
   return (
@@ -217,11 +223,13 @@ export default async function MyProgressPage() {
     const attempted = bucketAttempted.get(id) ?? 0;
     if (attempted < MIN_BUCKET_ATTEMPTS) continue;
     const known = bucketKnown.get(id) ?? 0;
+    const pct = Math.round((known / attempted) * 100);
+    if (pct >= MASTERY_THRESHOLD_PCT) continue;
     bucketStats.push({
       id,
       name: info.name,
       topicName: info.topicName,
-      pct: Math.round((known / attempted) * 100),
+      pct,
     });
   }
   bucketStats.sort((a, b) => a.pct - b.pct);
@@ -234,11 +242,16 @@ export default async function MyProgressPage() {
     d.setDate(d.getDate() - (6 - i));
     const dateStr = d.toISOString().slice(0, 10);
     const row = dailyByDate.get(dateStr);
-    const total = (row?.cards_reviewed ?? 0) + (row?.questions_answered ?? 0);
-    return { label: d.toLocaleDateString("en-GB", { weekday: "short" }), total };
+    const cardsReviewed = row?.cards_reviewed ?? 0;
+    const questionsAnswered = row?.questions_answered ?? 0;
+    return {
+      label: d.toLocaleDateString("en-GB", { weekday: "short" }),
+      fullLabel: d.toLocaleDateString("en-GB", { weekday: "long" }),
+      cardsReviewed,
+      questionsAnswered,
+      total: cardsReviewed + questionsAnswered,
+    };
   });
-  const maxDayTotal = Math.max(1, ...days.map((d) => d.total));
-  const hasRecentActivity = days.some((d) => d.total > 0);
 
   const currentStreak = streakRows?.[0]?.current_streak ?? 0;
   const unlockedAt = Object.fromEntries((userBadgeRows ?? []).map((r) => [r.badge_id, r.unlocked_at]));
@@ -313,24 +326,7 @@ export default async function MyProgressPage() {
         {/* Last 7 days */}
         <section className={`${CARD_BASE_CLASSES} ${CARD_BORDER_DEFAULT}`}>
           <h2 className="font-serif text-xl font-semibold tracking-tight text-slate-900">Last 7 days</h2>
-          <div className="mt-6 flex items-end justify-between gap-2" style={{ height: 96 }}>
-            {days.map((d, i) => (
-              <div key={i} className="flex flex-1 flex-col items-center gap-2">
-                <div
-                  className={`w-full rounded-t ${hasRecentActivity ? "bg-blue-600" : "bg-slate-200"}`}
-                  style={{
-                    height: hasRecentActivity ? `${Math.max(4, (d.total / maxDayTotal) * 80)}px` : "6px",
-                  }}
-                />
-                <span className="text-xs text-slate-500">{d.label}</span>
-              </div>
-            ))}
-          </div>
-          {!hasRecentActivity && (
-            <p className="mt-2 text-xs text-slate-400">
-              No activity yet — study a flashcard or question to see your trend.
-            </p>
-          )}
+          <WeeklyActivityChart days={days} />
         </section>
 
         {badgeRows && <BadgesSection badges={badgeRows} unlockedAt={unlockedAt} />}
