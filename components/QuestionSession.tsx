@@ -7,6 +7,7 @@ import type { Question } from "@/types/content";
 import { getQuestionProgress, setQuestionAttempted, setQuestionMarks } from "@/lib/progress";
 import { getSubjectStyle } from "@/lib/subject-styles";
 import { logQuestionActivity } from "@/lib/activity";
+import { useBadgeUnlock } from "@/components/badges/BadgeUnlockProvider";
 
 type Props = {
   breadcrumb: string;
@@ -86,6 +87,7 @@ export default function QuestionSession({
   const [revealed, setRevealed] = useState(false);
   const [attemptedIds, setAttemptedIds] = useState<Set<string>>(new Set());
   const [selfMarks, setSelfMarks] = useState<Record<string, number>>({});
+  const { notifyBadgesUnlocked } = useBadgeUnlock();
 
   const question = questions[index];
 
@@ -139,7 +141,7 @@ export default function QuestionSession({
       isMultipleChoice: Boolean(question.isMultipleChoice),
       selectedOptionCorrect: selectedOption !== null ? selectedOption === question.correctOption : null,
       subjectTotalItems,
-    });
+    }).then(notifyBadgesUnlocked);
   }
 
   const subjectStyle = getSubjectStyle(subjectSlug);
