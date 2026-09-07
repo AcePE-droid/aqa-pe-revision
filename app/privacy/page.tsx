@@ -21,7 +21,7 @@ export default function PrivacyPolicyPage() {
         <section>
           <h2 className="text-lg font-semibold text-slate-900">1. Who we are</h2>
           <p className="mt-2">
-            PE Revision is a free, student-made revision resource for AQA A-Level PE. It isn&rsquo;t
+            AcePE is a free, student-made revision resource for AQA A-Level PE. It isn&rsquo;t
             affiliated with, endorsed by, or connected to AQA.
           </p>
           <p className="mt-2">

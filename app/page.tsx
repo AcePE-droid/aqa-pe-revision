@@ -49,7 +49,7 @@ export default function Home() {
             bits of textbooks, YouTube, and Quizlet decks made by other students.
           </p>
           <p className="mt-4 text-lg leading-8 text-slate-600">
-            PE Revision exists so the next cohort doesn&rsquo;t have to do that. It&rsquo;s free
+            AcePE exists so the next cohort doesn&rsquo;t have to do that. It&rsquo;s free
             forever, focused on exactly one qualification, and built by someone who sat the exam
             and knows what actually mattered.
           </p>

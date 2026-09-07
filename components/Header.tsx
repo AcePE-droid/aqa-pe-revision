@@ -5,12 +5,14 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import AuthStatus from "@/components/AuthStatus";
+import { useIncomingFriendRequestCount } from "@/lib/supabase/useIncomingFriendRequestCount";
 
 const navLinks = [
   { href: "/flashcards", label: "Flashcards" },
   { href: "/notes", label: "Notes" },
   { href: "/questions", label: "Practice Questions" },
   { href: "/my-progress", label: "My Progress" },
+  { href: "/friends", label: "Friends" },
   { href: "/past-papers", label: "Past Papers" },
   { href: "/about", label: "About" },
 ];
@@ -18,6 +20,7 @@ const navLinks = [
 export default function Header() {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
+  const pendingRequestCount = useIncomingFriendRequestCount();
 
   // Close the mobile menu whenever the route changes, so a back/forward
   // navigation (or a link that doesn't unmount Header) doesn't leave it open.
@@ -38,7 +41,7 @@ export default function Header() {
       <header className="sticky top-0 z-30 border-b border-slate-200 bg-white/95 backdrop-blur">
         <div className="mx-auto flex max-w-[1100px] items-center justify-between px-6 py-4 md:px-8 lg:px-12">
           <Link href="/" className="text-lg font-semibold tracking-tight text-slate-900">
-            PE Revision
+            AcePE
           </Link>
 
           {/* Desktop nav: unchanged, shown from md upward */}
@@ -49,13 +52,18 @@ export default function Header() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className={`border-b-2 pb-1 transition-colors duration-150 hover:text-slate-900 ${
+                  className={`flex items-center gap-1.5 border-b-2 pb-1 transition-colors duration-150 hover:text-slate-900 ${
                     isActive
                       ? "border-blue-600 font-medium text-slate-900"
                       : "border-transparent text-slate-700"
                   }`}
                 >
                   {link.label}
+                  {link.href === "/friends" && pendingRequestCount > 0 && (
+                    <span className="flex h-5 min-w-5 items-center justify-center rounded-full bg-blue-600 px-1 text-xs font-semibold text-white">
+                      {pendingRequestCount}
+                    </span>
+                  )}
                 </Link>
               );
             })}
@@ -92,13 +100,18 @@ export default function Header() {
                   key={link.href}
                   href={link.href}
                   onClick={() => setMenuOpen(false)}
-                  className={`flex min-h-[44px] items-center border-b-2 px-4 text-base font-medium transition-colors duration-150 hover:bg-slate-50 ${
+                  className={`flex min-h-[44px] items-center gap-2 border-b-2 px-4 text-base font-medium transition-colors duration-150 hover:bg-slate-50 ${
                     isActive
                       ? "border-blue-600 text-slate-900"
                       : "border-transparent text-slate-700"
                   }`}
                 >
                   {link.label}
+                  {link.href === "/friends" && pendingRequestCount > 0 && (
+                    <span className="flex h-5 min-w-5 items-center justify-center rounded-full bg-blue-600 px-1 text-xs font-semibold text-white">
+                      {pendingRequestCount}
+                    </span>
+                  )}
                 </Link>
               );
             })}

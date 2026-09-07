@@ -27,7 +27,7 @@ export default function TermsOfServicePage() {
         <section>
           <h2 className="text-lg font-semibold text-slate-900">2. What this site is</h2>
           <p className="mt-2">
-            PE Revision is a student-made revision resource. It isn&rsquo;t affiliated with,
+            AcePE is a student-made revision resource. It isn&rsquo;t affiliated with,
             endorsed by, or produced by AQA. Content is written in good faith, but it may contain
             mistakes, so always cross-reference against your official course materials.
           </p>

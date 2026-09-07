@@ -5,7 +5,6 @@ import Link from "next/link";
 import type { User } from "@supabase/supabase-js";
 import { createClient } from "@/lib/supabase/client";
 import { migrateLocalProgressToCloud } from "@/lib/progress";
-import { useIncomingFriendRequestCount } from "@/lib/supabase/useIncomingFriendRequestCount";
 
 type Props = {
   // "desktop" (default) is the compact dropdown used in the header's nav row.
@@ -22,7 +21,6 @@ export default function AuthStatus({ variant = "desktop", onNavigate }: Props) {
   const [user, setUser] = useState<User | null>(null);
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
-  const pendingRequestCount = useIncomingFriendRequestCount();
 
   useEffect(() => {
     const supabase = createClient();
@@ -79,18 +77,6 @@ export default function AuthStatus({ variant = "desktop", onNavigate }: Props) {
       <div className="mt-2 border-t border-slate-200 pt-2">
         <p className="truncate px-4 pb-1 text-xs text-slate-500">{label}</p>
         <Link
-          href="/friends"
-          onClick={onNavigate}
-          className="flex min-h-[44px] items-center gap-2 px-4 text-base font-medium text-slate-700 hover:bg-slate-50"
-        >
-          Friends
-          {pendingRequestCount > 0 && (
-            <span className="flex h-5 min-w-5 items-center justify-center rounded-full bg-blue-600 px-1 text-xs font-semibold text-white">
-              {pendingRequestCount}
-            </span>
-          )}
-        </Link>
-        <Link
           href="/account"
           onClick={onNavigate}
           className="flex min-h-[44px] items-center px-4 text-base font-medium text-slate-700 hover:bg-slate-50"
@@ -124,31 +110,13 @@ export default function AuthStatus({ variant = "desktop", onNavigate }: Props) {
     <div ref={menuRef} className="relative">
       <button
         onClick={() => setMenuOpen((open) => !open)}
-        className="relative rounded-md border border-slate-300 px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-50"
+        className="rounded-md border border-slate-300 px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-50"
       >
         {label}
-        {pendingRequestCount > 0 && (
-          <span
-            aria-hidden="true"
-            className="absolute -right-1 -top-1 h-2.5 w-2.5 rounded-full bg-blue-600"
-          />
-        )}
       </button>
       {menuOpen && (
         <div className="absolute right-0 mt-2 w-56 rounded-xl border border-slate-200 bg-white p-3 shadow-md">
           <p className="truncate px-1 pb-2 text-xs text-slate-500">{user.email}</p>
-          <Link
-            href="/friends"
-            onClick={() => setMenuOpen(false)}
-            className="flex w-full items-center justify-between rounded-md px-3 py-1.5 text-left text-sm font-medium text-slate-700 hover:bg-slate-50"
-          >
-            Friends
-            {pendingRequestCount > 0 && (
-              <span className="flex h-5 min-w-5 items-center justify-center rounded-full bg-blue-600 px-1 text-xs font-semibold text-white">
-                {pendingRequestCount}
-              </span>
-            )}
-          </Link>
           <Link
             href="/account"
             onClick={() => setMenuOpen(false)}
