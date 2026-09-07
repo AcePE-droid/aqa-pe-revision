@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
-import { X, ChevronLeft, ChevronRight, Trophy } from "lucide-react";
+import { X, ChevronLeft, ChevronRight, Shuffle, Trophy } from "lucide-react";
 import confetti from "canvas-confetti";
 import type { Flashcard } from "@/types/content";
 import {
@@ -42,6 +42,16 @@ const HIGHLIGHT_MS = 180;
 
 type NavPhase = "idle" | "out" | "enterStart" | "enter";
 type NavDirection = "next" | "prev";
+
+// Standard Fisher-Yates shuffle - returns a new array, leaves the input untouched.
+function shuffleArray<T>(items: T[]): T[] {
+  const result = [...items];
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}
 
 function contentTransitionClasses(phase: NavPhase, direction: NavDirection): string {
   switch (phase) {
@@ -94,6 +104,7 @@ export default function FlashcardStudy({
   // this subtopic - frozen snapshot, only refreshed when the current
   // session itself completes (see mark()).
   const [lastLearningIds, setLastLearningIds] = useState<Set<string>>(new Set());
+  const [shuffleOn, setShuffleOn] = useState(false);
   const subjectStyle = getSubjectStyle(subjectSlug);
   const userId = useAuthUserId();
   const { notifyBadgesUnlocked } = useBadgeUnlock();
@@ -132,7 +143,15 @@ export default function FlashcardStudy({
     timers.current.push(window.setTimeout(fn, ms));
   }
 
-  const card = sessionCards[index];
+  // Only reshuffles when the session itself changes or shuffle is toggled -
+  // navigating between cards (index changes) never re-runs this, so the
+  // order stays put for the rest of the session.
+  const displayCards = useMemo(
+    () => (shuffleOn ? shuffleArray(sessionCards) : sessionCards),
+    [sessionCards, shuffleOn]
+  );
+
+  const card = displayCards[index];
 
   function runTransition(newIndex: number, dir: NavDirection) {
     if (navPhase !== "idle") return;
@@ -150,7 +169,7 @@ export default function FlashcardStudy({
   }
 
   function goTo(newIndex: number) {
-    if (newIndex < 0 || newIndex >= sessionCards.length) return;
+    if (newIndex < 0 || newIndex >= displayCards.length) return;
     runTransition(newIndex, newIndex > index ? "next" : "prev");
   }
 
@@ -174,7 +193,7 @@ export default function FlashcardStudy({
       subjectTotalItems,
     }).then(notifyBadgesUnlocked);
 
-    if (index < sessionCards.length - 1) {
+    if (index < displayCards.length - 1) {
       runTransition(index + 1, "next");
     } else {
       const learningIds = cards.filter((c) => updatedProgress[c.id] === "learning").map((c) => c.id);
@@ -262,7 +281,7 @@ export default function FlashcardStudy({
         <p className="min-w-0 truncate text-center text-sm text-slate-700">{breadcrumb}</p>
         <div className="flex shrink-0 flex-col items-end gap-0.5">
           <p className="text-sm text-slate-500">
-            Card {index + 1} of {sessionCards.length}
+            Card {index + 1} of {displayCards.length}
           </p>
           <p className="flex items-center gap-1.5 text-xs text-slate-400">
             <span className="flex items-center gap-1">
@@ -388,7 +407,7 @@ export default function FlashcardStudy({
               Mark as Known
             </button>
           </div>
-          <div className="flex justify-between">
+          <div className="flex items-center justify-between">
             <button
               onClick={() => goTo(index - 1)}
               disabled={index === 0 || navPhase !== "idle"}
@@ -397,8 +416,19 @@ export default function FlashcardStudy({
               <ChevronLeft className="h-4 w-4" /> Previous
             </button>
             <button
+              onClick={() => setShuffleOn((s) => !s)}
+              aria-pressed={shuffleOn}
+              className={`flex items-center gap-1.5 rounded-md border px-3 py-2 text-sm font-medium transition-colors ${
+                shuffleOn
+                  ? "border-blue-500 bg-blue-500 text-white hover:bg-blue-600"
+                  : "border-slate-300 bg-white text-slate-600 hover:bg-slate-100"
+              }`}
+            >
+              <Shuffle className="h-4 w-4" /> Shuffle
+            </button>
+            <button
               onClick={() => goTo(index + 1)}
-              disabled={index === sessionCards.length - 1 || navPhase !== "idle"}
+              disabled={index === displayCards.length - 1 || navPhase !== "idle"}
               className="flex items-center gap-1 rounded-md px-3 py-2 text-sm font-medium text-slate-600 hover:bg-slate-100 disabled:opacity-30"
             >
               Next <ChevronRight className="h-4 w-4" />
