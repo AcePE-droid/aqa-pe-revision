@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { resolveSubtopicPath, getQuestions } from "@/lib/content";
+import { resolveSubtopicPath, getQuestions, getSubjectItemCounts } from "@/lib/content";
 import { slugify } from "@/lib/slug";
 import QuestionSession from "@/components/QuestionSession";
 
@@ -19,6 +19,7 @@ export default async function SubtopicQuestionSessionPage(
       subjectSlug={slugify(topic.subject)}
       backHref={`/questions/${slugify(topic.subject)}`}
       questions={questions}
+      subjectTotalItems={getSubjectItemCounts(topic.subject)}
     />
   );
 }

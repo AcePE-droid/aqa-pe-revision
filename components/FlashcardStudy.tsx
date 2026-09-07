@@ -16,6 +16,7 @@ import {
 } from "@/lib/progress";
 import { getSubjectStyle } from "@/lib/subject-styles";
 import { useAuthUserId } from "@/lib/supabase/useAuthUserId";
+import { logFlashcardActivity } from "@/lib/activity";
 
 type Props = {
   subtopicId: string;
@@ -25,6 +26,7 @@ type Props = {
   backHref: string;
   cards: Flashcard[];
   groupLabel?: string;
+  subjectTotalItems: number;
 };
 
 // Between-card content transition timings. OUT also doubles as the "brief
@@ -66,6 +68,7 @@ export default function FlashcardStudy({
   backHref,
   cards,
   groupLabel,
+  subjectTotalItems,
 }: Props) {
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
@@ -154,6 +157,18 @@ export default function FlashcardStudy({
     setProgress(updatedProgress);
     setHighlighted(status);
     schedule(() => setHighlighted(null), HIGHLIGHT_MS);
+
+    const bucketKnownCount = cards.filter((c) => updatedProgress[c.id] === "known").length;
+    void logFlashcardActivity({
+      subjectSlug,
+      subtopicId,
+      flashcardId: card.id,
+      status: status as "known" | "learning",
+      wasKnownBefore: progress[card.id] === "known",
+      bucketKnownPct: cards.length > 0 ? (bucketKnownCount / cards.length) * 100 : 0,
+      bucketTotalItems: cards.length,
+      subjectTotalItems,
+    });
 
     if (index < sessionCards.length - 1) {
       runTransition(index + 1, "next");

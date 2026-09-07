@@ -133,6 +133,25 @@ export function getPastPapers(): PastPaper[] {
   return readJsonSafe<PastPaper[]>("past-papers.json", []);
 }
 
+/**
+ * Total item count (flashcards + questions combined) across every topic and
+ * subtopic under a subject - used to compute "% of subject seen" for the
+ * subject-coverage badges (see supabase/migrations for the activity/badge
+ * schema).
+ */
+export function getSubjectItemCounts(subjectName: string): number {
+  let total = 0;
+  for (const topic of getTopicsBySubject(subjectName)) {
+    const paper = getPaperById(topic.paperId);
+    if (!paper) continue;
+    for (const subtopic of getSubtopicsByTopicId(topic.id)) {
+      total += getFlashcards(paper.slug, topic.slug, subtopic.slug).length;
+      total += getQuestions(paper.slug, topic.slug, subtopic.slug).length;
+    }
+  }
+  return total;
+}
+
 function countFlashcardsInDir(dir: string): number {
   let total = 0;
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {

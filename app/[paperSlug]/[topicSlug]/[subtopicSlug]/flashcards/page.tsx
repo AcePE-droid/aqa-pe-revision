@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { resolveSubtopicPath, getFlashcards } from "@/lib/content";
+import { resolveSubtopicPath, getFlashcards, getSubjectItemCounts } from "@/lib/content";
 import { slugify } from "@/lib/slug";
 import FlashcardStudy from "@/components/FlashcardStudy";
 
@@ -31,6 +31,7 @@ export default async function FlashcardStudyPage(
       backHref={`/${paper.slug}/${topic.slug}/${subtopic.slug}`}
       cards={cards}
       groupLabel={groupLabel}
+      subjectTotalItems={getSubjectItemCounts(topic.subject)}
     />
   );
 }

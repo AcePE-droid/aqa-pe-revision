@@ -6,12 +6,14 @@ import { X, ChevronLeft, ChevronRight, ClipboardCheck } from "lucide-react";
 import type { Question } from "@/types/content";
 import { getQuestionProgress, setQuestionAttempted, setQuestionMarks } from "@/lib/progress";
 import { getSubjectStyle } from "@/lib/subject-styles";
+import { logQuestionActivity } from "@/lib/activity";
 
 type Props = {
   breadcrumb: string;
   subjectSlug: string;
   backHref: string;
   questions: Question[];
+  subjectTotalItems: number;
 };
 
 // A mark scheme is plain text with line breaks, but almost always contains
@@ -69,7 +71,7 @@ function markBadgeClasses(marksAwarded: number, totalMarks: number): string {
   return "border-red-300 bg-red-100 text-red-800";
 }
 
-export default function QuestionSession({ breadcrumb, subjectSlug, backHref, questions }: Props) {
+export default function QuestionSession({ breadcrumb, subjectSlug, backHref, questions, subjectTotalItems }: Props) {
   const [index, setIndex] = useState(0);
   const [answer, setAnswer] = useState("");
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
@@ -119,6 +121,17 @@ export default function QuestionSession({ breadcrumb, subjectSlug, backHref, que
   function saveMark(marks: number) {
     setQuestionMarks(question.subtopicId, question.id, marks);
     setSelfMarks((prev) => ({ ...prev, [question.id]: marks }));
+
+    void logQuestionActivity({
+      subjectSlug,
+      subtopicId: question.subtopicId,
+      questionId: question.id,
+      marksAwarded: marks,
+      totalMarks: question.marks,
+      isMultipleChoice: Boolean(question.isMultipleChoice),
+      selectedOptionCorrect: selectedOption !== null ? selectedOption === question.correctOption : null,
+      subjectTotalItems,
+    });
   }
 
   const subjectStyle = getSubjectStyle(subjectSlug);
