@@ -47,6 +47,7 @@ export default async function MyProgressPage() {
     { data: badgeRows },
     { data: userBadgeRows },
     { data: myScoreRows },
+    { data: friendshipRows },
   ] = await Promise.all([
     supabase.rpc("get_user_streak", { p_user_id: user.id }),
     supabase.from("flashcard_progress").select("flashcard_id, status").eq("user_id", user.id),
@@ -60,6 +61,14 @@ export default async function MyProgressPage() {
     supabase.from("badges").select("id, name, description"),
     supabase.from("user_badges").select("badge_id, unlocked_at").eq("user_id", user.id),
     supabase.from("leaderboard_scores").select("window_name, score, rank").eq("user_id", user.id),
+    // Fetched here (rather than inside the leaderboard try/catch below) so it
+    // runs in the same round trip as everything else above, instead of a
+    // separate sequential wave after this Promise.all resolves.
+    supabase
+      .from("friendships")
+      .select("user_id_a, user_id_b")
+      .eq("status", "accepted")
+      .or(`user_id_a.eq.${user.id},user_id_b.eq.${user.id}`),
   ]);
 
   // --- Leaderboard: score reads use the service-role admin client because
@@ -76,12 +85,6 @@ export default async function MyProgressPage() {
   let hasFriends = false;
   try {
     const admin = createAdminClient();
-
-    const { data: friendshipRows } = await supabase
-      .from("friendships")
-      .select("user_id_a, user_id_b")
-      .eq("status", "accepted")
-      .or(`user_id_a.eq.${user.id},user_id_b.eq.${user.id}`);
 
     const friendIds = (friendshipRows ?? []).map((r) => (r.user_id_a === user.id ? r.user_id_b : r.user_id_a));
     hasFriends = friendIds.length > 0;
