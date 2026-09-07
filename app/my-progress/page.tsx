@@ -187,6 +187,7 @@ export default async function MyProgressPage() {
     return { label: d.toLocaleDateString("en-GB", { weekday: "short" }), total };
   });
   const maxDayTotal = Math.max(1, ...days.map((d) => d.total));
+  const hasRecentActivity = days.some((d) => d.total > 0);
 
   const currentStreak = streakRows?.[0]?.current_streak ?? 0;
   const unlockedAt = Object.fromEntries((userBadgeRows ?? []).map((r) => [r.badge_id, r.unlocked_at]));
@@ -265,13 +266,20 @@ export default async function MyProgressPage() {
             {days.map((d, i) => (
               <div key={i} className="flex flex-1 flex-col items-center gap-2">
                 <div
-                  className="w-full rounded-t bg-blue-600"
-                  style={{ height: `${Math.max(4, (d.total / maxDayTotal) * 80)}px` }}
+                  className={`w-full rounded-t ${hasRecentActivity ? "bg-blue-600" : "bg-slate-200"}`}
+                  style={{
+                    height: hasRecentActivity ? `${Math.max(4, (d.total / maxDayTotal) * 80)}px` : "6px",
+                  }}
                 />
                 <span className="text-xs text-slate-500">{d.label}</span>
               </div>
             ))}
           </div>
+          {!hasRecentActivity && (
+            <p className="mt-2 text-xs text-slate-400">
+              No activity yet — study a flashcard or question to see your trend.
+            </p>
+          )}
         </section>
 
         {badgeRows && <BadgesSection badges={badgeRows} unlockedAt={unlockedAt} />}
