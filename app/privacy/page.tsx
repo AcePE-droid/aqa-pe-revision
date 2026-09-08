@@ -4,7 +4,7 @@
 // other than the person who wrote the site) for accuracy against what the
 // site actually does at that time.
 
-const PRIVACY_EMAIL = "acepe26.a.level@gmail.com";
+import Link from "next/link";
 
 // TODO: set to the real publish date before this policy goes live
 const LAST_UPDATED = "[date to be set before publishing]";
@@ -25,10 +25,10 @@ export default function PrivacyPolicyPage() {
             affiliated with, endorsed by, or connected to AQA.
           </p>
           <p className="mt-2">
-            If you have questions about how your data is handled, email{" "}
-            <a href={`mailto:${PRIVACY_EMAIL}`} className="text-blue-600 hover:underline">
-              {PRIVACY_EMAIL}
-            </a>
+            If you have questions about how your data is handled,{" "}
+            <Link href="/feedback" className="text-blue-600 hover:underline">
+              send us feedback
+            </Link>
             .
           </p>
         </section>
@@ -88,10 +88,10 @@ export default function PrivacyPolicyPage() {
           <p className="mt-2">You can:</p>
           <ul className="mt-2 list-disc pl-5">
             <li>
-              Ask to see what data we have about you (email{" "}
-              <a href={`mailto:${PRIVACY_EMAIL}`} className="text-blue-600 hover:underline">
-                {PRIVACY_EMAIL}
-              </a>
+              Ask to see what data we have about you (
+              <Link href="/feedback" className="text-blue-600 hover:underline">
+                send us feedback
+              </Link>
               )
             </li>
             <li>Ask us to correct anything that&rsquo;s wrong</li>
@@ -140,10 +140,10 @@ export default function PrivacyPolicyPage() {
         <section>
           <h2 className="text-lg font-semibold text-slate-900">10. Contact</h2>
           <p className="mt-2">
-            Questions about your data? Email{" "}
-            <a href={`mailto:${PRIVACY_EMAIL}`} className="text-blue-600 hover:underline">
-              {PRIVACY_EMAIL}
-            </a>
+            Questions about your data?{" "}
+            <Link href="/feedback" className="text-blue-600 hover:underline">
+              Send us feedback
+            </Link>
             .
           </p>
         </section>

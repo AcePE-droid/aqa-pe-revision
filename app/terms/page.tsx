@@ -2,7 +2,7 @@
 // final legal text. Before launch: replace the last-updated date, and have
 // the whole document reviewed for accuracy.
 
-const CONTACT_EMAIL = "acepe26.a.level@gmail.com";
+import Link from "next/link";
 
 // TODO: set to the real publish date before this page goes live
 const LAST_UPDATED = "[date to be set before publishing]";
@@ -94,10 +94,10 @@ export default function TermsOfServicePage() {
         <section>
           <h2 className="text-lg font-semibold text-slate-900">10. Contact</h2>
           <p className="mt-2">
-            Questions about these terms? Email{" "}
-            <a href={`mailto:${CONTACT_EMAIL}`} className="text-blue-600 hover:underline">
-              {CONTACT_EMAIL}
-            </a>
+            Questions about these terms?{" "}
+            <Link href="/feedback" className="text-blue-600 hover:underline">
+              Send us feedback
+            </Link>
             .
           </p>
         </section>
