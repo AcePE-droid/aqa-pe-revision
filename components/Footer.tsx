@@ -1,7 +1,5 @@
 import Link from "next/link";
 
-const FEEDBACK_EMAIL = "acepe26.a.level@gmail.com";
-
 export default function Footer() {
   return (
     <footer className="border-t border-slate-200 bg-slate-50">
@@ -14,9 +12,9 @@ export default function Footer() {
           <Link href="/about" className="hover:text-blue-600">
             About this site
           </Link>
-          <a href={`mailto:${FEEDBACK_EMAIL}?subject=AcePE%20feedback`} className="hover:text-blue-600">
+          <Link href="/feedback" className="hover:text-blue-600">
             Send feedback
-          </a>
+          </Link>
           <Link href="/privacy" className="hover:text-blue-600">
             Privacy Policy
           </Link>
