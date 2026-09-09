@@ -5,17 +5,30 @@ import { slugify } from "@/lib/slug";
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
 
+// Content JSON files are static (bundled at deploy time) and never change
+// while a server process is running, so every read is cached in-memory by
+// file path. Without this, pages like My Progress that re-derive an index
+// over the entire content tree on every request were re-reading and
+// re-parsing hundreds of JSON files per page load.
+const jsonFileCache = new Map<string, unknown>();
+
 function readJson<T>(relativePath: string): T {
   const filePath = path.join(CONTENT_DIR, relativePath);
+  if (jsonFileCache.has(filePath)) return jsonFileCache.get(filePath) as T;
   const raw = fs.readFileSync(filePath, "utf-8");
-  return JSON.parse(raw) as T;
+  const parsed = JSON.parse(raw) as T;
+  jsonFileCache.set(filePath, parsed);
+  return parsed;
 }
 
 function readJsonSafe<T>(relativePath: string, fallback: T): T {
   const filePath = path.join(CONTENT_DIR, relativePath);
+  if (jsonFileCache.has(filePath)) return jsonFileCache.get(filePath) as T;
   if (!fs.existsSync(filePath)) return fallback;
   const raw = fs.readFileSync(filePath, "utf-8");
-  return JSON.parse(raw) as T;
+  const parsed = JSON.parse(raw) as T;
+  jsonFileCache.set(filePath, parsed);
+  return parsed;
 }
 
 /**

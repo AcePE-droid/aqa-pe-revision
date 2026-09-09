@@ -1,5 +1,5 @@
 import { redirect } from "next/navigation";
-import { createClient } from "@/lib/supabase/server";
+import { createClient, getVerifiedUserId } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { getProgressContentIndex, getSubjects } from "@/lib/content";
 import { getSubjectStyle } from "@/lib/subject-styles";
@@ -29,10 +29,8 @@ function StatTile({ label, value }: { label: string; value: string }) {
 
 export default async function MyProgressPage() {
   const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-  if (!user) redirect("/login");
+  const userId = await getVerifiedUserId();
+  if (!userId) redirect("/login");
 
   const sevenDaysAgo = new Date();
   sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 6);
@@ -49,18 +47,18 @@ export default async function MyProgressPage() {
     { data: myScoreRows },
     { data: friendshipRows },
   ] = await Promise.all([
-    supabase.rpc("get_user_streak", { p_user_id: user.id }),
-    supabase.from("flashcard_progress").select("flashcard_id, status").eq("user_id", user.id),
-    supabase.from("question_progress").select("question_id, correct").eq("user_id", user.id),
+    supabase.rpc("get_user_streak", { p_user_id: userId }),
+    supabase.from("flashcard_progress").select("flashcard_id, status").eq("user_id", userId),
+    supabase.from("question_progress").select("question_id, correct").eq("user_id", userId),
     supabase
       .from("daily_activity")
       .select("date, cards_reviewed, questions_answered")
-      .eq("user_id", user.id)
+      .eq("user_id", userId)
       .gte("date", sevenDaysAgoStr),
-    supabase.from("daily_activity").select("cards_reviewed, questions_answered").eq("user_id", user.id),
+    supabase.from("daily_activity").select("cards_reviewed, questions_answered").eq("user_id", userId),
     supabase.from("badges").select("id, name, description"),
-    supabase.from("user_badges").select("badge_id, unlocked_at").eq("user_id", user.id),
-    supabase.from("leaderboard_scores").select("window_name, score, rank").eq("user_id", user.id),
+    supabase.from("user_badges").select("badge_id, unlocked_at").eq("user_id", userId),
+    supabase.from("leaderboard_scores").select("window_name, score, rank").eq("user_id", userId),
     // Fetched here (rather than inside the leaderboard try/catch below) so it
     // runs in the same round trip as everything else above, instead of a
     // separate sequential wave after this Promise.all resolves.
@@ -68,7 +66,7 @@ export default async function MyProgressPage() {
       .from("friendships")
       .select("user_id_a, user_id_b")
       .eq("status", "accepted")
-      .or(`user_id_a.eq.${user.id},user_id_b.eq.${user.id}`),
+      .or(`user_id_a.eq.${userId},user_id_b.eq.${userId}`),
   ]);
 
   // --- Leaderboard: score reads use the service-role admin client because
@@ -86,9 +84,9 @@ export default async function MyProgressPage() {
   try {
     const admin = createAdminClient();
 
-    const friendIds = (friendshipRows ?? []).map((r) => (r.user_id_a === user.id ? r.user_id_b : r.user_id_a));
+    const friendIds = (friendshipRows ?? []).map((r) => (r.user_id_a === userId ? r.user_id_b : r.user_id_a));
     hasFriends = friendIds.length > 0;
-    const friendsAndSelfIds = [user.id, ...friendIds];
+    const friendsAndSelfIds = [userId, ...friendIds];
 
     const [
       { data: weeklyScores },
@@ -342,7 +340,7 @@ export default async function MyProgressPage() {
           friendsWeekly={friendsWeeklyLeaderboard}
           friendsAllTime={friendsAllTimeLeaderboard}
           hasFriends={hasFriends}
-          currentUserId={user.id}
+          currentUserId={userId}
           yourRank={yourRank}
         />
       </div>
