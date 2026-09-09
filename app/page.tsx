@@ -43,15 +43,14 @@ export default function Home() {
             Why this exists
           </h2>
           <p className="mt-6 text-lg leading-8 text-slate-600">
-            When I studied A-Level PE, I couldn&rsquo;t find a single revision resource that
-            covered exactly the AQA spec without being bloated with ads, locked behind paywalls,
-            or watered down for GCSE students. Most of my revision came from cobbling together
-            bits of textbooks, YouTube, and Quizlet decks made by other students.
+            When I studied A-Level PE, I couldn&rsquo;t find an online revision resource with
+            organised, clean material to learn from. That led me to spend hours making my own
+            notes and flashcards &mdash; time that should have gone into actually revising.
           </p>
           <p className="mt-4 text-lg leading-8 text-slate-600">
-            AcePE exists so the next cohort doesn&rsquo;t have to do that. It&rsquo;s free
-            forever, focused on exactly one qualification, and built by someone who sat the exam
-            and knows what actually mattered.
+            AcePE exists so the next cohort doesn&rsquo;t have to do that. Many sections are free
+            and built to help you get the grade you want, made by someone who sat the exam and
+            knew exactly what was missing.
           </p>
           <Link
             href="/flashcards"
