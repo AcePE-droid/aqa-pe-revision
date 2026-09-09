@@ -32,10 +32,12 @@ export default async function AccountPage() {
       )}
 
       <div className="mt-10 border-t border-slate-200 pt-6">
-        <h2 className="text-base font-semibold text-slate-900">Reset progress</h2>
+        <h2 className="text-base font-semibold text-slate-900">Your study progress</h2>
         <p className="mt-1 text-sm text-slate-500">
-          Clears every card marked as known or still learning, on this device and across every
-          device where you&rsquo;re signed in.
+          Resets which flashcards and questions you&rsquo;ve marked known or correct, across every
+          device where you&rsquo;re signed in. Streaks, badges and lifetime totals are kept
+          &mdash; but My Progress coverage and strength figures are based on these marks, so
+          they&rsquo;ll reset too.
         </p>
         <div className="mt-3">
           <ResetProgressButton />

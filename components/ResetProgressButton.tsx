@@ -11,24 +11,13 @@ export default function ResetProgressButton() {
   const [resetting, setResetting] = useState(false);
   const userId = useAuthUserId();
 
-  function handleClick() {
-    // Signed-in users get a proper modal (their progress spans devices, so
-    // this is a bigger action than the anonymous, single-device case below).
-    if (userId) {
-      setModalOpen(true);
-      return;
-    }
-    if (!window.confirm("This will clear all your flashcard and question progress on this device. Continue?")) {
-      return;
-    }
-    resetAllProgress();
-    setDone(true);
-  }
-
   async function handleConfirmReset() {
-    if (!userId) return;
-    setResetting(true);
-    await resetCloudProgress(userId);
+    // Signed-in progress is synced, so it has to be cleared server-side too;
+    // anonymous progress only ever exists in this browser.
+    if (userId) {
+      setResetting(true);
+      await resetCloudProgress(userId);
+    }
     resetAllProgress();
     setResetting(false);
     setModalOpen(false);
@@ -38,16 +27,18 @@ export default function ResetProgressButton() {
   return (
     <div>
       <button
-        onClick={handleClick}
+        onClick={() => setModalOpen(true)}
         className="rounded-md border border-slate-300 px-4 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50"
       >
-        Reset my progress
+        Reset flashcard &amp; question progress
       </button>
       {done && <p className="mt-2 text-sm text-green-700">Progress reset.</p>}
       <ConfirmModal
         open={modalOpen}
-        title="Reset all your progress?"
-        body="This will clear all cards marked as known or still learning across all your devices. Your account will not be deleted. This can't be undone."
+        title="Reset flashcard & question progress?"
+        body={`Clears every flashcard and question marked known or correct${
+          userId ? ", on all your devices" : ", on this device"
+        }. Streaks, badges and lifetime totals aren't affected. This can't be undone.`}
         confirmLabel={resetting ? "Resetting..." : "Reset progress"}
         confirmDisabled={resetting}
         onConfirm={handleConfirmReset}
