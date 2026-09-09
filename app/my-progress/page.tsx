@@ -1,7 +1,7 @@
 import { redirect } from "next/navigation";
 import { createClient, getVerifiedUserId } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
-import { getProgressContentIndex, getSubjects } from "@/lib/content";
+import { getCachedProgressContentIndexData, getSubjects, type ProgressContentIndex } from "@/lib/content";
 import { getSubjectStyle } from "@/lib/subject-styles";
 import { CARD_BASE_CLASSES, CARD_BORDER_DEFAULT } from "@/lib/styles";
 import BadgesSection from "@/components/progress/BadgesSection";
@@ -165,7 +165,15 @@ export default async function MyProgressPage() {
   };
 
   // --- Content coverage, subject strength, focus buckets ---
-  const index = getProgressContentIndex();
+  const indexData = await getCachedProgressContentIndexData();
+  const index: ProgressContentIndex = {
+    flashcardSubject: new Map(indexData.flashcardSubject),
+    flashcardBucket: new Map(indexData.flashcardBucket),
+    questionSubject: new Map(indexData.questionSubject),
+    questionBucket: new Map(indexData.questionBucket),
+    buckets: new Map(indexData.buckets),
+    subjectTotals: new Map(indexData.subjectTotals),
+  };
   const subjects = getSubjects();
 
   let totalContentItems = 0;

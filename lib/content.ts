@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { unstable_cache } from "next/cache";
 import type { Paper, Topic, Subtopic, Flashcard, Question, PastPaper } from "@/types/content";
 import { slugify } from "@/lib/slug";
 
@@ -231,6 +232,44 @@ export function getProgressContentIndex(): ProgressContentIndex {
 
   return { flashcardSubject, flashcardBucket, questionSubject, questionBucket, buckets, subjectTotals };
 }
+
+// Serializable (Map-free) shape of ProgressContentIndex, for use with
+// unstable_cache below - Next's Data Cache persists across separate
+// serverless invocations (unlike the in-memory jsonFileCache above, which
+// only helps while a function instance stays warm), but it round-trips
+// values through JSON, so Maps have to be represented as entry arrays.
+export type ProgressContentIndexData = {
+  flashcardSubject: [string, string][];
+  flashcardBucket: [string, string][];
+  questionSubject: [string, string][];
+  questionBucket: [string, string][];
+  buckets: [string, ProgressBucketInfo][];
+  subjectTotals: [string, number][];
+};
+
+/**
+ * Cached version of getProgressContentIndex() for the My Progress page.
+ * Walking every subtopic's flashcard/question JSON file is the most
+ * expensive content read in the app, and on a low-traffic serverless
+ * deployment nearly every request hits a cold function instance - caching
+ * this in Next's Data Cache (rather than only the in-memory jsonFileCache)
+ * is what actually avoids repeating that work on every page load in
+ * production, not just within a single warm process.
+ */
+export const getCachedProgressContentIndexData = unstable_cache(
+  async (): Promise<ProgressContentIndexData> => {
+    const index = getProgressContentIndex();
+    return {
+      flashcardSubject: Array.from(index.flashcardSubject.entries()),
+      flashcardBucket: Array.from(index.flashcardBucket.entries()),
+      questionSubject: Array.from(index.questionSubject.entries()),
+      questionBucket: Array.from(index.questionBucket.entries()),
+      buckets: Array.from(index.buckets.entries()),
+      subjectTotals: Array.from(index.subjectTotals.entries()),
+    };
+  },
+  ["progress-content-index"]
+);
 
 function countFlashcardsInDir(dir: string): number {
   let total = 0;
