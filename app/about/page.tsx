@@ -8,8 +8,7 @@ export default function AboutPage() {
       <div className="mt-6 flex flex-col gap-4 text-slate-700">
         <p>
           This site was built by a former AQA A-Level PE student who felt there wasn&apos;t
-          enough clear, structured revision material for this course. It&apos;s free, and always
-          will be.
+          enough clear, structured revision material for this course.
         </p>
         <p>
           Flashcards, practice questions, and notes are all organised by the official AQA
