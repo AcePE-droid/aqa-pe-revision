@@ -14,7 +14,6 @@ const navLinks = [
   { href: "/my-progress", label: "My Progress" },
   { href: "/friends", label: "Friends" },
   { href: "/past-papers", label: "Past Papers" },
-  { href: "/about", label: "About" },
 ];
 
 export default function Header() {
