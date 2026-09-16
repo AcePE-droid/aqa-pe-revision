@@ -2,7 +2,15 @@
 // final legal text. Before launch: replace the last-updated date, and have
 // the whole document reviewed for accuracy.
 
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Terms of Service",
+  description:
+    "The terms that apply when you use AcePE as a revision resource for AQA A-Level PE (7582).",
+  alternates: { canonical: "/terms" },
+};
 
 // TODO: set to the real publish date before this page goes live
 const LAST_UPDATED = "[date to be set before publishing]";

@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
 import { getNotesSubjectCards } from "@/lib/subjects";
 import SubjectSquareCard from "@/components/SubjectSquareCard";
+
+export const metadata: Metadata = {
+  title: "A-Level PE Revision Notes",
+  description:
+    "Condensed revision notes for AQA A-Level PE (7582), written topic by topic against the official specification.",
+  alternates: { canonical: "/notes" },
+};
 
 export default function NotesHubPage() {
   const subjects = getNotesSubjectCards();

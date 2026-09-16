@@ -1,6 +1,14 @@
 import { getSubjectCards } from "@/lib/subjects";
 import { getTopicsBySubject, getSubtopicsByTopicId, getPaperById, getQuestions } from "@/lib/content";
 import QuestionSubjectCard from "@/components/QuestionSubjectCard";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "A-Level PE Practice Questions",
+  description:
+    "Free exam-style practice questions for AQA A-Level PE (7582), with mark schemes, organised topic by topic.",
+  alternates: { canonical: "/questions" },
+};
 
 export default function QuestionsHubPage() {
   const subjects = getSubjectCards("/questions");

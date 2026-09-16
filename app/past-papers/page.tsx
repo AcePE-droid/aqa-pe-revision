@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
 import { getPastPapers } from "@/lib/content";
 import PastPapersTable from "@/components/PastPapersTable";
+
+export const metadata: Metadata = {
+  title: "AQA A-Level PE Past Papers",
+  description:
+    "Links to official AQA A-Level PE (7582) past papers and mark schemes, listed by year and paper.",
+  alternates: { canonical: "/past-papers" },
+};
 
 export default function PastPapersPage() {
   const papers = getPastPapers();

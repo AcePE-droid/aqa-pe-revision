@@ -1,4 +1,12 @@
+import type { Metadata } from "next";
 import ResetProgressButton from "@/components/ResetProgressButton";
+
+export const metadata: Metadata = {
+  title: "About this site",
+  description:
+    "AcePE is an independent, student-made revision resource built around the official AQA A-Level PE specification (7582).",
+  alternates: { canonical: "/about" },
+};
 
 export default function AboutPage() {
   return (

@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
 import { getFlashcardSubjectCards } from "@/lib/subjects";
 import SubjectSquareCard from "@/components/SubjectSquareCard";
+
+export const metadata: Metadata = {
+  title: "A-Level PE Flashcards",
+  description:
+    "Free interactive flashcards for AQA A-Level PE (7582), organised by subject and topic across anatomy and physiology, sports psychology, and sport and society.",
+  alternates: { canonical: "/flashcards" },
+};
 
 export default function FlashcardsHubPage() {
   const subjects = getFlashcardSubjectCards();

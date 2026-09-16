@@ -9,6 +9,7 @@ import {
 } from "@/lib/content";
 import TopicCard from "@/components/TopicCard";
 import { getSubjectStyle } from "@/lib/subject-styles";
+import type { Metadata } from "next";
 
 type PaperSection = {
   paper: { slug: string; name: string };
@@ -20,6 +21,20 @@ type PaperSection = {
     total: number;
   }[];
 };
+
+export async function generateMetadata(
+  props: PageProps<"/flashcards/[subjectSlug]">
+): Promise<Metadata> {
+  const { subjectSlug } = await props.params;
+  const subject = getSubjectBySlug(subjectSlug);
+  if (!subject) return {};
+
+  return {
+    title: `${subject.name} Flashcards`,
+    description: `Free ${subject.name} flashcards for AQA A-Level PE (7582), organised by topic so you can revise one area at a time.`,
+    alternates: { canonical: `/flashcards/${subject.slug}` },
+  };
+}
 
 export default async function FlashcardSubjectPage(
   props: PageProps<"/flashcards/[subjectSlug]">

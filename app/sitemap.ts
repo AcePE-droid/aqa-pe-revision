@@ -1,8 +1,13 @@
 import type { MetadataRoute } from "next";
-import { getSubjects, getTopics, getPaperById, getSubtopicsByTopicId } from "@/lib/content";
+import {
+  getSubjects,
+  getTopics,
+  getPaperById,
+  getSubtopicsByTopicId,
+  getNotesMarkdown,
+} from "@/lib/content";
 import { slugify } from "@/lib/slug";
-
-const SITE_URL = "https://aqa-pe-revision.vercel.app";
+import { SITE_URL } from "@/lib/site";
 
 /**
  * Built by walking the same content helpers the pages themselves use, so the
@@ -22,7 +27,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/questions",
     "/past-papers",
     "/about",
-    "/my-progress",
     "/terms",
     "/privacy",
   ];
@@ -46,12 +50,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     for (const subtopic of getSubtopicsByTopicId(topic.id)) {
       const subtopicPath = `/${paper.slug}/${topic.slug}/${subtopic.slug}`;
-      paths.push(
-        subtopicPath,
-        `${subtopicPath}/flashcards`,
-        `${subtopicPath}/questions`,
-        `/notes/${subjectSlug}/${topic.slug}/${subtopic.slug}`
-      );
+      paths.push(subtopicPath, `${subtopicPath}/flashcards`, `${subtopicPath}/questions`);
+
+      // Subtopics without notes render a "not written yet" placeholder, which
+      // is marked noindex - listing it here would only contradict that.
+      if (getNotesMarkdown(paper.slug, topic.slug, subtopic.slug) !== null) {
+        paths.push(`/notes/${subjectSlug}/${topic.slug}/${subtopic.slug}`);
+      }
     }
   }
 

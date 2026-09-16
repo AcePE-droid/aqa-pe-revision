@@ -4,7 +4,15 @@
 // other than the person who wrote the site) for accuracy against what the
 // site actually does at that time.
 
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+  description:
+    "How AcePE handles your account details and revision progress, who it is shared with, and how to delete it.",
+  alternates: { canonical: "/privacy" },
+};
 
 // TODO: set to the real publish date before this policy goes live
 const LAST_UPDATED = "[date to be set before publishing]";

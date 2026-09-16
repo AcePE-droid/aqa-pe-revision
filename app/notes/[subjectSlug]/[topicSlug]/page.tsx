@@ -10,6 +10,22 @@ import {
 import { CARD_BASE_CLASSES, CARD_INTERACTIVE_CLASSES } from "@/lib/styles";
 import { getSubjectStyle } from "@/lib/subject-styles";
 import NotesSubtopicList from "@/components/NotesSubtopicList";
+import type { Metadata } from "next";
+
+export async function generateMetadata(
+  props: PageProps<"/notes/[subjectSlug]/[topicSlug]">
+): Promise<Metadata> {
+  const { subjectSlug, topicSlug } = await props.params;
+  const subject = getSubjectBySlug(subjectSlug);
+  const topic = getTopicBySlug(topicSlug);
+  if (!subject || !topic || topic.subject !== subject.name) return {};
+
+  return {
+    title: `${topic.name} Revision Notes`,
+    description: `Revision notes on ${topic.name} for AQA A-Level PE (7582), broken down subtopic by subtopic.`,
+    alternates: { canonical: `/notes/${subject.slug}/${topic.slug}` },
+  };
+}
 
 export default async function NotesTopicPage(props: PageProps<"/notes/[subjectSlug]/[topicSlug]">) {
   const { subjectSlug, topicSlug } = await props.params;

@@ -13,6 +13,12 @@ import BadgesSection from "@/components/progress/BadgesSection";
 import LeaderboardSection, { type LeaderboardRow } from "@/components/progress/LeaderboardSection";
 import WeeklyActivityChart from "@/components/progress/WeeklyActivityChart";
 import type { Confidence } from "@/lib/subtopic-progress";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "My Progress",
+  robots: { index: false, follow: false },
+};
 
 // Buckets (subtopics) need at least this many attempted items before they're
 // eligible for "Focus on this next" - otherwise a single missed flashcard in

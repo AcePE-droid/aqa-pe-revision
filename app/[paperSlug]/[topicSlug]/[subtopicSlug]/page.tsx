@@ -3,6 +3,22 @@ import { notFound } from "next/navigation";
 import { resolveSubtopicPath, getFlashcards, getNotesMarkdown } from "@/lib/content";
 import { slugify } from "@/lib/slug";
 import FlashcardGroupList from "@/components/FlashcardGroupList";
+import type { Metadata } from "next";
+
+export async function generateMetadata(
+  props: PageProps<"/[paperSlug]/[topicSlug]/[subtopicSlug]">
+): Promise<Metadata> {
+  const { paperSlug, topicSlug, subtopicSlug } = await props.params;
+  const resolved = resolveSubtopicPath(paperSlug, topicSlug, subtopicSlug);
+  if (!resolved) return {};
+  const { paper, topic, subtopic } = resolved;
+
+  return {
+    title: `${subtopic.name} Flashcards`,
+    description: `Flashcards on ${subtopic.name} (${topic.name}) for AQA A-Level PE (7582).`,
+    alternates: { canonical: `/${paper.slug}/${topic.slug}/${subtopic.slug}` },
+  };
+}
 
 export default async function SubtopicPage(
   props: PageProps<"/[paperSlug]/[topicSlug]/[subtopicSlug]">

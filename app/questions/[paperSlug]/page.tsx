@@ -9,11 +9,26 @@ import {
 } from "@/lib/content";
 import QuestionTopicCard from "@/components/QuestionTopicCard";
 import { getSubjectStyle } from "@/lib/subject-styles";
+import type { Metadata } from "next";
 
 type PaperSection = {
   paper: { slug: string; name: string };
   cards: { slug: string; name: string; href: string; total: number }[];
 };
+
+export async function generateMetadata(
+  props: PageProps<"/questions/[paperSlug]">
+): Promise<Metadata> {
+  const { paperSlug: subjectSlug } = await props.params;
+  const subject = getSubjectBySlug(subjectSlug);
+  if (!subject) return {};
+
+  return {
+    title: `${subject.name} Practice Questions`,
+    description: `Exam-style ${subject.name} questions for AQA A-Level PE (7582), with mark schemes, grouped by topic.`,
+    alternates: { canonical: `/questions/${subject.slug}` },
+  };
+}
 
 export default async function QuestionsSubjectPage(props: PageProps<"/questions/[paperSlug]">) {
   const { paperSlug: subjectSlug } = await props.params;

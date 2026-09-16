@@ -1,5 +1,11 @@
 import FeedbackForm from "@/components/FeedbackForm";
 import { CARD_BASE_CLASSES, CARD_BORDER_DEFAULT } from "@/lib/styles";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Send feedback",
+  robots: { index: false, follow: false },
+};
 
 // Random each request (not statically generated at build) so the math
 // bot-check question is fresh per visit.

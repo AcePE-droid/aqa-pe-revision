@@ -13,6 +13,32 @@ import {
   getQuestions,
 } from "@/lib/content";
 import { getSubjectStyle } from "@/lib/subject-styles";
+import type { Metadata } from "next";
+
+export async function generateMetadata(
+  props: PageProps<"/notes/[subjectSlug]/[topicSlug]/[subtopicSlug]">
+): Promise<Metadata> {
+  const { subjectSlug, topicSlug, subtopicSlug } = await props.params;
+  const subject = getSubjectBySlug(subjectSlug);
+  const topic = getTopicBySlug(topicSlug);
+  const subtopic = getSubtopicBySlug(subtopicSlug);
+  if (!subject || !topic || !subtopic || topic.subject !== subject.name || subtopic.topicId !== topic.id) {
+    return {};
+  }
+  const paper = getPaperById(topic.paperId);
+  if (!paper) return {};
+
+  const hasNotes = getNotesMarkdown(paper.slug, topic.slug, subtopic.slug) !== null;
+
+  return {
+    title: `${subtopic.name} Notes`,
+    description: `Revision notes on ${subtopic.name} (${topic.name}) for AQA A-Level PE (7582).`,
+    alternates: { canonical: `/notes/${subject.slug}/${topic.slug}/${subtopic.slug}` },
+    // Placeholder pages say only "notes haven't been written yet", which is
+    // exactly the thin content Google penalises a whole site for.
+    ...(hasNotes ? {} : { robots: { index: false, follow: true } }),
+  };
+}
 
 export default async function NotesSubtopicPage(
   props: PageProps<"/notes/[subjectSlug]/[topicSlug]/[subtopicSlug]">

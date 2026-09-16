@@ -3,6 +3,7 @@ import { Inter, Lora } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BadgeUnlockProvider from "@/components/badges/BadgeUnlockProvider";
+import { SITE_URL, SITE_NAME } from "@/lib/site";
 import "./globals.css";
 
 const inter = Inter({
@@ -16,9 +17,23 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  title: "AcePE | AQA A-Level PE (7582)",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "AcePE | AQA A-Level PE (7582)",
+    template: "%s | AcePE",
+  },
   description:
     "Free flashcards, practice questions, and study notes for AQA A-Level PE (7582).",
+  alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    siteName: SITE_NAME,
+    locale: "en_GB",
+    url: "/",
+    title: "AcePE | AQA A-Level PE (7582)",
+    description:
+      "Free flashcards, practice questions, and study notes for AQA A-Level PE (7582).",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
