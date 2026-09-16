@@ -20,7 +20,8 @@ export default function TermsOfServicePage() {
           <h2 className="text-lg font-semibold text-slate-900">1. Who this is for</h2>
           <p className="mt-2">
             These terms apply to anyone using this site as a revision resource for AQA A-Level PE.
-            The site is free to use.
+            Many sections are free to use. Some may require payment in future &mdash; where that
+            applies, the price and what it covers will be clear before you&rsquo;re asked to pay.
           </p>
         </section>
 
@@ -71,9 +72,9 @@ export default function TermsOfServicePage() {
         <section>
           <h2 className="text-lg font-semibold text-slate-900">7. Availability</h2>
           <p className="mt-2">
-            The site is free, and we do our best to keep it running, but we can&rsquo;t guarantee
-            it&rsquo;ll always be available. We may take it down for updates, or eventually shut it
-            down altogether. If we do, we&rsquo;ll give notice where we can.
+            We do our best to keep the site running, but we can&rsquo;t guarantee it&rsquo;ll always
+            be available. We may take it down for updates, or eventually shut it down altogether.
+            If we do, we&rsquo;ll give notice where we can.
           </p>
         </section>
 
