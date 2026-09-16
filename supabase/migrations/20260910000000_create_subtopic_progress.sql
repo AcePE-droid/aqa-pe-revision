@@ -42,9 +42,9 @@ create policy "Users can update their own subtopic progress"
   using (auth.uid() = user_id)
   with check (auth.uid() = user_id);
 
--- Included so this state can be cleared per-row (and so a future bulk reset
--- is possible at all) - question_progress omitted a delete policy and as a
--- result its rows can't be cleared by the app today.
+-- Included so this state can be cleared per-row (and so a bulk reset is
+-- possible at all) - question_progress originally omitted a delete policy,
+-- which left its rows uncleanable until 20260916000000 added one.
 create policy "Users can delete their own subtopic progress"
   on public.subtopic_progress
   for delete

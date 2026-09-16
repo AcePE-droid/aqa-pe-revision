@@ -38,7 +38,7 @@ export default function ResetProgressButton() {
         title="Reset flashcard & question progress?"
         body={`Clears every flashcard and question marked known or correct${
           userId ? ", on all your devices" : ", on this device"
-        }. Streaks, badges and lifetime totals aren't affected. This can't be undone.`}
+        }. Streaks, badges, lifetime totals, notes you've ticked as read and your confidence ratings aren't affected. This can't be undone.`}
         confirmLabel={resetting ? "Resetting..." : "Reset progress"}
         confirmDisabled={resetting}
         onConfirm={handleConfirmReset}

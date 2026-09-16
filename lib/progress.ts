@@ -183,16 +183,26 @@ export async function migrateLocalProgressToCloud(userId: string): Promise<void>
 }
 
 /**
- * Deletes all of a signed-in user's cloud flashcard progress rows. Used by
- * the "Reset my progress" flow for signed-in users, in addition to (not
- * instead of) clearing localStorage on this device - RLS already lets a
- * user delete their own rows, so this uses the normal browser client rather
+ * Deletes all of a signed-in user's cloud flashcard and question progress
+ * rows. Used by the "Reset my progress" flow for signed-in users, in addition
+ * to (not instead of) clearing localStorage on this device - RLS already lets
+ * a user delete their own rows, so this uses the normal browser client rather
  * than a server route.
+ *
+ * Deliberately leaves subtopic_progress (notes read + confidence) alone:
+ * that's self-reported rather than earned, and resetting what you've marked
+ * known or correct shouldn't discard your own notes on where you're weak.
+ * activity_events is likewise untouched, so streaks, badges and lifetime
+ * totals survive.
  */
 export async function resetCloudProgress(userId: string): Promise<void> {
   const supabase = createClient();
-  const { error } = await supabase.from("flashcard_progress").delete().eq("user_id", userId);
-  if (error) console.warn("Failed to reset cloud flashcard progress:", error);
+  const [flashcards, questions] = await Promise.all([
+    supabase.from("flashcard_progress").delete().eq("user_id", userId),
+    supabase.from("question_progress").delete().eq("user_id", userId),
+  ]);
+  if (flashcards.error) console.warn("Failed to reset cloud flashcard progress:", flashcards.error);
+  if (questions.error) console.warn("Failed to reset cloud question progress:", questions.error);
 }
 
 // --- Question progress, celebration flag, last-learning IDs ----------------

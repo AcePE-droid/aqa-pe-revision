@@ -26,9 +26,10 @@ export default function AboutPage() {
       <div className="mt-10 border-t border-slate-200 pt-6">
         <h2 className="text-sm font-semibold text-slate-900">Your study progress</h2>
         <p className="mt-1 text-sm text-slate-500">
-          Resets which flashcards and questions you&rsquo;ve marked known or correct. Streaks,
-          badges and lifetime totals are kept &mdash; but My Progress coverage and strength
-          figures are based on these marks, so they&rsquo;ll reset too.
+          Resets which flashcards and questions you&rsquo;ve marked known or correct, so the
+          strength figures on My Progress reset with them. Streaks, badges and lifetime totals
+          are kept, and so are the notes you&rsquo;ve ticked as read and any confidence ratings
+          you&rsquo;ve set.
         </p>
         <div className="mt-3">
           <ResetProgressButton />
