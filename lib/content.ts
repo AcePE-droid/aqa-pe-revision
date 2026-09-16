@@ -148,6 +148,30 @@ export function getPastPapers(): PastPaper[] {
 }
 
 /**
+ * Ids of every subtopic that has a notes document. These form the notes half
+ * of the "content covered" denominator on My Progress.
+ *
+ * Deliberately not folded into getSubjectItemCounts(): that value is the
+ * denominator for the subject-coverage badges, whose numerator counts
+ * distinct activity_events item ids. Notes reads don't write activity
+ * events, so widening that denominator would make the "Seen 100% of ..."
+ * badges impossible to earn.
+ */
+export function getNotesSubtopicIds(): string[] {
+  const ids: string[] = [];
+  for (const topic of getTopics()) {
+    const paper = getPaperById(topic.paperId);
+    if (!paper) continue;
+    for (const subtopic of getSubtopicsByTopicId(topic.id)) {
+      if (!isSafeSlug(paper.slug) || !isSafeSlug(topic.slug) || !isSafeSlug(subtopic.slug)) continue;
+      const filePath = path.join(CONTENT_DIR, `notes/${paper.slug}/${topic.slug}/${subtopic.slug}.md`);
+      if (fs.existsSync(filePath)) ids.push(subtopic.id);
+    }
+  }
+  return ids;
+}
+
+/**
  * Total item count (flashcards + questions combined) across every topic and
  * subtopic under a subject - used to compute "% of subject seen" for the
  * subject-coverage badges (see supabase/migrations for the activity/badge

@@ -1,12 +1,18 @@
 import { redirect } from "next/navigation";
 import { createClient, getVerifiedUserId } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
-import { getCachedProgressContentIndexData, getSubjects, type ProgressContentIndex } from "@/lib/content";
+import {
+  getCachedProgressContentIndexData,
+  getNotesSubtopicIds,
+  getSubjects,
+  type ProgressContentIndex,
+} from "@/lib/content";
 import { getSubjectStyle } from "@/lib/subject-styles";
 import { CARD_BASE_CLASSES, CARD_BORDER_DEFAULT } from "@/lib/styles";
 import BadgesSection from "@/components/progress/BadgesSection";
 import LeaderboardSection, { type LeaderboardRow } from "@/components/progress/LeaderboardSection";
 import WeeklyActivityChart from "@/components/progress/WeeklyActivityChart";
+import type { Confidence } from "@/lib/subtopic-progress";
 
 // Buckets (subtopics) need at least this many attempted items before they're
 // eligible for "Focus on this next" - otherwise a single missed flashcard in
@@ -17,6 +23,25 @@ const MIN_BUCKET_ATTEMPTS = 5;
 // and must never appear in "Focus on this next", even if there aren't 5
 // other genuinely weak buckets to fill out the list.
 const MASTERY_THRESHOLD_PCT = 90;
+
+// Self-assessed confidence nudges a bucket up or down the "Focus on this
+// next" ordering without replacing the measured known%. Deliberately kept
+// out of the leaderboard (see the subtopic_progress migration): it's
+// self-reported, so it only ever reorders this one list.
+const CONFIDENCE_SORT_OFFSET: Record<Confidence, number> = {
+  red: -25,
+  amber: -10,
+  green: 10,
+};
+
+// Labels are duplicated from lib/subtopic-progress rather than imported: that
+// module pulls in the browser Supabase client, which shouldn't enter this
+// server component's module graph just for three strings.
+const CONFIDENCE_DOT: Record<Confidence, { className: string; label: string }> = {
+  red: { className: "bg-red-500", label: "You rated this weak" },
+  amber: { className: "bg-amber-500", label: "You rated this okay" },
+  green: { className: "bg-green-600", label: "You rated this confident" },
+};
 
 function StatTile({ label, value }: { label: string; value: string }) {
   return (
@@ -46,6 +71,7 @@ export default async function MyProgressPage() {
     { data: userBadgeRows },
     { data: myScoreRows },
     { data: friendshipRows },
+    { data: subtopicProgressRows },
   ] = await Promise.all([
     supabase.rpc("get_user_streak", { p_user_id: userId }),
     supabase.from("flashcard_progress").select("flashcard_id, status").eq("user_id", userId),
@@ -67,6 +93,10 @@ export default async function MyProgressPage() {
       .select("user_id_a, user_id_b")
       .eq("status", "accepted")
       .or(`user_id_a.eq.${userId},user_id_b.eq.${userId}`),
+    supabase
+      .from("subtopic_progress")
+      .select("subtopic_id, notes_read, confidence")
+      .eq("user_id", userId),
   ]);
 
   // --- Leaderboard: score reads use the service-role admin client because
@@ -176,10 +206,22 @@ export default async function MyProgressPage() {
   };
   const subjects = getSubjects();
 
-  let totalContentItems = 0;
+  // Notes count toward coverage only - subjectTotals stays flashcards +
+  // questions so "Strength by subject" keeps measuring known/correct against
+  // the items that can actually be marked known or correct.
+  const notesSubtopicIds = new Set(getNotesSubtopicIds());
+  const notesRead = (subtopicProgressRows ?? []).filter(
+    (row) => row.notes_read && notesSubtopicIds.has(row.subtopic_id)
+  ).length;
+  const confidenceByBucket = new Map<string, Confidence>();
+  for (const row of subtopicProgressRows ?? []) {
+    if (row.confidence) confidenceByBucket.set(row.subtopic_id, row.confidence as Confidence);
+  }
+
+  let totalContentItems = notesSubtopicIds.size;
   for (const total of index.subjectTotals.values()) totalContentItems += total;
 
-  const itemsSeen = (flashcardRows?.length ?? 0) + (questionRows?.length ?? 0);
+  const itemsSeen = (flashcardRows?.length ?? 0) + (questionRows?.length ?? 0) + notesRead;
   const coveragePct = totalContentItems > 0 ? Math.round((itemsSeen / totalContentItems) * 100) : 0;
 
   let lifetimeCards = 0;
@@ -227,21 +269,35 @@ export default async function MyProgressPage() {
     name: string;
     topicName: string;
     pct: number;
+    attempted: number;
+    confidence: Confidence | null;
+    sortKey: number;
   }[] = [];
   for (const [id, info] of index.buckets) {
     const attempted = bucketAttempted.get(id) ?? 0;
-    if (attempted < MIN_BUCKET_ATTEMPTS) continue;
+    const confidence = confidenceByBucket.get(id) ?? null;
+    // A self-flagged weak spot is worth surfacing before it's been drilled
+    // enough to produce a meaningful known%.
+    const selfFlagged = confidence === "red" || confidence === "amber";
+    if (attempted < MIN_BUCKET_ATTEMPTS && !selfFlagged) continue;
+
     const known = bucketKnown.get(id) ?? 0;
-    const pct = Math.round((known / attempted) * 100);
-    if (pct >= MASTERY_THRESHOLD_PCT) continue;
+    const pct = attempted > 0 ? Math.round((known / attempted) * 100) : 0;
+    // "Red" overrides the mastery cutoff: if the student says they're weak
+    // on something, the list should believe them over the measured score.
+    if (pct >= MASTERY_THRESHOLD_PCT && confidence !== "red") continue;
+
     bucketStats.push({
       id,
       name: info.name,
       topicName: info.topicName,
       pct,
+      attempted,
+      confidence,
+      sortKey: pct + (confidence ? CONFIDENCE_SORT_OFFSET[confidence] : 0),
     });
   }
-  bucketStats.sort((a, b) => a.pct - b.pct);
+  bucketStats.sort((a, b) => a.sortKey - b.sortKey);
   const focusBuckets = bucketStats.slice(0, 5);
 
   // --- Last 7 days activity strip ---
@@ -320,12 +376,28 @@ export default async function MyProgressPage() {
           ) : (
             <ul className="mt-4 divide-y divide-slate-100">
               {focusBuckets.map((b) => (
-                <li key={b.id} className="flex items-center justify-between py-3">
-                  <div>
-                    <p className="text-sm font-medium text-slate-900">{b.name}</p>
-                    <p className="text-xs text-slate-500">{b.topicName}</p>
+                <li key={b.id} className="flex items-center justify-between gap-3 py-3">
+                  <div className="flex items-center gap-2">
+                    {b.confidence && (
+                      <span
+                        className={`h-2.5 w-2.5 shrink-0 rounded-full ${
+                          CONFIDENCE_DOT[b.confidence].className
+                        }`}
+                        title={CONFIDENCE_DOT[b.confidence].label}
+                        aria-label={CONFIDENCE_DOT[b.confidence].label}
+                        role="img"
+                      />
+                    )}
+                    <div>
+                      <p className="text-sm font-medium text-slate-900">{b.name}</p>
+                      <p className="text-xs text-slate-500">{b.topicName}</p>
+                    </div>
                   </div>
-                  <span className="text-sm font-semibold text-slate-600">{b.pct}% known</span>
+                  <span className="shrink-0 text-sm font-semibold text-slate-600">
+                    {/* A bucket can be listed purely because it was self-rated
+                        red/amber, in which case "0% known" would be a lie. */}
+                    {b.attempted > 0 ? `${b.pct}% known` : "Not started"}
+                  </span>
                 </li>
               ))}
             </ul>
