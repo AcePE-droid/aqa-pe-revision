@@ -1,11 +1,13 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 
-// Recomputes leaderboard_scores.rank for every user, called every 15
-// minutes by Vercel Cron (see vercel.json). Uses the service-role client
-// because ranking requires reading every user's score, which per-user RLS
-// policies on leaderboard_scores don't allow - see recompute_leaderboard_ranks()
-// in supabase/migrations/20260907000000_create_activity_gamification.sql.
+// Recomputes leaderboard_scores.rank for every user, called once daily at
+// 04:00 UTC by Vercel Cron (see vercel.json). Daily rather than more often
+// because Vercel's Hobby plan caps how frequently crons can run. Uses the
+// service-role client because ranking requires reading every user's score,
+// which per-user RLS policies on leaderboard_scores don't allow - see
+// recompute_leaderboard_ranks() in
+// supabase/migrations/20260907000000_create_activity_gamification.sql.
 export async function GET(request: NextRequest) {
   const authHeader = request.headers.get("authorization");
   if (authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
