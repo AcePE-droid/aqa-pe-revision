@@ -50,7 +50,7 @@ export async function POST(request: Request) {
 
   try {
     const { error } = await resend.emails.send({
-      from: "AcePE Feedback <onboarding@resend.dev>",
+      from: "AcePE Feedback <feedback@mail.acepe.co.uk>",
       to: TO_EMAIL,
       replyTo: trimmedEmail || undefined,
       subject: "New AcePE feedback",

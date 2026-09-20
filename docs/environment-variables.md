@@ -100,22 +100,29 @@ guard, then used to construct the Resend client on each request.
 The real reason only appears in the server log. Nothing is queued or retried -
 the feedback is simply lost.
 
-### The sender-address constraint (read this one)
+### The sending domain
 
-The route sends from `AcePE Feedback <onboarding@resend.dev>`, Resend's shared
-test sender. It needs no domain verification, which is why it's there - but
-**Resend only delivers mail from that address to the email address the Resend
-account itself is registered with.** Feedback sent to any other address is
-accepted by the API and never arrives.
+The route sends from `AcePE Feedback <feedback@mail.acepe.co.uk>`. That
+address does not need a mailbox behind it - nothing is ever delivered to it,
+and replies go to the person who submitted the form, because the route sets
+`replyTo` to their address.
 
-So either:
+What it does need is for `mail.acepe.co.uk` to stay **Verified** in Resend
+(**Domains**). Verification rests on three DNS records in the `acepe.co.uk`
+zone:
 
-- register your Resend account with the inbox you want feedback in, and set
-  `FEEDBACK_TO_EMAIL` to that same address; or
-- verify your own domain in Resend (**Domains** -> **Add Domain**, then add
-  the DNS records it gives you) and change the `from:` address in
-  `app/api/feedback/route.ts` to something on that domain. This is what you
-  want eventually - the shared test sender is not suitable for production.
+| Type | Name | Points at |
+| --- | --- | --- |
+| TXT | `resend._domainkey.mail` | the DKIM public key |
+| CNAME | `rsend.mail` | `rsend-euw1.forge.rmta.net` |
+| CNAME | `send.mail` | `send.forge.rmta.net` |
+
+Delete or alter any of those and sending stops. If mail suddenly vanishes,
+check the domain's status in Resend before looking anywhere else.
+
+To send from a different address, change the `from:` in
+`app/api/feedback/route.ts`. Anything `@mail.acepe.co.uk` works without
+further setup; a different domain needs verifying in Resend first.
 
 ---
 
@@ -125,9 +132,10 @@ So either:
 submissions.
 
 Use a plain address (`you@example.com`), not the `Name <you@example.com>`
-display-name form: the value is passed straight to Resend's `to` field. And
-per the constraint above, it currently has to be your Resend account's own
-email address.
+display-name form: the value is passed straight to Resend's `to` field. Any
+inbox will do - the restriction to the Resend account's own address applied
+only while the route sent from Resend's shared test sender, which it no
+longer does.
 
 It's read from an environment variable rather than hardcoded specifically so
 your address never appears in anything shipped to the browser.
