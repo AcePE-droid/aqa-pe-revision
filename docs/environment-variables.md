@@ -18,14 +18,38 @@ alongside it:
 must stay that way. Restart `npm run dev` after editing it.
 
 **In production:** your project on [vercel.com](https://vercel.com) ->
-**Settings** -> **Environment Variables**, for the Production environment
-(and Preview, if you use preview deployments).
+**Settings** -> **Environment Variables**.
 
 **Redeploy after any change in Vercel.** Environment variables are baked in
-at build/boot time; deployments that already exist keep the old values.
+at build/boot time; deployments that already exist keep the old values. This
+cuts both ways: a bad value can't break a running deployment, and a good one
+won't reach it either.
 
 Only variables prefixed `NEXT_PUBLIC_` are sent to the browser. The other
 four are server-only and must never gain that prefix.
+
+### Two Vercel settings that are easy to get wrong
+
+**Environments.** Tick **Production and Preview** for the two
+`NEXT_PUBLIC_SUPABASE_*` variables. Without them a preview build dies while
+prerendering `/_not-found`, because `middleware.ts` constructs a Supabase
+client and the 404 page can't be statically exported without one. Production
+is unaffected, so this fails quietly on pull requests while the live site
+stays healthy - it went unnoticed across four PRs here.
+
+In the environments dropdown, choose **Environments -> Preview**, not
+**Preview Branches**. The latter scopes the variable to named branches only,
+so every new branch reintroduces the same failure.
+
+**Type: Config vs Secret.** A `NEXT_PUBLIC_` variable must be **Config**.
+Secret values are write-only - Vercel will not let you read them back, or
+convert them to Config afterwards - and the public prefix contradicts the
+whole idea, since the value ends up in browser JavaScript regardless. If one
+of these was created as a Secret, the only fix is to delete it and add it
+again as Config.
+
+The three unprefixed secrets (`SUPABASE_SERVICE_ROLE_KEY`, `RESEND_API_KEY`,
+`CRON_SECRET`) are the opposite: they should stay **Secret**.
 
 ## Quick reference
 
@@ -42,10 +66,25 @@ four are server-only and must never gain that prefix.
 
 ## `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY`
 
-**Where from:** Supabase dashboard -> your project -> **Settings** -> **API**.
-The URL is under *Project URL*; the key is under *Project API keys* ->
-**`anon` `public`**. Both are designed to be public - Row Level Security is
-what actually protects user data, not the secrecy of the anon key.
+**Where from:** Supabase dashboard -> your project -> **Project Settings**
+(the gear at the foot of the left sidebar), then:
+
+- **Data API** -> **Project URL** (or "API URL") for `NEXT_PUBLIC_SUPABASE_URL`.
+  Take the bare origin: `https://<ref>.supabase.co`, with no trailing slash and
+  no `/rest/v1` path. The `<ref>` also appears in the dashboard's own address
+  bar, so you can read it from there.
+- **API Keys** -> the **`anon` / publishable** key for
+  `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
+
+Supabase is migrating key formats. Older projects have a JWT starting `eyJ`;
+newer ones issue `sb_publishable_...`, with the old style under a **Legacy API
+keys** tab. Use whichever this project is already running on, and treat a
+format change as its own piece of work - not something to fold into an
+unrelated deploy.
+
+Both values are designed to be public - Row Level Security is what actually
+protects user data, not the secrecy of the anon key. The `NEXT_PUBLIC_` prefix
+means Next.js compiles them into the JavaScript every visitor downloads.
 
 **Consumed in:** `lib/supabase/client.ts` (browser), `lib/supabase/server.ts`
 (server components and route handlers), `middleware.ts` (session refresh), and
@@ -62,10 +101,10 @@ Full walkthrough: [`supabase-setup.md`](./supabase-setup.md).
 
 ## `SUPABASE_SERVICE_ROLE_KEY`
 
-**Where from:** Supabase dashboard -> your project -> **Settings** -> **API**
--> *Project API keys* -> **`service_role`** (marked secret - click to reveal).
-Some dashboards now show this under **Settings** -> **API Keys**. It's a long
-JWT beginning `eyJ`.
+**Where from:** Supabase dashboard -> your project -> **Project Settings** ->
+**API Keys** -> **`service_role`** (or **secret**, `sb_secret_...` on newer
+projects). It is hidden behind a reveal button, which is how you tell it apart
+from the publishable key sitting next to it.
 
 **This key bypasses Row Level Security entirely.** Treat it like a database
 admin password. Never commit it, never prefix it with `NEXT_PUBLIC_`, never
@@ -74,13 +113,17 @@ import the admin client from a Client Component.
 **Consumed in:** `lib/supabase/admin.ts` - `createAdminClient()` reads it and
 throws if it (or the Supabase URL) is missing.
 
-**Without it,** two server routes fail:
+**Without it,** three places degrade - and none of them crash, which is what
+makes a missing key easy to miss:
 
 - `app/api/delete-account/route.ts` catches the throw and returns 500
   `"Account deletion is not configured"`. The "Delete my account" button on
   `/account` fails for every user.
 - `app/api/cron/recompute-leaderboard/route.ts` catches it and returns 500
   `"Not configured"`, so leaderboard ranks silently go stale.
+- `app/my-progress/page.tsx` catches it and renders **empty leaderboards**.
+  The page still loads and looks fine; the leaderboards are simply blank,
+  with nothing on screen to say why.
 
 Full walkthrough: [`service-role-key-setup.md`](./service-role-key-setup.md).
 

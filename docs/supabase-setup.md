@@ -22,11 +22,16 @@ Supabase can't be set up automatically — follow these steps once, in order.
 
 ## 3. Get your API URL and anon key
 
-1. In your new project, go to **Settings → API** (left sidebar, gear icon → API).
-2. You'll see two values you need:
-   - **Project URL** — looks like `https://abcdefghijk.supabase.co`
-   - **Project API keys → `anon` `public`** — a long string starting with `eyJ...`
-3. Put these into two places:
+1. In your new project, open **Project Settings** (gear icon at the foot of
+   the left sidebar). The two values live on separate pages:
+   - **Data API → Project URL** (sometimes labelled "API URL") — looks like
+     `https://abcdefghijk.supabase.co`. Use the bare origin: no trailing
+     slash, and trim any `/rest/v1` path if the page shows one.
+   - **API Keys → `anon` / publishable** — a long string starting `eyJ...`,
+     or `sb_publishable_...` on newer projects. If both exist, the older JWT
+     is under a **Legacy API keys** tab; stick with whichever this project
+     already uses.
+2. Put these into two places:
 
    **Locally:** open `.env.local` in the project root and replace the
    placeholder values:
@@ -38,8 +43,11 @@ Supabase can't be set up automatically — follow these steps once, in order.
    **In production (Vercel):** go to your project on
    [vercel.com](https://vercel.com) → **Settings → Environment Variables**,
    and add both `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY`
-   with the same values, for the **Production** (and Preview, if you use
-   preview deployments) environment. Redeploy after adding them.
+   with the same values. Tick **Production and Preview** for both, and set
+   **Type: Config**, not Secret — see "Two Vercel settings that are easy to
+   get wrong" in [`environment-variables.md`](./environment-variables.md),
+   because getting either wrong breaks preview deployments in a way that
+   leaves the live site looking fine. Redeploy after adding them.
 
    For this step, only use the `anon` `public` key — it's the only one safe
    to expose to the browser. The site also uses the `service_role` key (for
