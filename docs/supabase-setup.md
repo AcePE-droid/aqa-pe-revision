@@ -127,17 +127,40 @@ code needs a verifier cookie stored in the browser that called
 A `token_hash` carries no browser-bound state and works from anywhere, which
 is what `app/auth/callback/route.ts` verifies instead.
 
-Under **Authentication → Emails** (called **Email Templates** in some
-dashboard versions), edit both of these templates. Each ships with an
-`<a href="{{ .ConfirmationURL }}">` — replace just that `href`:
+**First, custom SMTP - the templates are read-only without it.** On the
+default sender, **Authentication → Emails → Templates** shows "Set up custom
+SMTP to edit templates" and nothing can be changed. The default sender also
+has a sending limit low enough to stall testing, so this is worth doing on
+its own account.
+
+Resend already sends this site's feedback email from a verified
+`mail.acepe.co.uk`, so it can send the auth email too. Under
+**Authentication → Emails → SMTP Settings**, enable custom SMTP and fill in:
+
+| Field | Value |
+| --- | --- |
+| Host | `smtp.resend.com` |
+| Port | `465` |
+| Username | `resend` |
+| Password | a Resend API key (resend.com -> API Keys; the same key as `RESEND_API_KEY` works, though a separate one is tidier to revoke) |
+| Sender email | `login@mail.acepe.co.uk` - any address on the verified domain, no mailbox needed |
+| Sender name | `AcePE` |
+
+Save, then send yourself a magic link to confirm mail still arrives. Only
+then are the templates editable.
+
+Under **Authentication → Emails → Templates**, edit both of these. Each
+ships with an `<a href="{{ .ConfirmationURL }}">` — replace just that `href`:
 
 | Template | New `href` |
 | --- | --- |
-| **Magic Link** | `{{ .RedirectTo }}?token_hash={{ .TokenHash }}&type=magiclink` |
-| **Confirm signup** | `{{ .RedirectTo }}?token_hash={{ .TokenHash }}&type=signup` |
+| **Magic link or OTP** | `{{ .RedirectTo }}?token_hash={{ .TokenHash }}&type=magiclink` |
+| **Confirm sign up** | `{{ .RedirectTo }}?token_hash={{ .TokenHash }}&type=signup` |
 
-Both templates matter: a returning student gets **Magic Link**, someone
-signing up for the first time gets **Confirm signup**.
+Both templates matter: a returning student gets the magic link one, someone
+signing up for the first time gets the confirmation one. Leave the other
+templates (**Invite user**, **Reset password**, **Reauthentication**,
+**Change email address**) alone — this site doesn't use those flows.
 
 `{{ .RedirectTo }}` is the `emailRedirectTo` the browser sent, which
 `app/login/page.tsx` builds from the current origin — so a link requested on
