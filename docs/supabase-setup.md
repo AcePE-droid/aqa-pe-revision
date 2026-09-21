@@ -113,6 +113,44 @@ Supabase about it.
    lot, you'll want to set up a custom SMTP provider under
    **Project Settings → Auth → SMTP Settings** — not required to get started.
 
+### 5a. Point the magic link emails at `/auth/callback` directly
+
+**This is required.** With Supabase's default templates, magic links only work
+if the link is opened in the same browser that requested it — and it usually
+isn't, because people click links from a mail app. Skipping this leaves every
+such student stuck on "Something went wrong signing you in".
+
+The default templates use `{{ .ConfirmationURL }}`, which routes through
+Supabase and comes back to the site carrying a PKCE `code`. Exchanging that
+code needs a verifier cookie stored in the browser that called
+`signInWithOtp` — a different browser doesn't have it, so the exchange fails.
+A `token_hash` carries no browser-bound state and works from anywhere, which
+is what `app/auth/callback/route.ts` verifies instead.
+
+Under **Authentication → Emails** (called **Email Templates** in some
+dashboard versions), edit both of these templates. Each ships with an
+`<a href="{{ .ConfirmationURL }}">` — replace just that `href`:
+
+| Template | New `href` |
+| --- | --- |
+| **Magic Link** | `{{ .RedirectTo }}?token_hash={{ .TokenHash }}&type=magiclink` |
+| **Confirm signup** | `{{ .RedirectTo }}?token_hash={{ .TokenHash }}&type=signup` |
+
+Both templates matter: a returning student gets **Magic Link**, someone
+signing up for the first time gets **Confirm signup**.
+
+`{{ .RedirectTo }}` is the `emailRedirectTo` the browser sent, which
+`app/login/page.tsx` builds from the current origin — so a link requested on
+localhost points back at localhost, and one requested on the live site points
+at the live site. If a test email arrives with a link starting `?token_hash=`
+then that variable rendered empty on your project; use
+`{{ .SiteURL }}/auth/callback?token_hash={{ .TokenHash }}&type=magiclink`
+instead, accepting that local magic links will then point at production.
+
+Test it the way a student will: request a link on the live site, then open it
+from your phone, or paste it into a different browser. That is the case the
+old setup failed.
+
 ## 6. Set the site and redirect URLs
 
 Skipping this is what breaks sign-in after the site moves to a new domain,
