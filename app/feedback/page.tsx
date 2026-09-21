@@ -1,5 +1,13 @@
 import FeedbackForm from "@/components/FeedbackForm";
 import { CARD_BASE_CLASSES, CARD_BORDER_DEFAULT } from "@/lib/styles";
+import { pageMetadata } from "@/lib/metadata";
+
+export const metadata = pageMetadata({
+  title: "Send Feedback",
+  description:
+    "Spotted a mistake in a flashcard or a mark scheme? Tell us and we'll fix it.",
+  path: "/feedback",
+});
 
 // Random each request (not statically generated at build) so the math
 // bot-check question is fresh per visit.

@@ -2,6 +2,13 @@ import Link from "next/link";
 import AccountDeletedToast from "@/components/AccountDeletedToast";
 import WhatsInsideSection from "@/components/WhatsInsideSection";
 import { getTotalFlashcardCount } from "@/lib/content";
+import type { Metadata } from "next";
+
+// Title and description come from the root layout - this page is what
+// those defaults describe. Only the canonical is page-specific.
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 export default function Home() {
   const flashcardCount = getTotalFlashcardCount();

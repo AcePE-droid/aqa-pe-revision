@@ -3,6 +3,14 @@ import { createClient } from "@/lib/supabase/server";
 import ResetProgressButton from "@/components/ResetProgressButton";
 import DeleteAccountSection from "@/components/DeleteAccountSection";
 import UsernameSection from "@/components/UsernameSection";
+import type { Metadata } from "next";
+import { PRIVATE_PAGE } from "@/lib/metadata";
+
+export const metadata: Metadata = {
+  title: "Your Account",
+  description: "Manage your AcePE account.",
+  robots: PRIVATE_PAGE,
+};
 
 export default async function AccountPage() {
   const supabase = await createClient();

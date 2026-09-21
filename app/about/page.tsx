@@ -1,4 +1,12 @@
 import ResetProgressButton from "@/components/ResetProgressButton";
+import { pageMetadata } from "@/lib/metadata";
+
+export const metadata = pageMetadata({
+  title: "About",
+  description:
+    "What AcePE is, who made it, and why it's free: revision resources for AQA A-Level PE (7582), made by a student.",
+  path: "/about",
+});
 
 export default function AboutPage() {
   return (

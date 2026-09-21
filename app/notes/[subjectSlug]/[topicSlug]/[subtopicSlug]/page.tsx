@@ -13,6 +13,32 @@ import {
   getQuestions,
 } from "@/lib/content";
 import { getSubjectStyle } from "@/lib/subject-styles";
+import type { Metadata } from "next";
+import { pageMetadata, SPEC } from "@/lib/metadata";
+
+export async function generateMetadata(
+  props: PageProps<"/notes/[subjectSlug]/[topicSlug]/[subtopicSlug]">
+): Promise<Metadata> {
+  const { subjectSlug, topicSlug, subtopicSlug } = await props.params;
+  const subject = getSubjectBySlug(subjectSlug);
+  const topic = getTopicBySlug(topicSlug);
+  const subtopic = getSubtopicBySlug(subtopicSlug);
+  if (
+    !subject ||
+    !topic ||
+    !subtopic ||
+    topic.subject !== subject.name ||
+    subtopic.topicId !== topic.id
+  ) {
+    return {};
+  }
+
+  return pageMetadata({
+    title: `${subtopic.name} Revision Notes`,
+    description: `Condensed revision notes on ${subtopic.name}, part of ${topic.name}, for ${SPEC}.`,
+    path: `/notes/${subject.slug}/${topic.slug}/${subtopic.slug}`,
+  });
+}
 
 export default async function NotesSubtopicPage(
   props: PageProps<"/notes/[subjectSlug]/[topicSlug]/[subtopicSlug]">

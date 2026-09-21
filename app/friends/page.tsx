@@ -4,6 +4,14 @@ import { CARD_BASE_CLASSES, CARD_BORDER_DEFAULT } from "@/lib/styles";
 import FriendSearch from "@/components/friends/FriendSearch";
 import FriendRequestsList from "@/components/friends/FriendRequestsList";
 import FriendsList from "@/components/friends/FriendsList";
+import type { Metadata } from "next";
+import { PRIVATE_PAGE } from "@/lib/metadata";
+
+export const metadata: Metadata = {
+  title: "Friends",
+  description: "See how your friends are progressing through the spec.",
+  robots: PRIVATE_PAGE,
+};
 
 export default async function FriendsPage() {
   const supabase = await createClient();

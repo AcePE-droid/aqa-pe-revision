@@ -5,6 +5,26 @@ import { slugify } from "@/lib/slug";
 import FlashcardProgressBadge from "@/components/FlashcardProgressBadge";
 import { CARD_BASE_CLASSES, CARD_INTERACTIVE_CLASSES } from "@/lib/styles";
 import { getSubjectStyle } from "@/lib/subject-styles";
+import type { Metadata } from "next";
+import { pageMetadata, SPEC } from "@/lib/metadata";
+
+export async function generateMetadata(
+  props: PageProps<"/[paperSlug]/[topicSlug]">
+): Promise<Metadata> {
+  const { paperSlug, topicSlug } = await props.params;
+  const paper = getPaperBySlug(paperSlug);
+  const topic = getTopicBySlug(topicSlug);
+  if (!paper || !topic || topic.paperId !== paper.id) return {};
+
+  const names = getSubtopicsByTopicId(topic.id).map((s) => s.name);
+  return pageMetadata({
+    title: topic.name,
+    description: `Revise every subtopic in ${topic.name} for ${SPEC}${
+      names.length ? `: ${names.slice(0, 4).join(", ")}` : ""
+    }.`,
+    path: `/${paper.slug}/${topic.slug}`,
+  });
+}
 
 export default async function TopicPage(props: PageProps<"/[paperSlug]/[topicSlug]">) {
   const { paperSlug, topicSlug } = await props.params;
