@@ -8,6 +8,10 @@ import { CARD_BASE_CLASSES, CARD_BORDER_DEFAULT } from "@/lib/styles";
 
 const ERROR_MESSAGES: Record<string, string> = {
   auth: "Something went wrong signing you in. Please try again.",
+  // Magic links are single-use and short-lived, so this is the failure a
+  // student is most likely to hit - worth saying plainly rather than hiding
+  // behind the generic message.
+  expired: "That sign-in link has expired or has already been used. Request a new one below.",
 };
 
 function LoginError() {
