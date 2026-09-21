@@ -13,14 +13,17 @@ import BadgesSection from "@/components/progress/BadgesSection";
 import LeaderboardSection, { type LeaderboardRow } from "@/components/progress/LeaderboardSection";
 import WeeklyActivityChart from "@/components/progress/WeeklyActivityChart";
 import type { Confidence } from "@/lib/subtopic-progress";
-import { pageMetadata } from "@/lib/metadata";
+import type { Metadata } from "next";
+import { PRIVATE_PAGE } from "@/lib/metadata";
 
-export const metadata = pageMetadata({
+// Empty for anyone not signed in, so it is kept out of the sitemap and
+// out of the index - a search result leading to a blank page is worse
+// than no result at all.
+export const metadata: Metadata = {
   title: "My Progress",
-  description:
-    "Track which AQA A-Level PE (7582) topics you've revised and what's left to cover.",
-  path: "/my-progress",
-});
+  description: "Track which topics you have revised and what is left to cover.",
+  robots: PRIVATE_PAGE,
+};
 
 // Buckets (subtopics) need at least this many attempted items before they're
 // eligible for "Focus on this next" - otherwise a single missed flashcard in

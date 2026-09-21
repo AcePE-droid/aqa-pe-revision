@@ -21,7 +21,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/questions",
     "/past-papers",
     "/about",
-    "/my-progress",
     "/terms",
     "/privacy",
   ];
