@@ -1,8 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getSubjects, getTopics, getPaperById, getSubtopicsByTopicId } from "@/lib/content";
 import { slugify } from "@/lib/slug";
-
-const SITE_URL = "https://aqa-pe-revision.vercel.app";
+import { SITE_URL } from "@/lib/site";
 
 /**
  * Built by walking the same content helpers the pages themselves use, so the

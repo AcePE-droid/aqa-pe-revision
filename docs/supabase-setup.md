@@ -113,10 +113,39 @@ Supabase about it.
    lot, you'll want to set up a custom SMTP provider under
    **Project Settings → Auth → SMTP Settings** — not required to get started.
 
-## 6. Done
+## 6. Set the site and redirect URLs
 
-Once `.env.local` has real values (step 3) and Google + magic link are
-enabled (steps 4–5), the app is ready to test locally:
+Skipping this is what breaks sign-in after the site moves to a new domain,
+and it fails quietly: when a redirect target isn't on the allowlist Supabase
+doesn't error, it silently falls back to the Site URL. The symptom is landing
+back on `localhost` or the old domain rather than seeing a message.
+
+1. Go to **Authentication → URL Configuration**.
+2. Set **Site URL** to the canonical origin — `https://www.acepe.co.uk`.
+   No trailing slash, and `www`: the apex and the `.vercel.app` deployment
+   URL both 308-redirect there.
+3. Under **Redirect URLs**, add every origin that serves `/auth/callback`:
+
+   | URL | Why |
+   | --- | --- |
+   | `https://www.acepe.co.uk/auth/callback` | production |
+   | `http://localhost:3000/auth/callback` | local dev |
+   | `https://aqa-pe-revision-*.vercel.app/auth/callback` | Vercel previews (optional; globs are allowed) |
+
+Both sign-in paths in `app/login/page.tsx` build their redirect from
+`window.location.origin`, so they follow whatever host the browser is on —
+which is exactly why each of those hosts has to be listed here.
+
+Nothing needs redeploying; these apply immediately. The Google OAuth client
+in Google Cloud Console is unaffected — its redirect URI points at
+`https://<project>.supabase.co/auth/v1/callback`, which doesn't change with
+the site's domain.
+
+## 7. Done
+
+Once `.env.local` has real values (step 3), Google + magic link are
+enabled (steps 4–5) and the URLs are allowlisted (step 6), the app is ready
+to test locally:
 
 ```
 npm run dev
