@@ -5,6 +5,14 @@
 // site actually does at that time.
 
 import Link from "next/link";
+import { pageMetadata } from "@/lib/metadata";
+
+export const metadata = pageMetadata({
+  title: "Privacy Policy",
+  description:
+    "What AcePE stores about you, why, and how to delete it.",
+  path: "/privacy",
+});
 
 // TODO: set to the real publish date before this policy goes live
 const LAST_UPDATED = "[date to be set before publishing]";

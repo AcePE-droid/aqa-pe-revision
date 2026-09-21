@@ -1,5 +1,13 @@
 import { getPastPapers } from "@/lib/content";
 import PastPapersTable from "@/components/PastPapersTable";
+import { pageMetadata } from "@/lib/metadata";
+
+export const metadata = pageMetadata({
+  title: "Past Papers",
+  description:
+    "Every official AQA A-Level PE (7582) past paper and mark scheme, linked straight to the source on aqa.org.uk.",
+  path: "/past-papers",
+});
 
 export default function PastPapersPage() {
   const papers = getPastPapers();

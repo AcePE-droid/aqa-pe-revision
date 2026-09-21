@@ -3,6 +3,14 @@
 // the whole document reviewed for accuracy.
 
 import Link from "next/link";
+import { pageMetadata } from "@/lib/metadata";
+
+export const metadata = pageMetadata({
+  title: "Terms of Service",
+  description:
+    "The terms you agree to when you use AcePE.",
+  path: "/terms",
+});
 
 // TODO: set to the real publish date before this page goes live
 const LAST_UPDATED = "[date to be set before publishing]";

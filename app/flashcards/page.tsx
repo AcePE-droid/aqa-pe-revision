@@ -1,5 +1,13 @@
 import { getFlashcardSubjectCards } from "@/lib/subjects";
 import SubjectSquareCard from "@/components/SubjectSquareCard";
+import { pageMetadata } from "@/lib/metadata";
+
+export const metadata = pageMetadata({
+  title: "Flashcards",
+  description:
+    "Interactive flashcards covering every topic on the AQA A-Level PE (7582) spec, free and with no account needed.",
+  path: "/flashcards",
+});
 
 export default function FlashcardsHubPage() {
   const subjects = getFlashcardSubjectCards();

@@ -3,6 +3,23 @@ import { notFound } from "next/navigation";
 import { resolveSubtopicPath, getFlashcards, getNotesMarkdown } from "@/lib/content";
 import { slugify } from "@/lib/slug";
 import FlashcardGroupList from "@/components/FlashcardGroupList";
+import type { Metadata } from "next";
+import { pageMetadata, SPEC } from "@/lib/metadata";
+
+export async function generateMetadata(
+  props: PageProps<"/[paperSlug]/[topicSlug]/[subtopicSlug]">
+): Promise<Metadata> {
+  const { paperSlug, topicSlug, subtopicSlug } = await props.params;
+  const resolved = resolveSubtopicPath(paperSlug, topicSlug, subtopicSlug);
+  if (!resolved) return {};
+  const { paper, topic, subtopic } = resolved;
+
+  return pageMetadata({
+    title: subtopic.name,
+    description: `Flashcards, practice questions and revision notes for ${subtopic.name}, part of ${topic.name} in ${SPEC}.`,
+    path: `/${paper.slug}/${topic.slug}/${subtopic.slug}`,
+  });
+}
 
 export default async function SubtopicPage(
   props: PageProps<"/[paperSlug]/[topicSlug]/[subtopicSlug]">

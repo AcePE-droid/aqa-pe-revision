@@ -9,6 +9,8 @@ import {
 } from "@/lib/content";
 import NotesTopicCard from "@/components/NotesTopicCard";
 import { getSubjectStyle } from "@/lib/subject-styles";
+import type { Metadata } from "next";
+import { pageMetadata, SPEC } from "@/lib/metadata";
 
 type PaperSection = {
   paper: { slug: string; name: string };
@@ -20,6 +22,20 @@ type PaperSection = {
     total: number;
   }[];
 };
+
+export async function generateMetadata(
+  props: PageProps<"/notes/[subjectSlug]">
+): Promise<Metadata> {
+  const { subjectSlug } = await props.params;
+  const subject = getSubjectBySlug(subjectSlug);
+  if (!subject) return {};
+
+  return pageMetadata({
+    title: `${subject.name} Revision Notes`,
+    description: `Condensed revision notes covering every ${subject.name} topic on the ${SPEC} spec.`,
+    path: `/notes/${subject.slug}`,
+  });
+}
 
 export default async function NotesSubjectPage(props: PageProps<"/notes/[subjectSlug]">) {
   const { subjectSlug } = await props.params;

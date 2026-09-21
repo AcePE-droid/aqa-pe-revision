@@ -2,6 +2,26 @@ import { notFound } from "next/navigation";
 import { resolveSubtopicPath, getFlashcards, getSubjectItemCounts } from "@/lib/content";
 import { slugify } from "@/lib/slug";
 import FlashcardStudy from "@/components/FlashcardStudy";
+import type { Metadata } from "next";
+import { pageMetadata, SPEC } from "@/lib/metadata";
+
+export async function generateMetadata(
+  props: PageProps<"/[paperSlug]/[topicSlug]/[subtopicSlug]/flashcards">
+): Promise<Metadata> {
+  const { paperSlug, topicSlug, subtopicSlug } = await props.params;
+  const resolved = resolveSubtopicPath(paperSlug, topicSlug, subtopicSlug);
+  if (!resolved) return {};
+  const { paper, topic, subtopic } = resolved;
+
+  const count = getFlashcards(paper.slug, topic.slug, subtopic.slug).length;
+  return pageMetadata({
+    title: `${subtopic.name} Flashcards`,
+    description: `${count} interactive flashcards on ${subtopic.name} (${topic.name}) for ${SPEC}.`,
+    // Deliberately drops the ?group= filter this page reads, so every deck
+    // variant points at one canonical URL instead of competing with the rest.
+    path: `/${paper.slug}/${topic.slug}/${subtopic.slug}/flashcards`,
+  });
+}
 
 export default async function FlashcardStudyPage(
   props: PageProps<"/[paperSlug]/[topicSlug]/[subtopicSlug]/flashcards">

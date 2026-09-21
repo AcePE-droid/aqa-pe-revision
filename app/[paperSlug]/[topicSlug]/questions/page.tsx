@@ -2,6 +2,27 @@ import { notFound } from "next/navigation";
 import { getPaperBySlug, getTopicBySlug, getSubtopicsByTopicId, getQuestions, getSubjectItemCounts } from "@/lib/content";
 import { slugify } from "@/lib/slug";
 import QuestionSession from "@/components/QuestionSession";
+import type { Metadata } from "next";
+import { pageMetadata, SPEC } from "@/lib/metadata";
+
+export async function generateMetadata(
+  props: PageProps<"/[paperSlug]/[topicSlug]/questions">
+): Promise<Metadata> {
+  const { paperSlug, topicSlug } = await props.params;
+  const paper = getPaperBySlug(paperSlug);
+  const topic = getTopicBySlug(topicSlug);
+  if (!paper || !topic || topic.paperId !== paper.id) return {};
+
+  const count = getSubtopicsByTopicId(topic.id).reduce(
+    (n, s) => n + getQuestions(paper.slug, topic.slug, s.slug).length,
+    0
+  );
+  return pageMetadata({
+    title: `${topic.name} Practice Questions`,
+    description: `${count} exam-style questions covering every subtopic in ${topic.name}, each with its mark scheme, for ${SPEC}.`,
+    path: `/${paper.slug}/${topic.slug}/questions`,
+  });
+}
 
 export default async function TopicQuestionSessionPage(
   props: PageProps<"/[paperSlug]/[topicSlug]/questions">
