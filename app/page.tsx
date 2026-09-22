@@ -25,7 +25,13 @@ export default function Home() {
               through a gap rather than meeting the line. Each segment wraps its
               own text, so the rule sits under exactly those letters: the first
               carries the space before "place" (a non-breaking one, so JSX keeps
-              it), the bare "p" sits in the gap, and the second picks up at "l". */}
+              it), the bare "p" sits in the gap, and the second picks up at "l".
+
+              At the rule's height only the p's descender stem exists, and that
+              stem sits at the left of the glyph - so the second segment is pulled
+              left by roughly the width of the bowl, which would otherwise leave a
+              gap far wider than the first segment's. The bowl is above the
+              baseline, so the rule passes under empty space, not ink. */}
           <span className="relative isolate inline-block">
             in one&nbsp;
             <span
@@ -38,7 +44,7 @@ export default function Home() {
             lace
             <span
               aria-hidden="true"
-              className="hero-underline absolute inset-x-0 -bottom-1 -z-10 h-1 rounded-full bg-blue-600"
+              className="hero-underline absolute -bottom-1 left-[-0.33em] right-0 -z-10 h-1 rounded-full bg-blue-600"
             />
           </span>
           .
