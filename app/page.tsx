@@ -21,11 +21,11 @@ export default function Home() {
         <h1 className="font-serif text-5xl font-semibold tracking-tight text-slate-900 sm:text-6xl md:text-7xl">
           All your A-Level PE revision,
           <br />
-          <span className="relative inline-block">
+          <span className="relative isolate inline-block">
             in one place
             <span
               aria-hidden="true"
-              className="hero-underline absolute inset-x-0 -bottom-1 h-1 rounded-full bg-blue-600"
+              className="hero-underline absolute inset-x-0 -bottom-1 -z-10 h-1 rounded-full bg-blue-600"
             />
           </span>
           .
