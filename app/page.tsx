@@ -21,8 +21,21 @@ export default function Home() {
         <h1 className="font-serif text-5xl font-semibold tracking-tight text-slate-900 sm:text-6xl md:text-7xl">
           All your A-Level PE revision,
           <br />
+          {/* The underline is split either side of the "p" so its descender drops
+              through a gap rather than meeting the line. Each segment wraps its
+              own text, so the rule sits under exactly those letters: the first
+              carries the space before "place" (a non-breaking one, so JSX keeps
+              it), the bare "p" sits in the gap, and the second picks up at "l". */}
           <span className="relative isolate inline-block">
-            in one place
+            in one&nbsp;
+            <span
+              aria-hidden="true"
+              className="hero-underline absolute inset-x-0 -bottom-1 -z-10 h-1 rounded-full bg-blue-600"
+            />
+          </span>
+          p
+          <span className="relative isolate inline-block">
+            lace
             <span
               aria-hidden="true"
               className="hero-underline absolute inset-x-0 -bottom-1 -z-10 h-1 rounded-full bg-blue-600"
