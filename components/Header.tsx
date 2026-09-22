@@ -54,7 +54,7 @@ export default function Header() {
                   className={`flex items-center gap-1.5 border-b-2 pb-1 transition-colors duration-150 hover:text-slate-900 ${
                     isActive
                       ? "border-blue-600 font-medium text-slate-900"
-                      : "border-transparent text-slate-700"
+                      : "border-transparent text-slate-900"
                   }`}
                 >
                   {link.label}
@@ -102,7 +102,7 @@ export default function Header() {
                   className={`flex min-h-[44px] items-center gap-2 border-b-2 px-4 text-base font-medium transition-colors duration-150 hover:bg-slate-50 ${
                     isActive
                       ? "border-blue-600 text-slate-900"
-                      : "border-transparent text-slate-700"
+                      : "border-transparent text-slate-900"
                   }`}
                 >
                   {link.label}
