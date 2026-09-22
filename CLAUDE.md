@@ -1,18 +1,20 @@
 # CLAUDE.md — Ace PE Project Context
 
-AQA A-Level PE (7582) revision website. This file gives you the context you need
-to operate in two modes:
+You are working in the terminal on my AQA A-Level PE (7582) revision website,
+built with Claude Code locally. This file gives you the context you need to
+operate in two modes:
 
 1. **Diagnostic mode** — when I ask "what's wrong" or similar, scan the relevant
    code/UI yourself and report real issues, not guesses.
 2. **Execution mode** — when I give an instruction, implement it fully and
-   correctly, following the workflow rules below.
+   correctly, to the best of your ability, following the workflow rules below.
 
 ## Project overview
 
-- Three main content sections: **Flashcards, Notes, Practice Questions**, each
-  with distinct visual identities, plus a gamification layer (My Progress
-  analytics, badges, leaderboards, friends system).
+- AQA A-Level PE (7582) revision site with three main content sections:
+  **Flashcards, Notes, Practice Questions**, each with distinct visual
+  identities, plus a gamification layer (My Progress analytics, badges,
+  leaderboards, friends system).
 - I am the sole builder at this stage.
 
 ## Brand colours
@@ -33,68 +35,37 @@ full in `subject-styles.ts` rather than constructed at runtime.
 
 The site-wide highlight (links, "Start now" CTAs, active nav underlines, small
 badges) **deliberately overrides Tailwind's stock `blue-*` ramp**, so every
-`blue-*` utility across the site renders violet, not blue. `blue-50/100/300/400/
-500/600/700/800` are a proportional tint/shade ramp derived from `#736aec`.
+`blue-*` utility across the site renders violet, not blue.
 
 The confetti hexes in `subject-styles.ts` are derived tints and shades of the
 three subject accents — the accent hex itself is never altered.
 
-Note on the solid subject cards: the three accents have very different
-lightness, so they don't share one text colour. Navy takes white text; the
-coral and green are mid-tone and fail contrast with white, so they use dark
-text instead.
-
 ## Stack
 
-- Next.js (App Router) on React 19, deployed via Vercel (Hobby plan), Supabase
-  backend, Tailwind v4.
+- Next.js, deployed via Vercel (Hobby plan), Supabase backend.
+- Development happens via Claude Code locally (VS Code or terminal) — this is
+  you.
 - **lucide-react** for all iconography, including badges. The badge spec was
   written against Tabler; lucide covers every requested icon 1:1, so it's reused
-  rather than adding a second icon package. See the note at the top of
-  `lib/badges.ts` — one originally-requested icon (`Users2`) no longer exists in
-  the installed lucide version, which is why `badges.ts` keeps its own icon map
-  instead of reading the `icon` column from the DB.
-- `npm run lint` and `npm run build` are the only automated checks — there is no
-  test suite.
+  rather than adding a second icon package — see the note at the top of
+  `lib/badges.ts`.
 - Content pipeline tooling (separate from live site runtime): Bash + pandoc for
   `.docx` source reading, Python/matplotlib (Agg backend) for graphs, Node.js
   `docx` package for output, LibreOffice headless for PDF verification.
 
-## Content model
+## Site structure & current state
 
-Static JSON/markdown under `content/`, read through `lib/content.ts`. Four
-levels: **2 papers → 3 subjects → 10 topics → 46 subtopics.** All 46 subtopics
-have all three content types, with no gaps:
-
-| Type | Files | Items |
-| --- | --- | --- |
-| Flashcards | 46 | 2,407 |
-| Questions | 46 | 752 |
-| Notes | 46 | — |
-
-Bucket (subtopic) names are the canonical cross-reference key — flashcards,
-notes and questions all share the same naming.
-
-Routing splits by section: flashcards and questions share a
-`/[paperSlug]/[topicSlug]/[subtopicSlug]/` tree, while notes have their own
-`/notes/[subjectSlug]/[topicSlug]/[subtopicSlug]/` tree keyed on subject.
-
-## Section detail
-
-**Flashcards**: known/learning counters, "still learning" persistence, hover
-styling pulled from `subjectStyles`, shuffle toggle (off by default). Progress
-is hybrid — `lib/progress.ts` backs anonymous visitors entirely with
-localStorage, signed-in users go to Supabase. `FlashcardStudy.tsx` reads
-Supabase progress but pulls "still learning" card IDs from localStorage either
-way.
+**Flashcards**: known/learning counters, "still learning" persistence via
+localStorage, hover styling pulled from a `subjectStyles` lookup, shuffle toggle
+(off by default).
 
 **Notes**: generated via a copyright-safe two-pass pipeline (facts extracted
 first, notes written fresh from facts — no original source text in context).
 One `.md` per subtopic, structured under `##` headings.
 
-**Practice Questions**: CSV import via `npm run import:questions -- <path.csv>`.
-The importer takes a CSV path as an argument — there is no fixed imports
-directory. Expected columns:
+**Practice Questions**: CSV import via
+`npm run import:questions -- <path-to.csv>`. The importer takes a CSV path as an
+argument — there is no fixed imports directory. Expected columns:
 
 ```
 Question Number, Question, Marks, Mark Scheme, Topic
@@ -105,35 +76,23 @@ plus optional `Is Multiple Choice`, `Options` (separated by " | "), and
 `Sub-topic` is accepted as a legacy alias. Re-running is safe — rows whose
 question text already exists in that subtopic are skipped.
 
-Tariffs run 1–8 marks plus 15-markers, with a stray 12 and 14. 83 questions are
-multiple choice. Extended-response mark schemes are overwhelmingly structured
-by assessment objective (AO1/AO2/AO3), not banded Level 1–4 tables — only 4 of
-the 119 extended-response questions use banded wording. The `Question` type has
-no image or graph field, so questions are text-only.
+Extended-response mark schemes are structured by assessment objective
+(AO1/AO2/AO3), not banded Level 1–4 tables. The `Question` type has no image or
+graph field, so questions are text-only.
 
 **My Progress / Gamification**: coverage %, subject strength, weak-bucket focus
-list, 7-day activity chart, 16 badges as lucide icon components (coloured circle
-+ centred icon). Almost all of the logic lives in Postgres, not app code —
-`recompute_user_score()` implements the leaderboard formula:
+list, 7-day activity chart, badges as lucide icon components (coloured circle +
+centred icon). Leaderboard score:
+`volume_points × (1 + accuracy_bonus × 0.10) × (1 + consistency_bonus × 0.20)`,
+recomputed daily (Vercel Hobby cron limit). Accuracy bonus only credits
+first-correct transitions per item, to block self-grading exploits.
+Leaderboards/public profiles are free; paywall is on premium toolkit features
+only (anatomy explorer, streak-freeze tokens, exclusive badges). Friends system:
+mutual acceptance, always-on username discoverability.
 
-```
-volume_points × (1 + accuracy_bonus × 0.10) × (1 + consistency_bonus × 0.20)
-```
-
-where volume is `flashcards × 1 + questions × 2`, accuracy is capped at 20
-first-correct transitions, and consistency is capped at a 10-day streak. Scores
-compute for both `all_time` and `weekly` windows, recomputed daily by a Vercel
-cron at 04:00 (Hobby cron limit). Accuracy only credits first-correct
-transitions, to block self-grading exploits.
-
-`check_and_award_badges()` and `log_activity_event()` are `security definer`
-specifically so a signed-in user can't self-award badges (especially the premium
-one) by calling the tables directly from devtools.
-
-Leaderboards and public profiles are free; the paywall is on premium toolkit
-features only (anatomy explorer, streak-freeze tokens, exclusive badges) — not
-yet implemented beyond the `toolkit_member` badge. Friends system: mutual
-acceptance, always-on username discoverability.
+**Content consistency**: flashcards, notes and questions all share the same
+subtopic bucket naming across the site — treat bucket names as the canonical
+cross-reference key.
 
 ## Known open issues
 
@@ -144,8 +103,6 @@ Check these still apply before reporting them fixed.
   the anatomy bucket.
 - The flashcard shuffle toggle is `useState(false)` on mount, so it resets on
   every navigation rather than persisting for the session.
-- `README.md` is still create-next-app boilerplate. The real docs are in
-  `docs/` (environment variables, service-role key setup, Supabase setup).
 
 ## How to behave
 
@@ -182,6 +139,11 @@ Check these still apply before reporting them fixed.
 *(Exception: the Notes content-generation pipeline runs straight through without
 pause — Google Docs is the review environment for that one, not this
 confirm-before-push flow.)*
+
+### Scope
+
+- Do only what I ask. Don't make additional changes, corrections or
+  improvements I haven't asked for — surface them and let me decide.
 
 ### Other standing rules
 
