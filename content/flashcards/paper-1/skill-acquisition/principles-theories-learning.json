@@ -129,96 +129,112 @@
     "id": "principles-theories-learning-019",
     "front": "What is operant conditioning (Skinner)?",
     "back": "A behaviourist theory that uses reinforcement to encourage correct responses to be repeated; rewarded behaviours are more likely to be repeated because the stimulus-response (S-R) bond is strengthened.",
-    "subtopicId": "principles-theories-learning"
+    "subtopicId": "principles-theories-learning",
+    "group": "Theories of learning"
   },
   {
     "id": "principles-theories-learning-020",
     "front": "What is a satisfier?",
     "back": "An outcome that creates a pleasant feeling, increasing the likelihood that the behaviour will be repeated.",
-    "subtopicId": "principles-theories-learning"
+    "subtopicId": "principles-theories-learning",
+    "group": "Theories of learning"
   },
   {
     "id": "principles-theories-learning-021",
     "front": "What is an annoyer?",
     "back": "An outcome that creates an unpleasant feeling, reducing the likelihood that the behaviour will be repeated.",
-    "subtopicId": "principles-theories-learning"
+    "subtopicId": "principles-theories-learning",
+    "group": "Theories of learning"
   },
   {
     "id": "principles-theories-learning-022",
     "front": "What is the stimulus-response (S-R) bond?",
     "back": "The link between a stimulus and the response it produces; operant conditioning strengthens this bond through positive reinforcement, negative reinforcement and punishment.",
-    "subtopicId": "principles-theories-learning"
+    "subtopicId": "principles-theories-learning",
+    "group": "Theories of learning"
   },
   {
     "id": "principles-theories-learning-023",
     "front": "What is positive reinforcement?",
     "back": "The presentation of a pleasant stimulus following a desired response to increase the likelihood of that behaviour being repeated.",
-    "subtopicId": "principles-theories-learning"
+    "subtopicId": "principles-theories-learning",
+    "group": "Theories of learning"
   },
   {
     "id": "principles-theories-learning-024",
     "front": "What is negative reinforcement?",
     "back": "The removal of an unpleasant stimulus following a desired response to increase the likelihood of that behaviour being repeated.",
-    "subtopicId": "principles-theories-learning"
+    "subtopicId": "principles-theories-learning",
+    "group": "Theories of learning"
   },
   {
     "id": "principles-theories-learning-025",
     "front": "What is punishment?",
     "back": "The presentation of an unpleasant stimulus following an undesired response to reduce the likelihood of that behaviour being repeated.",
-    "subtopicId": "principles-theories-learning"
+    "subtopicId": "principles-theories-learning",
+    "group": "Theories of learning"
   },
   {
     "id": "principles-theories-learning-026",
     "front": "What is observational learning (Bandura)?",
     "back": "Learning by observing and imitating the behaviour of others; coaches use demonstrations and role models to help performers develop skills.",
-    "subtopicId": "principles-theories-learning"
+    "subtopicId": "principles-theories-learning",
+    "group": "Theories of learning"
   },
   {
     "id": "principles-theories-learning-027",
     "front": "What are the four processes that make a performer more likely to copy a demonstration?",
     "back": "1. Attention – Focusing on the demonstration. 2. Retention – Remembering and recalling the demonstration. 3. Motor production – Having the physical and mental ability to perform the skill. 4. Motivation – Having the desire to perform the skill.",
-    "subtopicId": "principles-theories-learning"
+    "subtopicId": "principles-theories-learning",
+    "group": "Theories of learning"
   },
   {
     "id": "principles-theories-learning-028",
     "front": "What is social development theory (Vygotsky)?",
     "back": "A theory suggesting that learning occurs through interaction with others; skills are learnt from a coach or More Knowledgeable Other (MKO), who provides guidance, support and examples.",
-    "subtopicId": "principles-theories-learning"
+    "subtopicId": "principles-theories-learning",
+    "group": "Theories of learning"
   },
   {
     "id": "principles-theories-learning-029",
     "front": "What is inter-psychological learning?",
     "back": "The stage where learning takes place through interaction with a coach or More Knowledgeable Other (MKO), before the learner internalises and applies the information independently.",
-    "subtopicId": "principles-theories-learning"
+    "subtopicId": "principles-theories-learning",
+    "group": "Theories of learning"
   },
   {
     "id": "principles-theories-learning-030",
     "front": "What is constructivism?",
     "back": "A theory of learning in which knowledge and skills are built progressively from the performer's current level of understanding and experience.",
-    "subtopicId": "principles-theories-learning"
+    "subtopicId": "principles-theories-learning",
+    "group": "Theories of learning"
   },
   {
     "id": "principles-theories-learning-031",
     "front": "What is the zone of proximal development (ZPD)?",
     "back": "The gap between what a performer can achieve independently and what they can achieve with guidance from a More Knowledgeable Other (MKO).",
-    "subtopicId": "principles-theories-learning"
+    "subtopicId": "principles-theories-learning",
+    "group": "Theories of learning"
   },
   {
     "id": "principles-theories-learning-032",
     "front": "What is insight learning (Gestalt theory)?",
     "back": "A theory where performers use previous experiences and understanding to solve problems by considering the whole situation, promoting independent thinking and intrinsic motivation.",
-    "subtopicId": "principles-theories-learning"
+    "subtopicId": "principles-theories-learning",
+    "group": "Theories of learning"
   },
   {
     "id": "principles-theories-learning-033",
     "front": "What is an advantage of insight learning?",
     "back": "Helps performers develop motor programmes, improve problem-solving skills and build confidence.",
-    "subtopicId": "principles-theories-learning"
+    "subtopicId": "principles-theories-learning",
+    "group": "Theories of learning"
   },
   {
     "id": "principles-theories-learning-034",
     "front": "What is a disadvantage of insight learning?",
     "back": "Not suitable for beginners because they have limited previous experience and knowledge to solve problems independently.",
-    "subtopicId": "principles-theories-learning"
+    "subtopicId": "principles-theories-learning",
+    "group": "Theories of learning"
   }
 ]
