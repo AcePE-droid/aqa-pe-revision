@@ -51,7 +51,10 @@ export default function FlashcardGroupList({ basePath, flashcards, subjectSlug, 
     const existing = groups.get(key);
     groups.set(key, { label, count: (existing?.count ?? 0) + 1 });
   }
-  const groupList = Array.from(groups.entries()).sort((a, b) => a[1].label.localeCompare(b[1].label));
+  // Groups display in the order their cards appear in the subtopic's JSON file
+  // (Map preserves insertion order), so the deck follows the order the content
+  // was authored in rather than an alphabetical sort of the group names.
+  const groupList = Array.from(groups.entries());
 
   return (
     <div className="mt-8">
