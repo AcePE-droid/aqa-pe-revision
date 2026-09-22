@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { BADGE_VISUALS, BADGE_ORDER } from "@/lib/badges";
-import { formatRelativeTime } from "@/lib/relative-time";
 import { CARD_BASE_CLASSES, CARD_BORDER_DEFAULT } from "@/lib/styles";
 import BadgeIcon from "@/components/progress/BadgeIcon";
 
@@ -49,7 +48,7 @@ export default function BadgesSection({ badges, unlockedAt }: Props) {
                 {badge.name}
               </p>
               <p className="mt-1 text-xs leading-snug text-slate-500">
-                {unlocked ? `Unlocked ${formatRelativeTime(unlocked)}` : badge.description}
+                {badge.description}
               </p>
             </div>
           );
