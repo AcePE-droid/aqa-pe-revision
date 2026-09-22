@@ -239,8 +239,57 @@
   },
   {
     "id": "guidance-feedback-035",
-    "front": "Need flashcards",
-    "back": "Need flashcards",
+    "front": "How do guidance and feedback help skill development?",
+    "back": "They build an accurate mental image and motor programme, and correct errors.",
+    "subtopicId": "guidance-feedback",
+    "group": "Guidance and feedback on skill development"
+  },
+  {
+    "id": "guidance-feedback-036",
+    "front": "Best guidance for a cognitive performer?",
+    "back": "Visual, because a simple demo builds a mental image. Add manual or mechanical guidance for dangerous skills.",
+    "subtopicId": "guidance-feedback",
+    "group": "Guidance and feedback on skill development"
+  },
+  {
+    "id": "guidance-feedback-037",
+    "front": "Best guidance for an autonomous performer?",
+    "back": "Verbal, with detailed technical or tactical points.",
+    "subtopicId": "guidance-feedback",
+    "group": "Guidance and feedback on skill development"
+  },
+  {
+    "id": "guidance-feedback-038",
+    "front": "Best feedback for a cognitive performer?",
+    "back": "Extrinsic, positive, KR, because they can't yet feel their errors and need motivating.",
+    "subtopicId": "guidance-feedback",
+    "group": "Guidance and feedback on skill development"
+  },
+  {
+    "id": "guidance-feedback-039",
+    "front": "Best feedback for an autonomous performer?",
+    "back": "Intrinsic, negative, KP, because they can detect and correct their own errors.",
+    "subtopicId": "guidance-feedback",
+    "group": "Guidance and feedback on skill development"
+  },
+  {
+    "id": "guidance-feedback-040",
+    "front": "Four purposes of feedback?",
+    "back": "It motivates, corrects errors, reinforces correct actions and builds confidence.",
+    "subtopicId": "guidance-feedback",
+    "group": "Guidance and feedback on skill development"
+  },
+  {
+    "id": "guidance-feedback-041",
+    "front": "What makes feedback effective?",
+    "back": "It is accurate, specific, given soon after, limited in amount and suited to the performer's stage.",
+    "subtopicId": "guidance-feedback",
+    "group": "Guidance and feedback on skill development"
+  },
+  {
+    "id": "guidance-feedback-042",
+    "front": "Main drawback of over-using manual or mechanical guidance?",
+    "back": "The performer becomes dependent and doesn't develop the correct kinaesthetic feel.",
     "subtopicId": "guidance-feedback",
     "group": "Guidance and feedback on skill development"
   }
