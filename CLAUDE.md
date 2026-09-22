@@ -101,8 +101,6 @@ Check these still apply before reporting them fixed.
 - Notes exist for all 46 buckets but depth is very uneven — roughly nine files
   sit under 3.5 KB (mostly the Paper 2 psychology buckets) against 14–20 KB for
   the anatomy bucket.
-- The flashcard shuffle toggle is `useState(false)` on mount, so it resets on
-  every navigation rather than persisting for the session.
 
 ## How to behave
 
