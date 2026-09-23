@@ -81,7 +81,7 @@ export default async function MyProgressPage() {
     { data: badgeRows },
     { data: userBadgeRows },
     { data: myScoreRows },
-    { data: friendshipRows },
+    { data: friendshipRows, error: friendshipsError },
     { data: subtopicProgressRows },
   ] = await Promise.all([
     supabase.rpc("get_user_streak", { p_user_id: userId }),
@@ -130,10 +130,10 @@ export default async function MyProgressPage() {
     const friendsAndSelfIds = [userId, ...friendIds];
 
     const [
-      { data: weeklyScores },
-      { data: allTimeScores },
-      { data: friendsWeeklyScores },
-      { data: friendsAllTimeScores },
+      { data: weeklyScores, error: weeklyError },
+      { data: allTimeScores, error: allTimeError },
+      { data: friendsWeeklyScores, error: friendsWeeklyError },
+      { data: friendsAllTimeScores, error: friendsAllTimeError },
     ] = await Promise.all([
       admin
         .from("leaderboard_scores")
@@ -157,14 +157,41 @@ export default async function MyProgressPage() {
         .in("user_id", friendsAndSelfIds),
     ]);
 
+    // These reads fail silently by construction: toRow and buildFriendsRows
+    // turn a null/empty result into "0 pts" for everyone, which reads as a
+    // real score rather than a broken query. Both failure modes are logged.
+    if (friendshipsError) console.error("Leaderboard: friendships read failed:", friendshipsError);
+    for (const [label, error] of [
+      ["global weekly", weeklyError],
+      ["global all-time", allTimeError],
+      ["friends weekly", friendsWeeklyError],
+      ["friends all-time", friendsAllTimeError],
+    ] as const) {
+      if (error) console.error(`Leaderboard: ${label} score read failed:`, error);
+    }
+
+    // The quieter failure, and the one an error check alone would miss: a
+    // SUPABASE_SERVICE_ROLE_KEY that is set but isn't a service-role key (the
+    // anon key, or a rotated secret) leaves RLS in force on a client with no
+    // auth context, so every row is filtered out and no error is raised. An
+    // empty global board is the tell - any user with activity has a row.
+    if (!weeklyError && !allTimeError && (weeklyScores?.length ?? 0) === 0 && (allTimeScores?.length ?? 0) === 0) {
+      console.error(
+        "Leaderboard: the service-role read returned no ranked rows and no error. If " +
+          "leaderboard_scores does have ranked rows, SUPABASE_SERVICE_ROLE_KEY is set but is " +
+          "not a service-role key - see docs/service-role-key-setup.md."
+      );
+    }
+
     const allUserIds = new Set<string>(friendsAndSelfIds);
     for (const row of weeklyScores ?? []) allUserIds.add(row.user_id);
     for (const row of allTimeScores ?? []) allUserIds.add(row.user_id);
 
-    const { data: profileRows } = await supabase
+    const { data: profileRows, error: profilesError } = await supabase
       .from("profiles")
       .select("user_id, username")
       .in("user_id", Array.from(allUserIds));
+    if (profilesError) console.error("Leaderboard: profile name read failed:", profilesError);
     const usernameById = new Map((profileRows ?? []).map((p) => [p.user_id, p.username]));
 
     const toRow = (row: { user_id: string; score: number; rank: number | null }): LeaderboardRow => ({
