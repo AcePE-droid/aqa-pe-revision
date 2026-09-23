@@ -75,56 +75,78 @@ export default function PastPapersTable({ papers }: Props) {
         </div>
       </div>
 
-      <div className="mt-4 max-h-[70vh] overflow-auto rounded-lg border border-slate-200">
-        <table className="w-full min-w-[640px] text-left text-sm">
-          <thead className="sticky top-0 bg-slate-50 text-slate-600">
-            <tr>
-              <th className="px-4 py-3 font-medium">
-                <button
-                  onClick={() => setSortDir((d) => (d === "desc" ? "asc" : "desc"))}
-                  className="flex items-center gap-1 hover:text-slate-900"
-                >
-                  Year <ArrowUpDown className="h-3.5 w-3.5" />
-                </button>
-              </th>
-              <th className="px-4 py-3 font-medium">Paper</th>
-              <th className="px-4 py-3 font-medium">Question Paper</th>
-              <th className="px-4 py-3 font-medium">Mark Scheme</th>
-              <th className="px-4 py-3 font-medium">Examiner Report</th>
-            </tr>
-          </thead>
-          <tbody className="divide-y divide-slate-100">
-            {filtered.length === 0 && (
-              <tr>
-                <td colSpan={5} className="px-4 py-8 text-center text-slate-400">
-                  No past papers to show yet.
-                </td>
-              </tr>
-            )}
+      {filtered.length === 0 ? (
+        <p className="mt-4 rounded-lg border border-slate-200 px-4 py-8 text-center text-slate-400">
+          No past papers to show yet.
+        </p>
+      ) : (
+        <>
+          {/* Below sm: a table wide enough for five columns just pushes the
+              later columns off-screen with no obvious way to reach them (they
+              look missing, not scrollable). Each paper becomes its own card
+              instead, so every link stays reachable by normal vertical
+              scrolling. */}
+          <div className="mt-4 divide-y divide-slate-100 rounded-lg border border-slate-200 sm:hidden">
             {filtered.map((p) => (
-              <tr
-                key={p.id}
-                className="even:bg-slate-50 hover:bg-slate-100 transition-colors duration-150"
-              >
-                <td className="px-4 py-3 text-slate-800">
+              <div key={p.id} className="px-4 py-3">
+                <p className="font-medium text-slate-800">
                   {p.year}
-                  {p.session ? ` (${p.session})` : ""}
-                </td>
-                <td className="px-4 py-3 text-slate-800">Paper {p.paper}</td>
-                <td className="px-4 py-3">
+                  {p.session ? ` (${p.session})` : ""} &middot; Paper {p.paper}
+                </p>
+                <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-sm">
                   <ExternalLink href={p.questionPaperUrl} label="Question Paper" />
-                </td>
-                <td className="px-4 py-3">
                   <ExternalLink href={p.markSchemeUrl} label="Mark Scheme" />
-                </td>
-                <td className="px-4 py-3">
                   <ExternalLink href={p.examinerReportUrl} label="Examiner Report" />
-                </td>
-              </tr>
+                </div>
+              </div>
             ))}
-          </tbody>
-        </table>
-      </div>
+          </div>
+
+          <div className="mt-4 hidden max-h-[70vh] overflow-auto rounded-lg border border-slate-200 sm:block">
+            <table className="w-full text-left text-sm">
+              <thead className="sticky top-0 bg-slate-50 text-slate-600">
+                <tr>
+                  <th className="px-4 py-3 font-medium">
+                    <button
+                      onClick={() => setSortDir((d) => (d === "desc" ? "asc" : "desc"))}
+                      className="flex items-center gap-1 hover:text-slate-900"
+                    >
+                      Year <ArrowUpDown className="h-3.5 w-3.5" />
+                    </button>
+                  </th>
+                  <th className="px-4 py-3 font-medium">Paper</th>
+                  <th className="px-4 py-3 font-medium">Question Paper</th>
+                  <th className="px-4 py-3 font-medium">Mark Scheme</th>
+                  <th className="px-4 py-3 font-medium">Examiner Report</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-100">
+                {filtered.map((p) => (
+                  <tr
+                    key={p.id}
+                    className="even:bg-slate-50 hover:bg-slate-100 transition-colors duration-150"
+                  >
+                    <td className="px-4 py-3 text-slate-800">
+                      {p.year}
+                      {p.session ? ` (${p.session})` : ""}
+                    </td>
+                    <td className="px-4 py-3 text-slate-800">Paper {p.paper}</td>
+                    <td className="px-4 py-3">
+                      <ExternalLink href={p.questionPaperUrl} label="Question Paper" />
+                    </td>
+                    <td className="px-4 py-3">
+                      <ExternalLink href={p.markSchemeUrl} label="Mark Scheme" />
+                    </td>
+                    <td className="px-4 py-3">
+                      <ExternalLink href={p.examinerReportUrl} label="Examiner Report" />
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </>
+      )}
     </div>
   );
 }
