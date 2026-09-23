@@ -1,0 +1,43 @@
+-- ---------------------------------------------------------------------
+-- Give service_role the privileges the leaderboard actually needs.
+--
+-- The My Progress leaderboard read every score as 0 for every user, and
+-- the global board rendered "No scores yet" while leaderboard_scores held
+-- correct, ranked rows. PostgREST was returning:
+--
+--   code 42501, permission denied for table leaderboard_scores
+--
+-- service_role bypasses RLS. It does NOT bypass table-level GRANTs - only
+-- the table owner and superusers do. The comment on
+-- recompute_leaderboard_ranks() in the original gamification migration
+-- ("the service role bypasses grants anyway") is wrong on that point, and
+-- is what this fixes.
+--
+-- The tables were only ever granted to `authenticated`:
+--
+--   grant select, insert, update on public.leaderboard_scores to authenticated;
+--
+-- so every direct read through the service-role client was refused. The
+-- failure was invisible because the page discarded the error and mapped a
+-- null result to a score of 0, which reads as a real last place.
+--
+-- Why ranks still got written despite that: PostgreSQL grants EXECUTE on
+-- new functions to PUBLIC by default, so the cron could always call
+-- recompute_leaderboard_ranks(), and that function is security definer, so
+-- it runs as the owner and bypasses the missing table grant. Fresh scores
+-- beside a stale rank was the tell.
+--
+-- Select only: the admin client just reads this table. Both writers
+-- (recompute_user_score from the user's own session, and the security
+-- definer functions from cron) already have the access they need.
+-- ---------------------------------------------------------------------
+grant select on public.leaderboard_scores to service_role;
+
+-- recompute_all_scores() revokes EXECUTE from PUBLIC so a signed-in user
+-- cannot trigger a full-table recompute. That revoke also takes away the
+-- default PUBLIC grant the cron would otherwise have relied on, so the one
+-- caller that should be able to run it is named explicitly. The same grant
+-- is made for recompute_leaderboard_ranks(), which has been running on the
+-- PUBLIC default rather than on any deliberate permission.
+grant execute on function public.recompute_all_scores() to service_role;
+grant execute on function public.recompute_leaderboard_ranks() to service_role;
