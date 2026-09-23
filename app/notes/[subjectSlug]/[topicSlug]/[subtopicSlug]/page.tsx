@@ -102,6 +102,15 @@ export default async function NotesSubtopicPage(
                     </blockquote>
                   </div>
                 ),
+                // Markdown tables don't reflow on narrow screens - wrapped in a
+                // scroll container so a wide table degrades to horizontal
+                // scroll instead of overflowing the page (see PastPapersTable
+                // for the same fix applied to a hand-built table).
+                table: ({ children }) => (
+                  <div className="my-6 overflow-x-auto">
+                    <table>{children}</table>
+                  </div>
+                ),
               }}
             >
               {notesMarkdown}
