@@ -57,6 +57,34 @@ body {
   background-attachment: local;
 }
 
+/* Homepage hero: knocks the underline out around descenders. The rule is
+   drawn behind the text (-z-10), and this paints a halo of the page
+   background around each glyph, so the rule is interrupted either side of
+   the p in "place" rather than running through it.
+
+   The browser's own text-decoration-skip-ink would do this, but it only
+   applies to a real text-decoration underline, which cannot be animated -
+   and the draw-on-load stroke below is the point of this underline.
+
+   The gap is the halo radius on each side, so it comes out symmetric for
+   free: no per-letter offset to guess at, and it holds for any glyph at any
+   size, the radius being in em. Eight offsets rather than four so the
+   diagonals are covered and the halo reads as round.
+
+   Only works over a flat background - it paints the page colour, so a
+   gradient or image behind the heading would show a visible outline. */
+.hero-skip-ink {
+  text-shadow:
+    0.05em 0 0 var(--background),
+    -0.05em 0 0 var(--background),
+    0 0.05em 0 var(--background),
+    0 -0.05em 0 var(--background),
+    0.035em 0.035em 0 var(--background),
+    -0.035em 0.035em 0 var(--background),
+    0.035em -0.035em 0 var(--background),
+    -0.035em -0.035em 0 var(--background);
+}
+
 /* Homepage hero: one-shot underline draw under "in one place" on page load.
    Fires once (no loop) and stays visible via forwards fill-mode. */
 .hero-underline {
