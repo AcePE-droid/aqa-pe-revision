@@ -47,6 +47,22 @@ function nextIdNumber(existing: Question[]): number {
   return (nums.length ? Math.max(...nums) : 0) + 1;
 }
 
+// Question numbers are per-subtopic display labels (e.g. "Q7" or "Q7(i)"), not the
+// question's original number on its source exam paper - those get reassigned here so
+// a subtopic's questions always read 1, 2, 3... with no gaps, regardless of which
+// paper(s) they were imported from.
+function parseQuestionNumber(qn: string): { base: number; suffix: string } | null {
+  const m = qn.match(/^Q(\d+)(.*)$/);
+  return m ? { base: parseInt(m[1], 10), suffix: m[2] } : null;
+}
+
+function maxQuestionNumberBase(existing: Question[]): number {
+  const bases = existing
+    .map((q) => parseQuestionNumber(q.questionNumber)?.base)
+    .filter((n): n is number => n !== undefined);
+  return bases.length ? Math.max(...bases) : 0;
+}
+
 function main() {
   const csvPath = process.argv[2];
   if (!csvPath) {
@@ -95,14 +111,16 @@ function main() {
       : [];
     const existingQuestions = new Set(existing.map((q) => normalize(q.question)));
     let nextNum = nextIdNumber(existing);
+    let questionNumberCounter = maxQuestionNumberBase(existing);
+    let prevRawBase: number | null = null;
 
     for (const row of rows) {
       const questionText = row.Question?.trim();
       const marksRaw = row.Marks?.trim();
       const markScheme = row["Mark Scheme"]?.trim();
-      const questionNumber = row["Question Number"]?.trim();
+      const questionNumberRaw = row["Question Number"]?.trim();
 
-      if (!questionText || !marksRaw || !markScheme || !questionNumber) {
+      if (!questionText || !marksRaw || !markScheme || !questionNumberRaw) {
         errors.push(
           `Subtopic "${subtopicName}": row missing Question Number, Question, Marks, or Mark Scheme - skipped.`
         );
@@ -126,6 +144,25 @@ function main() {
 
       const id = `${subtopic.slug}-q${nextNum}`;
       nextNum++;
+
+      // Reassign to the next sequential number for this subtopic, rather than using
+      // the raw "Question Number" column (that's the question's number on its original
+      // source paper, which is meaningless once mixed with questions from other papers).
+      // Rows that share the same raw base number consecutively (e.g. "Q7(i)"/"Q7(ii)"
+      // from a single multi-part question) keep that shared number.
+      const parsedRaw = parseQuestionNumber(questionNumberRaw);
+      let questionNumber: string;
+      if (parsedRaw) {
+        if (parsedRaw.base !== prevRawBase) questionNumberCounter++;
+        questionNumber = `Q${questionNumberCounter}${parsedRaw.suffix}`;
+        prevRawBase = parsedRaw.base;
+      } else {
+        questionNumber = questionNumberRaw;
+        prevRawBase = null;
+        errors.push(
+          `Subtopic "${subtopicName}": Question Number "${questionNumberRaw}" doesn't match the expected "Q<number>" format - imported as-is; may need manual renumbering.`
+        );
+      }
 
       const question: Question = {
         id,
