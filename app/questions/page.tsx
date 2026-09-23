@@ -20,7 +20,7 @@ export default function QuestionsHubPage() {
         Test yourself, topic by topic
       </h1>
       <p className="mx-auto mt-2 max-w-2xl text-slate-600">
-        Pick a subject to start a focused question session &mdash; one question at a time, with the
+        Pick a subject to start a focused question session: one question at a time, with the
         mark scheme a click away.
       </p>
 

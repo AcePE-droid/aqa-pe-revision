@@ -19,7 +19,7 @@ export default function PastPapersPage() {
       </h1>
       <p className="mt-2 max-w-xl text-slate-600">
         Official AQA A-Level PE (7582) past papers and mark schemes. Links open the original
-        source in a new tab &mdash; nothing is hosted on this site.
+        source in a new tab. Nothing is hosted on this site.
       </p>
 
       <div className="mt-8">

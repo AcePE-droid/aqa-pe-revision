@@ -92,7 +92,7 @@ export default function LoginPage() {
 
         {sent ? (
           <p className="rounded-md border border-green-200 bg-green-50 p-3 text-sm text-green-700">
-            Check your email &mdash; we&apos;ve sent you a link to sign in.
+            Check your email. We&apos;ve sent you a link to sign in.
           </p>
         ) : (
           <form onSubmit={handleMagicLink} className="flex flex-col gap-3">

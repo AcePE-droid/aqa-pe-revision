@@ -56,7 +56,7 @@ export default function Home() {
           <p className="mt-6 text-lg leading-8 text-slate-600">
             When I studied A-Level PE, I couldn&rsquo;t find an online revision resource with
             organised, clean material to learn from. That led me to spend hours making my own
-            notes and flashcards &mdash; time that should have gone into actually revising.
+            notes and flashcards, time that should have gone into actually revising.
           </p>
           <p className="mt-4 text-lg leading-8 text-slate-600">
             AcePE exists so the next cohort doesn&rsquo;t have to do that. Many sections are free

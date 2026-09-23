@@ -302,12 +302,12 @@ export default function FlashcardStudy({
           <div className="flex min-h-[70vh] w-full flex-col items-center justify-center gap-6 text-center sm:min-h-[55vh] sm:w-[65%] sm:max-w-3xl">
             {reviewEmpty ? (
               <p className="text-lg font-medium text-slate-700">
-                Every card is marked as known — nothing to review.
+                Every card is marked as known. Nothing to review.
               </p>
             ) : celebrating ? (
               <>
                 <Trophy className={`h-12 w-12 ${subjectStyle.icon}`} />
-                <p className="text-lg font-medium text-slate-700">Nice work — every card marked as known.</p>
+                <p className="text-lg font-medium text-slate-700">Nice work. Every card marked as known.</p>
               </>
             ) : (
               <>
