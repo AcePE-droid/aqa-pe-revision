@@ -28,7 +28,7 @@ export default function TermsOfServicePage() {
           <h2 className="text-lg font-semibold text-slate-900">1. Who this is for</h2>
           <p className="mt-2">
             These terms apply to anyone using this site as a revision resource for AQA A-Level PE.
-            Many sections are free to use. Some may require payment in future &mdash; where that
+            Many sections are free to use. Some may require payment in future. Where that
             applies, the price and what it covers will be clear before you&rsquo;re asked to pay.
           </p>
         </section>

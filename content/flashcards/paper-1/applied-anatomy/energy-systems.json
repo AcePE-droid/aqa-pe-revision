@@ -16,7 +16,7 @@
   {
     "id": "energy-systems-003",
     "front": "Which energy systems are used during high-intensity activity?",
-    "back": "Anaerobic energy systems — specifically the ATP-PC system and the anaerobic glycolytic system.",
+    "back": "Anaerobic energy systems: specifically the ATP-PC system and the anaerobic glycolytic system.",
     "subtopicId": "energy-systems",
     "group": "Aerobic energy system"
   },
@@ -310,7 +310,7 @@
   {
     "id": "energy-systems-045",
     "front": "What is a key advantage of the aerobic system in terms of ATP yield?",
-    "back": "It produces a high yield — up to 38 molecules of ATP from one molecule of glucose.",
+    "back": "It produces a high yield: up to 38 molecules of ATP from one molecule of glucose.",
     "subtopicId": "energy-systems",
     "group": "Aerobic energy system"
   },
@@ -1003,7 +1003,7 @@
   {
     "id": "energy-systems-144",
     "front": "What is OBLA?",
-    "back": "Onset of Blood Lactate Accumulation — the point when blood lactate levels exceed 4 millimoles per litre.",
+    "back": "Onset of Blood Lactate Accumulation: the point when blood lactate levels exceed 4 millimoles per litre.",
     "subtopicId": "energy-systems",
     "group": "Short duration high intensity (OBLA)"
   },
@@ -1213,7 +1213,7 @@
   {
     "id": "energy-systems-174",
     "front": "What is the Respiratory Exchange Ratio (RER)?",
-    "back": "The ratio of CO₂ produced to O₂ consumed — used to determine which fuel (fat or carbohydrate) is being used.",
+    "back": "The ratio of CO₂ produced to O₂ consumed, used to determine which fuel (fat or carbohydrate) is being used.",
     "subtopicId": "energy-systems",
     "group": "Short duration high intensity (lactate accumilation)"
   },
@@ -1304,7 +1304,7 @@
   {
     "id": "energy-systems-187",
     "front": "How do genetics affect VO₂ max?",
-    "back": "Genetics largely determine VO₂ max potential — up to 75% of VO₂ max is genetically inherited, limiting possible improvement through training.",
+    "back": "Genetics largely determine VO₂ max potential: up to 75% of VO₂ max is genetically inherited, limiting possible improvement through training.",
     "subtopicId": "energy-systems",
     "group": "Factors affecting VO2 max"
   },

@@ -50,7 +50,7 @@ export default function FeedbackForm({ mathA, mathB }: Props) {
   if (status === "success") {
     return (
       <p className="mt-6 rounded-md border border-green-200 bg-green-50 p-3 text-sm text-green-700">
-        Thanks &mdash; your feedback has been sent.
+        Thanks. Your feedback has been sent.
       </p>
     );
   }

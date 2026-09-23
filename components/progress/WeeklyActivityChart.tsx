@@ -72,7 +72,7 @@ export default function WeeklyActivityChart({ days }: { days: DayActivity[] }) {
       </div>
       {!hasRecentActivity && (
         <p className="mt-2 text-xs text-slate-400">
-          No activity yet — study a flashcard or question to see your trend.
+          No activity yet. Study a flashcard or question to see your trend.
         </p>
       )}
     </div>
