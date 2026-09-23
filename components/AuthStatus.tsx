@@ -97,7 +97,7 @@ export default function AuthStatus({ variant = "desktop", onNavigate }: Props) {
     return (
       <Link
         href="/login"
-        className="border-b-2 border-transparent pb-1 text-slate-700 transition-colors duration-150 hover:text-slate-900"
+        className="border-b-2 border-transparent pb-1 text-slate-900 transition-colors duration-150 hover:text-slate-900"
       >
         Log in
       </Link>
@@ -110,7 +110,7 @@ export default function AuthStatus({ variant = "desktop", onNavigate }: Props) {
     <div ref={menuRef} className="relative">
       <button
         onClick={() => setMenuOpen((open) => !open)}
-        className="rounded-md border border-slate-300 px-3 py-1.5 text-sm font-medium text-slate-700 hover:bg-slate-50"
+        className="rounded-md border border-slate-300 px-3 py-1.5 text-sm font-medium text-slate-900 hover:bg-slate-50"
       >
         {label}
       </button>
