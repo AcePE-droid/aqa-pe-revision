@@ -9,16 +9,16 @@ export default function Footer() {
           by AQA.
         </p>
         <p className="mt-2 flex flex-wrap gap-4">
-          <Link href="/about" className="hover:text-blue-600">
+          <Link href="/about" className="inline-flex items-center py-3 -my-3 hover:text-blue-600">
             About this site
           </Link>
-          <Link href="/feedback" className="hover:text-blue-600">
+          <Link href="/feedback" className="inline-flex items-center py-3 -my-3 hover:text-blue-600">
             Send feedback
           </Link>
-          <Link href="/privacy" className="hover:text-blue-600">
+          <Link href="/privacy" className="inline-flex items-center py-3 -my-3 hover:text-blue-600">
             Privacy Policy
           </Link>
-          <Link href="/terms" className="hover:text-blue-600">
+          <Link href="/terms" className="inline-flex items-center py-3 -my-3 hover:text-blue-600">
             Terms of Service
           </Link>
         </p>
