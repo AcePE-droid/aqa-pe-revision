@@ -58,7 +58,7 @@ export default function WeeklyActivityChart({ days }: { days: DayActivity[] }) {
                 onBlur={() => setOpenIndex((prev) => (prev === i ? null : prev))}
                 onClick={() => hasRecentActivity && setOpenIndex((prev) => (prev === i ? null : i))}
                 aria-label={`${d.fullLabel}: ${d.cardsReviewed} flashcards reviewed, ${d.questionsAnswered} questions answered`}
-                className={`w-full rounded-t ${hasRecentActivity ? "bg-blue-600" : "bg-slate-200"} ${
+                className={`relative w-full rounded-t before:absolute before:inset-x-0 before:bottom-0 before:h-11 before:content-[''] ${hasRecentActivity ? "bg-blue-600" : "bg-slate-200"} ${
                   hasRecentActivity ? "cursor-pointer" : "cursor-default"
                 }`}
                 style={{

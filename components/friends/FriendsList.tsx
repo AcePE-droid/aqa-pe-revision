@@ -36,13 +36,13 @@ export default function FriendsList({ friends: initialFriends }: { friends: Frie
       {error && <p className="mb-2 text-sm text-red-700">{error}</p>}
       <ul className="divide-y divide-slate-100">
         {friends.map((f) => (
-          <li key={f.id} className="flex items-center justify-between py-3 text-sm">
-            <span className="font-medium text-slate-900">{f.counterpartUsername}</span>
+          <li key={f.id} className="flex items-center justify-between gap-3 py-3 text-sm">
+            <span className="min-w-0 truncate font-medium text-slate-900">{f.counterpartUsername}</span>
             <button
               onClick={() => handleRemove(f.id)}
               disabled={removingId === f.id}
               aria-label={`Remove ${f.counterpartUsername}`}
-              className="flex items-center gap-1 rounded-md border border-slate-300 px-3 py-1 text-xs font-medium text-slate-700 hover:bg-slate-50 disabled:opacity-50"
+              className="flex shrink-0 items-center gap-1 rounded-md border border-slate-300 px-3 py-1 text-xs font-medium text-slate-700 hover:bg-slate-50 disabled:opacity-50"
             >
               <UserMinus size={14} /> Remove
             </button>

@@ -58,7 +58,7 @@ export default function BadgesSection({ badges, unlockedAt }: Props) {
         <button
           type="button"
           onClick={() => setExpanded((v) => !v)}
-          className="mt-6 text-sm font-medium text-blue-600 hover:text-blue-700"
+          className="mt-3 inline-flex min-h-11 items-center text-sm font-medium text-blue-600 hover:text-blue-700"
         >
           {expanded ? "Show less" : `Show all ${ordered.length} badges`}
         </button>
