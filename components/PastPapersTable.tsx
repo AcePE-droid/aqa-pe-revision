@@ -60,6 +60,20 @@ export default function PastPapersTable({ papers }: Props) {
           ))}
         </select>
 
+        {/* The table sorts from its Year column header, which the card list
+            below sm has no equivalent for - so without this the sort is
+            simply unavailable on a phone. Hidden from sm up, where the
+            column header does the job. */}
+        <select
+          value={sortDir}
+          onChange={(e) => setSortDir(e.target.value as SortDir)}
+          aria-label="Sort by year"
+          className="rounded-md border border-slate-200 px-3 py-2 text-sm text-slate-700 sm:hidden"
+        >
+          <option value="desc">Newest first</option>
+          <option value="asc">Oldest first</option>
+        </select>
+
         <div className="flex rounded-md border border-slate-200 text-sm">
           {(["all", 1, 2] as PaperFilter[]).map((p) => (
             <button
