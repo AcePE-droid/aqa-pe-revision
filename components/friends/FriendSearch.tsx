@@ -48,18 +48,18 @@ export default function FriendSearch({ currentUserId, connections }: Props) {
 
   return (
     <div className="mt-4">
-      <form onSubmit={handleSearch} className="flex gap-2">
+      <form onSubmit={handleSearch} className="flex flex-wrap gap-2">
         <input
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Search by username"
-          className="flex-1 rounded-md border border-slate-300 px-3 py-2 text-sm text-slate-900 placeholder:text-slate-400 focus:border-blue-600 focus:outline-none"
+          className="min-w-0 flex-1 rounded-md border border-slate-300 px-3 py-2 text-sm text-slate-900 placeholder:text-slate-400 focus:border-blue-600 focus:outline-none"
         />
         <button
           type="submit"
           disabled={searching || query.trim().length === 0}
-          className="rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700 disabled:opacity-50"
+          className="shrink-0 rounded-md bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700 disabled:opacity-50"
         >
           {searching ? "Searching..." : "Search"}
         </button>
@@ -71,22 +71,22 @@ export default function FriendSearch({ currentUserId, connections }: Props) {
           const status = statusById.get(r.userId);
           const justSent = sentTo.has(r.userId);
           return (
-            <li key={r.userId} className="flex items-center justify-between py-3 text-sm">
-              <span className="font-medium text-slate-900">{r.username}</span>
+            <li key={r.userId} className="flex items-center justify-between gap-3 py-3 text-sm">
+              <span className="min-w-0 truncate font-medium text-slate-900">{r.username}</span>
               {status === "accepted" ? (
-                <span className="flex items-center gap-1 text-xs text-slate-500">
+                <span className="flex shrink-0 items-center gap-1 text-xs text-slate-500">
                   <Check size={14} /> Friends
                 </span>
               ) : status === "pending_sent" || justSent ? (
-                <span className="flex items-center gap-1 text-xs text-slate-500">
+                <span className="flex shrink-0 items-center gap-1 text-xs text-slate-500">
                   <Clock size={14} /> Requested
                 </span>
               ) : status === "pending_received" ? (
-                <span className="text-xs text-slate-500">Sent you a request</span>
+                <span className="shrink-0 text-xs text-slate-500">Sent you a request</span>
               ) : (
                 <button
                   onClick={() => handleAdd(r.userId)}
-                  className="flex items-center gap-1 rounded-md border border-slate-300 px-3 py-1 text-xs font-medium text-slate-700 hover:bg-slate-50"
+                  className="flex shrink-0 items-center gap-1 rounded-md border border-slate-300 px-3 py-1 text-xs font-medium text-slate-700 hover:bg-slate-50"
                 >
                   <UserPlus size={14} /> Add friend
                 </button>

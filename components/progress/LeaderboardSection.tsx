@@ -110,18 +110,18 @@ export default function LeaderboardSection({
             {rows.map((row) => (
               <li
                 key={row.userId}
-                className={`flex items-center justify-between py-3 text-sm ${
+                className={`flex items-center justify-between gap-3 py-3 text-sm ${
                   row.userId === currentUserId ? "font-semibold text-slate-900" : "text-slate-700"
                 }`}
               >
-                <span className="flex items-center gap-3">
-                  <span className="w-6 text-right text-slate-400">{row.rank ?? "-"}</span>
-                  <span>
+                <span className="flex min-w-0 items-center gap-3">
+                  <span className="w-6 shrink-0 text-right text-slate-400">{row.rank ?? "-"}</span>
+                  <span className="truncate">
                     {row.displayName}
                     {row.userId === currentUserId ? " (you)" : ""}
                   </span>
                 </span>
-                <span className="tabular-nums text-slate-500">{Math.round(row.score)} pts</span>
+                <span className="shrink-0 tabular-nums text-slate-500">{Math.round(row.score)} pts</span>
               </li>
             ))}
           </ol>

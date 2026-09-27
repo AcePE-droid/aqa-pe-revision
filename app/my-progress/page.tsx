@@ -415,7 +415,7 @@ export default async function MyProgressPage() {
             <ul className="mt-4 divide-y divide-slate-100">
               {focusBuckets.map((b) => (
                 <li key={b.id} className="flex items-center justify-between gap-3 py-3">
-                  <div className="flex items-center gap-2">
+                  <div className="flex min-w-0 items-center gap-2">
                     {b.confidence && (
                       <span
                         className={`h-2.5 w-2.5 shrink-0 rounded-full ${
@@ -426,9 +426,9 @@ export default async function MyProgressPage() {
                         role="img"
                       />
                     )}
-                    <div>
-                      <p className="text-sm font-medium text-slate-900">{b.name}</p>
-                      <p className="text-xs text-slate-500">{b.topicName}</p>
+                    <div className="min-w-0">
+                      <p className="truncate text-sm font-medium text-slate-900">{b.name}</p>
+                      <p className="truncate text-xs text-slate-500">{b.topicName}</p>
                     </div>
                   </div>
                   <span className="shrink-0 text-sm font-semibold text-slate-600">

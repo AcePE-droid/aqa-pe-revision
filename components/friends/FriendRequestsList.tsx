@@ -30,9 +30,9 @@ export default function FriendRequestsList({ requests: initialRequests }: { requ
       {error && <p className="mb-2 text-sm text-red-700">{error}</p>}
       <ul className="divide-y divide-slate-100">
         {requests.map((r) => (
-          <li key={r.id} className="flex items-center justify-between py-3 text-sm">
-            <span className="font-medium text-slate-900">{r.counterpartUsername}</span>
-            <div className="flex gap-2">
+          <li key={r.id} className="flex items-center justify-between gap-3 py-3 text-sm">
+            <span className="min-w-0 truncate font-medium text-slate-900">{r.counterpartUsername}</span>
+            <div className="flex shrink-0 gap-2">
               <button
                 onClick={() => handleRespond(r.id, true)}
                 aria-label={`Accept ${r.counterpartUsername}`}
