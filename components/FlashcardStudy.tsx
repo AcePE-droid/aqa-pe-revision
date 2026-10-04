@@ -483,7 +483,7 @@ export default function FlashcardStudy({
             </button>
           </div>
           <p className="hidden text-center text-[11px] text-slate-400 [@media(hover:hover)_and_(pointer:fine)]:block">
-            Space to flip · ← → to navigate
+            Space to flip
           </p>
         </div>
       )}
