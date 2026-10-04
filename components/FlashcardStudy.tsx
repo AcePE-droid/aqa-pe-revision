@@ -173,6 +173,54 @@ export default function FlashcardStudy({
     runTransition(newIndex, newIndex > index ? "next" : "prev");
   }
 
+  // Keyboard shortcuts for studying on a laptop: space flips, arrows move
+  // between cards. Routed through goTo/setFlipped rather than reimplementing
+  // navigation, so the reset-to-front and the no-wrap-at-the-ends behaviour
+  // stay identical to the Previous/Next buttons.
+  useEffect(() => {
+    if (deckEnded) return;
+
+    function isEditable(target: EventTarget | null): boolean {
+      if (!(target instanceof HTMLElement)) return false;
+      return target.isContentEditable || ["INPUT", "TEXTAREA", "SELECT"].includes(target.tagName);
+    }
+
+    function handleKey(e: KeyboardEvent) {
+      // Leave browser/OS chords (cmd+arrow to go back, etc.) alone.
+      if (e.ctrlKey || e.metaKey || e.altKey) return;
+      if (isEditable(e.target)) return;
+      if (navPhase !== "idle") return;
+
+      if (e.key === " ") {
+        if (e.repeat) return;
+        // The card and every control here is a <button>, and the browser
+        // already activates a focused one on space - handling it again
+        // would flip twice.
+        if (document.activeElement instanceof HTMLButtonElement) return;
+        e.preventDefault();
+        setFlipped((f) => !f);
+        return;
+      }
+
+      if (e.key === "ArrowRight") {
+        e.preventDefault();
+        goTo(index + 1);
+        return;
+      }
+
+      if (e.key === "ArrowLeft") {
+        e.preventDefault();
+        goTo(index - 1);
+      }
+    }
+
+    document.addEventListener("keydown", handleKey);
+    return () => document.removeEventListener("keydown", handleKey);
+    // goTo is recreated each render, but everything it reads - index,
+    // navPhase, displayCards.length - is already listed here.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [deckEnded, navPhase, index, displayCards.length]);
+
   function mark(status: FlashcardStatus) {
     if (navPhase !== "idle") return;
     void setCardStatus(subtopicId, card.id, status);
@@ -434,6 +482,9 @@ export default function FlashcardStudy({
               Next <ChevronRight className="h-4 w-4" />
             </button>
           </div>
+          <p className="hidden text-center text-[11px] text-slate-400 [@media(hover:hover)_and_(pointer:fine)]:block">
+            Space to flip · ← → to navigate
+          </p>
         </div>
       )}
     </div>
