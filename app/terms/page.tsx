@@ -12,8 +12,7 @@ export const metadata = pageMetadata({
   path: "/terms",
 });
 
-// TODO: set to the real publish date before this page goes live
-const LAST_UPDATED = "[date to be set before publishing]";
+const LAST_UPDATED = "9 October 2026";
 
 export default function TermsOfServicePage() {
   return (
