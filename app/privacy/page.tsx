@@ -14,8 +14,7 @@ export const metadata = pageMetadata({
   path: "/privacy",
 });
 
-// TODO: set to the real publish date before this policy goes live
-const LAST_UPDATED = "[date to be set before publishing]";
+const LAST_UPDATED = "9 October 2026";
 
 export default function PrivacyPolicyPage() {
   return (
