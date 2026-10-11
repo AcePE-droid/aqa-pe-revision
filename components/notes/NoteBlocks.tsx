@@ -58,6 +58,18 @@ function Definition({ block, style }: BlockProps<DefinitionBlock>) {
 }
 
 /**
+ * Keeps an operator attached to the term before it, so a line can never begin
+ * with a bare "=" or "×". A long equation on a phone wraps over three or four
+ * lines, and a break falling on the space before an operator leaves it
+ * stranded at the start of the next line, which reads as a new equation
+ * rather than a continuation. Replacing the space in front of the operator
+ * with a non-breaking space moves the break to after it instead.
+ */
+function tieOperators(equation: string) {
+  return equation.replace(/ ([=\u00d7\u00f7+\u2212]) /g, "\u00a0$1 ");
+}
+
+/**
  * Formula. Thick vertical accent bar, italic serif equation in a slate
  * blue-grey, warm cream panel, with a single plain-English line underneath.
  *
@@ -71,7 +83,7 @@ function Formula({ block, style }: BlockProps<FormulaBlock>) {
       <div className={`w-2 shrink-0 ${style.progressBar}`} aria-hidden="true" />
       <div className="px-5 py-5 sm:px-6">
         <p className="font-serif text-xl italic leading-snug text-slate-700 sm:text-2xl">
-          {block.equation}
+          {tieOperators(block.equation)}
         </p>
         <p className="mt-2 text-sm leading-relaxed text-slate-600">{block.meaning}</p>
       </div>
@@ -149,8 +161,13 @@ function Compare({ block }: BlockProps<CompareBlock>) {
   // squeezes down to two or three words per line on a phone. Those stack into
   // one card per row instead, with the column name as the label. Short,
   // two-column tables already fit a 375px screen, so they stay as tables.
+  //
+  // The cell threshold is measured rather than guessed: at 375px a two-column
+  // table whose longest cell passes roughly 70 characters squeezes the first
+  // column to around 120px, which wraps a column heading over four lines.
+  // Below that the first column holds its width and the table still reads.
   const stackOnMobile =
-    block.columns.length > 2 || block.rows.some((r) => r.some((c) => c.length > 80));
+    block.columns.length > 2 || block.rows.some((r) => r.some((c) => c.length > 70));
 
   return (
     <div className="my-8">
@@ -255,6 +272,14 @@ function MixUps({ block }: BlockProps<MixUpsBlock>) {
 }
 
 function SayItToScore({ block, style }: BlockProps<SayItToScoreBlock>) {
+  // A chip only reads as a chip while it sits on one line. Some of these
+  // phrases are a full clause, and inside this card a phone leaves about
+  // 250px, so each one wraps to two or three lines and the wrapped row of
+  // tags becomes a stack of identical full-width boxes. Sets that long drop
+  // the chip treatment on narrow screens and read as a list instead, which is
+  // what they already are at that width.
+  const chipsFit = block.items.every((item) => item.length <= 40);
+
   return (
     <div className="my-8 rounded-xl border border-slate-200 bg-white p-5">
       <div className="flex gap-3">
@@ -264,7 +289,19 @@ function SayItToScore({ block, style }: BlockProps<SayItToScoreBlock>) {
           <p className="mt-1 text-sm text-slate-600">
             The standard AQA terminology for this topic.
           </p>
-          <ul className="mt-3 flex flex-wrap gap-2">
+          {!chipsFit && (
+            <ul className="mt-3 space-y-2 sm:hidden">
+              {block.items.map((item, i) => (
+                <li key={i} className="flex gap-2 text-sm font-medium text-slate-800">
+                  <span aria-hidden="true" className={style.icon}>
+                    &bull;
+                  </span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          )}
+          <ul className={`mt-3 flex-wrap gap-2 ${chipsFit ? "flex" : "hidden sm:flex"}`}>
             {block.items.map((item, i) => (
               <li
                 key={i}
