@@ -1,5 +1,6 @@
 import Link from "next/link";
 import AccountDeletedToast from "@/components/AccountDeletedToast";
+import AccountPromptSection from "@/components/AccountPromptSection";
 import WhatsInsideSection from "@/components/WhatsInsideSection";
 import { getTotalFlashcardCount } from "@/lib/content";
 import type { Metadata } from "next";
@@ -47,6 +48,8 @@ export default function Home() {
       </section>
 
       <WhatsInsideSection flashcardCount={flashcardCount} />
+
+      <AccountPromptSection />
 
       <section id="why" className="scroll-mt-24 border-t border-slate-200 py-20 text-center">
         <div className="mx-auto max-w-2xl">
