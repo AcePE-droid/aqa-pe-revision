@@ -73,6 +73,57 @@
               ]
             }
           ]
+        },
+        {
+          "heading": "Achievement goal theory",
+          "specBullet": "Achievement goal theory, and outcome and task orientated goals",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Achievement goal theory",
+                  "meaning": "Explains motivation and persistence through the type of goal a performer sets and the way they judge whether they have succeeded."
+                },
+                {
+                  "term": "Task-orientated goals",
+                  "meaning": "Goals judged against the performer's own standards, where success means improving the skill or the performance itself."
+                },
+                {
+                  "term": "Outcome-orientated goals",
+                  "meaning": "Goals judged against other people, where success means winning or beating opponents rather than improving."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Type of goal",
+                "How success is judged",
+                "Effect on the performer"
+              ],
+              "rows": [
+                [
+                  "Task-orientated",
+                  "Against the performer's own previous standards, so improving a technique or beating a personal best counts as success",
+                  "Motivation and persistence are maintained, because success stays within the performer's control even when the result goes against them"
+                ],
+                [
+                  "Outcome-orientated",
+                  "Against opponents, so only winning or placing counts as success",
+                  "Motivation and persistence can drop when winning looks unlikely, and a defeat is more likely to damage confidence"
+                ]
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Task-orientated goals are judged against yourself, outcome-orientated goals against other people",
+                "Task orientation protects motivation after a loss, because improvement is still possible",
+                "A coach sets task-orientated goals alongside outcome ones so that losing does not end the motivation"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -261,6 +312,36 @@
               "type": "explainer",
               "paragraphs": [
                 "Coaches and players use these four factors directly: controlling arousal through relaxation, giving accurate demonstrations, pointing out past successful performances, offering encouragement, setting attainable goals, and using mental rehearsal."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Self-esteem",
+                  "meaning": "How much a performer values themselves, as a judgement of their own worth. It is more general and more stable than confidence in any single situation, rising with success and falling with repeated failure."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Term",
+                "What it describes"
+              ],
+              "rows": [
+                [
+                  "Self-confidence",
+                  "A general belief in the ability to succeed across sporting situations"
+                ],
+                [
+                  "Self-efficacy",
+                  "A belief in the ability to succeed in one specific situation or task"
+                ],
+                [
+                  "Self-esteem",
+                  "How highly the performer values themselves overall, rather than a belief about any one task"
+                ]
               ]
             },
             {

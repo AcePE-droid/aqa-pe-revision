@@ -526,6 +526,63 @@ page placeholders for them. Reading those would need the images themselves.
 Two clean results at opposite ends of the overlap range are strong evidence but
 are not the whole set.
 
+## Spec audit of the ten thinnest subtopics, and the four gaps filled
+
+The ten subtopics under 3,500 characters were audited against the published AQA
+7582 specification (3.1.3.1.1, 3.2.2.2 and 3.2.3.1.x), fetched from aqa.org.uk.
+The `specBullet` fields already in the files were deliberately not used as the
+yardstick: they were written during the restructure, so checking against them
+would have been circular.
+
+**Six of the ten were already complete**: personality, attitudes, motivation,
+arousal, leadership and attribution theory. They are short because their spec
+requirements are short. Motivation is the clearest case, where the whole
+requirement is "Motivation" and "Intrinsic, extrinsic, tangible and intangible",
+all four of which were present. The "thin files are a problem" note in CLAUDE.md
+overstates things for these six.
+
+One borderline left alone: attribution theory is asked to cover the "Link
+between attribution, task persistence and motivation". Motivation and confidence
+are linked explicitly, task persistence is not. Judged too small to be worth a
+section of its own.
+
+**Four had real gaps, now filled:**
+
+1. **Achievement goal theory** was missing entirely from `achievement-motivation-theory`,
+   along with outcome and task orientated goals. A grep of the whole site,
+   including the old markdown, found no trace of it; the only hits for
+   "task-orientated" were Fiedler's task-oriented leadership style, which is an
+   unrelated use of the phrase. Added as a second section.
+2. **Self-esteem** was not characterised in `self-efficacy-confidence`, although
+   the spec names it alongside self-efficacy and self-confidence. Added, with a
+   table separating the three.
+3. **Mechanical advantage and disadvantage per class** in `levers`. The concept
+   was defined but applied only to third-class levers; the spec asks for it "of
+   each class". Added a per-class table.
+4. **"Rural" and "harsh lifestyle"** in `pre-industrial-britain`, both named by
+   the spec as characteristics of society. Added as two rows.
+
+### Provenance differs between the four, which matters for the copyright rule
+
+Only one of the four had readable source. The textbook chapter covering levers
+has an OCR text layer, so that addition went through the normal two-pass route:
+facts extracted first, prose written from the facts. Measured afterwards against
+the source, the longest shared run is 9 words, "the force arm is longer than the
+resistance arm", which is the definition of mechanical advantage and cannot be
+reworded without making it wrong. That phrase was already in the notes before
+this change. Shared 10-word runs and above: none.
+
+The other three sit on image-only PDFs with no OCR layer, so no source text was
+available. They were written from the published AQA specification plus general
+subject knowledge. This is further from the textbook rather than closer to it,
+so it carries no copyright exposure, but it is a different provenance from the
+rest of the notes and the user should know which parts came from where. The fact
+extraction, including this distinction, is recorded per item.
+
+For achievement goal theory in particular, the content is standard and the spec
+is explicit about what is required, but it has not been checked against the
+textbook the student is actually taught from. Worth a glance before relying on it.
+
 ## Blocked
 
 ### Source files: located, and no longer blocking

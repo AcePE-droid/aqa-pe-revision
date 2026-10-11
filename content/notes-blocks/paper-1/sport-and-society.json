@@ -11,7 +11,7 @@
             {
               "type": "explainer",
               "paragraphs": [
-                "Sport is often said to reflect the wider society it takes place in, so studying popular recreation before 1780 shows where modern sport came from. Three features of pre-industrial Britain shaped what sport could possibly look like."
+                "Sport is often said to reflect the wider society it takes place in, so studying popular recreation before 1780 shows where modern sport came from. Five features of pre-industrial Britain shaped what sport could possibly look like."
               ]
             },
             {
@@ -21,6 +21,10 @@
                 "What it meant for sport"
               ],
               "rows": [
+                [
+                  "A rural society",
+                  "Most people lived and worked on the land, so activities took place on open fields, commons and village streets"
+                ],
                 [
                   "Limited transport and communication",
                   "Activities stayed local and varied from one area to another"
@@ -32,6 +36,10 @@
                 [
                   "A clearly divided, two-tier class system",
                   "An upper class with significant leisure time and wealth, and a lower or working class with very little free time, dictated by agricultural and seasonal demands"
+                ],
+                [
+                  "A harsh lifestyle",
+                  "Long working hours and hard living conditions left little time or energy for sport, and were mirrored in how violent and physically demanding many activities were"
                 ]
               ]
             },
