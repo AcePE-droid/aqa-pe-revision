@@ -1,0 +1,1500 @@
+{
+  "topicId": "skill-acquisition",
+  "subtopics": [
+    {
+      "subtopicId": "skill-classification-practice",
+      "sections": [
+        {
+          "heading": "Letting the skill decide the practice",
+          "specBullet": "The impact of skill classification on the structure of practice",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The type of skill a performer needs to learn should determine how a coach structures practice. Classifying the skill first, against criteria such as simple or complex, open or closed, discrete or continuous, gives the coach a basis for choosing the most suitable method and type of practice.",
+                "Using classification to guide practice design means training matches the real demands of the skill, which supports more effective learning and better transfer into performance."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Methods of presenting practice",
+          "specBullet": "Whole, whole-part-whole and progressive part practice",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Whole practice",
+                  "meaning": "Practising the skill in its entirety, without breaking it into sub-routines. It suits skills that are fast, ballistic, discrete, simple and highly organised, where the sub-routines are too closely linked to separate, such as a tennis serve."
+                },
+                {
+                  "term": "Whole-part-whole practice",
+                  "meaning": "The performer first attempts the whole skill, the coach identifies a specific weakness, that part is isolated and practised on its own, and it is then put back into the context of the whole skill."
+                },
+                {
+                  "term": "Progressive part practice",
+                  "meaning": "Also called chaining. The skill is taught and built up in parts, with each new part added on to those already learned, one at a time, until the whole sequence is complete."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Method",
+                "Advantages",
+                "Disadvantages"
+              ],
+              "rows": [
+                [
+                  "Whole",
+                  "Gives a feel for the whole action and the links between sub-routines; develops kinaesthesis, the feel of the movement; more realistic, so more likely to transfer positively to performance; builds the consistency skilled performance needs",
+                  "Can place unnecessary demands on the performer, especially a beginner, if all parts are attempted at once; risks fatigue and errors from processing too much information at the same time"
+                ],
+                [
+                  "Whole-part-whole",
+                  "Motivating, because success on the whole skill comes first; allows immediate, specific feedback on the isolated weakness; corrects the weak part before returning it to the whole action, so the feel of the complete skill is kept",
+                  "Transfer back into the whole skill is not guaranteed unless the corrected part is reintegrated at the same speed and rhythm at which it is actually performed"
+                ],
+                [
+                  "Progressive part",
+                  "Lets the performer focus on and correct one specific weakness within a longer sequence; reduces the information to be processed at once; motivation builds gradually as each stage is achieved",
+                  "Time-consuming; can neglect the overall flow and the links between sub-routines; risks negative transfer if an early part is learned incorrectly, since later parts build on it"
+                ]
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "Whole-part-whole and progressive part are the same thing.",
+                  "right": "Whole-part-whole starts from the complete skill and goes back to fix one weakness. Progressive part never starts with the whole, it adds one part at a time until the sequence is built."
+                }
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Highly organised and fast means whole practice, because the parts will not separate",
+                "Whole-part-whole targets a known weakness in a skill already attempted",
+                "Progressive part builds a chain, so an early error carries all the way through"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Types of practice",
+          "specBullet": "Massed, distributed and varied practice",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Massed practice",
+                  "meaning": "Practice with no rest intervals between attempts. It suits skills that are discrete, simple and closed, performed by someone with good levels of fitness."
+                },
+                {
+                  "term": "Distributed practice",
+                  "meaning": "Practice sessions with rest intervals between attempts. It suits skills that are dangerous, complex or continuous, and performers who are beginners or who lack fitness."
+                },
+                {
+                  "term": "Varied practice",
+                  "meaning": "Changing the type of practice and the drills used within a training session. It suits skills that are open, complex and externally paced, where the performer needs to adapt to changing, unpredictable environments, such as a football team practising with different sized small-sided games."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Type",
+                "Advantages",
+                "Disadvantages"
+              ],
+              "rows": [
+                [
+                  "Massed",
+                  "Promotes fitness through continuous effort; builds strong, automatic motor programmes through repeated, fixed responses; efficient use of time, as sessions are not broken up",
+                  "Can cause fatigue, particularly if the performer lacks fitness, raising the risk of poor technique and negative transfer; constant repetition of drills can reduce motivation"
+                ],
+                [
+                  "Distributed",
+                  "Allows recovery between attempts, reducing fatigue and the risk of technique breaking down; rest intervals give time for feedback and mental rehearsal, which can maintain or increase motivation",
+                  "More time-consuming overall than massed practice; if the rest intervals between sessions are too long it can lead to forgetting and reduce transfer of the skill"
+                ],
+                [
+                  "Varied",
+                  "Helps the performer adapt existing skills and sub-routines to changing environments; supports development of a schema; keeps training motivating by avoiding repetitive drills",
+                  "Time-consuming to plan and set up multiple variations; increases the risk of negative transfer if drills are too dissimilar from the real performance environment; can be demanding and increase fatigue"
+                ]
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Schema",
+                  "meaning": "A stored, generalised motor programme that can be adapted to new situations. Varied practice is what develops one."
+                }
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Massed suits simple, closed skills and a fit performer; distributed suits beginners, danger and complexity",
+                "The trade-off is always fatigue against time",
+                "Varied practice is for open skills, because the environment keeps changing"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Mental practice",
+          "specBullet": "Mental practice and its use with performers of different levels",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Mental practice",
+                  "meaning": "Going through the performance of a skill in the mind, without physical movement. It is usually used alongside physical practice, either before a training programme or between periods of physical practice."
+                },
+                {
+                  "term": "External mental practice",
+                  "meaning": "Imagining watching yourself perform the skill, as if on video."
+                },
+                {
+                  "term": "Internal mental practice",
+                  "meaning": "Imagining performing and feeling the skill from within."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Mental practice increases confidence and lowers anxiety. It activates the muscle receptors relevant to the skill, which keeps a mental blueprint of the action prepared and ready to recall, and it improves decision-making and thinking about the skill. It also helps maintain the memory of a skill through periods when the performer cannot physically practise, such as during injury.",
+                "For advanced performers it can improve reaction time too, by activating the relevant muscles in advance and helping the performer focus, because well-prepared responses become more automatic."
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Performer",
+                "How mental practice is used"
+              ],
+              "rows": [
+                [
+                  "Beginner",
+                  "Short and simple, picturing the basic requirements of the skill. Builds confidence and reduces errors"
+                ],
+                [
+                  "Experienced",
+                  "Longer and more detailed, often focused on specific tactics, strategies or the weaknesses of an opponent, ahead of a major competition"
+                ]
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Carry it out in a calm, relaxed environment",
+                "It must be an accurate rehearsal of the actual skill",
+                "Combine it with physical practice for maximum effectiveness"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopicId": "guidance-feedback",
+      "sections": [
+        {
+          "heading": "Types and purposes of feedback",
+          "specBullet": "Types and purposes of feedback",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Feedback",
+                  "meaning": "Information received during or after a performance that is used to correct errors and improve future attempts."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Feedback is only useful when the type matches what the performer needs at that moment. The six types below are not alternatives to choose between once, but a set a coach draws from differently depending on the performer and the skill."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Positive feedback",
+                  "meaning": "Informs the performer that their performance was good, encouraging and motivating them to continue performing the skill in the same way."
+                },
+                {
+                  "term": "Negative feedback",
+                  "meaning": "Informs the performer that an error has occurred. It can feel unwelcome, but it is necessary so mistakes are identified and eliminated, particularly for more experienced performers."
+                },
+                {
+                  "term": "Extrinsic feedback",
+                  "meaning": "Feedback from an outside source, such as a coach, a teammate, video or spectators. It can reinforce correct technique or highlight aspects the performer cannot detect themselves."
+                },
+                {
+                  "term": "Intrinsic feedback",
+                  "meaning": "Feedback that comes from within the performer, using their own sense of movement, or kinaesthesis, and their internal feel for whether an action was correct."
+                },
+                {
+                  "term": "Knowledge of results",
+                  "meaning": "Feedback about the outcome of an action, such as whether a shot scored or missed. It is available immediately at the end of an attempt."
+                },
+                {
+                  "term": "Knowledge of performance",
+                  "meaning": "More detailed feedback about the technique and quality of the movement itself rather than just the outcome, used to help the performer produce a better performance next time."
+                }
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Six types: positive, negative, extrinsic, intrinsic, knowledge of results, knowledge of performance",
+                "Extrinsic comes from outside, intrinsic comes from within",
+                "Results is the outcome, performance is the technique"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Matching feedback to the stage of learning",
+          "specBullet": "The use of feedback at different stages of learning",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The type of feedback that works best changes as a performer moves through the stages of learning, because what shifts is how much the performer can judge for themselves."
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Stage",
+                "Feedback that works best",
+                "Why"
+              ],
+              "rows": [
+                [
+                  "Cognitive stage",
+                  "Extrinsic feedback combined with positive encouragement. Frequent, simple advice on both technique and outcome",
+                  "A novice lacks the experience to judge their own performance accurately, so this builds confidence and corrects early errors"
+                ],
+                [
+                  "Associative stage",
+                  "More detailed feedback, with some of the performer's own intrinsic feedback used alongside the coach's extrinsic feedback",
+                  "The performer is beginning to detect errors themselves, which allows steady progress and refinement of technique"
+                ],
+                [
+                  "Autonomous stage",
+                  "Mainly intrinsic feedback, using their own kinaesthetic sense",
+                  "The performer can make fine adjustments and self-correct, maintaining a high level of control over their performance"
+                ]
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Feedback moves from extrinsic to intrinsic as the performer improves",
+                "Beginners need it frequent, simple and positive",
+                "Autonomous performers correct themselves by feel"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Methods of guidance",
+          "specBullet": "Types of guidance: visual, verbal, manual and mechanical",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Visual guidance",
+                  "meaning": "A demonstration of the skill that gives the performer a mental image to copy, delivered live by a coach or peer, or through video, images or diagrams. Highly effective for beginners."
+                },
+                {
+                  "term": "Verbal guidance",
+                  "meaning": "Spoken explanation of the task, often used together with visual guidance to draw attention to specific points of technique. Particularly useful for more advanced performers who can already picture the skill and need detailed or tactical advice."
+                },
+                {
+                  "term": "Manual guidance",
+                  "meaning": "Physical support given by the coach to help the performer complete a movement, such as holding a gymnast through a new skill."
+                },
+                {
+                  "term": "Mechanical guidance",
+                  "meaning": "The use of an artificial aid to support performance, such as a swimming armband or a trampoline harness."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Method",
+                "Strengths",
+                "Limitations"
+              ],
+              "rows": [
+                [
+                  "Visual",
+                  "Works best when the demonstration is accurate, at the correct speed, and repeated, so the performer builds a clear picture of what is required",
+                  "Inaccurate or overly complex demonstrations confuse the learner"
+                ],
+                [
+                  "Verbal",
+                  "Directs attention to specific technical points, and can carry detail and tactics that a demonstration cannot",
+                  "Too much information overloads and confuses the performer, and language that is too technical may not be understood by a beginner"
+                ],
+                [
+                  "Manual",
+                  "Builds confidence and can remove the fear of dangerous or difficult tasks",
+                  "Used for too long it creates over-reliance, preventing the performer from performing the skill unaided, and it can become physically intrusive"
+                ],
+                [
+                  "Mechanical",
+                  "Builds confidence and reduces the danger of a task, allowing an early feel for the skill",
+                  "Like manual guidance it risks over-reliance, and it can reduce motivation to complete the task independently"
+                ]
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "Manual and mechanical guidance are the same thing.",
+                  "right": "Manual guidance is physical support from a person; mechanical guidance is support from an artificial aid. Both risk over-reliance, which is why they are easily confused."
+                }
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Visual for beginners, verbal for advanced performers",
+                "Manual is a person, mechanical is a device",
+                "Both physical methods build confidence but breed dependence if overused"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopicId": "information-processing-efficiency",
+      "sections": [
+        {
+          "heading": "The information processing model",
+          "specBullet": "Information processing: input, decision making, output and feedback",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Information processing",
+                  "meaning": "The methods by which data from the environment is collected and used by a performer. It describes how a performer collects, interprets and acts on information from their surroundings during a sporting situation."
+                }
+              ]
+            },
+            {
+              "type": "how_it_works",
+              "mode": "sequence",
+              "items": [
+                "Input",
+                "Decision making",
+                "Output"
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Input",
+                  "meaning": "Information is picked up from the environment via the senses."
+                },
+                {
+                  "term": "Decision making",
+                  "meaning": "The performer interprets the relevant information and selects an appropriate response."
+                },
+                {
+                  "term": "Output",
+                  "meaning": "The chosen response is carried out as a physical action."
+                },
+                {
+                  "term": "Feedback",
+                  "meaning": "Information from the outcome of the action, which loops back into the system so the performer can adjust future decisions."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The three stages are sequential, and feedback is what makes the model a loop rather than a line. The outcome of one action feeds back into the earlier stages, so the next decision is made with better information than the last."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Input and the senses",
+          "specBullet": "The display, receptor systems and the senses used in sport",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Display",
+                  "meaning": "Everything in the sporting environment that could potentially be processed: the position of the ball, opponents, teammates, officials, the crowd and the playing surface."
+                },
+                {
+                  "term": "Receptor systems",
+                  "meaning": "The senses, taken collectively, through which information is gathered. Five are key in sport: sight or vision, hearing or the auditory sense, touch, balance and kinesthesis."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "",
+                "External senses",
+                "Internal senses"
+              ],
+              "rows": [
+                [
+                  "Which senses",
+                  "Sight and hearing",
+                  "Touch, balance and kinesthesis"
+                ],
+                [
+                  "Also known as",
+                  "",
+                  "Proprioceptors"
+                ],
+                [
+                  "What they detect",
+                  "Information originating outside the body",
+                  "The body's own position, tension and movement"
+                ]
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Kinesthesis",
+                  "meaning": "Information about body position and muscular tension. It keeps a performer aware of their posture and movement without needing to look, which is how technique can be detected and corrected during a skill."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Decision making: selective attention and perception",
+          "specBullet": "Selective attention and perception",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Decision making is where the performer processes what the senses have gathered and chooses a response. It is the most demanding stage of the model, because it draws on both attention and memory at once."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Selective attention",
+                  "meaning": "The filtering process that allows a performer to focus on the most important information in the display while ignoring irrelevant stimuli."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Selective attention can be developed through practice and experience, for example by training with realistic distractions such as crowd noise, or by building motivation, confidence and focus, all of which help concentration on relevant cues.",
+                "Where it is well developed, decisions are quicker and more accurate, less time is wasted processing unnecessary information, and the performer is less affected by anxiety or other psychological factors that would otherwise disrupt concentration."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Perception",
+                  "meaning": "The process of coding and interpreting sensory information. It has three stages."
+                }
+              ]
+            },
+            {
+              "type": "how_it_works",
+              "mode": "steps",
+              "items": [
+                "Detection: noticing that a stimulus is present and important",
+                "Comparison: matching the new stimulus against information already stored in memory",
+                "Recognition: using the outcome of that comparison to identify what response is required"
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Translatory mechanism",
+                  "meaning": "Converts information from the senses into a form that can be compared with, and matched against, past experiences stored in memory, which helps the performer select the correct action."
+                },
+                {
+                  "term": "Effector mechanism",
+                  "meaning": "The network of nerves that carries impulses from the brain to the muscles, triggering the chosen response as output."
+                }
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "DCR: Detection, Comparison, Recognition",
+                "Selective attention filters the display; perception interprets what gets through",
+                "Translatory mechanism decides, effector mechanism delivers"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Response time",
+          "specBullet": "Reaction time, movement time, response time and Hick's Law",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Reaction time",
+                  "meaning": "The time taken from the presentation of a stimulus to the initiation, or onset, of a response. No movement has yet occurred."
+                },
+                {
+                  "term": "Movement time",
+                  "meaning": "The time taken to physically complete the action once it has begun."
+                }
+              ]
+            },
+            {
+              "type": "formula",
+              "equation": "Response time = Reaction time + Movement time",
+              "meaning": "Reaction time ends the instant movement begins, so the two add up to the whole time from stimulus to completed action."
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Simple reaction time",
+                  "meaning": "Where there is only one possible stimulus and one possible response, such as reacting to the starter's gun in a sprint."
+                },
+                {
+                  "term": "Choice reaction time",
+                  "meaning": "Where there are multiple possible stimuli, each requiring a different response, so the performer must first identify the correct stimulus before selecting the appropriate response. This takes longer than a simple reaction."
+                },
+                {
+                  "term": "Hick's Law",
+                  "meaning": "Reaction time increases as the number of possible stimulus-response choices increases, because more time is needed to process and select the correct option."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The relationship in Hick's Law is not perfectly linear. Reaction time rises more slowly once the choices become familiar to the performer, because experience makes the options quicker to sort through."
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "Reaction time includes carrying out the movement.",
+                  "right": "Reaction time stops the moment the response starts. The movement itself is movement time, and the two together make response time."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Psychological refractory period and anticipation",
+          "specBullet": "The psychological refractory period and anticipation",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Single-channel hypothesis",
+                  "meaning": "Only one stimulus can be processed by the brain at a time. A second stimulus arriving before the first has been dealt with must wait to be processed."
+                },
+                {
+                  "term": "Psychological refractory period (PRP)",
+                  "meaning": "The delay caused by a second stimulus being presented before the first has finished being processed."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The PRP can be used tactically. A dummy or feint acts as the first stimulus, so an opponent is still processing it when the real action, the second stimulus, follows shortly after, and their reaction to it is delayed."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Anticipation",
+                  "meaning": "Pre-judging what is about to happen, based on information the performer has learned to recognise, so they can prepare or begin a response before the stimulus has actually occurred."
+                },
+                {
+                  "term": "Temporal anticipation",
+                  "meaning": "Predicting when an event or stimulus is going to happen."
+                },
+                {
+                  "term": "Spatial anticipation",
+                  "meaning": "Predicting where, or what, is going to happen."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Correct anticipation can significantly improve response time, because some of the decision-making is already complete before the stimulus arrives. Incorrect anticipation does the opposite: the performer has to discard the wrong response first, then process the real stimulus and react, which costs more time than not anticipating at all."
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "One channel, one stimulus at a time, so a second one waits",
+                "Temporal is when, spatial is where or what",
+                "Anticipation is a gamble: right saves time, wrong costs more"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Improving response time",
+          "specBullet": "Strategies to improve response time",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Mental practice",
+                  "meaning": "Rehearsing the expected response to a stimulus in the mind in advance. Particularly useful for predictable or closed skills that follow a set sequence."
+                },
+                {
+                  "term": "Focused practice under realistic conditions",
+                  "meaning": "Practising with the specific stimulus that will be faced in competition, so the performer prepares a more efficient and more specific response."
+                },
+                {
+                  "term": "Improving fitness",
+                  "meaning": "Training such as interval training and plyometrics improves the speed and power of the movement itself."
+                },
+                {
+                  "term": "Developing anticipation",
+                  "meaning": "Using knowledge of an opponent or situation to predict what is about to happen, so the response can begin earlier. This carries some risk if the anticipation turns out to be incorrect."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Note which part of response time each strategy attacks. Mental practice, focused practice and anticipation all shorten reaction time, by getting the decision made sooner. Improving fitness shortens movement time, by making the action itself faster."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopicId": "skill-continua-transfer",
+      "sections": [
+        {
+          "heading": "What makes a performance skilled",
+          "specBullet": "Characteristics of skill",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Skill",
+                  "meaning": "The learned ability to bring about a predetermined result with maximum certainty, usually with the minimum outlay of time or energy, or both. The definition comes from the sports psychologist Barbara Knapp."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Every part of that definition matters. Skill is learned, not innate. The result is predetermined, so the performer intended it. It happens with certainty, so it can be relied on. And it is achieved economically, without wasted time or effort."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Aesthetically pleasing",
+                  "meaning": "The performance looks good to watch and is carried out with good technique and form."
+                },
+                {
+                  "term": "Consistent",
+                  "meaning": "The performer can reproduce the same quality of performance repeatedly."
+                },
+                {
+                  "term": "Efficient",
+                  "meaning": "The skill is carried out with minimal wasted effort or movement."
+                },
+                {
+                  "term": "Fluent",
+                  "meaning": "Movements flow smoothly, with no hesitation between phases of the action."
+                },
+                {
+                  "term": "Accurate",
+                  "meaning": "The technique and the outcome of the skill are precise and controlled."
+                },
+                {
+                  "term": "Controlled",
+                  "meaning": "The performer can regulate the speed and the accuracy of the movement."
+                },
+                {
+                  "term": "Economical",
+                  "meaning": "Only the necessary amount of time and energy is used to achieve success."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "These characteristics overlap in practice. A fluent, controlled performance is usually also economical, because unnecessary movement wastes both time and energy."
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "ACE FACE: Aesthetic, Consistent, Efficient, Fluent, Accurate, Controlled, Economical",
+                "Skill is learned, so it can be coached and improved",
+                "Certainty and economy are what separate skill from a lucky one-off"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Classifying skills on a continuum",
+          "specBullet": "Classification of skill using continua",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Skills are placed on continua according to shared criteria, which helps a coach work out how best to develop and practise them. A continuum is a sliding scale rather than two boxes, and most sporting skills sit somewhere between the two extremes rather than being purely one or the other."
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Continuum",
+                "Classified by"
+              ],
+              "rows": [
+                [
+                  "Open / closed",
+                  "How predictable the environment is"
+                ],
+                [
+                  "Gross / fine",
+                  "The extent of the muscle groups used"
+                ],
+                [
+                  "Self-paced / externally paced",
+                  "Who controls the rate and timing of execution"
+                ],
+                [
+                  "Discrete / serial / continuous",
+                  "The continuity of the skill, or how clear its beginning and end points are"
+                ],
+                [
+                  "Low / high organised",
+                  "How easily the skill breaks down into separate parts, or sub-routines"
+                ],
+                [
+                  "Simple / complex",
+                  "The amount of information the performer must process"
+                ]
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Open skill",
+                  "meaning": "Performed in an unpredictable, changing environment, so decisions are made constantly from external factors such as the position of the ball, opponents or teammates. A pass in a team game."
+                },
+                {
+                  "term": "Closed skill",
+                  "meaning": "Performed in a predictable environment, so the action can be planned in advance and the same technique repeated with little need to adapt. A shot put throw."
+                },
+                {
+                  "term": "Gross skill",
+                  "meaning": "Uses large muscle groups and tends to be less precise. A rugby tackle."
+                },
+                {
+                  "term": "Fine skill",
+                  "meaning": "Uses small muscle groups, requiring precise control and coordination, often involving hand-eye coordination. A table tennis shot."
+                },
+                {
+                  "term": "Self-paced skill",
+                  "meaning": "The performer controls when the skill starts and the speed at which it is performed. A penalty taker deciding when to strike the ball."
+                },
+                {
+                  "term": "Externally paced skill",
+                  "meaning": "The performer has no control over the start or the speed, which is dictated by the environment. A sailor reacting to the speed and direction of the wind."
+                },
+                {
+                  "term": "Discrete skill",
+                  "meaning": "Has a clear, distinct beginning and end. A tennis serve."
+                },
+                {
+                  "term": "Serial skill",
+                  "meaning": "Made up of several discrete skills linked together in a particular order to form one complete movement. The hop, step and jump of a triple jump."
+                },
+                {
+                  "term": "Continuous skill",
+                  "meaning": "Has no clear beginning or end, the end of one cycle of the action flowing straight into the start of the next. Cycling."
+                },
+                {
+                  "term": "Low organised skill",
+                  "meaning": "Breaks down into distinct parts relatively easily, with clear pauses possible between them, so parts can be practised in isolation. A swimming stroke, where the arm and leg actions can be trained separately."
+                },
+                {
+                  "term": "High organised skill",
+                  "meaning": "Has sub-routines that are closely linked and happen quickly, making the skill hard to break into parts without disrupting the whole action. A volley in football."
+                },
+                {
+                  "term": "Simple skill",
+                  "meaning": "Requires little decision-making and few cues to attend to. A forward roll in gymnastics."
+                },
+                {
+                  "term": "Complex skill",
+                  "meaning": "Requires many decisions based on large amounts of information, combining cognitive demands such as the positions of opponents and teammates with the psychomotor execution of the skill itself. A hockey dribble."
+                }
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Six continua, six different criteria: environment, muscle size, pacing, continuity, organisation, information",
+                "A skill gets a position on every continuum, not just one",
+                "Pure extremes are rare, so expect to place skills between the ends"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Justifying a classification",
+          "specBullet": "Justification of skill classification",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Classification is not fixed. The same skill can shift along a continuum depending on the specific situation and context it is performed in, so a classification should always be justified rather than simply stated.",
+                "A basketball free throw is usually classed as closed, because the court markings and the ball stay constant and the shot is always taken from the same position. Add a hostile crowd and defenders standing close, though, and it takes on more open characteristics. In the same way, the start of a swimming race is discrete, with a clear beginning and end, but the stroke during the race is continuous, and the point where one stroke cycle ends and the next begins is not always clear."
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "Naming the classification is the answer.",
+                  "right": "The label on its own carries no justification. Support it with evidence describing the skill and the context it is performed in."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Transfer of learning",
+          "specBullet": "Transfer of skills: positive, negative, zero and bilateral",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Transfer of learning",
+                  "meaning": "The effect that learning and performing one skill has on the learning and performance of another skill."
+                },
+                {
+                  "term": "Positive transfer",
+                  "meaning": "Learning or performing one skill helps the learning of another. It tends to occur where two skills have a similar action or shape, such as an overarm volleyball serve helping the learning of a tennis serve, or a netball pass helping a basketball pass."
+                },
+                {
+                  "term": "Negative transfer",
+                  "meaning": "Learning or performing one skill hinders the learning of another. It can occur where two skills look similar but are technically different, causing confusion, such as the arm action of a tennis serve interfering with a badminton serve, where the wrist action required is different."
+                },
+                {
+                  "term": "Zero transfer",
+                  "meaning": "There is no relationship between the two skills, so neither a positive nor a negative effect occurs, such as a swimming stroke and rock climbing."
+                },
+                {
+                  "term": "Bilateral transfer",
+                  "meaning": "The transfer of the learning of a skill from one limb to the other side of the body, such as practising a skill with the left foot improving performance of the same skill with the right foot."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Coaches try to engineer positive transfer by making practice as realistic as possible. Replacing cones and tackle bags with real opponents in small-sided games means practice represents the true demands of the sport, so what is learned carries across to the game."
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "Negative transfer happens when two skills are completely different.",
+                  "right": "That is zero transfer. Negative transfer comes from skills that look alike but need a different technique, which is why they get confused."
+                },
+                {
+                  "wrong": "Bilateral transfer is just another word for positive transfer.",
+                  "right": "Bilateral transfer is specifically about moving a skill from one side of the body to the other."
+                }
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Positive helps, negative hinders, zero does neither, bilateral crosses sides",
+                "Similar shape means positive, similar look but different technique means negative",
+                "Realistic practice is the coach's tool for getting positive transfer"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopicId": "principles-theories-learning",
+      "sections": [
+        {
+          "heading": "The three stages of learning",
+          "specBullet": "Stages of learning: cognitive, associative and autonomous",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "As a performer learns a new skill they progress through three stages, moving from beginner towards expert. Each stage has distinct features a coach should be able to recognise, because identifying the stage a performer is at is what allows feedback and guidance to be matched to what they actually need."
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Stage",
+                "What the performance looks like",
+                "What the performer relies on"
+              ],
+              "rows": [
+                [
+                  "Cognitive stage",
+                  "The first stage, used by a novice. Movements are often slow, uncoordinated and inconsistent, with frequent, obvious errors",
+                  "Thinking carefully about what they are doing; demonstrations and instructions from a coach; trial and error to work out what actions are needed; detailed feedback, delivered as soon as possible after the attempt"
+                ],
+                [
+                  "Associative stage",
+                  "The middle, and usually longest, stage. The basic pattern of the skill has been grasped, and technique becomes more refined and more consistent. Errors are fewer and less major",
+                  "Practice to refine technique. The performer starts to detect and correct some of their own mistakes, though coach feedback is still valuable"
+                ],
+                [
+                  "Autonomous stage",
+                  "The final stage, reached after extended practice. Movements are fluent, efficient and consistent. The skill is habitual and performed with little conscious thought",
+                  "Their own internal feedback, so they can largely self-correct. Attention is freed to focus on other aspects of performance such as tactics or opponents"
+                ]
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Learning",
+                  "meaning": "A permanent change in behaviour as a result of practice."
+                },
+                {
+                  "term": "Performance",
+                  "meaning": "A temporary occurrence that can vary because of external and internal influences such as anxiety or nerves."
+                }
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "A bad performance means the skill has not been learned.",
+                  "right": "Learning is permanent, performance is temporary. One poor performance does not undo learning, it just reflects the influences acting on that day."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Learning plateaus",
+          "specBullet": "The learning plateau, its causes and solutions",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Learning plateau",
+                  "meaning": "A period during learning where a performer's improvement stalls and their performance does not appear to get any better, despite continued practice."
+                },
+                {
+                  "term": "Learning curve",
+                  "meaning": "A graph plotting performance or success rate against time or number of attempts, used to show a plateau visually."
+                },
+                {
+                  "term": "Drive reduction",
+                  "meaning": "Where performance actually declines because the drive to succeed falls away, once the target has already been achieved or the challenge feels lost."
+                }
+              ]
+            },
+            {
+              "type": "how_it_works",
+              "mode": "chain",
+              "items": [
+                "Slow improvement: the performer is new to the task and still relying on trial and error",
+                "Rapid improvement: the basic pattern is grasped and motivation is high",
+                "Plateau: the rate of improvement flattens out",
+                "Drive reduction: in some cases performance then declines as the drive to succeed falls"
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "That is the typical shape for a closed skill practised repeatedly over time. Not every performer reaches the fourth stage, but the first three are the pattern a coach should expect."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Motivation",
+                  "meaning": "A lack of intrinsic or extrinsic rewards can cause the performer to lose drive and interest in the task."
+                },
+                {
+                  "term": "Boredom",
+                  "meaning": "Repeating the same closed-skill drills can become monotonous."
+                },
+                {
+                  "term": "Coaching",
+                  "meaning": "Incorrect instructions, or practice methods not suited to the performer, can mean the skill is not being learned correctly."
+                },
+                {
+                  "term": "Limit of ability",
+                  "meaning": "The performer may simply have reached the full extent of their current physical or technical ability."
+                },
+                {
+                  "term": "Targets too low",
+                  "meaning": "Goals that are not challenging enough fail to push the performer to progress further."
+                },
+                {
+                  "term": "Fatigue",
+                  "meaning": "Sustained periods of activity, especially over an extended time, tire the muscles, which can prevent further gains and even cause performance to worsen."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The solutions mirror the causes. Extend or vary the task to provide a fresh challenge, set new and more suitable targets, seek advice from a different coach, add variety to reduce boredom, allow rest to combat fatigue, and give feedback aimed specifically at performance and motivation. It also helps to explain the concept of the plateau to the performer, so they understand it as a normal phase of learning rather than taking it personally."
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Six causes: motivation, boredom, coaching, limit of ability, targets too low, fatigue",
+                "A plateau is flat improvement; drive reduction is falling performance",
+                "Every cause has a matching solution, so name the cause first"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Operant conditioning (Skinner)",
+          "specBullet": "Operant conditioning and the use of reinforcement",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Operant conditioning",
+                  "meaning": "A behaviourist theory, based on the work of the psychologist B.F. Skinner, explaining how actions can be linked to stimuli. A coach manipulates the performer's environment so that correct actions are rewarded and are therefore more likely to be repeated."
+                },
+                {
+                  "term": "Stimulus-response (S-R) bond",
+                  "meaning": "The link between a stimulus and the response it produces. In badminton, associating the flight of an incoming shuttlecock with the correct type of shot."
+                },
+                {
+                  "term": "Satisfier",
+                  "meaning": "A satisfying outcome following a response. It strengthens the S-R bond, so the action is more likely to be repeated."
+                },
+                {
+                  "term": "Annoyer",
+                  "meaning": "An unpleasant outcome following a response. It weakens the S-R bond, so the performer is less likely to repeat that action."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The theory rests on trial-and-error learning. The coach manipulates the environment and shapes the performer's behaviour using reinforcement, until the right response becomes attached to the right stimulus."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Positive reinforcement",
+                  "meaning": "Giving a pleasant stimulus, such as praise, after a correct response, to increase the likelihood it will be repeated."
+                },
+                {
+                  "term": "Negative reinforcement",
+                  "meaning": "Removing an unpleasant stimulus once the correct action is performed, such as a coach stopping criticism once technique improves. This also increases the likelihood of the correct response being repeated."
+                },
+                {
+                  "term": "Punishment",
+                  "meaning": "Applying an unpleasant stimulus, such as a penalty or sanction, to reduce the chance that an incorrect action will be repeated."
+                }
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "Negative reinforcement is a form of punishment.",
+                  "right": "They work in opposite directions. Negative reinforcement makes the correct response more likely by taking something unpleasant away. Punishment makes an incorrect response less likely by adding something unpleasant."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "In practice, a coach can apply operant conditioning through whole or whole-part-whole practice, isolating key aspects of a skill so they can be reinforced. Mental practice can be used alongside it, to rehearse the correct response before physically attempting it."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Observational learning (Bandura)",
+          "specBullet": "Bandura's model of observational learning",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Observational learning",
+                  "meaning": "Learning by watching and copying the actions of others, researched by the psychologist Albert Bandura. Both acceptable and unacceptable behaviour can be learned this way, so a coach can use demonstrations and role models to make sure a skill is learned correctly."
+                }
+              ]
+            },
+            {
+              "type": "how_it_works",
+              "mode": "steps",
+              "items": [
+                "Attention: the performer has to be paying attention to the demonstration. The more attractive or relevant it is, such as one given by a similarly-skilled or high-status performer, the more accurately it is copied",
+                "Retention: the performer must remember the important information from the demonstration and be able to recall it later. Breaking the demonstration into smaller, clear parts helps it be stored in memory",
+                "Motor production: the performer must have the physical and mental capability to reproduce the action, which usually develops with continued practice over time",
+                "Motivation: the performer needs a reason to want to copy the demonstration, such as the promise of a reward or reinforcement, so they are driven to attempt and repeat it"
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "For a demonstration to be copied effectively it should be given by a model of similar ability to the learner, be repeated, be clear both visually and verbally, be consistent, and be relevant to the skill being learned."
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Attention, retention, motor production, motivation, in that order",
+                "Miss any one stage and the demonstration is not copied",
+                "Bad behaviour is learned by observation just as readily as good technique"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Social development theory (Vygotsky)",
+          "specBullet": "Vygotsky's social development theory and the zone of proximal development",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Social development theory",
+                  "meaning": "Developed by Lev Vygotsky, it proposes that interaction with other people plays a vital role in how children, and by extension performers, develop skills."
+                },
+                {
+                  "term": "More knowledgeable other (MKO)",
+                  "meaning": "The coach, teacher or more experienced individual a skill is learned from. The MKO does not only give direct advice, but also influences the learner by demonstrating values and actions the learner can adopt."
+                },
+                {
+                  "term": "Inter-psychological learning",
+                  "meaning": "Learning that comes from outside the learner: the direct guidance, advice, feedback and knowledge given by the MKO."
+                },
+                {
+                  "term": "Intra-psychological learning",
+                  "meaning": "Learning that takes place from within the learner once that external knowledge has been absorbed: analysing, thinking about and constructing actions based on what has already been learned."
+                },
+                {
+                  "term": "Zone of proximal development (ZPD)",
+                  "meaning": "An assessment of what a performer needs to learn next, based on three areas: what they can already do alone, what they can do with help, and what they cannot yet do."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Vygotsky's argument is that learners construct new understanding by building on what they already know, working with more experienced others who can identify what is needed next.",
+                "The ZPD is how a coach decides the right level of support, moving ability forward step by step: a hockey player might progress from dribbling a ball on the spot with support, to dribbling it independently around players and defenders."
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Inter comes from outside the learner, intra comes from within",
+                "The MKO teaches by example as well as by instruction",
+                "The ZPD is three questions: alone, with help, not yet"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Insight learning (the Gestaltists)",
+          "specBullet": "Gestaltist insight learning",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Insight learning",
+                  "meaning": "Proposed by a group of German psychologists known as the Gestaltists, who argued that meaningful learning takes place by using existing knowledge and understanding to work out a solution to a whole problem, rather than relying purely on trial and error."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The focus is on the performer's ability to think about the whole task and apply relevant existing knowledge to it, rather than on isolated parts. Presented with a problem, the performer draws on the sporting knowledge they already hold to work out a suitable solution, and must be aware of the options available before deciding on the best course of action. A marathon runner uses tactical knowledge built from pacing across previous long-distance races to judge when to accelerate in the closing stages.",
+                "This suits more experienced performers, who already have the relevant knowledge and understanding to draw on. It encourages them to think for themselves and develop their own solutions, which can give a strong sense of satisfaction and intrinsic motivation once a problem is solved, and it may also generate a specific role or plan for a performer within a team, based on how they have learned to solve problems during play."
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "Insight learning is just trial and error with more thinking.",
+                  "right": "It is the opposite approach. Trial and error works through attempts until one succeeds; insight learning applies knowledge the performer already has to solve the whole problem."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopicId": "memory-models",
+      "sections": [
+        {
+          "heading": "The working memory model",
+          "specBullet": "The working memory model (Baddeley and Hitch)",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Working memory",
+                  "meaning": "The model, by Baddeley and Hitch, describing the short-term storage and active processing of information. It is made up of a central executive plus three sub-systems."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Component",
+                "What it does",
+                "In sport"
+              ],
+              "rows": [
+                [
+                  "Central executive",
+                  "The control centre of the working memory. It oversees and coordinates the flow of information between the other sub-systems and directs attention",
+                  "Deciding what to attend to and what to ignore"
+                ],
+                [
+                  "Phonological loop",
+                  "Deals with auditory, or sound-based, information",
+                  "Verbal instructions from a coach, or a teammate's call"
+                ],
+                [
+                  "Visuospatial sketchpad",
+                  "Temporarily stores visual and spatial information",
+                  "The flight path of a ball, or the positions of other players"
+                ],
+                [
+                  "Episodic buffer",
+                  "Links and integrates sight, sound and movement information into ordered sequences, then passes these on to long-term memory as the starting point for movement",
+                  "Assembling what was seen, heard and felt into one coherent action"
+                ]
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The working memory has a limited capacity and holds information only for a short period, around thirty seconds, unless it is rehearsed or acted upon. Information judged relevant is compared against memory traces held in long-term memory, and anything irrelevant is quickly discarded."
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Central executive directs, the three sub-systems handle",
+                "Phonological loop for sound, visuospatial sketchpad for sight and space",
+                "Limited capacity, around thirty seconds, unless rehearsed"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Long-term memory and storing information",
+          "specBullet": "Long-term memory and strategies to improve retention and recall",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Long-term memory (LTM)",
+                  "meaning": "Receives information from the working memory and has an almost unlimited capacity to store motor programmes and skills, often over very long periods of time."
+                },
+                {
+                  "term": "Motor programme",
+                  "meaning": "A set of stored instructions specifying the components needed to perform a skill. A well-learned skill is stored in the long-term memory as a motor programme."
+                }
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Association",
+                  "meaning": "Linking new information to skills, actions or emotions already stored in memory, which makes it easier to recall."
+                },
+                {
+                  "term": "Chunking",
+                  "meaning": "Breaking a longer, more complex sequence of actions down into smaller, manageable sub-routines, making the whole sequence easier to learn, store and recall."
+                },
+                {
+                  "term": "Rewards",
+                  "meaning": "Reinforcing correct actions with praise or reward increases the likelihood that information about that action is retained."
+                },
+                {
+                  "term": "Focus and concentration",
+                  "meaning": "Reducing distractions and focusing attention on the task improves how well information is encoded into the long-term memory."
+                },
+                {
+                  "term": "Repetition",
+                  "meaning": "Repeatedly practising an action strengthens the motor programme stored in the long-term memory, making it more automatic and more reliable to recall."
+                },
+                {
+                  "term": "Mental practice",
+                  "meaning": "Rehearsing a skill in the mind, without physically performing it, also reinforces the stored motor programme."
+                }
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Working memory is small and brief, long-term memory is vast and lasting",
+                "A skill is stored as a motor programme, not as a memory of one attempt",
+                "Six strategies, all aimed at getting information in and getting it back out"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Schema theory (Schmidt)",
+          "specBullet": "Schmidt's schema theory",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Schema theory",
+                  "meaning": "Schmidt's proposal that rather than storing a separate motor programme for every possible variation of a skill, performers store a generalised set of rules that can be adapted to fit new but related situations."
+                },
+                {
+                  "term": "Schema",
+                  "meaning": "That generalised set of rules. It is built from an existing motor programme and updated using feedback from past experience of performing the skill."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Each schema has four parts, split into two sub-schemas. The recall schema is used before and during the action, to initiate the movement. The recognition schema is used during and after it, to control and evaluate the movement."
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Part",
+                "Belongs to",
+                "What it holds"
+              ],
+              "rows": [
+                [
+                  "1. Initial conditions",
+                  "Recall schema",
+                  "Information from the environment about the situation before the action begins, such as the position of the performer and of other players"
+                ],
+                [
+                  "2. Response specifications",
+                  "Recall schema",
+                  "Information about what needs to be done, such as how much force or what type of action is required"
+                ],
+                [
+                  "3. Sensory consequences",
+                  "Recognition schema",
+                  "Information from the senses about what the movement felt, looked or sounded like as it was performed"
+                ],
+                [
+                  "4. Response outcome",
+                  "Recognition schema",
+                  "Feedback on how successful the action was in achieving its goal"
+                ]
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Because a schema is a generalised set of rules rather than one fixed programme, a performer can adapt a learned skill to a new situation. A javelin thrower adjusts the run-up, grip and arm action to throw further or shorter, or to throw a different implement, without learning a brand new skill each time.",
+                "The coaching implication follows directly: practise skills in a variety of situations and conditions, with regular feedback, so a broad and adaptable schema develops rather than one narrow, fixed motor programme."
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "A performer stores a separate motor programme for every version of a skill.",
+                  "right": "That is what schema theory argues against. One generalised set of rules is stored and then adapted to the situation."
+                }
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Four parts: initial conditions, response specifications, sensory consequences, response outcome",
+                "Recall comes first and starts the movement; recognition controls and judges it",
+                "Varied practice plus feedback is what builds a wide schema"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

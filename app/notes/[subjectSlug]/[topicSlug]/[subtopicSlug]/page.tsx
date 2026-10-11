@@ -9,10 +9,12 @@ import {
   getSubtopicsByTopicId,
   getPaperById,
   getNotesMarkdown,
+  getNotesBlocks,
   getFlashcards,
   getQuestions,
 } from "@/lib/content";
 import { getSubjectStyle } from "@/lib/subject-styles";
+import { NoteBlockRenderer } from "@/components/notes/NoteBlocks";
 import type { Metadata } from "next";
 import { pageMetadata, SPEC } from "@/lib/metadata";
 
@@ -53,7 +55,10 @@ export default async function NotesSubtopicPage(
   const paper = getPaperById(topic.paperId);
   if (!paper) notFound();
 
-  const notesMarkdown = getNotesMarkdown(paper.slug, topic.slug, subtopic.slug);
+  // Prefer block-structured notes; fall back to the markdown document for
+  // subtopics not yet converted.
+  const noteSections = getNotesBlocks(paper.slug, topic.slug, subtopic.id);
+  const notesMarkdown = noteSections ? null : getNotesMarkdown(paper.slug, topic.slug, subtopic.slug);
   const basePath = `/${paper.slug}/${topic.slug}/${subtopic.slug}`;
   const flashcardCount = getFlashcards(paper.slug, topic.slug, subtopic.slug).length;
   const questionCount = getQuestions(paper.slug, topic.slug, subtopic.slug).length;
@@ -89,7 +94,20 @@ export default async function NotesSubtopicPage(
       </div>
 
       <div className="mt-8 max-w-[68ch]">
-        {notesMarkdown ? (
+        {noteSections ? (
+          <div>
+            {noteSections.map((section, i) => (
+              <section key={i} className={i > 0 ? "mt-16" : ""}>
+                <h2 className="font-serif text-2xl font-semibold tracking-tight text-slate-900">
+                  {section.heading}
+                </h2>
+                {section.blocks.map((block, bi) => (
+                  <NoteBlockRenderer key={bi} block={block} style={style} />
+                ))}
+              </section>
+            ))}
+          </div>
+        ) : notesMarkdown ? (
           <article className="prose prose-slate max-w-none text-lg leading-[1.8] prose-headings:font-serif prose-headings:tracking-tight prose-headings:text-slate-900 prose-h2:mt-14 prose-h2:text-2xl prose-h3:mt-10 prose-h3:text-xl prose-p:my-6 prose-li:my-1 prose-strong:text-slate-900 prose-a:text-blue-600">
             <ReactMarkdown
               remarkPlugins={[remarkGfm]}

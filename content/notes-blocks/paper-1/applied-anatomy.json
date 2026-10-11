@@ -1,0 +1,2757 @@
+{
+  "topicId": "applied-anatomy",
+  "subtopics": [
+    {
+      "subtopicId": "cardiovascular",
+      "sections": [
+        {
+          "heading": "Structure of the heart",
+          "specBullet": "Structure and function of the heart",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The heart is a muscular double pump divided down the middle by the septum. Each side has an upper atrium and a lower ventricle. The atria only push blood a short distance into the ventricles below, so their walls are thin; the ventricles push blood out of the heart entirely, so theirs are thick.",
+                "The left ventricle has the thickest wall of all four chambers. It has to generate enough pressure to supply the whole body, while the right ventricle only pushes blood as far as the lungs."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Septum",
+                  "meaning": "The muscular wall dividing the heart into a left and a right side."
+                },
+                {
+                  "term": "Atrium",
+                  "meaning": "An upper chamber of the heart, receiving blood and passing it down to the ventricle below."
+                },
+                {
+                  "term": "Ventricle",
+                  "meaning": "A lower chamber of the heart, contracting to force blood out of the heart."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Vessel",
+                "Carries",
+                "To or from"
+              ],
+              "rows": [
+                [
+                  "Vena cava",
+                  "Deoxygenated blood",
+                  "Into the right atrium from the body"
+                ],
+                [
+                  "Pulmonary artery",
+                  "Deoxygenated blood",
+                  "Out of the right ventricle to the lungs"
+                ],
+                [
+                  "Pulmonary vein",
+                  "Oxygenated blood",
+                  "Into the left atrium from the lungs"
+                ],
+                [
+                  "Aorta",
+                  "Oxygenated blood",
+                  "Out of the left ventricle to the body"
+                ]
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Four valves keep blood moving one way only. Each opens to let blood through, then closes to stop it running back."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Tricuspid valve",
+                  "meaning": "Sits between the right atrium and the right ventricle."
+                },
+                {
+                  "term": "Bicuspid (mitral) valve",
+                  "meaning": "Sits between the left atrium and the left ventricle."
+                },
+                {
+                  "term": "Semi-lunar valves",
+                  "meaning": "A pair guarding the entrances to the pulmonary artery and the aorta."
+                }
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "The pulmonary artery carries oxygenated blood, because arteries always do.",
+                  "right": "It is the exception. The pulmonary artery carries deoxygenated blood to the lungs, and the pulmonary vein carries oxygenated blood back."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "The cardiac conduction system",
+          "specBullet": "The conduction system of the heart",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Myogenic",
+                  "meaning": "The heart generates its own electrical impulses to trigger contraction, rather than needing a signal from the nervous system."
+                },
+                {
+                  "term": "Atrial systole",
+                  "meaning": "The contraction of both atria, pushing blood down into the ventricles."
+                },
+                {
+                  "term": "Ventricular systole",
+                  "meaning": "The powerful contraction of both ventricles that ejects blood out of the heart."
+                }
+              ]
+            },
+            {
+              "type": "how_it_works",
+              "mode": "chain",
+              "items": [
+                "The sinoatrial node (SAN), in the wall of the right atrium, acts as the natural pacemaker and fires a wave of excitation",
+                "The wave spreads across both atria, which contract together - atrial systole",
+                "The atrioventricular node (AVN), in the wall between atria and ventricles, delays the signal by about 0.1 seconds so the atria can empty fully",
+                "The bundle of His carries the impulse down through the septum and splits into left and right bundle branches",
+                "Purkinje fibres spread it through both ventricle walls, triggering ventricular systole"
+              ]
+            },
+            {
+              "type": "say_it_to_score",
+              "items": [
+                "SAN",
+                "Atrial systole",
+                "AVN",
+                "Bundle of His",
+                "Purkinje fibres",
+                "Ventricular systole"
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "The brain tells the heart when to beat.",
+                  "right": "The heart is myogenic and beats on its own. The nervous system only changes the rate."
+                },
+                {
+                  "wrong": "The AVN delay is wasted time.",
+                  "right": "The 0.1 second delay lets the atria finish emptying before the ventricles contract."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Control of heart rate",
+          "specBullet": "Neural and hormonal regulation of heart rate",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The heart sets its own beat, but the speed of that beat is adjusted moment to moment by the cardiac control centre in the medulla oblongata, through both nervous and hormonal pathways."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Cardiac control centre",
+                  "meaning": "The area of the medulla oblongata that adjusts heart rate using information from receptors."
+                },
+                {
+                  "term": "Sympathetic nervous system",
+                  "meaning": "Sends impulses to the SAN to speed the heart up."
+                },
+                {
+                  "term": "Parasympathetic nervous system",
+                  "meaning": "Sends impulses that slow the heart back down towards its resting rate."
+                },
+                {
+                  "term": "Adrenaline",
+                  "meaning": "A stress hormone acting directly on the SAN to increase both the speed and the force of each contraction."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Three types of receptor feed information to the cardiac control centre. Each has its own location and its own trigger."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Chemoreceptors",
+                  "meaning": "In the carotid arteries and aortic arch, they detect rising carbon dioxide in the blood, triggering greater sympathetic stimulation and a faster heart rate."
+                },
+                {
+                  "term": "Baroreceptors",
+                  "meaning": "In the walls of major arteries, they detect stretch caused by changes in blood pressure - a rise in pressure lowers heart rate, a fall raises it."
+                },
+                {
+                  "term": "Proprioceptors",
+                  "meaning": "In the muscles, tendons and joints, they detect increased movement as exercise begins and pass this to the medulla, raising heart rate."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The baroreceptors have a wrinkle worth knowing. Their normal job is to bring heart rate down when blood pressure rises, which would be unhelpful at the start of exercise. Their set point is temporarily raised instead, so heart rate is not pulled back down exactly when it is needed."
+              ]
+            },
+            {
+              "type": "say_it_to_score",
+              "items": [
+                "Cardiac control centre in the medulla oblongata",
+                "Chemoreceptors, baroreceptors and proprioceptors",
+                "Sympathetic nervous system increases heart rate",
+                "Parasympathetic nervous system decreases heart rate"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Stroke volume, heart rate and cardiac output",
+          "specBullet": "Cardiac dynamics and the effect of training",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Stroke volume",
+                  "meaning": "The volume of blood ejected by a ventricle in a single beat, averaging around 70 ml at rest."
+                },
+                {
+                  "term": "Heart rate",
+                  "meaning": "The number of times the heart beats each minute, averaging around 72 bpm at rest."
+                },
+                {
+                  "term": "Cardiac output",
+                  "meaning": "The total volume of blood pumped by the heart in one minute."
+                },
+                {
+                  "term": "Ejection fraction",
+                  "meaning": "The percentage of the blood in the ventricle at the end of filling that is pumped out on the next beat - about 60% at rest, rising to as much as 85% with training."
+                }
+              ]
+            },
+            {
+              "type": "formula",
+              "equation": "Cardiac output = Stroke volume × Heart rate",
+              "meaning": "At rest this gives a typical value of around 5 litres per minute."
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Stroke volume is set by three things: venous return, the natural elasticity of the cardiac muscle fibres, and the contractility of the heart muscle itself. Venous return is the one that changes most during exercise, and it works through Starling's law."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Elasticity",
+                  "meaning": "The natural stretch and recoil of the cardiac muscle fibres."
+                },
+                {
+                  "term": "Contractility",
+                  "meaning": "The force the heart muscle itself can generate when it contracts."
+                },
+                {
+                  "term": "Maximum heart rate",
+                  "meaning": "The ceiling heart rate rises to as intensity increases, estimated as 220 minus age."
+                },
+                {
+                  "term": "Steady state",
+                  "meaning": "The point during longer sub-maximal exercise where oxygen supply matches oxygen demand and heart rate levels off."
+                },
+                {
+                  "term": "Cardiac hypertrophy",
+                  "meaning": "The enlargement and strengthening of the heart muscle caused by regular aerobic training."
+                },
+                {
+                  "term": "Bradycardia",
+                  "meaning": "A resting heart rate below 60 bpm, produced by a larger, stronger heart needing fewer beats."
+                }
+              ]
+            },
+            {
+              "type": "formula",
+              "equation": "Maximum heart rate = 220 − age",
+              "meaning": "An estimate of the ceiling heart rate can reach - so about 203 bpm for a 17-year-old."
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Stroke volume only keeps rising to around 40 to 60 percent of maximum effort, then plateaus. As heart rate climbs towards its maximum, the ventricles have less time to fill during diastole, which caps how much can be ejected per beat. Beyond that point, extra cardiac output comes from heart rate alone.",
+                "Trained performers have a lower resting heart rate and a higher maximum heart rate, giving a much wider heart rate range. Elite endurance athletes have been recorded resting in the low thirties, against about 72 bpm untrained."
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Effort type",
+                "Heart rate pattern"
+              ],
+              "rows": [
+                [
+                  "Short maximal",
+                  "Anticipatory rise before the start, sharp increase once anaerobic work begins, quick fall in recovery"
+                ],
+                [
+                  "Longer sub-maximal",
+                  "Rises to a steady state where supply meets demand, then declines slowly as waste products clear"
+                ]
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "A trained athlete has a higher resting cardiac output.",
+                  "right": "Resting cardiac output is similar in both. A trained heart delivers it with fewer, bigger beats. It is maximum cardiac output that is substantially higher."
+                },
+                {
+                  "wrong": "Stroke volume keeps rising all the way to maximal exercise.",
+                  "right": "It plateaus at around 40 to 60 percent of maximum, because filling time shortens as heart rate climbs."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Cardiovascular drift",
+          "specBullet": "Cardiovascular drift during prolonged exercise",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Cardiovascular drift",
+                  "meaning": "The gradual rise in heart rate during prolonged steady-state exercise in a warm environment, alongside a gradual fall in stroke volume and arterial blood pressure, despite unchanged intensity."
+                }
+              ]
+            },
+            {
+              "type": "how_it_works",
+              "mode": "chain",
+              "items": [
+                "Prolonged exercise in the warmth, typically after about ten minutes",
+                "Sweating causes a loss of fluid from the blood plasma",
+                "Plasma volume falls, so venous return falls",
+                "By Starling's law, stroke volume falls",
+                "Heart rate rises to compensate, maintaining cardiac output and supplying extra energy for cooling the body"
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Intensity has not changed - the body has",
+                "Sweating, lower plasma volume, lower stroke volume, higher heart rate",
+                "Drinking before and during exercise minimises it"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "The vascular system and blood pressure",
+          "specBullet": "Structure and function of the vascular system",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Vascular system",
+                  "meaning": "The network of blood vessels carrying blood around the body, delivering oxygen and nutrients and removing waste such as carbon dioxide."
+                },
+                {
+                  "term": "Pulmonary circulation",
+                  "meaning": "Carries deoxygenated blood from the heart to the lungs, and oxygenated blood back again."
+                },
+                {
+                  "term": "Systemic circulation",
+                  "meaning": "Carries oxygenated blood from the heart to the rest of the body, and deoxygenated blood back."
+                }
+              ]
+            },
+            {
+              "type": "how_it_works",
+              "mode": "sequence",
+              "items": [
+                "Arteries",
+                "Arterioles",
+                "Capillaries",
+                "Venules",
+                "Veins, returning to the heart"
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Vessel",
+                "Pressure",
+                "Structure suits it because"
+              ],
+              "rows": [
+                [
+                  "Arteries",
+                  "Highest",
+                  "Thick elastic outer layer absorbs pressure fluctuations, narrow lumen, smooth inner lining"
+                ],
+                [
+                  "Veins",
+                  "Much lower",
+                  "Thin muscular and elastic walls, wide lumen, valves preventing backflow"
+                ],
+                [
+                  "Capillaries",
+                  "Low and slow",
+                  "Walls one cell thick and wide enough for a single red blood cell, ideal for diffusion"
+                ]
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Blood pressure",
+                  "meaning": "The force blood exerts against the walls of the blood vessels."
+                },
+                {
+                  "term": "Systolic pressure",
+                  "meaning": "The higher pressure produced when the ventricles contract."
+                },
+                {
+                  "term": "Diastolic pressure",
+                  "meaning": "The lower pressure remaining while the ventricles are relaxed and refilling."
+                }
+              ]
+            },
+            {
+              "type": "formula",
+              "equation": "Blood pressure = blood flow × resistance",
+              "meaning": "Measured at the brachial artery, a typical resting reading is about 120/80 mmHg."
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Blood pressure falls the further a vessel is from the heart: highest in the aorta, lowest in the veins. During exercise systolic pressure rises, because ventricular contraction and stroke volume increase, while diastolic pressure tends to fall, because the arterioles in the working muscles vasodilate."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Venous return",
+          "specBullet": "Venous return mechanisms",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Venous return",
+                  "meaning": "The flow of blood back into the right side of the heart through the vena cava."
+                },
+                {
+                  "term": "Starling's law",
+                  "meaning": "An increase in venous return leads to greater filling and stretching of the heart during diastole, producing a stronger contraction and a greater proportion of blood ejected."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "At rest as much as 70 percent of the body's total blood volume is held in the veins, which is a large reserve to call on. But pressure there is very low and the wide lumen offers little resistance, so the body needs active mechanisms to keep blood moving back."
+              ]
+            },
+            {
+              "type": "how_it_works",
+              "mode": "steps",
+              "items": [
+                "Skeletal muscle pump: contracting and relaxing muscles press against nearby veins, squeezing blood towards the heart",
+                "Respiratory pump: breathing changes pressure in the chest and abdomen, compressing veins and pushing blood onward",
+                "Pocket (one-way) valves: prevent blood flowing backwards once it has passed through",
+                "Additional support: smooth muscle in the vein walls, gravity assisting return from the upper body, and a suction effect from the heart itself"
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "At rest the valves and smooth muscle are generally enough on their own. During exercise the skeletal muscle pump and respiratory pump become essential, and both are naturally active anyway, since muscles are contracting and breathing rate is rising. This is why an active cool-down matters: keeping moving keeps those pumps working and prevents blood pooling in the veins."
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Blood pressure acts on venous return directly, rising systolic pressure increasing it and falling pressure reducing it. Stated precisely, the driver is a pressure gradient: venous pressure less right atrial pressure, divided by venous vascular resistance.",
+                "Because both venous pressure and right atrial pressure are normally very low, even a small change, such as the pressure change in the chest during inspiration, produces a comparatively large change in venous return."
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "The heart sucks blood back through the veins.",
+                  "right": "Suction from the heart plays only a small part. Most of the work is done by the muscle pump, the respiratory pump and the valves."
+                }
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "70 percent of blood volume sits in the veins at rest",
+                "Muscle pump, respiratory pump, pocket valves, smooth muscle",
+                "More venous return feeds straight into Starling's law"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Redistribution of blood: the vascular shunt mechanism",
+          "specBullet": "Redistribution of blood flow during exercise",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Vascular shunt mechanism",
+                  "meaning": "The redistribution of blood flow towards the working muscles and away from less essential organs, also called shunting."
+                },
+                {
+                  "term": "Vasomotor centre",
+                  "meaning": "The area of the medulla oblongata that coordinates redistribution by adjusting vessel diameter."
+                },
+                {
+                  "term": "Vasodilation",
+                  "meaning": "The widening of blood vessels to increase flow, in the arterioles supplying the working muscles."
+                },
+                {
+                  "term": "Vasoconstriction",
+                  "meaning": "The narrowing of blood vessels to reduce flow, in the arterioles supplying less essential organs such as the intestines and liver."
+                },
+                {
+                  "term": "Pre-capillary sphincters",
+                  "meaning": "Small rings of muscle at the entrance to capillaries, relaxing to allow more blood into active tissue and contracting to restrict flow elsewhere."
+                }
+              ]
+            },
+            {
+              "type": "how_it_works",
+              "mode": "chain",
+              "items": [
+                "Chemoreceptors detect rising carbon dioxide and lactic acid in the blood",
+                "They relay this to the vasomotor centre in the medulla oblongata",
+                "Sympathetic stimulation of the vessel walls is adjusted",
+                "Arterioles to the working muscles vasodilate; arterioles to the intestines and liver vasoconstrict",
+                "Pre-capillary sphincters at the working muscle relax, letting more blood through"
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Destination",
+                "At rest",
+                "During vigorous exercise"
+              ],
+              "rows": [
+                [
+                  "Skeletal muscles",
+                  "Around 15-20% of cardiac output",
+                  "As much as 80-85% of a much larger cardiac output"
+                ],
+                [
+                  "Intestines and kidneys",
+                  "Much larger share",
+                  "Falls sharply"
+                ],
+                [
+                  "Brain",
+                  "Broadly constant",
+                  "Broadly constant, protecting brain function"
+                ],
+                [
+                  "Heart muscle",
+                  "Lower",
+                  "Increases, to supply a faster-beating heart"
+                ],
+                [
+                  "Skin",
+                  "Lower",
+                  "Increases, to dissipate heat and cool the body"
+                ]
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Redistribution serves four purposes at once: more oxygen to the working muscles, removal of waste such as carbon dioxide and lactic acid, extra blood to the skin for temperature regulation, and extra oxygen to the heart muscle itself.",
+                "It also has a practical consequence. Eating shortly before competing is best avoided, since a full stomach draws blood towards digestion rather than towards the working muscles."
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "Blood is taken away from the brain during exercise.",
+                  "right": "Brain flow stays broadly constant and is protected. It is the intestines and kidneys that lose out."
+                },
+                {
+                  "wrong": "Shunting means the body makes more blood.",
+                  "right": "The same blood is redirected. Cardiac output rises separately."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Transport of oxygen",
+          "specBullet": "Transport of oxygen and the oxyhaemoglobin dissociation curve",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Oxygen is carried in two ways. About 3 percent dissolves directly into the blood plasma; the remaining 97 percent binds to haemoglobin in the red blood cells to form oxyhaemoglobin. When fully saturated, each haemoglobin molecule carries four molecules of oxygen."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Haemoglobin",
+                  "meaning": "The protein in red blood cells that oxygen binds to for transport around the body."
+                },
+                {
+                  "term": "Oxyhaemoglobin",
+                  "meaning": "Haemoglobin with oxygen bound to it."
+                },
+                {
+                  "term": "Oxyhaemoglobin dissociation",
+                  "meaning": "The release of oxygen from oxyhaemoglobin at the tissues, where the partial pressure of oxygen is lower."
+                },
+                {
+                  "term": "Myoglobin",
+                  "meaning": "Stores oxygen within the muscle, with an even higher affinity for oxygen than haemoglobin, holding it ready for the mitochondria."
+                },
+                {
+                  "term": "Bohr shift",
+                  "meaning": "The rightward shift of the dissociation curve during exercise, meaning haemoglobin gives up its oxygen more readily at any given partial pressure."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The oxyhaemoglobin dissociation curve plots percentage saturation of haemoglobin against the partial pressure of oxygen, and its S-shape matters. In the lungs, where partial pressure is high, haemoglobin becomes almost fully saturated. At the tissues, where it is lower, haemoglobin releases part of its load."
+              ]
+            },
+            {
+              "type": "how_it_works",
+              "mode": "chain",
+              "items": [
+                "Blood and muscle temperature rise",
+                "The partial pressure of carbon dioxide in the blood rises",
+                "Blood pH falls because of that extra carbon dioxide",
+                "The dissociation curve shifts to the right - the Bohr shift",
+                "More oxygen is released to the working muscles exactly when needed"
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "A right shift means the blood carries less oxygen.",
+                  "right": "It carries the same amount but releases it more readily, which is what a working muscle needs."
+                },
+                {
+                  "wrong": "Myoglobin and haemoglobin do the same job.",
+                  "right": "Haemoglobin transports oxygen in the blood. Myoglobin stores it inside the muscle and has a higher affinity."
+                }
+              ]
+            },
+            {
+              "type": "say_it_to_score",
+              "items": [
+                "Increased blood and muscle temperature",
+                "Increased partial pressure of carbon dioxide",
+                "Decreased blood pH",
+                "Curve shifts to the right - the Bohr shift"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Arterio-venous oxygen difference",
+          "specBullet": "Arterio-venous oxygen difference",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Arterio-venous oxygen difference (A-VO2 diff)",
+                  "meaning": "The difference between the oxygen content of blood arriving at the muscles in the arteries and the oxygen content of blood leaving them in the veins."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "State",
+                "A-VO2 difference",
+                "Why"
+              ],
+              "rows": [
+                [
+                  "At rest",
+                  "Small",
+                  "The muscles are not demanding much oxygen from the blood passing through"
+                ],
+                [
+                  "During exercise",
+                  "Much greater",
+                  "The muscles extract far more oxygen from the blood supplied"
+                ],
+                [
+                  "After training",
+                  "Greater still",
+                  "Trained performers extract oxygen more efficiently"
+                ]
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Increased extraction is matched by greater gaseous exchange at the alveoli, with more oxygen taken into the blood and more carbon dioxide removed."
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "A-VO2 diff measures how much oxygen the muscles actually took",
+                "Wider during exercise, wider still with training",
+                "Matched by greater gaseous exchange at the alveoli"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Cardiovascular disease and the benefits of exercise",
+          "specBullet": "Impact of physical activity on cardiovascular health",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Coronary heart disease is the leading cause of death in the UK and worldwide. It develops through atherosclerosis, where the coronary arteries supplying the heart muscle gradually narrow and become blocked by fatty deposits. High blood pressure, high cholesterol, physical inactivity and smoking are all risk factors."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Coronary heart disease (CHD)",
+                  "meaning": "Narrowing and blocking of the coronary arteries that supply the heart muscle with oxygenated blood."
+                },
+                {
+                  "term": "Atherosclerosis",
+                  "meaning": "The process by which the coronary arteries gradually narrow and become blocked by fatty deposits."
+                },
+                {
+                  "term": "Atheroma",
+                  "meaning": "The fatty deposit that builds up inside the artery wall."
+                },
+                {
+                  "term": "Angina",
+                  "meaning": "The chest pain and discomfort caused when narrowed arteries leave the heart muscle short of oxygen."
+                },
+                {
+                  "term": "Heart attack",
+                  "meaning": "What happens when a piece of atheroma breaks away and forms a clot blocking a coronary artery entirely, cutting oxygen to part of the heart muscle."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Because the heart is itself a muscle, regular exercise keeps it healthy: bigger, stronger and more efficient, with a greater stroke volume, more flexible blood vessels, normal blood pressure and healthier cholesterol."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "High blood pressure",
+                  "meaning": "Extra strain on the heart and arteries which, untreated, raises the risk of heart attack, heart failure, kidney disease, stroke and dementia."
+                },
+                {
+                  "term": "Cholesterol",
+                  "meaning": "A fatty substance carried around the body in two main forms, LDL and HDL."
+                },
+                {
+                  "term": "LDL (low-density lipoprotein)",
+                  "meaning": "Carries cholesterol to the body's tissues. Considered 'bad' cholesterol, as higher levels are linked to greater heart disease risk."
+                },
+                {
+                  "term": "HDL (high-density lipoprotein)",
+                  "meaning": "Carries excess cholesterol back to the liver to be broken down. Considered 'good' cholesterol, as it lowers heart disease risk."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Regular aerobic exercise lowers both systolic and diastolic blood pressure, which reduces the risk of a heart attack. It also lowers LDL while raising HDL."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Stroke",
+                  "meaning": "What happens when the blood supply to part of the brain is cut off, causing brain cells to die and potentially leading to brain injury, disability or death."
+                },
+                {
+                  "term": "Ischaemic stroke",
+                  "meaning": "The more common type, where a blood clot blocks the supply."
+                },
+                {
+                  "term": "Haemorrhagic stroke",
+                  "meaning": "Where a weakened blood vessel in the brain bursts."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Regular exercise helps lower blood pressure and maintain a healthy body weight, which together reduce the risk of a stroke."
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Atherosclerosis narrows the arteries; atheroma is the deposit itself",
+                "Angina is the warning; a heart attack is full blockage",
+                "Exercise lowers blood pressure and LDL, and raises HDL"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopicId": "respiratory",
+      "sections": [
+        {
+          "heading": "Structure of the respiratory system",
+          "specBullet": "Structure and function of the respiratory system",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Ventilation",
+                  "meaning": "Air moving into and out of the lungs."
+                },
+                {
+                  "term": "External respiration",
+                  "meaning": "Gas exchange between the lungs and the blood."
+                },
+                {
+                  "term": "Internal respiration",
+                  "meaning": "Gas exchange between the blood and the body cells."
+                },
+                {
+                  "term": "Cellular respiration",
+                  "meaning": "Using oxygen at the cell to release energy from fuels such as glucose."
+                }
+              ]
+            },
+            {
+              "type": "how_it_works",
+              "mode": "sequence",
+              "items": [
+                "Nose or mouth",
+                "Pharynx",
+                "Larynx",
+                "Trachea",
+                "Bronchi, left and right",
+                "Bronchioles",
+                "Respiratory bronchioles",
+                "Alveoli"
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The alveoli are the tiny air sacs where gas exchange with the blood actually happens. Three structural features make them efficient at it, and all three are about making diffusion as easy as possible."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Huge surface area",
+                  "meaning": "Millions of alveoli in each lung allow a large volume of gas exchange at once."
+                },
+                {
+                  "term": "Walls only one cell thick",
+                  "meaning": "Gives oxygen and carbon dioxide a very short diffusion pathway between air and blood."
+                },
+                {
+                  "term": "Extensive capillary network",
+                  "meaning": "Surrounds each alveolus, giving an excellent blood supply."
+                },
+                {
+                  "term": "Pleura",
+                  "meaning": "The double-layered membrane enclosing each lung, with fluid between the layers reducing friction as the lungs expand and contract."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Mechanics of breathing",
+          "specBullet": "Mechanics of breathing at rest and during exercise",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Air always moves from an area of high pressure to low pressure, and the bigger the pressure difference the faster the airflow. Breathing works by changing the volume of the thoracic cavity with muscle contraction, which changes the pressure inside it."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Inspiration",
+                  "meaning": "Breathing in. Increasing the volume of the thoracic cavity lowers the pressure inside the lungs below atmospheric pressure, so air flows in."
+                },
+                {
+                  "term": "Expiration",
+                  "meaning": "Breathing out. Decreasing the volume of the thoracic cavity raises the pressure inside the lungs above atmospheric pressure, forcing air out."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "",
+                "At rest",
+                "During exercise"
+              ],
+              "rows": [
+                [
+                  "Inspiration",
+                  "Diaphragm contracts and flattens; external intercostal muscles lift the ribcage up and out",
+                  "Extra muscles recruited to increase volume further: sternocleidomastoid, scalenes and pectoralis minor"
+                ],
+                [
+                  "Expiration",
+                  "Passive: the diaphragm and external intercostals relax and elastic recoil of the lungs pushes air out",
+                  "Active: the internal intercostal muscles and the abdominal muscles force air out faster"
+                ]
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "Breathing out always uses muscles.",
+                  "right": "At rest expiration is passive - it is elastic recoil, not contraction. It only becomes active during exercise."
+                },
+                {
+                  "wrong": "The diaphragm pushes the air out.",
+                  "right": "The diaphragm contracts and flattens to draw air in. It relaxes for expiration."
+                }
+              ]
+            },
+            {
+              "type": "say_it_to_score",
+              "items": [
+                "Diaphragm and external intercostals for inspiration",
+                "Sternocleidomastoid, scalenes and pectoralis minor during exercise",
+                "Passive expiration at rest through elastic recoil",
+                "Internal intercostals and abdominals for active expiration"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Lung volumes and capacities",
+          "specBullet": "Lung volumes and the effect of exercise",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Tidal volume",
+                  "meaning": "The volume of air breathed in or out in one normal breath, around 0.5 litres at rest."
+                },
+                {
+                  "term": "Inspiratory reserve volume (IRV)",
+                  "meaning": "The extra volume of air that can be forcibly inspired after a normal breath in."
+                },
+                {
+                  "term": "Expiratory reserve volume (ERV)",
+                  "meaning": "The extra volume of air that can be forcibly expired after a normal breath out."
+                },
+                {
+                  "term": "Residual volume",
+                  "meaning": "The air that always remains in the lungs even after maximal expiration, because the alveoli, bronchi and trachea are held open by rings of cartilage and can never fully empty."
+                },
+                {
+                  "term": "Spirometer",
+                  "meaning": "A device that records breathing movements onto a trace as a person breathes in and out of a sealed chamber through a mouthpiece."
+                },
+                {
+                  "term": "Minute ventilation",
+                  "meaning": "The total volume of air breathed in or out in one minute."
+                }
+              ]
+            },
+            {
+              "type": "formula",
+              "equation": "Minute ventilation = breathing rate × tidal volume",
+              "meaning": "At rest, roughly 12 breaths per minute × 0.5 litres, so about 6 litres per minute."
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "During exercise breathing becomes both deeper and faster, and each volume responds differently. The reserve volumes shrink because the tidal volume is eating into them."
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Volume",
+                "During exercise",
+                "Why"
+              ],
+              "rows": [
+                [
+                  "Tidal volume",
+                  "Increases substantially",
+                  "More of the available reserve volumes is used with each breath"
+                ],
+                [
+                  "Inspiratory reserve volume",
+                  "Decreases",
+                  "More of it is being used as part of the now-larger tidal volume"
+                ],
+                [
+                  "Expiratory reserve volume",
+                  "Decreases slightly",
+                  "Same reason"
+                ],
+                [
+                  "Residual volume",
+                  "Stays roughly the same",
+                  "Fixed by the airways always remaining slightly open"
+                ],
+                [
+                  "Minute ventilation",
+                  "Increases greatly",
+                  "Both tidal volume and breathing rate rise together"
+                ]
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "On a spirometer trace this shows as breathing lines that are taller, because tidal volume is bigger, and closer together, because breathing rate is higher.",
+                "Minute ventilation also rises sharply just before exercise begins, anticipating the coming demand. That anticipatory response is driven by adrenaline, and ventilation then climbs further once exercise starts, rising more the harder the exercise is."
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Tidal volume up, both reserve volumes down, residual volume unchanged",
+                "Minute ventilation = breathing rate × tidal volume",
+                "Taller and closer together on the trace"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Gaseous exchange at the alveoli and muscles",
+          "specBullet": "Gaseous exchange at the alveoli and at the muscles",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Diffusion",
+                  "meaning": "The movement of a gas from an area of high partial pressure to an area of low partial pressure."
+                },
+                {
+                  "term": "Diffusion (concentration) gradient",
+                  "meaning": "The difference in partial pressure between two areas. The larger it is, the faster the gas moves."
+                },
+                {
+                  "term": "Partial pressure",
+                  "meaning": "The pressure exerted by one individual gas within a mixture of gases, measured in mmHg."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Site",
+                "Gas",
+                "Moves",
+                "Because"
+              ],
+              "rows": [
+                [
+                  "At the alveoli",
+                  "Oxygen",
+                  "Into the blood",
+                  "Higher in the alveoli (~100 mmHg) than in arriving capillary blood (~40 mmHg)"
+                ],
+                [
+                  "At the alveoli",
+                  "Carbon dioxide",
+                  "Into the alveoli",
+                  "Higher in arriving blood (~45 mmHg) than in the alveoli (~40 mmHg)"
+                ],
+                [
+                  "At the muscles",
+                  "Oxygen",
+                  "Into the muscle",
+                  "Higher in arriving blood (~100 mmHg) than in muscle tissue (~40 mmHg)"
+                ],
+                [
+                  "At the muscles",
+                  "Carbon dioxide",
+                  "Into the blood",
+                  "Higher in the tissue (~46 mmHg) than in the blood (~40 mmHg)"
+                ]
+              ]
+            },
+            {
+              "type": "how_it_works",
+              "mode": "chain",
+              "items": [
+                "Oxygen: alveoli to blood to muscle",
+                "Carbon dioxide travels the reverse route: muscle to blood to alveoli"
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "Gases are pumped across into the blood.",
+                  "right": "Nothing pumps them. They diffuse down a partial pressure gradient, which is why the size of that gradient sets the rate."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Regulation of pulmonary ventilation",
+          "specBullet": "Neural and chemical regulation of pulmonary ventilation",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Respiratory centre",
+                  "meaning": "The control centre for breathing rate and depth, located in the medulla oblongata, made up of an inspiratory centre and an expiratory centre."
+                },
+                {
+                  "term": "Inspiratory centre",
+                  "meaning": "The part of the respiratory centre that stimulates breathing in."
+                },
+                {
+                  "term": "Expiratory centre",
+                  "meaning": "The part that drives active expiration during exercise."
+                },
+                {
+                  "term": "Sympathetic nervous system",
+                  "meaning": "Increases breathing rate to prepare the body for exercise."
+                },
+                {
+                  "term": "Parasympathetic nervous system",
+                  "meaning": "Decreases breathing rate back towards resting levels."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "These are the same nervous pathways that control heart rate, which is worth noticing: one set of machinery adjusts both systems together.",
+                "Chemical control works through acidity. Exercise raises the acidity of the blood as carbon dioxide and lactic acid build up. Chemoreceptors in the carotid arteries and the aortic arch detect that rise and send impulses to the inspiratory centre, increasing ventilation until acidity returns to normal."
+              ]
+            },
+            {
+              "type": "how_it_works",
+              "mode": "steps",
+              "items": [
+                "Inspiration: the inspiratory centre sends impulses via the phrenic nerve to the diaphragm and external intercostals, and during exercise also to the sternocleidomastoid, scalenes and pectoralis minor",
+                "That stimulation lasts about two seconds, then stops",
+                "Passive expiration follows through elastic recoil of the lungs",
+                "Active expiration during exercise: the expiratory centre sends impulses via the intercostal nerve to the internal intercostals and abdominal muscles"
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Chemoreceptors",
+                  "meaning": "In the carotid arteries and aortic arch, they detect rising blood acidity from carbon dioxide and lactic acid."
+                },
+                {
+                  "term": "Proprioceptors",
+                  "meaning": "In the muscles and joints, they detect increased movement at the start of exercise and raise breathing rate immediately, before blood chemistry has even changed."
+                },
+                {
+                  "term": "Baroreceptors",
+                  "meaning": "In the aorta and carotid arteries, they detect a decrease in diastolic blood pressure and respond by increasing breathing rate."
+                },
+                {
+                  "term": "Stretch receptors",
+                  "meaning": "In the lungs, they detect over-inflation during deep breathing and signal the expiratory centre, via the intercostal nerve, to trigger expiration and prevent over-stretching."
+                }
+              ]
+            },
+            {
+              "type": "say_it_to_score",
+              "items": [
+                "Respiratory centre in the medulla oblongata",
+                "Phrenic nerve to the diaphragm and external intercostals",
+                "Intercostal nerve to the internal intercostals and abdominals",
+                "Chemoreceptors detect increased blood acidity"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Impact of lifestyle choices",
+          "specBullet": "Impact of lifestyle choices on the respiratory system",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Smoking damages the respiratory system in four distinct ways, and they compound each other."
+              ]
+            },
+            {
+              "type": "how_it_works",
+              "mode": "steps",
+              "items": [
+                "It irritates and narrows the airways, the trachea and bronchi, reducing lung function and increasing breathlessness",
+                "It damages the cilia, so mucus builds up instead of being swept out, producing a smoker's cough",
+                "It breaks down and merges alveoli walls into larger, less efficient air spaces, reducing the surface area available for gaseous exchange",
+                "Carbon monoxide from cigarette smoke binds to haemoglobin more readily than oxygen does, reducing the blood's oxygen-carrying capacity"
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Cilia",
+                  "meaning": "Microscopic hair-like structures lining the airways that normally sweep mucus out of the lungs."
+                },
+                {
+                  "term": "COPD (chronic obstructive pulmonary disease)",
+                  "meaning": "A long-term progressive lung condition causing shortness of breath, the risk of which rises as alveoli walls break down."
+                }
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Narrowed airways, damaged cilia, destroyed alveoli walls, carbon monoxide on the haemoglobin",
+                "Less surface area means less gaseous exchange",
+                "Carbon monoxide binds more readily than oxygen does"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopicId": "neuromuscular",
+      "sections": [
+        {
+          "heading": "The autonomic nervous system",
+          "specBullet": "The neuromuscular system and autonomic control",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Autonomic nervous system",
+                  "meaning": "Controls the body's internal, involuntary functions, including some skeletal muscle activity. It works automatically, without conscious control."
+                },
+                {
+                  "term": "Peripheral nervous system",
+                  "meaning": "The wider system the autonomic nervous system forms part of."
+                },
+                {
+                  "term": "Sympathetic nervous system",
+                  "meaning": "Prepares the body for exercise. Often called the 'fight or flight' response."
+                },
+                {
+                  "term": "Parasympathetic nervous system",
+                  "meaning": "Calms the body and reduces high-energy functions. Often called 'rest and relax'."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Types of muscle fibre",
+          "specBullet": "Characteristics of the three muscle fibre types",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Slow oxidative (type I / slow twitch)",
+                  "meaning": "Contracts relatively slowly, suited to lower-intensity, longer-duration exercise, producing energy mainly aerobically."
+                },
+                {
+                  "term": "Fast oxidative glycolytic (type IIa)",
+                  "meaning": "A fast twitch fibre, more fatigue-resistant than type IIx, suited to sustained but intense efforts such as 1500m."
+                },
+                {
+                  "term": "Fast glycolytic (type IIx)",
+                  "meaning": "A fast twitch fibre that fatigues fastest of all three, suited to very short, explosive efforts such as sprinting."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Every muscle contains a mixture of all three fibre types, but not in equal proportions, and the mix is largely genetically determined. Endurance athletes tend to have more type I fibres in their leg muscles; sprinters tend to have more type II. Postural muscles, which hold a contraction for long periods, tend towards type I.",
+                "Type II (fast twitch) fibres in general contract quickly and generate greater force but fatigue rapidly, producing energy mainly anaerobically for short, intense efforts."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Characteristics of the fibre types",
+          "specBullet": "Structural and functional characteristics of muscle fibre types",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Functional characteristics",
+                  "meaning": "What the fibre does: contraction speed, force produced, fatigability, aerobic and anaerobic capacity."
+                },
+                {
+                  "term": "Structural characteristics",
+                  "meaning": "The physical make-up of the fibre: motor neurone size, mitochondrial density, myoglobin content, capillary density."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Characteristic",
+                "Type I fibres",
+                "Type IIa fibres",
+                "Type IIx fibres"
+              ],
+              "rows": [
+                [
+                  "Contraction speed",
+                  "Slow",
+                  "Fast",
+                  "Fast"
+                ],
+                [
+                  "Motor neurone size",
+                  "Small",
+                  "Large",
+                  "Large"
+                ],
+                [
+                  "Conduction speed",
+                  "Slow",
+                  "Fast",
+                  "Fast"
+                ],
+                [
+                  "Force production",
+                  "Low",
+                  "High",
+                  "High"
+                ],
+                [
+                  "Fatigability",
+                  "Low",
+                  "Medium",
+                  "High"
+                ],
+                [
+                  "Mitochondrial density",
+                  "High",
+                  "Medium",
+                  "Low"
+                ],
+                [
+                  "Myoglobin content",
+                  "High",
+                  "Medium",
+                  "Low"
+                ],
+                [
+                  "Capillary density",
+                  "High",
+                  "Medium",
+                  "Low"
+                ],
+                [
+                  "Aerobic capacity",
+                  "High",
+                  "Medium",
+                  "Low"
+                ],
+                [
+                  "Anaerobic capacity",
+                  "Low",
+                  "High",
+                  "Very high"
+                ],
+                [
+                  "Enzyme activity",
+                  "Low",
+                  "High",
+                  "Very high"
+                ]
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Type I is built for supply: mitochondria, myoglobin, capillaries all high",
+                "Type IIx is built for output: force and enzyme activity high, everything aerobic low",
+                "Type IIa sits in the middle on almost every row"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Effect of training on fibre type",
+          "specBullet": "The effect of training on muscle fibre type",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Fibre type is largely fixed by genetics, and training cannot convert one fibre type into another. What training can do is increase the size of existing fibres, which leads to greater muscular strength."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Hypertrophy",
+                  "meaning": "An increase in the size of existing muscle fibres, produced by training, leading to greater muscular strength."
+                }
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "Endurance training turns fast twitch fibres into slow twitch.",
+                  "right": "Training cannot convert fibre types. It changes the size of the fibres you already have."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Motor units and the all-or-none law",
+          "specBullet": "Motor units and recruitment",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Motor unit",
+                  "meaning": "A single motor neurone and all the muscle fibres it supplies. Every fibre within one motor unit is of the same type."
+                },
+                {
+                  "term": "Motor neurone",
+                  "meaning": "Carries electrical nerve impulses from the brain to the muscle."
+                },
+                {
+                  "term": "Neuromuscular junction",
+                  "meaning": "The point where the motor neurone meets the muscle fibres."
+                },
+                {
+                  "term": "All-or-none law",
+                  "meaning": "Once stimulation reaches the required threshold, all fibres in that motor unit contract fully. Below the threshold, none contract at all - a motor unit cannot partially contract."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Control type",
+                "Example",
+                "Motor unit size"
+              ],
+              "rows": [
+                [
+                  "Fine motor control",
+                  "Eye muscles",
+                  "Small, few fibres per neurone"
+                ],
+                [
+                  "Gross motor control",
+                  "Quadriceps",
+                  "Large, one neurone supplying hundreds of fibres"
+                ]
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The brain recruits selectively: slow twitch motor units for low-intensity activity such as jogging, fast twitch motor units when greater force is needed, such as sprinting or lifting."
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "A motor unit can contract halfway to produce less force.",
+                  "right": "The all-or-none law says it cannot. Force is varied by recruiting more units, not by contracting one partially."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Increasing the strength of contraction",
+          "specBullet": "Wave and spatial summation",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Wave summation",
+                  "meaning": "Repeated, high-frequency stimulation of a motor neurone with insufficient time between impulses for the muscle to relax, causing calcium to build up in the muscle cell and producing a stronger, sustained contraction."
+                },
+                {
+                  "term": "Tetanic contraction",
+                  "meaning": "The smooth, sustained contraction that results where wave summation is continuous, rather than a series of individual twitches."
+                },
+                {
+                  "term": "Spatial summation",
+                  "meaning": "Increasing the force of contraction by recruiting additional and progressively larger motor units within the muscle."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Together, wave and spatial summation let the nervous system grade the strength of a contraction to match the task, from a light movement up to a maximal effort. Wave summation changes how hard a unit works; spatial summation changes how many units are working."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Proprioceptors: muscle spindles and golgi tendon organs",
+          "specBullet": "Role of proprioceptors in the neuromuscular system",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Proprioceptors",
+                  "meaning": "Sensory receptors within muscles, tendons and joints that give the central nervous system information about movement and body position."
+                },
+                {
+                  "term": "Muscle spindles",
+                  "meaning": "Lie between skeletal muscle fibres and detect the speed and extent to which a muscle is being stretched, sending excitatory signals to the central nervous system."
+                },
+                {
+                  "term": "Stretch reflex",
+                  "meaning": "The response to the muscle spindles, causing the muscle to contract to resist further stretching and reduce the risk of injury."
+                },
+                {
+                  "term": "Golgi tendon organs",
+                  "meaning": "Located between the muscle fibres and the tendon, they detect the level of tension within a muscle."
+                },
+                {
+                  "term": "Autogenic inhibition",
+                  "meaning": "When a muscle contracts isometrically, the golgi tendon organs sense the rise in tension and send inhibitory signals to the brain, causing the muscle to relax and lengthen."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "",
+                "Muscle spindles",
+                "Golgi tendon organs"
+              ],
+              "rows": [
+                [
+                  "Location",
+                  "Between skeletal muscle fibres",
+                  "Between the muscle fibres and the tendon"
+                ],
+                [
+                  "Detect",
+                  "Speed and extent of stretch",
+                  "Level of tension"
+                ],
+                [
+                  "Signal sent",
+                  "Excitatory",
+                  "Inhibitory"
+                ],
+                [
+                  "Result",
+                  "Stretch reflex - muscle contracts",
+                  "Autogenic inhibition - muscle relaxes and lengthens"
+                ]
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "Both proprioceptors do the same job.",
+                  "right": "They work in opposition. Muscle spindles make the muscle contract; golgi tendon organs make it relax."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Proprioceptive neuromuscular facilitation (PNF)",
+          "specBullet": "PNF as a stretching technique",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "PNF",
+                  "meaning": "An advanced stretching technique regarded as one of the most effective methods for increasing flexibility and range of motion."
+                },
+                {
+                  "term": "CRAC technique",
+                  "meaning": "Contract-relax-antagonist-contract, the most commonly used form of PNF."
+                }
+              ]
+            },
+            {
+              "type": "how_it_works",
+              "mode": "steps",
+              "items": [
+                "Passive stretch: a partner moves the limb into a stretched position until tension is felt. The muscle spindles detect this and may trigger a stretch reflex if stretched too far",
+                "Isometric contraction: the individual contracts the stretched muscle isometrically against the partner's resistance for around ten seconds. This activates the golgi tendon organs, whose inhibitory signals override the muscle spindles' excitatory signals and delay the stretch reflex",
+                "Further stretch: as the limb moves further, autogenic inhibition allows the target muscle to relax and lengthen beyond the initial passive stretch"
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The contract-relax cycle can be repeated, gaining further range of motion each time, until no further increase is achievable. The whole technique is really a way of using one proprioceptor to silence the other."
+              ]
+            },
+            {
+              "type": "say_it_to_score",
+              "items": [
+                "Muscle spindles detect the stretch and trigger the stretch reflex",
+                "Isometric contraction activates the golgi tendon organs",
+                "Inhibitory signals override the excitatory signals",
+                "Autogenic inhibition allows the muscle to lengthen further"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopicId": "musculoskeletal",
+      "sections": [
+        {
+          "heading": "Types of joints and articulating bones",
+          "specBullet": "Joint types and articulating bones",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "A joint is formed wherever two or more bones meet, and joints are classified by how much movement they allow."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Fibrous (fixed) joints",
+                  "meaning": "Allow no movement."
+                },
+                {
+                  "term": "Cartilaginous (slightly moveable) joints",
+                  "meaning": "Allow limited movement."
+                },
+                {
+                  "term": "Synovial (freely moveable) joints",
+                  "meaning": "Allow the greatest range of movement. The specification focuses on two types: ball and socket, and hinge."
+                },
+                {
+                  "term": "Ball and socket joints",
+                  "meaning": "Allow movement in every direction. The round head of one bone fits into a cup-shaped socket on the connecting bone."
+                },
+                {
+                  "term": "Hinge joints",
+                  "meaning": "Allow movement in only one direction, because of the shape of the articulating bones."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Joint type",
+                "Movement allowed",
+                "Joints",
+                "Articulating bones"
+              ],
+              "rows": [
+                [
+                  "Ball and socket",
+                  "Every direction - a round head fits into a cup-shaped socket",
+                  "Hip",
+                  "Femur and pelvis"
+                ],
+                [
+                  "Ball and socket",
+                  "Every direction",
+                  "Shoulder",
+                  "Humerus and scapula"
+                ],
+                [
+                  "Hinge",
+                  "One direction only, due to the shape of the articulating bones",
+                  "Ankle",
+                  "Talus, tibia and fibula"
+                ],
+                [
+                  "Hinge",
+                  "One direction only",
+                  "Knee",
+                  "Femur and tibia"
+                ],
+                [
+                  "Hinge",
+                  "One direction only",
+                  "Elbow",
+                  "Humerus, radius and ulna"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Planes and axes of movement",
+          "specBullet": "Planes and axes of movement",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The body can be divided by three imaginary planes of movement, each associated with a specific axis of rotation."
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Plane",
+                "Divides the body into",
+                "Axis of rotation",
+                "Axis runs"
+              ],
+              "rows": [
+                [
+                  "Sagittal plane (vertical)",
+                  "Left and right halves",
+                  "Transverse axis",
+                  "Side to side"
+                ],
+                [
+                  "Frontal plane (vertical)",
+                  "Front and back halves",
+                  "Sagittal axis",
+                  "Front to back"
+                ],
+                [
+                  "Transverse plane",
+                  "Upper and lower halves",
+                  "Longitudinal axis",
+                  "Top to bottom"
+                ]
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Joint actions",
+                "Occur in",
+                "About a"
+              ],
+              "rows": [
+                [
+                  "Flexion, extension, hyper-extension, plantar-flexion and dorsi-flexion",
+                  "Sagittal plane",
+                  "Transverse axis"
+                ],
+                [
+                  "Abduction and adduction",
+                  "Frontal plane",
+                  "Sagittal axis"
+                ],
+                [
+                  "Horizontal abduction and horizontal adduction",
+                  "Transverse plane",
+                  "Longitudinal axis"
+                ]
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "The sagittal plane goes with the sagittal axis.",
+                  "right": "They deliberately do not pair up. Sagittal plane goes with the transverse axis; the frontal plane goes with the sagittal axis."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Joint actions in the sagittal plane",
+          "specBullet": "Joint actions in the sagittal plane",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Flexion",
+                  "meaning": "A decrease in the angle around a joint."
+                },
+                {
+                  "term": "Extension",
+                  "meaning": "An increase in the angle around a joint."
+                },
+                {
+                  "term": "Hyper-extension",
+                  "meaning": "Where the angle increases beyond 180 degrees."
+                },
+                {
+                  "term": "Plantar-flexion",
+                  "meaning": "At the ankle: pointing the toes, or pushing up onto the toes."
+                },
+                {
+                  "term": "Dorsi-flexion",
+                  "meaning": "At the ankle: pulling the toes up towards the shin."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "All five syllabus joints - ankle, knee, hip, elbow and shoulder - flex and extend.",
+                "The shoulder is an exception to the angle rule. With the arm by the side, raising the arm forward is flexion and lowering it back down is extension. Moving the arm further back, past the side of the body, is hyper-extension."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Joint actions in the frontal and transverse planes",
+          "specBullet": "Joint actions in the frontal and transverse planes",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Abduction",
+                  "meaning": "Movement of a limb away from the midline of the body, such as raising the arms or legs out to the side."
+                },
+                {
+                  "term": "Adduction",
+                  "meaning": "Movement of a limb back towards the midline of the body, such as lowering the arms or legs back to the sides."
+                },
+                {
+                  "term": "Horizontal adduction",
+                  "meaning": "Movement of the arm forwards across the body, starting from shoulder abduction with the arm held out to the side, parallel to the floor."
+                },
+                {
+                  "term": "Horizontal abduction",
+                  "meaning": "Movement of the arm backwards away from the body, starting from shoulder flexion with the arm held at 90 degrees in front of the body."
+                }
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Abduction takes the limb away from the midline",
+                "Adduction adds it back towards the midline",
+                "The horizontal versions both start from a different position - note which"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Agonist and antagonist muscles",
+          "specBullet": "Agonist and antagonist muscle pairs",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "A joint cannot move on its own. When a muscle contracts, one end stays anchored while the other pulls the bone it is attached to, creating movement."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Agonist",
+                  "meaning": "The muscle responsible for causing a movement."
+                },
+                {
+                  "term": "Antagonist",
+                  "meaning": "The muscle working in opposition, lengthening as the agonist shortens."
+                },
+                {
+                  "term": "Antagonistic muscle pair",
+                  "meaning": "The two working together to produce smooth, controlled movement - as when the biceps contracts as agonist to flex the elbow while the triceps acts as antagonist and lengthens."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Joint action",
+                "Agonist",
+                "Antagonist"
+              ],
+              "rows": [
+                [
+                  "Elbow flexion",
+                  "Biceps",
+                  "Triceps"
+                ],
+                [
+                  "Elbow extension",
+                  "Triceps",
+                  "Biceps"
+                ],
+                [
+                  "Ankle plantar-flexion",
+                  "Gastrocnemius",
+                  "Tibialis anterior"
+                ],
+                [
+                  "Ankle dorsi-flexion",
+                  "Tibialis anterior",
+                  "Gastrocnemius"
+                ],
+                [
+                  "Knee flexion",
+                  "Hamstrings",
+                  "Quadriceps"
+                ],
+                [
+                  "Knee extension",
+                  "Quadriceps",
+                  "Hamstrings"
+                ],
+                [
+                  "Hip flexion",
+                  "Iliopsoas / hip flexors",
+                  "Gluteals"
+                ],
+                [
+                  "Hip extension / hyper-extension",
+                  "Gluteals",
+                  "Hip flexors"
+                ],
+                [
+                  "Hip adduction",
+                  "Adductors",
+                  "Tensor fascia latae, gluteus medius/minimus"
+                ],
+                [
+                  "Hip abduction",
+                  "Tensor fascia latae, gluteus medius/minimus",
+                  "Adductors"
+                ],
+                [
+                  "Hip horizontal adduction",
+                  "Adductors",
+                  "Tensor fascia latae, gluteus medius/minimus"
+                ],
+                [
+                  "Hip horizontal abduction",
+                  "Tensor fascia latae, gluteus medius/minimus",
+                  "Adductors"
+                ],
+                [
+                  "Shoulder flexion",
+                  "Anterior deltoid",
+                  "Latissimus dorsi"
+                ],
+                [
+                  "Shoulder extension / hyper-extension",
+                  "Latissimus dorsi",
+                  "Anterior deltoid"
+                ],
+                [
+                  "Shoulder horizontal abduction",
+                  "Latissimus dorsi",
+                  "Pectorals"
+                ],
+                [
+                  "Shoulder horizontal adduction",
+                  "Pectorals",
+                  "Latissimus dorsi"
+                ],
+                [
+                  "Shoulder adduction",
+                  "Posterior deltoid / latissimus dorsi",
+                  "Middle deltoid / supraspinatus"
+                ],
+                [
+                  "Shoulder abduction",
+                  "Middle deltoid / supraspinatus",
+                  "Posterior deltoid / latissimus dorsi"
+                ]
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Reverse the action and the pair swaps roles",
+                "The agonist shortens, the antagonist lengthens",
+                "Learn them as pairs, not as eighteen separate facts"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Types of muscular contraction",
+          "specBullet": "Types of muscular contraction",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Isotonic contraction",
+                  "meaning": "A contraction where the muscle produces movement. It comes in two types, concentric and eccentric."
+                },
+                {
+                  "term": "Concentric contraction",
+                  "meaning": "The muscle shortens under tension - the biceps during the upward phase of an arm curl, producing flexion of the elbow."
+                },
+                {
+                  "term": "Eccentric contraction",
+                  "meaning": "The muscle lengthens under tension rather than relaxing, acting like a brake to control movement (negative work) - the quadriceps controlling the body on landing from a jump."
+                },
+                {
+                  "term": "Isometric contraction",
+                  "meaning": "The muscle is under tension but does not change length, so no visible movement takes place - holding the crucifix position in gymnastics, or holding a weight still mid-curl."
+                }
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "An eccentric contraction means the muscle is relaxing.",
+                  "right": "It is still under tension - it is lengthening against a load, working as a brake."
+                },
+                {
+                  "wrong": "No movement means no contraction.",
+                  "right": "A joint or limb described as still, stationary or held is an isometric contraction: tension without a change in length."
+                }
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Isotonic produces movement; isometric does not",
+                "Concentric shortens, eccentric lengthens, both under tension",
+                "Still, stationary or held means isometric"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopicId": "energy-systems",
+      "sections": [
+        {
+          "heading": "ATP and energy transfer",
+          "specBullet": "ATP as the energy currency of the body",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The body needs a constant supply of energy to fuel muscle contraction, whatever the activity. The intensity and duration of that activity decide which energy system supplies it."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Adenosine triphosphate (ATP)",
+                  "meaning": "The only usable form of chemical energy in the body - one molecule of adenosine bonded to three phosphate groups."
+                },
+                {
+                  "term": "Adenosine diphosphate (ADP)",
+                  "meaning": "What ATP becomes once the outer phosphate bond is broken and energy released, alongside an inorganic phosphate (Pi)."
+                },
+                {
+                  "term": "Coupled reaction",
+                  "meaning": "A reaction where the energy released by one process is immediately used to drive another."
+                }
+              ]
+            },
+            {
+              "type": "formula",
+              "equation": "ATP + energy in ⇌ ADP + Pi + energy out",
+              "meaning": "Energy is released when the outer phosphate bond breaks, and resynthesis runs the same reaction in reverse."
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Only small amounts of ATP can be stored in the muscle at any time, so it must be continually resynthesised from ADP and Pi during exercise. That resynthesis is fuelled by food - carbohydrate and fat - or by phosphocreatine stored in the muscle.",
+                "Three energy systems can resynthesise ATP: the aerobic system, the ATP-PC (phosphocreatine) system, and the anaerobic glycolytic system. Which one predominates depends on intensity and duration."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "The aerobic energy system",
+          "specBullet": "The aerobic energy system",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Low intensity, with enough oxygen arriving to meet it, is where this system operates, which makes it the body's default at rest and through long, steady work. Glucose is broken down with oxygen present, leaving carbon dioxide and water behind. Fats serve as fuel too, and protein if it comes to that."
+              ]
+            },
+            {
+              "type": "how_it_works",
+              "mode": "steps",
+              "items": [
+                "Glycolysis: in the sarcoplasm of the muscle cell, glucose is broken down anaerobically into pyruvic acid for a net gain of 2 ATP. With enough oxygen, pyruvic acid becomes acetyl coenzyme A and passes into the mitochondria",
+                "The Krebs cycle: in the matrix of the mitochondria, acetyl coenzyme A combines with oxaloacetic acid to form citric acid, producing carbon dioxide as waste, 2 ATP, and hydrogen carried onward by coenzymes",
+                "The electron transport chain: in the cristae of the mitochondria, hydrogen is split into electrons and hydrogen ions, releasing energy to resynthesise around 34 ATP, with hydrogen and electrons eventually recombining with oxygen to form water"
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Glycolysis",
+                  "meaning": "The anaerobic breakdown of glucose into pyruvic acid in the sarcoplasm, yielding a net 2 ATP."
+                },
+                {
+                  "term": "The Krebs cycle",
+                  "meaning": "The stage in the mitochondrial matrix where acetyl coenzyme A combines with oxaloacetic acid, producing carbon dioxide, 2 ATP and hydrogen."
+                },
+                {
+                  "term": "The electron transport chain",
+                  "meaning": "The stage in the cristae where hydrogen is split, releasing energy to resynthesise around 34 ATP and forming water."
+                },
+                {
+                  "term": "Beta oxidation",
+                  "meaning": "Stored fat (triglyceride) is broken into glycerol and free fatty acids, transported in the blood and converted to acetyl coenzyme A so it can enter the Krebs cycle."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Fat metabolism yields more ATP per molecule than glucose, but the process is more complex, needs more oxygen, and cannot run without also breaking down some carbohydrate. It only becomes the predominant fuel in longer, lower-intensity exercise, where a fitter individual has more time to take up and use oxygen."
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Advantages",
+                "Disadvantages"
+              ],
+              "rows": [
+                [
+                  "Largest yield of ATP, around 36-38 molecules per glucose molecule",
+                  "A complex multi-stage process, so ATP production is comparatively slow"
+                ],
+                [
+                  "By-products are carbon dioxide and water - not fatiguing and easily removed",
+                  "Only functions while sufficient oxygen reaches the muscle, so it cannot meet high-intensity demands"
+                ],
+                [
+                  "Large stores of muscle glycogen and body fat supply energy for a long time",
+                  "Fat as a fuel needs roughly 15% more oxygen to break down than glycogen"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "The ATP-PC (phosphocreatine) system",
+          "specBullet": "The ATP-PC energy system",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The ATP-PC system is anaerobic - it works without oxygen - and provides energy very rapidly for short, maximal bursts such as a 100m sprint or a heavy single lift."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Anaerobic",
+                  "meaning": "Working without oxygen."
+                },
+                {
+                  "term": "Phosphocreatine (PC)",
+                  "meaning": "A high-energy compound stored in the sarcoplasm of the muscle."
+                },
+                {
+                  "term": "Creatine kinase",
+                  "meaning": "The enzyme that detects rising ADP levels during exercise and breaks PC down into creatine and an inorganic phosphate, releasing energy."
+                }
+              ]
+            },
+            {
+              "type": "formula",
+              "equation": "PC → creatine + phosphate + energy",
+              "meaning": "The energy released is then used in a coupled reaction: energy + ADP + Pi → ATP."
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Advantages",
+                "Disadvantages"
+              ],
+              "rows": [
+                [
+                  "ATP resynthesised very rapidly, ideal for explosive efforts",
+                  "Very limited PC stores, fuelling maximal exercise for only around 8-10 seconds"
+                ],
+                [
+                  "No fatiguing by-products",
+                  "PC can only be resynthesised once oxygen is available, during lower-intensity exercise or rest"
+                ],
+                [
+                  "Stores replenish quickly: around 50% within 30 seconds, full restoration in roughly 2-4 minutes",
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "The anaerobic glycolytic system",
+          "specBullet": "The anaerobic glycolytic energy system",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "This system covers high-intensity exercise lasting from around 10 seconds up to roughly 2-3 minutes - once ATP-PC stores are exhausted but demand is still too high to be met aerobically.",
+                "It breaks muscle glycogen down into glucose, via the enzyme glycogen phosphorylase, then breaks that glucose down anaerobically to pyruvic acid through glycolysis, for a net gain of 2 ATP per glucose molecule."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Lactate dehydrogenase",
+                  "meaning": "The enzyme that converts pyruvic acid into lactic acid when oxygen is not available in sufficient amounts."
+                },
+                {
+                  "term": "Lactic acid",
+                  "meaning": "The by-product formed instead of pyruvic acid continuing into the aerobic pathway."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Advantages",
+                "Disadvantages"
+              ],
+              "rows": [
+                [
+                  "ATP resynthesised quickly, allowing high-intensity efforts up to roughly 2-3 minutes",
+                  "Lactic acid build-up denatures enzymes and interferes with further contraction, contributing to fatigue"
+                ],
+                [
+                  "Does not depend on oxygen availability",
+                  "Much smaller ATP yield per glycogen molecule than the aerobic system"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "The energy continuum",
+          "specBullet": "The energy continuum and thresholds",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Energy continuum",
+                  "meaning": "How the contribution of the three energy systems changes according to the intensity and duration of an activity. All three operate at once, but one dominates."
+                },
+                {
+                  "term": "ATP-PC/anaerobic glycolytic threshold",
+                  "meaning": "The point where PC stores are exhausted and the anaerobic glycolytic system becomes dominant, typically around 10 seconds into a maximal effort."
+                },
+                {
+                  "term": "Anaerobic glycolytic/aerobic threshold",
+                  "meaning": "The point where the anaerobic glycolytic system is exhausted, or lactic acid build-up becomes limiting, and the aerobic system takes over - typically around 3 minutes into continuous exercise."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Duration",
+                "Example",
+                "Dominant system"
+              ],
+              "rows": [
+                [
+                  "Under 10 seconds, maximal",
+                  "100m sprint",
+                  "ATP-PC"
+                ],
+                [
+                  "10 seconds to 2-3 minutes",
+                  "400m",
+                  "Anaerobic glycolytic"
+                ],
+                [
+                  "Over roughly 2-3 minutes, lower intensity",
+                  "Marathon",
+                  "Aerobic"
+                ]
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "In activities with continuously changing intensity, such as team games, the balance shifts constantly, moving back and forth along the continuum with the demands of each phase of play."
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "Only one energy system is working at a time.",
+                  "right": "All three operate simultaneously. The question is which one dominates at that moment."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Energy system use and muscle fibre type",
+          "specBullet": "Relationship between energy systems and fibre type",
+          "blocks": [
+            {
+              "type": "compare",
+              "columns": [
+                "",
+                "Slow twitch (type I) fibres",
+                "Fast twitch (type II) fibres"
+              ],
+              "rows": [
+                [
+                  "Main system",
+                  "Aerobic",
+                  "Anaerobic: ATP-PC and anaerobic glycolytic"
+                ],
+                [
+                  "Speed of ATP production",
+                  "Slower pathway",
+                  "Much quicker"
+                ],
+                [
+                  "Sustainability",
+                  "Can sustain it for a long time",
+                  "Less efficient, cannot be sustained long"
+                ],
+                [
+                  "ATP per glucose molecule",
+                  "Maximum available, up to 36-38 ATP",
+                  "Far less"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Oxygen consumption during exercise",
+          "specBullet": "Oxygen consumption, oxygen deficit and VO2 max",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Oxygen consumption",
+                  "meaning": "The amount of oxygen used to produce ATP, usually measured as VO2 - the volume of oxygen consumed per minute."
+                },
+                {
+                  "term": "Oxygen deficit",
+                  "meaning": "The shortfall at the start of exercise, where oxygen consumption cannot rise instantly to meet demand because the cardiovascular and respiratory systems take time to respond."
+                },
+                {
+                  "term": "VO2 max",
+                  "meaning": "The maximum volume of oxygen the body can take up and use per minute - the ceiling of aerobic capacity."
+                },
+                {
+                  "term": "Maximal accumulated oxygen deficit (MAOD)",
+                  "meaning": "Where oxygen demand exceeds VO2 max for the whole duration of a maximal effort, used as an indicator of anaerobic capacity."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "During the oxygen deficit the muscles rely on anaerobic sources - stored ATP, PC, and anaerobic glycolysis - to make up the shortfall while oxygen delivery catches up. In submaximal aerobic exercise, a steady state of oxygen consumption is then reached."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Excess post-exercise oxygen consumption (EPOC)",
+          "specBullet": "EPOC and recovery",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Excess post-exercise oxygen consumption (EPOC)",
+                  "meaning": "The extra oxygen used during recovery, while consumption remains elevated above resting levels. Sometimes called oxygen debt."
+                },
+                {
+                  "term": "Fast (alactacid) component",
+                  "meaning": "The rapid initial stage, where oxygen restores ATP and phosphocreatine stores and resaturates myoglobin. Largely complete within 2-4 minutes, with roughly 50% of PC restored in about 30 seconds."
+                },
+                {
+                  "term": "Slow (lactacid) component",
+                  "meaning": "The longer stage, where oxygen helps remove lactic acid, restore glycogen stores, maintain the raised breathing and heart rate delivering that oxygen, and deal with raised body temperature."
+                },
+                {
+                  "term": "Cori cycle",
+                  "meaning": "The conversion of lactic acid back to glucose and glycogen in the liver."
+                }
+              ]
+            },
+            {
+              "type": "how_it_works",
+              "mode": "steps",
+              "items": [
+                "Oxidation into carbon dioxide and water, for use as an energy source",
+                "Conversion back to glucose and glycogen in the liver - the Cori cycle",
+                "Conversion into protein",
+                "Excretion in sweat and urine"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Glycogen replenishment",
+          "specBullet": "Glycogen replenishment after exercise",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Glycogen is the main fuel for both the aerobic and anaerobic glycolytic systems, so replenishing it is an important part of recovery. How long it takes depends on the type and intensity of exercise and how much carbohydrate is eaten afterwards - after a marathon it may take several days, while after shorter, higher-intensity work a significant amount returns more quickly."
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Window",
+                "Timing",
+                "What to eat"
+              ],
+              "rows": [
+                [
+                  "First",
+                  "Within around 30 minutes of finishing",
+                  "High-carbohydrate meal, ideally with protein in roughly a 3:1 carbohydrate to protein ratio"
+                ],
+                [
+                  "Second",
+                  "Around 1-3 hours after exercise",
+                  "High-carbohydrate, moderate-protein, low-fat meal"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Lactate threshold and OBLA",
+          "specBullet": "Lactate threshold and OBLA",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Lactate threshold",
+                  "meaning": "The point at which lactic acid begins to accumulate in the blood faster than it can be removed."
+                },
+                {
+                  "term": "Onset of blood lactate accumulation (OBLA)",
+                  "meaning": "The point at which blood lactate rises sharply above resting levels, typically defined as around 4 millimoles per litre."
+                },
+                {
+                  "term": "Buffering",
+                  "meaning": "A training adaptation that helps neutralise the acidity of lactic acid, allowing higher lactate levels to be sustained."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Lactate threshold is usually expressed as a percentage of VO2 max. Well-trained individuals have a higher threshold - as high as 70-90% of VO2 max in elite endurance performers, against around 50-60% untrained - so they can work at a higher relative intensity before lactic acid accumulates rapidly.",
+                "Elite sprint and power athletes tend to have greater anaerobic capacity and tolerance of high lactate than endurance athletes, partly through buffering, letting them work at higher intensities for longer before fatigue."
+              ]
+            },
+            {
+              "type": "how_it_works",
+              "mode": "steps",
+              "items": [
+                "Exercise intensity: higher intensity means greater reliance on fast twitch fibres and anaerobic glycolysis, so lactate accumulates faster",
+                "Muscle fibre type recruited: fast twitch fibres produce more lactate than slow twitch",
+                "The rate of lactate removal relative to production",
+                "Fitness of the performer: trained individuals have more mitochondria, greater capillary density and a better capacity to use lactic acid as fuel, all delaying accumulation"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "VO2 max and aerobic power",
+          "specBullet": "VO2 max and factors affecting it",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "VO2 max (maximal oxygen uptake, or aerobic power)",
+                  "meaning": "The maximum volume of oxygen the body can take up and use per minute, usually expressed relative to body mass in ml/kg/min."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Group",
+                "Typical VO2 max"
+              ],
+              "rows": [
+                [
+                  "Untrained young adult, male",
+                  "Around 35-45 ml/kg/min"
+                ],
+                [
+                  "Untrained young adult, female",
+                  "Around 27-35 ml/kg/min"
+                ],
+                [
+                  "Elite endurance athlete",
+                  "In excess of 80-90 ml/kg/min"
+                ]
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Physiological factors",
+                  "meaning": "Maximum cardiac output, stroke volume, greater heart range, oxygen-carrying capacity of the blood, number and size of mitochondria, capillarisation around the muscles, myoglobin content and lactate tolerance."
+                },
+                {
+                  "term": "Training",
+                  "meaning": "Aerobic endurance training - continuous, fartlek, interval - can improve VO2 max over a training period."
+                },
+                {
+                  "term": "Genetics",
+                  "meaning": "Inherited physiology sets a limit on how much VO2 max can ultimately be improved by training."
+                },
+                {
+                  "term": "Gender",
+                  "meaning": "Males generally have a higher VO2 max than females of similar training status, partly due to body composition and haemoglobin levels."
+                },
+                {
+                  "term": "Age",
+                  "meaning": "VO2 max tends to decline as the body's systems become less efficient."
+                },
+                {
+                  "term": "Body composition",
+                  "meaning": "A higher percentage of body fat is associated with a lower VO2 max."
+                },
+                {
+                  "term": "Lifestyle",
+                  "meaning": "Smoking, a sedentary lifestyle and poor diet can all reduce VO2 max."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Measuring energy expenditure",
+          "specBullet": "Methods of measuring energy expenditure",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Indirect calorimetry",
+                  "meaning": "Measures energy expenditure by analysing the gases exchanged during exercise - oxygen consumed and carbon dioxide produced - with the performer wearing a mask connected to a gas analyser, typically on a treadmill or cycle ergometer."
+                },
+                {
+                  "term": "Lactate sampling",
+                  "meaning": "A small blood sample, often from the ear lobe or fingertip, analysed with a handheld device to measure blood lactate concentration."
+                },
+                {
+                  "term": "Respiratory exchange ratio (RER)",
+                  "meaning": "The ratio of carbon dioxide produced to oxygen consumed (VCO2/VO2), calculated from the gases measured during indirect calorimetry."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Indirect calorimetry gives an accurate estimate of energy expenditure and can also identify which fuel, fat or carbohydrate, is predominantly being used. Lactate sampling is used to assess exercise intensity and training zones, monitor fitness, and track improvements in lactate threshold over repeated testing."
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "RER value",
+                "Indicates"
+              ],
+              "rows": [
+                [
+                  "Close to 0.7",
+                  "Predominantly fat as a fuel source"
+                ],
+                [
+                  "Close to 1.0",
+                  "Predominantly carbohydrate as a fuel source"
+                ],
+                [
+                  "Greater than 1.0",
+                  "Anaerobic respiration occurring, with more carbon dioxide produced than oxygen consumed"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Specialist training methods",
+          "specBullet": "Impact of specialist training methods on energy systems",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Altitude training",
+                  "meaning": "Training above around 2,500m where the partial pressure of oxygen is lower, reducing the diffusion gradient between the alveoli and the blood so less oxygen saturates onto haemoglobin. This stimulates production of more red blood cells."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Altitude training: benefits",
+                "Altitude training: disadvantages"
+              ],
+              "rows": [
+                [
+                  "Increased red blood cell count and haemoglobin level",
+                  "Hard to train at the same intensity due to reduced oxygen availability"
+                ],
+                [
+                  "Improved capillarisation",
+                  "A detraining effect on other fitness components"
+                ],
+                [
+                  "Enhanced lactate tolerance, improving aerobic performance and VO2 max at sea level",
+                  "Possible altitude sickness"
+                ],
+                [
+                  "",
+                  "Benefits lost relatively quickly on return to sea level"
+                ],
+                [
+                  "",
+                  "Possible psychological problems such as homesickness"
+                ]
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "High intensity interval training (HIIT)",
+                  "meaning": "Periods of high-intensity exercise interspersed with lower-intensity exercise or rest. Variables include the duration and intensity of the work interval, the duration of recovery, and the number of intervals."
+                },
+                {
+                  "term": "Plyometrics",
+                  "meaning": "Training designed to increase muscular power through explosive activities such as bounding, hopping, depth jumps and medicine ball work, relying on fast twitch fibres and anaerobic energy provision."
+                },
+                {
+                  "term": "Speed, agility and quickness (SAQ) training",
+                  "meaning": "Training to improve moving quickly, changing direction efficiently and reacting to a stimulus, combining speed, coordination, balance and flexibility - drills such as zig-zag runs and agility ladders."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "HIIT trains both the aerobic and anaerobic glycolytic systems, since short bursts of maximal or near-maximal work are followed by lower-intensity recovery that allows partial replenishment of PC stores and removal of some lactic acid before the next interval. SAQ, because it involves maximal-effort movements, is fuelled predominantly by the anaerobic systems."
+              ]
+            },
+            {
+              "type": "how_it_works",
+              "mode": "steps",
+              "items": [
+                "Eccentric (pre-loading/pre-stretching) phase: the muscle lengthens under tension as it prepares to produce force, such as on landing from a jump",
+                "Amortisation phase: the brief transition between eccentric and concentric. It must be as short as possible, or the elastic energy stored in the eccentric phase is lost as heat",
+                "Concentric (muscle contraction) phase: the stored elastic energy produces a forceful, explosive contraction - the upward jump or throw"
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Those three phases are the stretch-shortening cycle, which is what every plyometric exercise is built around."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

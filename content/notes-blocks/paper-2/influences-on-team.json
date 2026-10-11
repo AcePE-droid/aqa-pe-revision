@@ -1,0 +1,522 @@
+{
+  "topicId": "influences-on-team",
+  "subtopics": [
+    {
+      "subtopicId": "goal-setting",
+      "sections": [
+        {
+          "heading": "Goal setting and its benefits",
+          "specBullet": "Goal setting and the benefits of setting goals",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Goal setting",
+                  "meaning": "A widely used strategy in sport, also used to help reduce the effects of social loafing and to improve cohesion, where coach and player set goals or targets for future reference."
+                },
+                {
+                  "term": "Task persistent",
+                  "meaning": "Where a player keeps on trying because there is a target to aim for that requires some effort to reach."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Goal setting increases motivation and makes sure participants keep trying, because a target that requires effort makes a player task persistent. Once the player succeeds, the sense of pride and satisfaction increases intrinsic motivation.",
+                "It also improves confidence, since the performer can see an improvement in technique or results as the target is reached, and it regulates and sustains effort, because the player continues to strive towards a target."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Types of goal",
+          "specBullet": "Outcome, performance and process goals",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Outcome goals",
+                  "meaning": "Also called product goals. They concern the results and are success-based, such as winning a trophy or making the play-offs. They involve a comparison with others."
+                },
+                {
+                  "term": "Performance goals",
+                  "meaning": "Judged against previous performances in an attempt to improve personal achievement, rather than by comparison with others. Achieving a personal best time in swimming is one."
+                },
+                {
+                  "term": "Process goals",
+                  "meaning": "Concerned with improvements in technique, such as a swimmer improving their arm action and start technique using training drills and practice methods, so a better performance can be achieved."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Type",
+                "Judged against",
+                "Effect on the performer"
+              ],
+              "rows": [
+                [
+                  "Outcome",
+                  "Other competitors",
+                  "Focuses on gaining a prize and provides a basis for comparison, which makes it more likely to cause stress if the prize is not gained. If the athlete begins to think they are not as good as other competitors, motivation may be lost"
+                ],
+                [
+                  "Performance",
+                  "The performer's own previous performances",
+                  "Reduces anxiety in competition and provides more consistent motivation"
+                ],
+                [
+                  "Process",
+                  "The technique itself",
+                  "Breaks a performance goal down into the specific techniques used at various parts of an event"
+                ]
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "A player's goals should include both process and performance goals, not just the outcome. If goals concern only the end result, motivation can be lost because the win is perceived as too difficult to achieve. A less experienced or less talented athlete is usually better served by a performance-type goal, and short-term goals provide a means of reassurance."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "The SMARTER principle",
+          "specBullet": "The SMARTER principle of effective goal setting",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "According to the National Coaching Foundation, coaches and performers should ensure that goals are set using the SMARTER principle."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Specific",
+                  "meaning": "Goals should be clear and precise, perhaps using data, and relevant to improving specific aspects of performance. In rugby, improving your defence is too general; improving your left shoulder tackles by making firmer contact is specific."
+                },
+                {
+                  "term": "Measured",
+                  "meaning": "Some form of assessment should occur to aid motivation, such as distances, times or numbers of passes, so the performer can see how much progress is being made."
+                },
+                {
+                  "term": "Achievable",
+                  "meaning": "The performer should be able to reach the goal. Reaching targets with a controlled amount of effort improves motivation, self-satisfaction and willingness to extend the target."
+                },
+                {
+                  "term": "Realistic",
+                  "meaning": "Goals should be within reach, to promote motivation and sustain effort, yet not so difficult that they are impossible to reach or cause anxiety."
+                },
+                {
+                  "term": "Time-bound",
+                  "meaning": "Short-term and long-term steps should be clearly defined, so there is a clear deadline for each stage, allowing player and coach to gauge progress and keep motivation high."
+                },
+                {
+                  "term": "Evaluate",
+                  "meaning": "Performer and coach should evaluate how and when the goal was achieved, considering the methods that worked well and those that did not, so future attempts can be assessed."
+                },
+                {
+                  "term": "Re-do",
+                  "meaning": "If the goal has not been reached, progress is slow, or something could have been done better, the target can be adjusted and attempted again to help ensure success."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopicId": "social-facilitation",
+      "sections": [
+        {
+          "heading": "Social facilitation and inhibition",
+          "specBullet": "Zajonc's model of social facilitation and inhibition",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Social facilitation and inhibition",
+                  "meaning": "The differing effects that the presence of others has on a performer, based on the theory proposed by the psychologist Zajonc in 1965."
+                },
+                {
+                  "term": "Social facilitation",
+                  "meaning": "The positive effect of the presence of others on performance. Arousal from others being present can be motivating and can enhance skills performance."
+                },
+                {
+                  "term": "Social inhibition",
+                  "meaning": "The negative effect of the presence of others on performance. A fall in performance caused by others being present increasing arousal beyond a helpful level."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Type of other",
+                "Who they are",
+                "Active or passive"
+              ],
+              "rows": [
+                [
+                  "Audience",
+                  "People watching, either as spectators at the event or as a large television audience watching national events. Their very presence causes pressure on the performer",
+                  "Passive. They exert no direct influence, but their mere presence increases arousal, through the performer being aware of being watched"
+                ],
+                [
+                  "Co-actors",
+                  "Those doing the same task at the same time but not in direct competition with the performer: a jogger on the opposite side of the road, or another cyclist passed on a training ride",
+                  "Passive, for the same reason"
+                ],
+                [
+                  "Competitive co-actors",
+                  "Those doing the same task at the same time who are in direct competition, such as cyclists in the Tour de France or runners in a 100-metre race",
+                  "Active. More involved in the event, and able to give encouragement, advice or cause distraction"
+                ],
+                [
+                  "Social reinforcers",
+                  "People with a direct influence on the performance, such as the coach, whose presence is part of the event and who can encourage or offer tactical advice",
+                  "Active, for the same reason"
+                ]
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "BEDTOP: the behavioural effects due to others present",
+                "Four types: audience and co-actors are passive; competitive co-actors and social reinforcers are active",
+                "Facilitation is the positive effect, inhibition the negative one"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Performance and the dominant response",
+          "specBullet": "The link between social facilitation and drive theory",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "There is a strong link between drive theory and the effects of an audience, because the presence of others immediately increases the level of arousal. What that does to performance depends on the level of skill, and on the complexity of the task being performed."
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Performer",
+                "What happens in front of others",
+                "Why"
+              ],
+              "rows": [
+                [
+                  "Expert",
+                  "Well-learned responses are performed automatically and with ease, with no pressure on the performer. The indirect effect of the crowd may promote facilitation",
+                  "The responses they use are well-learned and familiar, so the response will be correct even under pressure"
+                ],
+                [
+                  "Novice",
+                  "A novice cricketer may be unable to make the right choice of shot when facing a bowler in front of a crowd",
+                  "A novice is unlikely to have responses that are as well-known. Where skills are complex, the presence of others makes processing the required information too demanding, and as arousal increases the ability to process information decreases"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Evaluation apprehension",
+          "specBullet": "Evaluation apprehension",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Evaluation apprehension",
+                  "meaning": "The perceived fear of being judged. The performer perceives not only that they are being observed, but that a judgement is being made on the performance."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Sometimes the people watching are considered by the performer to be important, or experts in the sport. Being watched by a professional scout or a top-class coach makes the effects of the audience intense: it could easily motivate the performer to play well, but it could equally raise anxiety and arousal to very high levels, producing a significant reduction in performance, or inhibition.",
+                "It can also occur when the watchers are known to the player. Family who have watched a performer take part may cause them to expect comments afterwards. It becomes more acute if the performer already feels less confident about the outcome, and worse again if the audience is seen as expert, knowledgeable or openly critical. Even an audience that simply watches and says nothing can cause a real sense of unease."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Preventing social inhibition",
+          "specBullet": "Strategies to limit social inhibition and evaluation apprehension",
+          "blocks": [
+            {
+              "type": "compare",
+              "columns": [
+                "Strategy",
+                "How it works"
+              ],
+              "rows": [
+                [
+                  "Getting the players familiar with playing in front of a crowd",
+                  "The coach lets the team train with the distraction of an audience so they get used to being watched. This is called familiarisation, and the audience is built up gradually so players learn to cope with it"
+                ],
+                [
+                  "Gradually introducing evaluation",
+                  "The level of assessment is built up as well as the audience. Informal team chats about the game are a starting point, leading to formal assessment sheets, statistics and one-to-one interviews as players become more experienced. Support from teammates and other peer groups helps encourage players through games with a large crowd"
+                ],
+                [
+                  "Improving focus and concentration",
+                  "Players focus on the game rather than on the irrelevant audience, using the process of selective attention"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopicId": "group-dynamics",
+      "sections": [
+        {
+          "heading": "What makes a team a team",
+          "specBullet": "The characteristics of a team",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "A team is more than a group of individuals. They have to work together to achieve a goal, and may have to perform different functions, such as attacker or defender, to make the team unit complete. Four characteristics mark one out."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Collective identity",
+                  "meaning": "The team can be recognised easily, usually because they wear the same colour kit. Members often feel a strong affiliation and gain a sense of pride from wearing the team clothing, which gives motivation and a sense of belonging."
+                },
+                {
+                  "term": "Interaction",
+                  "meaning": "Members should operate in their own role successfully and link that role with other members. In netball the defence and central players may each mark a specific opponent while communicating with each other to cover opposition attacks."
+                },
+                {
+                  "term": "Communication",
+                  "meaning": "Individual players should talk to each other and communicate non-verbally in a way others understand, such as rugby players using a coded call or hand signal to indicate where the ball is being thrown at the line out."
+                },
+                {
+                  "term": "A shared goal or purpose",
+                  "meaning": "The prospect of achieving success is what keeps players in the team and working for each other. All players should aim for the same goal for maximum motivation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Tuckman's stages of group formation",
+          "specBullet": "Tuckman's stages of group formation",
+          "blocks": [
+            {
+              "type": "how_it_works",
+              "mode": "steps",
+              "items": [
+                "Forming: a short first stage where the group comes together and gets to know each other. Individuals work out how they feel about the team and whether they will fit in, assessing their own strengths and weaknesses against those of others in the group",
+                "Storming: a stage of potential conflict, where individuals compete to establish position, status or role. Two players may be competing for the same position, and the coach or captain should resolve this as quickly as possible so players accept an alternative role",
+                "Norming: once conflicts are resolved the team settles down and co-operates with the intention of achieving their goals. Group standards are accepted and cohesion develops",
+                "Performing: all players are interactive and working together towards their goals. Team members support each other and understand their role",
+                "Mourning: the goals have been achieved and the team may break up and disband, then start again. A team that wins the league might lose some players and recruit new ones for the next season"
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Tuckman set this out in 1965. How long the process takes varies with the size of the group, the difficulty of the task and the experience of the players. Established club teams can move through the stages quickly, while representative and international teams take longer, because players have to learn unfamiliar tactics and new roles in a limited time during infrequent meetings."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Task and social cohesion",
+          "specBullet": "Cohesion, task cohesion and social cohesion",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Cohesion",
+                  "meaning": "The tendency of members of a team to work together to achieve what they want to achieve. Psychologists debate whether cohesion causes success or success causes cohesion."
+                },
+                {
+                  "term": "Co-action",
+                  "meaning": "Where others do the task at the same time but separately, as in rowing, where all the crew must literally pull together."
+                },
+                {
+                  "term": "Interaction",
+                  "meaning": "Where each player has a different role that must be integrated with the roles of the other team members."
+                },
+                {
+                  "term": "Task cohesion",
+                  "meaning": "Looks at the end result. Every player works together to achieve the goal, either by doing their own role well so others can make their contribution, or by working hard alongside everyone else on the task."
+                },
+                {
+                  "term": "Social cohesion",
+                  "meaning": "Looks at the interaction of individuals in the team and how they work with each other: the degree of trust in each other's ability and the support given to each member. They may socialise together away from the game."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "",
+                "Social cohesion",
+                "Task cohesion"
+              ],
+              "rows": [
+                [
+                  "What it gives the team",
+                  "Helps the team be interactive, and helps communication and team spirit",
+                  "Provides motivation, because all members work hard to win the cup or league title. The prize on offer becomes more important than any social differences"
+                ],
+                [
+                  "The risk",
+                  "Can be a negative influence, since it may produce sub-groups or cliques, meaning some members will not co-operate or contribute to team questions or tactics",
+                  "Without it, results would soon be poor"
+                ]
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Task cohesion is the more important of the two, and it can override the problems of social cohesion. A team's performance and results may still be good even if the players do not socialise together."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Carron's antecedents of cohesion",
+          "specBullet": "Carron's antecedents of cohesion",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Carron's antecedents",
+                  "meaning": "The four main influences on the cohesion of a team, identified by the psychologist Carron. They are the things that must be in place for cohesion to be effective."
+                },
+                {
+                  "term": "Environmental factors",
+                  "meaning": "The size of the group and the time available. The larger the group, the more time they need to learn each other's roles, and the more chance there is of social loafing, the Ringelmann effect, and a sub-division or clique forming."
+                },
+                {
+                  "term": "Personal factors",
+                  "meaning": "The similarity of group members in their aspirations, opinions and values, whether they are happy with the role they play, and how they act."
+                },
+                {
+                  "term": "Leadership factors",
+                  "meaning": "The leadership style chosen by the coach or captain, and how well the captain or coach gets on with the others in the team."
+                },
+                {
+                  "term": "Team factors",
+                  "meaning": "Team success, which raises cohesion the more of it is achieved. The team's experience of wins and losses matters, as does how long the team has been together. A threat from another group tends to bind the team together and eliminate internal disputes."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Steiner's model of team performance",
+          "specBullet": "Steiner's model and faulty processes",
+          "blocks": [
+            {
+              "type": "formula",
+              "equation": "Actual productivity = Potential productivity − Losses due to faulty processes",
+              "meaning": "Steiner's 1972 model: having the best players does not guarantee the best results."
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Actual productivity",
+                  "meaning": "The performance of the team at a given time, at the end of the game: the result, the end outcome, a win, a loss or a draw."
+                },
+                {
+                  "term": "Potential productivity",
+                  "meaning": "The team's best possible outcome if everything went perfectly during the game. It is affected by the skill level and ability of the players compared with their opponents, how difficult the task ahead is, and factors such as player ability and group resources."
+                },
+                {
+                  "term": "Co-ordination problems",
+                  "meaning": "A type of faulty process: players fail to listen to the coach's instructions, employ the incorrect tactics, fail to communicate with each other, or misunderstand their role in the team."
+                },
+                {
+                  "term": "Motivational problems",
+                  "meaning": "The other type of faulty process: players suffer from too much or too little arousal, or lose the drive to win, with a resulting reduction in effort and concentration."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Losses due to faulty processes are the things that go wrong to reduce group outcomes and prevent group potential being reached. The thinking behind the whole model is that the best players still have to be moulded by the coach into a cohesive unit, and kept motivated."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Social loafing and the Ringelmann effect",
+          "specBullet": "Social loafing and the Ringelmann effect",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Social loafing",
+                  "meaning": "A loss of motivation by an individual within the team, due to a lack of performance identification, meaning their efforts have not been recognised. Social loafers coast through the game and hide behind team members they think will cover for them, taking easy options and making a limited contribution."
+                },
+                {
+                  "term": "Ringelmann effect",
+                  "meaning": "Described more than a century ago and still significant. A study of tug of war found individual effort within the group reduced as group size increased: individuals tried hard on the rope pull when their efforts were highlighted, but reduced their effort in a team of eight."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Social loafing can be caused by a lack of confidence, a negative attitude towards the position the player has been selected in, poor leadership from the coach or captain who fails to offer incentives and reinforcement, not understanding or accepting the role they need to play, lacking the fitness to maintain that role for a whole game, or goals set by the coach that are too general and lack meaning."
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "Social loafing and the Ringelmann effect are the same thing.",
+                  "right": "Social loafing is a loss of motivation by an individual within the team. The Ringelmann effect is more collective: group performance decreases as group size increases."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Avoiding social loafing and promoting cohesion",
+          "specBullet": "Strategies to reduce social loafing and improve cohesion",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The coach's job is to make sure players' efforts are recognised and rewarded. Giving players specific roles, such as responsibility for marking a particular opponent, and using statistics such as tackle counts, number of assists or pass completion rates, makes an individual contribution visible."
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The fuller set of strategies for promoting cohesion, reducing social loafing and solving co-ordination problems: set individual and more challenging goals; involve all players in goal setting; give specific roles within the team and make sure each role is clear and accepted; promote motivation with rewards; establish a group identity; use statistics to highlight individual performance; use team meetings to resolve conflict; maintain communication with open discussion; and reward exceptional contribution to the team.",
+                "A coach might also use video analysis, a form of sports analytics, to highlight an individual's performance and use feedback to evaluate and assess it. In training, the aim is to avoid situations where social loafing could occur, and to vary practice to maintain motivation and conditioning."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1256 @@
+{
+  "topicId": "exercise-physiology",
+  "subtopics": [
+    {
+      "subtopicId": "diet-nutrition",
+      "sections": [
+        {
+          "heading": "A balanced diet",
+          "specBullet": "The seven classes of food and the role of diet in performance",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Balanced diet",
+                  "meaning": "An adequate intake of each of the seven classes of nutrients needed to maintain health, support energy demands and allow tissue growth and repair: carbohydrates, fats, proteins, vitamins, minerals, fibre and water."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Diet directly affects a performer's health, body weight and available energy levels. Elite performers have to eat to meet the additional energy and repair demands that training and competition place on the body."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Carbohydrates",
+          "specBullet": "Carbohydrates and the glycaemic index",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Simple carbohydrates",
+                  "meaning": "Found in fruit and in processed or refined sugary foods. They are digested quickly."
+                },
+                {
+                  "term": "Complex carbohydrates",
+                  "meaning": "Found in plant-based foods such as bread, pasta, rice and vegetables. They are digested more slowly."
+                },
+                {
+                  "term": "Glucose",
+                  "meaning": "What carbohydrate is broken down into. It circulates in the blood."
+                },
+                {
+                  "term": "Glycogen",
+                  "meaning": "The form glucose is stored as, in the muscles and liver. It is a limited store that needs regular replenishment."
+                },
+                {
+                  "term": "Glycaemic index (GI)",
+                  "meaning": "A ranking of how quickly a carbohydrate raises blood glucose."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Carbohydrates are the body's main energy source across all intensities, and the only fuel that can be broken down anaerobically. That makes them essential for high-intensity, anaerobic exercise."
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "",
+                "Low GI",
+                "High GI"
+              ],
+              "rows": [
+                [
+                  "Examples",
+                  "Pasta, beans, cereal with milk",
+                  "Fruit, smoothies, cereal bars"
+                ],
+                [
+                  "Glucose release",
+                  "Slower and sustained",
+                  "Rapid and short-lived"
+                ],
+                [
+                  "Best eaten",
+                  "Three to four hours before exercise",
+                  "One to two hours before exercise"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Fats",
+          "specBullet": "Saturated and unsaturated fats, cholesterol and trans-fats",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Saturated fats",
+                  "meaning": "Mostly from animal sources. Eaten in excess they contribute to weight gain and raised cholesterol, increasing the risk of coronary heart disease, high blood pressure and diabetes."
+                },
+                {
+                  "term": "Cholesterol",
+                  "meaning": "Carried in the blood in two forms, LDL and HDL."
+                },
+                {
+                  "term": "Trans-fats",
+                  "meaning": "Largely created through hydrogenation. They also raise blood cholesterol and should be limited to no more than 5g per day."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "",
+                "LDL",
+                "HDL"
+              ],
+              "rows": [
+                [
+                  "Known as",
+                  "Bad cholesterol",
+                  "Good cholesterol"
+                ],
+                [
+                  "What it does",
+                  "Linked to fatty deposits in the arteries and to heart disease risk",
+                  "Removes excess cholesterol via the liver"
+                ]
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Unsaturated fats are the healthier alternative, and are an important fuel source for prolonged, low-intensity aerobic exercise such as jogging. Fat cannot be used at high intensity, because breaking it down requires oxygen. Fat also carries the fat-soluble vitamins A, D, E and K."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Proteins",
+          "specBullet": "Protein and its role in growth and repair",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Amino acids",
+                  "meaning": "What proteins are built from. Protein is needed for muscle growth and repair, and for producing enzymes, hormones and haemoglobin."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Protein is only a minor energy source. It is used mainly by power athletes with high muscle-repair demands, or when glycogen and fat stores have been depleted. Good sources include meat, fish, eggs and dairy."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Vitamins",
+          "specBullet": "Fat-soluble and water-soluble vitamins",
+          "blocks": [
+            {
+              "type": "compare",
+              "columns": [
+                "",
+                "Fat-soluble vitamins (A, D, E, K)",
+                "Water-soluble vitamins (B-complex and C)"
+              ],
+              "rows": [
+                [
+                  "Found in",
+                  "Mainly fatty and animal foods: dairy, oils, eggs, oily fish",
+                  "A wide range of foods: fruit, vegetables, dairy"
+                ],
+                [
+                  "Stored?",
+                  "Stored in the liver and fatty tissue for later use",
+                  "Not stored, so they must be consumed daily. Excess is simply excreted in urine"
+                ]
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Vitamin C",
+                  "meaning": "Protects cells and supports healthy connective tissue such as ligaments."
+                },
+                {
+                  "term": "Vitamin D",
+                  "meaning": "Supports calcium absorption for healthy bones and teeth. It is mostly produced through exposure to sunlight."
+                },
+                {
+                  "term": "The B vitamins",
+                  "meaning": "B1 or thiamin, B2 or riboflavin, B3 or niacin, and B12 work together to release energy from carbohydrate and protein, support red blood cell formation and keep the nervous system healthy."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Good vitamin intake supports a strong immune system, which lets a performer train at maximum capacity and recover quickly."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Minerals",
+          "specBullet": "Minerals and electrolytes",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Electrolytes",
+                  "meaning": "What minerals become when they dissolve in the body as ions. They support functions including nerve impulse transmission and effective muscle contraction."
+                },
+                {
+                  "term": "Calcium",
+                  "meaning": "Builds strong bones and teeth, and supports efficient nerve and muscle function."
+                },
+                {
+                  "term": "Sodium",
+                  "meaning": "Helps regulate the body's fluid balance, but excessive intake raises blood pressure and the risk of stroke and heart attack."
+                },
+                {
+                  "term": "Iron",
+                  "meaning": "Required to form haemoglobin, which supports oxygen transport. A deficiency can cause anaemia."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Good sources of minerals include meat, fish, eggs, dairy, cereals, vegetables, fruit and nuts."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Fibre and water",
+          "specBullet": "Fibre, hydration and the effects of dehydration",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Fibre",
+                  "meaning": "Found in wholemeal bread and pasta, potatoes, nuts, seeds, fruit and vegetables. It slows digestion, producing a more sustained energy release, and prevents constipation by adding bulk to the digestive system."
+                },
+                {
+                  "term": "Water",
+                  "meaning": "Roughly 60 per cent of body weight. It transports nutrients, hormones and waste, and helps regulate core body temperature. Sweat evaporation cools the body during exercise, but also causes fluid loss."
+                },
+                {
+                  "term": "Dehydration",
+                  "meaning": "Where fluid loss exceeds intake."
+                }
+              ]
+            },
+            {
+              "type": "how_it_works",
+              "mode": "chain",
+              "items": [
+                "Blood viscosity increases, which reduces blood flow to the muscles and skin",
+                "Sweating is reduced and core temperature rises",
+                "Muscle fatigue and headaches set in",
+                "Nutrient transport and waste removal become less effective",
+                "Heart rate rises while cardiac output falls",
+                "Performance, reaction time and decision-making all decline"
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Fluid should therefore be taken on regularly before, during and after exercise. Around 1.5 litres of fluid per kilogram of body weight lost is recommended for rehydration. Sports drinks can raise glucose levels before competition, while water rehydrates during it."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Glycogen loading",
+          "specBullet": "Glycogen loading as dietary manipulation",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Glycogen loading",
+                  "meaning": "Also called carbo-loading. A form of dietary manipulation used by endurance athletes to increase muscle glycogen stores above their normal capacity, delaying fatigue in prolonged events."
+                }
+              ]
+            },
+            {
+              "type": "how_it_works",
+              "mode": "steps",
+              "items": [
+                "Around six days before competition, combine a high-protein diet with high-intensity exercise to deplete existing carbohydrate stores. This lasts about three days",
+                "Follow with three days of a high-carbohydrate diet and lighter training",
+                "Because the stores were depleted first, glycogen can be super-compensated to around double the normal amount"
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Glycogen loading",
+                "Positive effects",
+                "Negative effects"
+              ],
+              "rows": [
+                [
+                  "What it does",
+                  "Increased glycogen storage, delayed fatigue and increased endurance capacity",
+                  "Water retention, bloating and heavy legs during the loading phase; irritability and disrupted training during the depletion phase; possible digestive upset and weight gain"
+                ]
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Recovery can be improved further by taking a carbohydrate-to-protein ratio of between 3:1 and 4:1, chocolate milk for example, within the first twenty minutes after exercise, when the body is most receptive to restoring glycogen. Liquid nutrition also helps rehydration."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Legal supplements",
+          "specBullet": "Creatine monohydrate, sodium bicarbonate and caffeine",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Creatine",
+                  "meaning": "A supplement used to increase stored phosphocreatine, the fuel for the ATP-PC energy system, which supplies rapid bursts of energy for up to around ten seconds of high-intensity work."
+                },
+                {
+                  "term": "Sodium bicarbonate",
+                  "meaning": "Also called soda loading. An antacid supplement that increases the blood's buffering capacity."
+                },
+                {
+                  "term": "Buffering capacity",
+                  "meaning": "The blood's ability to neutralise the build-up of hydrogen ions and lactic acid during high-intensity exercise, which delays fatigue."
+                },
+                {
+                  "term": "Caffeine",
+                  "meaning": "A stimulant that increases mental alertness and reduces the perception of fatigue. It is thought to increase the mobilisation of fatty acids, which spares glycogen stores."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Supplement",
+                "Who it suits",
+                "Dose and sources"
+              ],
+              "rows": [
+                [
+                  "Creatine monohydrate",
+                  "Explosive event athletes: sprints, jumps and throws",
+                  "Excess intake, over around 5g per day, is often simply excreted in urine rather than used by the muscle"
+                ],
+                [
+                  "Sodium bicarbonate",
+                  "Athletes relying heavily on the anaerobic glycolytic, or lactic acid, system: 400m runners, rowers and 100m to 400m swimmers",
+                  "Taken as an antacid before competition"
+                ],
+                [
+                  "Caffeine",
+                  "Endurance athletes relying on the aerobic system",
+                  "Around 3mg per kilogram of body weight gives the greatest benefit, roughly equivalent to three cans of cola per 100mg. Found in coffee, tea, cola, chocolate, energy bars and caffeinated gels"
+                ]
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Supplement",
+                "Positive effects",
+                "Negative effects"
+              ],
+              "rows": [
+                [
+                  "Creatine monohydrate",
+                  "Helps provide ATP, replenishes phosphocreatine stores, extends how long the ATP-PC system can be sustained, and can improve muscle mass",
+                  "Possible dehydration, bloating, muscle cramps, diarrhoea and vomiting. The evidence on benefit is mixed, and it can hinder aerobic performance"
+                ],
+                [
+                  "Sodium bicarbonate",
+                  "Reduces muscle cell acidity, delays fatigue and increases blood buffering capacity",
+                  "Vomiting, stomach pain and cramping, diarrhoea and bloating. The gastric side-effects mean many athletes choose not to use it despite the potential benefit"
+                ],
+                [
+                  "Caffeine",
+                  "Increased alertness, reduced fatigue, greater use of fat as fuel which spares glycogen, improved decision-making and reaction time, and benefits to aerobic and endurance performance",
+                  "Loss of fine motor control, and it is restricted in large quantities under many sports' rules. Possible dehydration as a diuretic, insomnia, muscle and stomach cramps, vomiting, irregular heartbeat and diarrhoea"
+                ]
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Creatine feeds the ATP-PC system, so it suits explosive athletes",
+                "Sodium bicarbonate buffers lactic acid, so it suits the glycolytic system",
+                "Caffeine spares glycogen, so it suits aerobic endurance athletes"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopicId": "preparation-training-methods",
+      "sections": [
+        {
+          "heading": "Assessing fitness data",
+          "specBullet": "Quantitative, qualitative, objective and subjective data",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Quantitative data",
+                  "meaning": "Numerical and factual, such as the distance covered in Cooper's twelve-minute run, compared against standardised tables."
+                },
+                {
+                  "term": "Qualitative data",
+                  "meaning": "Descriptive, and based on feelings or opinions, such as the Borg Rating of Perceived Exertion (RPE) scale, a 6 to 20 scale used to record how hard a performer feels they are working."
+                },
+                {
+                  "term": "Objective data",
+                  "meaning": "Fact-based and measurable, typical of maximal tests taken to exhaustion, such as the Wingate test for anaerobic power or the multi-stage fitness test, also called the bleep test, for stamina."
+                },
+                {
+                  "term": "Subjective data",
+                  "meaning": "Based on opinion, estimation or prediction, typical of sub-maximal tests such as the Harvard step test. It can be less accurate as a result."
+                }
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "Quantitative and objective mean the same thing.",
+                  "right": "Quantitative is about the form of the data, numbers rather than description. Objective is about how it was obtained, measured fact rather than estimation or opinion."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Validity and reliability of fitness testing",
+          "specBullet": "The validity and reliability of fitness tests",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Validity",
+                  "meaning": "Whether a test actually measures what it claims to, and whether it is sport-specific. The multi-stage fitness test is valid for a running-based games player, but less valid for a swimmer or cyclist whose movement patterns differ."
+                },
+                {
+                  "term": "Reliability",
+                  "meaning": "Whether a test produces consistent results if it is repeated."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Reliability is improved by using experienced testers, standardised equipment, a consistent test sequence and procedure, and by repeating tests to reduce human error."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "The warm-up",
+          "specBullet": "The structure, types of stretching and physiological effects of a warm-up",
+          "blocks": [
+            {
+              "type": "how_it_works",
+              "mode": "steps",
+              "items": [
+                "Cardiovascular activity, such as light jogging",
+                "Stretching and flexibility work, targeting the muscles and joints to be used",
+                "Rehearsal of the specific movement patterns required in the activity, such as practising shooting or dribbling"
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Static stretching",
+                  "meaning": "Holding a position without movement."
+                },
+                {
+                  "term": "Active stretching",
+                  "meaning": "A static stretch where the performer pushes the joint beyond its point of resistance themselves."
+                },
+                {
+                  "term": "Passive stretching",
+                  "meaning": "A static stretch where an external force, such as a partner, gravity or a wall, assists the stretch."
+                },
+                {
+                  "term": "Ballistic stretching",
+                  "meaning": "Using swinging or bouncing movements to force a joint further. Because of the injury risk it should only be used by performers with very high natural flexibility, such as gymnasts and dancers."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The physiological effects of warming up stack up quickly. Injury risk falls as muscle elasticity increases. Adrenaline release raises heart rate and dilates capillaries, which increases oxygen delivery to the muscles. Rising muscle temperature helps oxygen dissociate from haemoglobin and speeds up enzyme activity, so energy is released faster. Nerve impulses conduct more quickly, improving alertness and reaction time, and increased synovial fluid production improves joint efficiency.",
+                "Beyond the physiology, a warm-up also allows rehearsal of activity-specific movement, gives time for psychological preparation and anxiety reduction, and improves blood supply to the heart."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "The cool-down",
+          "specBullet": "The cool-down and delayed onset of muscle soreness",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "A cool-down uses light exercise straight after training or competition to keep heart rate and blood flow elevated, which helps flush oxygen through the muscles to remove and oxidise remaining lactic acid.",
+                "Continuing to move also keeps the skeletal muscle pump active, which maintains venous return and prevents blood pooling in the veins. Pooling can otherwise cause dizziness, fainting or loss of consciousness."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "DOMS (delayed onset of muscle soreness)",
+                  "meaning": "Tender, painful muscles typically felt 24 to 48 hours after intense exercise, caused by structural damage to muscle fibres and surrounding connective tissue. It most often follows heavy eccentric contraction, as in weight training. A proper cool-down can help limit it."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Principles of training: SPORR",
+          "specBullet": "Specificity, progressive overload, reversibility and recovery",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Specificity",
+                  "meaning": "Training must match the demands of the performer's sport, in terms of energy system, muscle fibre type, skills, movement patterns, and the intensity and duration used."
+                },
+                {
+                  "term": "Progressive overload",
+                  "meaning": "Training difficulty is gradually increased over time, such as lifting progressively heavier weights, as fitness improves, to keep driving adaptation. Overloading too much too soon increases injury risk."
+                },
+                {
+                  "term": "Reversibility",
+                  "meaning": "Also called detraining. Fitness adaptations are gradually lost if training stops or is significantly reduced."
+                },
+                {
+                  "term": "Recovery",
+                  "meaning": "Rest days allow the body to adapt and repair. A commonly used pattern is training hard for three days followed by one rest day, a 3:1 ratio, though some elite performers prefer a single fixed rest day each week."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Principles of training: FITT",
+          "specBullet": "Frequency, intensity, time and type",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Frequency",
+                  "meaning": "How often training sessions take place."
+                },
+                {
+                  "term": "Intensity",
+                  "meaning": "How hard the performer trains."
+                },
+                {
+                  "term": "Time",
+                  "meaning": "The duration of training, which should be gradually increased."
+                },
+                {
+                  "term": "Type",
+                  "meaning": "The kind of training used. Varying it, between continuous, circuit and fartlek training to build stamina for example, helps maintain motivation, but the type chosen must stay relevant to the sport. A games player should train using running rather than cycling."
+                }
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "SPORR governs how training is designed over time",
+                "FITT governs the content of a session: how often, how hard, how long, what kind",
+                "Specificity governs both, so every choice should trace back to the sport"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Periodisation",
+          "specBullet": "Macrocycle, mesocycle and microcycle",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Periodisation",
+                  "meaning": "Dividing a training year into planned blocks or cycles, so performance can be improved while injury risk is managed."
+                },
+                {
+                  "term": "Macrocycle",
+                  "meaning": "The longest cycle, covering a long-term goal such as a season or a four-year Olympic build-up. It is made up of three periods."
+                },
+                {
+                  "term": "Mesocycle",
+                  "meaning": "A shorter block, typically four to twelve weeks, focused on a specific fitness component. A sprinter might focus on power, speed and reaction time; an endurance athlete on strength endurance and cardiorespiratory endurance."
+                },
+                {
+                  "term": "Microcycle",
+                  "meaning": "The shortest cycle, a single week or a few days of training that repeats throughout a mesocycle, including scheduled rest days."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Period of the macrocycle",
+                "What happens",
+                "Example"
+              ],
+              "rows": [
+                [
+                  "Preparation period",
+                  "General conditioning and building fitness",
+                  "Football pre-season in June and July"
+                ],
+                [
+                  "Competition period",
+                  "Refining skills and technique while maintaining fitness",
+                  "The football season itself"
+                ],
+                [
+                  "Transition period",
+                  "Rest and recovery, allowing physical and mental recharge before the next cycle begins",
+                  "The off-season"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Tapering, peaking and double periodisation",
+          "specBullet": "Tapering, peaking and double periodisation",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Tapering",
+                  "meaning": "A planned reduction in training volume in the days before a major competition, allowing training-induced fatigue to be removed."
+                },
+                {
+                  "term": "Peaking",
+                  "meaning": "The coach's careful planning and organisation of training so a performer reaches their best physical and mental condition for a specific competition. It is timed so fatigue has cleared but reversibility has not yet set in."
+                },
+                {
+                  "term": "Double periodisation",
+                  "meaning": "Used when a performer needs to peak more than once in a year, such as a cross-country athlete peaking in winter and again on the track in summer. The training year is split into two periodised cycles."
+                }
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Tapering removes fatigue; peaking is the timing of the whole plan",
+                "Peak too early and reversibility undoes the work",
+                "Two peaks in a year means two cycles, not one stretched out"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Continuous, fartlek and interval training",
+          "specBullet": "Continuous, fartlek and interval training methods",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Continuous training",
+                  "meaning": "Sustained, low-intensity exercise such as jogging, swimming or cycling, performed for a long duration without rest intervals."
+                },
+                {
+                  "term": "Fartlek training",
+                  "meaning": "Speed-play, from the Swedish. It varies the pace of continuous exercise, combining periods of low intensity with bursts of high intensity."
+                },
+                {
+                  "term": "Interval training",
+                  "meaning": "Alternating periods of high-intensity work with recovery periods. It is mainly used to improve anaerobic power."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Method",
+                "What it develops",
+                "Who it suits"
+              ],
+              "rows": [
+                [
+                  "Continuous",
+                  "Aerobic power and stamina, by placing consistent stress on the aerobic energy system, improving the cardiovascular and respiratory systems' ability to take up, transport and use oxygen",
+                  "Endurance performers"
+                ],
+                [
+                  "Fartlek",
+                  "Both the aerobic system, through its continuous nature, and the anaerobic system, through the high-intensity bursts. It improves both stamina and recovery",
+                  "Games players, whose sports demand constantly changing intensities requiring both aerobic and anaerobic energy production"
+                ],
+                [
+                  "Interval",
+                  "Anaerobic power",
+                  "Anaerobic performers, across a wide range of needs"
+                ]
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "A fartlek session typically lasts around forty minutes and can vary terrain, with uphill and downhill sections, as well as pace.",
+                "Interval training has four variables that have to be planned: the duration of each work interval, the intensity or speed of that work interval, the duration of each recovery period, and the number of work and recovery intervals. That versatility is what lets it be adapted to so many different anaerobic training needs."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Circuit training",
+          "specBullet": "Circuit training",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Circuit training",
+                  "meaning": "Performing a sequence of exercises at different stations, usually using the performer's own body weight as resistance. Stations might include arm exercises such as press-ups, leg exercises such as squats, trunk exercises such as sit-ups, and cardiovascular stations such as running."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Planning a circuit means deciding the number and variety of stations, the repetitions or time spent at each, the length of the rest intervals, and working within the available time, space, equipment and participant fitness level.",
+                "Station order matters: avoid working the same body part on consecutive stations, so each muscle group gets partial recovery. Circuits are flexible enough to target almost any component of fitness, though they are most commonly used for general conditioning."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Weight training",
+          "specBullet": "Weight training, sets, repetitions and one rep max",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Weight training",
+                  "meaning": "Develops muscular strength, and depending on how the programme is designed, power or muscular endurance, using free weights or fixed resistance machines, structured around sets and repetitions."
+                },
+                {
+                  "term": "Repetition",
+                  "meaning": "One completion of an exercise."
+                },
+                {
+                  "term": "Set",
+                  "meaning": "A group of repetitions performed consecutively."
+                },
+                {
+                  "term": "1 rep max (1RM)",
+                  "meaning": "The maximum weight a performer can lift for a single repetition. Training loads are typically planned as a percentage of it."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Training for",
+                "Repetitions and load",
+                "Typical prescription"
+              ],
+              "rows": [
+                [
+                  "Maximum strength",
+                  "Low repetitions at high load",
+                  "Four to five sets of two to six reps at 80 to 100 per cent of 1RM"
+                ],
+                [
+                  "Muscular endurance",
+                  "Higher repetitions at lower load",
+                  "Three sets of ten reps at around 50 per cent of 1RM"
+                ]
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Exercise selection should reflect the muscle groups used in the sport, both agonists and antagonists, in line with the specificity principle. The common categories are shoulders and arms, such as the bench press; trunk and back, such as sit-ups; legs, such as squats; and whole-body lifts such as the power clean and deadlift."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Proprioceptive neuromuscular facilitation (PNF)",
+          "specBullet": "PNF as a method of developing flexibility",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "PNF (proprioceptive neuromuscular facilitation)",
+                  "meaning": "An advanced form of passive stretching, considered one of the most effective methods for increasing range of movement."
+                }
+              ]
+            },
+            {
+              "type": "how_it_works",
+              "mode": "steps",
+              "items": [
+                "The target muscle is isometrically contracted for at least ten seconds",
+                "It is then relaxed and stretched further, usually with a partner or another external force assisting",
+                "The second stretch typically goes beyond the original range of movement"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopicId": "injury-prevention-rehabilitation",
+      "sections": [
+        {
+          "heading": "Acute and chronic injuries",
+          "specBullet": "Types of injury: acute and chronic",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Acute injury",
+                  "meaning": "Happens suddenly, during exercise or competition, such as a sprained ankle or torn ligament. It is usually immediately obvious, typically causing sudden severe pain, swelling around the injured site, and an inability to bear weight on the area."
+                },
+                {
+                  "term": "Chronic injury",
+                  "meaning": "Sometimes called an over-use injury. It develops gradually from repeated stress over a long period of playing or training, rather than from a single incident."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The difference matters for more than classification. Because chronic injuries build up slowly, performers often ignore them in the early stages, which allows the underlying problem to worsen."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Fractures",
+          "specBullet": "Types of fracture",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Fracture",
+                  "meaning": "A break or crack in a bone. It can occur in several different forms depending on how the bone is damaged."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Type of fracture",
+                "What happens"
+              ],
+              "rows": [
+                [
+                  "Compound (open) fracture",
+                  "The broken bone pierces through the skin, creating a much higher risk of infection than a closed fracture"
+                ],
+                [
+                  "Spiral fracture",
+                  "A winding break, often from a twisting force"
+                ],
+                [
+                  "Longitudinal fracture",
+                  "A break running along the length of the bone"
+                ],
+                [
+                  "Buckle fracture",
+                  "A partial, incomplete break, more common in children's more flexible bones"
+                ],
+                [
+                  "Greenstick fracture",
+                  "The bone bends and cracks on only one side rather than breaking fully through, again more common in children, whose bones are more pliable"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Dislocations, strains and sprains",
+          "specBullet": "Dislocations, strains and sprains",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Dislocation",
+                  "meaning": "Occurs at a joint when the ends of the bones are forced out of their normal position, often from a heavy fall or direct contact with another player, as in a football tackle. The joint is usually visibly out of place and the injury is extremely painful."
+                },
+                {
+                  "term": "Strain",
+                  "meaning": "An injury to a muscle, commonly called a pulled or torn muscle, where muscle fibres are stretched beyond their normal capacity. It often comes from repeated rapid acceleration and deceleration, which is why strains are common even among elite, well-conditioned athletes."
+                },
+                {
+                  "term": "Sprain",
+                  "meaning": "An injury to a ligament, the strong tissue connecting bone to bone at a joint, where excessive twisting or turning forces the ligament to stretch too far or tear. The ankle is a particularly common site, because of how much twisting the joint undergoes."
+                }
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "A strain and a sprain are the same injury.",
+                  "right": "A strain is to a muscle, a sprain is to a ligament. The tissue damaged is what separates them."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Common overuse injuries",
+          "specBullet": "Common chronic injuries",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Over-use injuries typically produce pain during activity, a dull ache at rest, and swelling around the affected area."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Achilles tendonitis",
+                  "meaning": "Inflammation and pain in the Achilles tendon, which connects the calf muscles to the heel bone and is essential for walking, running and jumping. It is caused by repeated overuse of the tendon."
+                },
+                {
+                  "term": "Stress fracture",
+                  "meaning": "A tiny crack in a bone, most common in the weight-bearing bones of the leg and foot, caused when exercise intensity or volume is increased too quickly."
+                },
+                {
+                  "term": "Tennis elbow (lateral epicondylitis)",
+                  "meaning": "Inflammation of the muscles and tendons at the elbow responsible for extending the wrist, causing pain and tenderness on the bony outer point of the elbow. Despite the name it is most commonly seen in golfers. The same injury on the inner side of the elbow is called golfer's elbow."
+                }
+              ]
+            },
+            {
+              "type": "how_it_works",
+              "mode": "chain",
+              "items": [
+                "Exercise intensity or volume is increased too quickly",
+                "The muscles supporting the bone become fatigued",
+                "They can no longer absorb impact effectively",
+                "That stress is transferred directly onto the bone",
+                "The bone eventually cracks, producing a stress fracture"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Screening and protective equipment",
+          "specBullet": "Injury prevention through screening and protective equipment",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Screening",
+                  "meaning": "Assessing a performer before they take part in sport to identify anything that could put them at greater risk of injury or of a serious medical event. It can include examination of muscle imbalances, core strength, posture and joint range of movement."
+                },
+                {
+                  "term": "ECG (electrocardiogram)",
+                  "meaning": "A cardiac check that records the heart's electrical activity and can highlight underlying cardiac risk."
+                },
+                {
+                  "term": "Protective equipment",
+                  "meaning": "Equipment appropriate to the demands and risks of a specific sport: shin pads in football, a scrum cap, gum shield and body armour in rugby, padding and a helmet in cricket, or eye guards in squash."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Screening allows a tailored conditioning programme to be designed to correct any issues found, though it is not completely accurate and can occasionally miss a genuine problem or flag one that does not actually exist.",
+                "Protective equipment only works if it fits correctly and meets the relevant safety and governing body regulations."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Taping and bracing",
+          "specBullet": "Taping and bracing",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Taping",
+                  "meaning": "Light external support to a joint, commonly used to help prevent common injuries, such as taping the ankle before playing to reduce the risk of a sprain, or to give extra support during recovery from a previous injury."
+                },
+                {
+                  "term": "Bracing",
+                  "meaning": "More substantial, rigid support than taping. It is typically used to protect a joint that is weak or has been previously injured, most often at the ankle or knee."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Proprioceptive training",
+          "specBullet": "Proprioceptive training in injury prevention and rehabilitation",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Proprioception",
+                  "meaning": "The largely subconscious sense of body and joint position. It relies on receptor nerves, the proprioceptors, located in the muscles, joints and tendons, combined with visual and auditory input, to coordinate smooth, accurate movement. This sense is commonly impaired following an injury."
+                },
+                {
+                  "term": "Proprioceptive training",
+                  "meaning": "Activities such as hopping, jumping and balance exercises used to restore that sense of joint control. It is an important part of rehabilitating a previously sprained joint, because a sprain often damages the proprioceptors around it."
+                },
+                {
+                  "term": "Balance or wobble board",
+                  "meaning": "A common proprioceptive training tool. Standing on the unstable board strengthens the ankle joint while retraining the body to react automatically to unstable movements, without having to think about it consciously."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Strength training for rehabilitation",
+          "specBullet": "Types of strength training used in rehabilitation",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Strength training",
+                  "meaning": "Using resistance of some form to prepare the body for exercise, or to reduce the risk of re-injury during rehabilitation."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Type",
+                "What it involves",
+                "Why it is used"
+              ],
+              "rows": [
+                [
+                  "Free weights",
+                  "Dumbbells and kettlebells",
+                  "Because they are not guided by a machine, the surrounding muscles must also work to stabilise the weight as it is lifted, alongside the target muscle"
+                ],
+                [
+                  "Machine weights",
+                  "The machine controls the movement path",
+                  "A safer option in the early stages of injury recovery, typically starting with lighter loads and building up gradually"
+                ],
+                [
+                  "Body weight exercises",
+                  "Using the performer's own body as resistance, such as the plank",
+                  "Often used to build core strength, which supports better balance and posture and can reduce imbalances that might otherwise contribute to injury"
+                ],
+                [
+                  "Theraband",
+                  "Latex resistance bands, available in a range of resistance strengths",
+                  "Lighter bands are used early in rehabilitation, with stronger bands introduced as the injury improves"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Hyperbaric chambers and cryotherapy",
+          "specBullet": "Hyperbaric chambers and cryotherapy",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Hyperbaric chamber",
+                  "meaning": "A pressurised chamber, similar in principle to an aeroplane cabin, that allows a performer to breathe air containing up to 100 per cent pure oxygen. The increased pressure allows more oxygen to dissolve into the blood plasma and diffuse into an injured area, which can reduce swelling and stimulate white blood cell activity, increasing blood supply to help the injury heal."
+                },
+                {
+                  "term": "Cryotherapy",
+                  "meaning": "The use of cold temperatures to treat an injury, most often for muscle strains and ligament sprains."
+                },
+                {
+                  "term": "POLICE",
+                  "meaning": "The protocol traditionally used to guide cryotherapy: Protection, Optimal Loading, Ice, Compression, Elevation."
+                },
+                {
+                  "term": "Whole-body cryotherapy (WBC)",
+                  "meaning": "Exposing the whole body, rather than just the injured muscle, to roughly minus 100 degrees Celsius for around three minutes, in a freezing chamber entered wearing minimal, protective clothing."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Whole-body cryotherapy works by temporarily directing blood away from the limbs towards the body's core. Once the session ends, blood returns rapidly, flushing the area with oxygen-rich blood that helps speed healing."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Hydrotherapy and ice baths",
+          "specBullet": "Hydrotherapy and ice baths",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Hydrotherapy",
+                  "meaning": "Exercise performed in warm water, typically around 35 to 37 degrees Celsius, to improve circulation, relieve pain and aid relaxation."
+                },
+                {
+                  "term": "Ice baths",
+                  "meaning": "A popular recovery method where the muscles used in a session are submerged in cold water, around 5 to 10 degrees Celsius, for roughly ten minutes immediately after exercise."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "",
+                "Hydrotherapy",
+                "Ice baths"
+              ],
+              "rows": [
+                [
+                  "Water temperature",
+                  "Around 35 to 37 degrees Celsius",
+                  "Around 5 to 10 degrees Celsius"
+                ],
+                [
+                  "How it works",
+                  "Buoyancy supports some of the performer's body weight, reducing the load on the joints, so more exercise can be completed than would be possible on land. The water's resistance also strengthens the area as it is worked against",
+                  "Blood vessels tighten and blood flow to the legs is constricted. On leaving the bath, blood floods back into the muscles, helping remove the lactic acid built up during exercise"
+                ],
+                [
+                  "Worth knowing",
+                  "Some hydrotherapy pools include underwater treadmills, where increasing the running speed increases the resistance the water provides",
+                  "The actual benefits are debated, and the experience is understandably uncomfortable for the performer"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Compression, massage and foam rolling",
+          "specBullet": "Compression garments, sports massage and foam rolling",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Compression garments",
+                  "meaning": "Tight-fitting clothing worn to improve blood circulation and help prevent conditions such as deep vein thrombosis during long periods of inactivity, such as long-haul flights."
+                },
+                {
+                  "term": "Deep vein thrombosis (DVT)",
+                  "meaning": "A blood clot forming in one of the body's deep veins."
+                },
+                {
+                  "term": "Sports massage",
+                  "meaning": "Targets the soft tissue, meaning muscles, tendons and ligaments, that builds up tension from regular training."
+                },
+                {
+                  "term": "Foam rolling",
+                  "meaning": "A form of self-massage where the performer uses their own body weight against a cylindrical foam roller to apply pressure to a muscle and the surrounding fascia."
+                },
+                {
+                  "term": "Fascia",
+                  "meaning": "The fibrous connective tissue surrounding muscles."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Some athletes also use compression garments to try to reduce inflammation and the delayed onset of muscle soreness after exercise, though there is limited strong research evidence confirming that benefit. Correctly fitted garments should apply a specific level of pressure to be effective.",
+                "Sports massage can increase blood flow to the muscle, which helps deliver oxygen and nutrients and remove waste products such as lactic acid, stretch tight soft tissue to relieve tension, and break down scar tissue that might otherwise restrict a joint's or muscle's movement. Foam rolling can help prevent injury and improve mobility, though if it becomes too painful some body weight should be supported through the arms instead, to reduce the pressure applied."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Sleep and nutrition for recovery",
+          "specBullet": "The role of sleep and nutrition in recovery",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Alongside physical treatments, adequate sleep and correct nutrition are essential to recovering fully from training. Both are heavily influenced by individual differences, such as how physically demanding a person's training programme is."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Non-REM (deep) sleep",
+                  "meaning": "The sleep stage without rapid eye movement, made up of three progressively deeper stages. It is when the body carries out most of its muscle repair, because the brain diverts blood flow away from itself and towards the muscles. Most adults require a minimum of eight to nine hours of sleep each night to support this."
+                },
+                {
+                  "term": "Post-exercise nutrition",
+                  "meaning": "Replenishing the muscle glycogen stores depleted during exercise. The body is most receptive to restoring glycogen in the first twenty minutes afterwards."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Cutting sleep short therefore directly limits how well the body is able to repair itself.",
+                "In that twenty-minute window many elite performers take a carbohydrate source with a 3:1 to 4:1 ratio of carbohydrate to protein, chocolate milk for example. The combination re-synthesises muscle glycogen more efficiently than carbohydrate alone, and being liquid it is absorbed faster than solid food while also rehydrating the performer."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
