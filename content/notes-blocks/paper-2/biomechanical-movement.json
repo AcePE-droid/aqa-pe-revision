@@ -255,6 +255,31 @@
               ]
             },
             {
+              "type": "compare",
+              "columns": [
+                "Class of lever",
+                "Operates at",
+                "What that gives, and what it costs"
+              ],
+              "rows": [
+                [
+                  "First-class lever",
+                  "Mechanical disadvantage, in the elbow extension example",
+                  "A large range of movement, and the resistance can be moved quickly, but little force can be applied to it"
+                ],
+                [
+                  "Second-class lever",
+                  "Mechanical advantage",
+                  "Much larger forces can be generated, enough to lift the whole body weight in plantarflexion, but the movement is slow and the range of movement is limited"
+                ],
+                [
+                  "Third-class lever",
+                  "Mechanical disadvantage",
+                  "A large range of movement, and the resistance can be moved quickly, but little force can be applied to it"
+                ]
+              ]
+            },
+            {
               "type": "explainer",
               "paragraphs": [
                 "Comparing the two arm lengths is what determines how efficiently a lever operates. Most third-class levers in the body, the most common type, operate at a mechanical disadvantage, because the effort acts closer to the fulcrum than the resistance does.",
