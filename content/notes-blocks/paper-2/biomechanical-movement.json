@@ -1,0 +1,1354 @@
+{
+  "topicId": "biomechanical-movement",
+  "subtopics": [
+    {
+      "subtopicId": "biomechanical-principles",
+      "sections": [
+        {
+          "heading": "Newton's three laws of motion",
+          "specBullet": "Newton's laws of motion applied to sporting movement",
+          "blocks": [
+            {
+              "type": "compare",
+              "columns": [
+                "Law",
+                "What it states",
+                "Applied to football"
+              ],
+              "rows": [
+                [
+                  "Newton's first law (inertia)",
+                  "A body continues in its state of rest or uniform motion in a straight line unless an external force acts upon it. A force is required to change a body's state of motion: starting, stopping, accelerating, decelerating or changing direction",
+                  "A stationary ball stays still until a player applies a force to it"
+                ],
+                [
+                  "Newton's second law (acceleration)",
+                  "The acceleration of a body is proportional to the force causing it, and takes place in the direction that force acts",
+                  "The harder a ball is kicked, the greater its acceleration, so it travels further and faster in the direction the force was applied"
+                ],
+                [
+                  "Newton's third law (action and reaction)",
+                  "For every action there is an equal and opposite reaction. When one body exerts a force on another, the second body exerts an equal and opposite force back",
+                  "A player jumping to win a header pushes down on the ground, and the ground pushes back up with an equal and opposite force, producing the jump"
+                ]
+              ]
+            },
+            {
+              "type": "formula",
+              "equation": "Force = mass × acceleration  (F = ma)",
+              "meaning": "For a given mass, acceleration is directly proportional to the force applied."
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Inertia",
+                  "meaning": "The resistance a body has to a change in its state of motion. It increases with mass, so a heavier object needs a larger force to change its motion. A heavier rugby forward is harder to stop running than a lighter winger."
+                },
+                {
+                  "term": "Ground reaction force (GRF)",
+                  "meaning": "The equal and opposite force the ground exerts back on a performer who applies a muscular force against it. A sprinter pushes back on the blocks and the blocks push the athlete forward; a swimmer pushes back against the water and is propelled forward by it."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "A high jumper shows the first law directly: they move horizontally at a constant state until take-off, where an external force changes their motion to vertical to clear the bar.",
+                "Where that force originates is the second law's business. Coming out of the blocks, a sprinter generates it internally, through the gluteals, quadriceps and gastrocnemius. A tennis player does it through the racket, and the ball leaves accelerating along whatever line the force was applied."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Measurements used in linear motion",
+          "specBullet": "Scalar quantities: distance and speed",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Scalar quantity",
+                  "meaning": "Describes only the size or magnitude of a measurement, with no direction taken into account. Speed and distance are both scalar quantities."
+                },
+                {
+                  "term": "Distance",
+                  "meaning": "The total length of the path a body follows moving from one point to another. A completed 200m race covers a distance of 200m."
+                },
+                {
+                  "term": "Speed",
+                  "meaning": "The rate of change of position."
+                }
+              ]
+            },
+            {
+              "type": "formula",
+              "equation": "Speed (m/s) = Distance (m) ÷ Time (s)",
+              "meaning": "The units must be matched: distance in kilometres and time in hours gives speed in km/h."
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "On a distance against time graph, a horizontal line shows a stationary performer, and a straight, angled line shows constant speed. The steeper the line, the greater the speed."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Centre of mass and the line of gravity",
+          "specBullet": "Centre of mass and line of gravity",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Centre of mass",
+                  "meaning": "A body's point of balance, where its mass is concentrated. Because the human body is an irregular, constantly moving shape, its centre of mass shifts continuously. Raising the arms overhead raises the centre of mass to help maintain balance."
+                },
+                {
+                  "term": "Line of gravity",
+                  "meaning": "The vertical line running straight down from the centre of mass to the ground."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "In a standing position the centre of mass sits roughly around the hip region, and it differs by gender: typically slightly higher in males, who carry more upper-body mass, and slightly lower in females, where more mass is concentrated at the hips."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Factors affecting stability",
+          "specBullet": "The factors affecting balance and stability",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Good balance and stability matter in almost every sporting action, since an unbalanced kick or tackle is far less effective. Four mechanical factors decide how stable a performer is."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Height of the centre of mass",
+                  "meaning": "A lower centre of mass increases stability. A low stance in rugby, judo or wrestling makes a performer harder to push over."
+                },
+                {
+                  "term": "Position of the line of gravity",
+                  "meaning": "Stability is greatest when the line of gravity falls centrally over the base of support. Moving the centre of mass towards the edge of the base causes over-balancing, which sprinters use deliberately in the blocks to generate forward momentum off the gun."
+                },
+                {
+                  "term": "Area of the base of support",
+                  "meaning": "More contact points create a larger base and greater stability. A headstand, with more contact points, is more stable than a handstand."
+                },
+                {
+                  "term": "Mass of the performer",
+                  "meaning": "Greater mass generally increases stability, through greater inertia."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "These principles get used strategically. The Fosbury flop lets a high jumper's centre of mass pass under the bar while the body passes over it, so less height has to be gained overall. In older techniques such as the scissor kick, the centre of mass stays inside the body and has to be lifted fully over the bar."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopicId": "levers",
+      "sections": [
+        {
+          "heading": "Lever components",
+          "specBullet": "The components of a lever system",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Lever",
+                  "meaning": "A rigid rod, in the body a bone, that rotates about a fixed point when a force is applied. Levers let the body produce and control movement efficiently."
+                },
+                {
+                  "term": "Fulcrum (F)",
+                  "meaning": "The fixed point about which the lever rotates. In the body this is a joint."
+                },
+                {
+                  "term": "Effort (E)",
+                  "meaning": "The force applied to move the lever. In the body this is the muscular force generated by a contracting muscle."
+                },
+                {
+                  "term": "Resistance or load (R)",
+                  "meaning": "The weight being moved by the lever, made up of the weight of the body part itself plus anything else being moved, such as a held object."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "The three classes of lever",
+          "specBullet": "First, second and third-class levers",
+          "blocks": [
+            {
+              "type": "compare",
+              "columns": [
+                "Class",
+                "Arrangement",
+                "Example in the body"
+              ],
+              "rows": [
+                [
+                  "First-class lever",
+                  "The fulcrum sits between the effort and the resistance: R-F-E or E-F-R",
+                  "The triceps brachii extending the elbow. The elbow joint is the fulcrum, between the effort of the triceps pulling on the forearm and the resistance of the forearm and hand's weight. Also at the neck: nodding the head forward and back uses the atlanto-occipital joint as the fulcrum, with the neck extensor muscles providing effort against the resistance of the head's weight"
+                ],
+                [
+                  "Second-class lever",
+                  "The resistance sits between the fulcrum and the effort: F-R-E. The rarest type found in the human body.",
+                  "Standing up onto tip-toes, or plantarflexion. The ball of the foot is the fulcrum, the body weight pushing down through the ankle is the resistance, and the effort comes from the gastrocnemius pulling up on the heel via the Achilles tendon"
+                ],
+                [
+                  "Third-class lever",
+                  "The effort sits between the fulcrum and the resistance: F-E-R. By far the most common arrangement in the human body.",
+                  "Flexing the elbow using the biceps brachii. The elbow joint is the fulcrum, the biceps inserting on the radius provides the effort, and the hand or any weight held in it is the resistance, positioned further from the fulcrum than the effort. The hamstrings flexing the knee and the hip flexors flexing the hip follow the same pattern"
+                ]
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "First class: fulcrum in the middle. Second class: resistance in the middle. Third class: effort in the middle",
+                "Third class is most common, second class is rarest",
+                "Name the three components first, then work out which one sits in the middle"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Mechanical advantage and disadvantage",
+          "specBullet": "Mechanical advantage and mechanical disadvantage",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Force arm",
+                  "meaning": "The distance between the fulcrum and the point where effort is applied."
+                },
+                {
+                  "term": "Resistance arm",
+                  "meaning": "The distance between the fulcrum and the resistance."
+                },
+                {
+                  "term": "Mechanical advantage",
+                  "meaning": "Where the force arm is longer than the resistance arm. A relatively small effort can move a large resistance, though the resistance moves only a short distance and relatively slowly."
+                },
+                {
+                  "term": "Mechanical disadvantage",
+                  "meaning": "Where the resistance arm is longer than the force arm. A relatively large effort is needed to move even a small resistance, but in exchange the resistance moves a greater distance and at greater speed."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Comparing the two arm lengths is what determines how efficiently a lever operates. Most third-class levers in the body, the most common type, operate at a mechanical disadvantage, because the effort acts closer to the fulcrum than the resistance does.",
+                "That is a trade-off the body makes deliberately. It sacrifices force for a large gain in speed and range of movement at the end of the limb, which is exactly what fast, powerful actions such as kicking and throwing need."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopicId": "linear-motion",
+      "sections": [
+        {
+          "heading": "Mass and weight",
+          "specBullet": "Mass, weight, scalar and vector quantities",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Scalar quantity",
+                  "meaning": "A measurement where only size matters, with no direction taken into account."
+                },
+                {
+                  "term": "Vector quantity",
+                  "meaning": "A measurement that states both size and direction."
+                },
+                {
+                  "term": "Mass",
+                  "meaning": "The amount of matter, meaning muscle, bone, fat and fluid, that makes up a body, measured in kilograms. It is a scalar quantity and does not change with location. A rugby prop has far greater mass than a gymnast."
+                },
+                {
+                  "term": "Weight",
+                  "meaning": "A vector quantity: the gravitational force pulling a body towards the centre of the Earth."
+                }
+              ]
+            },
+            {
+              "type": "formula",
+              "equation": "Mass (kg) × Gravity (9.8) = Weight (newtons)",
+              "meaning": "Gravitational strength is constant across the Earth's surface, so a performer with greater mass has correspondingly greater weight."
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "An object's mass stays fixed wherever it is, but its weight would change on a planet or moon with different gravity. On the moon an object weighs roughly a sixth of what it weighs on Earth, despite having identical mass in both places."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Distance and displacement",
+          "specBullet": "Distance and displacement",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Distance",
+                  "meaning": "A scalar quantity: the total length of the path covered between a start and a finish point, regardless of the route taken. One full lap of a 200m track covers a distance of 200m."
+                },
+                {
+                  "term": "Displacement",
+                  "meaning": "A vector quantity: the straight-line distance and direction from start to finish. In a full lap of a track, displacement is zero, because the performer finishes where they started, even though the distance covered was 200m."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The difference shows up most clearly in curved paths. A javelin throw and a basketball free throw both follow a curved flight path, which is the greater distance travelled, while their displacement is the straight line from release point to landing or to the basket."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Speed and velocity",
+          "specBullet": "Speed and velocity",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Speed",
+                  "meaning": "A scalar quantity measuring how fast a body is moving, with no direction specified."
+                },
+                {
+                  "term": "Velocity",
+                  "meaning": "A vector quantity measuring how fast a body is moving, and in which direction."
+                }
+              ]
+            },
+            {
+              "type": "formula",
+              "equation": "Speed (m/s) = Distance covered (m) ÷ Time taken (s)",
+              "meaning": "How far was covered, divided by how long it took."
+            },
+            {
+              "type": "formula",
+              "equation": "Velocity (m/s) = Displacement (m) ÷ Time taken (s)",
+              "meaning": "The same calculation using displacement instead of distance, which is what adds direction."
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Velocity gives a more complete picture of motion than speed, because it also states the direction the performer or object is moving in."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Distance-time graphs",
+          "specBullet": "Interpreting distance-time graphs",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Distance-time graph",
+                  "meaning": "Plots the total distance a performer has covered against time. The shape of the line reveals how their motion has changed."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Shape of the line",
+                "What it shows"
+              ],
+              "rows": [
+                [
+                  "Flat horizontal section",
+                  "The performer is stationary, since no further distance is being covered as time passes"
+                ],
+                [
+                  "Straight diagonal line",
+                  "Constant speed. The steeper the gradient, the greater that constant speed"
+                ],
+                [
+                  "Curve getting progressively steeper",
+                  "Acceleration: more distance is covered in each successive time period, as when building up speed from a standing start"
+                ],
+                [
+                  "Curve flattening out",
+                  "Deceleration: less distance is covered in each period, as near the end of a run"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Velocity-time graphs",
+          "specBullet": "Interpreting velocity-time graphs",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Velocity-time graph",
+                  "meaning": "Plots velocity against time. Its gradient, the change in velocity divided by the change in time, reveals the performer's acceleration at any point."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Shape of the line",
+                "What it shows"
+              ],
+              "rows": [
+                [
+                  "Flat horizontal line",
+                  "Constant velocity, since the gradient, and therefore acceleration, is zero"
+                ],
+                [
+                  "Constant positive gradient",
+                  "Constant, or uniform, acceleration"
+                ],
+                [
+                  "Curve getting progressively steeper",
+                  "Increasing acceleration: velocity is rising by a greater amount in each successive time period"
+                ],
+                [
+                  "Downward-sloping section",
+                  "The performer is decelerating"
+                ],
+                [
+                  "Line crossing below the time axis",
+                  "The body has reversed direction. Velocity is a vector, so a negative value means motion is now happening the opposite way"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Acceleration",
+          "specBullet": "Acceleration and deceleration",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Acceleration",
+                  "meaning": "The rate of change of velocity, measured in metres per second squared. It is a vector quantity. A rise in velocity is a positive acceleration; a fall in velocity is a negative acceleration, or deceleration."
+                }
+              ]
+            },
+            {
+              "type": "formula",
+              "equation": "Acceleration (m/s²) = (Final velocity − Initial velocity) ÷ Time",
+              "meaning": "How much the velocity changed, divided by how long the change took."
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "This gets applied to split-time data, such as comparing a sprinter's velocity across consecutive ten-metre sections of a race, to see where they were accelerating most and where their acceleration had levelled off."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Momentum",
+          "specBullet": "Momentum and its conservation",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Momentum",
+                  "meaning": "The quantity of motion a moving body possesses. Because it is calculated using velocity, momentum is itself a vector quantity."
+                }
+              ]
+            },
+            {
+              "type": "formula",
+              "equation": "Momentum (kgm/s) = Mass (kg) × Velocity (m/s)",
+              "meaning": "Increase either the mass or the velocity and momentum goes up."
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Because momentum depends on both factors, a heavier player moving at the same speed as a lighter one generates more momentum, and is therefore harder to stop or to turn. A prop forward and a winger running at the same pace are not equally easy to tackle.",
+                "Momentum is conserved when no external force acts on a body or object in flight. It stays the same unless something, such as gravity, air resistance or contact with another body, changes its velocity."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Internal and external forces",
+          "specBullet": "Internal and external forces",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Force",
+                  "meaning": "What is required to change a body's state of motion."
+                },
+                {
+                  "term": "Internal force",
+                  "meaning": "Produced by the body's own skeletal muscles contracting, such as the quadriceps concentrically contracting to extend the knee when jumping."
+                },
+                {
+                  "term": "External force",
+                  "meaning": "Originates from outside the body: friction, air resistance or gravity."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The two work together. Internal muscular force lets a runner generate the force needed to move, while external forces such as friction and air resistance act to resist that movement."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Vertical forces: weight and reaction",
+          "specBullet": "Vertical forces acting on a performer",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Weight",
+                  "meaning": "Acts as a vertical force pulling a performer down towards the ground, equal to mass multiplied by the acceleration due to gravity."
+                },
+                {
+                  "term": "Reaction force",
+                  "meaning": "Occurs whenever two bodies are in contact, following Newton's third law: for every action force there is an equal and opposite reaction force."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "A boot striking a ball drives force forward and downward into it, and the ball pushes back into the boot just as hard, in the opposite direction. Every running stride is the same exchange. The foot presses into the ground, the ground presses back with equal force, and that returned force is what drives the runner forward."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Horizontal forces: friction and air resistance",
+          "specBullet": "Friction and air resistance",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Friction",
+                  "meaning": "Occurs whenever two surfaces in contact tend to slip or slide against one another. It always acts in the opposite direction to that slipping motion. For a sprinter the foot tends to slip backward on push-off, so the friction arrow acting on the foot points forward."
+                },
+                {
+                  "term": "Air resistance",
+                  "meaning": "A form of drag that opposes a body's motion as it travels through air."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "",
+                "Friction is affected by",
+                "Air resistance increases with"
+              ],
+              "rows": [
+                [
+                  "Factor one",
+                  "The surface characteristics of the two bodies in contact. Rougher surfaces, such as spiked running shoes, increase friction and grip",
+                  "The velocity of the moving body. Faster movement meets greater resistance"
+                ],
+                [
+                  "Factor two",
+                  "The temperature of the two surfaces. Sweeping the ice ahead of a curling stone slightly warms its surface, reducing friction so the stone travels further",
+                  "The cross-sectional area presented to the air. An upright cyclist meets more air resistance than one crouched low over the handlebars"
+                ],
+                [
+                  "Factor three",
+                  "The mass of the object sliding. A larger mass increases friction",
+                  "The shape and surface of the body. Smooth, streamlined shapes, such as a swimmer's shaved body and streamlined cap, reduce resistance compared with a rougher profile"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Free body diagrams and net force",
+          "specBullet": "Free body diagrams and net force",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Free body diagram",
+                  "meaning": "Represents the forces acting on a performer at a single instant using arrows. The arrow's length shows the size of the force, its starting point shows where it is applied, and its direction shows the direction the force acts in."
+                },
+                {
+                  "term": "Net (resultant) force",
+                  "meaning": "What remains once all the forces acting on a body have been combined."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Where two opposing forces match, they cancel out: net force comes to zero, nothing about the motion changes, and the body is balanced. Where one outweighs the other, the leftover is an unbalanced force and the motion changes to match it. That is why a jumper rises once reaction force beats bodyweight, and why a sprinter accelerates once propulsive friction beats the resistance working against them.",
+                "In events combining vertical and horizontal force, the ratio between the two components of the resultant force shapes the outcome. A high jumper's technique emphasises a large vertical component to maximise height, whereas a long jumper emphasises a larger horizontal component relative to the vertical, to maximise distance."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Impulse and force-time graphs",
+          "specBullet": "Impulse and the interpretation of force-time graphs",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Impulse",
+                  "meaning": "The amount of time a force is applied for."
+                }
+              ]
+            },
+            {
+              "type": "formula",
+              "equation": "Impulse (newton seconds) = Force × Time",
+              "meaning": "A change in momentum needs a force applied over time, so increasing impulse increases the change in momentum."
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Using impulse to",
+                "How",
+                "Example"
+              ],
+              "rows": [
+                [
+                  "Increase momentum",
+                  "Extend the time the force acts for, or increase the force applied",
+                  "A basketball player extending their arms and legs through a jump to generate a larger vertical impulse and jump higher; a hammer thrower using several full turns to apply force over a longer time and build greater release speed"
+                ],
+                [
+                  "Decrease momentum safely",
+                  "Extend the time over which a force is absorbed",
+                  "A gymnast bending the hips, knees and ankles on landing from the parallel bars, spreading the impact over more time and reducing injury risk, rather than landing stiffly"
+                ]
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Force-time graph",
+                  "meaning": "Shows how the force applied to the ground changes across a movement. The area under the curve represents impulse."
+                },
+                {
+                  "term": "Net impulse",
+                  "meaning": "The positive and negative portions of a force-time graph combined. In sprinting, a large positive impulse occurs as the foot drives into the ground and the reaction force accelerates the athlete forward, while a smaller negative impulse occurs as the foot lands and briefly decelerates the body."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Stage of a sprint",
+                "Which impulse dominates",
+                "Result"
+              ],
+              "rows": [
+                [
+                  "Early in the race",
+                  "Positive impulse dominates",
+                  "Acceleration"
+                ],
+                [
+                  "Mid-race",
+                  "Positive and negative impulses roughly balance",
+                  "Constant velocity"
+                ],
+                [
+                  "Towards the end, as the athlete tires",
+                  "Negative impulse can begin to dominate",
+                  "Deceleration"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopicId": "angular-motion",
+      "sections": [
+        {
+          "heading": "Angular motion and eccentric force",
+          "specBullet": "Angular motion and the eccentric force that produces it",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Angular motion",
+                  "meaning": "Movement or rotation around a fixed point or axis. It can be whole-body rotation, such as a somersault, or rotation of individual body parts around a joint, such as the arm rotating at the shoulder when bowling in cricket."
+                },
+                {
+                  "term": "Eccentric force",
+                  "meaning": "A force applied away from an object's centre of mass, which causes it to turn rather than travel in a straight line. A force applied directly through the centre of mass, a concentric force, produces pure linear motion with no rotation."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Even sports that look purely linear contain a large angular component. In sprinting the arms and legs rotate continuously around the shoulder and hip joints while the athlete travels forward in a straight line."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Axes of rotation",
+          "specBullet": "The three axes of rotation",
+          "blocks": [
+            {
+              "type": "compare",
+              "columns": [
+                "Axis",
+                "Runs",
+                "Rotation about it produces"
+              ],
+              "rows": [
+                [
+                  "Transverse axis",
+                  "Side to side through the body",
+                  "A forward or backward somersault"
+                ],
+                [
+                  "Sagittal axis",
+                  "Front to back through the body",
+                  "A cartwheel"
+                ],
+                [
+                  "Longitudinal axis",
+                  "Top to bottom through the body",
+                  "A spin in figure skating"
+                ]
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Which axis the body rotates around depends on the direction of the eccentric force applied."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Torque",
+          "specBullet": "Torque, or the moment of a force",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Torque",
+                  "meaning": "Also called a moment. The rotational effect of a force, the turning effect that causes a body to rotate about its axis."
+                }
+              ]
+            },
+            {
+              "type": "formula",
+              "equation": "Torque (newton metres) = Force (newtons) × Perpendicular distance from the fulcrum (metres)",
+              "meaning": "Increase the force, or apply the same force further from the axis, and torque goes up."
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "A longer moment arm is why pushing a door open near its hinge takes far more force than pushing the same door at its outer edge. The perpendicular distance from the pivot is far greater at the edge."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Newton's laws applied to angular motion",
+          "specBullet": "Newton's laws of motion applied to rotation",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The three laws carry over to rotational movement by substituting torque for force, and angular momentum for momentum."
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Law",
+                "Applied to rotation",
+                "Example"
+              ],
+              "rows": [
+                [
+                  "Newton's first law (angular)",
+                  "A rotating body continues to spin about its axis with constant angular momentum unless an external torque acts upon it",
+                  "An ice skater performing a jump keeps spinning at a constant rate throughout the flight phase. Only the torque generated when the skates strike the ice changes their rotational motion"
+                ],
+                [
+                  "Newton's second law (angular)",
+                  "The rate of change of a body's angular momentum is proportional to the torque causing it, and takes place in the direction that torque acts",
+                  "A larger torque produces a faster rotation"
+                ],
+                [
+                  "Newton's third law (angular)",
+                  "For every torque applied by one body to another, an equal and opposite torque is exerted back",
+                  "A goalkeeper throwing both arms upward to tip a shot over the bar generates an equal and opposite reaction that swings their lower legs backward"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Angular displacement, velocity and acceleration",
+          "specBullet": "Angular displacement, angular velocity and angular acceleration",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Angular displacement",
+                  "meaning": "The smallest angle of turn between a body's starting and finishing position during a rotation, measured in degrees or in radians."
+                },
+                {
+                  "term": "Radians",
+                  "meaning": "The unit angular displacement is often measured in. One radian is 57.3 degrees."
+                },
+                {
+                  "term": "Angular velocity",
+                  "meaning": "A vector quantity describing rotational speed together with the axis being rotated around."
+                },
+                {
+                  "term": "Angular acceleration",
+                  "meaning": "The rate of change of angular velocity."
+                }
+              ]
+            },
+            {
+              "type": "formula",
+              "equation": "Angular velocity (rad/s) = Angular displacement (rad) ÷ Time taken (s)",
+              "meaning": "How far the body turned, divided by how long the turn took."
+            },
+            {
+              "type": "formula",
+              "equation": "Angular acceleration (rad/s²) = Change in angular velocity (rad/s) ÷ Time taken (s)",
+              "meaning": "How much the rotational speed changed, divided by the time the change took."
+            }
+          ]
+        },
+        {
+          "heading": "Moment of inertia",
+          "specBullet": "Moment of inertia and the factors affecting it",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Moment of inertia",
+                  "meaning": "A body's resistance to angular motion: resistance both to starting a rotation and, once rotating, to having that rotation stopped. A revolving door is hard to get moving and then equally hard to bring to a stop."
+                },
+                {
+                  "term": "Mass",
+                  "meaning": "Greater mass increases moment of inertia and therefore resistance to rotation. A bowling ball is harder to start rolling than a football, but equally harder to stop once moving."
+                },
+                {
+                  "term": "Distribution of mass relative to the axis of rotation",
+                  "meaning": "The further a body's mass is spread from its axis of rotation, the greater its moment of inertia."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "That second factor is why an open, straight-body somersault, where the diver's mass is extended away from the axis, has a higher moment of inertia and is harder to perform than a tucked somersault, where the mass is pulled in close to the axis.",
+                "The same principle operates inside a single sprinting stride. The recovery leg is drawn in with a high knee lift, which brings its mass closer to the hip joint and lowers its moment of inertia, so it can swing through faster ready for the next drive phase."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Angular momentum and its conservation",
+          "specBullet": "Angular momentum and the conservation of angular momentum",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Angular momentum",
+                  "meaning": "The quantity of rotation, or spin, a body possesses."
+                }
+              ]
+            },
+            {
+              "type": "formula",
+              "equation": "Angular momentum = Moment of inertia × Angular velocity",
+              "meaning": "Moment of inertia and angular velocity are inversely proportional: if one increases, the other must decrease to keep angular momentum unchanged."
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Angular momentum is conserved, meaning it stays constant, whenever no external torque acts on a rotating body. That applies during flight, and on very low-friction surfaces such as ice. Once a diver leaves the board their overall angular momentum is fixed for the whole dive, and can only change again through an external torque such as hitting the water."
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Action",
+                "Effect on moment of inertia",
+                "Effect on angular velocity"
+              ],
+              "rows": [
+                [
+                  "A figure skater starts a spin with arms and one leg extended outward",
+                  "Large",
+                  "Slower rotation"
+                ],
+                [
+                  "The skater pulls the limbs in tight to the body",
+                  "Small",
+                  "Sharply increased, producing a much faster spin"
+                ],
+                [
+                  "A diver extends out of a tuck just before entering the water",
+                  "Increased",
+                  "Slowed, which helps them straighten out and control the entry"
+                ]
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Angular momentum is fixed in flight, so only moment of inertia can be changed",
+                "Mass in close means a low moment of inertia and a fast spin",
+                "Mass spread out means a high moment of inertia and a slow spin"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopicId": "projectile-motion",
+      "sections": [
+        {
+          "heading": "Projectile motion",
+          "specBullet": "What makes a body a projectile",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Projectile motion",
+                  "meaning": "The flight of an object, or of the human body, once it is travelling through the air and no longer in contact with the ground or another surface providing force."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The instant contact ends, a ball is a projectile: kicked, thrown or struck, it is on its own from that point. Bodies behave no differently. A long jumper, a high jumper or a gymnast on the vault becomes a projectile the moment their feet leave the ground."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Angle of release",
+          "specBullet": "The angle of release and its optimum value",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Angle of release",
+                  "meaning": "The angle between the horizontal and the direction the projectile is travelling at the moment it is released."
+                },
+                {
+                  "term": "Horizontal displacement",
+                  "meaning": "The straight-line horizontal distance covered from release to landing. Three factors determine it: angle, speed and height of release."
+                },
+                {
+                  "term": "Optimum angle of release",
+                  "meaning": "The release angle producing maximum horizontal distance. It depends on how release height compares with landing height."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Release height compared with landing height",
+                "Optimum angle",
+                "Example"
+              ],
+              "rows": [
+                [
+                  "Equal",
+                  "45 degrees, ignoring air resistance",
+                  "A long jumper, who takes off from and lands on the same level ground"
+                ],
+                [
+                  "Lower than landing height",
+                  "Greater than 45 degrees",
+                  "Shooting a basketball, where the ball is released below the height of the ring"
+                ],
+                [
+                  "Higher than landing height",
+                  "Less than 45 degrees",
+                  "The shot put, where the athlete releases from hand height, well above the ground where it lands"
+                ]
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "In practice elite shot putters typically use a release angle of around 26 to 38 degrees, because a lower angle allows greater release speed to be generated. The ideal angle for any individual also depends on their size, strength and technique."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Speed and height of release",
+          "specBullet": "Speed of release and height of release",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Speed of release",
+                  "meaning": "A greater speed of release increases horizontal displacement. In the shot put, the speed generated by the athlete's shift or rotation across the circle determines how fast the shot leaves the hand, and a faster release travels further."
+                },
+                {
+                  "term": "Height of release",
+                  "meaning": "A greater height of release also increases horizontal displacement, because gravity acts on the projectile for a longer overall flight, giving it more time and space to travel horizontally before landing."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "A taller cricket fielder throwing from a greater height will, all else being equal, achieve greater horizontal distance than a shorter fielder using the same release angle and speed. The shorter fielder would have to alter either their angle or their speed of release to match that distance."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Parabolic and non-parabolic flight paths",
+          "specBullet": "Parabolic and distorted flight paths",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Once in the air, a projectile's flight path is shaped by two opposing forces: its weight, pulling it down under gravity, and air resistance, opposing its motion through the air. Which of the two dominates decides the shape of the path."
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Flight path",
+                "When it happens",
+                "Example"
+              ],
+              "rows": [
+                [
+                  "True parabolic flight path",
+                  "Where the projectile has a large weight relative to a small air resistance force. A parabola is a smooth, symmetrical curve",
+                  "A shot put, which is heavy and compact, so weight dominates over the comparatively small air resistance acting on it throughout flight"
+                ],
+                [
+                  "Distorted (non-parabolic) flight path",
+                  "Where the projectile is lighter, or has an irregular shape that increases drag, so air resistance affects it more heavily",
+                  "A badminton shuttlecock, which starts a serve at high velocity from the racket but slows rapidly and loses its symmetrical curve as air resistance comes to dominate its very light weight"
+                ]
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Time in the air matters too. The longer a projectile stays in flight, the more time air resistance has to act on it and distort its path, so slower, longer-duration flights are generally more susceptible to distortion than fast, short ones."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Vector components of parabolic flight",
+          "specBullet": "Resolving velocity into horizontal and vertical components",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "A projectile released at an angle has both upward and forward motion, so its velocity at release can be broken down into two separate vector components. Each is shown as an arrow whose length represents its size."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Horizontal component",
+                  "meaning": "Represents the forward motion of the projectile. Where air resistance is negligible, as with a shot put, this component stays constant in size throughout the entire flight, because nothing is acting to speed it up or slow it down horizontally."
+                },
+                {
+                  "term": "Vertical component",
+                  "meaning": "Represents the upward and downward motion of the projectile. Unlike the horizontal component it is constantly affected by gravity."
+                },
+                {
+                  "term": "Resultant vector",
+                  "meaning": "The single vector produced by combining the horizontal and vertical components at any instant. It represents the projectile's true direction and speed of travel at that point in its flight."
+                }
+              ]
+            },
+            {
+              "type": "how_it_works",
+              "mode": "chain",
+              "items": [
+                "At release, the vertical component is large and positive, moving upward away from the athlete",
+                "It shrinks to zero at the peak of the flight, where the projectile is momentarily moving purely horizontally",
+                "It then grows increasingly negative as gravity pulls the projectile back down towards landing"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopicId": "fluid-mechanics",
+      "sections": [
+        {
+          "heading": "Fluid mechanics and dynamic fluid force",
+          "specBullet": "Fluid mechanics and the two dynamic fluid forces",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Fluid mechanics",
+                  "meaning": "The study of how an object or the human body moves through a fluid environment, whether a liquid, such as a swimmer moving through water, or a gas, such as a sprinter or ball moving through air."
+                },
+                {
+                  "term": "Fluid dynamics",
+                  "meaning": "The branch of fluid mechanics concerned specifically with moving fluids."
+                },
+                {
+                  "term": "Dynamic fluid forces",
+                  "meaning": "The two forces acting on a body travelling through air or water: drag, which opposes motion, and lift, which acts perpendicular to the direction of travel."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Both forces influence a wide range of sports, including swimming, cycling, sprinting and any thrown projectile such as a discus or javelin."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Drag: surface and form drag",
+          "specBullet": "Surface drag and form drag",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Drag",
+                  "meaning": "A resistance force acting in the opposite direction to a body's motion through a fluid, produced by a combination of friction and air or water resistance. It always has a negative effect on velocity."
+                },
+                {
+                  "term": "Surface drag",
+                  "meaning": "Also called skin drag. Friction between the outer surface of a moving body and the fluid around it. Elite swimmers shave body hair and wear smooth, close-fitting swimwear specifically to reduce it."
+                },
+                {
+                  "term": "Form drag",
+                  "meaning": "Also called shape drag. Results from the impact of the fluid on the overall shape of a moving body."
+                },
+                {
+                  "term": "Streamlining",
+                  "meaning": "Shaping the body to be as thin and straight as possible in the direction of travel, minimising the fluid's resistance. It is how form drag is reduced."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "A large form drag on the object at the front of a group also creates a pocket of calmer, less turbulent air or water immediately behind it, which is what makes slipstreaming possible."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Slipstreaming",
+          "specBullet": "Slipstreaming, or drafting",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Slipstreaming",
+                  "meaning": "Also called drafting. Taking advantage of the low-drag pocket of air created directly behind another moving competitor. It is most commonly seen in cycling."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The lead rider meets the air first, and it parts around them rather than reaching the wheel behind. What is left is a pocket of reduced resistance for whoever sits in it. The gap has to stay small, roughly 15 to 30 centimetres off the wheel in front, but held there a following rider spends up to around 30 per cent less energy than they otherwise would."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Factors affecting drag",
+          "specBullet": "The factors affecting the size of the drag force",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Velocity",
+                  "meaning": "The faster a body moves through a fluid, the greater the drag force acting against it. This is why very fast sports such as sprinting, cycling and motor racing place such heavy emphasis on minimising drag through streamlined body positioning."
+                },
+                {
+                  "term": "Cross-sectional area",
+                  "meaning": "A larger area facing the direction of travel increases drag, and reducing it lowers drag. Cyclists crouch low over the handlebars rather than sitting upright, and speed skiers adopt a low tucked stance, specifically to reduce it."
+                },
+                {
+                  "term": "Shape and surface characteristics",
+                  "meaning": "A smooth, aerodynamic shape reduces drag. Specialist streamlined equipment and clothing, such as aerodynamic cycling helmets and ridged clothing, streamlined ski helmets extending to the shoulders, and form-fitting suits, are used to gain small, marginal performance advantages."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The opposite case makes the point. An irregular shape with a large surface area relative to its weight, such as a light, feathered badminton shuttlecock, experiences a much larger drag force and loses speed very quickly in flight."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "The Bernoulli principle",
+          "specBullet": "The Bernoulli principle and lift force",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Bernoulli principle",
+                  "meaning": "Faster-moving air exerts lower pressure, while slower-moving air exerts higher pressure."
+                },
+                {
+                  "term": "Lift force",
+                  "meaning": "A force acting perpendicular to a body's direction of travel, generated by that pressure difference, on projectiles such as the discus."
+                },
+                {
+                  "term": "Angle of attack",
+                  "meaning": "The tilt of the projectile relative to the oncoming airflow. The amount of lift generated depends on it."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Greater lift keeps a projectile in the air for longer, which increases the horizontal distance it can travel before landing."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Upward lift force: the discus",
+          "specBullet": "Upward lift force applied to the discus",
+          "blocks": [
+            {
+              "type": "how_it_works",
+              "mode": "chain",
+              "items": [
+                "The discus is released with an appropriate angle of attack",
+                "Air passing over its curved top surface has a longer distance to travel than the air passing beneath it, so the air above must move faster",
+                "Under the Bernoulli principle, that faster-moving air above creates lower pressure, while the slower air underneath creates relatively higher pressure",
+                "The higher pressure beneath generates an upward lift force",
+                "Time in the air is extended, and the horizontal distance thrown increases"
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The optimum angle of attack for a discus is generally between 25 and 40 degrees. Too great an angle of attack reduces lift and increases drag instead, causing the discus to stall and lose distance."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Downward lift force",
+          "specBullet": "Downward lift force applied to skiers, cyclists and racing cars",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The same principle can generate a downward lift force, which is useful whenever a performer or vehicle needs to be pressed more firmly into the ground or track to increase friction and grip, rather than lifted into the air."
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Who uses it",
+                "How the airflow works",
+                "What it achieves"
+              ],
+              "rows": [
+                [
+                  "Formula 1 car",
+                  "The rear spoiler is angled so air passing over the top of the car travels a shorter, and therefore slower, path than the air passing underneath. That creates higher pressure above and lower pressure below",
+                  "A downward lift force pushes the car into the track, increasing tyre grip at high speed and through corners"
+                ],
+                [
+                  "Cyclist",
+                  "Crouched low over the handlebars, air passing over their back travels a shorter, slower path than the air passing beneath, generating higher pressure above",
+                  "A downward lift force that helps the tyres grip the road"
+                ],
+                [
+                  "Speed skier",
+                  "The same effect generates downward lift",
+                  "The skis stay firmly in contact with the snow, and the resulting increase in friction helps melt a thin layer of the snow surface, producing a faster, lower-friction surface to ski on"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,604 @@
+{
+  "topicId": "psychological-factors-individual",
+  "subtopics": [
+    {
+      "subtopicId": "achievement-motivation-theory",
+      "sections": [
+        {
+          "heading": "Achievement motivation: NACH and NAF",
+          "specBullet": "Achievement motivation and Atkinson's two personality dimensions",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Achievement motivation",
+                  "meaning": "How much a player desires to succeed. Atkinson, in 1964, identified two personality dimensions underlying it."
+                },
+                {
+                  "term": "Need to achieve (NACH)",
+                  "meaning": "The dimension associated with approach behaviours."
+                },
+                {
+                  "term": "Need to avoid failure (NAF)",
+                  "meaning": "The dimension associated with avoidance behaviours."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "",
+                "High NACH: approach behaviours",
+                "High NAF: avoidance behaviours"
+              ],
+              "rows": [
+                [
+                  "Towards competition",
+                  "Welcomes competition and seeks challenge",
+                  "Avoids competition, for example by choosing easy opponents"
+                ],
+                [
+                  "Towards risk",
+                  "Takes risks",
+                  "Avoids risk"
+                ],
+                [
+                  "Persistence",
+                  "Persists at tasks",
+                  "Gives up easily"
+                ],
+                [
+                  "Feedback",
+                  "Welcomes feedback and evaluation",
+                  "Dislikes feedback and avoids evaluation"
+                ],
+                [
+                  "Confidence and attribution",
+                  "Confident, attributes success internally, takes pride in performing well",
+                  "Lacks confidence"
+                ]
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Achievement motivation in any given situation is not personality alone. It results from the interaction of personality, meaning NACH and NAF, with situational factors, particularly the perceived probability of success and the incentive value of succeeding."
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "A coach can develop the need to achieve through reinforcement, praising effort and success; by attributing success internally, linking it to the player's own effort or technique rather than to luck; by allowing early success through achievable tasks; by improving confidence; and through appropriate goal setting."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopicId": "attribution-theory",
+      "sections": [
+        {
+          "heading": "Attribution theory and Weiner's model",
+          "specBullet": "Weiner's model of attribution",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Attribution",
+                  "meaning": "The perceived reason given for an outcome such as winning or losing. Correct attributions matter for maintaining motivation, effort and confidence."
+                },
+                {
+                  "term": "Locus of causality",
+                  "meaning": "Weiner's first dimension, from 1974: whether the reason is internal, within the performer's control such as effort or skill, or external, outside their control such as luck or a referee's decision."
+                },
+                {
+                  "term": "Locus of stability",
+                  "meaning": "Weiner's second dimension: whether the reason is stable, unlikely to change in the short term such as ability or task difficulty, or unstable, able to change quickly such as effort or luck."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "",
+                "Stable",
+                "Unstable"
+              ],
+              "rows": [
+                [
+                  "Internal",
+                  "Ability",
+                  "Effort"
+                ],
+                [
+                  "External",
+                  "Task difficulty",
+                  "Luck"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Self-serving bias and learned helplessness",
+          "specBullet": "Self-serving bias and learned helplessness",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Self-serving bias",
+                  "meaning": "The tendency to attribute winning to internal, stable reasons such as one's own ability, while attributing losing to external or unstable reasons such as bad luck or a poor refereeing decision. It helps protect and promote self-esteem."
+                },
+                {
+                  "term": "Learned helplessness",
+                  "meaning": "Where a performer attributes losing to internal, stable reasons such as a lack of ability, which leads them to believe failure is inevitable and success unlikely. It can cause a performer to give up even when success is still possible."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Learned helplessness can be general, where a performer feels they are poor at sport overall, or specific, limited to one sport, skill or event. It is caused not only by negative attributions but also by negative feedback, criticism, or repeated lack of success."
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "Learned helplessness and self-serving bias are both just ways of explaining a loss.",
+                  "right": "They point in opposite directions. Self-serving bias blames a loss on external, unstable factors and protects self-esteem. Learned helplessness blames it on internal, stable factors and destroys it."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Attribution retraining and mastery orientation",
+          "specBullet": "Attribution retraining and mastery orientation",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Attribution retraining",
+                  "meaning": "Coaching strategies used to overcome learned helplessness by changing the reasons a performer gives for failure, shifting them away from stable, internal factors such as ability towards external or unstable reasons such as luck, task difficulty or effort."
+                },
+                {
+                  "term": "Mastery orientation",
+                  "meaning": "The opposite of learned helplessness. The performer has high confidence, believes success is repeatable, and views failure as temporary and changeable. They show approach behaviour and keep trying after initial setbacks."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "A coach supports attribution retraining by providing reinforcement, allowing early success through achievable goals, stressing personal improvement even after a loss, and using cognitive or somatic stress management techniques such as imagery and centering to build confidence."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopicId": "self-efficacy-confidence",
+      "sections": [
+        {
+          "heading": "Trait and state confidence",
+          "specBullet": "Confidence and the Vealey model",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Confidence",
+                  "meaning": "A belief in the ability to master a task. It is closely linked to approach behaviour, since confident performers are more likely to take risks and welcome challenge."
+                },
+                {
+                  "term": "Trait confidence",
+                  "meaning": "A consistent level of confidence shown across most situations, largely unaffected by pressure or anxiety."
+                },
+                {
+                  "term": "State confidence",
+                  "meaning": "Confidence specific to a particular situation, which varies with the demands of that situation and the performer's prior experience of it."
+                },
+                {
+                  "term": "Vealey model of sports confidence",
+                  "meaning": "Explains how trait confidence and competitive orientation combine within a specific objective sporting situation to produce state confidence, which then affects performance."
+                },
+                {
+                  "term": "Objective sporting situation",
+                  "meaning": "The specific situation the performer faces, in which trait confidence and competitive orientation combine."
+                }
+              ]
+            },
+            {
+              "type": "how_it_works",
+              "mode": "chain",
+              "items": [
+                "Trait confidence and competitive orientation are brought into an objective sporting situation",
+                "They combine to produce state confidence",
+                "State confidence affects performance",
+                "The performer subjectively judges the outcome",
+                "That judgement feeds back to shape future trait confidence and competitive orientation"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Bandura's self-efficacy theory",
+          "specBullet": "Bandura's four factors affecting self-efficacy",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Self-efficacy",
+                  "meaning": "A belief in the ability to master a specific sporting situation. Essentially task-specific confidence, as described by Bandura in 1977."
+                },
+                {
+                  "term": "Performance accomplishments",
+                  "meaning": "Past success in a task increases confidence for future attempts."
+                },
+                {
+                  "term": "Vicarious experience",
+                  "meaning": "Watching a similar model succeed at a task can increase the observer's own confidence, especially where the model is perceived as similar in ability."
+                },
+                {
+                  "term": "Verbal persuasion",
+                  "meaning": "Encouragement from significant others, such as coaches or respected teammates, reinforces belief in the ability to succeed."
+                },
+                {
+                  "term": "Emotional arousal",
+                  "meaning": "How a performer interprets their physiological arousal. Reading it positively supports confidence; reading it negatively, as anxiety, undermines it."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Coaches and players use these four factors directly: controlling arousal through relaxation, giving accurate demonstrations, pointing out past successful performances, offering encouragement, setting attainable goals, and using mental rehearsal."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Home field advantage",
+                  "meaning": "Playing in a familiar environment in front of a supportive crowd tends to increase confidence and assertive behaviour. Very large or hostile crowds can sometimes increase anxiety instead, causing performance to suffer."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopicId": "leadership",
+      "sections": [
+        {
+          "heading": "Leaders: types and qualities",
+          "specBullet": "Prescribed and emergent leaders, and leadership qualities",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Leader",
+                  "meaning": "Someone who influences others towards achieving goals. A leader plays a key role in maintaining motivation and setting team targets."
+                },
+                {
+                  "term": "Prescribed leader",
+                  "meaning": "Appointed from outside the group, for example by a higher authority. A prescribed leader often brings new ideas."
+                },
+                {
+                  "term": "Emergent leader",
+                  "meaning": "Appointed from within the existing group. An emergent leader often preserves established methods and group harmony."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Effective leaders typically show charisma, strong communication, interpersonal skills, empathy, relevant experience, an inspirational manner, confidence, and good organisational skills."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Lewin's three styles of leadership",
+          "specBullet": "Autocratic, democratic and laissez-faire leadership",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Lewin, in 1939, identified three styles of leadership. Which is most effective depends on the situation rather than on the leader alone."
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Style",
+                "How the leader operates",
+                "Strengths and risks"
+              ],
+              "rows": [
+                [
+                  "Autocratic (task-oriented)",
+                  "Makes all the decisions and dictates instructions to the group",
+                  "Best suited to situations requiring quick decisions and clear results"
+                ],
+                [
+                  "Democratic (person-oriented)",
+                  "Consults the group and seeks opinions before making decisions",
+                  "Supports interpersonal relationships and group cohesion, but takes longer to reach decisions"
+                ],
+                [
+                  "Laissez-faire",
+                  "Leaves most decisions to the group and takes a hands-off role",
+                  "Can work well with highly experienced, self-sufficient groups, but risks reduced motivation and poor discipline without guidance"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Fiedler's contingency model",
+          "specBullet": "Fiedler's contingency model of leadership",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Fiedler's contingency model",
+                  "meaning": "Suggests the most effective leadership style depends on how favourable the situation is for the leader, judged on the leader's respect and position of authority, group ability and motivation, task clarity, and the leader-group relationship."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "How favourable the situation is",
+                "Most effective style",
+                "What that looks like"
+              ],
+              "rows": [
+                [
+                  "Very favourable",
+                  "Task-oriented (autocratic)",
+                  "High respect, good relationships, a clear task and high motivation"
+                ],
+                [
+                  "Moderately favourable",
+                  "Person-oriented (democratic)",
+                  "Building interpersonal relationships and consulting the group is more valuable here"
+                ],
+                [
+                  "Very unfavourable",
+                  "Task-oriented (autocratic)",
+                  "Low respect, poor relationships, low motivation and an unclear task"
+                ]
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Task-oriented works at both extremes, favourable and unfavourable",
+                "Person-oriented works in the middle",
+                "The model is about the situation, not about which style is better"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Chelladurai's multi-dimensional model",
+          "specBullet": "Chelladurai's multi-dimensional model of leadership",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Chelladurai, in 1980, argued that leadership effectiveness depends on more than the situation alone. It depends on matching leadership style to the requirements of the situation, the needs of the group, and the leader's own preferred style."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Required behaviour",
+                  "meaning": "What the situation demands."
+                },
+                {
+                  "term": "Actual behaviour",
+                  "meaning": "What the leader decides to do."
+                },
+                {
+                  "term": "Preferred behaviour",
+                  "meaning": "What the group wants."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The situation is shaped by characteristics of the task, of the leader, and of the group, including group size, gender, age and experience. A large, dangerous or time-pressured situation may require a more autocratic, instructive approach, while an experienced, low-danger situation may suit a more democratic one.",
+                "The closer the match between required, actual and preferred behaviour, the higher the resulting group performance and satisfaction."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopicId": "stress-management",
+      "sections": [
+        {
+          "heading": "Stress, eustress and stressors",
+          "specBullet": "Stress, eustress and stressors",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Stress",
+                  "meaning": "The response of an individual to a perceived threat. It is one of the most common emotions in sport, occurring both just before and during competition."
+                },
+                {
+                  "term": "Eustress",
+                  "meaning": "A positive response to a threat, such as the thrill and excitement of an extreme sport. A negative response is simply termed stress."
+                },
+                {
+                  "term": "Stressor",
+                  "meaning": "The cause of stress in sport: playing an important match, facing a highly-rated opponent, playing for an important reward, fear of letting down a team, or pressure from a coach, from spectators or from the performer's own expectations."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Type of response",
+                "What it looks like"
+              ],
+              "rows": [
+                [
+                  "Cognitive",
+                  "Psychological: worry, negative thoughts, loss of concentration"
+                ],
+                [
+                  "Somatic",
+                  "Physiological: increased heart rate, sweating, muscle tension"
+                ]
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Both types of response can be positive, as eustress, or negative, depending on the situation and on how the performer copes with it."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Cognitive stress management techniques",
+          "specBullet": "Cognitive techniques for managing stress",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Thought stopping",
+                  "meaning": "Using a learned physical action or cue to interrupt and remove a negative or irrational thought."
+                },
+                {
+                  "term": "Positive self-talk",
+                  "meaning": "Replacing negative thoughts with positive ones to build confidence and focus."
+                },
+                {
+                  "term": "Imagery",
+                  "meaning": "Creating a mental image of successful performance, to recall the feel of a skill."
+                },
+                {
+                  "term": "Visualisation",
+                  "meaning": "Using an internal mental image, from the performer's own viewpoint, or an external one, as if watching on television, to rehearse a skill or situation before performing it."
+                },
+                {
+                  "term": "Mental rehearsal",
+                  "meaning": "Mentally going through the movements of a task or skill, in the correct order and sequence, without physically performing it."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Somatic stress management techniques",
+          "specBullet": "Somatic techniques for managing stress",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Biofeedback",
+                  "meaning": "Using equipment, such as galvanic skin response or heart rate monitors, to help a performer recognise physical signs of stress so they can learn to consciously control and calm them."
+                },
+                {
+                  "term": "Progressive muscle relaxation",
+                  "meaning": "A physical technique where the performer tenses and then releases and relaxes different muscle groups progressively throughout the body, working from the periphery towards the core."
+                },
+                {
+                  "term": "Centering",
+                  "meaning": "A form of breathing control where the performer relaxes the chest and abdominal muscles while directing attention away from the pressure of the situation, using slow, controlled breaths. It is often used just before a skill such as a penalty or free kick."
+                }
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Cognitive techniques treat the thought, somatic techniques treat the body",
+                "Match the technique to the type of stress response",
+                "Centering is the one used in the moment, just before executing a skill"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Attentional control, narrowing and wastage",
+          "specBullet": "Attentional narrowing, attentional wastage and Nideffer's attentional styles",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Attentional narrowing",
+                  "meaning": "At high arousal, the width of attention, meaning the amount of information being processed, is reduced, which can cause important cues to be missed."
+                },
+                {
+                  "term": "Attentional wastage",
+                  "meaning": "Nideffer's term for when incorrect information is processed and important cues are ignored, because the performer fails to filter their attention appropriately."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Arousal level is what moves a performer between these states. At moderate arousal the performer tends to pick up relevant information and perform successfully. At very low arousal, too much irrelevant information can cause confusion, and at high arousal attention narrows too far."
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Attentional style",
+                "What it involves"
+              ],
+              "rows": [
+                [
+                  "Broad external",
+                  "Picking up a wide range of environmental cues, as a midfielder does when assessing player positions"
+                ],
+                [
+                  "Broad internal",
+                  "Mentally analysing several pieces of information or tactics at once"
+                ],
+                [
+                  "Narrow external",
+                  "Focusing on one specific environmental cue, as a golfer does when focusing on the hole"
+                ],
+                [
+                  "Narrow internal",
+                  "Mentally rehearsing one or two specific cues, such as concentrating on correcting a weakness"
+                ]
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Nideffer's four styles are built from two dimensions: width, meaning broad or narrow, and direction, meaning external or internal. Choosing and switching between the correct style at the right time is a key psychological skill, and it can be developed through practice."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

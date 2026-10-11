@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import { unstable_cache } from "next/cache";
 import type { Paper, Topic, Subtopic, Flashcard, Question, PastPaper } from "@/types/content";
+import type { NoteSection, NoteTopicDocument } from "@/types/notes-blocks";
 import { slugify } from "@/lib/slug";
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
@@ -141,6 +142,29 @@ export function getNotesMarkdown(paperSlug: string, topicSlug: string, subtopicS
   const filePath = path.join(CONTENT_DIR, `notes/${paperSlug}/${topicSlug}/${subtopicSlug}.md`);
   if (!fs.existsSync(filePath)) return null;
   return fs.readFileSync(filePath, "utf-8");
+}
+
+/**
+ * Block-structured notes for one subtopic, or null if this subtopic hasn't
+ * been converted yet. Notes are stored one file per topic with the subtopics
+ * nested inside, so this reads the topic document and picks the entry out.
+ *
+ * While the conversion is in progress both formats coexist: the page prefers
+ * blocks when they exist and falls back to getNotesMarkdown otherwise.
+ */
+export function getNotesBlocks(
+  paperSlug: string,
+  topicSlug: string,
+  subtopicId: string
+): NoteSection[] | null {
+  if (!isSafeSlug(paperSlug) || !isSafeSlug(topicSlug)) return null;
+  const doc = readJsonSafe<NoteTopicDocument | null>(
+    `notes-blocks/${paperSlug}/${topicSlug}.json`,
+    null
+  );
+  if (!doc) return null;
+  const match = doc.subtopics.find((s) => s.subtopicId === subtopicId);
+  return match ? match.sections : null;
 }
 
 export function getPastPapers(): PastPaper[] {

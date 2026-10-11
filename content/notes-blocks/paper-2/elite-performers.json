@@ -1,0 +1,542 @@
+{
+  "topicId": "elite-performers",
+  "subtopics": [
+    {
+      "subtopicId": "concepts-physical-activity-sport",
+      "sections": [
+        {
+          "heading": "Physical recreation",
+          "specBullet": "Physical recreation and its benefits",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Physical recreation",
+                  "meaning": "The active side of leisure. Leisure time is free time that can be spent actively or passively, and when it is spent actively and voluntarily it becomes physical recreation. It sits at the foundation and participation end of the sporting development continuum."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Its characteristics follow from being voluntary. It is entirely a matter of personal choice, informal and relaxed rather than serious, and flexible, since participants can adjust the rules or duration as they wish. It is self-officiated and self-regulated, with no external officials, and focused on taking part rather than on winning."
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Benefits of physical recreation",
+                "For the individual",
+                "For society"
+              ],
+              "rows": [
+                [
+                  "What it provides",
+                  "Self-confidence and self-esteem from a sense of achievement, stress reduction, skill and fitness development, improved social skills, and a sense of fun and enjoyment",
+                  "Reduced strain on the NHS and lower obesity, increased social integration and community cohesion, economic benefits through spending on facilities and equipment, and reduced crime through positive use of free time. It can also act as a pathway towards performance or elite levels"
+                ]
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Individual benefits: self-confidence and self-esteem, stress reduction, skill and fitness development, social skills, a sense of fun",
+                "Voluntary, informal, flexible, self-officiated, participation-focused",
+                "Leisure is the free time; physical recreation is what you do actively with it"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Sport",
+          "specBullet": "The characteristics and functions of sport",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Sport",
+                  "meaning": "Occupies the more serious, competitive end of the continuum. It is highly structured with strict, set rules, requires specialist equipment and kit, is overseen by officials appointed by national governing bodies, involves strategies and tactics to outwit opponents, offers extrinsic rewards such as medals and trophies as well as intrinsic ones, demands high skill levels and commitment, and places a strong emphasis on winning."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Benefits of sport",
+                "For the individual",
+                "For society"
+              ],
+              "rows": [
+                [
+                  "What it provides",
+                  "Improved health, fitness and skill levels, self-confidence built through success, social opportunities such as teamwork and friendship, and positive morals such as fair play and sportsmanship",
+                  "Reduced strain on the NHS, increased social control and social integration, new employment opportunities, economic benefits, and greater equality of opportunity to take part"
+                ]
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Societal benefits come in two halves",
+                "Reduced strain on the NHS, increased social control, increased social integration",
+                "New employment opportunities, economic benefits, greater equality of opportunity"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Physical education",
+          "specBullet": "The characteristics and aims of physical education",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Physical Education (PE)",
+                  "meaning": "National Curriculum PE was introduced following the 1988 Education Reform Act, spanning four Key Stages from age 5 to 16. It is compulsory, formally taught, pre-planned and highly structured, takes place during school time, and is led by teachers."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "PE aims to develop health and fitness, and positive attitudes leading to healthy, active lifestyles beyond compulsory schooling. It increases participation and physical skills, builds personal and social skills such as teamwork, leadership and co-operation, and instils sporting ethics such as fair play and sportsmanship.",
+                "Cognitively it develops problem-solving, decision-making and creativity, and encourages pupils to analyse their own performance. The overall intention is to build a sporting habit for life."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Outdoor and adventurous activities",
+          "specBullet": "OAA, perceived risk and the barriers to delivery",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "OAA",
+                  "meaning": "Outdoor and adventurous activities. Part of the National Curriculum PE offer, using the natural environment as a resource for learning."
+                },
+                {
+                  "term": "Perceived risk",
+                  "meaning": "What OAA is built around: a challenge that creates a genuine sense of danger and adventure, while actual danger is minimised through strict safety measures, such as a harness when climbing."
+                }
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "What OAA develops: leadership skills, excitement and adrenaline, appreciation of the natural environment",
+                "Decision-making and cognitive skills, and social skills and self-esteem",
+                "Perceived risk is high, actual risk is managed down"
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "PE departments often struggle to deliver OAA. The obstacles are a lack of curriculum time, a lack of money for specialist equipment, a lack of qualified staff, the school's location, and health and safety concerns from parents and staff."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "School sport",
+          "specBullet": "School sport and the initiatives promoting it",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "School sport",
+                  "meaning": "Distinct from PE. It mostly takes place in extra-curricular time, is a matter of choice rather than a compulsory part of the timetable, and is competitive in nature."
+                },
+                {
+                  "term": "School Sport Partnerships",
+                  "meaning": "A government initiative linking secondary schools with primary and junior schools."
+                },
+                {
+                  "term": "School Games",
+                  "meaning": "A government initiative increasing participation, from intra-school level up to national level."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Taking part brings physical benefits in health, fitness and self-esteem, social benefits through friendships and group membership, and cognitive benefits including improved decision-making and potentially improved academic achievement."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "The sporting development continuum",
+          "specBullet": "The sporting development continuum and the triangular model of PE",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Sporting development continuum",
+                  "meaning": "Describes how involvement in physical activity progresses through stages."
+                },
+                {
+                  "term": "Foundation level",
+                  "meaning": "First introduction to physical activity, typically primary school PE."
+                },
+                {
+                  "term": "Participation level",
+                  "meaning": "Emphasis on fun and socialising. This is where most physical recreation sits."
+                },
+                {
+                  "term": "Performance level",
+                  "meaning": "Genuine commitment to regular participation, where winning becomes important."
+                },
+                {
+                  "term": "Triangular model",
+                  "meaning": "Represents a pupil's overall experience as three linked elements: Education, School Sport and Recreation."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Element of the triangular model",
+                "What it is"
+              ],
+              "rows": [
+                [
+                  "Education",
+                  "Compulsory, formally taught National Curriculum PE"
+                ],
+                [
+                  "School Sport",
+                  "Extra-curricular competitive opportunities, such as inter-house fixtures"
+                ],
+                [
+                  "Recreation",
+                  "Extra-curricular, non-competitive opportunities, such as an open aerobics club"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Comparing the key concepts",
+          "specBullet": "Similarities and differences between recreation, sport and PE",
+          "blocks": [
+            {
+              "type": "compare",
+              "columns": [
+                "Pair",
+                "Similarities",
+                "Differences"
+              ],
+              "rows": [
+                [
+                  "Recreation and sport",
+                  "Both improve health and fitness, and both can produce intrinsic satisfaction",
+                  "Recreation is voluntary, participation-focused, flexible and self-officiated, with varied skill levels. Sport is win-focused, demands high commitment, uses set rules enforced by officials, and typically involves higher skill levels and high-tech equipment"
+                ],
+                [
+                  "Recreation and PE",
+                  "Both develop physical skills and both are enjoyable",
+                  "Recreation is voluntary and informal, in a person's own free time. PE is compulsory, formally taught and teacher-led, during school time"
+                ],
+                [
+                  "PE and school sport",
+                  "Both take place within school",
+                  "PE is compulsory, applies to all pupils, is teacher-led and emphasises taking part. School sport is voluntary, often more elitist, coach-led, and emphasises winning and competition"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopicId": "development-elite-performers",
+      "sections": [
+        {
+          "heading": "Personal factors",
+          "specBullet": "Personal factors in the development of elite performers",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Talent identification",
+                  "meaning": "The multi-disciplinary screening of athletes to find those with world-class potential."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Progressing from talent identification through to elite performance depends on a combination of personal, social and cultural, and organisational factors.",
+                "Talented performers need to be goal-orientated, setting clear, measurable short-term and long-term targets, and need good communication, listening to and acting on advice from coaches and mentors, as Tom Daley did with Leon Taylor. A clear focus is essential, since young athletes are easily distracted by other demands such as sponsor commitments, and patience matters just as much, to stick to a long-term plan and learn from setbacks.",
+                "The other key qualities are dedication, determination, intrinsic motivation, self-discipline, willingness to self-sacrifice, high pain tolerance, resilience, perseverance, and self-confidence and self-efficacy built on strong technical skill."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Social and cultural factors",
+          "specBullet": "Social and cultural factors in the development of elite performers",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Socio-economic status",
+                  "meaning": "A family's financial position. Progression is closely linked to it, because specialist equipment, travel, coaching and medical support are all costly."
+                },
+                {
+                  "term": "Sexism",
+                  "meaning": "One of the issues that can limit opportunities. Sport England sets equity targets for national governing bodies to combat it."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Factor",
+                "How it affects progression"
+              ],
+              "rows": [
+                [
+                  "Friends and family",
+                  "Their support, practical and emotional, is important, and the family's financial resources determine what is affordable"
+                ],
+                [
+                  "Equal opportunities and anti-discriminatory practice",
+                  "Issues such as sexism limit opportunities, which is why Sport England sets equity targets for national governing bodies"
+                ],
+                [
+                  "Educational providers",
+                  "They influence progression through positive experiences of sport and access to high-level coaches and facilities, ideally as part of a co-ordinated pathway through local, county, regional and national competition"
+                ],
+                [
+                  "Media coverage",
+                  "The level of coverage a sport receives affects its status and the availability of role models to aspire to. A high-coverage sport such as football has many role models; a lower-coverage sport such as hockey has fewer"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "UK Sport",
+          "specBullet": "The role of UK Sport and how it funds elite performers",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "UK Sport",
+                  "meaning": "Has a single focus on developing high-performance sport in the UK, strategically investing National Lottery funding to maximise the performance of UK athletes at the Olympic and Paralympic Games."
+                },
+                {
+                  "term": "World Class Programme",
+                  "meaning": "Funding channelled to national governing bodies for them to operate."
+                },
+                {
+                  "term": "Athlete Performance Award",
+                  "meaning": "Funding channelled directly to individual athletes, contributing to living and sporting costs."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Beyond funding, UK Sport also funds the National Institutes of Sport such as the EIS, develops World Class Coaches through its Elite Programme, provides Personal Lifestyle Advice, promotes positive sporting conduct, and manages international sporting relationships."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "National Institutes of Sport and the EIS",
+          "specBullet": "The role of National Institutes of Sport",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "EIS",
+                  "meaning": "The English Institute of Sport, a subsidiary wholly owned by UK Sport. It acts as the science, medicine and technology arm, operating World Class Performance environments across High Performance centres and partner sites."
+                },
+                {
+                  "term": "Sport science",
+                  "meaning": "One of the EIS's key services: exercise physiology, performance nutrition, psychology and performance analysis."
+                },
+                {
+                  "term": "Medical support",
+                  "meaning": "Another key service: sports medicine, physiotherapy, and strength and conditioning."
+                },
+                {
+                  "term": "Performance Lifestyle Support",
+                  "meaning": "The third key service: time management, budgeting, media, and career development."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Its Performance Solutions team works on Performance Pathways, covering talent identification, recruitment and progression. The UK Talent Team focuses on Podium and Podium Potential athletes, and a Research and Innovation team makes sure athletes have access to the best equipment and technology."
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "They provide sport science and medicine support, and Performance Lifestyle programmes",
+                "They work in partnership with other organisations, and run research and innovation",
+                "They provide top quality facilities and coaches"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "National governing bodies",
+          "specBullet": "The role of national governing bodies in developing elite performers",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "NGBs",
+                  "meaning": "National governing bodies: the organisations responsible for managing their own sport. They play a central role in developing elite performers."
+                }
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "NGBs promote participation through positive role models and accessible facilities",
+                "They meet government policy and target under-represented groups with specific policies",
+                "They employ Sport Development Officers and invest resources in inner city areas"
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "NGBs also use regional scouts and talent identification schemes, decide who receives funding, provide sport-specific coaching award pathways such as the LTA's Level 1 to Level 5 Coaching Pathway in tennis, and work with the National Institutes of Sport and UK Sport.",
+                "British Cycling shows what a structured talent pathway looks like. Its Olympic Podium Programme supports elite cyclists, while its Olympic Academy Programme prepares 18 to 23 year olds for the step up."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Talent identification programmes",
+          "specBullet": "The advantages, disadvantages and features of talent identification programmes",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Talent ID",
+                  "meaning": "Programmes run by UK Sport, the National Institutes of Sport and NGBs to systematically discover athletes with medal-winning potential."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Talent ID programmes",
+                "Advantages",
+                "Disadvantages"
+              ],
+              "rows": [
+                [
+                  "Assessment",
+                  "All potential performers can be screened; performers can be directed to the sports best suited to their talents; development can be accelerated; funding is used efficiently; and there is a co-ordinated approach between organisations",
+                  "Late developers may be missed; high levels of funding are required; large numbers must be tested to be worthwhile; there is no guarantee of success; and many sports compete for the same limited talent pool"
+                ]
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Effective programmes need high-standard testing facilities and analysis via a clear database",
+                "They need links between organisations, and equal opportunities for all to apply",
+                "They need national development squads to progress through, and talent spotting by high-quality coaches"
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The EIS Performance Pathways Team runs Pathway Frontline Technical Solutions, Pathway Education, Pathway Analytics, and the Performance Pathway Health Check. Discover Your Gold, which ran from 2016 to 2018, was a joint EIS and UK Sport campaign targeting 15 to 24 year olds."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "The World Class Performance Programme",
+          "specBullet": "UK Sport's World Class Performance Programme",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "World Class Performance Programme (WCPP)",
+                  "meaning": "Reflects the long journey to international success, covering all funded summer and winter Olympic and Paralympic sports."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Level",
+                "Who it supports"
+              ],
+              "rows": [
+                [
+                  "Podium",
+                  "Athletes with realistic medal-winning capability at the next Games, within around four years. UK Athletics' 2015 to 2016 podium group included Jessica Ennis-Hill and Mo Farah"
+                ],
+                [
+                  "Podium Potential",
+                  "Athletes with realistic medal potential at a subsequent Games, within around eight years"
+                ],
+                [
+                  "Talent",
+                  "Below Podium Potential. Funds and supports identification of athletes with the potential to reach the world-class pathway, such as British Athletics' Futures Programme"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "The Gold Event Series and talent transfer",
+          "specBullet": "UK Sport's Gold Event Series and talent development initiatives",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Gold Event Series",
+                  "meaning": "UK Sport is the lead agency helping the UK bid for and stage major international sporting events through this series, aiming to bring targeted major events to the UK between 2013 and 2023. The UCI Track Cycling World Championships in London in 2016 and the 2017 World Athletics Championships are examples."
+                }
+              ]
+            },
+            {
+              "type": "how_it_works",
+              "mode": "steps",
+              "items": [
+                "A public talent search and application",
+                "Phase 1: fitness and skill testing",
+                "Phases 2 and 3: medical screening, lifestyle workshops and psychological assessment",
+                "A confirmation phase lasting 6 to 12 months"
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "A World Class Talent Transfer initiative helps athletes switch sports, as Rebecca Romero did in winning Olympic medals in both rowing and cycling. Girls4Gold Canoeing aims to grow the female talent pool."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

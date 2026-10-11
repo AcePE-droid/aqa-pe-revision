@@ -1,0 +1,860 @@
+{
+  "topicId": "psychological-factors-activities",
+  "subtopics": [
+    {
+      "subtopicId": "personality",
+      "sections": [
+        {
+          "heading": "Trait theory",
+          "specBullet": "Trait theory of personality",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Personality",
+                  "meaning": "Defined by the sports psychologist Diane Gill as a person's unique psychological make-up."
+                },
+                {
+                  "term": "Nature versus nurture",
+                  "meaning": "The debate explanations of personality are usually framed as. Nature suggests characteristics are innate; nurture suggests they are learned."
+                },
+                {
+                  "term": "Trait theory",
+                  "meaning": "The nature side of the debate. It argues individuals are born with innate, stable characteristics called traits, which stay consistent across different situations, so behaviour can be expected to remain the same in most contexts."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Because each performer has their own personality profile, understanding those differences helps coaches tailor training and competition approaches, and helps players understand how their own personality affects their performance.",
+                "Since behaviour is assumed to be consistent, trait theory attempts to predict future behaviour. A performer with a known profile, an extrovert who is loud, bright and opinionated for instance, is expected to show those same characteristics in training, in matches and in team discussions."
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "Trait theory explains why a player loses their temper after a foul but is calm in the interview afterwards.",
+                  "right": "It does not. Pure trait theory cannot account for personality change, and performers often behave differently depending on the situation or their experience. That limitation is what the interactionist perspective addresses."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Social learning theory",
+          "specBullet": "Social learning theory of personality",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Social learning theory",
+                  "meaning": "The nurture side of the debate. Personality characteristics are not innate but learned from other people, particularly significant others."
+                },
+                {
+                  "term": "Significant others",
+                  "meaning": "The people whose behaviour is most likely to be learned from: role models, friends and parents."
+                },
+                {
+                  "term": "Socialisation",
+                  "meaning": "The process of associating with others and picking up their behaviour, through which personality traits develop."
+                }
+              ]
+            },
+            {
+              "type": "how_it_works",
+              "mode": "sequence",
+              "items": [
+                "Observe",
+                "Identify",
+                "Reinforce",
+                "Copy"
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Learning is more likely when the observed behaviour is reinforced, meaning it is seen as successful or powerful, and when it is witnessed live rather than through the media. Young players often copy the goal celebrations of professional athletes they have seen play in person."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "The interactionist perspective",
+          "specBullet": "The interactionist perspective and Hollander's model",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Interactionist perspective",
+                  "meaning": "Combines trait theory and social learning theory, suggesting the traits a person is born with are adapted according to the situation, or environment, they find themselves in."
+                }
+              ]
+            },
+            {
+              "type": "formula",
+              "equation": "B = f(P × E)",
+              "meaning": "Lewin's formula: behaviour is a function of personality and environment."
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Hollander's layer",
+                "What it is",
+                "Likelihood of change"
+              ],
+              "rows": [
+                [
+                  "Core",
+                  "Stable values and beliefs",
+                  "Least likely to change"
+                ],
+                [
+                  "Typical responses",
+                  "The usual reactions a person makes in a given situation",
+                  "Can change"
+                ],
+                [
+                  "Role-related behaviour",
+                  "Behaviour adapted to the specific demands of a situation",
+                  "Most likely to change, as the environment changes"
+                ]
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The coaching applications follow from the model. A coach can predict and substitute a player before they display unacceptable behaviour, recreate pressure situations in training so players learn to cope, such as practising penalties under simulated crowd pressure, and use knowledge of a player's traits to guide them towards more effective role-related behaviour in specific match situations."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopicId": "attitudes",
+      "sections": [
+        {
+          "heading": "Attitudes and how they form",
+          "specBullet": "The formation of attitudes",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Attitude",
+                  "meaning": "A value or belief held towards a particular person, object or situation. It represents a mental and neural state of readiness towards it."
+                },
+                {
+                  "term": "Attitude object",
+                  "meaning": "The person, object or situation the attitude is held towards."
+                },
+                {
+                  "term": "Socialisation",
+                  "meaning": "Learning values and opinions from significant others such as friends, parents and role models."
+                },
+                {
+                  "term": "Familiarisation",
+                  "meaning": "Where repeated exposure to an attitude makes it feel normal and accepted."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Positive attitudes are encouraged by reinforcement, such as praise from a coach. Negative attitudes can develop from poor role models, a lack of reinforcement, or negative experiences such as injury."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "The triadic model",
+          "specBullet": "The three components of an attitude",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Triadic model",
+                  "meaning": "The model describing the three components an attitude is made up of."
+                },
+                {
+                  "term": "Cognitive component",
+                  "meaning": "Beliefs, such as believing in one's ability to win."
+                },
+                {
+                  "term": "Affective component",
+                  "meaning": "Feelings and emotions, such as enjoyment of training."
+                },
+                {
+                  "term": "Behavioural component",
+                  "meaning": "Actions and habits, such as attending training regularly."
+                }
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Three components: cognitive, affective, behavioural",
+                "Cognitive is what you think, affective is what you feel, behavioural is what you do",
+                "Changing an attitude means attacking one of the three"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Changing attitudes",
+          "specBullet": "Cognitive dissonance and persuasive communication",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Attitudes tend to be fairly stable, so changing one takes a deliberate strategy. There are two."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Cognitive dissonance",
+                  "meaning": "Creating discomfort or conflict in a performer's thinking by challenging one of the three attitude components, which motivates them to change the attitude they hold."
+                },
+                {
+                  "term": "Persuasive communication",
+                  "meaning": "Directly trying to talk a performer into changing their attitude."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Method",
+                "How a coach uses it"
+              ],
+              "rows": [
+                [
+                  "Cognitive dissonance",
+                  "Introducing new information or activities that challenge current beliefs, making training more enjoyable, using rewards and reinforcement, or bringing in role models or specialists to encourage participation"
+                ],
+                [
+                  "Persuasive communication",
+                  "Effectiveness depends on three things: the message being relevant, important and clearly understood; the messenger having high status, such as an expert or role model; and good timing, for instance immediately after a loss or poor performance, when a performer is more open to change"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopicId": "motivation",
+      "sections": [
+        {
+          "heading": "Intrinsic and extrinsic motivation",
+          "specBullet": "Types of motivation",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Motivation",
+                  "meaning": "The drive needed to succeed, describing the internal and external stimuli and mechanisms that drive and direct behaviour."
+                },
+                {
+                  "term": "Intrinsic motivation",
+                  "meaning": "A drive that comes from within the performer, giving a feeling of pride and satisfaction from having completed a task. A climber completing a difficult route, or a runner completing a marathon, gets a sense of self-satisfaction from having met the objective."
+                },
+                {
+                  "term": "Extrinsic motivation",
+                  "meaning": "A drive that comes from an outside source, such as the coach, other players, or spectators cheering, like the crowds that support and encourage runners in the London Marathon. It takes two forms, tangible and intangible."
+                },
+                {
+                  "term": "Tangible rewards",
+                  "meaning": "Physical rewards that can be touched or held: the medals or certificates achieved by youngsters in early swimming classes, or the cups and trophies won by professional players."
+                },
+                {
+                  "term": "Intangible rewards",
+                  "meaning": "Non-physical rewards: praise and encouragement from a coach, applause from the crowd, positive comments in the press, or breaking a personal best time where no certificate is given but you know you have done well."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Keeping individual performers and team members motivated is a high priority for coaches, because motivation keeps players on track and makes sure they give their best effort in every game."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "The risk of over-rewarding",
+          "specBullet": "The relationship between extrinsic rewards and intrinsic motivation",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Coaches and players have to be careful not to put too much emphasis on extrinsic rewards. Over-using them makes them lose their value and their incentive: if there is always a trophy or badge on offer it becomes the norm rather than the exception, and players may start competing to get the reward rather than for the true value of the game.",
+                "Excessive extrinsic rewards also place pressure on players to gain the reward, which can lead to cheating as players bend the rules to get it. Extrinsic motives can undermine the intrinsic reasons for competing, so players compete just for a reward rather than for the benefits to exercise, health and skill improvement that competing brings."
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "More rewards always means more motivation.",
+                  "right": "Intrinsic motivation is stronger and longer lasting. Piling on extrinsic rewards can erode it, leaving a performer who only competes when something is on offer."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Coaching tactics to maintain motivation",
+          "specBullet": "Strategies a coach uses to maintain motivation",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The coach's job is to maintain both intrinsic and extrinsic motives rather than relying on one. Offering rewards and incentives early on, such as a player of the week award, gets things started. Making the activity fun and enjoyable, through mini-games and easier tasks that allow success, keeps it going, as does breaking a skill down into parts so success can be achieved on each one.",
+                "Beyond that: point out the health benefits of the task; point out role models the performer can aspire to; make the performer feel responsible for any success by giving praise and attributing success internally, telling them a good result was down to them; set goals or targets that are achievable; and use feedback to inspire and to correct errors."
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "It is not always possible to increase motivation, because other influences such as anxiety may be present during a performance."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopicId": "arousal",
+      "sections": [
+        {
+          "heading": "Arousal and drive theory",
+          "specBullet": "Arousal and drive theory",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Arousal",
+                  "meaning": "A state of activation and readiness to perform, ranging on a continuum from very low, almost sleep-like, to very high, meaning extreme excitement. It is increased by factors such as the importance of a competition, being watched by an audience, especially experts, and frustration from playing badly or losing."
+                },
+                {
+                  "term": "Drive theory",
+                  "meaning": "Proposes that as arousal increases, performance increases in a proportional, linear way."
+                },
+                {
+                  "term": "Dominant response",
+                  "meaning": "The response a performer believes to be correct. Drive theory depends on it."
+                }
+              ]
+            },
+            {
+              "type": "formula",
+              "equation": "P = f(D × H)",
+              "meaning": "Performance is a function of drive multiplied by habit."
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Under high arousal",
+                "What happens",
+                "Why"
+              ],
+              "rows": [
+                [
+                  "Experts",
+                  "Performance remains high",
+                  "The dominant response is usually correct"
+                ],
+                [
+                  "Beginners",
+                  "Increased risk of poor performance",
+                  "The dominant response may be underdeveloped"
+                ],
+                [
+                  "Complex tasks",
+                  "Can suffer",
+                  "They require more information processing"
+                ],
+                [
+                  "Simple tasks",
+                  "Can still be performed well",
+                  "They demand little information processing"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "The inverted-U theory",
+          "specBullet": "The inverted-U theory of arousal",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Inverted-U theory",
+                  "meaning": "Shares drive theory's starting assumption that increasing arousal improves performance, but argues performance only improves up to an optimal point, typically at moderate arousal. Beyond that point, further arousal causes performance to decline."
+                },
+                {
+                  "term": "Optimal point",
+                  "meaning": "The level of arousal at which performance peaks. Both too little and too much arousal are equally damaging."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Factor",
+                "Higher arousal suits",
+                "Lower arousal suits"
+              ],
+              "rows": [
+                [
+                  "Experience",
+                  "Experts, whose dominant response is more likely to be correct",
+                  "Novices"
+                ],
+                [
+                  "Personality",
+                  "Extroverts",
+                  "Introverts. The difference is linked to baseline activation levels"
+                ],
+                [
+                  "Task type",
+                  "Gross, simple skills such as rowing",
+                  "Fine, complex skills such as a table tennis return"
+                ]
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The optimal level of arousal is therefore not fixed. It moves according to who the performer is and what they are being asked to do."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Catastrophe theory",
+          "specBullet": "Catastrophe theory",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Catastrophe theory",
+                  "meaning": "An adaptation of the inverted-U theory. It agrees performance peaks at an optimal point of arousal, but argues that beyond that point performance does not decline gradually. It drops suddenly and dramatically."
+                },
+                {
+                  "term": "Somatic anxiety",
+                  "meaning": "Physiological symptoms, such as muscle tension and raised heart rate."
+                },
+                {
+                  "term": "Cognitive anxiety",
+                  "meaning": "Psychological symptoms, such as loss of concentration and worry."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The sudden slump is caused by high somatic anxiety and high cognitive anxiety together. Recovery is possible if the initial anxiety is mild and the performer has time to regain control. Otherwise panic causes arousal to rise further, which worsens the decline."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "The zone of optimal functioning and peak flow",
+          "specBullet": "Hanin's zone of optimal functioning and peak flow",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Zone of optimal functioning",
+                  "meaning": "Developed by the psychologist Hanin. It adapts the inverted-U theory further, suggesting that rather than one single optimal point of arousal, each performer has an individual zone: a bandwidth of arousal within which they perform best."
+                },
+                {
+                  "term": "Peak flow",
+                  "meaning": "The ultimate intrinsic experience achievable within the zone, characterised by effortless movement, total focus, supreme confidence and a feeling of complete control."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Where that zone sits varies from person to person, and may be at low, moderate or high arousal. Mental practice, relaxation, visualisation and positive self-talk are the techniques used to locate it.",
+                "Peak flow is promoted by a positive mental attitude, high confidence, relaxation and anxiety control. It can be disrupted by poor mental preparation, environmental pressures such as crowd noise or refereeing decisions, or the effects of injury or fatigue during performance."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopicId": "anxiety",
+      "sections": [
+        {
+          "heading": "Trait and state anxiety",
+          "specBullet": "Competitive trait anxiety and competitive state anxiety",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Anxiety",
+                  "meaning": "A negative response to a perceived threat: a state of nervousness and worry felt before or during a sporting performance."
+                },
+                {
+                  "term": "Competitive trait anxiety",
+                  "meaning": "A disposition, part of a performer's general make-up, to feel nervous in most sporting situations regardless of the actual importance of the event. A performer high in trait anxiety tends to feel nervous before all competitions."
+                },
+                {
+                  "term": "Competitive state anxiety",
+                  "meaning": "A more temporary response to a specific situation in the moment, such as feeling anxious about taking a penalty in a hockey match. It can vary throughout a game, depending on the score and how much time is left."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Anxiety often stems from how a performer perceives the importance of a situation. One player looking forward to a cup final feels excitement, while another feels anxious about letting the team down.",
+                "Trait and state anxiety are connected rather than separate. Someone whose general disposition runs anxious will usually feel it sharply in a pressured moment, and the effect is strongest where they sense an audience, or a judgement being made on them."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Cognitive and somatic anxiety",
+          "specBullet": "Cognitive and somatic anxiety and their effects on performance",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Cognitive anxiety",
+                  "meaning": "Psychological. The irrational thoughts and worries that occur before or during performance. A performer may believe they lack the ability to complete a task, which results in a lack of concentration and loss of self-confidence. A player asked to mark a bigger, more physical opponent may doubt they can cope."
+                },
+                {
+                  "term": "Somatic anxiety",
+                  "meaning": "Physiological. The physical response of the body to a competitive situation, including increased heart rate, sweating and increased muscular tension. These are often felt worst at the start of a game, easing once it is underway."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Type",
+                "Relationship with performance"
+              ],
+              "rows": [
+                [
+                  "Cognitive anxiety",
+                  "Negative and linear. As cognitive anxiety increases, performance steadily worsens"
+                ],
+                [
+                  "Somatic anxiety",
+                  "An inverted-U. Increases can improve performance up to a point, after which further increases impair it"
+                ]
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "Cognitive is in the head, somatic is in the body",
+                "More cognitive anxiety is consistently worse for performance",
+                "A limited amount of somatic anxiety is not necessarily harmful"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Measuring anxiety: questionnaires",
+          "specBullet": "Questionnaires as a method of measuring anxiety",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Three main methods are used to measure anxiety in sport: self-report questionnaires, observation, and physiological measures."
+              ]
+            },
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Questionnaire",
+                  "meaning": "Asks a performer to answer a series of questions about their emotions in different situations, to measure or assess anxiety."
+                },
+                {
+                  "term": "Sports Competition Anxiety Test (SCAT)",
+                  "meaning": "Developed by Martens in 1977. A series of 15 statements designed to measure how a player responds to competitive sporting situations."
+                },
+                {
+                  "term": "Competitive State Anxiety Inventory (CSAI-2)",
+                  "meaning": "Martens's 1990 extension of SCAT. It distinguishes between somatic and cognitive anxiety and also measures self-confidence, using a maximum score of 36 for each subscale. It should be completed an hour before an event for an accurate result."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Questionnaires",
+                "Strengths",
+                "Weaknesses"
+              ],
+              "rows": [
+                [
+                  "As a method",
+                  "Quick, cheap and efficient. Large numbers of players can be assessed at once, and the results are easily compared",
+                  "They can be invalid or unreliable. Players may not understand a question and give an answer that does not reflect how they truly feel, or may give the socially desirable answer rather than the true one. Answers can depend on mood, and rushed responses lead to inaccurate results"
+                ]
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "The CSAI-2 is the more useful of the two for a coach, because separating cognitive from somatic anxiety and adding self-confidence lets them identify how players deal with anxiety and stress, and select appropriate techniques to help reduce it."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Measuring anxiety: observation and physiological measures",
+          "specBullet": "Observation and physiological measures of anxiety",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Observation",
+                  "meaning": "Gaining a measure of anxiety by watching the performer during training or competition."
+                },
+                {
+                  "term": "Physiological measures",
+                  "meaning": "Assessing anxiety using a physical response from the body: increased heart rate, increased sweating, increased rate of respiration, and increased hormone secretion."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Method",
+                "Strengths",
+                "Weaknesses"
+              ],
+              "rows": [
+                [
+                  "Observation",
+                  "Realistic, because it studies the performer in a real sporting environment",
+                  "Time-consuming, and results rest on the subjective opinions of observers, who also need to know how the performer normally behaves so changes from the norm can be noticed. If the performer knows they are being watched their behaviour may change, making the results unreliable"
+                ],
+                [
+                  "Physiological measures",
+                  "Factual, objective data, so comparisons are easily made. Recent technology allows heart rate to be measured by a device inside the performer's clothing and relayed to the coach while the game is in motion",
+                  "Training is often needed so coaches can use the devices, cost may deter amateur performers, wearing a device such as a heart rate monitor may restrict movement, and a performer aware of being measured may experience additional stress, giving a false reading"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtopicId": "aggression",
+      "sections": [
+        {
+          "heading": "Aggression and assertion",
+          "specBullet": "Aggression, assertion and instrumental aggression",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Aggression",
+                  "meaning": "Behaviour with the intent to harm, outside the rules. It is hostile, reactive, out of control and deliberate."
+                },
+                {
+                  "term": "Assertion",
+                  "meaning": "Well-motivated behaviour that stays within the rules. It is controlled, goal-directed, and not intended to harm."
+                },
+                {
+                  "term": "Instrumental aggression",
+                  "meaning": "Aggression that has an intent to harm but is also within the rules of the sport."
+                },
+                {
+                  "term": "Grey area",
+                  "meaning": "Where the definitions of aggression and assertion overlap, making it difficult to place a sporting action clearly in one category."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "",
+                "Aggression",
+                "Assertion"
+              ],
+              "rows": [
+                [
+                  "Intent to harm",
+                  "Yes, and it exists in the aggressor's head before the act takes place",
+                  "No, even though injury may occasionally result from the players' actions"
+                ],
+                [
+                  "Within the rules",
+                  "No",
+                  "Generally yes"
+                ],
+                [
+                  "Control",
+                  "Reactive and out of control",
+                  "Controlled and goal-directed"
+                ],
+                [
+                  "Example",
+                  "Punching someone after a foul in rugby, or a deliberate attempt to hurt an opponent before a challenge happens",
+                  "A hard, fair tackle in rugby, or a 50/50 challenge where both players are honestly competing for the ball"
+                ]
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Aggression is often misunderstood by observers, who mistake it for well-motivated, assertive behaviour. The grey area is real: a punch thrown while boxing is within the rules of the sport but carries an intent to harm, so it could be classified either way. A rugby tackle that makes legal contact but includes some intent to cause pain, so the attacker drops the ball, sits in the same place."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Instinct theory and the frustration-aggression hypothesis",
+          "specBullet": "Theories explaining the causes of aggression",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Instinct theory",
+                  "meaning": "An evolutionary theory claiming all performers are born with an aggressive instinct that surfaces under enough provocation, as animals defend territory when it is invaded. A player who has suffered a bad foul may react aggressively to regain their reputation and win back respect, even at the risk of being sent off."
+                },
+                {
+                  "term": "Frustration-aggression hypothesis",
+                  "meaning": "Suggests inevitable aggression occurs when a performer's goals are blocked and they become frustrated."
+                },
+                {
+                  "term": "Catharsis",
+                  "meaning": "The reduction of a built-up frustration drive when an aggressive act is committed. A term for letting off steam, or releasing and channelling frustration through aggression."
+                }
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "A footballer who is fouled while running through on goal wants to retaliate, and is released from that urge if the player who fouled them is sent off. If the fouled player is unpunished, the released aggression may instead be directed at other players, or the player may bottle the frustration and wait to take revenge with a foul of their own later in the game. If the aggressive drive cannot be released at all, it can lead to further self-punishment, or to even greater frustration and aggression."
+              ]
+            },
+            {
+              "type": "mix_ups",
+              "items": [
+                {
+                  "wrong": "Frustration always produces aggression.",
+                  "right": "Not in sport. Some players control their emotions even when a bad tackle is committed against them."
+                },
+                {
+                  "wrong": "Instinct theory explains every aggressive act.",
+                  "right": "It does not explain why some performers can control their emotions when fouled while others cannot, or why aggression can appear in a different situation from the one that originally triggered it."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Aggressive cue hypothesis and social learning theory",
+          "specBullet": "The aggressive cue hypothesis and social learning theory of aggression",
+          "blocks": [
+            {
+              "type": "definition",
+              "items": [
+                {
+                  "term": "Aggressive cue hypothesis",
+                  "meaning": "Developed by Berkowitz. Increased frustration leads to increased arousal and a drive towards aggressive responses, but that response only becomes likely if certain learned cues are present in the situation. A basketball player who has been fouled may act aggressively only towards that specific opponent, if given the chance."
+                },
+                {
+                  "term": "Social learning theory",
+                  "meaning": "Aggression is a learned response, copied from others, particularly where such behaviour is reinforced."
+                }
+              ]
+            },
+            {
+              "type": "how_it_works",
+              "mode": "sequence",
+              "items": [
+                "Observe",
+                "Identify",
+                "Reinforce",
+                "Copy"
+              ]
+            },
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Bandura's process above explains how aggression is learned: from significant others or those held in high esteem, such as role models or a coach. It is more likely to be copied if witnessed live rather than in recorded footage, and if the behaviour appears consistent, powerful and successful.",
+                "The difficulty with social learning theory is the same as with instinct theory. It does not fully explain why some players react aggressively without having been in a situation where they could observe and copy others."
+              ]
+            },
+            {
+              "type": "lock_it_in",
+              "items": [
+                "AS IF: Aggressive cue hypothesis, Social learning theory, Instinct theory, Frustration-aggression hypothesis",
+                "Instinct is born with it, social learning is copied, frustration is blocked goals, cues are the trigger",
+                "Two of the four have the same weakness: they cannot explain the exceptions"
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Preventing aggression",
+          "specBullet": "Strategies to eliminate aggressive behaviour",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Aggression is undesirable because it causes injury, a loss of concentration, and an increase in arousal and anxiety in the player. Coaches, players and referees can all play a part in reducing it."
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Who",
+                "Strategies"
+              ],
+              "rows": [
+                [
+                  "The coach",
+                  "Not reinforcing aggressive acts in training; substituting an aggressive player or removing them from the situation; reinforcing non-aggression, for example with a fair play award; talking to players to calm them down; promoting peer group pressure within the team; pointing out responsibilities to the team and non-aggressive role models; setting non-aggressive goals"
+                ],
+                [
+                  "The player",
+                  "Walking away from the situation; using mental rehearsal or relaxation to lower arousal; channelling aggression into assertion"
+                ],
+                [
+                  "The referee",
+                  "Punishing aggression with fines or sending players off; applying the rules consistently and fairly; applying sanctions immediately"
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

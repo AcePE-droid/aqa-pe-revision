@@ -1,0 +1,326 @@
+import {
+  ArrowRight,
+  Check,
+  X,
+  Quote,
+  CheckCheck,
+  ArrowDown,
+} from "lucide-react";
+import type { SubjectStyle } from "@/lib/subject-styles";
+import type {
+  NoteBlock,
+  DefinitionBlock,
+  FormulaBlock,
+  HowItWorksBlock,
+  CompareBlock,
+  ExplainerBlock,
+  MixUpsBlock,
+  SayItToScoreBlock,
+  LockItInBlock,
+} from "@/types/notes-blocks";
+
+// Each block type gets its own visual treatment, so a student can tell what
+// kind of information they are looking at before reading a word of it. The
+// two that are easiest to confuse - definition and formula - are deliberately
+// built from different materials: definitions are a plain bordered stack on
+// the page background, formulas are a cream panel with a heavy accent bar.
+
+type BlockProps<T> = { block: T; style: SubjectStyle };
+
+/** Small caps section label used above several of the blocks. */
+function BlockLabel({ children, className = "" }: { children: React.ReactNode; className?: string }) {
+  return (
+    <p className={`text-xs font-semibold uppercase tracking-widest ${className}`}>{children}</p>
+  );
+}
+
+/**
+ * Definitions. Deliberately not a boxed callout - a boxed callout is what the
+ * textbook does, and the brief is to look different from it. Instead each term
+ * hangs off a hairline rule, reading as a list rather than a box.
+ */
+function Definition({ block, style }: BlockProps<DefinitionBlock>) {
+  return (
+    <div className="my-8">
+      <BlockLabel className="text-slate-600">
+        {block.items.length === 1 ? "Key term" : "Key terms"}
+      </BlockLabel>
+      <dl className="mt-3 divide-y divide-slate-200 border-t border-slate-200">
+        {block.items.map((item) => (
+          <div key={item.term} className="grid gap-1 py-4 sm:grid-cols-[minmax(0,13rem)_1fr] sm:gap-6">
+            <dt className={`font-semibold leading-snug ${style.icon}`}>{item.term}</dt>
+            <dd className="text-slate-700">{item.meaning}</dd>
+          </div>
+        ))}
+      </dl>
+    </div>
+  );
+}
+
+/**
+ * Formula. Thick vertical accent bar, italic serif equation in a slate
+ * blue-grey, warm cream panel, with a single plain-English line underneath.
+ *
+ * Built from the same bar-plus-serif-italic vocabulary as the pull quote the
+ * markdown notes already used, so formulas read as part of the same family
+ * rather than as a new component bolted on.
+ */
+function Formula({ block, style }: BlockProps<FormulaBlock>) {
+  return (
+    <div className="my-8 flex overflow-hidden rounded-r-lg bg-[#efe5d4]">
+      <div className={`w-2 shrink-0 ${style.progressBar}`} aria-hidden="true" />
+      <div className="px-5 py-5 sm:px-6">
+        <p className="font-serif text-xl italic leading-snug text-slate-700 sm:text-2xl">
+          {block.equation}
+        </p>
+        <p className="mt-2 text-sm leading-relaxed text-slate-600">{block.meaning}</p>
+      </div>
+    </div>
+  );
+}
+
+function HowItWorks({ block, style }: BlockProps<HowItWorksBlock>) {
+  if (block.mode === "steps") {
+    return (
+      <div className="my-8">
+        <BlockLabel className="text-slate-600">How it works</BlockLabel>
+        <ol className="mt-3 space-y-3">
+          {block.items.map((item, i) => (
+            <li key={i} className="flex gap-3">
+              <span
+                className={`mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-xs font-semibold text-white ${style.progressBar}`}
+              >
+                {i + 1}
+              </span>
+              <span className="text-slate-700">{item}</span>
+            </li>
+          ))}
+        </ol>
+      </div>
+    );
+  }
+
+  if (block.mode === "sequence") {
+    // A run of short labels - an airway, a line of vessels. Set inline across
+    // the page rather than as a stack of boxes, which would spend a lot of
+    // height on a handful of words.
+    return (
+      <div className="my-8">
+        <BlockLabel className="text-slate-600">In order</BlockLabel>
+        <ol className="mt-3 flex flex-wrap items-center gap-x-2 gap-y-2">
+          {block.items.map((item, i) => (
+            <li key={i} className="flex items-center gap-2">
+              <span className="font-medium text-slate-800">{item}</span>
+              {i < block.items.length - 1 && (
+                <ArrowRight className={`h-4 w-4 shrink-0 ${style.icon}`} aria-hidden="true" />
+              )}
+            </li>
+          ))}
+        </ol>
+      </div>
+    );
+  }
+
+  // Cause-and-effect chain: each stage sits on its own line with a downward
+  // link between, so the causality is visible without reading a paragraph.
+  return (
+    <div className="my-8">
+      <BlockLabel className="text-slate-600">What causes what</BlockLabel>
+      <ol className="mt-3">
+        {block.items.map((item, i) => (
+          <li key={i}>
+            <div className="rounded-lg border border-slate-200 bg-white px-4 py-3 text-slate-700">
+              {item}
+            </div>
+            {i < block.items.length - 1 && (
+              <div className="flex justify-center py-1" aria-hidden="true">
+                <ArrowDown className={`h-4 w-4 ${style.icon}`} />
+              </div>
+            )}
+          </li>
+        ))}
+      </ol>
+    </div>
+  );
+}
+
+function Compare({ block }: BlockProps<CompareBlock>) {
+  // A table with three or more columns, or with cells that run to a sentence,
+  // squeezes down to two or three words per line on a phone. Those stack into
+  // one card per row instead, with the column name as the label. Short,
+  // two-column tables already fit a 375px screen, so they stay as tables.
+  const stackOnMobile =
+    block.columns.length > 2 || block.rows.some((r) => r.some((c) => c.length > 80));
+
+  return (
+    <div className="my-8">
+      <BlockLabel className="text-slate-600">Side by side</BlockLabel>
+      {stackOnMobile && (
+        <div className="mt-3 space-y-3 sm:hidden">
+          {block.rows.map((row, ri) => (
+            <div key={ri} className="rounded-lg border border-slate-200 bg-white/50 p-4">
+              <p className="text-sm font-semibold text-slate-900">{row[0]}</p>
+              <dl className="mt-2 space-y-2">
+                {row.slice(1).map((cell, ci) =>
+                  cell ? (
+                    <div key={ci}>
+                      <dt className="text-[11px] font-semibold uppercase tracking-wide text-slate-600">
+                        {block.columns[ci + 1]}
+                      </dt>
+                      <dd className="mt-0.5 text-sm text-slate-700">{cell}</dd>
+                    </div>
+                  ) : null,
+                )}
+              </dl>
+            </div>
+          ))}
+        </div>
+      )}
+      {/* Wider screens keep the table. It scrolls rather than overflowing the
+          page - same approach the markdown notes and PastPapersTable use. */}
+      <div className={`mt-3 overflow-x-auto ${stackOnMobile ? "hidden sm:block" : ""}`}>
+        <table className="w-full border-collapse text-left text-sm">
+          <thead>
+            <tr className="border-b border-slate-300">
+              {block.columns.map((c, i) => (
+                <th key={i} scope="col" className="py-2 pr-4 font-semibold text-slate-900">
+                  {c}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {block.rows.map((row, ri) => (
+              <tr key={ri} className="border-b border-slate-200">
+                {row.map((cell, ci) => (
+                  <td
+                    key={ci}
+                    className={`py-3 pr-4 align-top ${ci === 0 ? "font-medium text-slate-900" : "text-slate-700"}`}
+                  >
+                    {cell}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+}
+
+/**
+ * Connected prose. No label and no panel - this is the body text of the
+ * notes, so it should read as the page itself rather than as another boxed
+ * component competing with the blocks around it.
+ */
+function Explainer({ block }: BlockProps<ExplainerBlock>) {
+  return (
+    <div className="my-8 space-y-4">
+      {block.paragraphs.map((p, i) => (
+        <p key={i} className="text-[17px] leading-[1.75] text-slate-800">
+          {p}
+        </p>
+      ))}
+    </div>
+  );
+}
+
+function MixUps({ block }: BlockProps<MixUpsBlock>) {
+  return (
+    <div className="my-8">
+      <BlockLabel className="text-slate-600">Easy to get wrong</BlockLabel>
+      <ul className="mt-3 space-y-4">
+        {block.items.map((item, i) => (
+          <li key={i} className="rounded-lg border border-slate-200 bg-white p-4">
+            <p className="flex gap-2.5 text-slate-600">
+              <X className="mt-0.5 h-4 w-4 shrink-0 text-rose-600" aria-hidden="true" />
+              <span>
+                <span className="sr-only">Common mistake: </span>
+                {item.wrong}
+              </span>
+            </p>
+            <p className="mt-2 flex gap-2.5 text-slate-900">
+              <Check className="mt-0.5 h-4 w-4 shrink-0 text-emerald-700" aria-hidden="true" />
+              <span>
+                <span className="sr-only">Correct version: </span>
+                {item.right}
+              </span>
+            </p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+function SayItToScore({ block, style }: BlockProps<SayItToScoreBlock>) {
+  return (
+    <div className="my-8 rounded-xl border border-slate-200 bg-white p-5">
+      <div className="flex gap-3">
+        <Quote className={`mt-0.5 h-5 w-5 shrink-0 ${style.icon}`} aria-hidden="true" />
+        <div className="min-w-0">
+          <BlockLabel className={style.icon}>Say it to score</BlockLabel>
+          <p className="mt-1 text-sm text-slate-600">
+            The standard AQA terminology for this topic.
+          </p>
+          <ul className="mt-3 flex flex-wrap gap-2">
+            {block.items.map((item, i) => (
+              <li
+                key={i}
+                className="rounded-md border border-slate-200 bg-slate-50 px-2.5 py-1.5 text-sm font-medium text-slate-800"
+              >
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function LockItIn({ block, style }: BlockProps<LockItInBlock>) {
+  return (
+    <div className="my-8 rounded-xl border-2 border-dashed border-slate-300 p-5">
+      <div className="flex gap-3">
+        <CheckCheck className={`mt-0.5 h-5 w-5 shrink-0 ${style.icon}`} aria-hidden="true" />
+        <div>
+          <BlockLabel className={style.icon}>Lock it in</BlockLabel>
+          <ul className="mt-2 space-y-1.5">
+            {block.items.map((item, i) => (
+              <li key={i} className="flex gap-2 text-slate-700">
+                <span aria-hidden="true" className="text-slate-500">
+                  &bull;
+                </span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/** Renders one block according to its `type`. */
+export function NoteBlockRenderer({ block, style }: { block: NoteBlock; style: SubjectStyle }) {
+  switch (block.type) {
+    case "definition":
+      return <Definition block={block} style={style} />;
+    case "formula":
+      return <Formula block={block} style={style} />;
+    case "how_it_works":
+      return <HowItWorks block={block} style={style} />;
+    case "compare":
+      return <Compare block={block} style={style} />;
+    case "explainer":
+      return <Explainer block={block} style={style} />;
+    case "mix_ups":
+      return <MixUps block={block} style={style} />;
+    case "say_it_to_score":
+      return <SayItToScore block={block} style={style} />;
+    case "lock_it_in":
+      return <LockItIn block={block} style={style} />;
+  }
+}
