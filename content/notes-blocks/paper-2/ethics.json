@@ -877,6 +877,33 @@
           ]
         },
         {
+          "heading": "Effects on the sport as a whole",
+          "specBullet": "The positive and negative effects of commercialisation on a sport",
+          "blocks": [
+            {
+              "type": "explainer",
+              "paragraphs": [
+                "Commercialisation acts on the sport itself as well as on the people in it. The gains are mostly financial, and the costs are mostly about control, because money arriving from outside a sport tends to come with expectations about how that sport is run."
+              ]
+            },
+            {
+              "type": "compare",
+              "columns": [
+                "Commercialisation",
+                "Positive effects",
+                "Negative effects"
+              ],
+              "rows": [
+                [
+                  "For the sport itself",
+                  "Funding pays for facilities, equipment, coaching and talent identification, and for the technology that helps officials reach correct decisions. More events and competitions are staged, more role models become visible to draw people into the sport, and spectator involvement grows through team kit and merchandise",
+                  "A sport can become over-reliant on commercial income, and is left exposed if that funding is withdrawn. Traditional supporters often resist the new competitions, rule changes and altered formats that broadcasters and sponsors ask for"
+                ]
+              ]
+            }
+          ]
+        },
+        {
           "heading": "Impact on coaches, officials and spectators",
           "specBullet": "The impact of commercialisation on coaches, officials and spectators",
           "blocks": [
