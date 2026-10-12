@@ -583,6 +583,60 @@ For achievement goal theory in particular, the content is standard and the spec
 is explicit about what is required, but it has not been checked against the
 textbook the student is actually taught from. Worth a glance before relying on it.
 
+## Audit against the Drive output notes, and the one gap it found
+
+All 31 chapter documents in the user's Google Drive folder `AQA PE Notes /
+02 - Generated Notes (output)` were read and compared against all 46 subtopics
+on the site.
+
+The comparison was possible because the Drive documents and the repository
+markdown use identical heading text: the pipeline split chapter documents into
+subtopic files without rewording a single heading. That makes heading matching a
+reliable screen rather than a guess.
+
+**Nothing is missing at topic or subtopic level.** Every Drive document is
+represented, and the nine documents that split across several subtopics (24
+subtopics between them) carried all 102 of their headings through intact.
+
+Four documents have fewer headings on the site because sections were merged into
+their neighbours rather than dropped: respiratory (8 into 6), role of technology
+(15 into 10), commercialisation (14 into 9) and one other. Content was checked in
+each case and is present.
+
+### The one real gap: effects of commercialisation on the sport itself
+
+A section of the commercialisation chapter covering the effects on a sport as a
+whole was absent from both the markdown and the blocks, so it was lost at the
+original Drive to markdown step and predates the block restructure.
+
+Most of what that section covers was already present elsewhere, which is why the
+gap is narrower than it first looked. Funding inequality between popular and
+minority sports appears in three other sections, corporate hospitality taking
+ticket allocation appears under spectators, and commercial control of event
+locations appears under media coverage. What was genuinely absent was
+over-reliance on commercial income and the exposure if it is withdrawn,
+traditional supporters resisting new competitions and format changes, and funding
+flowing into talent identification. One short section was added covering those,
+deliberately without restating the points already made elsewhere.
+
+### A false positive worth recording
+
+The audit first reported a second gap: the list of qualities that make a sport
+attractive to broadcasters, apparently missing from the blocks. It is not
+missing. The blocks paraphrase it ("a high level of skill, something that looks
+good on screen, rules simple enough to follow without explanation, a format that
+fits a short slot, and recognisable personalities") rather than using the source
+wording, so a keyword search for "visually appealing" and "easily understood"
+found nothing.
+
+This is the same failure mode that recurred throughout this project: exact-phrase
+probes return false negatives against deliberately reworded prose. A keyword miss
+is a prompt to go and read the section, never a finding on its own. A
+section-level sweep across all 46 subtopics, comparing markdown headings against
+block headings, flagged only one further case, which was also a false positive
+(marketability of the individual performer, folded into the section on why sport
+attracts business).
+
 ## Blocked
 
 ### Source files: located, and no longer blocking
