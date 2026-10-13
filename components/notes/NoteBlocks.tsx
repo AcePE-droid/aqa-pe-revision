@@ -43,7 +43,7 @@ function Definition({ block, style }: BlockProps<DefinitionBlock>) {
   return (
     <div className="my-8">
       <BlockLabel className="text-slate-600">
-        {block.items.length === 1 ? "Key term" : "Key terms"}
+        {block.label ?? (block.items.length === 1 ? "Key term" : "Key terms")}
       </BlockLabel>
       <dl className="mt-3 divide-y divide-slate-200 border-t border-slate-200">
         {block.items.map((item) => (
