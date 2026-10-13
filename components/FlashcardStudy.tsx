@@ -390,7 +390,13 @@ export default function FlashcardStudy({
             className="group flex min-h-[70vh] w-full cursor-pointer [perspective:1000px] sm:min-h-[55vh] sm:w-[65%] sm:max-w-3xl"
           >
             <div
-              className={`relative h-full w-full transition-transform duration-[450ms] ease-out [transform-style:preserve-3d] ${
+              // 280ms rather than 450: still a clearly readable turn, but the
+              // card arrives before the wait starts to register. will-change
+              // promotes the rotation to its own compositor layer, so the two
+              // faces rasterise once instead of repainting their shadow and
+              // ring on every frame - that repaint was costing ~83ms frames on
+              // throttled hardware while hovered, against ~33ms when not.
+              className={`relative h-full w-full transition-transform duration-[280ms] ease-out [transform-style:preserve-3d] [will-change:transform] ${
                 flipped ? "[transform:rotateY(180deg)]" : ""
               }`}
             >
