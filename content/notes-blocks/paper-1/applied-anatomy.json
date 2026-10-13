@@ -207,7 +207,8 @@
                   "term": "Proprioceptors",
                   "meaning": "In the muscles, tendons and joints, they detect increased movement as exercise begins and pass this to the medulla, raising heart rate."
                 }
-              ]
+              ],
+              "label": "Types of receptors"
             },
             {
               "type": "explainer",
@@ -441,7 +442,8 @@
                   "term": "Diastolic pressure",
                   "meaning": "The lower pressure remaining while the ventricles are relaxed and refilling."
                 }
-              ]
+              ],
+              "label": "Types of pressure"
             },
             {
               "type": "formula",
@@ -831,7 +833,8 @@
                   "term": "Haemorrhagic stroke",
                   "meaning": "Where a weakened blood vessel in the brain bursts."
                 }
-              ]
+              ],
+              "label": "Types of stroke"
             },
             {
               "type": "explainer",
@@ -918,7 +921,8 @@
                   "term": "Pleura",
                   "meaning": "The double-layered membrane enclosing each lung, with fluid between the layers reducing friction as the lungs expand and contract."
                 }
-              ]
+              ],
+              "label": "Features of alveoli"
             }
           ]
         },
@@ -1595,7 +1599,8 @@
                   "term": "Autogenic inhibition",
                   "meaning": "When a muscle contracts isometrically, the golgi tendon organs sense the rise in tension and send inhibitory signals to the brain, causing the muscle to relax and lengthen."
                 }
-              ]
+              ],
+              "label": "Types of proprioceptors"
             },
             {
               "type": "compare",
@@ -1719,7 +1724,8 @@
                   "term": "Hinge joints",
                   "meaning": "Allow movement in only one direction, because of the shape of the articulating bones."
                 }
-              ]
+              ],
+              "label": "Types of joints"
             },
             {
               "type": "compare",
@@ -2616,7 +2622,8 @@
                   "term": "Lifestyle",
                   "meaning": "Smoking, a sedentary lifestyle and poor diet can all reduce VO2 max."
                 }
-              ]
+              ],
+              "label": "Factors affecting VO2 max"
             }
           ]
         },
@@ -2639,7 +2646,8 @@
                   "term": "Respiratory exchange ratio (RER)",
                   "meaning": "The ratio of carbon dioxide produced to oxygen consumed (VCO2/VO2), calculated from the gases measured during indirect calorimetry."
                 }
-              ]
+              ],
+              "label": "Ways of measuring energy expenditure"
             },
             {
               "type": "explainer",
