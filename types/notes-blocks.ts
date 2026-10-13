@@ -13,10 +13,17 @@
  * Key terms. `term` must be the exact AQA term - only the `meaning` is
  * rewritten. Grouped into one block rather than one block per term so the
  * renderer can lay a set of related terms out together.
+ *
+ * `label` overrides the heading above the list, which is otherwise "Key term"
+ * or "Key terms" depending on how many there are. Set it where the block is a
+ * named set rather than a loose group of terms, for example "Types of valves",
+ * so the heading says what the list actually is. Used verbatim, so it does not
+ * pluralise itself.
  */
 export type DefinitionBlock = {
   type: "definition";
   items: { term: string; meaning: string }[];
+  label?: string;
 };
 
 /**
