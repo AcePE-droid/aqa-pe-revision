@@ -139,6 +139,33 @@ export default function FlashcardStudy({
 
   const timers = useRef<number[]>([]);
 
+  // Input that arrives mid-transition used to be dropped. Both the card's
+  // click handler and runTransition bailed out unless navPhase was "idle",
+  // and navPhase isn't idle for OUT_MS + IN_MS (450ms) after every card
+  // change. Measured: a tap 440ms after pressing Next did nothing, 460ms
+  // worked, and two Next presses 120ms apart advanced the deck by one card
+  // instead of two. Nothing on screen said the input had been ignored, so it
+  // read as the flip lagging - even though the flip itself never drops a
+  // frame (worst frame 17.6ms, first flip on a new card same as any other).
+  //
+  // Input is remembered instead of discarded. `transitioning` mirrors
+  // navPhase as a ref because these are flushed from inside a timer, where
+  // the state update queued alongside them hasn't been applied yet.
+  const transitioning = useRef(false);
+  // True only while the outgoing card is sliding away. Separate from
+  // `transitioning` because a flip is allowed during the incoming half, and
+  // a ref rather than navPhase because the keydown handler's closure can be
+  // a render behind: reading the state there flipped the outgoing card
+  // instead of queueing, and the reset on card change then swallowed it.
+  const slidingOut = useRef(false);
+  // A flip asked for while the outgoing card is still on screen, applied
+  // once the incoming card has settled.
+  const pendingFlip = useRef(false);
+  // Net card movement requested during a transition: +1 per Next, -1 per
+  // Previous. A count rather than a flag so three quick Next presses move
+  // three cards, resolved against the index actually landed on.
+  const pendingSteps = useRef(0);
+
   useEffect(() => {
     // Reset immediately (rather than waiting for the async fetch) so a
     // subtopic/card-set change never briefly shows the previous subtopic's
@@ -182,22 +209,71 @@ export default function FlashcardStudy({
   const card = displayCards[index];
 
   function runTransition(newIndex: number, dir: NavDirection) {
-    if (navPhase !== "idle") return;
+    if (transitioning.current) {
+      // Queue the move rather than dropping it. A new move supersedes a
+      // queued flip: the student has moved on from the card they wanted to
+      // turn over.
+      pendingSteps.current += dir === "next" ? 1 : -1;
+      pendingFlip.current = false;
+      return;
+    }
+    transitioning.current = true;
+    slidingOut.current = true;
     setDirection(dir);
     setNavPhase("out");
     schedule(() => {
+      slidingOut.current = false;
       setIndex(newIndex);
       setFlipped(false);
       setNavPhase("enterStart");
       requestAnimationFrame(() => {
         requestAnimationFrame(() => setNavPhase("enter"));
       });
-      schedule(() => setNavPhase("idle"), IN_MS);
+      schedule(() => {
+        setNavPhase("idle");
+        transitioning.current = false;
+        flushPendingInput(newIndex);
+      }, IN_MS);
     }, OUT_MS);
   }
 
+  // Applies whatever was asked for during the transition that just ended.
+  // `landedIndex` is passed in rather than read from state because this runs
+  // from a timer, before React has re-rendered with the new index.
+  function flushPendingInput(landedIndex: number) {
+    const steps = pendingSteps.current;
+    const flip = pendingFlip.current;
+    pendingSteps.current = 0;
+    pendingFlip.current = false;
+
+    if (steps !== 0) {
+      const target = Math.min(Math.max(landedIndex + steps, 0), displayCards.length - 1);
+      if (target !== landedIndex) {
+        runTransition(target, steps > 0 ? "next" : "prev");
+        return;
+      }
+    }
+    if (flip) setFlipped(true);
+  }
+
+  // The card's tap target. Only the "out" phase refuses a flip outright,
+  // because rotating a card that is sliding away looks wrong - and even then
+  // the tap is remembered rather than lost. From "enterStart" onwards the
+  // new card is on screen, so it flips immediately. That halves the worst
+  // case (450ms down to 250ms) and removes the silent failure entirely.
+  function requestFlip() {
+    if (slidingOut.current) {
+      pendingFlip.current = true;
+      return;
+    }
+    setFlipped((f) => !f);
+  }
+
   function goTo(newIndex: number) {
-    if (newIndex < 0 || newIndex >= displayCards.length) return;
+    // Mid-transition this bounds check would be against a stale index, so it
+    // is left to runTransition's queue, which clamps against the index the
+    // deck actually lands on.
+    if (!transitioning.current && (newIndex < 0 || newIndex >= displayCards.length)) return;
     runTransition(newIndex, newIndex > index ? "next" : "prev");
   }
 
@@ -217,7 +293,8 @@ export default function FlashcardStudy({
       // Leave browser/OS chords (cmd+arrow to go back, etc.) alone.
       if (e.ctrlKey || e.metaKey || e.altKey) return;
       if (isEditable(e.target)) return;
-      if (navPhase !== "idle") return;
+      // No blanket mid-transition bail-out: space and the arrows go through
+      // requestFlip/goTo, which queue rather than discard.
 
       if (e.key === " ") {
         if (e.repeat) return;
@@ -226,7 +303,7 @@ export default function FlashcardStudy({
         // would flip twice.
         if (document.activeElement instanceof HTMLButtonElement) return;
         e.preventDefault();
-        setFlipped((f) => !f);
+        requestFlip();
         return;
       }
 
@@ -250,7 +327,11 @@ export default function FlashcardStudy({
   }, [deckEnded, navPhase, index, displayCards.length]);
 
   function mark(status: FlashcardStatus) {
-    if (navPhase !== "idle") return;
+    // Marking stays all-or-nothing rather than queueing like the flip and
+    // the arrows: a queued mark would be ambiguous about which card it meant,
+    // and applying it to the wrong one would silently corrupt progress.
+    // Dropping a second press during the 450ms is the safe way to be wrong.
+    if (transitioning.current) return;
     void setCardStatus(subtopicId, card.id, status);
     const updatedProgress = { ...progress, [card.id]: status };
     setProgress(updatedProgress);
@@ -277,8 +358,16 @@ export default function FlashcardStudy({
       setLastLearningIds(new Set(learningIds));
       setDirection("next");
       setNavPhase("out");
+      // Held like any other transition so a tap on the way out doesn't leave
+      // a queued flip behind for the next session to apply.
+      transitioning.current = true;
+      slidingOut.current = true;
       schedule(() => {
         setNavPhase("idle");
+        transitioning.current = false;
+        slidingOut.current = false;
+        pendingFlip.current = false;
+        pendingSteps.current = 0;
         setDeckEnded(true);
         maybeCelebrate(updatedProgress);
       }, OUT_MS);
@@ -320,6 +409,11 @@ export default function FlashcardStudy({
     setIndex(0);
     setFlipped(false);
     setNavPhase("idle");
+    // Anything queued belonged to the session being replaced.
+    transitioning.current = false;
+    slidingOut.current = false;
+    pendingFlip.current = false;
+    pendingSteps.current = 0;
     setCelebrating(false);
     setFlashcardCelebrated(subtopicId, false);
   }
@@ -412,9 +506,7 @@ export default function FlashcardStudy({
           </div>
         ) : (
           <button
-            onClick={() => {
-              if (navPhase === "idle") setFlipped((f) => !f);
-            }}
+            onClick={requestFlip}
             className="group flex min-h-[70vh] w-full cursor-pointer [perspective:1000px] sm:min-h-[55vh] sm:w-[65%] sm:max-w-3xl"
           >
             <div
@@ -492,7 +584,11 @@ export default function FlashcardStudy({
           <div className="flex items-center justify-between">
             <button
               onClick={() => goTo(index - 1)}
-              disabled={index === 0 || navPhase !== "idle"}
+              // Disabled only at the end of the deck, not while a transition
+              // is running. Disabling mid-transition meant the press never
+              // reached goTo at all, so a second one inside the 450ms was
+              // lost rather than queued.
+              disabled={index === 0}
               className="flex items-center gap-1 rounded-md px-3 py-2 text-sm font-medium text-slate-600 hover:bg-slate-100 disabled:opacity-30"
             >
               <ChevronLeft className="h-4 w-4" /> Previous
@@ -510,7 +606,8 @@ export default function FlashcardStudy({
             </button>
             <button
               onClick={() => goTo(index + 1)}
-              disabled={index === displayCards.length - 1 || navPhase !== "idle"}
+              // Enabled during a transition for the same reason as Previous.
+              disabled={index === displayCards.length - 1}
               className="flex items-center gap-1 rounded-md px-3 py-2 text-sm font-medium text-slate-600 hover:bg-slate-100 disabled:opacity-30"
             >
               Next <ChevronRight className="h-4 w-4" />
