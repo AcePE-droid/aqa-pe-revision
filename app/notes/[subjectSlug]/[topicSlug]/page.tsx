@@ -1,7 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
+  getSubjects,
   getSubjectBySlug,
+  getTopicsBySubject,
   getTopicBySlug,
   getPaperById,
   getSubtopicsByTopicId,
@@ -12,6 +14,18 @@ import { getSubjectStyle } from "@/lib/subject-styles";
 import NotesSubtopicList from "@/components/NotesSubtopicList";
 import type { Metadata } from "next";
 import { pageMetadata, SPEC } from "@/lib/metadata";
+
+// Prebuilt for the same reason as the subtopic page below it: this is the
+// list you click a subtopic from, so it sits on the same path and was paying
+// the same per-request render.
+export function generateStaticParams() {
+  return getSubjects().flatMap((subject) =>
+    getTopicsBySubject(subject.name).map((topic) => ({
+      subjectSlug: subject.slug,
+      topicSlug: topic.slug,
+    }))
+  );
+}
 
 export async function generateMetadata(
   props: PageProps<"/notes/[subjectSlug]/[topicSlug]">
