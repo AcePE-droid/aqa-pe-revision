@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
+  getSubjects,
   getSubjectBySlug,
   getTopicsBySubject,
   getPaperById,
@@ -22,6 +23,12 @@ type PaperSection = {
     total: number;
   }[];
 };
+
+// Prebuilt alongside the topic and subtopic pages, so the whole notes
+// browse path is static rather than rendered per request.
+export function generateStaticParams() {
+  return getSubjects().map((subject) => ({ subjectSlug: subject.slug }));
+}
 
 export async function generateMetadata(
   props: PageProps<"/notes/[subjectSlug]">

@@ -3,7 +3,9 @@ import { notFound } from "next/navigation";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import {
+  getSubjects,
   getSubjectBySlug,
+  getTopicsBySubject,
   getTopicBySlug,
   getSubtopicBySlug,
   getSubtopicsByTopicId,
@@ -17,6 +19,24 @@ import { getSubjectStyle } from "@/lib/subject-styles";
 import { NoteBlockRenderer } from "@/components/notes/NoteBlocks";
 import type { Metadata } from "next";
 import { pageMetadata, SPEC } from "@/lib/metadata";
+
+// Prebuild every notes page. These are read from files that are fixed at
+// build time, so there was never a reason to render them per request - and
+// rendering on demand meant a click waited on a server round trip (plus the
+// Supabase session check in middleware.ts) before anything appeared on
+// screen, with nothing useful for Next to prefetch. Prebuilt, a click uses
+// the prefetched payload and lands immediately.
+export function generateStaticParams() {
+  return getSubjects().flatMap((subject) =>
+    getTopicsBySubject(subject.name).flatMap((topic) =>
+      getSubtopicsByTopicId(topic.id).map((subtopic) => ({
+        subjectSlug: subject.slug,
+        topicSlug: topic.slug,
+        subtopicSlug: subtopic.slug,
+      }))
+    )
+  );
+}
 
 export async function generateMetadata(
   props: PageProps<"/notes/[subjectSlug]/[topicSlug]/[subtopicSlug]">
