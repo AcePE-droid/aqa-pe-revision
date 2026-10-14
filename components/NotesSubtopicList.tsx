@@ -124,11 +124,23 @@ export default function NotesSubtopicList({
         const pending = userId !== null && progress === null;
 
         return (
-          <div key={subtopic.id} className={`flex items-center gap-4 ${cardClassName}`}>
-            {/* The link deliberately covers only the number and title: the
-                controls to its right are interactive, and nesting buttons
-                inside an anchor is invalid and breaks keyboard nav. */}
-            <Link href={`${basePath}/${subtopic.slug}`} className="flex flex-1 items-center gap-4">
+          <div key={subtopic.id} className={`relative flex items-center gap-4 ${cardClassName}`}>
+            {/* The anchor still wraps only the number and title, because the
+                controls to its right are interactive and nesting buttons
+                inside an anchor is invalid and breaks keyboard nav. Its hit
+                area is stretched over the whole card by an absolutely
+                positioned ::after, so the card's padding and the empty space
+                beside the title navigate too. Without it the anchor was the
+                height of one line of text inside a card three times as tall,
+                and roughly a third of the card responded to a click - the
+                rest looked clickable (the card carries cursor-pointer and a
+                hover shadow) and did nothing. The controls below sit on z-10
+                so they stay above the stretched area and take their own
+                clicks. */}
+            <Link
+              href={`${basePath}/${subtopic.slug}`}
+              className="flex flex-1 items-center gap-4 after:absolute after:inset-0 after:content-['']"
+            >
               <span className="font-serif text-lg font-light text-slate-300">{number}</span>
               <h2 className="flex-1 font-serif text-base font-semibold text-slate-900">
                 {subtopic.name}
@@ -138,7 +150,7 @@ export default function NotesSubtopicList({
             {userId === null ? (
               <p className="text-sm text-slate-500">Notes available</p>
             ) : (
-              <div className="flex shrink-0 items-center gap-4">
+              <div className="relative z-10 flex shrink-0 items-center gap-4">
                 <label className="flex cursor-pointer items-center gap-2 text-sm text-slate-600">
                   <input
                     type="checkbox"
