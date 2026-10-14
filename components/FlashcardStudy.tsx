@@ -72,6 +72,34 @@ function contentTransitionClasses(phase: NavPhase, direction: NavDirection): str
   }
 }
 
+// Answers run from a few words to just over 500 characters, but every face
+// used to render at one fixed size inside a fixed 70vh/55vh box with its
+// overflow hidden - so the longest answers were cut off top and bottom. Two
+// things decide the size here: how much text there is, and how much room the
+// card actually has. The rem value is the ceiling, and it's what each bucket
+// renders at on a normal screen; the vh/vw terms only win once the card
+// itself has shrunk, on a short window or a small phone. Class strings are
+// written out in full so Tailwind can see them.
+const TEXT_SIZES = [
+  {
+    maxLength: 200,
+    className: "text-[min(1.5rem,2.8vh)] sm:text-[min(1.875rem,3.4vh,2.9vw)]",
+  },
+  {
+    maxLength: 380,
+    className: "text-[min(1.25rem,2.25vh)] sm:text-[min(1.5rem,2.7vh,2.3vw)]",
+  },
+  {
+    maxLength: Infinity,
+    className: "text-[min(1.125rem,1.9vh)] sm:text-[min(1.25rem,2.25vh,1.9vw)]",
+  },
+];
+
+function textSizeClasses(text: string): string {
+  // The last bucket is unbounded, so there is always a match.
+  return TEXT_SIZES.find((size) => text.length <= size.maxLength)!.className;
+}
+
 export default function FlashcardStudy({
   subtopicId,
   subtopicName,
@@ -407,7 +435,7 @@ export default function FlashcardStudy({
                   </span>
                 )}
                 <div className={contentTransitionClasses(navPhase, direction)}>
-                  <p className="text-2xl font-medium leading-relaxed text-slate-900 sm:text-3xl">
+                  <p className={`${textSizeClasses(card.front)} font-medium leading-relaxed text-slate-900`}>
                     {card.front}
                   </p>
                   <p className="mt-8 text-[11px] font-medium uppercase tracking-wide text-slate-400">
@@ -422,7 +450,7 @@ export default function FlashcardStudy({
                   </span>
                 )}
                 <div className={contentTransitionClasses(navPhase, direction)}>
-                  <p className="text-2xl font-medium leading-relaxed text-slate-900 sm:text-3xl">
+                  <p className={`${textSizeClasses(card.back)} font-medium leading-relaxed text-slate-900`}>
                     {card.back}
                   </p>
                   <p className="mt-8 text-[11px] font-medium uppercase tracking-wide text-slate-400">
