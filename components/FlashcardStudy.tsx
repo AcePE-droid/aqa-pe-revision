@@ -516,11 +516,31 @@ export default function FlashcardStudy({
               // faces rasterise once instead of repainting their shadow and
               // ring on every frame - that repaint was costing ~83ms frames on
               // throttled hardware while hovered, against ~33ms when not.
+              //
+              // Promoting the rotation alone left one long frame at exactly
+              // the halfway point, which is where backface-visibility hands
+              // over from one face to the other. Until that instant the
+              // incoming face has never been shown, so there has been no
+              // reason to rasterise it, and the whole of it - text, rounded
+              // clip, border, shadow, and the hover ring on top of that -
+              // landed in a single frame mid-turn. The faces carry their own
+              // will-change now so each is promoted up front rather than
+              // created cold at the swap, and the hover ring is gone (see
+              // below), which is the most expensive thing that used to be in
+              // that frame. Only the first flip of a card could stutter,
+              // because afterwards both textures were already cached.
               className={`relative h-full w-full transition-transform duration-[280ms] ease-out [transform-style:preserve-3d] [will-change:transform] ${
                 flipped ? "[transform:rotateY(180deg)]" : ""
               }`}
             >
-              <div className={`absolute inset-0 flex flex-col items-center justify-center overflow-hidden rounded-2xl border bg-white p-8 text-center shadow-md transition-[box-shadow,border-color] duration-200 ease-out [backface-visibility:hidden] group-hover:shadow-lg group-hover:ring-4 group-hover:ring-slate-200/60 ${subjectStyle.border} sm:p-12`}>
+              {/* Hover lifts the shadow but no longer adds ring-4. A 4px ring
+                  on a card this large is a wide, semi-transparent spread that
+                  has to be painted into the face's texture, and because the
+                  pointer is by definition on the card whenever it is clicked,
+                  it was in every mid-turn repaint. The shadow lift alone
+                  still reads as "this is clickable", alongside the pointer
+                  cursor and the "tap to flip" label. */}
+              <div className={`absolute inset-0 flex flex-col items-center justify-center overflow-hidden rounded-2xl border bg-white p-8 text-center shadow-md transition-[box-shadow,border-color] duration-200 ease-out [backface-visibility:hidden] [will-change:transform] group-hover:shadow-lg ${subjectStyle.border} sm:p-12`}>
                 {lastLearningIds.has(card.id) && (
                   <span className="absolute left-4 top-4 rounded-full border border-amber-300 bg-amber-50 px-2.5 py-1 text-[11px] font-medium text-amber-700 sm:left-6 sm:top-6">
                     Still learning
@@ -535,7 +555,7 @@ export default function FlashcardStudy({
                   </p>
                 </div>
               </div>
-              <div className={`absolute inset-0 flex flex-col items-center justify-center overflow-hidden rounded-2xl border bg-white p-8 text-center shadow-md transition-[box-shadow,border-color] duration-200 ease-out [backface-visibility:hidden] [transform:rotateY(180deg)] group-hover:shadow-lg group-hover:ring-4 group-hover:ring-slate-200/60 ${subjectStyle.border} sm:p-12`}>
+              <div className={`absolute inset-0 flex flex-col items-center justify-center overflow-hidden rounded-2xl border bg-white p-8 text-center shadow-md transition-[box-shadow,border-color] duration-200 ease-out [backface-visibility:hidden] [transform:rotateY(180deg)] [will-change:transform] group-hover:shadow-lg ${subjectStyle.border} sm:p-12`}>
                 {lastLearningIds.has(card.id) && (
                   <span className="absolute left-4 top-4 rounded-full border border-amber-300 bg-amber-50 px-2.5 py-1 text-[11px] font-medium text-amber-700 sm:left-6 sm:top-6">
                     Still learning
