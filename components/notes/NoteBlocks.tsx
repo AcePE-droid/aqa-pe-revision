@@ -5,6 +5,7 @@ import {
   Quote,
   CheckCheck,
   ArrowDown,
+  Lightbulb,
 } from "lucide-react";
 import type { SubjectStyle } from "@/lib/subject-styles";
 import type {
@@ -17,6 +18,7 @@ import type {
   MixUpsBlock,
   SayItToScoreBlock,
   LockItInBlock,
+  MemoryTipBlock,
 } from "@/types/notes-blocks";
 
 // Each block type gets its own visual treatment, so a student can tell what
@@ -340,6 +342,81 @@ function LockItIn({ block, style }: BlockProps<LockItInBlock>) {
   );
 }
 
+/**
+ * A mnemonic. Third member of the same family as "Say it to score" and
+ * "Lock it in", and told apart from them by what the card is made of rather
+ * than only by its label: that one is solid on white, the other is a dashed
+ * outline on the page, and this one is a tinted fill behind a solid accent
+ * border. The tint comes from the subject's own `lightBg`, so a tip reads as
+ * part of its subject rather than introducing a fourth colour to the notes.
+ */
+function MemoryTip({ block, style }: BlockProps<MemoryTipBlock>) {
+  return (
+    <div className={`my-8 rounded-xl border ${style.border} ${style.lightBg} p-5`}>
+      <div className="flex gap-3">
+        <Lightbulb className={`mt-0.5 h-5 w-5 shrink-0 ${style.icon}`} aria-hidden="true" />
+        <div className="min-w-0 flex-1">
+          <BlockLabel className={style.icon}>Memory tip</BlockLabel>
+
+          {block.intro?.map((paragraph, i) => (
+            <p key={i} className={`text-sm leading-6 text-slate-700 ${i === 0 ? "mt-1" : "mt-2"}`}>
+              {paragraph}
+            </p>
+          ))}
+
+          {block.items && (
+            <ul className="mt-3 space-y-1.5">
+              {block.items.map((item, i) => (
+                <li key={i} className="flex gap-2 text-slate-700">
+                  <span aria-hidden="true" className="text-slate-500">
+                    &bull;
+                  </span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          )}
+
+          {/* The pairing is a lookup, so it stays a two-column grid at every
+              width rather than stacking the way Compare does. It can: both
+              sides are short labels, and at 375px this card leaves about
+              287px, which is around 140px a column - enough for "Transverse
+              axis" on one or two lines. Stacking it would also destroy the
+              point, since what is being memorised is the pairing itself. */}
+          {block.pairs && (
+            <dl className="mt-3 overflow-hidden rounded-lg border border-slate-200 bg-white/60">
+              <div className="grid grid-cols-2 gap-px bg-slate-200">
+                {block.pairs.columns.map((column, i) => (
+                  <div key={i} className="bg-white/80 px-3 py-2">
+                    <span className="text-[11px] font-semibold uppercase tracking-wide text-slate-600">
+                      {column}
+                    </span>
+                  </div>
+                ))}
+                {block.pairs.rows.map((row, ri) =>
+                  row.map((cell, ci) => {
+                    const Cell = ci === 0 ? "dt" : "dd";
+                    return (
+                      <Cell
+                        key={`${ri}-${ci}`}
+                        className={`bg-white/40 px-3 py-2 text-sm text-slate-700 ${
+                          ci === 0 ? "font-medium text-slate-900" : ""
+                        }`}
+                      >
+                        {cell}
+                      </Cell>
+                    );
+                  }),
+                )}
+              </div>
+            </dl>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 /** Renders one block according to its `type`. */
 export function NoteBlockRenderer({ block, style }: { block: NoteBlock; style: SubjectStyle }) {
   switch (block.type) {
@@ -359,5 +436,7 @@ export function NoteBlockRenderer({ block, style }: { block: NoteBlock; style: S
       return <SayItToScore block={block} style={style} />;
     case "lock_it_in":
       return <LockItIn block={block} style={style} />;
+    case "memory_tip":
+      return <MemoryTip block={block} style={style} />;
   }
 }

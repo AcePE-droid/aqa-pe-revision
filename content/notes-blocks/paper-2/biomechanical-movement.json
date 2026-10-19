@@ -220,9 +220,21 @@
               ]
             },
             {
+              "type": "memory_tip",
+              "intro": [
+                "Take the parts in the order fulcrum, load, effort. The class number tells you which one sits in the middle, and the other two sit either side.",
+                "The tables above call the load the resistance, so F, L, E and F, R, E are the same order."
+              ],
+              "items": [
+                "1st class: fulcrum in the middle, load and effort either side",
+                "2nd class: load in the middle, fulcrum and effort either side",
+                "3rd class: effort in the middle, fulcrum and load either side",
+                "In the table above: triceps at the elbow is 1st, rising onto tip-toes is 2nd, the biceps curl is 3rd"
+              ]
+            },
+            {
               "type": "lock_it_in",
               "items": [
-                "First class: fulcrum in the middle. Second class: resistance in the middle. Third class: effort in the middle",
                 "Third class is most common, second class is rarest",
                 "Name the three components first, then work out which one sits in the middle"
               ]
