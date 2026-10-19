@@ -1806,6 +1806,36 @@
               ]
             },
             {
+              "type": "memory_tip",
+              "intro": [
+                "The plane and the axis never share a name, which is where the marks go. Learn the three as fixed pairs."
+              ],
+              "pairs": {
+                "columns": [
+                  "Movement in this plane",
+                  "Rotates about this axis"
+                ],
+                "rows": [
+                  [
+                    "Sagittal",
+                    "Transverse"
+                  ],
+                  [
+                    "Frontal",
+                    "Sagittal"
+                  ],
+                  [
+                    "Transverse",
+                    "Longitudinal"
+                  ]
+                ]
+              },
+              "items": [
+                "Sagittal and transverse each name both a plane and an axis, so always say which one you mean",
+                "Frontal is only ever a plane, longitudinal is only ever an axis"
+              ]
+            },
+            {
               "type": "compare",
               "columns": [
                 "Joint actions",

@@ -88,10 +88,30 @@ export type SayItToScoreBlock = {
   items: string[];
 };
 
-/** Three short recall bullets. */
+/** A few short recall bullets. */
 export type LockItInBlock = {
   type: "lock_it_in";
   items: string[];
+};
+
+/**
+ * A mnemonic: a way of remembering something, as opposed to the thing
+ * itself. Deliberately its own type rather than another `lock_it_in`,
+ * because those three boxes answer different questions - "the exact words
+ * that earn marks" (say_it_to_score), "what to carry out of this section"
+ * (lock_it_in), and "a trick for recalling it under pressure" (this one).
+ *
+ * `intro` sets the trick up in a line or two. `items` is the trick itself,
+ * one line each. `pairs` renders a two-column mapping instead, for tricks
+ * that are really a lookup between two sets, such as each plane of movement
+ * and the axis that goes with it. A block may use `items`, `pairs`, or both,
+ * but should use at least one of them.
+ */
+export type MemoryTipBlock = {
+  type: "memory_tip";
+  intro?: string[];
+  items?: string[];
+  pairs?: { columns: string[]; rows: string[][] };
 };
 
 export type NoteBlock =
@@ -102,7 +122,8 @@ export type NoteBlock =
   | ExplainerBlock
   | MixUpsBlock
   | SayItToScoreBlock
-  | LockItInBlock;
+  | LockItInBlock
+  | MemoryTipBlock;
 
 /**
  * A section groups blocks under one heading. Sections are ordered by the AQA
