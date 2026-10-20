@@ -351,6 +351,14 @@ function LockItIn({ block, style }: BlockProps<LockItInBlock>) {
  * part of its subject rather than introducing a fourth colour to the notes.
  */
 function MemoryTip({ block, style }: BlockProps<MemoryTipBlock>) {
+  const labels = block.pairs?.columns.map((column, i) => (
+    <div key={`label-${i}`} className="bg-white/80 px-3 py-2">
+      <span className="text-[11px] font-semibold uppercase tracking-wide text-slate-600">
+        {column}
+      </span>
+    </div>
+  ));
+
   return (
     <div className={`my-8 rounded-xl border ${style.border} ${style.lightBg} p-5`}>
       <div className="flex gap-3">
@@ -364,17 +372,10 @@ function MemoryTip({ block, style }: BlockProps<MemoryTipBlock>) {
             </p>
           ))}
 
-          {block.items && (
-            <ul className="mt-3 space-y-1.5">
-              {block.items.map((item, i) => (
-                <li key={i} className="flex gap-2 text-slate-700">
-                  <span aria-hidden="true" className="text-slate-500">
-                    &bull;
-                  </span>
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
+          {block.phrase && (
+            <p className="mt-3 font-serif text-base text-slate-900">
+              &ldquo;{block.phrase}&rdquo;
+            </p>
           )}
 
           {/* The pairing is a lookup, so it stays a two-column grid at every
@@ -386,30 +387,49 @@ function MemoryTip({ block, style }: BlockProps<MemoryTipBlock>) {
           {block.pairs && (
             <dl className="mt-3 overflow-hidden rounded-lg border border-slate-200 bg-white/60">
               <div className="grid grid-cols-2 gap-px bg-slate-200">
-                {block.pairs.columns.map((column, i) => (
-                  <div key={i} className="bg-white/80 px-3 py-2">
-                    <span className="text-[11px] font-semibold uppercase tracking-wide text-slate-600">
-                      {column}
-                    </span>
-                  </div>
-                ))}
+                {/* The labels sit at the foot when the closing words of the
+                    phrase are themselves the labels ("...Like Planes And
+                    Axis"), so the grid reads up into them. */}
+                {block.pairs.labelPosition !== "foot" && labels}
                 {block.pairs.rows.map((row, ri) =>
                   row.map((cell, ci) => {
                     const Cell = ci === 0 ? "dt" : "dd";
                     return (
                       <Cell
                         key={`${ri}-${ci}`}
-                        className={`bg-white/40 px-3 py-2 text-sm text-slate-700 ${
-                          ci === 0 ? "font-medium text-slate-900" : ""
+                        className={`bg-white/40 px-3 py-2 text-sm ${
+                          typeof cell === "string" && ci === 0
+                            ? "font-medium text-slate-900"
+                            : "text-slate-700"
                         }`}
                       >
-                        {cell}
+                        {typeof cell === "string" ? (
+                          cell
+                        ) : (
+                          <>
+                            <span className="font-semibold text-slate-900">{cell.word}</span>:{" "}
+                            {cell.meaning}
+                          </>
+                        )}
                       </Cell>
                     );
                   }),
                 )}
+                {block.pairs.labelPosition === "foot" && labels}
               </div>
             </dl>
+          )}
+          {block.items && (
+            <ul className="mt-3 space-y-1.5">
+              {block.items.map((item, i) => (
+                <li key={i} className="flex gap-2 text-slate-700">
+                  <span aria-hidden="true" className="text-slate-500">
+                    &bull;
+                  </span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
           )}
         </div>
       </div>

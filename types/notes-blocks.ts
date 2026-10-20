@@ -101,18 +101,32 @@ export type LockItInBlock = {
  * that earn marks" (say_it_to_score), "what to carry out of this section"
  * (lock_it_in), and "a trick for recalling it under pressure" (this one).
  *
- * `intro` sets the trick up in a line or two. `items` is the trick itself,
+ * `intro` sets the trick up in a line or two. `phrase` is the sentence to
+ * memorise, set apart from the prose around it. `items` is the trick itself,
  * one line each. `pairs` renders a two-column mapping instead, for tricks
  * that are really a lookup between two sets, such as each plane of movement
  * and the axis that goes with it. A block may use `items`, `pairs`, or both,
  * but should use at least one of them.
+ *
+ * Inside `pairs`, a cell is plain text, or a `{ word, meaning }` pair where
+ * the word is the one being memorised and renders in bold ahead of what it
+ * stands for. `labelPosition` moves the column labels to the foot of the
+ * grid, for a phrase whose closing words are themselves the labels.
  */
 export type MemoryTipBlock = {
   type: "memory_tip";
   intro?: string[];
+  phrase?: string;
   items?: string[];
-  pairs?: { columns: string[]; rows: string[][] };
+  pairs?: {
+    columns: string[];
+    rows: MemoryTipCell[][];
+    labelPosition?: "head" | "foot";
+  };
 };
+
+/** A `pairs` cell: plain text, or a bolded word and what it stands for. */
+export type MemoryTipCell = string | { word: string; meaning: string };
 
 export type NoteBlock =
   | DefinitionBlock

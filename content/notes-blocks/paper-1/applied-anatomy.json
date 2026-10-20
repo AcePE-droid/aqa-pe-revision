@@ -1810,25 +1810,45 @@
               "intro": [
                 "The plane and the axis never share a name, which is where the marks go. Learn the three as fixed pairs."
               ],
+              "phrase": "Save Time For Small Things Like Planes And Axis.",
               "pairs": {
                 "columns": [
-                  "Movement in this plane",
-                  "Rotates about this axis"
+                  "Planes",
+                  "Axis"
                 ],
                 "rows": [
                   [
-                    "Sagittal",
-                    "Transverse"
+                    {
+                      "word": "Save",
+                      "meaning": "sagittal plane"
+                    },
+                    {
+                      "word": "Time",
+                      "meaning": "transverse axis"
+                    }
                   ],
                   [
-                    "Frontal",
-                    "Sagittal"
+                    {
+                      "word": "For",
+                      "meaning": "frontal plane"
+                    },
+                    {
+                      "word": "Small",
+                      "meaning": "sagittal axis"
+                    }
                   ],
                   [
-                    "Transverse",
-                    "Longitudinal"
+                    {
+                      "word": "Things",
+                      "meaning": "transverse plane"
+                    },
+                    {
+                      "word": "Like",
+                      "meaning": "longitudinal axis"
+                    }
                   ]
-                ]
+                ],
+                "labelPosition": "foot"
               },
               "items": [
                 "Sagittal and transverse each name both a plane and an axis, so always say which one you mean",
