@@ -1701,18 +1701,6 @@
               "type": "definition",
               "items": [
                 {
-                  "term": "Fibrous (fixed) joints",
-                  "meaning": "Allow no movement."
-                },
-                {
-                  "term": "Cartilaginous (slightly moveable) joints",
-                  "meaning": "Allow limited movement."
-                },
-                {
-                  "term": "Synovial (freely moveable) joints",
-                  "meaning": "Allow the greatest range of movement. The specification focuses on two types: ball and socket, and hinge."
-                },
-                {
                   "term": "Ball and socket joints",
                   "meaning": "Allow movement in every direction. The round head of one bone fits into a cup-shaped socket on the connecting bone."
                 },
