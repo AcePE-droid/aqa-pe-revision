@@ -150,7 +150,36 @@ export type GraphBlock = {
   yAxis: { label: string; max: number; ticks: number[] };
   /** `[x, y]` pairs in data units, joined in order. */
   points: number[][];
-  annotations?: { x: number; y: number; text: string }[];
+  /**
+   * Stage labels. `x` and `y` are in data units, so a label stays attached to
+   * the part of the line it describes at any size.
+   *
+   * `anchor` is which end of the text sits at `x`, defaulting to its middle.
+   * A label beside a steep line needs to be anchored at the end nearest the
+   * line, otherwise centring it pushes the text back across the line or off
+   * the edge of the plot.
+   *
+   * `wrapped` is the same words broken over lines, used at phone width only.
+   * SVG text does not reflow, so the two versions are both drawn and one is
+   * hidden, the same approach the compare tables take. It exists to buy room
+   * without shortening a label: these are the terms students have to
+   * recognise, so they are never abbreviated or reworded.
+   */
+  annotations?: {
+    x: number;
+    y: number;
+    text: string;
+    anchor?: "start" | "middle" | "end";
+    wrapped?: string[];
+    /**
+     * Position from the `sm` breakpoint up, where the type is smaller and so
+     * the label is a good deal narrower. A label squeezed past a line at
+     * phone width often has to sit further from it than it needs to on a
+     * wide screen, and one position cannot be tight at both. Only the given
+     * fields are overridden.
+     */
+    wide?: { x?: number; y?: number; anchor?: "start" | "middle" | "end" };
+  }[];
   caption?: string;
 };
 
