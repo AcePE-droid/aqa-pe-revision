@@ -99,6 +99,10 @@
                   "meaning": "Mostly from animal sources. Eaten in excess they contribute to weight gain and raised cholesterol, increasing the risk of coronary heart disease, high blood pressure and diabetes."
                 },
                 {
+                  "term": "Unsaturated fats",
+                  "meaning": "Mostly from plant sources such as nuts, seeds and vegetable oils, and from oily fish. Unlike saturated fats they do not raise blood cholesterol."
+                },
+                {
                   "term": "Cholesterol",
                   "meaning": "Carried in the blood in two forms, LDL and HDL."
                 },
@@ -213,10 +217,6 @@
             {
               "type": "definition",
               "items": [
-                {
-                  "term": "Electrolytes",
-                  "meaning": "What minerals become when they dissolve in the body as ions. They support functions including nerve impulse transmission and effective muscle contraction."
-                },
                 {
                   "term": "Calcium",
                   "meaning": "Builds strong bones and teeth, and supports efficient nerve and muscle function."
@@ -775,14 +775,6 @@
                   "meaning": "Develops muscular strength, and depending on how the programme is designed, power or muscular endurance, using free weights or fixed resistance machines, structured around sets and repetitions."
                 },
                 {
-                  "term": "Repetition",
-                  "meaning": "One completion of an exercise."
-                },
-                {
-                  "term": "Set",
-                  "meaning": "A group of repetitions performed consecutively."
-                },
-                {
                   "term": "1 rep max (1RM)",
                   "meaning": "The maximum weight a performer can lift for a single repetition. Training loads are typically planned as a percentage of it."
                 }
@@ -1119,8 +1111,8 @@
                   "meaning": "The use of cold temperatures to treat an injury, most often for muscle strains and ligament sprains."
                 },
                 {
-                  "term": "POLICE",
-                  "meaning": "The protocol traditionally used to guide cryotherapy: Protection, Optimal Loading, Ice, Compression, Elevation."
+                  "term": "RICE",
+                  "meaning": "The protocol traditionally used to guide cryotherapy: Rest, Ice, Compression, Elevation."
                 },
                 {
                   "term": "Whole-body cryotherapy (WBC)",
@@ -1192,20 +1184,12 @@
                   "meaning": "Tight-fitting clothing worn to improve blood circulation and help prevent conditions such as deep vein thrombosis during long periods of inactivity, such as long-haul flights."
                 },
                 {
-                  "term": "Deep vein thrombosis (DVT)",
-                  "meaning": "A blood clot forming in one of the body's deep veins."
-                },
-                {
                   "term": "Sports massage",
                   "meaning": "Targets the soft tissue, meaning muscles, tendons and ligaments, that builds up tension from regular training."
                 },
                 {
                   "term": "Foam rolling",
                   "meaning": "A form of self-massage where the performer uses their own body weight against a cylindrical foam roller to apply pressure to a muscle and the surrounding fascia."
-                },
-                {
-                  "term": "Fascia",
-                  "meaning": "The fibrous connective tissue surrounding muscles."
                 }
               ]
             },
