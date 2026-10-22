@@ -459,8 +459,15 @@ const ANNOTATION_HALO = "#ffffff";
  */
 function Graph({ block, style }: BlockProps<GraphBlock>) {
   const W = 380;
-  const H = 240;
-  const PAD = { left: 46, right: 16, top: 24, bottom: 38 };
+  // The top padding carries the y-axis name, which sits above the axis rather
+  // than rotated alongside it. It has to clear the tallest the name ever gets:
+  // the type is larger in viewBox units on a phone, and at 24 the ascenders of
+  // "Distance (m)" reached y = -5.5, above the viewBox, so the browser cropped
+  // their tops. The height grows by the same amount the padding does, which
+  // leaves the plot itself exactly as it was and so leaves every measured
+  // label clearance untouched.
+  const H = 256;
+  const PAD = { left: 46, right: 16, top: 40, bottom: 38 };
   const plotW = W - PAD.left - PAD.right;
   const plotH = H - PAD.top - PAD.bottom;
   const originY = PAD.top + plotH;
@@ -517,7 +524,7 @@ function Graph({ block, style }: BlockProps<GraphBlock>) {
 
           {/* Axis names sit beside the arrowheads rather than rotated, which
               keeps them legible once the whole drawing is scaled down. */}
-          <text x={PAD.left - 8} y={PAD.top - 14} textAnchor="start" className="text-[16px] sm:text-[11px]" fill="#334155" fontStyle="italic">
+          <text x={PAD.left - 8} y={PAD.top - 18} textAnchor="start" className="text-[16px] sm:text-[11px]" fill="#334155" fontStyle="italic">
             {block.yAxis.label}
           </text>
           <text x={W - PAD.right} y={H - 8} textAnchor="end" className="text-[16px] sm:text-[11px]" fill="#334155" fontStyle="italic">
