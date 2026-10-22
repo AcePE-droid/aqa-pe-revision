@@ -156,10 +156,6 @@
                 {
                   "term": "Socialisation",
                   "meaning": "Learning values and opinions from significant others such as friends, parents and role models."
-                },
-                {
-                  "term": "Familiarisation",
-                  "meaning": "Where repeated exposure to an attitude makes it feel normal and accepted."
                 }
               ]
             },
@@ -598,10 +594,6 @@
                 {
                   "term": "Sports Competition Anxiety Test (SCAT)",
                   "meaning": "Developed by Martens in 1977. A series of 15 statements designed to measure how a player responds to competitive sporting situations."
-                },
-                {
-                  "term": "Competitive State Anxiety Inventory (CSAI-2)",
-                  "meaning": "Martens's 1990 extension of SCAT. It distinguishes between somatic and cognitive anxiety and also measures self-confidence, using a maximum score of 36 for each subscale. It should be completed an hour before an event for an accurate result."
                 }
               ]
             },
@@ -618,12 +610,6 @@
                   "Quick, cheap and efficient. Large numbers of players can be assessed at once, and the results are easily compared",
                   "They can be invalid or unreliable. Players may not understand a question and give an answer that does not reflect how they truly feel, or may give the socially desirable answer rather than the true one. Answers can depend on mood, and rushed responses lead to inaccurate results"
                 ]
-              ]
-            },
-            {
-              "type": "explainer",
-              "paragraphs": [
-                "The CSAI-2 is the more useful of the two for a coach, because separating cognitive from somatic anxiety and adding self-confidence lets them identify how players deal with anxiety and stress, and select appropriate techniques to help reduce it."
               ]
             }
           ]
@@ -686,10 +672,6 @@
                 {
                   "term": "Assertion",
                   "meaning": "Well-motivated behaviour that stays within the rules. It is controlled, goal-directed, and not intended to harm."
-                },
-                {
-                  "term": "Instrumental aggression",
-                  "meaning": "Aggression that has an intent to harm but is also within the rules of the sport."
                 },
                 {
                   "term": "Grey area",
