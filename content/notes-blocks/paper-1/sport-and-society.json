@@ -617,16 +617,6 @@
               ]
             },
             {
-              "type": "how_it_works",
-              "mode": "chain",
-              "items": [
-                "1901: a maximum wage cap is introduced, limiting what top players can earn",
-                "1961: the maximum wage is abolished",
-                "1995: the Bosman ruling gives out-of-contract players freedom of movement between clubs",
-                "Player bargaining power and wages rise sharply, reaching today's multi-million-pound contracts"
-              ]
-            },
-            {
               "type": "definition",
               "items": [
                 {
@@ -683,19 +673,6 @@
               "type": "explainer",
               "paragraphs": [
                 "Tennis offered relatively early opportunities for women to take part, from the 1880s, which helped challenge some contemporary stereotypes about female participation, although women initially had to play in restrictive clothing."
-              ]
-            },
-            {
-              "type": "definition",
-              "items": [
-                {
-                  "term": "Open era",
-                  "meaning": "Tennis remained largely amateur at major tournaments until 1968, when the sport entered the open era, allowing professional and amateur players to compete together and earn official prize money for the first time."
-                },
-                {
-                  "term": "Women's Tennis Association (WTA)",
-                  "meaning": "Has played a major role in developing women's professional tennis, including a high-profile campaign led by Billie Jean King for equal prize money, eventually achieved at Wimbledon and the French Open in 2007."
-                }
               ]
             }
           ]
@@ -1270,10 +1247,6 @@
             {
               "type": "definition",
               "items": [
-                {
-                  "term": "County Sport Partnerships (CSPs)",
-                  "meaning": "Networks of local organisations, including local authorities, health bodies, clubs and schools, that coordinate provision and target investment to meet specific local needs."
-                },
                 {
                   "term": "Activity Alliance",
                   "meaning": "Focused on increasing physical activity among disabled people."

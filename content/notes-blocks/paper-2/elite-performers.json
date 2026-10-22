@@ -109,39 +109,6 @@
           ]
         },
         {
-          "heading": "Outdoor and adventurous activities",
-          "specBullet": "OAA, perceived risk and the barriers to delivery",
-          "blocks": [
-            {
-              "type": "definition",
-              "items": [
-                {
-                  "term": "OAA",
-                  "meaning": "Outdoor and adventurous activities. Part of the National Curriculum PE offer, using the natural environment as a resource for learning."
-                },
-                {
-                  "term": "Perceived risk",
-                  "meaning": "What OAA is built around: a challenge that creates a genuine sense of danger and adventure, while actual danger is minimised through strict safety measures, such as a harness when climbing."
-                }
-              ]
-            },
-            {
-              "type": "lock_it_in",
-              "items": [
-                "What OAA develops: leadership skills, excitement and adrenaline, appreciation of the natural environment",
-                "Decision-making and cognitive skills, and social skills and self-esteem",
-                "Perceived risk is high, actual risk is managed down"
-              ]
-            },
-            {
-              "type": "explainer",
-              "paragraphs": [
-                "PE departments often struggle to deliver OAA. The obstacles are a lack of curriculum time, a lack of money for specialist equipment, a lack of qualified staff, the school's location, and health and safety concerns from parents and staff."
-              ]
-            }
-          ]
-        },
-        {
           "heading": "School sport",
           "specBullet": "School sport and the initiatives promoting it",
           "blocks": [
@@ -151,10 +118,6 @@
                 {
                   "term": "School sport",
                   "meaning": "Distinct from PE. It mostly takes place in extra-curricular time, is a matter of choice rather than a compulsory part of the timetable, and is competitive in nature."
-                },
-                {
-                  "term": "School Sport Partnerships",
-                  "meaning": "A government initiative linking secondary schools with primary and junior schools."
                 },
                 {
                   "term": "School Games",
@@ -192,32 +155,7 @@
                 {
                   "term": "Performance level",
                   "meaning": "Genuine commitment to regular participation, where winning becomes important."
-                },
-                {
-                  "term": "Triangular model",
-                  "meaning": "Represents a pupil's overall experience as three linked elements: Education, School Sport and Recreation."
                 }
-              ]
-            },
-            {
-              "type": "compare",
-              "columns": [
-                "Element of the triangular model",
-                "What it is"
-              ],
-              "rows": [
-                [
-                  "Education",
-                  "Compulsory, formally taught National Curriculum PE"
-                ],
-                [
-                  "School Sport",
-                  "Extra-curricular competitive opportunities, such as inter-house fixtures"
-                ],
-                [
-                  "Recreation",
-                  "Extra-curricular, non-competitive opportunities, such as an open aerobics club"
-                ]
               ]
             }
           ]
