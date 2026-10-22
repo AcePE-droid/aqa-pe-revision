@@ -128,6 +128,32 @@ export type MemoryTipBlock = {
 /** A `pairs` cell: plain text, or a bolded word and what it stands for. */
 export type MemoryTipCell = string | { word: string; meaning: string };
 
+/**
+ * A line graph, drawn from its data. For the places where the shape of the
+ * line is the thing being taught: distance-time, velocity-time, force-time.
+ *
+ * Deliberately data rather than a picture file. The notes have no asset
+ * pipeline, a line drawn from points stays sharp at any width and takes the
+ * subject's own accent colour, and the axis values stay selectable text
+ * instead of being baked into an image. A curve is drawn by giving the line
+ * enough points to approximate it.
+ *
+ * `ticks` are listed rather than generated, because the useful marks on these
+ * graphs are the moments the motion changes, which are not evenly spaced.
+ * `annotations` name a stage of the line; `x` and `y` are in data units and
+ * are positioned by hand against the shape they describe.
+ */
+export type GraphBlock = {
+  type: "graph";
+  title: string;
+  xAxis: { label: string; max: number; ticks: number[] };
+  yAxis: { label: string; max: number; ticks: number[] };
+  /** `[x, y]` pairs in data units, joined in order. */
+  points: number[][];
+  annotations?: { x: number; y: number; text: string }[];
+  caption?: string;
+};
+
 export type NoteBlock =
   | DefinitionBlock
   | FormulaBlock
@@ -137,7 +163,8 @@ export type NoteBlock =
   | MixUpsBlock
   | SayItToScoreBlock
   | LockItInBlock
-  | MemoryTipBlock;
+  | MemoryTipBlock
+  | GraphBlock;
 
 /**
  * A section groups blocks under one heading. Sections are ordered by the AQA
