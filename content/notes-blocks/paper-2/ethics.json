@@ -70,10 +70,6 @@
                 {
                   "term": "Simulation",
                   "meaning": "Deceiving an official by over-acting, such as diving."
-                },
-                {
-                  "term": "Citing",
-                  "meaning": "Using technology to identify and punish offences missed during the match."
                 }
               ]
             },
@@ -553,10 +549,6 @@
                 {
                   "term": "Bosman Ruling (1995)",
                   "meaning": "Gave EU footballers the right to move freely to another club at the end of their contract, without a transfer fee."
-                },
-                {
-                  "term": "Restraint of trade",
-                  "meaning": "Action interfering with free competition. In Wayne Rooney's dispute with Proactive Sports Management, the Court of Appeal held that the contract he signed aged 17 was unenforceable."
                 }
               ]
             },
@@ -753,10 +745,6 @@
               "type": "definition",
               "items": [
                 {
-                  "term": "OFCOM",
-                  "meaning": "The regulator of UK telecoms."
-                },
-                {
                   "term": "Ring-fenced",
                   "meaning": "Events that must be available on free-to-air television."
                 },
@@ -783,15 +771,6 @@
           "heading": "The growth of media money",
           "specBullet": "The growth in the value of television rights",
           "blocks": [
-            {
-              "type": "definition",
-              "items": [
-                {
-                  "term": "Potentially symbiotic",
-                  "meaning": "How the sport and media relationship is described: mutually beneficial, but dependent on the media having an interest in covering the sport."
-                }
-              ]
-            },
             {
               "type": "explainer",
               "paragraphs": [
@@ -1093,10 +1072,6 @@
                 {
                   "term": "GPS",
                   "meaning": "A space-based navigation system providing location and time information, tracking speed, distance and direction. In contact sports it can measure impact in G forces."
-                },
-                {
-                  "term": "Strava",
-                  "meaning": "Shows GPS technology benefiting athletes at all levels, connecting them worldwide to compare and compete."
                 }
               ]
             },
@@ -1162,10 +1137,6 @@
                 {
                   "term": "Aiding skill and technique development",
                   "meaning": "Video programmes such as Dartfish, and electrostimulation devices."
-                },
-                {
-                  "term": "Electrostimulation devices",
-                  "meaning": "Aid rehabilitation and prevent muscle atrophy, but must not be over-used, because of a saturation effect."
                 },
                 {
                   "term": "Game analysis",
