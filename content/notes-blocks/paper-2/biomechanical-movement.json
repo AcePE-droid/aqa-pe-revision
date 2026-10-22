@@ -440,6 +440,100 @@
                   "Deceleration: less distance is covered in each period, as near the end of a run"
                 ]
               ]
+            },
+            {
+              "type": "graph",
+              "title": "One 20 second run, plotted as distance against time",
+              "xAxis": {
+                "label": "Time (s)",
+                "max": 20,
+                "ticks": [
+                  4,
+                  10,
+                  14,
+                  20
+                ]
+              },
+              "yAxis": {
+                "label": "Distance (m)",
+                "max": 60,
+                "ticks": [
+                  10,
+                  20,
+                  30,
+                  40,
+                  50
+                ]
+              },
+              "points": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  1,
+                  0.6
+                ],
+                [
+                  2,
+                  2.5
+                ],
+                [
+                  3,
+                  5.6
+                ],
+                [
+                  4,
+                  10
+                ],
+                [
+                  10,
+                  40
+                ],
+                [
+                  11,
+                  44.4
+                ],
+                [
+                  12,
+                  47.5
+                ],
+                [
+                  13,
+                  49.4
+                ],
+                [
+                  14,
+                  50
+                ],
+                [
+                  20,
+                  50
+                ]
+              ],
+              "annotations": [
+                {
+                  "x": 2.4,
+                  "y": 19,
+                  "text": "accelerating"
+                },
+                {
+                  "x": 5.8,
+                  "y": 37,
+                  "text": "constant speed"
+                },
+                {
+                  "x": 12.2,
+                  "y": 57,
+                  "text": "decelerating"
+                },
+                {
+                  "x": 17,
+                  "y": 43,
+                  "text": "stationary"
+                }
+              ],
+              "caption": "The gradient is the speed. It steepens while the runner builds up speed, holds straight while that speed is constant, flattens as they slow, and is level once they stop. Plotted as velocity, the same run looks like the graph below."
             }
           ]
         },
@@ -484,6 +578,76 @@
                   "The body has reversed direction. Velocity is a vector, so a negative value means motion is now happening the opposite way"
                 ]
               ]
+            },
+            {
+              "type": "graph",
+              "title": "The same run, plotted as velocity against time",
+              "xAxis": {
+                "label": "Time (s)",
+                "max": 20,
+                "ticks": [
+                  4,
+                  10,
+                  14,
+                  20
+                ]
+              },
+              "yAxis": {
+                "label": "Velocity (m/s)",
+                "max": 6,
+                "ticks": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ]
+              },
+              "points": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  4,
+                  5
+                ],
+                [
+                  10,
+                  5
+                ],
+                [
+                  14,
+                  0
+                ],
+                [
+                  20,
+                  0
+                ]
+              ],
+              "annotations": [
+                {
+                  "x": 2.0,
+                  "y": 5.5,
+                  "text": "accelerating"
+                },
+                {
+                  "x": 7.2,
+                  "y": 5.5,
+                  "text": "constant velocity"
+                },
+                {
+                  "x": 13.3,
+                  "y": 3.0,
+                  "text": "decelerating"
+                },
+                {
+                  "x": 17,
+                  "y": 0.75,
+                  "text": "stationary"
+                }
+              ],
+              "caption": "Here the gradient is the acceleration. The rising line is uniform acceleration, the flat section is zero acceleration rather than zero speed, and the falling line is deceleration."
             }
           ]
         },
@@ -1194,10 +1358,6 @@
                 {
                   "term": "Fluid mechanics",
                   "meaning": "The study of how an object or the human body moves through a fluid environment, whether a liquid, such as a swimmer moving through water, or a gas, such as a sprinter or ball moving through air."
-                },
-                {
-                  "term": "Fluid dynamics",
-                  "meaning": "The branch of fluid mechanics concerned specifically with moving fluids."
                 },
                 {
                   "term": "Dynamic fluid forces",

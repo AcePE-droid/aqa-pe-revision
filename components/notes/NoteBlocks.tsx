@@ -19,6 +19,7 @@ import type {
   SayItToScoreBlock,
   LockItInBlock,
   MemoryTipBlock,
+  GraphBlock,
 } from "@/types/notes-blocks";
 
 // Each block type gets its own visual treatment, so a student can tell what
@@ -437,6 +438,110 @@ function MemoryTip({ block, style }: BlockProps<MemoryTipBlock>) {
   );
 }
 
+/**
+ * A line graph drawn from its points. No marker elements and no hooks, since
+ * these render on the server: the axis arrowheads are plain polygons, so two
+ * graphs on one page cannot collide over an id.
+ *
+ * The drawing is laid out in a fixed viewBox and scaled by the browser, so
+ * the whole thing shrinks to the column width on a phone without any of the
+ * text reflowing out of position. Because the whole drawing scales, the type
+ * sizes are set the other way round from everywhere else on the site: larger
+ * viewBox units on a phone, smaller on a wide screen. A 380-unit viewBox is
+ * drawn at roughly 295px on a 375px phone and roughly 600px in the notes
+ * column, so a single size would render at about 8px on the phone and about
+ * 16px on the desktop. These two pairs land near 10px and 16px on both.
+ */
+function Graph({ block, style }: BlockProps<GraphBlock>) {
+  const W = 380;
+  const H = 240;
+  const PAD = { left: 46, right: 16, top: 24, bottom: 38 };
+  const plotW = W - PAD.left - PAD.right;
+  const plotH = H - PAD.top - PAD.bottom;
+  const originY = PAD.top + plotH;
+
+  const sx = (v: number) => PAD.left + (v / block.xAxis.max) * plotW;
+  const sy = (v: number) => originY - (v / block.yAxis.max) * plotH;
+
+  const line = block.points.map(([x, y]) => `${sx(x)},${sy(y)}`).join(" ");
+
+  return (
+    <figure className="my-8">
+      <BlockLabel className="text-slate-600">Example graph</BlockLabel>
+      <div className="mt-3 rounded-xl border border-slate-200 bg-white p-4">
+        <svg
+          viewBox={`0 0 ${W} ${H}`}
+          className="h-auto w-full"
+          role="img"
+          aria-label={block.caption ? `${block.title}. ${block.caption}` : block.title}
+        >
+          {/* Value gridlines, faint enough to read the line over */}
+          {block.yAxis.ticks.map((t) => (
+            <line
+              key={`g${t}`}
+              x1={PAD.left}
+              y1={sy(t)}
+              x2={PAD.left + plotW}
+              y2={sy(t)}
+              stroke="#e2e8f0"
+              strokeWidth="1"
+              strokeDasharray="2 3"
+            />
+          ))}
+
+          {/* Axes, each with a solid arrowhead at its open end */}
+          <line x1={PAD.left} y1={originY} x2={PAD.left + plotW + 4} y2={originY} stroke="#0f172a" strokeWidth="1.5" />
+          <polygon points={`${PAD.left + plotW + 12},${originY} ${PAD.left + plotW + 2},${originY - 4} ${PAD.left + plotW + 2},${originY + 4}`} fill="#0f172a" />
+          <line x1={PAD.left} y1={originY} x2={PAD.left} y2={PAD.top - 4} stroke="#0f172a" strokeWidth="1.5" />
+          <polygon points={`${PAD.left},${PAD.top - 12} ${PAD.left - 4},${PAD.top - 2} ${PAD.left + 4},${PAD.top - 2}`} fill="#0f172a" />
+
+          {block.xAxis.ticks.map((t) => (
+            <text key={`x${t}`} x={sx(t)} y={originY + 16} textAnchor="middle" className="text-[13px] sm:text-[10px]" fill="#475569">
+              {t}
+            </text>
+          ))}
+          {block.yAxis.ticks.map((t) => (
+            <text key={`y${t}`} x={PAD.left - 8} y={sy(t) + 4} textAnchor="end" className="text-[13px] sm:text-[10px]" fill="#475569">
+              {t}
+            </text>
+          ))}
+
+          {/* Axis names sit beside the arrowheads rather than rotated, which
+              keeps them legible once the whole drawing is scaled down. */}
+          <text x={PAD.left - 8} y={PAD.top - 14} textAnchor="start" className="text-[14px] sm:text-[11px]" fill="#334155" fontStyle="italic">
+            {block.yAxis.label}
+          </text>
+          <text x={W - PAD.right} y={H - 8} textAnchor="end" className="text-[14px] sm:text-[11px]" fill="#334155" fontStyle="italic">
+            {block.xAxis.label}
+          </text>
+
+          {/* currentColor picks up the subject accent from the class below */}
+          <g className={style.icon}>
+            <polyline
+              points={line}
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </g>
+
+          {block.annotations?.map((a, i) => (
+            <text key={i} x={sx(a.x)} y={sy(a.y)} textAnchor="middle" className="text-[13px] sm:text-[10.5px]" fill="#475569" fontStyle="italic">
+              {a.text}
+            </text>
+          ))}
+        </svg>
+      </div>
+      <figcaption className="mt-2 text-sm text-slate-600">
+        <span className="font-medium text-slate-800">{block.title}.</span>
+        {block.caption ? ` ${block.caption}` : null}
+      </figcaption>
+    </figure>
+  );
+}
+
 /** Renders one block according to its `type`. */
 export function NoteBlockRenderer({ block, style }: { block: NoteBlock; style: SubjectStyle }) {
   switch (block.type) {
@@ -458,5 +563,7 @@ export function NoteBlockRenderer({ block, style }: { block: NoteBlock; style: S
       return <LockItIn block={block} style={style} />;
     case "memory_tip":
       return <MemoryTip block={block} style={style} />;
+    case "graph":
+      return <Graph block={block} style={style} />;
   }
 }
