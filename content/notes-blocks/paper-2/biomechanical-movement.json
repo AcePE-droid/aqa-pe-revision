@@ -443,7 +443,7 @@
             },
             {
               "type": "graph",
-              "title": "One 20 second run, plotted as distance against time",
+              "title": "One 20-second run, plotted as distance against time",
               "xAxis": {
                 "label": "Time (s)",
                 "max": 20,
@@ -467,44 +467,184 @@
               },
               "points": [
                 [
-                  0,
-                  0
+                  0.0,
+                  0.0
                 ],
                 [
-                  1,
-                  0.6
+                  0.25,
+                  0.039
                 ],
                 [
-                  2,
+                  0.5,
+                  0.156
+                ],
+                [
+                  0.75,
+                  0.352
+                ],
+                [
+                  1.0,
+                  0.625
+                ],
+                [
+                  1.25,
+                  0.977
+                ],
+                [
+                  1.5,
+                  1.406
+                ],
+                [
+                  1.75,
+                  1.914
+                ],
+                [
+                  2.0,
                   2.5
                 ],
                 [
-                  3,
-                  5.6
+                  2.25,
+                  3.164
                 ],
                 [
-                  4,
-                  10
+                  2.5,
+                  3.906
                 ],
                 [
-                  10,
-                  40
+                  2.75,
+                  4.727
                 ],
                 [
-                  11,
-                  44.4
+                  3.0,
+                  5.625
                 ],
                 [
-                  12,
+                  3.25,
+                  6.602
+                ],
+                [
+                  3.5,
+                  7.656
+                ],
+                [
+                  3.75,
+                  8.789
+                ],
+                [
+                  4.0,
+                  10.0
+                ],
+                [
+                  4.5,
+                  12.5
+                ],
+                [
+                  5.0,
+                  15.0
+                ],
+                [
+                  5.5,
+                  17.5
+                ],
+                [
+                  6.0,
+                  20.0
+                ],
+                [
+                  6.5,
+                  22.5
+                ],
+                [
+                  7.0,
+                  25.0
+                ],
+                [
+                  7.5,
+                  27.5
+                ],
+                [
+                  8.0,
+                  30.0
+                ],
+                [
+                  8.5,
+                  32.5
+                ],
+                [
+                  9.0,
+                  35.0
+                ],
+                [
+                  9.5,
+                  37.5
+                ],
+                [
+                  10.0,
+                  40.0
+                ],
+                [
+                  10.25,
+                  41.211
+                ],
+                [
+                  10.5,
+                  42.344
+                ],
+                [
+                  10.75,
+                  43.398
+                ],
+                [
+                  11.0,
+                  44.375
+                ],
+                [
+                  11.25,
+                  45.273
+                ],
+                [
+                  11.5,
+                  46.094
+                ],
+                [
+                  11.75,
+                  46.836
+                ],
+                [
+                  12.0,
                   47.5
                 ],
                 [
-                  13,
-                  49.4
+                  12.25,
+                  48.086
                 ],
                 [
-                  14,
-                  50
+                  12.5,
+                  48.594
+                ],
+                [
+                  12.75,
+                  49.023
+                ],
+                [
+                  13.0,
+                  49.375
+                ],
+                [
+                  13.25,
+                  49.648
+                ],
+                [
+                  13.5,
+                  49.844
+                ],
+                [
+                  13.75,
+                  49.961
+                ],
+                [
+                  14.0,
+                  50.0
                 ],
                 [
                   20,
@@ -513,24 +653,40 @@
               ],
               "annotations": [
                 {
-                  "x": 2.4,
-                  "y": 19,
-                  "text": "accelerating"
+                  "x": 0.1,
+                  "y": 26,
+                  "text": "accelerating",
+                  "anchor": "start",
+                  "wide": {
+                    "y": 16
+                  }
                 },
                 {
-                  "x": 5.8,
-                  "y": 37,
-                  "text": "constant speed"
+                  "x": 7.2,
+                  "y": 41,
+                  "text": "constant speed",
+                  "anchor": "end",
+                  "wrapped": [
+                    "constant",
+                    "speed"
+                  ],
+                  "wide": {
+                    "y": 32
+                  }
                 },
                 {
-                  "x": 12.2,
-                  "y": 57,
-                  "text": "decelerating"
+                  "x": 12.0,
+                  "y": 53.5,
+                  "text": "decelerating",
+                  "anchor": "end"
                 },
                 {
                   "x": 17,
-                  "y": 43,
-                  "text": "stationary"
+                  "y": 40,
+                  "text": "stationary",
+                  "wide": {
+                    "y": 43
+                  }
                 }
               ],
               "caption": "The gradient is the speed. It steepens while the runner builds up speed, holds straight while that speed is constant, flattens as they slow, and is level once they stop. Plotted as velocity, the same run looks like the graph below."
@@ -627,23 +783,29 @@
               ],
               "annotations": [
                 {
-                  "x": 2.0,
-                  "y": 5.5,
-                  "text": "accelerating"
+                  "x": 3.05,
+                  "y": 2.3,
+                  "text": "accelerating",
+                  "anchor": "start"
                 },
                 {
-                  "x": 7.2,
-                  "y": 5.5,
-                  "text": "constant velocity"
+                  "x": 7.0,
+                  "y": 3.8,
+                  "text": "constant velocity",
+                  "wrapped": [
+                    "constant",
+                    "velocity"
+                  ]
                 },
                 {
-                  "x": 13.3,
-                  "y": 3.0,
-                  "text": "decelerating"
+                  "x": 12.9,
+                  "y": 2.6,
+                  "text": "decelerating",
+                  "anchor": "start"
                 },
                 {
                   "x": 17,
-                  "y": 0.75,
+                  "y": 0.5,
                   "text": "stationary"
                 }
               ],

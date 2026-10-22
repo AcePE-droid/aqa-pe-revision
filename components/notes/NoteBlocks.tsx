@@ -438,6 +438,11 @@ function MemoryTip({ block, style }: BlockProps<MemoryTipBlock>) {
   );
 }
 
+// The graph card background. The stage labels are painted with a stroke of
+// this colour underneath the glyphs, so a gridline passing behind a label
+// does not cut through the letters.
+const ANNOTATION_HALO = "#ffffff";
+
 /**
  * A line graph drawn from its points. No marker elements and no hooks, since
  * these render on the server: the axis arrowheads are plain polygons, so two
@@ -454,8 +459,15 @@ function MemoryTip({ block, style }: BlockProps<MemoryTipBlock>) {
  */
 function Graph({ block, style }: BlockProps<GraphBlock>) {
   const W = 380;
-  const H = 240;
-  const PAD = { left: 46, right: 16, top: 24, bottom: 38 };
+  // The top padding carries the y-axis name, which sits above the axis rather
+  // than rotated alongside it. It has to clear the tallest the name ever gets:
+  // the type is larger in viewBox units on a phone, and at 24 the ascenders of
+  // "Distance (m)" reached y = -5.5, above the viewBox, so the browser cropped
+  // their tops. The height grows by the same amount the padding does, which
+  // leaves the plot itself exactly as it was and so leaves every measured
+  // label clearance untouched.
+  const H = 256;
+  const PAD = { left: 46, right: 16, top: 40, bottom: 38 };
   const plotW = W - PAD.left - PAD.right;
   const plotH = H - PAD.top - PAD.bottom;
   const originY = PAD.top + plotH;
@@ -468,7 +480,11 @@ function Graph({ block, style }: BlockProps<GraphBlock>) {
   return (
     <figure className="my-8">
       <BlockLabel className="text-slate-600">Example graph</BlockLabel>
-      <div className="mt-3 rounded-xl border border-slate-200 bg-white p-4">
+      {/* On a phone the card pulls out past the page gutter and keeps almost no
+          side padding, so the drawing renders about 292px wide rather than 258px.
+          That is what lets the labels hit an 11px minimum at 320px without
+          shrinking any of them: the terms have to stay readable and unabbreviated. */}
+      <div className="-mx-4 mt-3 rounded-xl border border-slate-200 bg-white px-1.5 py-3 sm:mx-0 sm:p-4">
         <svg
           viewBox={`0 0 ${W} ${H}`}
           className="h-auto w-full"
@@ -496,22 +512,22 @@ function Graph({ block, style }: BlockProps<GraphBlock>) {
           <polygon points={`${PAD.left},${PAD.top - 12} ${PAD.left - 4},${PAD.top - 2} ${PAD.left + 4},${PAD.top - 2}`} fill="#0f172a" />
 
           {block.xAxis.ticks.map((t) => (
-            <text key={`x${t}`} x={sx(t)} y={originY + 16} textAnchor="middle" className="text-[13px] sm:text-[10px]" fill="#475569">
+            <text key={`x${t}`} x={sx(t)} y={originY + 16} textAnchor="middle" className="text-[15px] sm:text-[10px]" fill="#475569">
               {t}
             </text>
           ))}
           {block.yAxis.ticks.map((t) => (
-            <text key={`y${t}`} x={PAD.left - 8} y={sy(t) + 4} textAnchor="end" className="text-[13px] sm:text-[10px]" fill="#475569">
+            <text key={`y${t}`} x={PAD.left - 8} y={sy(t) + 4} textAnchor="end" className="text-[15px] sm:text-[10px]" fill="#475569">
               {t}
             </text>
           ))}
 
           {/* Axis names sit beside the arrowheads rather than rotated, which
               keeps them legible once the whole drawing is scaled down. */}
-          <text x={PAD.left - 8} y={PAD.top - 14} textAnchor="start" className="text-[14px] sm:text-[11px]" fill="#334155" fontStyle="italic">
+          <text x={PAD.left - 8} y={PAD.top - 18} textAnchor="start" className="text-[16px] sm:text-[11px]" fill="#334155" fontStyle="italic">
             {block.yAxis.label}
           </text>
-          <text x={W - PAD.right} y={H - 8} textAnchor="end" className="text-[14px] sm:text-[11px]" fill="#334155" fontStyle="italic">
+          <text x={W - PAD.right} y={H - 8} textAnchor="end" className="text-[16px] sm:text-[11px]" fill="#334155" fontStyle="italic">
             {block.xAxis.label}
           </text>
 
@@ -527,11 +543,65 @@ function Graph({ block, style }: BlockProps<GraphBlock>) {
             />
           </g>
 
-          {block.annotations?.map((a, i) => (
-            <text key={i} x={sx(a.x)} y={sy(a.y)} textAnchor="middle" className="text-[13px] sm:text-[10.5px]" fill="#475569" fontStyle="italic">
-              {a.text}
-            </text>
-          ))}
+          {/* Stage labels. The white stroke painted underneath the glyphs is
+              the card background, so a label that has to sit over a dotted
+              gridline is not cut through by it. Where a label has a `wrapped`
+              form, the one-line version is hidden at phone width and the
+              stacked version takes over, which buys room without shortening
+              any of the terms. */}
+          {block.annotations?.map((a, i) => {
+            const size = "text-[15px] sm:text-[10.5px]";
+            const LINE_HEIGHT = 16;
+
+            // Two variants: the phone one may wrap and may sit somewhere
+            // else, the wide one is always a single line. Only one is drawn,
+            // the other is display:none, the same trick the compare tables
+            // use to reflow a table a phone cannot fit.
+            const narrow = { x: a.x, y: a.y, anchor: a.anchor, lines: a.wrapped ?? [a.text] };
+            const wide = {
+              x: a.wide?.x ?? a.x,
+              y: a.wide?.y ?? a.y,
+              anchor: a.wide?.anchor ?? a.anchor,
+              lines: [a.text],
+            };
+            const differs = Boolean(a.wrapped || a.wide);
+
+            const draw = (v: typeof narrow, className: string, key?: string) => (
+              <text
+                key={key}
+                x={sx(v.x)}
+                y={sy(v.y)}
+                textAnchor={v.anchor ?? "middle"}
+                className={className}
+                fill="#475569"
+                fontStyle="italic"
+                stroke={ANNOTATION_HALO}
+                strokeWidth={3}
+                strokeLinejoin="round"
+                paintOrder="stroke"
+              >
+                {v.lines.length === 1
+                  ? v.lines[0]
+                  : v.lines.map((lineText, li) => (
+                      <tspan
+                        key={li}
+                        x={sx(v.x)}
+                        dy={li === 0 ? (-(v.lines.length - 1) * LINE_HEIGHT) / 2 : LINE_HEIGHT}
+                      >
+                        {lineText}
+                      </tspan>
+                    ))}
+              </text>
+            );
+
+            if (!differs) return draw(narrow, size, String(i));
+            return (
+              <g key={i}>
+                {draw(narrow, `${size} sm:hidden`)}
+                {draw(wide, `${size} hidden sm:inline`)}
+              </g>
+            );
+          })}
         </svg>
       </div>
       <figcaption className="mt-2 text-sm text-slate-600">
