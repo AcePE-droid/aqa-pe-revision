@@ -14,9 +14,15 @@ python3 tools/logo/build.py "/path/to/ace PE.pdf"
 | `public/brand/acepe-lockup-{dark,green,cream}.svg` | Lockup, one ink, transparent |
 | `public/brand/acepe-lockup-cream-on-{green,dark}.svg` | Reversed, panel baked in |
 | `public/brand/acepe-icon-{dark,green,cream}.svg` | The loop in its disc |
-| `public/brand/acepe-icon-dark-16px.svg` | 16px-only variant, see below |
+| `public/brand/acepe-icon-green-16px.svg` | 16px-only variant, see below |
 | `components/BrandLockup.tsx` | The same paths, inline, on `currentColor` |
 | `app/favicon.ico` | 16, 32 and 48px, PNG-compressed entries |
+
+The favicon is cut from the green icon, set by `FAVICON_VARIANT` in
+`build.py`. Green because it holds up against a light and a dark browser tab
+bar alike, where the ink disc is close enough to a dark chrome to sink into
+it. The 16px-only file is built in whatever colour that constant names, since
+serving the favicon is the only thing it is for.
 
 Everything above is generated. Editing the path data in any of them by hand
 will be silently undone the next time this runs, so change the build instead.

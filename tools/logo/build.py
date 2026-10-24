@@ -51,6 +51,11 @@ CREAM = "#F4EFE6"
 SMALL_ICON_MARK_FRACTION = 0.72
 ICO_SIZES = (16, 32, 48)
 
+# Which icon the favicon is cut from. The green disc holds up against both a
+# light and a dark browser tab bar; the ink one is close enough to a dark
+# chrome to disappear into it.
+FAVICON_VARIANT = "green"
+
 
 # --- geometry ---------------------------------------------------------------
 
@@ -327,16 +332,19 @@ def main():
     mw = loop_box[2] - loop_box[0]
     print("icon    %.2f x %.2f, mark is %.1f%% of the disc" % (D, D, 100 * mw / D))
 
-    for label, (bg, fg) in (("dark", (INK, CREAM)), ("green", (GREEN, CREAM)),
-                            ("cream", (CREAM, INK))):
+    icon_colours = {"dark": (INK, CREAM), "green": (GREEN, CREAM),
+                    "cream": (CREAM, INK)}
+    for label, (bg, fg) in icon_colours.items():
         write(SVG_DIR, "acepe-icon-%s.svg" % label,
               svg([(disc_d, bg), (loop_d, fg)], D, D))
 
     # The 16px-only variant, with the mark enlarged about the disc's centre.
+    # Only built in the favicon's colour, since that is the one thing it is for.
     grow = SMALL_ICON_MARK_FRACTION * D / mw
     small_loop = affine(loop["d"], grow, (D / 2 - grow * cx, D / 2 - grow * cy))
-    small_path = write(SVG_DIR, "acepe-icon-dark-16px.svg",
-                       svg([(disc_d, INK), (small_loop, CREAM)], D, D))
+    fav_bg, fav_fg = icon_colours[FAVICON_VARIANT]
+    small_path = write(SVG_DIR, "acepe-icon-%s-16px.svg" % FAVICON_VARIANT,
+                       svg([(disc_d, fav_bg), (small_loop, fav_fg)], D, D))
     print("        16px variant enlarges the mark to %.0f%% (x%.3f)"
           % (100 * SMALL_ICON_MARK_FRACTION, grow))
 
@@ -351,7 +359,8 @@ def main():
     work = os.path.join(BIN, "work")
     pngs = []
     for size in ICO_SIZES:
-        source = small_path if size == 16 else os.path.join(SVG_DIR, "acepe-icon-dark.svg")
+        source = (small_path if size == 16
+                  else os.path.join(SVG_DIR, "acepe-icon-%s.svg" % FAVICON_VARIANT))
         pngs.append(raster(source, os.path.join(work, "favicon-%d.png" % size), size))
     write_ico(ICO_PATH, pngs)
     print("\nink %s   green %s   cream %s" % (INK, GREEN, CREAM))

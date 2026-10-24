@@ -44,7 +44,11 @@ export default function Header() {
               the loop rises well above and drops below the letters - matching
               the old cap height would have left it looking smaller than the
               nav beside it. w-auto keeps the artwork's own 3.5:1 ratio. */}
-          <Link href="/" className="flex items-center text-brand-ink">
+          {/* py-2 lifts the hit area from the lockup's own 28px to 44px, and
+              -my-2 takes the same amount back out of the layout, so the bar
+              keeps its height and nothing moves. Same trick as the footer
+              links. */}
+          <Link href="/" className="-my-2 flex items-center py-2 text-brand-ink">
             <BrandLockup className="h-7 w-auto" />
           </Link>
 
