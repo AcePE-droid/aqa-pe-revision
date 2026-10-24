@@ -52,8 +52,13 @@ export default function Header() {
             <BrandLockup className="h-7 w-auto" />
           </Link>
 
-          {/* Desktop nav: unchanged, shown from md upward */}
-          <nav className="hidden items-center gap-5 text-sm font-medium md:flex">
+          {/* Desktop nav, shown from lg upward. Not md: signed in, the name
+              button replaces "Log in" and the row then needs about 854px, so
+              between 768 and 886 the links wrapped onto two lines and ran into
+              the logo. Below lg the hamburger covers it. At lg itself, with
+              the name button at its full capped width, there is still 66px
+              between the logo and the first link. */}
+          <nav className="hidden items-center gap-5 text-sm font-medium lg:flex">
             {navLinks.map((link) => {
               const isActive = pathname.startsWith(link.href);
               return (
@@ -83,7 +88,7 @@ export default function Header() {
             onClick={() => setMenuOpen((open) => !open)}
             aria-label={menuOpen ? "Close menu" : "Open menu"}
             aria-expanded={menuOpen}
-            className="flex h-11 w-11 items-center justify-center text-slate-700 md:hidden"
+            className="flex h-11 w-11 items-center justify-center text-slate-700 lg:hidden"
           >
             {menuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
@@ -93,7 +98,7 @@ export default function Header() {
             than floating over it), animated via the grid-rows 0fr -> 1fr trick
             so it can go from 0 height to auto height smoothly. */}
         <div
-          className={`grid transition-[grid-template-rows] duration-[220ms] ease-out md:hidden ${
+          className={`grid transition-[grid-template-rows] duration-[220ms] ease-out lg:hidden ${
             menuOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
           }`}
         >
@@ -135,7 +140,7 @@ export default function Header() {
         <div
           onClick={() => setMenuOpen(false)}
           aria-hidden="true"
-          className="fixed inset-0 z-20 bg-slate-900/30 md:hidden"
+          className="fixed inset-0 z-20 bg-slate-900/30 lg:hidden"
         />
       )}
     </>

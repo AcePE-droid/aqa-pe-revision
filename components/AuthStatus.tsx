@@ -108,9 +108,15 @@ export default function AuthStatus({ variant = "desktop", onNavigate }: Props) {
 
   return (
     <div ref={menuRef} className="relative">
+      {/* Capped and truncated: the label is a display name or an email, either
+          of which can be long, and this button sets how much room the header
+          nav needs. Uncapped, a long name pushed the nav into the logo. The
+          title carries the full value for anyone who hovers it, and the menu
+          below shows the email in full anyway. */}
       <button
         onClick={() => setMenuOpen((open) => !open)}
-        className="rounded-md border border-slate-300 px-3 py-1.5 text-sm font-medium text-slate-900 hover:bg-slate-50"
+        title={label}
+        className="max-w-48 truncate rounded-md border border-slate-300 px-3 py-1.5 text-sm font-medium text-slate-900 hover:bg-slate-50"
       >
         {label}
       </button>
