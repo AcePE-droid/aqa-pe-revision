@@ -34,6 +34,20 @@
   --color-blue-600: #736aec;
   --color-blue-700: #4d41e7;
   --color-blue-800: #2b1de2;
+
+  /* Logo colours. These belong to the Ace PE logo, not to the interface -
+     the UI palette above is unchanged. Taken from the designer's artwork
+     (public/brand/) rather than sampled from a screenshot: the source PDF
+     specifies CMYK, and these are what those values convert to.
+
+     --color-brand-green is the green the logo sits on and is drawn in.
+     --color-brand-ink is the logo's black, which is a touch warmer and
+     lighter than pure #000 and should not be swapped for it.
+
+     The logo knocks out in the site background (#f4efe6) rather than pure
+     white, so the reversed artwork matches the page it sits on. */
+  --color-brand-green: #055d33;
+  --color-brand-ink: #1a1919;
 }
 
 body {
