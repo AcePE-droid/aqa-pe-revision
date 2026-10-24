@@ -35,6 +35,19 @@ from pdf2svg import NUMRE, convert, load_pdf  # noqa: E402
 
 SVG_DIR = os.path.join(ROOT, "public", "brand")
 ICO_PATH = os.path.join(ROOT, "app", "favicon.ico")
+# Next.js picks both of these up by filename and emits the <link> tags itself.
+ICON_PATH = os.path.join(ROOT, "app", "icon.png")
+APPLE_ICON_PATH = os.path.join(ROOT, "app", "apple-icon.png")
+
+# Google wants the icon it shows beside a search result to be square and a
+# multiple of 48px; 192 is 48x4. The .ico alone is not enough, because Next
+# declares it as sizes="16x16", which is below what Google will consider.
+ICON_PX = 192
+# Apple's own guidance: 180 is the size iOS asks for, and the artwork should
+# fill the square. iOS applies its own rounded mask and does not handle
+# transparency, so the apple icon is the loop on a full green field rather
+# than the disc, which would otherwise be a circle inside a squircle.
+APPLE_ICON_PX = 180
 
 # Straight out of the PDF: cmyk(0,0,0,1) and cmyk(0.939,0.328,1,0.26).
 INK = "#1A1919"
@@ -363,6 +376,23 @@ def main():
                   else os.path.join(SVG_DIR, "acepe-icon-%s.svg" % FAVICON_VARIANT))
         pngs.append(raster(source, os.path.join(work, "favicon-%d.png" % size), size))
     write_ico(ICO_PATH, pngs)
+
+    # The icon search engines and app launchers use, as opposed to the one in
+    # a browser tab. Big enough that nothing has to guess, and declared at a
+    # size Google will accept.
+    raster(os.path.join(SVG_DIR, "acepe-icon-%s.svg" % FAVICON_VARIANT),
+           ICON_PATH, ICON_PX)
+    print("  %-36s %6d bytes  (%dpx)"
+          % ("app/icon.png", os.path.getsize(ICON_PATH), ICON_PX))
+
+    # Full-bleed for iOS: the same loop, but over the whole square instead of
+    # inside the disc.
+    apple_svg = os.path.join(BIN, "work", "apple-icon.svg")
+    with open(apple_svg, "w") as fh:
+        fh.write(svg([(loop_d, CREAM)], D, D, background=GREEN))
+    raster(apple_svg, APPLE_ICON_PATH, APPLE_ICON_PX)
+    print("  %-36s %6d bytes  (%dpx)"
+          % ("app/apple-icon.png", os.path.getsize(APPLE_ICON_PATH), APPLE_ICON_PX))
     print("\nink %s   green %s   cream %s" % (INK, GREEN, CREAM))
 
 

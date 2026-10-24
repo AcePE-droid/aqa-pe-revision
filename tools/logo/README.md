@@ -17,6 +17,8 @@ python3 tools/logo/build.py "/path/to/ace PE.pdf"
 | `public/brand/acepe-icon-green-16px.svg` | 16px-only variant, see below |
 | `components/BrandLockup.tsx` | The same paths, inline, on `currentColor` |
 | `app/favicon.ico` | 16, 32 and 48px, PNG-compressed entries |
+| `app/icon.png` | 192px, the icon search engines use |
+| `app/apple-icon.png` | 180px, full-bleed, for iOS home screens |
 
 The favicon is cut from the green icon, set by `FAVICON_VARIANT` in
 `build.py`. Green because it holds up against a light and a dark browser tab
@@ -87,3 +89,18 @@ as drawn. `SMALL_ICON_MARK_FRACTION` in `build.py` controls this.
 
 Worth knowing when judging it: on a Retina screen a 16px favicon is drawn at
 32 device pixels, so the problem this corrects is only visible on a 1x display.
+
+**The `.ico` is not the icon Google uses.** Next declares `favicon.ico` as
+`sizes="16x16"`, and Google wants a square that is a multiple of 48px, so
+`app/icon.png` exists at 192px to be the one it picks. Next emits the `<link>`
+tags for both from the filenames alone; there is nothing to wire up.
+
+**The Apple icon is full-bleed on purpose.** iOS applies its own rounded mask
+and does not handle transparency, so it is the loop on a solid green field
+rather than the disc, which would otherwise show as a circle inside a
+squircle.
+
+Changing any of these will not change what Google shows straight away. It
+caches favicons and refreshes them when it next crawls, which takes days or
+weeks. Requesting indexing for the homepage in Search Console brings the
+crawl forward but does not guarantee the swap.
