@@ -104,31 +104,38 @@ export default function Header() {
         >
           <nav
             inert={!menuOpen}
-            className="max-h-[calc(100vh-4.5rem)] overflow-y-auto border-t border-slate-200 px-2 py-2 text-sm"
+            className="max-h-[calc(100vh-4.5rem)] overflow-y-auto"
           >
-            {navLinks.map((link) => {
-              const isActive = pathname.startsWith(link.href);
-              return (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  onClick={() => setMenuOpen(false)}
-                  className={`flex min-h-[44px] items-center gap-2 border-b-2 px-4 text-base font-medium transition-colors duration-150 hover:bg-slate-50 ${
-                    isActive
-                      ? "border-blue-600 text-slate-900"
-                      : "border-transparent text-slate-900"
-                  }`}
-                >
-                  {link.label}
-                  {link.href === "/friends" && pendingRequestCount > 0 && (
-                    <span className="flex h-5 min-w-5 items-center justify-center rounded-full bg-blue-600 px-1 text-xs font-semibold text-white">
-                      {pendingRequestCount}
-                    </span>
-                  )}
-                </Link>
-              );
-            })}
-            <AuthStatus variant="mobile" onNavigate={() => setMenuOpen(false)} />
+            {/* The row above collapses to 0fr when the menu is shut, but that
+                only clips content - padding and borders keep painting. With
+                them on the nav itself the shut menu still drew its top rule
+                and 17px of white, so the header sat 17px too tall at every
+                width below lg. They belong on a wrapper the row can collapse. */}
+            <div className="border-t border-slate-200 px-2 py-2 text-sm">
+              {navLinks.map((link) => {
+                const isActive = pathname.startsWith(link.href);
+                return (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    onClick={() => setMenuOpen(false)}
+                    className={`flex min-h-[44px] items-center gap-2 border-b-2 px-4 text-base font-medium transition-colors duration-150 hover:bg-slate-50 ${
+                      isActive
+                        ? "border-blue-600 text-slate-900"
+                        : "border-transparent text-slate-900"
+                    }`}
+                  >
+                    {link.label}
+                    {link.href === "/friends" && pendingRequestCount > 0 && (
+                      <span className="flex h-5 min-w-5 items-center justify-center rounded-full bg-blue-600 px-1 text-xs font-semibold text-white">
+                        {pendingRequestCount}
+                      </span>
+                    )}
+                  </Link>
+                );
+              })}
+              <AuthStatus variant="mobile" onNavigate={() => setMenuOpen(false)} />
+            </div>
           </nav>
         </div>
       </header>
