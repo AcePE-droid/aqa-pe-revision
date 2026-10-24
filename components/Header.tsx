@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import AuthStatus from "@/components/AuthStatus";
+import BrandLockup from "@/components/BrandLockup";
 import { useIncomingFriendRequestCount } from "@/lib/supabase/useIncomingFriendRequestCount";
 
 const navLinks = [
@@ -39,8 +40,16 @@ export default function Header() {
     <>
       <header className="sticky top-0 z-30 border-b border-slate-200 bg-white/95 backdrop-blur">
         <div className="mx-auto flex max-w-[1100px] items-center justify-between px-6 py-4 md:px-8 lg:px-12">
-          <Link href="/" className="text-lg font-semibold tracking-tight text-slate-900">
-            AcePE
+          {/* The lockup is taller than the 18px wordmark it replaced, because
+              the loop rises well above and drops below the letters - matching
+              the old cap height would have left it looking smaller than the
+              nav beside it. w-auto keeps the artwork's own 3.5:1 ratio. */}
+          {/* py-2 lifts the hit area from the lockup's own 28px to 44px, and
+              -my-2 takes the same amount back out of the layout, so the bar
+              keeps its height and nothing moves. Same trick as the footer
+              links. */}
+          <Link href="/" className="-my-2 flex items-center py-2 text-brand-ink">
+            <BrandLockup className="h-7 w-auto" />
           </Link>
 
           {/* Desktop nav: unchanged, shown from md upward */}

@@ -1,0 +1,8 @@
+# Build cache. Never commit this.
+#
+# Besides the compiled Swift helpers and scratch PNGs, it holds font subsets
+# extracted from the source PDF so their glyphs can be outlined. Those are
+# fragments of commercial fonts (FatFrank, Houschka Rounded) that this project
+# does not license, so they stay local: the SVGs the build produces contain
+# outlined paths, which is artwork, not font software.
+.bin/
