@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import AuthStatus from "@/components/AuthStatus";
+import BrandLockup from "@/components/BrandLockup";
 import { useIncomingFriendRequestCount } from "@/lib/supabase/useIncomingFriendRequestCount";
 
 const navLinks = [
@@ -39,12 +40,25 @@ export default function Header() {
     <>
       <header className="sticky top-0 z-30 border-b border-slate-200 bg-white/95 backdrop-blur">
         <div className="mx-auto flex max-w-[1100px] items-center justify-between px-6 py-4 md:px-8 lg:px-12">
-          <Link href="/" className="text-lg font-semibold tracking-tight text-slate-900">
-            AcePE
+          {/* The lockup is taller than the 18px wordmark it replaced, because
+              the loop rises well above and drops below the letters - matching
+              the old cap height would have left it looking smaller than the
+              nav beside it. w-auto keeps the artwork's own 3.5:1 ratio. */}
+          {/* py-2 lifts the hit area from the lockup's own 28px to 44px, and
+              -my-2 takes the same amount back out of the layout, so the bar
+              keeps its height and nothing moves. Same trick as the footer
+              links. */}
+          <Link href="/" className="-my-2 flex items-center py-2 text-brand-ink">
+            <BrandLockup className="h-7 w-auto" />
           </Link>
 
-          {/* Desktop nav: unchanged, shown from md upward */}
-          <nav className="hidden items-center gap-5 text-sm font-medium md:flex">
+          {/* Desktop nav, shown from lg upward. Not md: signed in, the name
+              button replaces "Log in" and the row then needs about 854px, so
+              between 768 and 886 the links wrapped onto two lines and ran into
+              the logo. Below lg the hamburger covers it. At lg itself, with
+              the name button at its full capped width, there is still 66px
+              between the logo and the first link. */}
+          <nav className="hidden items-center gap-5 text-sm font-medium lg:flex">
             {navLinks.map((link) => {
               const isActive = pathname.startsWith(link.href);
               return (
@@ -74,7 +88,7 @@ export default function Header() {
             onClick={() => setMenuOpen((open) => !open)}
             aria-label={menuOpen ? "Close menu" : "Open menu"}
             aria-expanded={menuOpen}
-            className="flex h-11 w-11 items-center justify-center text-slate-700 md:hidden"
+            className="flex h-11 w-11 items-center justify-center text-slate-700 lg:hidden"
           >
             {menuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
@@ -84,37 +98,44 @@ export default function Header() {
             than floating over it), animated via the grid-rows 0fr -> 1fr trick
             so it can go from 0 height to auto height smoothly. */}
         <div
-          className={`grid transition-[grid-template-rows] duration-[220ms] ease-out md:hidden ${
+          className={`grid transition-[grid-template-rows] duration-[220ms] ease-out lg:hidden ${
             menuOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
           }`}
         >
           <nav
             inert={!menuOpen}
-            className="max-h-[calc(100vh-4.5rem)] overflow-y-auto border-t border-slate-200 px-2 py-2 text-sm"
+            className="max-h-[calc(100vh-4.5rem)] overflow-y-auto"
           >
-            {navLinks.map((link) => {
-              const isActive = pathname.startsWith(link.href);
-              return (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  onClick={() => setMenuOpen(false)}
-                  className={`flex min-h-[44px] items-center gap-2 border-b-2 px-4 text-base font-medium transition-colors duration-150 hover:bg-slate-50 ${
-                    isActive
-                      ? "border-blue-600 text-slate-900"
-                      : "border-transparent text-slate-900"
-                  }`}
-                >
-                  {link.label}
-                  {link.href === "/friends" && pendingRequestCount > 0 && (
-                    <span className="flex h-5 min-w-5 items-center justify-center rounded-full bg-blue-600 px-1 text-xs font-semibold text-white">
-                      {pendingRequestCount}
-                    </span>
-                  )}
-                </Link>
-              );
-            })}
-            <AuthStatus variant="mobile" onNavigate={() => setMenuOpen(false)} />
+            {/* The row above collapses to 0fr when the menu is shut, but that
+                only clips content - padding and borders keep painting. With
+                them on the nav itself the shut menu still drew its top rule
+                and 17px of white, so the header sat 17px too tall at every
+                width below lg. They belong on a wrapper the row can collapse. */}
+            <div className="border-t border-slate-200 px-2 py-2 text-sm">
+              {navLinks.map((link) => {
+                const isActive = pathname.startsWith(link.href);
+                return (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    onClick={() => setMenuOpen(false)}
+                    className={`flex min-h-[44px] items-center gap-2 border-b-2 px-4 text-base font-medium transition-colors duration-150 hover:bg-slate-50 ${
+                      isActive
+                        ? "border-blue-600 text-slate-900"
+                        : "border-transparent text-slate-900"
+                    }`}
+                  >
+                    {link.label}
+                    {link.href === "/friends" && pendingRequestCount > 0 && (
+                      <span className="flex h-5 min-w-5 items-center justify-center rounded-full bg-blue-600 px-1 text-xs font-semibold text-white">
+                        {pendingRequestCount}
+                      </span>
+                    )}
+                  </Link>
+                );
+              })}
+              <AuthStatus variant="mobile" onNavigate={() => setMenuOpen(false)} />
+            </div>
           </nav>
         </div>
       </header>
@@ -126,7 +147,7 @@ export default function Header() {
         <div
           onClick={() => setMenuOpen(false)}
           aria-hidden="true"
-          className="fixed inset-0 z-20 bg-slate-900/30 md:hidden"
+          className="fixed inset-0 z-20 bg-slate-900/30 lg:hidden"
         />
       )}
     </>
