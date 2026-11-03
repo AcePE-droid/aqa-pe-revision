@@ -64,16 +64,8 @@
     "subtopicId": "leadership"
   },
   {
-    "id": "lead-q8",
-    "questionNumber": "Q8",
-    "question": "The figure below shows Chelladurai's multi-dimensional model of leadership. When quality of performance and levels of satisfaction are high, optimal levels of arousal are more likely. Use the figure above to explain how a coach can help a performer reach optimal levels of arousal.",
-    "marks": 4,
-    "markScheme": "Situation, performer and leader characteristics must be considered.\n(Required behaviour) - determined by the situation\n(Preferred behaviour) - the performer's ideal behaviour of the leader\n(Actual leader behaviour) - the leader's action towards the performer\nThe closer the leader's behaviour is to that expected by the performer, the greater the chance of optimal arousal/performance will be of a high quality/levels of satisfaction\n(Refers to the link between leader and group only, not the task.)\nHaving all three behaviours matching is the ideal.\nMax 4 marks.",
-    "subtopicId": "leadership"
-  },
-  {
     "id": "lead-q9",
-    "questionNumber": "Q9",
+    "questionNumber": "Q8",
     "question": "Fiedler suggested that the preferred style of leadership depends on the favourableness of the situation. Outline the characteristics of a favourable situation and name the style of leadership that should be used when this occurs.",
     "marks": 4,
     "markScheme": "4 marks for 4 of:\nTask-centred/task-orientated/autocratic leadership style (sub max 1 mark)\nLeader respected by group (NOT 'cohesiveness of the group')\nLeader has a good relationship with the group\nGroup is highly motivated\nGroup has high ability/is highly successful\nClear task/goal/roles (NOT 'easy task')\nGood support network\nGood resources/equipment/facilities\nMax 4 marks.",
@@ -81,7 +73,7 @@
   },
   {
     "id": "lead-q10",
-    "questionNumber": "Q10",
+    "questionNumber": "Q9",
     "question": "The captain of a team should be respected and should ensure that all players have a positive attitude. Identify three characteristics of a good leader and explain the difference between an emergent leader and a prescribed leader.",
     "marks": 3,
     "markScheme": "3 marks for 3 of: (take first 3 answers - if talking about leadership styles, this is NOT a characteristic)\nCharacteristics (any three from) confident/organised/inspirational/good communicator/knowledgeable/visionary/good decision maker/interpersonal skills/approachable/determined/empathy/charismatic/motivational/equivalent\nEmergent leader - group approval/elected by the team\nPrescribed leader - appointed by an external authority to lead the group\nMax 3 marks.",
