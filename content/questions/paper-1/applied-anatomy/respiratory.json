@@ -106,7 +106,7 @@
   {
     "id": "resp-q12",
     "questionNumber": "Q11",
-    "question": "Many swimmers use continuous training to maintain a good level of fitness. A spirometer trace for a swimmer at rest shows three labelled sections: P, Q and R, where P is the volume breathed in and out normally, Q is the volume that can be forcibly exhaled after a normal breath out, and R is the volume remaining in the lungs after maximal expiration.\n(i) Complete the table to identify the type of lung volume represented by P, Q and R.\n(ii) What effect does a period of continuous training have on lung volumes Q and R shown above?",
+    "question": "Many swimmers use continuous training to maintain a good level of fitness. A spirometer trace for a swimmer at rest shows three labelled sections: P, Q and R, where P is the volume breathed in and out normally, Q is the volume that can be forcibly exhaled after a normal breath out, and R is the volume remaining in the lungs after maximal expiration. (i) Identify the type of lung volume represented by P, Q and R. (ii) What effect does a period of continuous training have on lung volumes Q and R described above?",
     "marks": 5,
     "markScheme": "(i) P = Tidal volume; Q = Expiratory reserve volume; R = Residual volume. Accept first answer only. 3 marks.\n(ii) Q (expiratory reserve volume) decreases/gets smaller (1). R (residual volume) stays the same/remains unchanged (1). 2 marks.\nMax 5 marks.",
     "subtopicId": "respiratory"
@@ -114,7 +114,7 @@
   {
     "id": "resp-q13",
     "questionNumber": "Q12",
-    "question": "While playing basketball, a performer will experience changes in lung volumes.\nComplete the table below to show how tidal volume, inspiratory reserve volume and expiratory reserve volume change during exercise.\nVolume name | Value at rest | Change during exercise\nBreathing rate | 14 breaths min-1 | Increases\nTidal volume | 480 cm3 | ?\nInspiratory reserve volume | 3000 cm3 | ?\nExpiratory reserve volume | 1100 cm3 | ?\nVital capacity | 4600 cm3 | No change",
+    "question": "While playing basketball, a performer will experience changes in lung volumes. At rest the performer records a breathing rate of 14 breaths per minute, a tidal volume of 480 cm3, an inspiratory reserve volume of 3000 cm3, an expiratory reserve volume of 1100 cm3 and a vital capacity of 4600 cm3. During exercise, breathing rate increases and vital capacity shows no change. State how tidal volume, inspiratory reserve volume and expiratory reserve volume change during exercise.",
     "marks": 3,
     "markScheme": "- Tidal volume - increases (1).\n- Inspiratory reserve volume - decreases (1).\n- Expiratory reserve volume - decreases (1).\nAccept equivalent terms for increase/decrease. Max 3 marks.",
     "subtopicId": "respiratory"
@@ -154,7 +154,7 @@
   {
     "id": "resp-q19",
     "questionNumber": "Q17",
-    "question": "Using the spirometer trace described in the previous question, what would be the effect on Section X of a period of continuous swimming training?",
+    "question": "A spirometer trace for a resting performer includes Section X, the air breathed in and out during normal quiet breathing. What would be the effect on Section X of a period of continuous swimming training?",
     "marks": 2,
     "markScheme": "Any two of: increase in tidal volume (Section X gets larger/higher proportion of the trace); more frequent peaks/breaths shown closer together. Max 2 marks.",
     "subtopicId": "respiratory"

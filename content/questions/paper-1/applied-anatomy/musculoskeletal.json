@@ -50,7 +50,7 @@
   {
     "id": "musc-q8",
     "questionNumber": "Q6",
-    "question": "Using the incline dumbbell press described in the previous question, identify the joint action and main agonist occurring at the elbow as the performer moves from position A to position B.",
+    "question": "A weightlifter performs an incline dumbbell press, moving from position A (arms bent, weights at chest level) to position B (arms extended above the chest). Identify the joint action and main agonist occurring at the elbow during this movement.",
     "marks": 2,
     "markScheme": "Joint action: extension (1). Main agonist: triceps (1). Max 2 marks.",
     "subtopicId": "musculoskeletal"
@@ -130,7 +130,7 @@
   {
     "id": "musc-q17",
     "questionNumber": "Q15",
-    "question": "During the recovery phase of butterfly stroke, a swimmer's arms move outward to the sides of the body.\nComplete the table below to identify the type of joint, the main agonist and the joint action at the swimmer's shoulder during this phase.\nType of joint | Main agonist | Joint action",
+    "question": "During the recovery phase of butterfly stroke, a swimmer's arms move outward to the sides of the body. Identify the type of joint, the main agonist and the joint action at the swimmer's shoulder during this phase.",
     "marks": 3,
     "markScheme": "Type of joint: ball and socket (1). Main agonist: deltoid (1). Joint action: abduction (1). Accept first answers only. Max 3 marks.",
     "subtopicId": "musculoskeletal"
@@ -138,7 +138,7 @@
   {
     "id": "musc-q18",
     "questionNumber": "Q16",
-    "question": "A gymnast performs a controlled dip on parallel bars, lowering from position A to position B.\nComplete the table to identify the joint action, the main agonist and the type of isotonic contraction at the elbow from position A to position B.\nJoint action | Main agonist | Type of isotonic contraction",
+    "question": "A gymnast performs a controlled dip on parallel bars, lowering from position A to position B. Identify the joint action, the main agonist and the type of isotonic contraction at the elbow from position A to position B.",
     "marks": 3,
     "markScheme": "Joint action: flexion (1). Main agonist: triceps brachii (1). Type of isotonic contraction: eccentric (1). Accept first answer only. Max 3 marks.",
     "subtopicId": "musculoskeletal"
@@ -146,7 +146,7 @@
   {
     "id": "musc-q20",
     "questionNumber": "Q17",
-    "question": "A volleyball player jumps to spike the ball, moving from position A (crouched) to position B (in the air).\nComplete the table to identify the main agonist, the type of isotonic muscle contraction and the joint action at the hip during this movement.\nMain agonist | Type of muscle contraction | Joint action",
+    "question": "A volleyball player jumps to spike the ball, moving from position A (crouched) to position B (in the air). Identify the main agonist, the type of isotonic muscle contraction and the joint action at the hip during this movement.",
     "marks": 3,
     "markScheme": "Main agonist: gluteus maximus/gluteals/hamstrings (1). Type of muscle contraction: concentric (1). Joint action: extension/hyper-extension (1). Accept first answer only. Max 3 marks.",
     "subtopicId": "musculoskeletal"
@@ -154,7 +154,7 @@
   {
     "id": "musc-q21",
     "questionNumber": "Q18",
-    "question": "The image below shows the toe-off phase of a 100 m sprinter, from position A to position B.\nComplete the table to identify the main agonist, the joint action and the type of contraction at the right ankle during this phase.\nMain agonist | Joint action | Type of contraction",
+    "question": "During the toe-off phase of a 100 m sprint, the sprinter drives off the right foot. Identify the main agonist, the joint action and the type of contraction at the right ankle during this phase.",
     "marks": 3,
     "markScheme": "Main agonist: gastrocnemius (1). Joint action: plantar flexion (1). Type of contraction: concentric/isotonic (1). First answer only. Not calf or soleus for agonist; not dorsiflexion. Max 3 marks.",
     "subtopicId": "musculoskeletal"
@@ -162,7 +162,7 @@
   {
     "id": "musc-q22",
     "questionNumber": "Q19",
-    "question": "A performer completes a lunge exercise as part of a weight-training programme, moving from Position A (standing) to Position B (lowered).\nComplete the table to identify the main agonist, the type of muscle contraction and the joint action at the hip joint during this isotonic movement.\nMain agonist | Type of muscle contraction | Joint action",
+    "question": "A performer completes a lunge exercise as part of a weight-training programme, moving from Position A (standing) to Position B (lowered). Identify the main agonist, the type of muscle contraction and the joint action at the hip joint during this isotonic movement.",
     "marks": 3,
     "markScheme": "Main agonist: gluteals/hamstrings (1). Type of muscle contraction: eccentric (1). Joint action: flexion (1). Accept named individual muscles (biceps femoris/semitendinosus/semimembranosus/gluteus maximus). Max 3 marks.",
     "subtopicId": "musculoskeletal"
@@ -170,7 +170,7 @@
   {
     "id": "musc-q23",
     "questionNumber": "Q20",
-    "question": "The image below shows the movements involved as a player performs a chest pass during a game of basketball.\nComplete the table to identify the main agonist, the type of muscle contraction and the joint action at the elbow joint during the movement from Position A to Position B.\nMain agonist | Type of muscle contraction | Joint action",
+    "question": "A player performs a chest pass during a game of basketball. Identify the main agonist, the type of muscle contraction and the joint action at the elbow joint during the pass.",
     "marks": 3,
     "markScheme": "Main agonist: triceps (brachii) (1). Type of muscle contraction: concentric/isotonic (1). Joint action: extension (1). Accept first answer only; biceps is incorrect. Max 3 marks.",
     "subtopicId": "musculoskeletal"
@@ -178,7 +178,7 @@
   {
     "id": "musc-q25",
     "questionNumber": "Q21",
-    "question": "The figure below shows a place-kicker taking a conversion attempt in American football.\n(i) What are the names of the articulating bones of the knee joint of the kicking leg?\n(ii) What joint action takes place at the knee of the kicking leg in the movement from position A to position B?\n(iii) What is the name of the main agonist that causes this action?",
+    "question": "A place-kicker takes a conversion attempt in American football. (i) What are the names of the articulating bones of the knee joint of the kicking leg? (ii) What joint action takes place at the knee of the kicking leg as it straightens to strike the ball? (iii) What is the name of the main agonist that causes this action?",
     "marks": 4,
     "markScheme": "(i) Tibia and femur (do not accept fibula/patella). 2 marks.\n(ii) Extension. 1 mark.\n(iii) Quadriceps/rectus femoris (do not accept 'quads'). 1 mark.\nMax 4 marks.",
     "subtopicId": "musculoskeletal"
@@ -186,7 +186,7 @@
   {
     "id": "musc-q26",
     "questionNumber": "Q22",
-    "question": "A performer drives upward on a leg press machine, from Position A (legs bent) to Position B (legs extended).\nIdentify the joint action, main agonist and type of muscle contraction occurring at the hip and ankle joints during this movement.\n | Hip | Ankle\nJoint action | |\nMain agonist | |\nType of muscle contraction | |",
+    "question": "A performer drives upward on a leg press machine, from Position A (legs bent) to Position B (legs extended). Identify the joint action, main agonist and type of muscle contraction occurring at the hip and ankle joints during this movement.",
     "marks": 5,
     "markScheme": "Hip: joint action extension (1); main agonist gluteals/hamstrings (1); type of muscle contraction concentric/isotonic (1).\nAnkle: joint action plantar flexion (1); main agonist gastrocnemius (1); type of muscle contraction concentric/isotonic (1).\nFirst answers only; accept gluteus maximus/biceps femoris/semi-membranosus/semi-tendinosus; do not accept calf or soleus for the ankle agonist. Max 5 marks.",
     "subtopicId": "musculoskeletal"
@@ -194,7 +194,7 @@
   {
     "id": "musc-q27",
     "questionNumber": "Q23",
-    "question": "The figure below shows a netball player driving forward. The player's leading leg is extending at the knee as the foot plants.\nFor the movement occurring at the knee joint of the leading leg, name: (i) the axis about which the movement is taking place; (ii) the main agonist causing the movement; (iii) the joint action taking place.",
+    "question": "A netball player drives forward. The player's leading leg is extending at the knee as the foot plants. For the movement occurring at the knee joint of the leading leg, name: (i) the axis about which the movement is taking place; (ii) the main agonist causing the movement; (iii) the joint action taking place.",
     "marks": 3,
     "markScheme": "(i) Transverse/horizontal axis (1). (ii) Quadriceps/rectus femoris (1). (iii) Extension (1). Max 3 marks.",
     "subtopicId": "musculoskeletal"
@@ -202,7 +202,7 @@
   {
     "id": "musc-q28",
     "questionNumber": "Q24",
-    "question": "The figure below shows a break-dancer pushing up from a headstand into a handstand freeze, from position A to position B.\nName the main agonist at the elbow joint during this movement.",
+    "question": "A break-dancer pushes up from a headstand into a handstand freeze, from position A to position B. Name the main agonist at the elbow joint during this movement.",
     "marks": 1,
     "markScheme": "Agonist: triceps (brachii). 1 mark.",
     "subtopicId": "musculoskeletal"
@@ -210,7 +210,7 @@
   {
     "id": "musc-q29",
     "questionNumber": "Q25",
-    "question": "Using the break-dancer described in the previous question, name the type of muscle contraction taking place while stationary at position A, and through the movement phase to position B.",
+    "question": "A break-dancer pushes up from a headstand into a handstand freeze, from position A to position B. Name the type of muscle contraction taking place while stationary at position A, and through the movement phase to position B.",
     "marks": 2,
     "markScheme": "Position A - stationary - isometric (1). Position B - movement - isotonic/concentric (1). Max 2 marks.",
     "subtopicId": "musculoskeletal"
@@ -218,7 +218,7 @@
   {
     "id": "musc-q30",
     "questionNumber": "Q26",
-    "question": "In order to perform to their potential, triple jumpers must use their muscles and bones efficiently.\nThe figure below shows a triple jumper during the take-off phase of the hop, driving off the take-off leg.\nUsing the figure, complete the table below to identify: (i) the joint actions involved at the hip and ankle of the take-off leg as the performer leaves the ground; (ii) the names of the main agonists working at the knee and ankle.\n(iii) Name, sketch and label the lever system operating at the ankle of the take-off foot.",
+    "question": "In order to perform to their potential, triple jumpers must use their muscles and bones efficiently. A triple jumper drives off the take-off leg during the take-off phase of the hop. Identify: (i) the joint actions involved at the hip and ankle of the take-off leg as the performer leaves the ground; (ii) the names of the main agonists working at the knee and ankle. (iii) Name the lever system operating at the ankle of the take-off foot, and describe its layout. (Diagram description: since this website cannot render a hand-drawn sketch, describe the correct layout of the lever system instead.)",
     "marks": 7,
     "markScheme": "(i) Hip: (hyper)extension. Ankle: plantar flexion. 2 marks.\n(ii) Knee agonist: quadriceps. Ankle agonist: gastrocnemius. 2 marks.\n(iii) 2nd class lever; resistance/load in the middle, between the fulcrum (ball of the foot) and the effort (calf muscle/Achilles tendon); fulcrum, resistance and effort correctly labelled on a sketch. 3 marks.\nMax 7 marks.",
     "subtopicId": "musculoskeletal"
