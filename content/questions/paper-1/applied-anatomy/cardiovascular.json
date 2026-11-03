@@ -122,7 +122,7 @@
   {
     "id": "cv-q14",
     "questionNumber": "Q13",
-    "question": "The graph below shows the cardiac output, heart rate and stroke volume of a marathon runner competing in hot conditions over a two-hour period.\n\nUsing the graph, explain the effect of prolonged exercise in hot conditions on cardiac output and its components.",
+    "question": "A marathon runner competes in hot conditions over a two-hour period, during which their cardiac output, heart rate and stroke volume are recorded. Explain the effect of prolonged exercise in hot conditions on cardiac output and its components.",
     "marks": 4,
     "markScheme": "Award one mark for each point.\nAO2 (sub max 2): Cardiac output increases during prolonged exercise (1); this is because heart rate gradually increases to compensate for a decrease in stroke volume (1) \u2013 this is cardiovascular drift (1).\nAO3: Stroke volume decreases during prolonged exercise in the heat because fluid is lost from the blood plasma through sweating (1); cardiac output must increase to maintain oxygen delivery to the muscles and to help cool the body (1).\nAccept other appropriate explanations. Max 4 marks.",
     "subtopicId": "cardiovascular"
@@ -225,7 +225,7 @@
   },
   {
     "id": "cv-q24ii",
-    "questionNumber": "Q23(ii)",
+    "questionNumber": "Q23",
     "question": "(ii) Explain how the redistribution of blood is achieved during exercise.",
     "marks": 3,
     "markScheme": "Increase in CO2/acidity/decrease in pH detected by chemoreceptors, or movement detected by proprioceptors/mechanoreceptors; message sent to the vasomotor centre/medulla oblongata; increase in sympathetic nervous system impulses/adrenaline released; pre-capillary sphincters control blood flow via vasodilation to areas needing more blood (e.g. muscles) and vasoconstriction of areas needing less (e.g. gut, kidneys). 3 marks.",
