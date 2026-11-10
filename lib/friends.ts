@@ -66,3 +66,13 @@ export async function updateUsername(username: string): Promise<string | null> {
   const { error } = await supabase.rpc("update_username", { p_username: username });
   return error?.message ?? null;
 }
+
+// Records that the user has seen the username generated for them at signup
+// and is keeping it, so the one-time prompt stops appearing. Deliberately
+// does not start the 30-day rename cooldown (see the migration): keeping the
+// generated handle shouldn't cost them their free first rename.
+export async function confirmUsername(): Promise<string | null> {
+  const supabase = createClient();
+  const { error } = await supabase.rpc("confirm_username");
+  return error?.message ?? null;
+}
