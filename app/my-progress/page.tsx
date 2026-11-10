@@ -11,6 +11,7 @@ import { getSubjectStyle } from "@/lib/subject-styles";
 import { CARD_BASE_CLASSES, CARD_BORDER_DEFAULT } from "@/lib/styles";
 import BadgesSection from "@/components/progress/BadgesSection";
 import LeaderboardSection, { type LeaderboardRow } from "@/components/progress/LeaderboardSection";
+import UsernamePrompt from "@/components/UsernamePrompt";
 import WeeklyActivityChart from "@/components/progress/WeeklyActivityChart";
 import type { Confidence } from "@/lib/subtopic-progress";
 import type { Metadata } from "next";
@@ -83,6 +84,7 @@ export default async function MyProgressPage() {
     { data: myScoreRows },
     { data: friendshipRows, error: friendshipsError },
     { data: subtopicProgressRows },
+    { data: myProfileRows },
   ] = await Promise.all([
     supabase.rpc("get_user_streak", { p_user_id: userId }),
     supabase.from("flashcard_progress").select("flashcard_id, status").eq("user_id", userId),
@@ -108,17 +110,25 @@ export default async function MyProgressPage() {
       .from("subtopic_progress")
       .select("subtopic_id, notes_read, confidence")
       .eq("user_id", userId),
+    // Drives the one-time username prompt below. username_chosen is false
+    // only while the user still has the handle generated for them at signup.
+    supabase.from("profiles").select("username, username_chosen").eq("user_id", userId),
   ]);
 
-  // --- Leaderboard: score reads use the service-role admin client because
-  // ranking requires seeing every user's score, which per-user RLS on
-  // leaderboard_scores doesn't allow (see the migration's own note on that
-  // policy). Falls back to an empty leaderboard rather than crashing the
-  // page if the service-role key isn't configured. Usernames are read with
-  // the regular (RLS-scoped) client instead - profiles has a "select ->
-  // anyone signed in" policy, so no admin client is needed there.
-  let weeklyLeaderboard: LeaderboardRow[] = [];
-  let allTimeLeaderboard: LeaderboardRow[] = [];
+  const myProfile = myProfileRows?.[0];
+
+  // --- Leaderboard: friends-only. There is no global board (see the note
+  // on LeaderboardSection's props for why).
+  //
+  // Score reads still use the service-role admin client: RLS on
+  // leaderboard_scores is `auth.uid() = user_id`, so a user cannot read a
+  // friend's score with their own client. The admin read is bounded to this
+  // user plus their accepted friends, rather than the whole table as it was
+  // when a global top 10 had to be ranked. Falls back to an empty
+  // leaderboard rather than crashing the page if the service-role key isn't
+  // configured. Usernames are read with the regular (RLS-scoped) client
+  // instead - profiles has a "select -> anyone signed in" policy, so no
+  // admin client is needed there.
   let friendsWeeklyLeaderboard: LeaderboardRow[] = [];
   let friendsAllTimeLeaderboard: LeaderboardRow[] = [];
   let hasFriends = false;
@@ -130,25 +140,9 @@ export default async function MyProgressPage() {
     const friendsAndSelfIds = [userId, ...friendIds];
 
     const [
-      { data: weeklyScores, error: weeklyError },
-      { data: allTimeScores, error: allTimeError },
       { data: friendsWeeklyScores, error: friendsWeeklyError },
       { data: friendsAllTimeScores, error: friendsAllTimeError },
     ] = await Promise.all([
-      admin
-        .from("leaderboard_scores")
-        .select("user_id, score, rank")
-        .eq("window_name", "weekly")
-        .not("rank", "is", null)
-        .order("rank", { ascending: true })
-        .limit(10),
-      admin
-        .from("leaderboard_scores")
-        .select("user_id, score, rank")
-        .eq("window_name", "all_time")
-        .not("rank", "is", null)
-        .order("rank", { ascending: true })
-        .limit(10),
       admin.from("leaderboard_scores").select("user_id, score").eq("window_name", "weekly").in("user_id", friendsAndSelfIds),
       admin
         .from("leaderboard_scores")
@@ -157,13 +151,11 @@ export default async function MyProgressPage() {
         .in("user_id", friendsAndSelfIds),
     ]);
 
-    // These reads fail silently by construction: toRow and buildFriendsRows
-    // turn a null/empty result into "0 pts" for everyone, which reads as a
-    // real score rather than a broken query. Both failure modes are logged.
+    // These reads fail silently by construction: buildFriendsRows turns a
+    // null/empty result into "0 pts" for everyone, which reads as a real
+    // score rather than a broken query. Both failure modes are logged.
     if (friendshipsError) console.error("Leaderboard: friendships read failed:", friendshipsError);
     for (const [label, error] of [
-      ["global weekly", weeklyError],
-      ["global all-time", allTimeError],
       ["friends weekly", friendsWeeklyError],
       ["friends all-time", friendsAllTimeError],
     ] as const) {
@@ -173,42 +165,41 @@ export default async function MyProgressPage() {
     // The quieter failure, and the one an error check alone would miss: a
     // SUPABASE_SERVICE_ROLE_KEY that is set but isn't a service-role key (the
     // anon key, or a rotated secret) leaves RLS in force on a client with no
-    // auth context, so every row is filtered out and no error is raised. An
-    // empty global board is the tell - any user with activity has a row.
-    if (!weeklyError && !allTimeError && (weeklyScores?.length ?? 0) === 0 && (allTimeScores?.length ?? 0) === 0) {
+    // auth context, so every row is filtered out and no error is raised.
+    //
+    // The tell is this user's own row: myScoreRows above reads
+    // leaderboard_scores through their RLS-scoped session, so if that found a
+    // row and the admin read of the same user found nothing, the admin client
+    // is not bypassing RLS and therefore is not a service-role key. (A user
+    // with no activity has no row either way, which is why the check is
+    // conditional on myScoreRows being non-empty.)
+    if (
+      !friendsWeeklyError &&
+      !friendsAllTimeError &&
+      (myScoreRows?.length ?? 0) > 0 &&
+      (friendsWeeklyScores ?? []).every((r) => r.user_id !== userId) &&
+      (friendsAllTimeScores ?? []).every((r) => r.user_id !== userId)
+    ) {
       console.error(
-        "Leaderboard: the service-role read returned no ranked rows and no error. If " +
-          "leaderboard_scores does have ranked rows, SUPABASE_SERVICE_ROLE_KEY is set but is " +
+        "Leaderboard: the service-role read could not see this user's own score row, " +
+          "which their own session can read. SUPABASE_SERVICE_ROLE_KEY is set but is " +
           "not a service-role key - see docs/service-role-key-setup.md."
       );
     }
 
-    const allUserIds = new Set<string>(friendsAndSelfIds);
-    for (const row of weeklyScores ?? []) allUserIds.add(row.user_id);
-    for (const row of allTimeScores ?? []) allUserIds.add(row.user_id);
-
     const { data: profileRows, error: profilesError } = await supabase
       .from("profiles")
       .select("user_id, username")
-      .in("user_id", Array.from(allUserIds));
+      .in("user_id", friendsAndSelfIds);
     if (profilesError) console.error("Leaderboard: profile name read failed:", profilesError);
     const usernameById = new Map((profileRows ?? []).map((p) => [p.user_id, p.username]));
 
-    const toRow = (row: { user_id: string; score: number; rank: number | null }): LeaderboardRow => ({
-      userId: row.user_id,
-      displayName: usernameById.get(row.user_id) ?? "Unknown",
-      rank: row.rank,
-      score: row.score,
-    });
-
-    weeklyLeaderboard = (weeklyScores ?? []).map(toRow);
-    allTimeLeaderboard = (allTimeScores ?? []).map(toRow);
-
-    // Friends tab is ranked within just this user + their accepted friends
+    // The list is ranked within just this user + their accepted friends
     // (not the global `rank` column, which wouldn't make sense for a small
-    // subset). Anyone with no leaderboard_scores row yet (no activity) still
-    // shows up at score 0 rather than being dropped, so a friend doesn't
-    // just seem to be missing.
+    // subset, and which nothing reads now the global board is gone). Anyone
+    // with no leaderboard_scores row yet (no activity) still shows up at
+    // score 0 rather than being dropped, so a friend doesn't just seem to be
+    // missing.
     const buildFriendsRows = (rows: { user_id: string; score: number }[] | null): LeaderboardRow[] => {
       const scoreById = new Map((rows ?? []).map((r) => [r.user_id, r.score]));
       return friendsAndSelfIds
@@ -226,11 +217,6 @@ export default async function MyProgressPage() {
   } catch (err) {
     console.warn("Leaderboard unavailable:", err);
   }
-
-  const yourRank = {
-    weekly: myScoreRows?.find((r) => r.window_name === "weekly")?.rank ?? null,
-    allTime: myScoreRows?.find((r) => r.window_name === "all_time")?.rank ?? null,
-  };
 
   // --- Content coverage, subject strength, focus buckets ---
   const indexData = await getCachedProgressContentIndexData();
@@ -361,6 +347,12 @@ export default async function MyProgressPage() {
 
   return (
     <div className="py-16">
+      {myProfile && !myProfile.username_chosen && (
+        <div className="mb-8">
+          <UsernamePrompt username={myProfile.username} />
+        </div>
+      )}
+
       {/* Hero */}
       <section className="rounded-2xl border border-blue-100 bg-gradient-to-br from-blue-50 via-white to-slate-50 px-6 py-10 text-center md:px-10 md:py-12">
         <h1 className="font-serif text-2xl font-semibold tracking-tight text-slate-900 sm:text-3xl">
@@ -453,13 +445,10 @@ export default async function MyProgressPage() {
 
       <div className="mt-6">
         <LeaderboardSection
-          weekly={weeklyLeaderboard}
-          allTime={allTimeLeaderboard}
           friendsWeekly={friendsWeeklyLeaderboard}
           friendsAllTime={friendsAllTimeLeaderboard}
           hasFriends={hasFriends}
           currentUserId={userId}
-          yourRank={yourRank}
         />
       </div>
     </div>

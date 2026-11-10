@@ -55,12 +55,115 @@ Supabase can't be set up automatically — follow these steps once, in order.
    separately; it's a secret, server-only key and doesn't go in
    `NEXT_PUBLIC_SUPABASE_ANON_KEY`.
 
-## 4. Enable Google sign-in
+## 4. Apply the database migrations
+
+A fresh project has no tables. The schema lives in `supabase/migrations/`, and
+nothing applies it for you: **deploying the site does not run migrations.**
+Vercel ships code only, there is no CI for this, and the two can drift. When a
+change needs both, apply the migration first, then deploy.
+
+The Supabase CLI is a dev dependency of this repo, so `npm install` already
+put it there. Authenticate once per machine:
+
+```bash
+npx supabase login
+```
+
+That prints a verification code, opens your browser to authorise, and asks you
+to paste the code back. Then link to the project you want to change, using its
+Reference ID from **Project Settings → General** (it is also the `<ref>` in the
+dashboard URL `supabase.com/dashboard/project/<ref>`):
+
+```bash
+npx supabase link --project-ref YOUR_PROJECT_REF
+```
+
+Before pushing, check what you are actually linked to. This is the one command
+worth running every time, because the next one writes to whatever it says:
+
+```bash
+cat supabase/.temp/project-ref
+```
+
+Then push:
+
+```bash
+npx supabase db push --remote
+```
+
+**`--remote` is not optional.** Without it, CLI v3 targets a local Docker
+stack rather than the project you just linked. If Docker is not running you
+get a confusing error about a local stack; if it is, you silently migrate a
+throwaway database and the remote is untouched. The CLI prints its target on
+the first line either way, so read it:
+
+```
+Target: project acepe-staging (fxlzbqpquczaotwxzxdi) · production
+```
+
+The `· production` on the end is the CLI naming that project's *default
+branch*, not saying you are on the live project. The project name and ref
+before it are the part that tells you where you are.
+
+Only migrations the project has not already seen are applied, so re-running is
+safe. `supabase/.temp/` holds the linked ref and is gitignored by the
+`supabase/.gitignore` that `supabase init` wrote; it should stay that way,
+since it is per-developer state.
+
+### 4a. Testing a migration before it touches real data
+
+Free-plan accounts get two projects, which is exactly enough for production
+and a staging copy. Make the second one the same way as the first, call it
+something unmistakable like `acepe-staging`, and point `.env.local` at it to
+test against a real database with nothing of value in it.
+
+Back up anything a migration rewrites before running it for real. For a table
+like `profiles`, the dashboard's **SQL Editor** will export a `select` as CSV:
+
+```sql
+select user_id, username, username_updated_at, created_at from public.profiles order by created_at;
+```
+
+When a migration rewrites existing rows rather than just adding structure,
+test that path deliberately: apply everything *except* the new migration,
+create the rows it is meant to rewrite, then apply it and check what changed.
+Pushing the whole folder at once to an empty project never exercises a
+backfill, because there is nothing there to back-fill.
+
+To switch your local build between projects, keep the production values aside
+rather than retyping them:
+
+```bash
+cp .env.local .env.local.production-backup
+```
+
+Swap `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY` and
+`SUPABASE_SERVICE_ROLE_KEY` for the staging project's, restart the dev server,
+and restore the backup when you are done. `.gitignore` covers `.env*`, so
+neither file can be committed. Leaving `SUPABASE_SERVICE_ROLE_KEY` on the
+production value while the URL points at staging fails in a way that looks
+like a bug in the app: the friends leaderboard shows everyone on zero points.
+
+Staging has its own auth settings, so sign-in will not work there until its
+**Site URL** and **Redirect URLs** are set (step 7) to `http://localhost:3000`
+and `http://localhost:3000/auth/callback`. Google sign-in needs its own
+callback registering in Google Cloud, so magic link is usually the quicker way
+to test a staging project.
+
+### 4b. A note on `supabase config push`
+
+`supabase/config.toml` is committed, but it is the CLI's generated defaults
+rather than a record of what any project is actually set to. `supabase config
+push` would write the whole file to the linked project, so running it would
+overwrite live auth settings with those defaults. Change settings in the
+dashboard instead unless you have deliberately reconciled the file first.
+
+## 5. Enable Google sign-in
 
 This requires creating a Google Cloud OAuth client first, then telling
 Supabase about it.
 
-### 4a. Get the redirect URI from Supabase
+### 5a. Get the redirect URI from Supabase
 
 1. In Supabase, go to **Authentication → Providers**, find **Google** in the
    list, and click to expand it.
@@ -73,7 +176,7 @@ Supabase about it.
 3. Leave this Supabase tab open — you'll come back to paste in Google's
    credentials shortly.
 
-### 4b. Create a Google OAuth client
+### 5b. Create a Google OAuth client
 
 1. Go to the [Google Cloud Console](https://console.cloud.google.com/).
 2. Create a new project (or select an existing one) from the project
@@ -89,19 +192,19 @@ Supabase about it.
    - **Application type**: Web application.
    - **Name**: anything, e.g. "AcePE".
    - **Authorized redirect URIs**: click **Add URI** and paste the Supabase
-     callback URL you copied in step 4a
+     callback URL you copied in step 5a
      (`https://abcdefghijk.supabase.co/auth/v1/callback`).
    - Click **Create**.
 6. Google will show you a **Client ID** and **Client secret** — copy both.
 
-### 4c. Paste the Google credentials into Supabase
+### 5c. Paste the Google credentials into Supabase
 
 1. Back in the Supabase tab (**Authentication → Providers → Google**):
    - Toggle **Enable Sign in with Google** on.
    - Paste the **Client ID** and **Client secret** from Google.
    - Click **Save**.
 
-## 5. Enable email confirmation for magic links
+## 6. Enable email confirmation for magic links
 
 1. In Supabase, go to **Authentication → Sign In / Providers → Email**
    (or **Authentication → Settings**, depending on the dashboard version).
@@ -113,7 +216,7 @@ Supabase about it.
    lot, you'll want to set up a custom SMTP provider under
    **Project Settings → Auth → SMTP Settings** — not required to get started.
 
-### 5a. Point the magic link emails at `/auth/callback` directly
+### 6a. Point the magic link emails at `/auth/callback` directly
 
 **This is required.** With Supabase's default templates, magic links only work
 if the link is opened in the same browser that requested it — and it usually
@@ -174,7 +277,7 @@ Test it the way a student will: request a link on the live site, then open it
 from your phone, or paste it into a different browser. That is the case the
 old setup failed.
 
-## 6. Set the site and redirect URLs
+## 7. Set the site and redirect URLs
 
 Skipping this is what breaks sign-in after the site moves to a new domain,
 and it fails quietly: when a redirect target isn't on the allowlist Supabase
@@ -202,10 +305,11 @@ in Google Cloud Console is unaffected — its redirect URI points at
 `https://<project>.supabase.co/auth/v1/callback`, which doesn't change with
 the site's domain.
 
-## 7. Done
+## 8. Done
 
-Once `.env.local` has real values (step 3), Google + magic link are
-enabled (steps 4–5) and the URLs are allowlisted (step 6), the app is ready
+Once `.env.local` has real values (step 3), the migrations are applied
+(step 4), Google + magic link are enabled (steps 5–6) and the URLs are
+allowlisted (step 7), the app is ready
 to test locally:
 
 ```

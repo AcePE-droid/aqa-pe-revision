@@ -4,6 +4,7 @@ import { CARD_BASE_CLASSES, CARD_BORDER_DEFAULT } from "@/lib/styles";
 import FriendSearch from "@/components/friends/FriendSearch";
 import FriendRequestsList from "@/components/friends/FriendRequestsList";
 import FriendsList from "@/components/friends/FriendsList";
+import UsernamePrompt from "@/components/UsernamePrompt";
 import type { Metadata } from "next";
 import { PRIVATE_PAGE } from "@/lib/metadata";
 
@@ -18,10 +19,19 @@ export default async function FriendsPage() {
   const userId = await getVerifiedUserId();
   if (!userId) redirect("/login");
 
-  const { data: friendshipRows } = await supabase
-    .from("friendships")
-    .select("id, user_id_a, user_id_b, status, requested_by")
-    .or(`user_id_a.eq.${userId},user_id_b.eq.${userId}`);
+  const [{ data: friendshipRows }, { data: myProfileRows }] = await Promise.all([
+    supabase
+      .from("friendships")
+      .select("id, user_id_a, user_id_b, status, requested_by")
+      .or(`user_id_a.eq.${userId},user_id_b.eq.${userId}`),
+    // Drives the one-time username prompt below. username_chosen is false
+    // only while the user still has the handle generated for them at signup,
+    // and this is the page where it matters most: it's where someone is
+    // about to be findable by other students.
+    supabase.from("profiles").select("username, username_chosen").eq("user_id", userId),
+  ]);
+
+  const myProfile = myProfileRows?.[0];
 
   const counterpartIds = (friendshipRows ?? []).map((r) => (r.user_id_a === userId ? r.user_id_b : r.user_id_a));
 
@@ -63,6 +73,12 @@ export default async function FriendsPage() {
 
   return (
     <div className="py-16">
+      {myProfile && !myProfile.username_chosen && (
+        <div className="mb-8">
+          <UsernamePrompt username={myProfile.username} />
+        </div>
+      )}
+
       <h1 className="font-serif text-3xl font-semibold tracking-tight text-slate-900">Friends</h1>
       <p className="mt-2 text-slate-600">
         Find friends by username, then compare your progress on the friends leaderboard.

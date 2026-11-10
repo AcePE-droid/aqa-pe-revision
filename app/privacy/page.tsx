@@ -1,9 +1,3 @@
-// DRAFT — review before publishing. This page is a starting point, not
-// final legal text. Before launch: replace LAST_UPDATED with the actual
-// publish date, and have the whole policy reviewed (ideally by someone
-// other than the person who wrote the site) for accuracy against what the
-// site actually does at that time.
-
 import Link from "next/link";
 import { pageMetadata } from "@/lib/metadata";
 
@@ -14,7 +8,7 @@ export const metadata = pageMetadata({
   path: "/privacy",
 });
 
-const LAST_UPDATED = "9 October 2026";
+const LAST_UPDATED = "10 November 2026";
 
 export default function PrivacyPolicyPage() {
   return (
@@ -42,10 +36,26 @@ export default function PrivacyPolicyPage() {
 
         <section>
           <h2 className="text-lg font-semibold text-slate-900">2. What information we collect</h2>
+          <p className="mt-2">
+            We never ask you for your real name, and you don&rsquo;t need to give one to use the
+            site.
+          </p>
           <ul className="mt-2 list-disc pl-5">
             <li>Your email address, if you sign in with a magic link or Google</li>
-            <li>Your name, if Google shares it when you sign in with Google</li>
+            <li>
+              Your name, if Google shares it when you sign in with Google. We don&rsquo;t show it
+              to anyone else and we don&rsquo;t use it to build your username
+            </li>
+            <li>
+              A username, which we make up for you when you sign up. You can change it from your
+              account page
+            </li>
             <li>Your flashcard progress (which cards you&rsquo;ve marked as known or still learning)</li>
+            <li>Your practice question answers, and which notes you&rsquo;ve marked as read</li>
+            <li>
+              How you rate your own confidence in a topic, your day streak, which badges
+              you&rsquo;ve unlocked, and the score worked out from all of that
+            </li>
             <li>A session cookie, to keep you signed in</li>
             <li>Basic browser storage (localStorage) to save your progress if you&rsquo;re not signed in</li>
           </ul>
@@ -55,7 +65,9 @@ export default function PrivacyPolicyPage() {
           <h2 className="text-lg font-semibold text-slate-900">3. Why we collect it</h2>
           <ul className="mt-2 list-disc pl-5">
             <li>To create your account and let you sign in</li>
-            <li>To sync your flashcard progress across your devices</li>
+            <li>To sync your revision progress across your devices</li>
+            <li>To show you your own progress, streak and badges</li>
+            <li>To let you add friends and compare progress with them, if you choose to</li>
           </ul>
           <p className="mt-2">
             That&rsquo;s it. No advertising, no marketing emails, and we never sell your data to
@@ -65,6 +77,24 @@ export default function PrivacyPolicyPage() {
 
         <section>
           <h2 className="text-lg font-semibold text-slate-900">4. Who else can see it</h2>
+          <p className="mt-2 font-medium text-slate-900">Other people using the site</p>
+          <ul className="mt-2 list-disc pl-5">
+            <li>
+              <strong>Your username.</strong> Anyone signed in can search usernames in order to
+              send a friend request, so your username is the one part of your account other
+              students can find. That is why we don&rsquo;t build it from your name, and why we
+              suggest you don&rsquo;t either
+            </li>
+            <li>
+              <strong>Your score, to friends only.</strong> The leaderboard only ever shows you
+              and the people you have accepted as friends. There is no site-wide leaderboard
+            </li>
+          </ul>
+          <p className="mt-2">
+            Your email address, your real name and your answers are never shown to other users.
+            Nothing about your account is visible to anyone who isn&rsquo;t signed in.
+          </p>
+          <p className="mt-4 font-medium text-slate-900">Companies that handle it for us</p>
           <ul className="mt-2 list-disc pl-5">
             <li>
               <strong>Supabase</strong> (a US company, using an EU-based database): stores your
@@ -78,7 +108,7 @@ export default function PrivacyPolicyPage() {
               <strong>Vercel</strong> (a US company): hosts the site
             </li>
           </ul>
-          <p className="mt-2">Nobody else sees your data.</p>
+          <p className="mt-2">Nobody else sees your data, and we never sell it.</p>
         </section>
 
         <section>
@@ -119,10 +149,28 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-lg font-semibold text-slate-900">7. If you&rsquo;re under 13</h2>
+          <h2 className="text-lg font-semibold text-slate-900">7. If you&rsquo;re under 18</h2>
+          <p className="mt-2">
+            Most people using this site are school students, so it&rsquo;s built on the
+            assumption that you&rsquo;re under 18. In practice that means we never ask for your
+            real name, the username we give you is made up rather than taken from your name or
+            your email address, your scores are only ever shown to friends you have accepted,
+            and nothing about your account is visible to anyone who isn&rsquo;t signed in. We
+            don&rsquo;t advertise to you and we don&rsquo;t profile you. There are day streaks
+            and badges, which are there to make revision feel less of a slog, and you can ignore
+            them completely without losing access to anything.
+          </p>
           <p className="mt-2">
             If you&rsquo;re under 13, please don&rsquo;t sign up without a parent or guardian&rsquo;s
             involvement. If we find out an account belongs to someone under 13, we&rsquo;ll delete it.
+          </p>
+          <p className="mt-2">
+            If you&rsquo;re a parent, guardian or teacher and you want an account removed, or you
+            want to know what the site holds about a student,{" "}
+            <Link href="/feedback" className="text-blue-600 hover:underline">
+              get in touch
+            </Link>{" "}
+            and we&rsquo;ll deal with it.
           </p>
         </section>
 
