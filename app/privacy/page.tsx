@@ -1,9 +1,3 @@
-// DRAFT — review before publishing. This page is a starting point, not
-// final legal text. Before launch: replace LAST_UPDATED with the actual
-// publish date, and have the whole policy reviewed (ideally by someone
-// other than the person who wrote the site) for accuracy against what the
-// site actually does at that time.
-
 import Link from "next/link";
 import { pageMetadata } from "@/lib/metadata";
 

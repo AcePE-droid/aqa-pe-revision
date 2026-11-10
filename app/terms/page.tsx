@@ -1,7 +1,3 @@
-// DRAFT — review before publishing. This page is a starting point, not
-// final legal text. Before launch: replace the last-updated date, and have
-// the whole document reviewed for accuracy.
-
 import Link from "next/link";
 import { pageMetadata } from "@/lib/metadata";
 
